@@ -1,0 +1,16 @@
+html.pickle {
+    background-color: #dfd;
+}
+header {
+    color: white;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+html.pickle header {
+    background-color: green;
+}
+header * {
+    flex: 1;
+}
