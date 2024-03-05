@@ -1,0 +1,39 @@
+/*
+How to use this file:
+Blank lines, lines starting with "//", & lines between "/*...*/" are ignored.
+The parser (src/parse.rs) automatically determines if something is a root or particle.
+Entries are separated by a line starting with "---".
+
+"etymology" fields can always contain spaces
+required fields are "-" if empty
+
+Roots:
+    word concept type pattern source_language etymology
+    alignment / place structure
+    semantics
+    (notes)
+source_language must have spaces replaced with underscores e.g. Toki_Pona
+type is one of
+- "jeqrs" + optional "?" for possibly deprecated
+- "!" for deprecated words, in which case the pattern & alignment & semantics disappear
+
+Compounds:
+    word gloss meaning
+    (notes)
+meaning can contain spaces
+
+Freewords:
+    word meaning source_language etymology
+    (notes)
+
+Particles:
+    word class status
+    function
+    source_language etymology
+    (notes)
+*/
+--- // do not remove!
+bak behind j a Norwegian bak
+O is behind E
+behind, back, rear, posterior
+---
