@@ -14,3 +14,13 @@ html.pickle header {
 header * {
     flex: 1;
 }
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: black;
+        color: white;
+    }
+    html.pickle {
+        background-color: #020;
+    }
+}
