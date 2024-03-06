@@ -1,25 +1,11 @@
 html.pickle {
     background-color: #dfd;
 }
-header {
-    color: white;
-    background-color: purple;
-    display: flex;
-    align-items: center;
-    padding: 0 1em;
-}
 html.pickle header {
     background-color: green;
 }
-header * {
-    flex: 1;
-}
 /* dark mode */
 @media (prefers-color-scheme: dark) {
-    html {
-        background-color: black;
-        color: white;
-    }
     html.pickle {
         background-color: #020;
     }
