@@ -46,18 +46,18 @@ fn main() {
     // strip \r\n from start
     words = words.iter().map(|word| word[2..].to_string()).collect();
     // parse the words
+    // cf Xextan/parser
+    let root_str = &format!(
+        "^({}|{})$",
+        "[pbtdkgfvszxqln][aeiou][ptkln]", // cvf
+        "([sx][ptk]|[zq][bdg]|[szxq][ln]|[pbkgfv]l|t[sx]|d[zq])[aeiou]"  // ccv
+    );
+    let root = Regex::new(root_str).unwrap();
     let words: Vec<_> = words
         .iter()
         .map(|word| {
             let head: Vec<_> = word.split_whitespace().collect();
-            if Regex::new(&format!(
-                "^({}|{})$",
-                "[pbtdkgfvszxqln][aeiou][ptkln]", // cvf
-                "([sx][ptk]|[zq][bdg]|[szxq][ln]|[pbkgfv]l|t[sx]|d[zq])[aeiou]"  // ccv
-            )) // root
-            .unwrap()
-            .is_match(head[0])
-            {
+            if root.is_match(head[0]) {
                 println!("root: {}", head[0]);
             }
         })

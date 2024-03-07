@@ -1,4 +1,5 @@
 /*
+
 How to use this file:
 Blank lines, lines starting with "//", & lines between "/*...*/" are ignored.
 The parser (src/main.rs) automatically determines if something is a root or particle.
@@ -30,6 +31,10 @@ Particles:
     function
     source_language etymology
     (notes)
+
+Etymologies from Arabic have had their vowels removed for easier finding on Wiktionary.
+eg there is no entry "بَذْرَة" but there is one for "بذرة"
+
 */
 --- // do not remove!
 bak behind j Norwegian bak
@@ -45,7 +50,88 @@ O is a language
 language, code
 retained from old Xextan*
 ---
-bap door j Arabic بَاب (bāb)
+bap door j Arabic باب (bāb)
 O is a door/lid for E
 lid, door, window
-Sense "door" refers to the physical object, not the space/entryway (ziddil, goddil)
+Sense "door" refers to the physical object, not the space/entryway («ziddil», «goddil»)
+---
+bat seed e Arabic بذرة (baḏra)
+O is a seed
+seed, egg, bulb
+---
+bek thing e Loglan bek | bekti
+O is a thing
+thing, object, item, affair
+---
+bel beautiful q Ceqli bel
+O is beautiful in Eu
+beautiful, pretty, cute, attractive
+& profound, sublime
+---
+ben burn j German brennen
+O burns
+burn, cook, fire
+& fire («benvli»); "be on fire" = «ten (e) benvli»
+---
+bet ask r Yiddish בעטן (betn)
+O requests from E for Au
+ask, request
+---
+force bik s Cantonese 迫 (bik1)
+Ou occurs by force
+forced, compelled, obligation
+---
+bil white q Ukrainian бі́лий (bílyj)
+O is white in Eu
+white, blank, light-colored
+---
+bin space j Lojban bin | jbini
+O is space containing E
+space, expanse, room
+---
+ble ugly q Ceqli ble
+O is ugly in Eu
+ugly, repulsive, unattractive
+«bel» with letters inverted
+---
+bli ready s Volapük blümik
+Ou is ready to occur
+ready, prepared
+---
+blu cyan q Esperanto blua
+O is cyan in Eu
+cyan, blue, purple
+---
+bok side j Czech bok
+O is to the side of E
+side, flank
+---
+bol ball q Portuguese bola
+O is spherical in Eu
+ball, sphere
+---
+bon good q Portuguese bom
+O is good in Eu
+good, nice, beneficial, positive, useful
+---
+bot prevent q Klingon bot
+O prevents Eu
+prevent, stop, halt, hold back
+& proactive
+---
+buk document j Loglan bukcu
+O is a document of E
+document, book, record
+---
+bul opposite s Mandarin 不 (bù)
+Ou is opposite
+opposite, inverse, reverse, upside-down
+& inside-out
+---
+but awake q Slovene buden
+O is awake in Eu
+awake, alert, turned on
+---
+dak minute ! Arabic دقيقة (daqīqa)
+Deprecated (cf. time term reforms)
+---
