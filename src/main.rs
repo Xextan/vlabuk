@@ -56,7 +56,7 @@ fn main() {
     let words: Vec<_> = words
         .iter()
         .map(|word| {
-            let head: Vec<_> = word.split_whitespace().collect();
+            let head: Vec<_> = word.split_ascii_whitespace().collect();
             if root.is_match(head[0]) {
                 println!("root: {}", head[0]);
             }
