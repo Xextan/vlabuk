@@ -4,6 +4,9 @@ html.pickle {
 html.pickle header {
     background-color: green;
 }
+input[type="text"] {
+    width: 300px;
+}
 /* dark mode */
 @media (prefers-color-scheme: dark) {
     html.pickle {
