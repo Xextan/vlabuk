@@ -1,7 +1,24 @@
+use regex::Regex;
 use std::{
     fs::File,
     io::{BufRead, BufReader},
 };
+
+struct Entry {
+    word: String,
+    concept: String, // meaning
+    class: String,
+    status: String,
+    source: Source,
+    definition: String, // alignment / particle fn
+    semantics: String,
+    notes: String,
+    gloss: String,
+}
+struct Source {
+    language: String,
+    word: String,
+}
 
 fn main() {
     let data = File::open("words.txt").expect("where data");
@@ -15,7 +32,6 @@ fn main() {
         }
         let skip = line.is_empty() || line.starts_with("//") || in_comment;
         if !skip {
-            // println!("{line}");
             if line.starts_with("---") {
                 words.push(String::new());
             } else {
@@ -29,6 +45,21 @@ fn main() {
     words.retain(|word| !word.is_empty());
     // strip \r\n from start
     words = words.iter().map(|word| word[2..].to_string()).collect();
-    // println!("{words:?}");
-    todo!();
+    // parse the words
+    let words: Vec<_> = words
+        .iter()
+        .map(|word| {
+            let head: Vec<_> = word.split_whitespace().collect();
+            if Regex::new(&format!(
+                "^({}|{})$",
+                "[pbtdkgfvszxqln][aeiou][ptkln]", // cvf
+                "([sx][ptk]|[zq][bdg]|[szxq][ln]|[pbkgfv]l|t[sx]|d[zq])[aeiou]"  // ccv
+            )) // root
+            .unwrap()
+            .is_match(head[0])
+            {
+                println!("root: {}", head[0]);
+            }
+        })
+        .collect();
 }
