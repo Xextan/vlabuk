@@ -11,6 +11,7 @@ urls -
 Wiktionary - https://en.wiktionary.org/wiki/◌
 Loglan     - https://randall-holmes.github.io/Loglan/Dictionary/L-to-E-TDR.html#◌ ?
 Lojban     - https://sisku.org/?en#◌                                              ?
+Klingon    - https://klingon.wiki/Word/◌
 
 maybe urlform can also just be determined per language
 ex Wikt = first word to strip transliterations
