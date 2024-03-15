@@ -1,9 +1,7 @@
 /*
 
-How to use this file:
-Blank lines, lines starting with "//", & lines between "/*...*/" are ignored.
-The parser (src/main.rs) automatically determines if something is a root or particle.
-Entries are separated by a line starting with "---".
+How to use this file: don't, it's deprecated ish.
+
 
 the last field on a line can always contain spaces
 required fields are "-" if empty
@@ -81,7 +79,7 @@ force bik s Cantonese 迫 (bik1)
 Ou occurs by force
 forced, compelled, obligation
 ---
-bil white q Ukrainian білий (bilyj)
+bil white q Ukrainian білий (bílyj)
 O is white in Eu
 white, blank, light-colored
 ---

@@ -1,0 +1,48 @@
+[
+    {
+        "word": "bak",
+        "def": "behind",
+        "type": "Junction",
+        "alignment": "O is behind E",
+        "semantics": [
+            "behind",
+            "back",
+            "rear",
+            "posterior"
+        ],
+        "etymology": {
+            "lang": "Norwegian",
+            "word": "bak"
+        }
+    },
+    {
+        "word": "bal",
+        "def": "balance",
+        "type": "Quality",
+        "alignment": "Oi is in balance in Eu",
+        "semantics": [
+            "balance",
+            "equilibrium"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "bal ← balpi",
+            "urlform": "balpi"
+        }
+    },
+    {
+        "word": "ban",
+        "def": "language",
+        "type": "Entity",
+        "alignment": "O is a language",
+        "semantics": [
+            "language",
+            "code"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "ban ← bangu",
+            "urlform": "bangu"
+        }
+    }
+]
