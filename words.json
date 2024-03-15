@@ -18,6 +18,7 @@
     {
         "word": "bal",
         "def": "balance",
+        "xo": "balance (n.)",
         "type": "Quality",
         "alignment": "Oi is in balance in Eu",
         "semantics": [
@@ -43,6 +44,105 @@
             "lang": "Lojban",
             "word": "ban ← bangu",
             "urlform": "bangu"
+        }
+    },
+    {
+        "word": "bap",
+        "def": "door",
+        "type": "Junction",
+        "alignment": "O is a door/lid for E",
+        "semantics": [
+            "lid",
+            "door",
+            "window"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "باب (bāb)",
+            "urlform": "باب"
+        },
+        "notes": "Sense 'door' refers to the physical object, not the space/entryway («ziddil», «goddil»)"
+    },
+    {
+        "word": "bat",
+        "def": "seed",
+        "type": "Entity",
+        "alignment": "O is a seed",
+        "semantics": [
+            "seed",
+            "egg",
+            "bulb"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "بذرة (baḏra)",
+            "urlform": "بذرة"
+        }
+    },
+    {
+        "word": "bek",
+        "def": "thing",
+        "type": "Entity",
+        "alignment": "O is a thing",
+        "semantics": [
+            "thing",
+            "object",
+            "item",
+            "affair"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "bek ← bekti",
+            "urlform": "bekti"
+        }
+    },
+    {
+        "word": "ben",
+        "def": "burn",
+        "type": "Junction",
+        "alignment": "O burns",
+        "semantics": [
+            "burn",
+            "cook",
+            "fire"
+        ],
+        "etymology": {
+            "lang": "German",
+            "word": "brennen"
+        },
+        "notes": "& fire («benvli»); 'be on fire' = «ten» («e») «benvli»"
+    },
+    {
+        "word": "bet",
+        "def": "ask",
+        "xo": "request (n.)",
+        "type": "Relation",
+        "alignment": "O requests from E for Au",
+        "semantics": [
+            "ask",
+            "request"
+        ],
+        "etymology": {
+            "lang": "Yiddish",
+            "word": "בעטן (betn)",
+            "urlform": "בעטן"
+        }
+    },
+    {
+        "word": "bik",
+        "def": "force",
+        "xo": "force (n.)",
+        "ko": "violent",
+        "type": "State",
+        "semantics": [
+            "forced",
+            "compelled",
+            "obligation"
+        ],
+        "etymology": {
+            "lang": "Cantonese",
+            "word": "迫 (bik1)",
+            "urlform": "迫"
         }
     }
 ]
