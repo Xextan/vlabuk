@@ -1,3 +1,6 @@
+:root {
+    font-family: var(--sans);
+}
 html.pickle {
     background-color: #dfd;
 }
@@ -7,9 +10,62 @@ html.pickle header {
 input[type="text"] {
     width: 300px;
 }
+.entry {
+    background-color: #0001;
+    padding: 0.5em 1.25em;
+    margin-bottom: 0.5em;
+}
+.entry p {
+    margin-block: 6px;
+}
+.type, .warn, .err {
+    background-color: purple;
+    color: white;
+    font-size: 12px;
+    padding: 2px 5px;
+    position: relative;
+    bottom: 1px;
+    display: inline-block;
+}
+.warn {
+    background-color: yellow;
+    color: black;
+}
+.err {
+    background-color: red;
+    color: white;
+}
+.notes, .sem, .etym {
+    font-size: 14px;
+}
+.more {
+    color: #000c;
+}
+.h {
+    color: black;
+}
+html.pickle .type {
+    background-color: green;
+    color: white;
+}
+.entry a {
+    text-decoration: none;
+}
 /* dark mode */
 @media (prefers-color-scheme: dark) {
     html.pickle {
         background-color: #020;
+    }
+    .type {
+        /* background-color: #444; */
+    }
+    .entry {
+        background-color: #fff2;
+    }
+    .more {
+        color: #fffb;
+    }
+    .h {
+        color: white;
     }
 }

@@ -4,6 +4,7 @@
     <head>
         <title>vlabuk xextan</title>
         <link href="https://xextan.github.io/style.css" rel="stylesheet" />
+        <link href="noto.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,11 +19,69 @@
             <span class="fill"></span>
         </header>
         <input type="text" />
-        <p>↑ this will do things soon i promise!</p>
+        <p>↑ this will do things soon i promise! in the meantime here's all the words in the database so far</p>
+        <div id="results"></div>
+        <script src="words.js"></script>
         <script>
             document.getElementById("pickle").addEventListener("change", function() {
                 document.documentElement.classList.toggle("pickle");
-            })
+            });
+            for (const entry of dict) {
+                document.getElementById("results").append(...[htmlify(entry)]);
+            }
+            function mkelem(tag, props, children) {
+                const element = document.createElement(tag);
+                Object.assign(element, props);
+                for (const child of children) {
+                    if (child) {
+                        element.append(child);
+                    }
+                }
+                return element;
+            }
+            function htmlify(entry) {
+                return mkelem("div", {"className": "entry"}, [
+                    mkelem("p", {}, [
+                        mkelem("b", {}, [entry.word]),
+                        " ",
+                        entry.type ? mkelem("span", {"className": "type"}, [entry.type]) : null,
+                        entry.deprecated ?
+                            entry.type ? mkelem("span", {"className": "warn"}, ["maybe deprecated"]) : mkelem("span", {"className": "err"}, ["deprecated"])
+                        : null,
+                        " ",
+                    // ]),
+                    // mkelem("p", {}, [
+                        entry.def,
+                        entry.alignment ? " – " + entry.alignment : null
+                    ]),
+                    entry.notes || entry.semantics || entry.etymology ? mkelem("p", {"className": "more"}, [
+                        entry.semantics ? mkelem("p", {}, [
+                            mkelem("span", {"className": "h"}, ["Semantic space: "]),
+                            entry.semantics.join(", ")
+                        ]) : null,
+                        mkelem("p", {}, [entry.notes]),
+                        entry.etymology ? mkelem("p", {}, [
+                            mkelem("span", {"className": "h"}, ["Etymology: "]),
+                            entry.etymology.lang,
+                            " ",
+                            entry.etymology.word ? mkelem("a", {"href": url(entry.etymology)}, [entry.etymology.word]) : null,
+                        ]) : null,
+                    ]) : null
+                ]);
+            }
+            function url(e) {
+                var url;
+                if (e.lang == "Loglan") {
+                    url = "https://randall-holmes.github.io/Loglan/Dictionary/L-to-E-TDR.html#" + (e.urlform || e.word);
+                } else if (e.lang == "Lojban") {
+                    url = "https://sisku.org?en#" + (e.urlform || e.word);
+                } else if (e.lang == "Klingon") {
+                    url = "https://klingon.wiki/Word/" + (e.urlform || e.word);
+                } else {
+                    url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
+                }
+                return url;
+            }
         </script>
     </body>
 </html>

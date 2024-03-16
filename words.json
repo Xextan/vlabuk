@@ -58,7 +58,7 @@
         ],
         "etymology": {
             "lang": "Arabic",
-            "word": "باب (bāb)",
+            "word": "بَاب (bāb)",
             "urlform": "باب"
         },
         "notes": "Sense 'door' refers to the physical object, not the space/entryway («ziddil», «goddil»)"
@@ -75,7 +75,7 @@
         ],
         "etymology": {
             "lang": "Arabic",
-            "word": "بذرة (baḏra)",
+            "word": "بَذْرَة (baḏra)",
             "urlform": "بذرة"
         }
     },
@@ -312,13 +312,132 @@
     },
     {
         "word": "dak",
-        "def": "minute",
-        "deprecated": true,
+        "def": "compress",
+        "xo": "pressure",
+        "type": "Junction",
+        "alignment": "O is under pressure E",
+        "semantics": ["compress (nt.)", "squeeze (nt.)"],
         "etymology": {
             "lang": "Arabic",
-            "word": "دقيقة (daqīqa)",
-            "urlform": "دقيقة"
+            "word": "ضَغَطَ (ḍaḡaṭa)",
+            "urlform": "ضغط"
+        }
+    },
+    {
+        "word": "dal",
+        "def": "big",
+        "xo": "size",
+        "type": "Quality",
+        "alignment": "O is large in Eu",
+        "semantics": [
+            "big",
+            "large",
+            "very",
+            "extremely"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "大 (dà)",
+            "urlform": "大"
         },
-        "notes": "Deprecated (cf. time term reforms)"
+        "notes": "& large, huge, massive, spacious"
+    },
+    {
+        "word": "dan",
+        "def": "building",
+        "type": "Entity",
+        "alignment": "O is a building",
+        "semantics": [
+            "building",
+            "house",
+            "structure",
+            "shelter"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "zdani"
+        },
+        "notes": "retained from old Xextan*"
+    },
+    {
+        "word": "dap",
+        "def": "break",
+        "type": "Junction",
+        "alignment": "Oi are broken pieces of E",
+        "semantics": [
+            "broken",
+            "shattered",
+            "split",
+            "divided"
+        ],
+        "etymology": {
+            "lang": "Zulu",
+            "word": "-dabuka",
+            "urlform": "dabuka"
+        }
+    },
+    {
+        "word": "dat",
+        "def": "data",
+        "type": "Junction",
+        "alignment": "O is data about E",
+        "semantics": [
+            "data",
+            "information",
+            "statistics",
+            "parameters"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "datni"
+        }
+    },
+    {
+        "word": "dek",
+        "def": "right",
+        "type": "Junction",
+        "alignment": "O is to the right of E",
+        "semantics": [
+            "right of",
+            "on the right",
+            "to the right"
+        ],
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "dekstra"
+        }
+    },
+    {
+        "word": "del",
+        "def": "part",
+        "type": "Junction",
+        "alignment": "O is part of E",
+        "semantics": [
+            "part",
+            "piece",
+            "component",
+            "chunk"
+        ],
+        "etymology": {
+            "lang": "Danish",
+            "word": "del"
+        }
+    },
+    {
+        "word": "dep",
+        "def": "should",
+        "xo": "obligation",
+        "type": "State",
+        "alignment": "Ou should occur/be the case",
+        "semantics": [
+            "should",
+            "ought",
+            "must"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "deber"
+        },
+        "notes": "i.e. subjective obligation (not probability)"
     }
 ]

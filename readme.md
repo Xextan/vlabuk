@@ -2,9 +2,13 @@
 
 i was going to make a why do they call it oven joke but then realized that would be stupid ~evie
 
-## Guide to editing `words.jsonc`
+## Guide to editing `words.json`
 
 Sonkap is free to edit this, or ask me (evie). I'll only edit it to move stuff out of the spreadsheet & for cleanup. Everyone else please go through #submit-a-word in Discord.
+
+**Before committing** changes to the JSON please run `cargo run`! This will update `words.js` to reflect your changes & fetch any necessary fonts (should take ~10 seconds).
+
+Properties that exist:
 
 - **`word`.**
 - **`def`:** The *short definition*, corresponding to the "concept" spreadsheet column for roots, "meaning" for compounds/freewords, and "function" for particles.
