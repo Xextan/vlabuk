@@ -134,6 +134,7 @@
         "xo": "force (n.)",
         "ko": "violent",
         "type": "State",
+        "alignment": "Ou occurs by force",
         "semantics": [
             "forced",
             "compelled",
@@ -144,5 +145,180 @@
             "word": "迫 (bik1)",
             "urlform": "迫"
         }
+    },
+    {
+        "word": "bil",
+        "def": "white",
+        "xo": "whiteness",
+        "type": "Quality",
+        "alignment": "O is white in Eu",
+        "semantics": [
+            "white",
+            "blank",
+            "light-colored"
+        ],
+        "etymology": {
+            "lang": "Ukrainian",
+            "word": "білий (bílyj)",
+            "urlform": "білий"
+        }
+    },
+    {
+        "word": "bin",
+        "def": "space",
+        "type": "Junction",
+        "alignment": "O is space containing E",
+        "semantics": [
+            "space",
+            "expanse",
+            "room"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "bin ← jbini",
+            "urlform": "jbini"
+        }
+    },
+    {
+        "word": "blu",
+        "def": "cyan",
+        "xo": "blueness",
+        "type": "Quality",
+        "alignment": "O is cyan in Eu",
+        "semantics": [
+            "cyan",
+            "blue",
+            "purple"
+        ],
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "blua"
+        }
+    },
+    {
+        "word": "bok",
+        "def": "side",
+        "type": "Junction",
+        "alignment": "O is to the side of E",
+        "semantics": [
+            "side",
+            "flank"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "bok"
+        }
+    },
+    {
+        "word": "bol",
+        "def": "ball",
+        "xo": "roundness",
+        "type": "Quality",
+        "alignment": "O is spherical in Eu",
+        "semantics": [
+            "ball",
+            "sphere"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "bola"
+        }
+    },
+    {
+        "word": "bon",
+        "def": "good",
+        "xo": "benefit",
+        "type": "Quality",
+        "alignment": "O is good in Eu",
+        "semantics": [
+            "good",
+            "nice",
+            "beneficial",
+            "positive",
+            "useful"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "bom"
+        }
+    },
+    {
+        "word": "bot",
+        "def": "prevent",
+        "type": "Quality",
+        "alignment": "O prevents Eu",
+        "semantics": [
+            "prevent",
+            "stop",
+            "halt",
+            "hold back"
+        ],
+        "etymology": {
+            "lang": "Klingon",
+            "word": "bot",
+            "urlform": "Bot"
+        },
+        "notes": "& proactive"
+    },
+    {
+        "word": "buk",
+        "def": "document",
+        "type": "Junction",
+        "alignment": "O is a document of E",
+        "semantics": [
+            "document",
+            "book",
+            "record"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "buk ← bukcu",
+            "urlform": "bukcu"
+        }
+    },
+    {
+        "word": "bul",
+        "def": "opposite",
+        "xo": "inversion",
+        "type": "State",
+        "alignment": "Ou is opposite",
+        "semantics": [
+            "opposite",
+            "inverse",
+            "reverse",
+            "upside-down"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "不 (bù)",
+            "urlform": "不"
+        }
+    },
+    {
+        "word": "but",
+        "def": "awake",
+        "xo": "wakefulness",
+        "type": "Quality",
+        "alignment": "O is awake in Eu",
+        "semantics": [
+            "awake",
+            "alert",
+            "turned on"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "buden"
+        }
+    },
+    {
+        "word": "dak",
+        "def": "minute",
+        "deprecated": true,
+        "etymology": {
+            "lang": "Arabic",
+            "word": "دقيقة (daqīqa)",
+            "urlform": "دقيقة"
+        },
+        "notes": "Deprecated (cf. time term reforms)"
     }
 ]
