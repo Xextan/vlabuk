@@ -55,11 +55,14 @@
                         entry.alignment ? " – " + entry.alignment : null
                     ]),
                     entry.notes || entry.semantics || entry.etymology ? mkelem("p", {"className": "more"}, [
-                        entry.semantics ? mkelem("p", {}, [
-                            mkelem("span", {"className": "h"}, ["Semantic space: "]),
+                    entry.semantics ? mkelem("p", {}, [
+                            mkelem("span", {"className": "h"}, ["Keywords: "]),
                             entry.semantics.join(", ")
                         ]) : null,
-                        mkelem("p", {}, [entry.notes]),
+                        entry.notes ? mkelem("p", {}, [
+                            mkelem("span", {"className": "h"}, ["Notes: "]),
+                            entry.notes
+                        ]) : null,
                         entry.etymology ? mkelem("p", {}, [
                             mkelem("span", {"className": "h"}, ["Etymology: "]),
                             entry.etymology.lang,
