@@ -18,8 +18,8 @@ input[type="text"] {
 .entry p {
     margin-block: 6px;
 }
-.type, .warn, .err {
-    background-color: purple;
+.Entity, .Junction, .Direction, .State, .Quality, .Relation {
+    /* background-color: purple; */
     color: white;
     font-size: 12px;
     padding: 2px 5px;
@@ -27,13 +27,23 @@ input[type="text"] {
     bottom: 1px;
     display: inline-block;
 }
-.warn {
-    background-color: yellow;
-    color: black;
+.Entity {
+    background-color: #677200;
 }
-.err {
-    background-color: red;
-    color: white;
+.Junction {
+    background-color: #a35900;
+}
+.Direction {
+    background-color: #db0000;
+}
+.State {
+    background-color: purple;
+}
+.Quality {
+    background-color: blue;
+}
+.Relation {
+    background-color: #007e00;
 }
 .notes, .sem, .etym {
     font-size: 14px;
@@ -44,15 +54,11 @@ input[type="text"] {
 .h {
     color: black;
 }
-html.pickle .type {
-    background-color: green;
-    color: white;
-}
 .entry a {
     text-decoration: none;
 }
 html.pickle a {
-    color: lightgreen;
+    color: green;
 }
 /* dark mode */
 @media (prefers-color-scheme: dark) {
@@ -68,4 +74,7 @@ html.pickle a {
     .h {
         color: white;
     }
+    html.pickle a {
+        color: lightgreen;
+    }    
 }

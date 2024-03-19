@@ -22,7 +22,6 @@ Root-specific:
 
 - **`alignment`:** The place structure.
 - **`type`:** One of the new ones that start with a capital letter.
-- **`deprecated`:** `true` or `false`. If `type && deprecated` this is interpreted as 'possibly deprecated'. If `type` is not present this word is fully deprecated, and the other fields are ignored. (If neither is present the universe is going to xexplode)
 - **`semantics`:** The semantic space.
 - **`xo` and `ko`:** The new `def` this word has when suffixed with either. (For ease of JSing these fields don't start with hyphens.)
 

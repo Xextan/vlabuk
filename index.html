@@ -44,10 +44,7 @@
                     mkelem("p", {}, [
                         mkelem("b", {}, [entry.word]),
                         " ",
-                        entry.type ? mkelem("span", {"className": "type"}, [entry.type]) : null,
-                        entry.deprecated ?
-                            entry.type ? mkelem("span", {"className": "warn"}, ["maybe deprecated"]) : mkelem("span", {"className": "err"}, ["deprecated"])
-                        : null,
+                        entry.type ? mkelem("span", {"className": entry.type}, [entry.type]) : null,
                         " ",
                     // ]),
                     // mkelem("p", {}, [
