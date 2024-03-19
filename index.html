@@ -40,7 +40,12 @@
                 return element;
             }
             function htmlify(entry) {
-                return mkelem("div", {"className": "entry"}, [
+                let pos =
+                entry.alignment ? " root" :
+                entry.status ? " particle" :
+                entry.gloss ? " compound" :
+                /^.{0,2}[áéíóú]/iu.test(entry.word) || /[^ptkln]/.test(entry.word[3]) ? " freeword" : " bad";
+                return mkelem("div", {"className": "entry" + pos}, [
                     mkelem("p", {}, [
                         mkelem("b", {}, [entry.word]),
                         " ",

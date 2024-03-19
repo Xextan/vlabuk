@@ -18,6 +18,21 @@ input[type="text"] {
 .entry p {
     margin-block: 6px;
 }
+.root {
+    border-left: 2px solid #00797a;
+}
+.compound {
+    border-left: 2px solid blue;
+}
+.freeword {
+    border-left: 2px solid purple;
+}
+.particle {
+    border-left: 2px solid #6b6b6b;
+}
+.bad {
+    border-left: 2px solid #db0000;
+}
 .Entity, .Junction, .Direction, .State, .Quality, .Relation {
     /* background-color: purple; */
     color: white;
