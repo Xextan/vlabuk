@@ -51,6 +51,9 @@ html.pickle .type {
 .entry a {
     text-decoration: none;
 }
+html.pickle a {
+    color: lightgreen;
+}
 /* dark mode */
 @media (prefers-color-scheme: dark) {
     html.pickle {
