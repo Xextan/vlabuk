@@ -1,4 +1,9 @@
 @font-face {
+    font-family: "Noto Sans Armenian";
+    src: url("fonts/NotoSansArmenian-Regular.ttf");
+    font-display: swap;
+}
+@font-face {
     font-family: "Noto Rashi Hebrew";
     src: url("fonts/NotoRashiHebrew-Regular.ttf");
     font-display: swap;
@@ -14,5 +19,5 @@
     font-display: swap;
 }
 :root {
-    --sans: "Noto Sans", "Noto Rashi Hebrew", "Noto Kufi Arabic", "Noto Sans CJK HK", ui-sans-serif, sans-serif;
+    --sans: "Noto Sans", "Noto Sans Armenian", "Noto Rashi Hebrew", "Noto Kufi Arabic", "Noto Sans CJK HK", ui-sans-serif, sans-serif;
 }

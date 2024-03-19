@@ -316,7 +316,10 @@
         "xo": "pressure",
         "type": "Junction",
         "alignment": "O is under pressure E",
-        "semantics": ["compress (nt.)", "squeeze (nt.)"],
+        "semantics": [
+            "compress (nt.)",
+            "squeeze (nt.)"
+        ],
         "etymology": {
             "lang": "Arabic",
             "word": "ضَغَطَ (ḍaḡaṭa)",
@@ -439,5 +442,278 @@
             "word": "deber"
         },
         "notes": "i.e. subjective obligation (not probability)"
+    },
+    {
+        "word": "dil",
+        "def": "hole",
+        "type": "Junction",
+        "alignment": "O is a hole in E",
+        "semantics": [
+            "hole",
+            "door",
+            "window"
+        ],
+        "etymology": {
+            "lang": "Russian",
+            "word": "дыра (dyrá)",
+            "urlform": "дыра"
+        },
+        "notes": "space, not object"
+    },
+    {
+        "word": "din",
+        "def": "sacred",
+        "xo": "holiness",
+        "type": "Quality",
+        "alignment": "O is sacred in Eu",
+        "semantics": [
+            "sacred",
+            "holy",
+            "faith",
+            "religion"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "دِين (dīn)",
+            "urlform": "دين"
+        }
+    },
+    {
+        "word": "dip",
+        "def": "scatter",
+        "type": "Junction",
+        "alignment": "O scatters in/among E",
+        "semantics": [
+            "scatter",
+            "disperse",
+            "pour"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "dispersar"
+        }
+    },
+    {
+        "word": "dol",
+        "def": "pain",
+        "xo": "pain (n.)",
+        "type": "Quality",
+        "alignment": "O feels pain in Eu",
+        "semantics": [
+            "pain",
+            "hurt",
+            "agony",
+            "suffering"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "dolor"
+        }
+    },
+    {
+        "word": "dop",
+        "def": "okay",
+        "xo": "acceptableness",
+        "type": "Quality",
+        "alignment": "O is okay in Eu",
+        "semantics": [
+            "okay",
+            "alright",
+            "decent",
+            "acceptable"
+        ],
+        "etymology": {
+            "lang": "Ukrainian",
+            "word": "добре (dóbre)",
+            "urlform": "добре"
+        }
+    },
+    {
+        "word": "dot",
+        "def": "thankful",
+        "xo": "gratitude",
+        "ko": "",
+        "type": "Quality",
+        "alignment": "O is thankful in Eu",
+        "semantics": [
+            "thankful",
+            "grateful",
+            "appreciative"
+        ],
+        "etymology": {
+            "lang": "Polish",
+            "word": "doceniać"
+        }
+    },
+    {
+        "word": "dqe",
+        "def": "date",
+        "type": "Junction",
+        "alignment": "O is the date of E",
+        "semantics": [
+            "date",
+            "calendar",
+            "timekeeping",
+            "timestamp"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "dje ← djedi",
+            "urlform": "djedi"
+        }
+    },
+    {
+        "word": "dqi",
+        "def": "proud",
+        "xo": "pride",
+        "type": "Quality",
+        "alignment": "O is proud in Eu",
+        "semantics": [
+            "proud",
+            "have self-esteem"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "自慢 (jiman)"
+        }
+    },
+    {
+        "word": "dqu",
+        "def": "help",
+        "xo": "assistance",
+        "type": "Relation",
+        "alignment": "O helps E with Au",
+        "semantics": [
+            "help",
+            "assist",
+            "aid"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "助 (zhù)",
+            "urlform": "助"
+        }
+    },
+    {
+        "word": "dul",
+        "def": "read",
+        "xo": "analysis",
+        "type": "Relation",
+        "alignment": "O reads E for Au",
+        "semantics": [
+            "read",
+            "analyze",
+            "study",
+            "parse"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "讀 (dú)",
+            "urlform": "讀"
+        }
+    },
+    {
+        "word": "dun",
+        "def": "know",
+        "xo": "knowledge",
+        "type": "Quality",
+        "alignment": "O knows Eu",
+        "semantics": [
+            "know",
+            "be conscious of",
+            "be aware of"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "懂 (dǒng)",
+            "urlform": "懂"
+        }
+    },
+    {
+        "word": "dza",
+        "def": "sit",
+        "xo": "platform",
+        "type": "Junction",
+        "alignment": "O sits on/atop E",
+        "semantics": [
+            "sit",
+            "be on",
+            "be on top of"
+        ],
+        "etymology": {
+            "lang": "Aromanian",
+            "word": "dzac"
+        }
+    },
+    {
+        "word": "dze",
+        "def": "parent",
+        "xo": "descendant",
+        "type": "Junction",
+        "alignment": "O is parent of E",
+        "semantics": [
+            "parent",
+            "mother",
+            "father",
+            "ancestor",
+            "progenitor"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "dze ← dzena"
+        }
+    },
+    {
+        "word": "dzi",
+        "def": "decay",
+        "xo": "decay (n.)",
+        "type": "Quality",
+        "alignment": "O decays in Eu",
+        "semantics": [
+            "decay",
+            "rot",
+            "erode",
+            "decompose",
+            "ferment"
+        ],
+        "etymology": {
+            "lang": "Navajo",
+            "word": "-dzid",
+            "urlform": "-DZID"
+        }
+    },
+    {
+        "word": "dzo",
+        "def": "walk",
+        "xo": "path",
+        "type": "Junction",
+        "alignment": "O walks on E",
+        "semantics": [
+            "walk",
+            "stroll",
+            "ambulate",
+            "drive (nt.)"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "走 (zǒu)",
+            "urlform": "走"
+        }
+    },
+    {
+        "word": "dzu",
+        "def": "fish",
+        "type": "Entity",
+        "alignment": "O is a fish",
+        "semantics": [
+            "fish",
+            "marine",
+            "aquatic"
+        ],
+        "etymology": {
+            "lang": "Armenian",
+            "word": "ձուկ (juk)",
+            "urlform": "ձուկ"
+        }
     }
 ]
