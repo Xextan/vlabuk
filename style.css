@@ -8,6 +8,7 @@ html.pickle header {
     background-color: green;
 }
 input[type="text"] {
+    font: inherit;
     width: 300px;
 }
 .entry {

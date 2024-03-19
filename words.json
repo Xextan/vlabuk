@@ -716,5 +716,378 @@
             "word": "ձուկ (juk)",
             "urlform": "ձուկ"
         }
+    },
+    {
+        "word": "fak",
+        "def": "future",
+        "type": "Junction",
+        "alignment": "O is the future of E",
+        "semantics": [
+            "future",
+            "after",
+            "later"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "fa"
+        }
+    },
+    {
+        "word": "fan",
+        "def": "resume",
+        "xo": "resumption",
+        "type": "State",
+        "alignment": "Ou resumes",
+        "semantics": [
+            "return",
+            "resume",
+            "continue"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "反 (fǎn)",
+            "urlform": "反"
+        }
+    },
+    {
+        "word": "fat",
+        "def": "toward",
+        "xo": "direction",
+        "type": "Quality",
+        "alignment": "O is [oriented] toward Eu",
+        "semantics": [
+            "toward",
+            "orient",
+            "direction",
+            "face (v.)"
+        ],
+        "etymology": {
+            "lang": "Irish",
+            "word": "fada"
+        }
+    },
+    {
+        "word": "fel",
+        "def": "happy",
+        "xo": "happiness",
+        "ko": "",
+        "type": "Quality",
+        "alignment": "O is happy in Eu",
+        "semantics": [
+            "happy",
+            "joyful",
+            "cheerful",
+            "content"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "feliz"
+        }
+    },
+    {
+        "word": "fen",
+        "def": "feminine",
+        "xo": "femininity",
+        "type": "Quality",
+        "alignment": "O is feminine in Eu",
+        "semantics": [
+            "feminine",
+            "woman",
+            "girl",
+            "female",
+            "lady"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "fem ← femdi",
+            "urlform": "femdi"
+        }
+    },
+    {
+        "word": "fep",
+        "def": "weak",
+        "xo": "weakness",
+        "type": "Quality",
+        "alignment": "O is weak in Eu",
+        "semantics": [
+            "weak",
+            "frail",
+            "infirm",
+            "incompetent"
+        ],
+        "etymology": {
+            "lang": "Catalan",
+            "word": "feble"
+        }
+    },
+    {
+        "word": "fet",
+        "def": "celebrate",
+        "xo": "ceremony",
+        "type": "Relation",
+        "alignment": "O celebrates E in Au",
+        "semantics": [
+            "celebrate",
+            "ceremonialize",
+            "be festive"
+        ],
+        "etymology": {
+            "lang": "French",
+            "word": "fête"
+        },
+        "notes": "& ritual, ceremony"
+    },
+    {
+        "word": "fik",
+        "def": "difficult",
+        "xo": "struggle (n.)",
+        "type": "State",
+        "alignment": "Ou is difficult",
+        "semantics": [
+            "difficult",
+            "hard",
+            "tricky",
+            "arduous",
+            "onerous"
+        ],
+        "etymology": {
+            "lang": "Volapük",
+            "word": "fikulik"
+        }
+    },
+    {
+        "word": "fil",
+        "def": "feel",
+        "xo": "emotion",
+        "type": "Junction",
+        "alignment": "O feels E",
+        "semantics": [
+            "feel",
+            "sense",
+            "emote"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "fil ← filmo",
+            "urlform": "filmo"
+        }
+    },
+    {
+        "word": "fin",
+        "def": "end",
+        "xo": "end (n.)",
+        "type": "State",
+        "alignment": "Ou ends",
+        "semantics": [
+            "end",
+            "stop",
+            "terminate",
+            "cease"
+        ],
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "fini"
+        }
+    },
+    {
+        "word": "fip",
+        "def": "fear",
+        "xo": "fear (n.)",
+        "type": "Relation",
+        "alignment": "O fears E in Au",
+        "semantics": [
+            "fear",
+            "afraid",
+            "scared",
+            "apprehensive"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "firpa"
+        }
+    },
+    {
+        "word": "fla",
+        "def": "law",
+        "xo": "rule (n.)",
+        "type": "State",
+        "alignment": "Ou is a law/rule",
+        "semantics": [
+            "law",
+            "rule",
+            "guideline",
+            "requirement"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "fla ← flalu",
+            "urlform": "flalu"
+        }
+    },
+    {
+        "word": "fli",
+        "def": "float",
+        "type": "Junction",
+        "alignment": "O floats/hangs in E",
+        "semantics": [
+            "float",
+            "fly",
+            "suspended",
+            "hung"
+        ],
+        "etymology": {
+            "lang": "German",
+            "word": "fliegen"
+        }
+    },
+    {
+        "word": "flu",
+        "def": "flow",
+        "type": "Junction",
+        "alignment": "O is a flow of E",
+        "semantics": [
+            "flow",
+            "stream",
+            "river",
+            "barrage"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "fluir"
+        }
+    },
+    {
+        "word": "fok",
+        "def": "obey",
+        "xo": "obedience",
+        "type": "Relation",
+        "alignment": "O obeys E in Au",
+        "semantics": [
+            "obey",
+            "follow",
+            "submit",
+            "surrender"
+        ],
+        "etymology": {
+            "lang": "Yiddish",
+            "word": "פֿאָלגן (folgn)",
+            "urlform": "פֿאָלגן"
+        }
+    },
+    {
+        "word": "fol",
+        "def": "use",
+        "type": "Junction",
+        "alignment": "O uses E",
+        "semantics": [
+            "use",
+            "employ",
+            "utilize"
+        ],
+        "etymology": {
+            "lang": "Romanian",
+            "word": "folosi"
+        },
+        "notes": "& play [instrument]"
+    },
+    {
+        "word": "fon",
+        "def": "frame",
+        "type": "Entity",
+        "alignment": "O is a frame/skeleton",
+        "semantics": [
+            "frame",
+            "skeleton",
+            "bone",
+            "structure",
+            "scaffold"
+        ],
+        "etymology": {
+            "lang": "Choctaw",
+            "word": "foni"
+        }
+    },
+    {
+        "word": "fuk",
+        "def": "clothing",
+        "type": "Entity",
+        "alignment": "O is clothing",
+        "semantics": [
+            "clothing",
+            "apparel",
+            "garment",
+            "garb"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "服 (fuku)",
+            "urlform": "服"
+        }
+    },
+    {
+        "word": "fup",
+        "def": "abdomen",
+        "type": "Junction",
+        "alignment": "O is abdomen/belly of E",
+        "semantics": [
+            "abdomen",
+            "belly",
+            "midsection"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "腹部 (fùbù)",
+            "urlform": "腹部"
+        },
+        "notes": "& back («fubbak»)"
+    },
+    {
+        "word": "fun",
+        "def": "chance",
+        "xo": "luck",
+        "type": "State",
+        "alignment": "Ou occurs by chance",
+        "semantics": [
+            "chance",
+            "random",
+            "luck",
+            "natural"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "fun ← funca"
+        }
+    },
+    {
+        "word": "gak",
+        "def": "fail",
+        "xo": "failure",
+        "type": "Quality",
+        "alignment": "O fails to do Eu",
+        "semantics": [
+            "fail",
+            "mess up",
+            "be unsuccessful"
+        ],
+        "etymology": {
+            "lang": "Malay",
+            "word": "gagal"
+        }
+    },
+    {
+        "word": "gal",
+        "def": "above",
+        "type": "Junction",
+        "alignment": "O is above E",
+        "semantics": [
+            "above",
+            "up",
+            "high"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "高 (gāo)",
+            "urlform": "高"
+        }
     }
 ]
