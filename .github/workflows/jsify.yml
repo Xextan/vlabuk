@@ -1,0 +1,17 @@
+name: plop any json changes into js
+
+on:
+  workflow_dispatch:
+
+jobs:
+  jvs-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: do the
+        run: cargo run
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: plop new json into js
