@@ -20,7 +20,7 @@
         "def": "balance",
         "xo": "balance (n.)",
         "type": "Quality",
-        "alignment": "Oi is in balance in Eu",
+        "alignment": "O (mass) is in balance in Eu",
         "semantics": [
             "balance",
             "equilibrium"
@@ -366,7 +366,7 @@
         "word": "dap",
         "def": "break",
         "type": "Junction",
-        "alignment": "Oi are broken pieces of E",
+        "alignment": "O (mass) are broken pieces of E",
         "semantics": [
             "broken",
             "shattered",
