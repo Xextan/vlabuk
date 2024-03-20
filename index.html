@@ -57,7 +57,7 @@
                         entry.alignment ? " – " + entry.alignment : null
                     ]),
                     entry.notes || entry.semantics || entry.etymology ? mkelem("p", {"className": "more"}, [
-                    entry.semantics ? mkelem("p", {}, [
+                        entry.semantics ? mkelem("p", {}, [
                             mkelem("span", {"className": "h"}, ["Keywords: "]),
                             entry.semantics.join(", ")
                         ]) : null,

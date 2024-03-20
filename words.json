@@ -1090,5 +1090,22 @@
             "word": "高 (gāo)",
             "urlform": "高"
         }
+    },
+    {
+        "word": "klu",
+        "def": "salt",
+        "type": "Entity",
+        "alignment": "O is a salt",
+        "semantics": [
+            "salt",
+            "sodium",
+            "MSG"
+        ],
+        "etymology": {
+            "lang": "Thai",
+            "word": "เกลือ (glʉʉa)",
+            "urlform": "เกลือ"
+        },
+        "notes": "For sp. table salt (NaCl) see «klusup»"
     }
 ]
