@@ -6,6 +6,11 @@ on:
 jobs:
   jvs-update:
     runs-on: ubuntu-latest
+
+    # Required for git-auto-commit-action to write to the repository
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
