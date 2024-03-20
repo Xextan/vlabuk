@@ -6,7 +6,7 @@ i was going to make a why do they call it oven joke but then realized that would
 
 Sonkap is free to edit this, or ask me (evie). I'll only edit it to move stuff out of the spreadsheet & for cleanup. Everyone else please go through #submit-a-word in Discord.
 
-**Before committing** changes to the JSON please run `cargo run`! This will update `words.js` to reflect your changes & fetch any necessary fonts (should take ~15 seconds).
+**Before committing** changes to the JSON please run `cargo run`! This will update `words.js` to reflect your changes & fetch any necessary fonts (should take ~15 seconds). Or equivalently you can run the jsify Github Action *after* committing/pushing.
 
 Properties that exist:
 
