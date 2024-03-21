@@ -1107,5 +1107,15 @@
             "urlform": "เกลือ"
         },
         "notes": "For sp. table salt (NaCl) see «klusup»"
+    },
+    {
+        "word": "nan",
+        "def": "masculine",
+        "xo": "masculinity",
+        "type": "Quality",
+        "alignment": "O is masculine in Eu",
+        "semantics": ["masculine", "man", "boy", "male", "gentleman"],
+        "etymology": {"lang": "Mandarin", "word": "男 (nán)", "urlform": "男"},
+        "notes": "& man, boy"
     }
 ]
