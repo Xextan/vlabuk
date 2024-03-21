@@ -1,11 +1,16 @@
 :root {
     font-family: var(--sans);
+    --red: #db0000;
+    --orange: #a35900;
+    --yellow: #677200;
+    --green: #007e00;
+    --cyan: #00797a;
+    --blue: blue;
+    --purple: purple;
+    --gray: #6b6b6b;
 }
-html.pickle {
-    background-color: #dfd;
-}
-html.pickle header {
-    background-color: green;
+* {
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
 input[type="text"] {
     font: inherit;
@@ -20,19 +25,19 @@ input[type="text"] {
     margin-block: 6px;
 }
 .root {
-    border-left: 2px solid #00797a;
+    border-left: 2px solid var(--cyan);
 }
 .compound {
-    border-left: 2px solid blue;
+    border-left: 2px solid var(--blue);
 }
 .freeword {
-    border-left: 2px solid purple;
+    border-left: 2px solid var(--purple);
 }
 .particle {
-    border-left: 2px solid #6b6b6b;
+    border-left: 2px solid var(--gray);
 }
 .bad {
-    border-left: 2px solid #db0000;
+    border-left: 2px solid var(--red);
 }
 .Entity, .Junction, .Direction, .State, .Quality, .Relation {
     /* background-color: purple; */
@@ -44,25 +49,22 @@ input[type="text"] {
     display: inline-block;
 }
 .Entity {
-    background-color: #677200;
+    background-color: var(--yellow);
 }
 .Junction {
-    background-color: #a35900;
+    background-color: var(--orange);
 }
 .Direction {
-    background-color: #db0000;
+    background-color: var(--red);
 }
 .State {
-    background-color: purple;
+    background-color: var(--purple);
 }
 .Quality {
-    background-color: blue;
+    background-color: var(--blue);
 }
 .Relation {
-    background-color: #007e00;
-}
-.notes, .sem, .etym {
-    font-size: 14px;
+    background-color: var(--green);
 }
 .more {
     color: #000c;
@@ -73,13 +75,33 @@ input[type="text"] {
 .entry a {
     text-decoration: none;
 }
+/* pickle mode */
+html.pickle {
+    background-color: #dfd;
+    --red: #cf0000;
+    --orange: #9b5200;
+    --yellow: #606b00;
+    --green: #070;
+    --cyan: #007273;
+    --gray: #676767;
+}
+html.pickle header {
+    background-color: green;
+}
 html.pickle a {
-    color: green;
+    color: var(--green);
 }
 /* dark mode */
 @media (prefers-color-scheme: dark) {
-    html.pickle {
-        background-color: #020;
+    :root {
+        --red: #ff3d22;
+        --orange: #c67626;
+        --yellow: #869028;
+        --green: #379d29;
+        --cyan: #379898;
+        --blue: #a06bff;
+        --purple: #cc5cc9;
+        --gray: #898989;
     }
     .entry {
         background-color: #fff2;
@@ -90,7 +112,19 @@ html.pickle a {
     .h {
         color: white;
     }
+    /* dark pickle mode */
+    html.pickle {
+        background-color: #020;
+        --red: #ff7a54;
+        --orange: #e28d3d;
+        --yellow: #9fa840;
+        --green: #53b641;
+        --cyan: #52b0b0;
+        --blue: #c088ff;
+        --purple: #ea77e5;
+        --gray: #a3a3a3;
+    }
     html.pickle a {
         color: lightgreen;
-    }    
+    } 
 }
