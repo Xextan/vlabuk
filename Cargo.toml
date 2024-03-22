@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 minify = "1.3.0"
-notoize = "2.2.3"
+notoize = "2.3.0"
