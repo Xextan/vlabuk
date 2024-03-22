@@ -48,7 +48,7 @@
                 entry.alignment ? " root" :
                 entry.status ? " particle" :
                 entry.gloss ? " compound" :
-                /^.{0,2}[áéíóú]/iu.test(entry.word) || /[^ptkln]/.test(entry.word[3]) ? " freeword" : " bad";
+                /^.{0,2}[áéíóú]/iu.test(entry.word) || /^..[^ptkln]/.test(entry.word) ? " freeword" : " bad";
                 return mkelem("div", {"className": "entry" + pos}, [
                     mkelem("p", {}, [
                         mkelem("b", {}, [entry.word]),
@@ -60,10 +60,18 @@
                         entry.def,
                         entry.alignment ? " – " + entry.alignment : null
                     ]),
-                    entry.notes || entry.semantics || entry.etymology ? mkelem("p", {"className": "more"}, [
+                    entry.notes || entry.semantics || entry.etymology || entry.xo || entry.ko ? mkelem("p", {"className": "more"}, [
                         entry.semantics ? mkelem("p", {}, [
                             mkelem("span", {"className": "h"}, ["Keywords: "]),
                             entry.semantics.join(", ")
+                        ]) : null,
+                        entry.xo || entry.ko ? mkelem("p", {}, [
+                            mkelem("span", {"className": "h"}, ["Derivations: "]),
+                            ...[entry.xo ?? "", entry.ko ?? ""].map((e, i) => e ? [
+                                mkelem("br", {}, []),
+                                mkelem("b", {}, [entry.word + ["xo", "ko"][i]]),
+                                " " + e
+                            ] : null).flat()
                         ]) : null,
                         entry.notes ? mkelem("p", {}, [
                             mkelem("span", {"className": "h"}, ["Notes: "]),
