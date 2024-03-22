@@ -58,8 +58,9 @@
         ],
         "etymology": {
             "lang": "Arabic",
-            "word": "بَاب (bāb)",
-            "urlform": "باب"
+            "word": "بَاب",
+            "urlform": "باب",
+            "translit": "bāb"
         },
         "notes": "Sense 'door' refers to the physical object, not the space/entryway («ziddil», «goddil»)"
     },
@@ -75,8 +76,9 @@
         ],
         "etymology": {
             "lang": "Arabic",
-            "word": "بَذْرَة (baḏra)",
-            "urlform": "بذرة"
+            "word": "بَذْرَة",
+            "urlform": "بذرة",
+            "translit": "baḏra"
         }
     },
     {
@@ -124,8 +126,8 @@
         ],
         "etymology": {
             "lang": "Yiddish",
-            "word": "בעטן (betn)",
-            "urlform": "בעטן"
+            "word": "בעטן",
+            "translit": "betn"
         }
     },
     {
@@ -142,8 +144,8 @@
         ],
         "etymology": {
             "lang": "Cantonese",
-            "word": "迫 (bik1)",
-            "urlform": "迫"
+            "word": "迫",
+            "translit": "bik1"
         }
     },
     {
@@ -159,8 +161,8 @@
         ],
         "etymology": {
             "lang": "Ukrainian",
-            "word": "білий (bílyj)",
-            "urlform": "білий"
+            "word": "білий",
+            "translit": "bílyj"
         }
     },
     {
@@ -290,8 +292,8 @@
         ],
         "etymology": {
             "lang": "Mandarin",
-            "word": "不 (bù)",
-            "urlform": "不"
+            "word": "不",
+            "translit": "bù"
         }
     },
     {
@@ -322,8 +324,9 @@
         ],
         "etymology": {
             "lang": "Arabic",
-            "word": "ضَغَطَ (ḍaḡaṭa)",
-            "urlform": "ضغط"
+            "word": "ضَغَطَ",
+            "urlform": "ضغط",
+            "translit": "ḍaḡaṭa"
         }
     },
     {
@@ -340,8 +343,8 @@
         ],
         "etymology": {
             "lang": "Mandarin",
-            "word": "大 (dà)",
-            "urlform": "大"
+            "word": "大",
+            "translit": "dà"
         },
         "notes": "& large, huge, massive, spacious"
     },
@@ -455,8 +458,8 @@
         ],
         "etymology": {
             "lang": "Russian",
-            "word": "дыра (dyrá)",
-            "urlform": "дыра"
+            "word": "дыра",
+            "translit": "dyrá"
         },
         "notes": "space, not object"
     },
@@ -474,8 +477,9 @@
         ],
         "etymology": {
             "lang": "Arabic",
-            "word": "دِين (dīn)",
-            "urlform": "دين"
+            "word": "دِين",
+            "urlform": "دين",
+            "translit": "dīn"
         }
     },
     {
@@ -524,8 +528,8 @@
         ],
         "etymology": {
             "lang": "Ukrainian",
-            "word": "добре (dóbre)",
-            "urlform": "добре"
+            "word": "добре",
+            "translit": "dóbre"
         }
     },
     {
@@ -574,7 +578,8 @@
         ],
         "etymology": {
             "lang": "Japanese",
-            "word": "自慢 (jiman)"
+            "word": "自慢",
+            "translit": "jiman"
         }
     },
     {
@@ -590,8 +595,8 @@
         ],
         "etymology": {
             "lang": "Mandarin",
-            "word": "助 (zhù)",
-            "urlform": "助"
+            "word": "助",
+            "translit": "zhù"
         }
     },
     {
@@ -608,8 +613,8 @@
         ],
         "etymology": {
             "lang": "Mandarin",
-            "word": "讀 (dú)",
-            "urlform": "讀"
+            "word": "讀",
+            "translit": "dú"
         }
     },
     {
@@ -625,8 +630,8 @@
         ],
         "etymology": {
             "lang": "Mandarin",
-            "word": "懂 (dǒng)",
-            "urlform": "懂"
+            "word": "懂",
+            "translit": "dǒng"
         }
     },
     {
@@ -697,8 +702,8 @@
         ],
         "etymology": {
             "lang": "Mandarin",
-            "word": "走 (zǒu)",
-            "urlform": "走"
+            "word": "走",
+            "translit": "zǒu"
         }
     },
     {
@@ -713,8 +718,8 @@
         ],
         "etymology": {
             "lang": "Armenian",
-            "word": "ձուկ (juk)",
-            "urlform": "ձուկ"
+            "word": "ձուկ",
+            "translit": "juk"
         }
     },
     {
@@ -745,8 +750,8 @@
         ],
         "etymology": {
             "lang": "Mandarin",
-            "word": "反 (fǎn)",
-            "urlform": "反"
+            "word": "反",
+            "translit": "fǎn"
         }
     },
     {
@@ -970,8 +975,8 @@
         ],
         "etymology": {
             "lang": "Yiddish",
-            "word": "פֿאָלגן (folgn)",
-            "urlform": "פֿאָלגן"
+            "word": "פֿאָלגן",
+            "translit": "folgn"
         }
     },
     {
@@ -1020,8 +1025,8 @@
         ],
         "etymology": {
             "lang": "Japanese",
-            "word": "服 (fuku)",
-            "urlform": "服"
+            "word": "服",
+            "translit": "fuku"
         }
     },
     {
@@ -1036,8 +1041,8 @@
         ],
         "etymology": {
             "lang": "Mandarin",
-            "word": "腹部 (fùbù)",
-            "urlform": "腹部"
+            "word": "腹部",
+            "translit": "fùbù"
         },
         "notes": "& back («fubbak»)"
     },
@@ -1087,8 +1092,8 @@
         ],
         "etymology": {
             "lang": "Mandarin",
-            "word": "高 (gāo)",
-            "urlform": "高"
+            "word": "高",
+            "translit": "gāo"
         }
     },
     {
@@ -1103,8 +1108,8 @@
         ],
         "etymology": {
             "lang": "Thai",
-            "word": "เกลือ (glʉʉa)",
-            "urlform": "เกลือ"
+            "word": "เกลือ",
+            "translit": "glʉʉa"
         },
         "notes": "For sp. table salt (NaCl) see «klusup»"
     },
@@ -1123,8 +1128,8 @@
         ],
         "etymology": {
             "lang": "Mandarin",
-            "word": "男 (nán)",
-            "urlform": "男"
+            "word": "男",
+            "translit": "nán"
         },
         "notes": "& man, boy"
     }

@@ -46,9 +46,14 @@
             function htmlify(entry) {
                 let pos =
                 entry.alignment ? " root" :
-                entry.status ? " particle" :
-                entry.gloss ? " compound" :
-                /^.{0,2}[áéíóú]/iu.test(entry.word) || /^..[^ptkln]/.test(entry.word) ? " freeword" : " bad";
+                    entry.status ? " particle" :
+                        entry.gloss ? " compound" :
+                            /^.{0,2}[áéíóú]/iu.test(entry.word) || /^..[^ptkln]/.test(entry.word) ? " freeword" : " bad";
+                let etym_content = [
+                    entry.etymology.word,
+                    " ",
+                    entry.etymology.translit ? mkelem("i", {}, [entry.etymology.translit]) : null
+                ];
                 return mkelem("div", {"className": "entry" + pos}, [
                     mkelem("p", {}, [
                         mkelem("b", {}, [entry.word]),
@@ -81,7 +86,9 @@
                             mkelem("span", {"className": "h"}, ["Etymology: "]),
                             entry.etymology.lang,
                             " ",
-                            entry.etymology.word ? mkelem("a", {"href": url(entry.etymology)}, [entry.etymology.word]) : null,
+                            entry.etymology.word ?
+                                entry.etymology.link ?? true ? mkelem("a", {"href": url(entry.etymology)}, etym_content) : mkelem("span", {}, etym_content)
+                            : null,
                         ]) : null,
                     ]) : null
                 ]);

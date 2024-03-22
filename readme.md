@@ -15,7 +15,9 @@ Properties that exist:
 - **`etymology`:**
     - **`lang`:** Source language.
     - **`word`.** If the word has a Wiktionary entry, please put the form shown in the URL or at the top of the page.
-    - **`urlform`:** For e.g. Klingon, where the URL of the word *qa'* is `https://klingon.wiki/Word/Ka-`.
+    - **`translit`:** A transliteration if needed.
+    - **`urlform`:** For e.g. Klingon, where the URL of the word *qa'* is `https://klingon.wiki/Word/Ka-`; or Arabic, where URLs should lack vowels.
+    - **`link`:** Set to `false` to not link the word somewhere.
 - **`notes`.**
 
 Root-specific:
