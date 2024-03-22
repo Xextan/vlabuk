@@ -10,7 +10,7 @@
     --gray: #6b6b6b;
 }
 * {
-    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    transition: background-color 0.2s;
 }
 input[type="text"] {
     font: inherit;
