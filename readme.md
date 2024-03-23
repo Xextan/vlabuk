@@ -31,4 +31,4 @@ The "pat." column is unnecessary here as it can be found via `/[^aeiou]$/.test(w
 
 Compound-specific: **`gloss`**.
 
-Particle-specific: **`class`**, **`status`**.
+Particle-specific: **`type`**.

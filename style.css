@@ -8,10 +8,6 @@
     --blue: blue;
     --purple: purple;
     --gray: #6b6b6b;
-    --app: #674ea7;
-    --exp: #a64d79;
-    --leg: #256bc9;
-    --spec: #7d6b25;
 }
 * {
     transition: background-color 0.2s;
@@ -70,18 +66,6 @@ input[type="text"] {
 .Relation {
     background-color: var(--green);
 }
-.Approved {
-    background-color: var(--app);
-}
-.Experimental {
-    background-color: var(--exp);
-}
-.Legacy {
-    background-color: var(--leg);
-}
-.Speculative {
-    background-color: var(--spec);
-}
 .more {
     color: #000c;
 }
@@ -100,9 +84,6 @@ html.pickle {
     --green: #070;
     --cyan: #007273;
     --gray: #676767;
-    --exp: #a14874;
-    --leg: #1564c1;
-    --spec: #76641e;
 }
 html.pickle header {
     background-color: green;
@@ -121,10 +102,6 @@ html.pickle a {
         --blue: #a06bff;
         --purple: #cc5cc9;
         --gray: #898989;
-        --app: #9578d6;
-        --exp: #c76b97;
-        --leg: #5288ea;
-        --spec: #9d8841;
     }
     .entry {
         background-color: #fff2;
@@ -146,10 +123,6 @@ html.pickle a {
         --blue: #c088ff;
         --purple: #ea77e5;
         --gray: #a3a3a3;
-        --app: #b192f3;
-        --exp: #e485b2;
-        --leg: #6fa0ff;
-        --spec: #b6a058;
     }
     html.pickle a {
         color: lightgreen;

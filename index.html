@@ -46,7 +46,7 @@
             function htmlify(entry) {
                 let pos =
                 entry.alignment ? " root" :
-                    entry.status ? " particle" :
+                    entry.type ? " particle" :
                         entry.gloss ? " compound" :
                             /^.{0,2}[áéíóú]/iu.test(entry.word) || /^..[^ptkln]/.test(entry.word) ? " freeword" : " bad";
                 let etym_content = [
@@ -59,7 +59,6 @@
                         mkelem("b", {}, [entry.word]),
                         " ",
                         entry.type ? mkelem("span", {"className": "type " + entry.type.split(" ")[0]}, [entry.type]) : null,
-                        entry.status ? mkelem("span", {"className": "type " + entry.status}, [entry.status]) : null,
                         " ",
                     // ]),
                     // mkelem("p", {}, [
