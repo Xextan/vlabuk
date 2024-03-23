@@ -1132,5 +1132,85 @@
             "translit": "nán"
         },
         "notes": "& man, boy"
+    },
+    {
+        "word": "a",
+        "def": "dative case marker",
+        "type": "Preposition",
+        "status": "Approved",
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "al"
+        }
+    },
+    {
+        "word": "e",
+        "def": "accusative case marker",
+        "type": "Preposition",
+        "status": "Approved",
+        "etymology": {
+            "lang": "Toki Pona",
+            "word": "e"
+        }
+    },
+    {
+        "word": "i",
+        "def": "modal illocution: declarative",
+        "type": "Illocution",
+        "status": "Approved",
+        "etymology": {
+            "lang": "Loglan/Lojban",
+            "word": "i"
+        }
+    },
+    {
+        "word": "o",
+        "def": "nominative case marker",
+        "type": "Preposition",
+        "status": "Approved",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "lo"
+        }
+    },
+    {
+        "word": "u",
+        "def": "verb marker",
+        "type": "Preposition",
+        "status": "Approved",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "cu"
+        }
+    },
+    {
+        "word": "bi",
+        "def": "obviative existential pronoun",
+        "type": "Pronoun",
+        "status": "Experimental",
+        "etymology": {
+            "lang": "by analogy; cf. «ba»"
+        }
+    },
+    {
+        "word": "pio",
+        "def": "instrumental case marker",
+        "type": "Preposition",
+        "status": "Legacy",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "pi'o"
+        },
+        "notes": "Later reassigned to «fo»; «pio» appears in older texts"
+    },
+    {
+        "word": "tua",
+        "def": "obviative deictic dative case",
+        "type": "Preposition",
+        "status": "Speculative",
+        "etymology": {
+            "lang": "by analogy; cf. «ti», «ta»"
+        },
+        "notes": "Oh man, this is getting ridiculous."
     }
 ]
