@@ -103,6 +103,8 @@
                     url = "https://klingon.wiki/Word/" + (e.urlform || e.word);
                 } else if (e.lang == "Toki Pona") {
                     url = "https://linku.la/?q=" + e.word;
+                } else if (e.lang == "Japanese") {
+                    url = "https://jisho.org/search/" + e.word;
                 } else {
                     url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
                 }

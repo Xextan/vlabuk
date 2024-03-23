@@ -16,6 +16,7 @@ Ceqli      - ? (bel ble don fal)
 Volapuk    - ? (bli)
 Navajo     - ? (dit)
 Toki Pona  - https://linku.la/?q=◌
+Japanese   - https://jisho.org/search/◌
 
 maybe urlform can also just be determined per language
 ex Wikt = first word to strip transliterations
