@@ -62,7 +62,7 @@
             "urlform": "باب",
             "translit": "bāb"
         },
-        "notes": "Sense 'door' refers to the physical object, not the space/entryway («ziddil», «goddil»)"
+        "notes": "Sense \"door\" refers to the physical object, not the space/entryway («ziddil», «goddil»)"
     },
     {
         "word": "bat",
@@ -102,7 +102,7 @@
         "word": "ben",
         "def": "burn",
         "type": "Junction",
-        "alignment": "O burns",
+        "alignment": "O burns with fire E",
         "semantics": [
             "burn",
             "cook",
@@ -112,7 +112,7 @@
             "lang": "German",
             "word": "brennen"
         },
-        "notes": "& fire («benvli»); 'be on fire' = «ten» («e») «benvli»"
+        "notes": "& fire («benvli»); \"be on fire\" = «ten» («e») «benvli»"
     },
     {
         "word": "bet",
@@ -136,7 +136,7 @@
         "xo": "force (n.)",
         "ko": "violent",
         "type": "State",
-        "alignment": "Ou occurs by force",
+        "alignment": "O forces Eu to occur",
         "semantics": [
             "forced",
             "compelled",
@@ -1097,6 +1097,73 @@
         }
     },
     {
+        "word": "gen",
+        "def": "more",
+        "type": "Relation",
+        "alignment": "O exceeds E in Au",
+        "semantics": [
+            "more",
+            "-er",
+            "greater",
+            "bigger"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "更",
+            "translit": "gèng"
+        }
+    },
+    {
+        "word": "get",
+        "def": "obtain",
+        "type": "Relation",
+        "alignment": "O obtains E from A",
+        "semantics": [
+            "obtain",
+            "get",
+            "acquire",
+            "receive"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "get ← getsi"
+        }
+    },
+    {
+        "word": "gin",
+        "def": "gene",
+        "xo": "",
+        "ko": "",
+        "type": "Junction",
+        "alignment": "O are the genes of E",
+        "semantics": [
+            "genetic",
+            "DNA",
+            "family",
+            "congenital"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "gin ← jgina"
+        }
+    },
+    {
+        "word": "gip",
+        "def": "destroy",
+        "type": "Junction",
+        "alignment": "O destroys E",
+        "semantics": [
+            "destroy",
+            "annihilate",
+            "obliterate",
+            "raze"
+        ],
+        "etymology": {
+            "lang": "Tagalog",
+            "word": "gibâ"
+        }
+    },
+    {
         "word": "klu",
         "def": "salt",
         "type": "Entity",
@@ -1112,6 +1179,52 @@
             "translit": "glʉʉa"
         },
         "notes": "For sp. table salt (NaCl) see «klusup»"
+    },
+    {
+        "word": "lek",
+        "def": "repair",
+        "type": "Relation",
+        "alignment": "O repairs E in Au",
+        "semantics": [
+            "repair",
+            "fix",
+            "treat"
+        ],
+        "etymology": {
+            "lang": "Polish",
+            "word": "lek"
+        }
+    },
+    {
+        "word": "lul",
+        "def": "thickness",
+        "type": "Junction",
+        "alignment": "O has thickness E",
+        "semantics": [
+            "thickness",
+            "thick",
+            "thin"
+        ],
+        "etymology": {
+            "lang": "Zulu",
+            "word": "-lula",
+            "urlform": "lula"
+        },
+        "notes": ""
+    },
+    {
+        "word": "nak",
+        "def": "present",
+        "type": "Junction",
+        "alignment": "O is the present of E",
+        "semantics": [
+            "present",
+            "simultaneous"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "na"
+        }
     },
     {
         "word": "nan",
@@ -1132,6 +1245,21 @@
             "translit": "nán"
         },
         "notes": "& man, boy"
+    },
+    {
+        "word": "xul",
+        "def": "weigh",
+        "type": "Junction",
+        "alignment": "O has weight E",
+        "semantics": [
+            "weigh",
+            "weight",
+            "mass"
+        ],
+        "etymology": {
+            "lang": "Hungarian",
+            "word": "súly"
+        }
     },
     {
         "word": "a",
@@ -1177,5 +1305,1301 @@
             "lang": "Lojban",
             "word": "cu"
         }
+    },
+    {
+        "word": "pa",
+        "def": "past tense",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "pa"
+        }
+    },
+    {
+        "word": "pe",
+        "def": "associative marker",
+        "type": "Tag",
+        "etymology": {
+            "lang": "Loglan/Lojban",
+            "word": "pe"
+        },
+        "notes": "ultimately from Loglan {perti} (\"to pertain\")"
+    },
+    {
+        "word": "pi",
+        "def": "associative binder (close binding)",
+        "type": "Tag",
+        "etymology": {
+            "lang": "Toki Pona",
+            "word": "pi"
+        }
+    },
+    {
+        "word": "po",
+        "def": "subordinate clause marker",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "po"
+        }
+    },
+    {
+        "word": "pu",
+        "def": "division operator",
+        "type": "Connective",
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "also fraction sign | pu«duo» = 1/2; «tie» pu«kua» = 3/4"
+    },
+    {
+        "word": "ba",
+        "def": "existential pronoun",
+        "type": "Predicate",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "ba"
+        }
+    },
+    {
+        "word": "bo",
+        "def": "null predicate",
+        "type": "Predicate",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "bo"
+        }
+    },
+    {
+        "word": "bu",
+        "def": "modifier: opposite",
+        "type": "Modifier",
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "不",
+            "translit": "bù"
+        }
+    },
+    {
+        "word": "ta",
+        "def": "deictic dative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "contraction: «a» + «tu»"
+        }
+    },
+    {
+        "word": "te",
+        "def": "deictic accusative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "contraction: «e» + «tu»"
+        }
+    },
+    {
+        "word": "ti",
+        "def": "deictic generic pronoun",
+        "type": "Pronoun",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "ti"
+        }
+    },
+    {
+        "word": "to",
+        "def": "deictic nominative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "contraction: «o» + «tu»"
+        }
+    },
+    {
+        "word": "tu",
+        "def": "deictic verb marker",
+        "type": "Transmogrifier",
+        "etymology": {
+            "lang": "contraction: «ti» + «u»"
+        }
+    },
+    {
+        "word": "da",
+        "def": "bind noun phrase to predicate (dative)",
+        "type": "Binder",
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "da"
+        }
+    },
+    {
+        "word": "de",
+        "def": "bind noun phrase to predicate (accusative)",
+        "type": "Binder",
+        "etymology": {
+            "lang": "Spanish",
+            "word": "de"
+        }
+    },
+    {
+        "word": "di",
+        "def": "obviative abstract pronoun",
+        "type": "Pronoun",
+        "etymology": {
+            "lang": "by analogy; cf. «du»"
+        },
+        "notes": "\"that\" (abstract)"
+    },
+    {
+        "word": "do",
+        "def": "bind n. phrase to predicate (nominative)",
+        "type": "Binder",
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "do"
+        }
+    },
+    {
+        "word": "du",
+        "def": "3rd person abstract pronoun",
+        "type": "Pronoun",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "di'u"
+        },
+        "notes": "\"this\" (abstract)"
+    },
+    {
+        "word": "ka",
+        "def": "interrogative predicate",
+        "type": "Predicate",
+        "etymology": {
+            "lang": "Japanese",
+            "word": "か",
+            "translit": "ka"
+        }
+    },
+    {
+        "word": "ke",
+        "def": "relative clause marker",
+        "type": "Tag",
+        "etymology": {
+            "lang": "Spanish",
+            "word": "que"
+        }
+    },
+    {
+        "word": "ki",
+        "def": "marker for comment/nr. rel. clause",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "que"
+        }
+    },
+    {
+        "word": "ko",
+        "def": "agentive/habitual suffix",
+        "type": "Suffix",
+        "etymology": {
+            "lang": "backformed from «kou»"
+        }
+    },
+    {
+        "word": "ku",
+        "def": "long scope clause terminator",
+        "type": "Terminator",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "ku"
+        }
+    },
+    {
+        "word": "ga",
+        "def": "dative passive voice",
+        "type": "Modifier",
+        "etymology": {
+            "lang": "by analogy; cf. «ge», «a»"
+        },
+        "notes": "Swaps O and A roles"
+    },
+    {
+        "word": "ge",
+        "def": "passive voice",
+        "type": "Modifier",
+        "etymology": {
+            "lang": "German",
+            "word": "ge-"
+        },
+        "notes": "Swaps O and E roles"
+    },
+    {
+        "word": "gi",
+        "def": "obviative inanimate pronoun",
+        "type": "Pronoun",
+        "etymology": {
+            "lang": "by analogy; cf. «go»"
+        }
+    },
+    {
+        "word": "go",
+        "def": "3rd person inanimate pronoun",
+        "type": "Pronoun",
+        "etymology": {
+            "lang": "Korean",
+            "word": "것",
+            "translit": "geot"
+        }
+    },
+    {
+        "word": "gu",
+        "def": "short scope clause terminator",
+        "type": "Terminator",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "fa"
+        }
+    },
+    {
+        "word": "fa",
+        "def": "future tense",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "fa"
+        }
+    },
+    {
+        "word": "fe",
+        "def": "adverbial marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «fi»"
+        }
+    },
+    {
+        "word": "fi",
+        "def": "discursive marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "fi'o"
+        }
+    },
+    {
+        "word": "fo",
+        "def": "instrumental case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "backformed from «fol»"
+        }
+    },
+    {
+        "word": "fu",
+        "def": "generalizing suffix",
+        "type": "Suffix",
+        "etymology": {
+            "lang": "CS jargon",
+            "word": "foo"
+        },
+        "notes": "-ish, -ishness"
+    },
+    {
+        "word": "vi",
+        "def": "obviative 2nd person pronoun",
+        "type": "Pronoun",
+        "etymology": {
+            "lang": "by analogy; cf. «vo»"
+        },
+        "notes": "\"...and you\""
+    },
+    {
+        "word": "vo",
+        "def": "2nd person pronoun",
+        "type": "Pronoun",
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "você"
+        }
+    },
+    {
+        "word": "vu",
+        "def": "discourse terminator",
+        "type": "Terminator",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "vau"
+        },
+        "notes": "\"Anyway...\""
+    },
+    {
+        "word": "se",
+        "def": "reflexive suffix",
+        "type": "Suffix",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "sefsi"
+        },
+        "notes": "[U:O-O]"
+    },
+    {
+        "word": "si",
+        "def": "reciprocal marker",
+        "type": "Suffix",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "simxu"
+        }
+    },
+    {
+        "word": "so",
+        "def": "delimiting marker (\"only\"/\"just\")",
+        "type": "Modifier",
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "só"
+        }
+    },
+    {
+        "word": "su",
+        "def": "numeral: at least [one]",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "su"
+        }
+    },
+    {
+        "word": "za",
+        "def": "context/location",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "backformed from «zal»"
+        },
+        "notes": "older texts may use «bu»"
+    },
+    {
+        "word": "ze",
+        "def": "non-logical connective",
+        "type": "Connective",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "ze"
+        },
+        "notes": "with; in conjunction with"
+    },
+    {
+        "word": "zi",
+        "def": "elemental suffix",
+        "type": "Suffix",
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "子",
+            "translit": "zǐ"
+        },
+        "notes": "cf. Esperanto {-ero}"
+    },
+    {
+        "word": "xa",
+        "def": "conditional tense (irrealis)",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "by analogy; cf. «pa», «na», «fa»"
+        },
+        "notes": "...then Y (consequent of if-then statement) | see «xau»"
+    },
+    {
+        "word": "xe",
+        "def": "lambda/resumptive pronoun",
+        "type": "Pronoun",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "ce'u"
+        }
+    },
+    {
+        "word": "xi",
+        "def": "attach subscript",
+        "type": "Tag",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "ci"
+        }
+    },
+    {
+        "word": "xo",
+        "def": "object suffix",
+        "type": "Suffix",
+        "etymology": {
+            "lang": "Ceqli",
+            "word": "-xo"
+        },
+        "notes": "cf. Esperanto {aĵo}"
+    },
+    {
+        "word": "xu",
+        "def": "universal terminator (reset to base level)",
+        "type": "Terminator",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "cu"
+        }
+    },
+    {
+        "word": "qa",
+        "def": "logical connective: OR",
+        "type": "Connective",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "ja"
+        }
+    },
+    {
+        "word": "qe",
+        "def": "logical connective: AND",
+        "type": "Connective",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "je"
+        }
+    },
+    {
+        "word": "qi",
+        "def": "determiner: collective",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "backformed; cf. «oi»/«ei»/«ai»"
+        }
+    },
+    {
+        "word": "qo",
+        "def": "logical connective: XOR",
+        "type": "Connective",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "jo"
+        }
+    },
+    {
+        "word": "la",
+        "def": "name marker",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "la"
+        }
+    },
+    {
+        "word": "le",
+        "def": "3rd person animate pronoun",
+        "type": "Pronoun",
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "ele"
+        }
+    },
+    {
+        "word": "li",
+        "def": "obviative animate pronoun",
+        "type": "Pronoun",
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "ele"
+        }
+    },
+    {
+        "word": "lo",
+        "def": "gnomic determiner",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "loe"
+        }
+    },
+    {
+        "word": "lu",
+        "def": "quote marker",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "lu"
+        }
+    },
+    {
+        "word": "na",
+        "def": "present tense",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "na"
+        }
+    },
+    {
+        "word": "ne",
+        "def": "numeral: 1",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "ne"
+        }
+    },
+    {
+        "word": "ni",
+        "def": "1st person pronoun",
+        "type": "Pronoun",
+        "etymology": {
+            "lang": "Basque",
+            "word": "ni"
+        }
+    },
+    {
+        "word": "no",
+        "def": "negation modifier",
+        "type": "Modifier",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "no"
+        }
+    },
+    {
+        "word": "nu",
+        "def": "numeral: 0",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "by analogy; cf. «nu»"
+        }
+    },
+    {
+        "word": "ja",
+        "def": "modal illocution: interrogative",
+        "type": "Illocution",
+        "etymology": {
+            "lang": "Lojban (dialectal)",
+            "word": ".a",
+            "link": "https://wiki.lojban.io/New_Sentence_Links"
+        }
+    },
+    {
+        "word": "je",
+        "def": "discursive illocution: comparative",
+        "type": "Illocution",
+        "etymology": {
+            "lang": "Lojban (dialectal)",
+            "word": ".e",
+            "link": "https://wiki.lojban.io/New_Sentence_Links"
+        }
+    },
+    {
+        "word": "ji",
+        "def": "modal illocution: performative",
+        "type": "Illocution",
+        "etymology": {
+            "lang": "by analogy; cf. «ja», «je», «jo», «ju»"
+        }
+    },
+    {
+        "word": "jo",
+        "def": "modal illocution: imperative",
+        "type": "Illocution",
+        "etymology": {
+            "lang": "Lojban (dialectal)",
+            "word": ".o",
+            "link": "https://wiki.lojban.io/New_Sentence_Links"
+        }
+    },
+    {
+        "word": "ju",
+        "def": "discursive illocution: contrastive",
+        "type": "Illocution",
+        "etymology": {
+            "lang": "Lojban (dialectal)",
+            "word": ".u",
+            "link": "https://wiki.lojban.io/New_Sentence_Links"
+        }
+    },
+    {
+        "word": "tie",
+        "def": "numeral: 3",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "três"
+        }
+    },
+    {
+        "word": "die",
+        "def": "suffix: time (days)",
+        "type": "Suffix",
+        "etymology": {
+            "lang": "Latin",
+            "word": "dies"
+        }
+    },
+    {
+        "word": "kie",
+        "def": "vocative: please / thank you / excuse me",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "Toaq",
+            "word": "kıe"
+        }
+    },
+    {
+        "word": "giu",
+        "def": "numeral: 9",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Japanese",
+            "word": "九",
+            "translit": "kyū"
+        }
+    },
+    {
+        "word": "fia",
+        "def": "adverbial: interrogative",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "by analogy; «fi» + «ja»"
+        },
+        "notes": "is it? right? correct?"
+    },
+    {
+        "word": "fie",
+        "def": "adverbial: discursive and",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "by analogy; «fi» + «je»"
+        },
+        "notes": "also, moreover, relatedly"
+    },
+    {
+        "word": "fio",
+        "def": "adverbial: imperative",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "by analogy; «fi» + «jo»"
+        },
+        "notes": "make it so!"
+    },
+    {
+        "word": "fiu",
+        "def": "adverbial: discursive but",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "by analogy; «fi» + «ju»"
+        },
+        "notes": "though, although, however, but"
+    },
+    {
+        "word": "lia",
+        "def": "3rd person animate possessive",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "lia"
+        },
+        "notes": "his, her, their"
+    },
+    {
+        "word": "lio",
+        "def": "numeral: 6",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "六",
+            "translit": "liù"
+        }
+    },
+    {
+        "word": "nia",
+        "def": "1st person possessive",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "nia"
+        },
+        "notes": "my, our"
+    },
+    {
+        "word": "niu",
+        "def": "suffix: time (years)",
+        "type": "Suffix",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "nei'o"
+        }
+    },
+    {
+        "word": "wa",
+        "def": "attitudinal: understanding",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "ua"
+        },
+        "notes": "\"Understandably...\" / \"I see\" / \"Got it\""
+    },
+    {
+        "word": "we",
+        "def": "attitudinal: surprise",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "ue"
+        },
+        "notes": "\"Surprisingly...\" / \"whoa!\" / \"wow!\""
+    },
+    {
+        "word": "wi",
+        "def": "attitudinal: happiness",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "uo"
+        },
+        "notes": "\"Fortunately...\" / \"Yay!\" / \"Great!\""
+    },
+    {
+        "word": "wo",
+        "def": "attitudinal: anger",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "uo"
+        },
+        "notes": "\"Annoyingly...\" / \"Dang!\" / \"Ugh!\""
+    },
+    {
+        "word": "wu",
+        "def": "attitudinal: sadness",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "uu"
+        },
+        "notes": "\"Unfortunately...\" / \"Bummer\" / \"I'm sorry\""
+    },
+    {
+        "word": "bui",
+        "def": "numeral: 8",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "bi"
+        }
+    },
+    {
+        "word": "dua",
+        "def": "3rd person abstract possessive",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "by analogy; cf. «du», «gua»"
+        }
+    },
+    {
+        "word": "duo",
+        "def": "numeral: 2",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Proto-Indo-European",
+            "word": "*dwóh₁"
+        }
+    },
+    {
+        "word": "kua",
+        "def": "numeral: 4",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "quatro"
+        }
+    },
+    {
+        "word": "gua",
+        "def": "3rd person inanimate possessive",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "by analogy; cf. «go», «vua»"
+        }
+    },
+    {
+        "word": "vua",
+        "def": "2nd person possessive",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "by analogy; cf. «vo»"
+        },
+        "notes": "your, yours"
+    },
+    {
+        "word": "sua",
+        "def": "special numeral: all",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "so'a"
+        }
+    },
+    {
+        "word": "sue",
+        "def": "special numeral: most",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "so'e"
+        }
+    },
+    {
+        "word": "sui",
+        "def": "special numeral: many",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "so'i"
+        }
+    },
+    {
+        "word": "suo",
+        "def": "special numeral: few",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "so'o"
+        }
+    },
+    {
+        "word": "xue",
+        "def": "vocative: inverse vocative",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "hue"
+        },
+        "notes": "said X, quoth X | Can be delimited with discourse marker «vu»"
+    },
+    {
+        "word": "lua",
+        "def": "suffix: time (months)",
+        "type": "Suffix",
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "lua"
+        }
+    },
+    {
+        "word": "nue",
+        "def": "negative sign, -1",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "by analogy; cf. «nu», «ne»"
+        }
+    },
+    {
+        "word": "ai",
+        "def": "collective dative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «a»"
+        }
+    },
+    {
+        "word": "ei",
+        "def": "collective accusative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «e»"
+        }
+    },
+    {
+        "word": "oi",
+        "def": "collective nominative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «o»"
+        }
+    },
+    {
+        "word": "pai",
+        "def": "ablative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «fai», «pau»"
+        },
+        "notes": "from, away from"
+    },
+    {
+        "word": "pei",
+        "def": "numeral: 5",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Proto-Indo-European",
+            "word": "*pénkʷe"
+        }
+    },
+    {
+        "word": "tai",
+        "def": "deictic collective dative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «ta»"
+        }
+    },
+    {
+        "word": "tei",
+        "def": "deictic collective accusative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «te»"
+        }
+    },
+    {
+        "word": "toi",
+        "def": "deictic collective nominative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «to»"
+        }
+    },
+    {
+        "word": "dai",
+        "def": "dative mass binder",
+        "type": "Binder",
+        "etymology": {
+            "lang": "contraction: «da» + «qi»"
+        }
+    },
+    {
+        "word": "dei",
+        "def": "accusative mass binder",
+        "type": "Binder",
+        "etymology": {
+            "lang": "contraction: «de» + «qi»"
+        }
+    },
+    {
+        "word": "doi",
+        "def": "nominative mass binder",
+        "type": "Binder",
+        "etymology": {
+            "lang": "contraction: «do» + «qi»"
+        }
+    },
+    {
+        "word": "kai",
+        "def": "comparative",
+        "type": "Connective",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "kai"
+        },
+        "notes": "like, as, similar to"
+    },
+    {
+        "word": "kei",
+        "def": "probability: possibly/maybe",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "backformed from «ken»"
+        }
+    },
+    {
+        "word": "fai",
+        "def": "allative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "fa'a"
+        },
+        "notes": "to, toward"
+    },
+    {
+        "word": "fei",
+        "def": "modifier: somewhat",
+        "type": "Modifier",
+        "etymology": {
+            "lang": "by analogy; cf. «sai», «fep»"
+        },
+        "notes": "somewhat, a bit, kinda, sorta, vaguely"
+    },
+    {
+        "word": "vei",
+        "def": "perspective case marker (frame of reference)",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "backformed from «vet»"
+        },
+        "notes": "according to, from the perspective of"
+    },
+    {
+        "word": "voi",
+        "def": "vocative marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «vo»"
+        },
+        "notes": "parallels Lojban {do}/{doi}"
+    },
+    {
+        "word": "sai",
+        "def": "general intensifier",
+        "type": "Modifier",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "sai"
+        },
+        "notes": "very, so [intensifier]"
+    },
+    {
+        "word": "sei",
+        "def": "figurative marker",
+        "type": "Modifier",
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "so to speak, figuratively speaking, if you will"
+    },
+    {
+        "word": "soi",
+        "def": "focus emphasis",
+        "type": "Modifier",
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "even, X himself/herself/themself/itself [emphasizer]"
+    },
+    {
+        "word": "zei",
+        "def": "adverbial: always",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "ze'e"
+        },
+        "notes": "always, forever (when combined with tense)"
+    },
+    {
+        "word": "zoi",
+        "def": "end topic statement/prenex",
+        "type": "Illocution",
+        "etymology": [
+            {
+                "lang": "Lojban",
+                "word": "zo'u"
+            },
+            {
+                "lang": "Loglan",
+                "word": "zoi"
+            }
+        ],
+        "notes": "as for, given, so..., well..."
+    },
+    {
+        "word": "xai",
+        "def": "numeral: 7",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "七",
+            "translit": "qī"
+        }
+    },
+    {
+        "word": "xoi",
+        "def": "vocative: greetings/farewell",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "coi"
+        },
+        "notes": "hello, hi, goodbye, bye | also \\«xoi xoi!» (informal)"
+    },
+    {
+        "word": "qai",
+        "def": "illocution: OR",
+        "type": "Illocution",
+        "etymology": {
+            "lang": "contraction: «qa» + «i»"
+        }
+    },
+    {
+        "word": "qei",
+        "def": "illocution: AND",
+        "type": "Illocution",
+        "etymology": {
+            "lang": "contraction: «qe» + «i»"
+        }
+    },
+    {
+        "word": "qoi",
+        "def": "illocution: XOR",
+        "type": "Illocution",
+        "etymology": {
+            "lang": "contraction: «qo» + «i»"
+        }
+    },
+    {
+        "word": "lai",
+        "def": "probability: probably",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "la'a"
+        }
+    },
+    {
+        "word": "nai",
+        "def": "adverbial: false",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "nai"
+        },
+        "notes": "no, not true, I disagree"
+    },
+    {
+        "word": "noi",
+        "def": "adverbial: never",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "noroi"
+        },
+        "notes": "never, at no point"
+    },
+    {
+        "word": "au",
+        "def": "abstract dative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «a»"
+        }
+    },
+    {
+        "word": "eu",
+        "def": "abstract accusative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «e»"
+        }
+    },
+    {
+        "word": "ou",
+        "def": "abstract nominative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «o»"
+        }
+    },
+    {
+        "word": "pau",
+        "def": "comparative past tense clause marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «pa»"
+        },
+        "notes": "before, prior to"
+    },
+    {
+        "word": "peu",
+        "def": "topical case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "peu"
+        },
+        "notes": "about, regarding, concerning"
+    },
+    {
+        "word": "bau",
+        "def": "lambda determiner",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "bao"
+        }
+    },
+    {
+        "word": "kou",
+        "def": "causative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "kou"
+        }
+    },
+    {
+        "word": "fau",
+        "def": "comparative future tense clause marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «fa»"
+        },
+        "notes": "after, following"
+    },
+    {
+        "word": "xau",
+        "def": "conditional clause marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «xa»"
+        },
+        "notes": "if X... (antecedent of if-then statement); see «xa»"
+    },
+    {
+        "word": "qeu",
+        "def": "affirmative adverbial",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "je'u"
+        },
+        "notes": "yes, indeed, true, I agree"
+    },
+    {
+        "word": "lau",
+        "def": "non-Xextanized name marker",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "lao"
+        }
+    },
+    {
+        "word": "lou",
+        "def": "non-Xextanized quote marker",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "by analogy; cf. «lu», «lau»"
+        }
+    },
+    {
+        "word": "nau",
+        "def": "comparative present tense clause marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «na»"
+        },
+        "notes": "while, during"
+    },
+    {
+        "word": "neu",
+        "def": "purpose/reason clause marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "because, in order to"
+    },
+    {
+        "word": "banfla",
+        "def": "grammar",
+        "gloss": "language rule",
+        "type": "Junction",
+        "alignment": "O is the grammar of E"
+    },
+    {
+        "word": "bankok",
+        "def": "translate",
+        "gloss": "language cause",
+        "type": "Direction",
+        "alignment": "O translates E to A"
     }
 ]

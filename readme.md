@@ -12,12 +12,12 @@ Properties that exist:
 
 - **`word`.**
 - **`def`:** The *short definition*, corresponding to the "concept" spreadsheet column for roots, "meaning" for compounds/freewords, and "function" for particles.
-- **`etymology`:**
+- **`etymology`:** Either an object or a list of them, each with at most these properties:
     - **`lang`:** Source language.
-    - **`word`.** If the word has a Wiktionary entry, please put the form shown in the URL or at the top of the page.
+    - **`word`.**
     - **`translit`:** A transliteration if needed.
     - **`urlform`:** For e.g. Klingon, where the URL of the word *qa'* is `https://klingon.wiki/Word/Ka-`; or Arabic, where URLs should lack vowels.
-    - **`link`:** Set to `false` to not link the word somewhere.
+    - **`link`:** Set to `false` to not link the word anywhere, or a URL to force the link to go there.
 - **`notes`.**
 
 Root-specific:

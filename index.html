@@ -45,15 +45,29 @@
             }
             function htmlify(entry) {
                 let pos =
+                entry.gloss ? " compound" :
                 entry.alignment ? " root" :
-                    entry.type ? " particle" :
-                        entry.gloss ? " compound" :
-                            /^.{0,2}[áéíóú]/iu.test(entry.word) || /^..[^ptkln]/.test(entry.word) ? " freeword" : " bad";
-                let etym_content = [
-                    entry.etymology.word,
-                    " ",
-                    entry.etymology.translit ? mkelem("i", {}, [entry.etymology.translit]) : null
-                ];
+                entry.type ? " particle" :
+                /^.{0,2}[áéíóú]/iu.test(entry.word) || /^..[^ptkln]/.test(entry.word) ? " freeword" : " bad";
+                let etym_content = entry.etymology ? mkelem("p", {}, [
+                    mkelem("span", {"className": "h"}, ["Etymology: "]),
+                    ...(entry.etymology.length ? entry.etymology : [entry.etymology]).map((e, i) => [
+                        i ? " + " : null,
+                        e.lang,
+                        " ",
+                        e.word ?
+                            e.link ?? true ? mkelem("a", {"href": url(e)}, [
+                                e.word,
+                                " ",
+                                e.translit ? mkelem("i", {}, [e.translit]) : null
+                            ]) : mkelem("span", {}, [
+                                e.word,
+                                " ",
+                                e.translit ? mkelem("i", {}, [e.translit]) : null
+                            ])
+                        : null,
+                    ]).flat()
+                ]) : null;
                 return mkelem("div", {"className": "entry" + pos}, [
                     mkelem("p", {}, [
                         mkelem("b", {}, [entry.word]),
@@ -65,7 +79,10 @@
                         entry.def,
                         entry.alignment ? " – " + entry.alignment : null
                     ]),
-                    entry.notes || entry.semantics || entry.etymology || entry.xo || entry.ko ? mkelem("p", {"className": "more"}, [
+                    entry.notes || entry.semantics || entry.etymology || entry.xo || entry.ko || entry.gloss  ? mkelem("div", {"className": "more"}, [
+                        entry.gloss ? mkelem("p", {}, [
+                            mkelem("code", {}, entry.gloss)
+                        ]) : null,
                         entry.semantics ? mkelem("p", {}, [
                             mkelem("span", {"className": "h"}, ["Keywords: "]),
                             entry.semantics.join(", ")
@@ -82,29 +99,30 @@
                             mkelem("span", {"className": "h"}, ["Notes: "]),
                             entry.notes
                         ]) : null,
-                        entry.etymology ? mkelem("p", {}, [
-                            mkelem("span", {"className": "h"}, ["Etymology: "]),
-                            entry.etymology.lang,
-                            " ",
-                            entry.etymology.word ?
-                                entry.etymology.link ?? true ? mkelem("a", {"href": url(entry.etymology)}, etym_content) : mkelem("span", {}, etym_content)
-                            : null,
-                        ]) : null,
+                        entry.etymology ? etym_content : null,
                     ]) : null
                 ]);
             }
             function url(e) {
                 var url;
-                if (e.lang == "Loglan") {
+                if (e.link) {
+                    url = e.link;
+                } else if (e.lang == "Loglan") {
                     url = "https://randall-holmes.github.io/Loglan/Dictionary/L-to-E-TDR.html#" + (e.urlform || e.word);
                 } else if (e.lang.endsWith("Lojban")) {
                     url = "https://sisku.org?en#" + (e.urlform || e.word);
                 } else if (e.lang == "Klingon") {
                     url = "https://klingon.wiki/Word/" + (e.urlform || e.word);
+                } else if (e.lang == "Ceqli") {
+                    url = "http://ceqli.pbworks.com/w/page/5455969/Ceqli-English%20Glossary";
                 } else if (e.lang == "Toki Pona") {
                     url = "https://linku.la/?q=" + e.word;
                 } else if (e.lang == "Japanese") {
-                    url = "https://jisho.org/search/" + e.word;
+                    url = "https://jisho.org/word/" + e.word;
+                } else if (e.lang == "Toaq") {
+                    url = "https://toadua.uakci.pl/#=" + e.word;
+                } else if (e.lang == "Proto-Indo-European") {
+                    url = "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/" + e.word.slice(1);
                 } else {
                     url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
                 }

@@ -1,19 +1,18 @@
-use minify::json::minify_from_read;
+// use serde::{Deserialize, Serialize};
 use notoize::NotoizeClient;
-use std::{
-    fs::{self, File},
-    io::Read,
-};
+use serde_json::Value;
+use std::fs;
 
 fn main() {
-    let mut min = String::new();
-    let _ = minify_from_read(File::open("words.json").unwrap()).read_to_string(&mut min);
-    fs::write("words.js", format!("const dict = {min};")).unwrap();
+    let min = serde_json::to_string(
+        &serde_json::from_str::<Vec<Value>>(&fs::read_to_string("words.json").unwrap()).unwrap(),
+    )
+    .unwrap();
+    fs::write("words.js", format!("const dict = {min}.sort(function(a, b) {{return a.word.localeCompare(b.word);}});")).unwrap();
     // fonts (cf xlasisku)
     let client = NotoizeClient::new();
     let mut fonts = client.clone().notoize(min.as_str()).files();
     fonts.retain(|f| !["Noto Sans"].contains(&f.fontname.as_str()));
-    drop(client);
     let mut css = String::new();
     for font in fonts.clone() {
         fs::write(format!("fonts/{}", font.filename), font.bytes).unwrap();
