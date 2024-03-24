@@ -1,3 +1,27 @@
+@font-face {
+    font-family: "Iosevka";
+    src: url("fonts/Iosevka-Regular.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Iosevka";
+    src: url("fonts/Iosevka-Italic.ttf");
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Iosevka";
+    src: url("fonts/Iosevka-Bold.ttf");
+    font-display: swap;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Iosevka";
+    src: url("fonts/Iosevka-BoldItalic.ttf");
+    font-display: swap;
+    font-weight: bold;
+    font-style: italic;
+}
 :root {
     font-family: var(--sans);
     --red: #db0000;
@@ -74,6 +98,9 @@ input[type="text"] {
 }
 .entry a {
     text-decoration: none;
+}
+code {
+    font-family: "Iosevka", var(--sans), monospace;
 }
 /* pickle mode */
 html.pickle {
