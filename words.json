@@ -1198,8 +1198,8 @@
         "word": "fik",
         "def": "difficult",
         "xo": "struggle (n.)",
-        "type": "State",
-        "alignment": "Ou is difficult",
+        "type": "Relation",
+        "alignment": "O is difficult for E in Au",
         "semantics": [
             "difficult",
             "hard",
@@ -2174,8 +2174,8 @@
         "def": "easy",
         "xo": "ease",
         "ko": "user-friendly",
-        "type": "Quality",
-        "alignment": "O is easy in Eu",
+        "type": "Relation",
+        "alignment": "O is easy for E in Au",
         "semantics": [
             "easy",
             "effortless",
