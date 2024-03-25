@@ -53,7 +53,7 @@
                     mkelem("span", {"className": "h"}, ["Etymology: "]),
                     ...(entry.etymology.length ? entry.etymology : [entry.etymology]).map((e, i) => [
                         i ? " + " : null,
-                        e.lang,
+                        e.lang ?? null,
                         " ",
                         e.word ?
                             e.link ?? true ? mkelem("a", {"href": url(e)}, [
@@ -107,6 +107,8 @@
                 var url;
                 if (e.link) {
                     url = e.link;
+                } else if (!e.lang) {
+                    url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
                 } else if (e.lang == "Loglan") {
                     url = "https://randall-holmes.github.io/Loglan/Dictionary/L-to-E-TDR.html#" + (e.urlform || e.word.split(" ").slice(-1)[0]);
                 } else if (e.lang.endsWith("Lojban")) {
@@ -126,7 +128,7 @@
                 } else if (e.lang == "Vötgil") {
                     url = "http://www.ostracodfiles.com/votgil/guide.html";
                 } else if (e.lang == "American Sign Language") {
-                    url = "https://www.signasl.org/sign/" + e.word.toLowercase();
+                    url = "https://www.signasl.org/sign/" + e.word.toLowerCase();
                 } else {
                     url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
                 }
