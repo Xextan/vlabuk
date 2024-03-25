@@ -153,6 +153,24 @@
         }
     },
     {
+        "word": "bel",
+        "def": "beautiful",
+        "xo": "beauty",
+        "type": "Quality",
+        "alignment": "O is beautiful in Eu",
+        "semantics": [
+            "beautiful",
+            "pretty",
+            "cute",
+            "attractive"
+        ],
+        "etymology": {
+            "lang": "Ceqli",
+            "word": "bel"
+        },
+        "notes": "& profound, sublime"
+    },
+    {
         "word": "ben",
         "def": "burn",
         "type": "Junction",
@@ -231,6 +249,38 @@
         "etymology": {
             "lang": "Lojban",
             "word": "bin ← jbini"
+        }
+    },
+    {
+        "word": "ble",
+        "def": "ugly",
+        "xo": "ugliness",
+        "type": "Quality",
+        "alignment": "O is ugly in Eu",
+        "semantics": [
+            "ugly",
+            "repulsive",
+            "unattractive"
+        ],
+        "etymology": {
+            "lang": "Ceqli",
+            "word": "ble"
+        },
+        "notes": "\"bel\" with letters inverted"
+    },
+    {
+        "word": "bli",
+        "def": "ready",
+        "xo": "preparation",
+        "type": "State",
+        "alignment": "Ou is ready to occur",
+        "semantics": [
+            "ready",
+            "prepared"
+        ],
+        "etymology": {
+            "lang": "Volapük",
+            "word": "blümik"
         }
     },
     {
@@ -630,6 +680,21 @@
         }
     },
     {
+        "word": "dit",
+        "def": "flat",
+        "xo": "flatness",
+        "type": "Quality",
+        "alignment": "O is flat in Eu",
+        "semantics": [
+            "flat",
+            "smooth"
+        ],
+        "etymology": {
+            "lang": "Navajo",
+            "word": "ditʼąh"
+        }
+    },
+    {
         "word": "do",
         "def": "bind n. phrase to predicate (nominative)",
         "type": "Binder",
@@ -661,6 +726,24 @@
         "etymology": {
             "lang": "Spanish",
             "word": "dolor"
+        }
+    },
+    {
+        "word": "don",
+        "def": "give",
+        "xo": "gift",
+        "type": "Direction",
+        "alignment": "O gives E to A",
+        "semantics": [
+            "give",
+            "send",
+            "convey",
+            "emit",
+            "produce"
+        ],
+        "etymology": {
+            "lang": "Ceqli",
+            "word": "don"
         }
     },
     {
@@ -937,6 +1020,23 @@
             "lang": "Loglan",
             "word": "fa"
         }
+    },
+    {
+        "word": "fal",
+        "def": "fall",
+        "type": "Direction",
+        "alignment": "O falls to E from A",
+        "semantics": [
+            "fall",
+            "drop",
+            "tumble",
+            "descend"
+        ],
+        "etymology": {
+            "lang": "Ceqli",
+            "word": "fal"
+        },
+        "notes": ""
     },
     {
         "word": "fan",
@@ -2173,8 +2273,8 @@
         "def": "together",
         "xo": "togetherness",
         "ko": "group",
-        "type": "Quality",
-        "alignment": "O (mass) are together in Eu",
+        "type": "Relation",
+        "alignment": "O is together with E in Au",
         "semantics": [
             "together",
             "accompany",
@@ -2566,7 +2666,8 @@
         "etymology": {
             "lang": "American Sign Language",
             "word": "OPEN"
-        }
+        },
+        "notes": "(imagine vertical hands + face between)"
     },
     {
         "word": "lou",
@@ -2595,6 +2696,22 @@
         }
     },
     {
+        "word": "luk",
+        "def": "attention",
+        "type": "Relation",
+        "alignment": "O pays attention to E in Au",
+        "semantics": [
+            "pay attention",
+            "observe",
+            "watch",
+            "listen"
+        ],
+        "etymology": {
+            "lang": "Toki Pona",
+            "word": "lukin"
+        }
+    },
+    {
         "word": "lul",
         "def": "thickness",
         "type": "Junction",
@@ -2608,6 +2725,58 @@
             "lang": "Zulu",
             "word": "-lula",
             "urlform": "lula"
+        }
+    },
+    {
+        "word": "lun",
+        "def": "planet",
+        "type": "Entity",
+        "alignment": "O is a planet",
+        "semantics": [
+            "planet",
+            "world",
+            "earth",
+            "moon",
+            "asteroid"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "luna"
+        }
+    },
+    {
+        "word": "lup",
+        "def": "love",
+        "type": "Junction",
+        "alignment": "O loves E",
+        "semantics": [
+            "love",
+            "affection",
+            "kindness",
+            "charity",
+            "intimacy"
+        ],
+        "etymology": {
+            "lang": "Russian",
+            "word": "любить",
+            "translit": "ljubítʹ"
+        }
+    },
+    {
+        "word": "lut",
+        "def": "compete",
+        "xo": "competition",
+        "type": "Quality",
+        "alignment": "O (mass) compete in Eu",
+        "semantics": [
+            "compete",
+            "fight",
+            "play against",
+            "challenge"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "lutar"
         }
     },
     {
