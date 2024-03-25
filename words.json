@@ -624,10 +624,10 @@
     },
     {
         "word": "dza",
-        "def": "sit",
+        "def": "on",
         "xo": "platform",
         "type": "Junction",
-        "alignment": "O sits on/atop E",
+        "alignment": "O is on E",
         "semantics": [
             "sit",
             "be on",
@@ -978,7 +978,7 @@
         "word": "fon",
         "def": "frame",
         "type": "Entity",
-        "alignment": "O is a frame/skeleton",
+        "alignment": "O is a frame",
         "semantics": [
             "frame",
             "skeleton",
