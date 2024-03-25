@@ -460,7 +460,7 @@
             "lang": "Lojban",
             "word": "zdani"
         },
-        "notes": "retained from old Xextan*"
+        "notes": "retained from old Xextan"
     },
     {
         "word": "dap",
@@ -679,22 +679,6 @@
             "lang": "Ukrainian",
             "word": "добре",
             "translit": "dóbre"
-        }
-    },
-    {
-        "word": "dot",
-        "def": "thankful",
-        "xo": "gratitude",
-        "type": "Quality",
-        "alignment": "O is thankful in Eu",
-        "semantics": [
-            "thankful",
-            "grateful",
-            "appreciative"
-        ],
-        "etymology": {
-            "lang": "Polish",
-            "word": "doceniać"
         }
     },
     {
@@ -1274,8 +1258,8 @@
     {
         "word": "fol",
         "def": "use",
-        "type": "Junction",
-        "alignment": "O uses E",
+        "type": "Relation",
+        "alignment": "O uses E in Au",
         "semantics": [
             "use",
             "employ",
@@ -1955,6 +1939,22 @@
         }
     },
     {
+        "word": "kik",
+        "def": "thankful",
+        "xo": "gratitude",
+        "type": "Relation",
+        "alignment": "O is thankful to E for Au",
+        "semantics": [
+            "thankful",
+            "grateful",
+            "appreciative"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "ki'e"
+        }
+    },
+    {
         "word": "kil",
         "def": "wood",
         "type": "Junction",
@@ -2299,6 +2299,41 @@
         }
     },
     {
+        "word": "lap",
+        "def": "sheet",
+        "type": "Junction",
+        "alignment": "O is a sheet of E",
+        "semantics": [
+            "sheet",
+            "blanket",
+            "page",
+            "leaf"
+        ],
+        "etymology": {
+            "lang": "Hungarian",
+            "word": "lap"
+        }
+    },
+    {
+        "word": "lat",
+        "def": "vertical",
+        "xo": "uprightness",
+        "ko": "support",
+        "type": "Quality",
+        "alignment": "O is vertical in Eu",
+        "semantics": [
+            "vertical",
+            "upright",
+            "erect",
+            "stand"
+        ],
+        "etymology": {
+            "lang": "Chechen",
+            "word": "латта",
+            "translit": "latta"
+        }
+    },
+    {
         "word": "lau",
         "def": "non-Xextanized name marker",
         "type": "Determiner",
@@ -2332,6 +2367,73 @@
         }
     },
     {
+        "word": "lel",
+        "def": "funny",
+        "xo": "humor",
+        "ko": "joke",
+        "type": "Quality",
+        "alignment": "O is funny in Eu",
+        "semantics": [
+            "funny",
+            "amusing",
+            "humorous",
+            "ridiculous"
+        ],
+        "etymology": {
+            "word": "lel"
+        }
+    },
+    {
+        "word": "len",
+        "def": "person",
+        "type": "Entity",
+        "alignment": "O is a person",
+        "semantics": [
+            "person",
+            "human",
+            "individual",
+            "guy",
+            "fellow"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "人",
+            "translit": "rén"
+        },
+        "notes": "retained from old Xextan"
+    },
+    {
+        "word": "lep",
+        "def": "left",
+        "type": "Junction",
+        "alignment": "O is to the left of E",
+        "semantics": [
+            "left of",
+            "leftward",
+            "west"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "levý"
+        }
+    },
+    {
+        "word": "let",
+        "def": "horizontal",
+        "type": "Junction",
+        "alignment": "O is horizontal in Eu",
+        "semantics": [
+            "horizontal",
+            "lie",
+            "lay",
+            "sideways"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "ležet"
+        }
+    },
+    {
         "word": "li",
         "def": "obviative animate pronoun",
         "type": "Pronoun",
@@ -2351,6 +2453,54 @@
         "notes": "his, her, their"
     },
     {
+        "word": "lik",
+        "def": "liquid",
+        "type": "Entity",
+        "alignment": "O is a liquid",
+        "semantics": [
+            "liquid",
+            "fluid",
+            "solution",
+            "melted"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "líquido"
+        }
+    },
+    {
+        "word": "lil",
+        "def": "experience",
+        "xo": "experience (n.)",
+        "type": "Quality",
+        "alignment": "O experiences Eu",
+        "semantics": [
+            "experience",
+            "undergo",
+            "go through"
+        ],
+        "etymology": {
+            "lang": "Toaq",
+            "word": "lıe"
+        }
+    },
+    {
+        "word": "lin",
+        "def": "line",
+        "type": "Entity",
+        "alignment": "O is a line",
+        "semantics": [
+            "line",
+            "stroke",
+            "path",
+            "length"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "linha"
+        }
+    },
+    {
         "word": "lio",
         "def": "numeral: 6",
         "type": "Determiner",
@@ -2361,12 +2511,61 @@
         }
     },
     {
+        "word": "lit",
+        "def": "light",
+        "type": "Entity",
+        "alignment": "O is light",
+        "semantics": [
+            "light",
+            "shine",
+            "brilliance",
+            "luminosity"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "lit ← litla"
+        }
+    },
+    {
         "word": "lo",
         "def": "gnomic determiner",
         "type": "Determiner",
         "etymology": {
             "lang": "Loglan",
             "word": "loe"
+        }
+    },
+    {
+        "word": "lok",
+        "def": "conclude",
+        "type": "Quality",
+        "alignment": "O concludes Eu",
+        "semantics": [
+            "conclude",
+            "logic",
+            "reason",
+            "determine",
+            "decide"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "logji"
+        }
+    },
+    {
+        "word": "lol",
+        "def": "open",
+        "type": "Quality",
+        "alignment": "O is open in Eu",
+        "semantics": [
+            "open",
+            "ajar",
+            "accessible",
+            "vulnerable"
+        ],
+        "etymology": {
+            "lang": "American Sign Language",
+            "word": "OPEN"
         }
     },
     {
