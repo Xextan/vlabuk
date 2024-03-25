@@ -27,8 +27,7 @@
         ],
         "etymology": {
             "lang": "Loglan",
-            "word": "bal ← balpi",
-            "urlform": "balpi"
+            "word": "bal ← balpi"
         }
     },
     {
@@ -42,9 +41,7 @@
         ],
         "etymology": {
             "lang": "Lojban",
-            "word": "ban ← bangu",
-            "urlform": "bangu"
-        }
+            "word": "ban ← bangu"        }
     },
     {
         "word": "bap",
@@ -94,9 +91,7 @@
         ],
         "etymology": {
             "lang": "Loglan",
-            "word": "bek ← bekti",
-            "urlform": "bekti"
-        }
+            "word": "bek ← bekti"        }
     },
     {
         "word": "ben",
@@ -177,9 +172,7 @@
         ],
         "etymology": {
             "lang": "Lojban",
-            "word": "bin ← jbini",
-            "urlform": "jbini"
-        }
+            "word": "bin ← jbini"        }
     },
     {
         "word": "blu",
@@ -274,9 +267,7 @@
         ],
         "etymology": {
             "lang": "Loglan",
-            "word": "buk ← bukcu",
-            "urlform": "bukcu"
-        }
+            "word": "buk ← bukcu"        }
     },
     {
         "word": "bul",
@@ -536,7 +527,6 @@
         "word": "dot",
         "def": "thankful",
         "xo": "gratitude",
-        "ko": "",
         "type": "Quality",
         "alignment": "O is thankful in Eu",
         "semantics": [
@@ -562,9 +552,7 @@
         ],
         "etymology": {
             "lang": "Lojban",
-            "word": "dje ← djedi",
-            "urlform": "djedi"
-        }
+            "word": "dje ← djedi"        }
     },
     {
         "word": "dqi",
@@ -665,9 +653,7 @@
         ],
         "etymology": {
             "lang": "Lojban",
-            "word": "dze ← dzena",
-            "urlform": "dzena"
-        }
+            "word": "dze ← dzena"        }
     },
     {
         "word": "dzi",
@@ -775,7 +761,6 @@
         "word": "fel",
         "def": "happy",
         "xo": "happiness",
-        "ko": "",
         "type": "Quality",
         "alignment": "O is happy in Eu",
         "semantics": [
@@ -804,9 +789,7 @@
         ],
         "etymology": {
             "lang": "Loglan",
-            "word": "fem ← femdi",
-            "urlform": "femdi"
-        }
+            "word": "fem ← femdi"        }
     },
     {
         "word": "fep",
@@ -873,9 +856,7 @@
         ],
         "etymology": {
             "lang": "Loglan",
-            "word": "fil ← filmo",
-            "urlform": "filmo"
-        }
+            "word": "fil ← filmo"        }
     },
     {
         "word": "fin",
@@ -925,9 +906,7 @@
         ],
         "etymology": {
             "lang": "Lojban",
-            "word": "fla ← flalu",
-            "urlform": "flalu"
-        }
+            "word": "fla ← flalu"        }
     },
     {
         "word": "fli",
@@ -1060,9 +1039,7 @@
         ],
         "etymology": {
             "lang": "Lojban",
-            "word": "fun ← funca",
-            "urlform": "funca"
-        }
+            "word": "fun ← funca"        }
     },
     {
         "word": "gak",
@@ -1132,8 +1109,6 @@
     {
         "word": "gin",
         "def": "gene",
-        "xo": "",
-        "ko": "",
         "type": "Junction",
         "alignment": "O are the genes of E",
         "semantics": [
@@ -1164,6 +1139,388 @@
         }
     },
     {
+        "word": "gla",
+        "def": "transparent",
+        "type": "Quality",
+        "alignment": "O is transparent in Eu",
+        "semantics": [
+            "transparent",
+            "clear",
+            "translucent"
+        ],
+        "etymology": {
+            "lang": "Danish",
+            "word": "glas"
+        },
+        "notes": "& transparent, translucent, conductive (heat/elec.)"
+    },
+    {
+        "word": "gle",
+        "def": "copulate",
+        "type": "Junction",
+        "alignment": "O copulates with E",
+        "semantics": [
+            "copulate",
+            "have sex",
+            "mate"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "gle ← gletu"
+        }
+    },
+    {
+        "word": "gli",
+        "def": "gentle",
+        "type": "Quality",
+        "alignment": "O is gentle in Eu",
+        "semantics": [
+            "gentle",
+            "mild",
+            "kind"
+        ],
+        "etymology": {
+            "lang": "Penn. German",
+            "word": "glimblich"
+        }
+    },
+    {
+        "word": "glo",
+        "def": "fuel",
+        "type": "Entity",
+        "alignment": "O is fuel",
+        "semantics": [
+            "fuel",
+            "power",
+            "nourishment",
+            "kindling"
+        ],
+        "etymology": {
+            "lang": "Welsh",
+            "word": "glo"
+        }
+    },
+    {
+        "word": "glu",
+        "def": "sticky",
+        "type": "Quality",
+        "alignment": "O is sticky in Eu",
+        "semantics": [
+            "sticky",
+            "tacky",
+            "glue",
+            "gooey"
+        ],
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "glua"
+        },
+        "notes": "& goo"
+    },
+    {
+        "word": "gop",
+        "def": "govern",
+        "type": "Junction",
+        "alignment": "O governs E",
+        "semantics": [
+            "govern",
+            "rule",
+            "administer",
+            "state"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "governar"
+        },
+        "notes": "i.e. government. for person, see gopzot"
+    },
+    {
+        "word": "got",
+        "def": "go",
+        "type": "Direction",
+        "alignment": "O goes to E from A",
+        "semantics": [
+            "go",
+            "move",
+            "travel",
+            "pass"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "god ← godzi"
+        }
+    },
+    {
+        "word": "gul",
+        "def": "head",
+        "type": "Junction",
+        "alignment": "O is the head of E",
+        "semantics": [
+            "head",
+            "neck",
+            "skull",
+            "cranium"
+        ],
+        "etymology": {
+            "lang": "Hebrew",
+            "word": "גולגולת",
+            "translit": "gulgólet"
+        }
+    },
+    {
+        "word": "gut",
+        "def": "distance",
+        "xo": "distance",
+        "type": "Quality",
+        "alignment": "O (mass) spans distance Eu",
+        "semantics": [
+            "distance",
+            "interval",
+            "span",
+            "gap"
+        ],
+        "etymology": {
+            "lang": "Zulu",
+            "word": "kúde",
+            "urlform": "kude"
+        }
+    },
+    {
+        "word": "gun",
+        "def": "work",
+        "xo": "work (n.)",
+        "ko": "industrious",
+        "type": "Quality",
+        "alignment": "O works on Eu",
+        "semantics": [
+            "work",
+            "effort",
+            "labor",
+            "process (vt.)"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "gun ← gunka"
+        }
+    },
+    {
+        "word": "kak",
+        "def": "waste",
+        "type": "Entity",
+        "alignment": "O is waste",
+        "semantics": [
+            "waste",
+            "trash",
+            "garbage",
+            "refuse",
+            "chaff"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "caca"
+        }
+    },
+    {
+        "word": "kal",
+        "def": "hot",
+        "xo": "heat (n.)",
+        "ko": "burner",
+        "type": "Quality",
+        "alignment": "O is hot in Eu",
+        "semantics": [
+            "hot",
+            "warm",
+            "searing",
+            "scorching",
+            "tepid"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "calor"
+        }
+    },
+    {
+        "word": "kan",
+        "def": "free",
+        "xo": "opportunity",
+        "ko": "free",
+        "type": "Quality",
+        "alignment": "O is free to do Eu",
+        "semantics": [
+            "free to",
+            "have the opportunity to",
+            "get to"
+        ],
+        "etymology": {
+            "lang": "Kamaria"
+        },
+        "notes": "In honor of a friend"
+    },
+    {
+        "word": "kap",
+        "def": "cup",
+        "type": "Entity",
+        "alignment": "O is cup-shaped",
+        "semantics": [
+            "cup",
+            "bowl",
+            "pot",
+            "basin",
+            "tub"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "kabri"
+        }
+    },
+    {
+        "word": "kat",
+        "def": "hard",
+        "xo": "hardness",
+        "type": "Quality",
+        "alignment": "O is hard in Eu",
+        "semantics": [
+            "hard",
+            "firm",
+            "durable",
+            "resistant",
+            "unyielding"
+        ],
+        "etymology": {
+            "lang": "Sanskrit",
+            "word": "कठोर",
+            "translit": "kaṭhora"
+        }
+    },
+    {
+        "word": "kek",
+        "def": "dirty",
+        "xo": "contaminant",
+        "type": "Quality",
+        "alignment": "O is dirty in Eu",
+        "semantics": [
+            "dirty",
+            "messy",
+            "contaminated",
+            "covered in"
+        ],
+        "etymology": {
+            "lang": "Armenian",
+            "word": "կեղտոտ",
+            "translit": "kełtot"
+        },
+        "notes": "& covered in; also used in positive/neutral cont."
+    },
+    {
+        "word": "ken",
+        "def": "able",
+        "xo": "ability",
+        "ko": "possibility",
+        "type": "State",
+        "alignment": "Ou is possible",
+        "semantics": [
+            "able",
+            "possible",
+            "can do",
+            "plausible"
+        ],
+        "etymology": {
+            "lang": "Toki Pona",
+            "word": "ken"
+        }
+    },
+    {
+        "word": "kep",
+        "def": "idea",
+        "xo": "concept [of]",
+        "ko": "abstract",
+        "type": "State",
+        "alignment": "Ou is an idea",
+        "semantics": [
+            "idea",
+            "concept",
+            "theory",
+            "abstract"
+        ],
+        "etymology": {
+            "lang": "Vötgil",
+            "word": "Kep"
+        }
+    },
+    {
+        "word": "kil",
+        "def": "wood",
+        "type": "Junction",
+        "alignment": "O is wood of E",
+        "semantics": [
+            "wood",
+            "lumber",
+            "tree",
+            "timber",
+            "paper"
+        ],
+        "etymology": {
+            "lang": "Greek",
+            "word": "ξύλο",
+            "translit": "xýlo"
+        }
+    },
+    {
+        "word": "kin",
+        "def": "contain",
+        "xo": "contents",
+        "ko": "container",
+        "type": "Junction",
+        "alignment": "O contains E",
+        "semantics": [
+            "contain",
+            "encapsulate",
+            "constitute"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "قِنِّينَة",
+            "urlform": "قنينة",
+            "translit": "qinnīna"
+        }
+    },
+    {
+        "word": "kit",
+        "def": "insect",
+        "type": "Entity",
+        "alignment": "O is an insect",
+        "semantics": [
+            "insect",
+            "bug",
+            "arthropod",
+            "isopod"
+        ],
+        "etymology": {
+            "lang": "Sanskrit",
+            "word": "कीट",
+            "translit": "kīṭa"
+        },
+        "notes": "coll. word for all invertebrates (non-taxonomic)"
+    },
+    {
+        "word": "kle",
+        "def": "mercy",
+        "xo": "mercy (n.)",
+        "ko": "merciful",
+        "type": "Relation",
+        "alignment": "O has mercy on E in Au",
+        "semantics": [
+            "mercy",
+            "pity",
+            "sorry",
+            "forgive"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "clemência"
+        }
+    },
+    {
         "word": "klu",
         "def": "salt",
         "type": "Entity",
@@ -1179,6 +1536,204 @@
             "translit": "glʉʉa"
         },
         "notes": "For sp. table salt (NaCl) see «klusup»"
+    },
+    {
+        "word": "kok",
+        "def": "cause",
+        "xo": "result (n.)",
+        "type": "Quality",
+        "alignment": "O causes Eu",
+        "semantics": [
+            "cause",
+            "influence",
+            "bring about",
+            "make happen"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "kou"
+        }
+    },
+    {
+        "word": "kol",
+        "def": "easy",
+        "xo": "ease",
+        "ko": "user-friendly",
+        "type": "Quality",
+        "alignment": "O is easy in Eu",
+        "semantics": [
+            "easy",
+            "effortless",
+            "undemanding",
+            "not hard"
+        ],
+        "etymology": {
+            "lang": "Turkish",
+            "word": "kolay"
+        }
+    },
+    {
+        "word": "kon",
+        "def": "air",
+        "type": "Entity",
+        "alignment": "O is air",
+        "semantics": [
+            "air",
+            "oxygen",
+            "wind",
+            "atmosphere"
+        ],
+        "etymology": {
+            "lang": "Toki Pona",
+            "word": "kon"
+        }
+    },
+    {
+        "word": "kot",
+        "def": "network",
+        "type": "Entity",
+        "alignment": "O is a network",
+        "semantics": [
+            "network",
+            "internet",
+            "radio",
+            "broadcast"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "kotnetre"
+        },
+        "notes": "& internet; telephone; television"
+    },
+    {
+        "word": "kul",
+        "def": "dark",
+        "xo": "darkness",
+        "ko": "shadow",
+        "type": "Quality",
+        "alignment": "O is dark in Eu",
+        "semantics": [
+            "dark",
+            "dim",
+            "obscure",
+            "shadow",
+            "shade"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "暗い",
+            "translit": "kurai"
+        },
+        "notes": "& dim, shadow, darkness"
+    },
+    {
+        "word": "kun",
+        "def": "together",
+        "xo": "togetherness",
+        "ko": "group",
+        "type": "Quality",
+        "alignment": "O (mass) are together in Eu",
+        "semantics": [
+            "together",
+            "accompany",
+            "with",
+            "collective"
+        ],
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "kun"
+        },
+        "notes": "& together; with"
+    },
+    {
+        "word": "kup",
+        "def": "cube",
+        "type": "Quality",
+        "alignment": "O is cube-shaped in Eu",
+        "semantics": [
+            "cube",
+            "block",
+            "box",
+            "brick",
+            "polyhedron"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "cubo"
+        },
+        "notes": "Covers 3D shapes in general"
+    },
+    {
+        "word": "kut",
+        "def": "front",
+        "ko": "foreground",
+        "type": "Junction",
+        "alignment": "O is in front of E",
+        "semantics": [
+            "front",
+            "anterior",
+            "fore"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "قُدَّامَ",
+            "urlform": "قدام",
+            "translit": "quddāma"
+        }
+    },
+    {
+        "word": "lak",
+        "def": "interact",
+        "xo": "interaction",
+        "ko": "outgoing",
+        "type": "Relation",
+        "alignment": "O interacts with E in Au",
+        "semantics": [
+            "interact",
+            "access",
+            "behave",
+            "socialize"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "لَاقَى",
+            "urlform": "لاقى",
+            "translit": "lāqā"
+        },
+        "notes": "& meet"
+    },
+    {
+        "word": "lal",
+        "def": "old",
+        "xo": "old age",
+        "ko": "antique",
+        "type": "Quality",
+        "alignment": "O is old in Eu",
+        "semantics": [
+            "old",
+            "aged",
+            "ancient",
+            "antique"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "老",
+            "translit": "lăo"
+        }
+    },
+    {
+        "word": "lan",
+        "def": "adjacent",
+        "xo": "juxtaposition",
+        "ko": "neighbor",
+        "type": "Relation",
+        "alignment": "O is adjacent to E in Au",
+        "semantics": ["adjacent", "juxtapose", "next to", "by"],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "lam ← lamji"
+        },
+        "notes": "& next, following"
     },
     {
         "word": "lek",
@@ -1209,8 +1764,7 @@
             "lang": "Zulu",
             "word": "-lula",
             "urlform": "lula"
-        },
-        "notes": ""
+        }
     },
     {
         "word": "nak",

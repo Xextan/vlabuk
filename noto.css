@@ -14,6 +14,11 @@
     font-display: swap;
 }
 @font-face {
+    font-family: "Noto Sans Devanagari";
+    src: url("fonts/NotoSansDevanagari-Regular.ttf");
+    font-display: swap;
+}
+@font-face {
     font-family: "Noto Sans Thai";
     src: url("fonts/NotoSansThai-Regular.ttf");
     font-display: swap;
@@ -24,5 +29,5 @@
     font-display: swap;
 }
 :root {
-    --sans: "Noto Sans", "Noto Sans Armenian", "Noto Rashi Hebrew", "Noto Kufi Arabic", "Noto Sans Thai", "Noto Sans CJK HK", ui-sans-serif, sans-serif;
+    --sans: "Noto Sans", "Noto Sans Armenian", "Noto Rashi Hebrew", "Noto Kufi Arabic", "Noto Sans Devanagari", "Noto Sans Thai", "Noto Sans CJK HK", ui-sans-serif, sans-serif;
 }
