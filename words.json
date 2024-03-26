@@ -408,6 +408,13 @@
         }
     },
     {
+        "word": "bukdan",
+        "def": "library",
+        "gloss": "book building",
+        "type": "Entity",
+        "alignment": "O is a library"
+    },
+    {
         "word": "bul",
         "def": "opposite",
         "xo": "inversion",
@@ -494,6 +501,19 @@
             "translit": "dà"
         },
         "notes": "& huge, massive, spacious"
+    },
+    {
+        "word": "dalxut",
+        "def": "sea",
+        "gloss": "large water",
+        "type": "Entity",
+        "alignment": "O is a sea",
+        "semantics": [
+            "sea",
+            "lake",
+            "great",
+            "extremely"
+        ]
     },
     {
         "word": "dan",
@@ -3164,6 +3184,34 @@
         "notes": "even, X himself/herself/themself/itself [emphasizer]"
     },
     {
+        "word": "sondal",
+        "def": "loud",
+        "gloss": "sound large",
+        "type": "Quality",
+        "alignment": "O is loud in Eu"
+    },
+    {
+        "word": "sonkap",
+        "def": "bell",
+        "gloss": "sound cup",
+        "type": "Entity",
+        "alignment": "O is a bell"
+    },
+    {
+        "word": "sonkottik",
+        "def": "radio",
+        "gloss": "sound network machine",
+        "type": "Entity",
+        "alignment": "O is a radio"
+    },
+    {
+        "word": "sonxal",
+        "def": "quiet",
+        "gloss": "sound small",
+        "type": "Quality",
+        "alignment": "O is quiet in Eu"
+    },
+    {
         "word": "su",
         "def": "numeral: at least [one]",
         "type": "Determiner",
@@ -3432,6 +3480,23 @@
             "lang": "Lojban",
             "word": "ce'u"
         }
+    },
+    {
+        "word": "xextan",
+        "def": "Xextan",
+        "type": "Quality",
+        "alignment": "O is Xextanic in Eu",
+        "semantics": [
+            "Xextan",
+            "Xextanic",
+            "xexcellent",
+            "xexy"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "tcekitau"
+        },
+        "notes": "derived from the name of a Lojban dialect wherein unisyllabic particles are substituted for more common disyllabic particles for efficiency"
     },
     {
         "word": "xi",
