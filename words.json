@@ -2888,6 +2888,20 @@
         }
     },
     {
+        "word": "nek",
+        "def": "motive",
+        "type": "Quality",
+        "alignment": "O is motive for Eu",
+        "semantics": [
+            "motive",
+            "goal",
+            "reason"
+        ],
+        "etymology": {
+            "lang": "backformed from «neu», via Old Xextan «nug» cf. Lojban muk ← mukti"
+        }
+    },
+    {
         "word": "nia",
         "def": "1st person possessive",
         "type": "Determiner",
@@ -3420,7 +3434,7 @@
         "type": "Adverb",
         "etymology": {
             "lang": "Loglan",
-            "word": "uo"
+            "word": "ui"
         },
         "notes": "\"Fortunately...\" / \"Yay!\" / \"Great!\""
     },
