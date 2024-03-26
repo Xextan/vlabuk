@@ -3279,6 +3279,95 @@
         }
     },
     {
+        "word": "pek",
+        "def": "cling",
+        "ko": "clingy",
+        "type": "Junction",
+        "alignment": "O clings to E",
+        "semantics": [
+            "cling",
+            "adhere",
+            "climb",
+            "cleave"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "pegar"
+        }
+    },
+    {
+        "word": "pel",
+        "def": "dangerous",
+        "xo": "danger (situation)",
+        "ko": "danger (thing)",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "danger",
+            "peril",
+            "unsafe",
+            "treacherous"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "peligro"
+        }
+    },
+    {
+        "word": "pen",
+        "def": "think",
+        "xo": "thought",
+        "ko": "thinker",
+        "type": "Junction",
+        "alignment": "O thinks about E",
+        "semantics": [
+            "think",
+            "imagine",
+            "consider",
+            "ponder"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "pensar"
+        }
+    },
+    {
+        "word": "pep",
+        "def": "",
+        "xo": "",
+        "ko": "",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "etymology": {
+            "lang": "",
+            "word": ""
+        }
+    },
+    {
+        "word": "pet",
+        "def": "pertain",
+        "xo": "association",
+        "ko": "concern",
+        "type": "Relation",
+        "alignment": "O pertains to E in Au",
+        "semantics": [
+            "pertain",
+            "associate",
+            "concern",
+            "issue"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "perti"
+        }
+    },
+    {
         "word": "peu",
         "def": "topical case marker",
         "type": "Preposition",
