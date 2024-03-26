@@ -15,8 +15,8 @@
     //  ],
     //  "description": "Log output to console"
     // }
-    "root": {
-        "prefix": "root",
+    "root/freeword/compound": {
+        "prefix": "rt",
         "body": [
             "{",
             "    \"word\": \"$1\",",
@@ -32,9 +32,10 @@
             "    },",
             "    \"notes\": \"$10\"",
             "},"
-        ]
+        ],
+        "description": "freeword: remove xo/ko\n\ncompound: add gloss (pref. after def)"
     },
-    "pt": {
+    "particle": {
         "prefix": "pt",
         "body": [
             "{",
@@ -47,18 +48,6 @@
             "    },",
             "    \"notes\": \"$6\"",
             "},"
-        ]
-    },
-    "qun": {
-        "prefix": "qun",
-        "body": [
-            "{",
-            "    \"word\": \"$1\",",
-            "    \"def\": \"$2\",",
-            "    \"gloss\": \"$3\",",
-            "    \"type\": \"$4\",",
-            "    \"alignment\": \"$5\"",
-            "},",
         ]
     }
 }

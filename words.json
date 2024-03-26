@@ -511,8 +511,7 @@
         "semantics": [
             "sea",
             "lake",
-            "great",
-            "extremely"
+            "great lake"
         ]
     },
     {
@@ -2852,6 +2851,25 @@
         }
     },
     {
+        "word": "nat",
+        "def": "false",
+        "xo": "falsity",
+        "ko": "fake (n.)",
+        "type": "Quality",
+        "alignment": "O is false in Eu",
+        "semantics": [
+            "false",
+            "fake",
+            "not true",
+            "illegitimate",
+            "trick"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "natfe"
+        }
+    },
+    {
         "word": "nau",
         "def": "comparative present tense clause marker",
         "type": "Preposition",
@@ -2868,6 +2886,76 @@
             "lang": "Loglan",
             "word": "ne"
         }
+    },
+    {
+        "word": "nek",
+        "def": "motive",
+        "type": "Quality",
+        "alignment": "O is motive for Eu",
+        "semantics": [
+            "motive",
+            "goal",
+            "reason"
+        ],
+        "etymology": {
+            "lang": "backformed from «neu», via Old Xextan {nug} cf. Lojban",
+            "word": "muk ← mukti"
+        }
+    },
+    {
+        "word": "nel",
+        "def": "like",
+        "xo": "pleasure (n.)",
+        "ko": "agreeable",
+        "type": "Quality",
+        "alignment": "O likes Eu",
+        "semantics": [
+            "like",
+            "enjoy",
+            "appreciate",
+            "fond"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "nel ← nelci"
+        }
+    },
+    {
+        "word": "nen",
+        "def": "inside",
+        "xo": "encapsulation",
+        "ko": "interior",
+        "type": "Junction",
+        "alignment": "O is inside E",
+        "semantics": [
+            "inside",
+            "within",
+            "interior",
+            "enclosed"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "nen ← nenri"
+        }
+    },
+    {
+        "word": "net",
+        "def": "most",
+        "xo": "supremacy",
+        "ko": "maximum",
+        "type": "Quality",
+        "alignment": "O is the most Eu",
+        "semantics": [
+            "most",
+            "highest",
+            "superlative",
+            "supreme"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "nejvíce"
+        },
+        "notes": "i.e. superlative"
     },
     {
         "word": "neu",
@@ -2888,20 +2976,6 @@
         }
     },
     {
-        "word": "nek",
-        "def": "motive",
-        "type": "Quality",
-        "alignment": "O is motive for Eu",
-        "semantics": [
-            "motive",
-            "goal",
-            "reason"
-        ],
-        "etymology": {
-            "lang": "backformed from «neu», via Old Xextan «nug» cf. Lojban muk ← mukti"
-        }
-    },
-    {
         "word": "nia",
         "def": "1st person possessive",
         "type": "Determiner",
@@ -2910,6 +2984,44 @@
             "word": "nia"
         },
         "notes": "my, our"
+    },
+    {
+        "word": "nik",
+        "def": "employed",
+        "xo": "job",
+        "ko": "employed",
+        "type": "Quality",
+        "alignment": "O is employed in Eu",
+        "semantics": [
+            "serve",
+            "service",
+            "servant",
+            "job",
+            "profession",
+            "labor"
+        ],
+        "etymology": {
+            "lang": "Polish",
+            "word": "-nik"
+        }
+    },
+    {
+        "word": "nit",
+        "def": "interesting",
+        "xo": "intrigue (n.)",
+        "ko": "trivia",
+        "type": "Quality",
+        "alignment": "O is interesting in Eu",
+        "semantics": [
+            "interesting",
+            "intriguing",
+            "fascinating",
+            "engaging"
+        ],
+        "etymology": {
+            "lang": "Volapük",
+            "word": "nitednik"
+        }
     },
     {
         "word": "niu",
@@ -2940,6 +3052,59 @@
         "notes": "never, at no point"
     },
     {
+        "word": "nok",
+        "def": "foot",
+        "type": "Junction",
+        "alignment": "O is foot of E",
+        "semantics": [
+            "foot",
+            "paw",
+            "hoof",
+            "leg"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "noga"
+        }
+    },
+    {
+        "word": "nop",
+        "def": "idle",
+        "xo": "rest (n.)",
+        "ko": "lazy",
+        "type": "Quality",
+        "alignment": "O is idle in Eu",
+        "semantics": [
+            "idle",
+            "rest",
+            "inactive",
+            "standby"
+        ],
+        "etymology": {
+            "lang": "Assembly",
+            "word": "nop",
+            "link": "https://en.wikipedia.org/wiki/X86_instruction_listings"
+        }
+    },
+    {
+        "word": "not",
+        "def": "other",
+        "xo": "option B",
+        "ko": "option A",
+        "type": "Junction",
+        "alignment": "O is other than B",
+        "semantics": [
+            "other",
+            "another",
+            "alternative",
+            "extra"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "not ← notbi"
+        }
+    },
+    {
         "word": "nu",
         "def": "numeral: 0",
         "type": "Determiner",
@@ -2953,6 +3118,24 @@
         "type": "Determiner",
         "etymology": {
             "lang": "by analogy; cf. «nu», «ne»"
+        }
+    },
+    {
+        "word": "nuk",
+        "def": "smell",
+        "xo": "odor",
+        "ko": "perfume",
+        "type": "Quality",
+        "alignment": "O smells like Eu",
+        "semantics": [
+            "smell",
+            "odor",
+            "aroma"
+        ],
+        "etymology": {
+            "lang": "Zulu",
+            "word": "-nuka",
+            "urlform": "nuka"
         }
     },
     {
@@ -2997,6 +3180,75 @@
             "lang": "by analogy; cf. «fai», «pau»"
         },
         "notes": "from, away from"
+    },
+    {
+        "word": "pak",
+        "def": "past",
+        "ko": "predecessor",
+        "type": "Junction",
+        "alignment": "O is the past of E",
+        "semantics": [
+            "past",
+            "history",
+            "previous",
+            "earlier"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "pa"
+        }
+    },
+    {
+        "word": "pal",
+        "def": "make",
+        "type": "Junction",
+        "alignment": "O makes E",
+        "semantics": [
+            "make",
+            "create",
+            "construct",
+            "build"
+        ],
+        "etymology": {
+            "lang": "Toki Pona",
+            "word": "pali"
+        }
+    },
+    {
+        "word": "pan",
+        "def": "grain",
+        "type": "Entity",
+        "alignment": "O is grain",
+        "semantics": [
+            "grain",
+            "cereal",
+            "corn",
+            "bread",
+            "staple"
+        ],
+        "etymology": {
+            "lang": "Toki Pona",
+            "word": "pan"
+        }
+    },
+    {
+        "word": "pap",
+        "def": "soft",
+        "xo": "softness",
+        "ko": "plush",
+        "type": "Quality",
+        "alignment": "O is soft in Eu",
+        "semantics": [
+            "soft",
+            "fluffy",
+            "springy",
+            "plush"
+        ],
+        "etymology": {
+            "lang": "Armenian",
+            "word": "փափուկ",
+            "translit": "pʿapʿuk"
+        }
     },
     {
         "word": "pau",
