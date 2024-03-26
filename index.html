@@ -46,7 +46,7 @@
             function htmlify(entry) {
                 let pos =
                 entry.gloss ? " compound" :
-                /^.{0,2}[áéíóú]/iu.test(entry.word) || (/^..[^ptkln]/.test(entry.word) && entry.alignment) ? " freeword" :
+                /^.{0,2}[áéíóú]/iu.test(entry.word) || (!/^[bdfgklmnpqstvxz]([aeiou][ptkln]|[bdfgklmnpqstvxz][aeiou])$/.test(entry.word) && entry.alignment) ? " freeword" :
                 entry.alignment ? " root" :
                 entry.type ? " particle" :
                 " bad";
