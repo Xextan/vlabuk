@@ -46,9 +46,10 @@
             function htmlify(entry) {
                 let pos =
                 entry.gloss ? " compound" :
+                /^.{0,2}[áéíóú]/iu.test(entry.word) || (/^..[^ptkln]/.test(entry.word) && entry.alignment) ? " freeword" :
                 entry.alignment ? " root" :
                 entry.type ? " particle" :
-                /^.{0,2}[áéíóú]/iu.test(entry.word) || /^..[^ptkln]/.test(entry.word) ? " freeword" : " bad";
+                " bad";
                 let etym_content = entry.etymology ? mkelem("p", {}, [
                     mkelem("span", {"className": "h"}, ["Etymology: "]),
                     ...(entry.etymology.length ? entry.etymology : [entry.etymology]).map((e, i) => [
