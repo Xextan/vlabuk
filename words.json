@@ -3443,6 +3443,22 @@
         }
     },
     {
+        "word": "xíláti",
+        "def": "spirit (poetic)",
+        "type": "Quality",
+        "alignment": "O is shilati in/of Eu",
+        "semantics": [
+            "shilati",
+            "spirit",
+            "heart",
+            "essence"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "one of the Giu Senko Xilati"
+    },
+    {
         "word": "xo",
         "def": "object suffix",
         "type": "Suffix",
