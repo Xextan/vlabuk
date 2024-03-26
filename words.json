@@ -3450,6 +3450,21 @@
         "notes": "even, X himself/herself/themself/itself [emphasizer]"
     },
     {
+        "word": "son",
+        "def": "sound",
+        "type": "Junction",
+        "alignment": "O is sound produced by E",
+        "semantics": [
+            "sound",
+            "noise",
+            "audio"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "som"
+        }
+    },
+    {
         "word": "sondal",
         "def": "loud",
         "gloss": "sound large",
@@ -3807,7 +3822,7 @@
             "lang": "Lojban",
             "word": "coi"
         },
-        "notes": "hello, hi, goodbye, bye | also \\«xoi xoi!» (informal)"
+        "notes": "hello, hi, goodbye, bye | also «xoi xoi!» (informal)"
     },
     {
         "word": "xu",
@@ -3851,6 +3866,95 @@
             "lang": "backformed from «zal»"
         },
         "notes": "older texts may use «bu»"
+    },
+    {
+        "word": "zak",
+        "def": "foundation",
+        "type": "Junction",
+        "alignment": "O is foundation of E",
+        "semantics": [
+            "foundation",
+            "fundamental",
+            "basic",
+            "base"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "základ"
+        }
+    },
+    {
+        "word": "zal",
+        "def": "at",
+        "xo": "environment",
+        "ko": "attendee",
+        "type": "Junction",
+        "alignment": "O is at E",
+        "semantics": [
+            "at",
+            "present",
+            "attend",
+            "be located"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "在",
+            "translit": "zài"
+        }
+    },
+    {
+        "word": "zan",
+        "def": "honor",
+        "xo": "honor (n.)",
+        "ko": "honorable",
+        "type": "Quality",
+        "alignment": "O is honored in Eu",
+        "semantics": [
+            "honor",
+            "respect",
+            "grand",
+            "high"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "zan ← zabna"
+        }
+    },
+    {
+        "word": "zap",
+        "def": "problem",
+        "xo": "",
+        "ko": "obstacle",
+        "type": "Relation",
+        "alignment": "O is a problem for E in Au",
+        "semantics": [
+            "problem",
+            "difficulty",
+            "hindrance",
+            "obstacle"
+        ],
+        "etymology": {
+            "lang": "Albanian",
+            "word": "zavall"
+        }
+    },
+    {
+        "word": "zat",
+        "def": "exist",
+        "xo": "existence",
+        "ko": "reality",
+        "type": "Quality",
+        "alignment": "O exists in Eu",
+        "semantics": [
+            "exist",
+            "real",
+            "actual",
+            "extant"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "zat ← zasti"
+        }
     },
     {
         "word": "ze",
