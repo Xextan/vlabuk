@@ -25,55 +25,79 @@
         }
     },
     {
-        "word": "Ámríka",
-        "def": "",
-        "type": "",
-        "alignment": "",
+        "word": "Áfríka",
+        "def": "Africa",
+        "type": "Quality",
+        "alignment": "O is African in Eu",
         "semantics": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Africa",
+            "African"
         ],
         "etymology": {
-            "lang": ""
+            "lang": "English",
+            "word": "Africa"
         },
-        "notes": ""
+        "notes": "proper name: la Áfríka"
+    },
+    {
+        "word": "Ámríka",
+        "def": "America",
+        "type": "Quality",
+        "alignment": "O is American in Eu",
+        "semantics": [
+            "America",
+            "American"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "أَمْرِيكَا",
+            "urlform": "أمريكا",
+            "translit": "ʔamrīkā"
+        },
+        "notes": "proper name: la Ámríka"
     },
     {
         "word": "Ámríka Tunbak",
-        "def": "",
-        "type": "",
-        "alignment": "",
+        "def": "South America",
+        "type": "Quality",
+        "alignment": "O is South American in Eu",
         "semantics": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "South America",
+            "South American"
         ],
         "etymology": {
-            "lang": ""
+            "word": "«Ámríka» + «tunbak»"
         },
         "notes": "proper name (n.): la Ámríka Tunbak"
     },
     {
         "word": "Ámríka Tunkut",
-        "def": "",
-        "type": "",
-        "alignment": "",
+        "def": "North America",
+        "type": "Quality",
+        "alignment": "O is North American in Eu",
         "semantics": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "North America",
+            "North American"
         ],
         "etymology": {
-            "lang": ""
+            "word": "«Ámríka» + «tunkut»"
         },
-        "notes": ""
+        "notes": "proper name (n.): la Ámríka Tunkut"
+    },
+    {
+        "word": "Ázíja",
+        "def": "Asia",
+        "type": "Quality",
+        "alignment": "O is Asian in Eu",
+        "semantics": [
+            "Asia",
+            "Asian"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Asia"
+        },
+        "notes": "proper name (n.): la Ázíja"
     },
     {
         "word": "Áusrália",
@@ -87,7 +111,8 @@
         "etymology": {
             "lang": "English",
             "word": "Australia"
-        }
+        },
+        "notes": "proper name (n.): la Áusrália"
     },
     {
         "word": "ba",
@@ -1117,18 +1142,16 @@
     },
     {
         "word": "Éurópa",
-        "def": "",
-        "type": "",
-        "alignment": "",
+        "def": "Europe",
+        "type": "Quality",
+        "alignment": "O is European in Eu",
         "semantics": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Europe",
+            "European"
         ],
         "etymology": {
-            "lang": ""
+            "lang": "Latin",
+            "word": "Europa"
         },
         "notes": "proper name (n.): la Éuropa"
     },
