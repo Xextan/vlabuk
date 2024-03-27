@@ -3890,6 +3890,7 @@
         "etymology": {
             "lang": "Arabic",
             "word": "جَوَاب",
+            "urlform": "جواب",
             "translit": "jawāb"
         }
     },
@@ -4071,7 +4072,7 @@
         "xo": "simplicity",
         "ko": "trivial",
         "type": "Quality",
-        "alignment": "O is trivial in Eu",
+        "alignment": "O is simple in Eu",
         "semantics": [
             "simple",
             "straightforward",
@@ -4081,7 +4082,7 @@
         "etymology": {
             "lang": "Mandarin",
             "word": "簡",
-            "translit": "jiǎn)"
+            "translit": "jiǎn"
         }
     },
     {
@@ -4189,6 +4190,7 @@
         "etymology": {
             "lang": "Arabic",
             "word": "جِلْد",
+            "urlform": "جلد",
             "translit": "jild"
         }
     },
@@ -4243,7 +4245,7 @@
         "etymology": {
             "lang": "Mandarin",
             "word": "記得",
-            "translit": "(jìde)"
+            "translit": "jìde"
         }
     },
     {
@@ -4432,7 +4434,8 @@
         ],
         "etymology": {
             "lang": "Arabic",
-            "word": "صداقة",
+            "word": "صَدَاقَة",
+            "urlform": "صداقة",
             "translit": "ṣadāqa"
         }
     },
@@ -4875,8 +4878,8 @@
         ],
         "etymology": {
             "lang": "Hebrew",
-            "word": "sod",
-            "translit": "סוֹד"
+            "word": "סוֹד",
+            "translit": "sod"
         }
     },
     {
