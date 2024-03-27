@@ -3586,24 +3586,6 @@
         ]
     },
     {
-        "word": "pep",
-        "def": "",
-        "xo": "",
-        "ko": "",
-        "type": "",
-        "alignment": "",
-        "semantics": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "etymology": {
-            "lang": "",
-            "word": ""
-        }
-    },
-    {
         "word": "pet",
         "def": "pertain",
         "xo": "association",
@@ -3729,6 +3711,15 @@
         }
     },
     {
+        "word": "po",
+        "def": "subordinate clause marker",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "po"
+        }
+    },
+    {
         "word": "pok",
         "def": "child",
         "type": "Junction",
@@ -3746,12 +3737,38 @@
         }
     },
     {
-        "word": "po",
-        "def": "subordinate clause marker",
-        "type": "Determiner",
+        "word": "pon",
+        "def": "put",
+        "xo": "placement",
+        "type": "Direction",
+        "alignment": "O puts E in/at A",
+        "semantics": [
+            "put",
+            "place",
+            "set",
+            "insert"
+        ],
         "etymology": {
-            "lang": "Loglan",
-            "word": "po"
+            "lang": "",
+            "word": ""
+        }
+    },
+    {
+        "word": "pot",
+        "def": "similar",
+        "xo": "similarity",
+        "ko": "lookalike",
+        "type": "Relation",
+        "alignment": "O is similar to E in Au",
+        "semantics": [
+            "similar",
+            "alike",
+            "akin",
+            "like"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "podobný"
         }
     },
     {
@@ -3762,6 +3779,40 @@
             "lang": "a priori"
         },
         "notes": "also fraction sign | pu«duo» = 1/2; «tie» pu«kua» = 3/4"
+    },
+    {
+        "word": "pul",
+        "def": "powder",
+        "type": "Junction",
+        "alignment": "O is powder of E",
+        "semantics": [
+            "powder",
+            "dust",
+            "flour",
+            "granulated"
+        ],
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "pulvo"
+        }
+    },
+    {
+        "word": "pun",
+        "def": "corrosive",
+        "xo": "acidity",
+        "ko": "acid",
+        "type": "Quality",
+        "alignment": "O is corrosive in Eu",
+        "semantics": [
+            "corrosive",
+            "acid",
+            "alkaline",
+            "caustic"
+        ],
+        "etymology": {
+            "lang": "Maori",
+            "word": "pūnguru"
+        }
     },
     {
         "word": "qa",
@@ -3778,6 +3829,180 @@
         "type": "Illocution",
         "etymology": {
             "lang": "contraction: «qa» + «i»"
+        }
+    },
+    {
+        "word": "qak",
+        "def": "disgusting",
+        "xo": "vileness",
+        "ko": "sicko",
+        "type": "Quality",
+        "alignment": "O is disgusting in Eu",
+        "semantics": [
+            "disgusting",
+            "vile",
+            "gross",
+            "disturbing"
+        ],
+        "etymology": {
+            "lang": "Toki Pona",
+            "word": "jaki"
+        }
+    },
+    {
+        "word": "qap",
+        "def": "answer",
+        "xo": "prompt",
+        "ko": "key",
+        "type": "Junction",
+        "alignment": "O is answer to E",
+        "semantics": [
+            "answer",
+            "solution",
+            "reply",
+            "response"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "جَوَاب",
+            "translit": "jawāb"
+        }
+    },
+    {
+        "word": "qat",
+        "def": "continue",
+        "xo": "continuation",
+        "ko": "persistent",
+        "type": "State",
+        "alignment": "Ou continues",
+        "semantics": [
+            "continue",
+            "persist",
+            "last",
+            "endure"
+        ],
+        "etymology": {
+            "lang": "Finnish",
+            "word": "jatkaa"
+        }
+    },
+    {
+        "word": "qba",
+        "def": "fruit",
+        "type": "Junction",
+        "alignment": "O is fruit of E",
+        "semantics": [
+            "fruit",
+            "berry",
+            "nut",
+            "produce (n.)"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "jba ← jbari"
+        }
+    },
+    {
+        "word": "qbe",
+        "def": "born",
+        "type": "Junction",
+        "alignment": "O is born to E",
+        "semantics": [
+            "born",
+            "birth",
+            "hatch",
+            "arise"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "jbe ← jbena"
+        }
+    },
+    {
+        "word": "qbi",
+        "def": "almost",
+        "xo": "closeness",
+        "ko": "marginal",
+        "type": "Quality",
+        "alignment": "O is almost Eu",
+        "semantics": [
+            "almost",
+            "nearly",
+            "close"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "jbi ← jibni"
+        }
+    },
+    {
+        "word": "qbo",
+        "def": "complex",
+        "xo": "complexity",
+        "ko": "cryptic",
+        "type": "Quality",
+        "alignment": "O is complex in Eu",
+        "semantics": [
+            "complex",
+            "complicated",
+            "enigmatic",
+            "abstruse"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "jbo ← lojbo"
+        }
+    },
+    {
+        "word": "qbu",
+        "def": "table",
+        "type": "Entity",
+        "alignment": "O is a table",
+        "semantics": [
+            "table",
+            "chair",
+            "platform",
+            "counter",
+            "shelf"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "jbu ← jubme"
+        }
+    },
+    {
+        "word": "qde",
+        "def": "wait",
+        "xo": "pause (n.)",
+        "ko": "patient",
+        "type": "Quality",
+        "alignment": "O waits for Eu",
+        "semantics": [
+            "wait",
+            "pause",
+            "rest",
+            "break"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "ždẹ́ti"
+        }
+    },
+    {
+        "word": "qdi",
+        "def": "decrease",
+        "xo": "decrease (n.)",
+        "type": "State",
+        "alignment": "Ou decreases",
+        "semantics": [
+            "decrease",
+            "diminish",
+            "dwindle",
+            "subside"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "jdika"
         }
     },
     {
@@ -3798,6 +4023,62 @@
         }
     },
     {
+        "word": "qel",
+        "def": "solid",
+        "xo": "solidity",
+        "ko": "solid (n.)",
+        "type": "Quality",
+        "alignment": "O is solid in Eu",
+        "semantics": [
+            "solid",
+            "firm",
+            "concrete",
+            "frozen"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "gelo"
+        }
+    },
+    {
+        "word": "qen",
+        "def": "simple",
+        "xo": "simplicity",
+        "ko": "trivial",
+        "type": "Quality",
+        "alignment": "O is trivial in Eu",
+        "semantics": [
+            "simple",
+            "straightforward",
+            "plain",
+            "unassuming"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "簡",
+            "translit": "jiǎn)"
+        }
+    },
+    {
+        "word": "qet",
+        "def": "true",
+        "xo": "truth value",
+        "ko": "truth (n.)",
+        "type": "Quality",
+        "alignment": "O is true in Eu",
+        "semantics": [
+            "true",
+            "actual",
+            "real",
+            "genuine",
+            "factual"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "jet ← jetnu"
+        }
+    },
+    {
         "word": "qeu",
         "def": "affirmative adverbial",
         "type": "Adverb",
@@ -3808,11 +4089,188 @@
         "notes": "yes, indeed, true, I agree"
     },
     {
+        "word": "qga",
+        "def": "hold",
+        "ko": "grabber",
+        "type": "Junction",
+        "alignment": "O holds E",
+        "semantics": [
+            "hold",
+            "grasp",
+            "carry",
+            "bear"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "jga ← jgari"
+        }
+    },
+    {
+        "word": "qge",
+        "def": "knot",
+        "ko": "tangle",
+        "type": "Junction",
+        "alignment": "O is a knot of E",
+        "semantics": [
+            "knot",
+            "tangle",
+            "tie",
+            "lace",
+            "weave"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "jge ← jgena"
+        }
+    },
+    {
         "word": "qi",
         "def": "determiner: collective",
         "type": "Determiner",
         "etymology": {
             "lang": "backformed; cf. «oi»/«ei»/«ai»"
+        }
+    },
+    {
+        "word": "qik",
+        "def": "spin",
+        "xo": "rotation",
+        "ko": "wheel",
+        "type": "Junction",
+        "alignment": "O spins around E",
+        "semantics": [
+            "spin",
+            "rotate",
+            "revolve",
+            "orbit"
+        ],
+        "etymology": {
+            "lang": "Xhosa",
+            "word": "-jikeleza"
+        }
+    },
+    {
+        "word": "qil",
+        "def": "skin",
+        "type": "Junction",
+        "alignment": "O is skin of E",
+        "semantics": [
+            "skin",
+            "pelt",
+            "hide",
+            "peel",
+            "crust"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "جِلْد",
+            "translit": "jild"
+        }
+    },
+    {
+        "word": "qin",
+        "def": "metal",
+        "type": "Entity",
+        "alignment": "O is metal",
+        "semantics": [
+            "metal",
+            "steel",
+            "iron",
+            "alloy"
+        ],
+        "etymology": {
+            "lang": "",
+            "word": "金",
+            "translit": "jīn"
+        }
+    },
+    {
+        "word": "qip",
+        "def": "alive",
+        "xo": "life",
+        "ko": "organism",
+        "type": "Quality",
+        "alignment": "O is alive in Eu",
+        "semantics": [
+            "alive",
+            "life",
+            "active",
+            "survive"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "život"
+        }
+    },
+    {
+        "word": "qit",
+        "def": "remember",
+        "xo": "memory (n.)",
+        "ko": "eidetic",
+        "type": "Junction",
+        "alignment": "O remembers E",
+        "semantics": [
+            "remember",
+            "memory",
+            "recall",
+            "recollection"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "記得",
+            "translit": "(jìde)"
+        }
+    },
+    {
+        "word": "qla",
+        "def": "organ",
+        "type": "Junction",
+        "alignment": "O is an organ of E",
+        "semantics": [
+            "organ",
+            "body part",
+            "tissue",
+            "biological"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "žláza"
+        }
+    },
+    {
+        "word": "qle",
+        "def": "valley",
+        "xo": "ridged",
+        "ko": "canyon",
+        "type": "Junction",
+        "alignment": "O is a canyon in E",
+        "semantics": [
+            "valley",
+            "ridge",
+            "canyon",
+            "groove"
+        ],
+        "etymology": {
+            "lang": "Macedonian",
+            "word": "жлеб",
+            "translit": "(žleb)"
+        }
+    },
+    {
+        "word": "qlu",
+        "def": "yellow",
+        "xo": "yellowness",
+        "ko": "golden",
+        "type": "Quality",
+        "alignment": "O is yellow/green in Eu",
+        "semantics": [
+            "yellow",
+            "green",
+            "golden"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "žlutý"
         }
     },
     {
@@ -3833,6 +4291,60 @@
         }
     },
     {
+        "word": "qon",
+        "def": "center",
+        "ko": "core",
+        "type": "Junction",
+        "alignment": "O is center of E",
+        "semantics": [
+            "center",
+            "middle",
+            "heart",
+            "core"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "中",
+            "translit": "zhōng"
+        }
+    },
+    {
+        "word": "qul",
+        "def": "deep",
+        "xo": "depth",
+        "ko": "deep (n.)",
+        "type": "Quality",
+        "alignment": "O is deep in Eu",
+        "semantics": [
+            "deep",
+            "profound",
+            "abyss",
+            "buried"
+        ],
+        "etymology": {
+            "lang": "Zulu",
+            "word": "-jula"
+        }
+    },
+    {
+        "word": "qun",
+        "def": "join",
+        "xo": "link",
+        "ko": "union",
+        "type": "Quality",
+        "alignment": "O (mass) is joined in Eu",
+        "semantics": [
+            "join",
+            "connect",
+            "attach",
+            "unite"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "juntar"
+        }
+    },
+    {
         "word": "sai",
         "def": "general intensifier",
         "type": "Modifier",
@@ -3841,6 +4353,63 @@
             "word": "sai"
         },
         "notes": "very, so [intensifier]"
+    },
+    {
+        "word": "sak",
+        "def": "lack",
+        "xo": "absence",
+        "ko": "empty",
+        "type": "Relation",
+        "alignment": "O lacks E in Au",
+        "semantics": [
+            "lack",
+            "without",
+            "absent",
+            "scarce"
+        ],
+        "etymology": {
+            "lang": "Ainu",
+            "word": "サㇰ",
+            "translit": "sak"
+        }
+    },
+    {
+        "word": "sal",
+        "def": "number",
+        "xo": "quantity",
+        "ko": "quantifier",
+        "type": "Quality",
+        "alignment": "O is a number quantifying Eu",
+        "semantics": [
+            "number",
+            "quantity",
+            "amount",
+            "degree"
+        ],
+        "etymology": {
+            "lang": "German",
+            "word": "Zahl"
+        }
+    },
+    {
+        "word": "sat",
+        "def": "friend",
+        "xo": "friendship",
+        "ko": "friend",
+        "type": "Relation",
+        "alignment": "O is a friend to E in Au",
+        "semantics": [
+            "friendly",
+            "kind",
+            "compassionate",
+            "compatriot",
+            "comrade"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "صداقة",
+            "translit": "ṣadāqa"
+        }
     },
     {
         "word": "sau",
@@ -3871,12 +4440,285 @@
         "notes": "so to speak, figuratively speaking, if you will"
     },
     {
+        "word": "sek",
+        "def": "safe",
+        "xo": "security",
+        "ko": "guard",
+        "type": "Quality",
+        "alignment": "O is safe in Eu",
+        "semantics": [
+            "safe",
+            "secure",
+            "protect",
+            "guard"
+        ],
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "sekura"
+        }
+    },
+    {
+        "word": "sel",
+        "def": "self",
+        "ko": "ego",
+        "type": "",
+        "alignment": "O is self of E",
+        "semantics": [
+            "self",
+            "ego",
+            "identity",
+            "introspective"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "sel ← selji"
+        }
+    },
+    {
+        "word": "sen",
+        "def": "signify",
+        "xo": "meaning",
+        "ko": "sign",
+        "type": "Quality",
+        "alignment": "O signifies Eu",
+        "semantics": [
+            "signify",
+            "sign",
+            "symbol",
+            "mean",
+            "interpret"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "señar"
+        }
+    },
+    {
+        "word": "set",
+        "def": "group",
+        "type": "Quality",
+        "alignment": "O is a group in Eu",
+        "semantics": [
+            "group",
+            "set",
+            "collective",
+            "bunch"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "set ← setci"
+        }
+    },
+    {
         "word": "si",
         "def": "reciprocal marker",
         "type": "Suffix",
         "etymology": {
             "lang": "Lojban",
             "word": "simxu"
+        }
+    },
+    {
+        "word": "sil",
+        "def": "strong",
+        "xo": "strength",
+        "ko": "powerful",
+        "type": "Quality",
+        "alignment": "O is strong in Eu",
+        "semantics": [
+            "strong",
+            "skilled",
+            "talented",
+            "powerful"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "silný"
+        }
+    },
+    {
+        "word": "sin",
+        "def": "new",
+        "xo": "newness",
+        "ko": "news",
+        "type": "Quality",
+        "alignment": "O is new in Eu",
+        "semantics": [
+            "new",
+            "novel",
+            "recent",
+            "young"
+        ],
+        "etymology": {
+            "lang": "Toki Pona",
+            "word": "sin"
+        }
+    },
+    {
+        "word": "sip",
+        "def": "mutual",
+        "xo": "reciprocity",
+        "ko": "party (to discussion etc.)",
+        "type": "",
+        "alignment": "O (mass) mutually Eu",
+        "semantics": [
+            "mutual",
+            "reciprocal",
+            "likewise",
+            "each other",
+            "one another"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "simxu"
+        }
+    },
+    {
+        "word": "sit",
+        "def": "system",
+        "xo": "structure",
+        "ko": "organization",
+        "type": "Quality",
+        "alignment": "O is a system of Eu",
+        "semantics": [
+            "system",
+            "organize",
+            "structure",
+            "network"
+        ],
+        "etymology": {
+            "lang": "Volapük",
+            "word": "sitot"
+        }
+    },
+    {
+        "word": "ska",
+        "def": "qualia",
+        "xo": "sense",
+        "ko": "sensation",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "qualia",
+            "color",
+            "timbre",
+            "taste",
+            "texture"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "ska ← skari"
+        }
+    },
+    {
+        "word": "ske",
+        "def": "happen",
+        "xo": "event",
+        "ko": "occasion",
+        "type": "State",
+        "alignment": "Ou happens",
+        "semantics": [
+            "happen",
+            "occur",
+            "take place",
+            "event"
+        ],
+        "etymology": {
+            "lang": "Danish",
+            "word": "ske"
+        }
+    },
+    {
+        "word": "sku",
+        "def": "express",
+        "xo": "message",
+        "ko": "speaker",
+        "type": "Relation",
+        "alignment": "O expresses to E message Au",
+        "semantics": [
+            "express",
+            "communicate",
+            "say",
+            "tell",
+            "explain"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "sku ← cusku"
+        }
+    },
+    {
+        "word": "sla",
+        "def": "healthy",
+        "xo": "health",
+        "ko": "fit",
+        "type": "Quality",
+        "alignment": "O is healthy in Eu",
+        "semantics": [
+            "healthy",
+            "well",
+            "functional"
+        ],
+        "etymology": {
+            "lang": "Scottish Gaelic",
+            "word": "slàinte"
+        }
+    },
+    {
+        "word": "sli",
+        "def": "image",
+        "xo": "original",
+        "ko": "duplicate",
+        "type": "Junction",
+        "alignment": "O is an image of Eu",
+        "semantics": [
+            "image",
+            "copy",
+            "likeness",
+            "duplicate",
+            "recreation"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "slika"
+        }
+    },
+    {
+        "word": "slu",
+        "def": "slow",
+        "xo": "sluggishness",
+        "ko": "slowpoke",
+        "type": "Quality",
+        "alignment": "O is slow in Eu",
+        "semantics": [
+            "slow",
+            "sluggish",
+            "gradual",
+            "eventual"
+        ],
+        "etymology": {
+            "lang": "Scottish Gaelic",
+            "word": "slaodach"
+        }
+    },
+    {
+        "word": "sna",
+        "def": "succeed",
+        "xo": "success",
+        "ko": "victor",
+        "type": "Quality",
+        "alignment": "O succeeds in Eu",
+        "semantics": [
+            "succeed",
+            "victory",
+            "win",
+            "accomplish",
+            "manage to",
+            "achieve"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "snada"
         }
     },
     {
@@ -3896,6 +4738,39 @@
             "lang": "a priori"
         },
         "notes": "even, X himself/herself/themself/itself [emphasizer]"
+    },
+    {
+        "word": "sok",
+        "def": "fungus",
+        "type": "Entity",
+        "alignment": "O is a fungus",
+        "semantics": [
+            "fungus",
+            "mold",
+            "mushroom",
+            "yeast"
+        ],
+        "etymology": {
+            "lang": "Georgian",
+            "word": "სოკო",
+            "translit": "soḳo"
+        }
+    },
+    {
+        "word": "sol",
+        "def": "star",
+        "type": "Entity",
+        "alignment": "O is a star",
+        "semantics": [
+            "star",
+            "sun",
+            "solar",
+            "astral"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "sol"
+        }
     },
     {
         "word": "son",
@@ -3941,6 +4816,118 @@
         "alignment": "O is quiet in Eu"
     },
     {
+        "word": "sop",
+        "def": "fit",
+        "xo": "fit (n.)",
+        "ko": "match (n.)",
+        "type": "Relation",
+        "alignment": "O fits E in Au",
+        "semantics": [
+            "fit",
+            "match",
+            "suit",
+            "appropriate",
+            "correspond",
+            "correlate"
+        ],
+        "etymology": {
+            "lang": "Finnish",
+            "word": "sopia"
+        }
+    },
+    {
+        "word": "sot",
+        "def": "secret",
+        "xo": "confidentiality",
+        "ko": "secret (n.)",
+        "type": "",
+        "alignment": "O is secret in Eu",
+        "semantics": [
+            "secret",
+            "hidden",
+            "clandestine",
+            "confidential"
+        ],
+        "etymology": {
+            "lang": "Hebrew",
+            "word": "sod",
+            "translit": "סוֹד"
+        }
+    },
+    {
+        "word": "spa",
+        "def": "sleep",
+        "xo": "sleep (n.)",
+        "ko": "sleepyhead",
+        "type": "Quality",
+        "alignment": "O is asleep in Eu",
+        "semantics": [
+            "sleep",
+            "asleep",
+            "slumber",
+            "rest",
+            "nap",
+            "turned off"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "spát"
+        }
+    },
+    {
+        "word": "spe",
+        "def": "reflect",
+        "xo": "reflection",
+        "ko": "mirror",
+        "type": "Junction",
+        "alignment": "O reflects E",
+        "semantics": [
+            "reflect",
+            "deflect",
+            "bounce",
+            "parry"
+        ],
+        "etymology": {
+            "lang": "Swedish",
+            "word": "spegla"
+        }
+    },
+    {
+        "word": "sta",
+        "def": "status",
+        "type": "Junction",
+        "alignment": "O is status of E",
+        "semantics": [
+            "status",
+            "situation",
+            "circumstance",
+            "condition"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "stav"
+        }
+    },
+    {
+        "word": "ste",
+        "def": "same",
+        "xo": "equivalence",
+        "ko": "parallel (n.)",
+        "type": "",
+        "alignment": "O is the same as E in Au",
+        "semantics": [
+            "same",
+            "equal",
+            "equivalent",
+            "identical",
+            "parallel"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "stejný"
+        }
+    },
+    {
         "word": "su",
         "def": "numeral: at least [one]",
         "type": "Determiner",
@@ -3977,12 +4964,76 @@
         }
     },
     {
+        "word": "sun",
+        "def": "reside",
+        "xo": "residence",
+        "ko": "resident",
+        "type": "Junction",
+        "alignment": "O inhabits E",
+        "semantics": [
+            "reside",
+            "inhabit",
+            "dwell",
+            "call home"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "住む",
+            "translit": "sumu"
+        }
+    },
+    {
+        "word": "sunko",
+        "def": "resident",
+        "gloss": "reside AG.NZ",
+        "type": "Entity",
+        "alignment": "O is an inhabitant of E",
+        "semantics": [
+            "resident",
+            "denizen",
+            "citizen",
+            "inhabitant"
+        ]
+    },
+    {
+        "word": "sunxo",
+        "def": "residence",
+        "gloss": "reside PAT.NZ",
+        "type": "Entity",
+        "alignment": "O is a bell",
+        "semantics": [
+            "residence",
+            "dwelling",
+            "nest",
+            "den",
+            "lair"
+        ]
+    },
+    {
         "word": "suo",
         "def": "special numeral: few",
         "type": "Determiner",
         "etymology": {
             "lang": "Lojban",
             "word": "so'o"
+        }
+    },
+    {
+        "word": "sup",
+        "def": "matter",
+        "xo": "component",
+        "ko": "substance",
+        "type": "Junction",
+        "alignment": "O is matter containing E",
+        "semantics": [
+            "matter",
+            "substance",
+            "stuff",
+            "chemical"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "substância"
         }
     },
     {
@@ -3999,6 +5050,23 @@
         "type": "Preposition",
         "etymology": {
             "lang": "by analogy; cf. «ta»"
+        }
+    },
+    {
+        "word": "tak",
+        "def": "talk",
+        "type": "Junction",
+        "alignment": "O talks to E",
+        "semantics": [
+            "talk",
+            "speak",
+            "chat",
+            "discuss",
+            "converse"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "takna"
         }
     },
     {
@@ -4484,6 +5552,15 @@
             "translit": "zǐ"
         },
         "notes": "cf. Esperanto {-ero}"
+    },
+    {
+        "word": "zo",
+        "def": "non-logical disjunction",
+        "type": "Connective",
+        "etymology": {
+            "lang": "by analogy; cf. «ze», «qo»"
+        },
+        "notes": "or, versus; this OR that?"
     },
     {
         "word": "zoddanzon",
