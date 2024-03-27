@@ -3300,8 +3300,8 @@
         "def": "dangerous",
         "xo": "danger (situation)",
         "ko": "danger (thing)",
-        "type": "",
-        "alignment": "",
+        "type": "Relation",
+        "alignment": "O is dangerous to E in Au",
         "semantics": [
             "danger",
             "peril",
@@ -3384,6 +3384,94 @@
         "etymology": {
             "lang": "Toki Pona",
             "word": "pi"
+        }
+    },
+    {
+        "word": "pil",
+        "def": "tired",
+        "xo": "exhaustion",
+        "ko": "dozy",
+        "type": "Quality",
+        "alignment": "O is tired in Eu",
+        "semantics": [
+            "tired",
+            "exhausted",
+            "drained",
+            "low battery"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "疲勞",
+            "translit": "píláo"
+        }
+    },
+    {
+        "word": "pin",
+        "def": "angry",
+        "xo": "anger",
+        "ko": "short-tempered",
+        "type": "Quality",
+        "alignment": "O is angry in Eu",
+        "semantics": [
+            "anger",
+            "rage",
+            "fury",
+            "aggressive"
+        ],
+        "etymology": {
+            "lang": "Quechua",
+            "word": "phiña"
+        }
+    },
+    {
+        "word": "ple",
+        "def": "multiple",
+        "xo": "plurality",
+        "ko": "multitude",
+        "type": "Quality",
+        "alignment": "O is multiple in Eu",
+        "semantics": [
+            "multiple",
+            "plural",
+            "many",
+            "various"
+        ],
+        "etymology": {
+            "lang": "Greek",
+            "word": "πλῆθος",
+            "translit": "plêthos"
+        }
+    },
+    {
+        "word": "pli",
+        "def": "gas",
+        "type": "Junction",
+        "alignment": "O is gas containing E",
+        "semantics": [
+            "gas",
+            "vapor",
+            "fumes"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "plin"
+        }
+    },
+    {
+        "word": "pok",
+        "def": "child",
+        "type": "Junction",
+        "alignment": "O is child of E",
+        "semantics": [
+            "child",
+            "descendant",
+            "offspring",
+            "son",
+            "daughter"
+        ],
+        "etymology": {
+            "lang": "Finnish",
+            "word": "poika"
         }
     },
     {
