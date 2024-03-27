@@ -5523,6 +5523,18 @@
         }
     },
     {
+        "word": "xen but",
+        "gloss": "start sleep",
+        "type": "State-Quality",
+        "alignment": "(Ou) O falls asleep in Eu",
+        "semantics": [
+            "fall asleep",
+            "go to sleep",
+            "doze off"
+        ],
+        "notes": "cf. «spaxen»"
+    },
+    {
         "word": "xextan",
         "def": "Xextan",
         "type": "Quality",

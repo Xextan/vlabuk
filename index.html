@@ -43,44 +43,46 @@
                 }
                 return element;
             }
+            function pos(e) {
+                return e.word.includes(" ") && !e.word.split(" ").some(e => pos({"word": e}) == "freeword") ? "serial" :
+                e.gloss ? "compound" :
+                /^.{0,2}[áéíóú]/iu.test(e.word) || (!/^[bdfgklmnpqstvxz]([aeiou][ptkln]|[bdfgklmnpqstvxz][aeiou])$/.test(e.word) && e.alignment) ? "freeword" :
+                e.alignment ? "root" :
+                e.type ? "particle" :
+                "bad";
+            }
             function htmlify(entry) {
-                let pos =
-                entry.gloss ? " compound" :
-                /^.{0,2}[áéíóú]/iu.test(entry.word) || (!/^[bdfgklmnpqstvxz]([aeiou][ptkln]|[bdfgklmnpqstvxz][aeiou])$/.test(entry.word) && entry.alignment) ? " freeword" :
-                entry.alignment ? " root" :
-                entry.type ? " particle" :
-                " bad";
                 let etym_content = entry.etymology ? mkelem("p", {}, [
                     mkelem("span", {"className": "h"}, ["Etymology: "]),
                     ...(entry.etymology.length ? entry.etymology : [entry.etymology]).map((e, i) => [
                         i ? " + " : null,
-                        e.lang ?? null,
+                        e.lang,
                         " ",
-                        e.word ?
-                            e.link ?? true ? mkelem("a", {"href": url(e)}, [
-                                e.word,
-                                " ",
-                                e.translit ? mkelem("i", {}, [e.translit]) : null
-                            ]) : mkelem("span", {}, [
-                                e.word,
-                                " ",
-                                e.translit ? mkelem("i", {}, [e.translit]) : null
-                            ])
-                        : null,
+                        e.link ?? true ? mkelem("a", {"href": url(e)}, [
+                            e.word,
+                            " ",
+                            mkelem("i", {}, [e.translit])
+                        ]) : mkelem("span", {}, [
+                            e.word,
+                            " ",
+                            mkelem("i", {}, [e.translit])
+                        ])
                     ]).flat()
                 ]) : null;
-                return mkelem("div", {"className": "entry" + pos}, [
+                return mkelem("div", {"className": "entry " + pos(entry)}, [
                     mkelem("p", {}, [
                         mkelem("b", {}, [entry.word]),
                         " ",
-                        ...[entry.type ? entry.type.split("-").map(e => mkelem("span", {"className": "type " + e}, [entry.type])) : null].flat(),
+                        ...[entry.type ? entry.type.split("-").map(e => mkelem("span", {"className": "type " + e}, [e])) : null].flat(),
                         " ",
                         entry.def,
-                        entry.alignment ? " – " + entry.alignment : null
+                        entry.def && entry.alignment ? " – " : null,
+                        entry.alignment
                     ]),
-                    entry.notes || entry.semantics || entry.etymology || entry.xo || entry.ko || entry.gloss  ? mkelem("div", {"className": "more"}, [
+                    entry.notes || entry.semantics || entry.etymology || entry.xo || entry.ko || entry.gloss ? mkelem("div", {"className": "more"}, [
                         entry.gloss ? mkelem("p", {}, [
-                            mkelem("code", {}, entry.gloss)
+                            mkelem("span", {"className": "h"}, ["Gloss: "]),
+                            mkelem("code", {}, [entry.gloss])
                         ]) : null,
                         entry.semantics ? mkelem("p", {}, [
                             mkelem("span", {"className": "h"}, ["Keywords: "]),
@@ -98,7 +100,7 @@
                             mkelem("span", {"className": "h"}, ["Notes: "]),
                             entry.notes
                         ]) : null,
-                        entry.etymology ? etym_content : null,
+                        etym_content
                     ]) : null
                 ]);
             }
