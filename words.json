@@ -1098,8 +1098,7 @@
         "etymology": {
             "lang": "Ceqli",
             "word": "fal"
-        },
-        "notes": ""
+        }
     },
     {
         "word": "fan",
@@ -1880,40 +1879,41 @@
     {
         "word": "gulfuk",
         "def": "hat",
-        "gloss": "",
-        "type": "",
-        "alignment": "",
+        "gloss": "head clothing",
+        "type": "Entity",
+        "alignment": "O is a hat",
         "semantics": [
-            "",
-            "",
-            "",
-            ""
+            "hat",
+            "cap",
+            "helmet",
+            "turban",
+            "headscarf"
         ]
     },
     {
         "word": "gunset",
-        "def": "squad",
-        "gloss": "",
-        "type": "",
-        "alignment": "",
+        "def": "crew",
+        "gloss": "work group",
+        "type": "Quality",
+        "alignment": "O is a crew in Eu",
         "semantics": [
-            "",
-            "",
-            "",
-            ""
+            "crew",
+            "squad",
+            "team",
+            "platoon"
         ]
     },
     {
         "word": "guntik",
         "def": "robot",
-        "gloss": "",
-        "type": "",
-        "alignment": "",
+        "gloss": "work machine",
+        "type": "Entity",
+        "alignment": "O is a robot",
         "semantics": [
-            "",
-            "",
-            "",
-            ""
+            "robot",
+            "automaton",
+            "bot",
+            "machine"
         ]
     },
     {
@@ -4938,7 +4938,7 @@
         "def": "same",
         "xo": "equivalence",
         "ko": "parallel (n.)",
-        "type": "",
+        "type": "Relation",
         "alignment": "O is the same as E in Au",
         "semantics": [
             "same",
@@ -5514,7 +5514,7 @@
     {
         "word": "zap",
         "def": "problem",
-        "xo": "",
+        "xo": "frustration",
         "ko": "obstacle",
         "type": "Relation",
         "alignment": "O is a problem for E in Au",
