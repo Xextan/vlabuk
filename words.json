@@ -3774,8 +3774,8 @@
             "insert"
         ],
         "etymology": {
-            "lang": "",
-            "word": ""
+            "lang": "Spanish",
+            "word": "poner"
         }
     },
     {
@@ -4204,7 +4204,7 @@
             "alloy"
         ],
         "etymology": {
-            "lang": "",
+            "lang": "Mandarin",
             "word": "金",
             "translit": "jīn"
         }
@@ -4486,7 +4486,7 @@
         "word": "sel",
         "def": "self",
         "ko": "ego",
-        "type": "",
+        "type": "Junction",
         "alignment": "O is self of E",
         "semantics": [
             "self",
@@ -4584,7 +4584,7 @@
         "def": "mutual",
         "xo": "reciprocity",
         "ko": "party (to discussion etc.)",
-        "type": "",
+        "type": "Quality",
         "alignment": "O (mass) mutually Eu",
         "semantics": [
             "mutual",
@@ -4621,8 +4621,8 @@
         "def": "qualia",
         "xo": "sense",
         "ko": "sensation",
-        "type": "",
-        "alignment": "",
+        "type": "Quality",
+        "alignment": "O is qualia of Eu",
         "semantics": [
             "qualia",
             "color",
@@ -4865,7 +4865,7 @@
         "def": "secret",
         "xo": "confidentiality",
         "ko": "secret (n.)",
-        "type": "",
+        "type": "Quality",
         "alignment": "O is secret in Eu",
         "semantics": [
             "secret",
