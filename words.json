@@ -532,6 +532,20 @@
         "notes": "retained from old Xextan"
     },
     {
+        "word": "danzon",
+        "def": "city",
+        "gloss": "building place",
+        "type": "Entity",
+        "alignment": "O is a city",
+        "semantics": [
+            "city",
+            "town",
+            "urban",
+            "village"
+        ],
+        "notes": "see also «zoddanzon» (capital city)"
+    },
+    {
         "word": "dap",
         "def": "break",
         "type": "Junction",
@@ -611,6 +625,19 @@
             "lang": "Danish",
             "word": "del"
         }
+    },
+    {
+        "word": "deldon",
+        "def": "share",
+        "gloss": "part give",
+        "type": "Direction",
+        "alignment": "O shares E with A",
+        "semantics": [
+            "share",
+            "distribute",
+            "allocate",
+            "split [something] with"
+        ]
     },
     {
         "word": "dep",
@@ -989,6 +1016,23 @@
             "lang": "Toki Pona",
             "word": "e"
         }
+    },
+    {
+        "word": "é'e",
+        "def": "sleep (poetic)",
+        "type": "Quality",
+        "alignment": "O is e'eh in/of Eu",
+        "semantics": [
+            "e'eh",
+            "sleep",
+            "death",
+            "winter",
+            "night"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "one of the Giu Senko Xilati"
     },
     {
         "word": "ei",
@@ -1708,13 +1752,64 @@
         "notes": "i.e. government. for person, see gopzot"
     },
     {
-        "word": "got",
-        "def": "go",
-        "type": "Direction",
-        "alignment": "O goes to E from A",
+        "word": "gopnik",
+        "def": "politician",
+        "gloss": "govern servant",
+        "type": "Entity",
+        "alignment": "O is a politician",
         "semantics": [
-            "go",
+            "politician",
+            "civil servant",
+            "government official"
+        ]
+    },
+    {
+        "word": "gopset",
+        "def": "government",
+        "gloss": "govern group",
+        "type": "Junction",
+        "alignment": "O is government of E",
+        "semantics": [
+            "government",
+            "parliament",
+            "house",
+            "chamber"
+        ]
+    },
+    {
+        "word": "goptun",
+        "def": "country",
+        "gloss": "govern land",
+        "type": "Junction",
+        "alignment": "O is country of E",
+        "semantics": [
+            "country",
+            "nation",
+            "state",
+            "land"
+        ]
+    },
+    {
+        "word": "gopzot",
+        "def": "government leader",
+        "gloss": "govern leader",
+        "type": "Junction",
+        "alignment": "O is government leader of E",
+        "semantics": [
+            "government leader",
+            "president",
+            "prime minister",
+            "head of state"
+        ]
+    },
+    {
+        "word": "got",
+        "def": "move",
+        "type": "Direction",
+        "alignment": "O moves to E from A",
+        "semantics": [
             "move",
+            "go",
             "travel",
             "pass"
         ],
@@ -1722,6 +1817,31 @@
             "lang": "Loglan",
             "word": "god ← godzi"
         }
+    },
+    {
+        "word": "gotkon",
+        "def": "wind",
+        "gloss": "move air",
+        "type": "Entity",
+        "alignment": "O is wind",
+        "semantics": [
+            "wind",
+            "breeze",
+            "gale",
+            "gust"
+        ]
+    },
+    {
+        "word": "gotsli",
+        "def": "animation",
+        "gloss": "move image",
+        "type": "Entity",
+        "alignment": "O is an animation",
+        "semantics": [
+            "animation",
+            "cartoon",
+            "anime"
+        ]
     },
     {
         "word": "gu",
@@ -1756,6 +1876,45 @@
             "word": "גולגולת",
             "translit": "gulgólet"
         }
+    },
+    {
+        "word": "gulfuk",
+        "def": "hat",
+        "gloss": "",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "word": "gunset",
+        "def": "squad",
+        "gloss": "",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "word": "guntik",
+        "def": "robot",
+        "gloss": "",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "",
+            "",
+            "",
+            ""
+        ]
     },
     {
         "word": "gun",
@@ -1841,6 +2000,23 @@
         }
     },
     {
+        "word": "jówájóka",
+        "def": "world (poetic)",
+        "type": "Quality",
+        "alignment": "O is yohwa-yokah in Eu",
+        "semantics": [
+            "yohwa-yokah",
+            "world",
+            "universe",
+            "nature",
+            "creation"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "also demiurge, Yaldabaoth. one of the Giu Senko Xilati"
+    },
+    {
         "word": "ju",
         "def": "discursive illocution: contrastive",
         "type": "Illocution",
@@ -1922,6 +2098,22 @@
             "lang": "Kamaria"
         },
         "notes": "In honor of a friend"
+    },
+    {
+        "word": "kánóka",
+        "def": "paradise (poetic)",
+        "type": "Quality",
+        "alignment": "O is kanokah in/of Eu",
+        "semantics": [
+            "kanokah",
+            "paradise",
+            "love",
+            "safety"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "also Heaven, Eden. One of the Giu Senko Xilati"
     },
     {
         "word": "kap",
@@ -2432,6 +2624,23 @@
             "lang": "Hungarian",
             "word": "lap"
         }
+    },
+    {
+        "word": "lápélápe",
+        "def": "birth (poetic)",
+        "type": "Quality",
+        "alignment": "O is lapelappeh in/of Eu",
+        "semantics": [
+            "lapelappeh",
+            "life",
+            "growth",
+            "birth",
+            "rebirth"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "one of the Giu Senko Xilati"
     },
     {
         "word": "lat",
@@ -3068,6 +3277,23 @@
         }
     },
     {
+        "word": "nóno",
+        "def": "reflection (poetic)",
+        "type": "Quality",
+        "alignment": "O is nonoh in/of Eu",
+        "semantics": [
+            "nonoh",
+            "reflection",
+            "likeness",
+            "another",
+            "create"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "one of the Giu Senko Xilati"
+    },
+    {
         "word": "nop",
         "def": "idle",
         "xo": "rest (n.)",
@@ -3146,6 +3372,21 @@
             "lang": "Lojban",
             "word": "lo"
         }
+    },
+    {
+        "word": "Óbúfe",
+        "def": "Obufe",
+        "type": "Entity",
+        "alignment": "O is Obufe",
+        "semantics": [
+            "Obufe",
+            "Joe",
+            "John"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "Xextanic folk hero; also a stereotypical given name in Xextan culture"
     },
     {
         "word": "oi",
@@ -3332,6 +3573,19 @@
         }
     },
     {
+        "word": "pensil",
+        "def": "intelligent",
+        "gloss": "think strong",
+        "type": "Quality",
+        "alignment": "O is intelligent in Eu",
+        "semantics": [
+            "intelligent",
+            "smart",
+            "clever",
+            "creative"
+        ]
+    },
+    {
         "word": "pep",
         "def": "",
         "xo": "",
@@ -3366,6 +3620,23 @@
             "lang": "Loglan",
             "word": "perti"
         }
+    },
+    {
+        "word": "péxí'éxi",
+        "def": "time (poetic)",
+        "type": "Quality",
+        "alignment": "O is peshi-eshi in/of Eu",
+        "semantics": [
+            "peshi-eshi",
+            "time",
+            "change",
+            "evolution",
+            "passage"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "one of the Giu Senko Xilati"
     },
     {
         "word": "peu",
@@ -3765,6 +4036,23 @@
         }
     },
     {
+        "word": "tíjóti",
+        "def": "light (poetic)",
+        "type": "Quality",
+        "alignment": "O is tiyoti in/of Eu",
+        "semantics": [
+            "tiyoti",
+            "light",
+            "sun",
+            "power",
+            "God"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "one of the Giu Senko Xilati"
+    },
+    {
         "word": "to",
         "def": "deictic nominative case marker",
         "type": "Preposition",
@@ -3861,6 +4149,39 @@
             "word": "ua"
         },
         "notes": "\"Understandably...\" / \"I see\" / \"Got it\""
+    },
+    {
+        "word": "wápéka",
+        "def": "malice (poetic)",
+        "type": "Quality",
+        "alignment": "O does wapekah in Eu",
+        "semantics": [
+            "wapekah",
+            "malice",
+            "cruelty",
+            "sadism"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "wanton cruelty"
+    },
+    {
+        "word": "wáwa",
+        "def": "evil (poetic)",
+        "type": "Quality",
+        "alignment": "O is wawah in/of Eu",
+        "semantics": [
+            "wawah",
+            "evil",
+            "tragedy",
+            "rapture",
+            "destruction"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "one of the Giu Senko Xilati"
     },
     {
         "word": "we",
@@ -4163,6 +4484,19 @@
             "translit": "zǐ"
         },
         "notes": "cf. Esperanto {-ero}"
+    },
+    {
+        "word": "zoddanzon",
+        "def": "capital city",
+        "gloss": "leader building place",
+        "type": "Junction",
+        "alignment": "O is a capital city of E",
+        "semantics": [
+            "capital",
+            "capitol",
+            "federal"
+        ],
+        "notes": "cf. «danzon» (city)"
     },
     {
         "word": "zoi",
