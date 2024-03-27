@@ -73,10 +73,8 @@
                     mkelem("p", {}, [
                         mkelem("b", {}, [entry.word]),
                         " ",
-                        entry.type ? mkelem("span", {"className": "type " + entry.type.split(" ")[0]}, [entry.type]) : null,
+                        ...[entry.type ? entry.type.split("-").map(e => mkelem("span", {"className": "type " + e}, [entry.type])) : null].flat(),
                         " ",
-                    // ]),
-                    // mkelem("p", {}, [
                         entry.def,
                         entry.alignment ? " – " + entry.alignment : null
                     ]),
