@@ -2797,6 +2797,31 @@
         }
     },
     {
+        "word": "liksak",
+        "def": "dry",
+        "gloss": "liquid lack",
+        "type": "Relation",
+        "alignment": "O is dry of E in Au",
+        "semantics": [
+            "dry",
+            "parched",
+            "arid"
+        ]
+    },
+    {
+        "word": "likxel",
+        "def": "wet",
+        "gloss": "liquid full",
+        "type": "Relation",
+        "alignment": "O is wet with E in Au",
+        "semantics": [
+            "wet",
+            "moist",
+            "soaking",
+            "damp"
+        ]
+    },
+    {
         "word": "lil",
         "def": "experience",
         "xo": "experience (n.)",
@@ -5000,7 +5025,7 @@
         "def": "residence",
         "gloss": "reside PAT.NZ",
         "type": "Entity",
-        "alignment": "O is a bell",
+        "alignment": "O is a residence of E",
         "semantics": [
             "residence",
             "dwelling",
