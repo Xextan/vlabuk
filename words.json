@@ -25,6 +25,71 @@
         }
     },
     {
+        "word": "Ámríka",
+        "def": "",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "etymology": {
+            "lang": ""
+        },
+        "notes": ""
+    },
+    {
+        "word": "Ámríka Tunbak",
+        "def": "",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "etymology": {
+            "lang": ""
+        },
+        "notes": "proper name (n.): la Ámríka Tunbak"
+    },
+    {
+        "word": "Ámríka Tunkut",
+        "def": "",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "etymology": {
+            "lang": ""
+        },
+        "notes": ""
+    },
+    {
+        "word": "Áusrália",
+        "def": "Australia",
+        "type": "Quality",
+        "alignment": "O is Australian in Eu",
+        "semantics": [
+            "Australia",
+            "Aussie"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Australia"
+        }
+    },
+    {
         "word": "ba",
         "def": "existential pronoun",
         "type": "Predicate",
@@ -1051,6 +1116,23 @@
         }
     },
     {
+        "word": "Éurópa",
+        "def": "",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "etymology": {
+            "lang": ""
+        },
+        "notes": "proper name (n.): la Éuropa"
+    },
+    {
         "word": "fa",
         "def": "future tense",
         "type": "Adverb",
@@ -1663,13 +1745,14 @@
     },
     {
         "word": "gle",
-        "def": "copulate",
-        "type": "Junction",
-        "alignment": "O copulates with E",
+        "def": "sexual",
+        "type": "Relation",
+        "alignment": "O is sexual with E in Au",
         "semantics": [
-            "copulate",
+            "sexual",
             "have sex",
-            "mate"
+            "mate",
+            "copulate"
         ],
         "etymology": {
             "lang": "Lojban",
@@ -4280,7 +4363,7 @@
         "etymology": {
             "lang": "Macedonian",
             "word": "жлеб",
-            "translit": "(žleb)"
+            "translit": "žleb"
         }
     },
     {
@@ -4350,7 +4433,8 @@
         ],
         "etymology": {
             "lang": "Zulu",
-            "word": "-jula"
+            "word": "-jula",
+            "urlform": "jula"
         }
     },
     {
@@ -5171,6 +5255,65 @@
         "etymology": {
             "lang": "contraction: «ti» + «u»"
         }
+    },
+    {
+        "word": "tun",
+        "def": "land",
+        "type": "Junction",
+        "alignment": "O is land of E",
+        "semantics": [
+            "land",
+            "terrain",
+            "earth",
+            "geography",
+            "environment"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "tumla"
+        }
+    },
+    {
+        "word": "tunbak",
+        "def": "south",
+        "gloss": "land behind",
+        "type": "Junction",
+        "alignment": "O is south of E"
+    },
+    {
+        "word": "tundek",
+        "def": "east",
+        "gloss": "land right",
+        "type": "Junction",
+        "alignment": "O is east of E"
+    },
+    {
+        "word": "tungal",
+        "def": "elevation",
+        "gloss": "land above",
+        "type": "Junction",
+        "alignment": "O is higher in elevation than E"
+    },
+    {
+        "word": "tunkut",
+        "def": "north",
+        "gloss": "land front",
+        "type": "Junction",
+        "alignment": "O is north of E"
+    },
+    {
+        "word": "tunlep",
+        "def": "west",
+        "gloss": "land left",
+        "type": "Junction",
+        "alignment": "O is west of E"
+    },
+    {
+        "word": "tunxit",
+        "def": "low elevation",
+        "gloss": "land below",
+        "type": "Junction",
+        "alignment": "O is lower in elevation than E"
     },
     {
         "word": "u",
