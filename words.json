@@ -5525,8 +5525,38 @@
         }
     },
     {
+        "word": "xen",
+        "def": "begin",
+        "type": "State",
+        "alignment": "Ou begins",
+        "semantics": [
+            "begin",
+            "become",
+            "start",
+            "initiate"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "參",
+            "translit": "shēn"
+        }
+    },
+    {
         "word": "xen but",
-        "gloss": "start sleep",
+        "gloss": "begin awake",
+        "type": "State-Quality",
+        "alignment": "(Ou) O wakes up in Eu",
+        "semantics": [
+            "wake up",
+            "awake",
+            "come to",
+            "regain consciousness"
+        ],
+        "notes": "cf. «spabut»"
+    },
+    {
+        "word": "xen spa",
+        "gloss": "begin asleep",
         "type": "State-Quality",
         "alignment": "(Ou) O falls asleep in Eu",
         "semantics": [
