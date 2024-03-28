@@ -171,14 +171,14 @@
     {
         "word": "banfla",
         "def": "grammar",
-        "gloss": "language rule",
+        "gloss": "language-rule",
         "type": "Junction",
         "alignment": "O is the grammar of E"
     },
     {
         "word": "bankok",
         "def": "translate",
-        "gloss": "language cause",
+        "gloss": "language-cause",
         "type": "Direction",
         "alignment": "O translates E to A"
     },
@@ -500,7 +500,7 @@
     {
         "word": "bukdan",
         "def": "library",
-        "gloss": "book building",
+        "gloss": "book-building",
         "type": "Entity",
         "alignment": "O is a library"
     },
@@ -595,7 +595,7 @@
     {
         "word": "dalxut",
         "def": "sea",
-        "gloss": "large water",
+        "gloss": "large-water",
         "type": "Entity",
         "alignment": "O is a sea",
         "semantics": [
@@ -624,7 +624,7 @@
     {
         "word": "danzon",
         "def": "city",
-        "gloss": "building place",
+        "gloss": "building-place",
         "type": "Entity",
         "alignment": "O is a city",
         "semantics": [
@@ -719,7 +719,7 @@
     {
         "word": "deldon",
         "def": "share",
-        "gloss": "part give",
+        "gloss": "part-give",
         "type": "Direction",
         "alignment": "O shares E with A",
         "semantics": [
@@ -1859,7 +1859,7 @@
     {
         "word": "gopnik",
         "def": "politician",
-        "gloss": "govern servant",
+        "gloss": "govern-servant",
         "type": "Entity",
         "alignment": "O is a politician",
         "semantics": [
@@ -1871,7 +1871,7 @@
     {
         "word": "gopset",
         "def": "government",
-        "gloss": "govern group",
+        "gloss": "govern-group",
         "type": "Junction",
         "alignment": "O is government of E",
         "semantics": [
@@ -1884,7 +1884,7 @@
     {
         "word": "goptun",
         "def": "country",
-        "gloss": "govern land",
+        "gloss": "govern-land",
         "type": "Junction",
         "alignment": "O is country of E",
         "semantics": [
@@ -1897,7 +1897,7 @@
     {
         "word": "gopzot",
         "def": "government leader",
-        "gloss": "govern leader",
+        "gloss": "govern-leader",
         "type": "Junction",
         "alignment": "O is government leader of E",
         "semantics": [
@@ -1926,7 +1926,7 @@
     {
         "word": "gotkon",
         "def": "wind",
-        "gloss": "move air",
+        "gloss": "move-air",
         "type": "Entity",
         "alignment": "O is wind",
         "semantics": [
@@ -1939,7 +1939,7 @@
     {
         "word": "gotsli",
         "def": "animation",
-        "gloss": "move image",
+        "gloss": "move-image",
         "type": "Entity",
         "alignment": "O is an animation",
         "semantics": [
@@ -1986,7 +1986,7 @@
     {
         "word": "gulfuk",
         "def": "hat",
-        "gloss": "head clothing",
+        "gloss": "head-clothing",
         "type": "Entity",
         "alignment": "O is a hat",
         "semantics": [
@@ -2000,7 +2000,7 @@
     {
         "word": "gunset",
         "def": "crew",
-        "gloss": "work group",
+        "gloss": "work-group",
         "type": "Quality",
         "alignment": "O is a crew in Eu",
         "semantics": [
@@ -2013,7 +2013,7 @@
     {
         "word": "guntik",
         "def": "robot",
-        "gloss": "work machine",
+        "gloss": "work-machine",
         "type": "Entity",
         "alignment": "O is a robot",
         "semantics": [
@@ -2906,7 +2906,7 @@
     {
         "word": "liksak",
         "def": "dry",
-        "gloss": "liquid lack",
+        "gloss": "liquid-lack",
         "type": "Relation",
         "alignment": "O is dry of E in Au",
         "semantics": [
@@ -2918,7 +2918,7 @@
     {
         "word": "likxel",
         "def": "wet",
-        "gloss": "liquid full",
+        "gloss": "liquid-full",
         "type": "Relation",
         "alignment": "O is wet with E in Au",
         "semantics": [
@@ -3707,7 +3707,7 @@
     {
         "word": "pensil",
         "def": "intelligent",
-        "gloss": "think strong",
+        "gloss": "think-strong",
         "type": "Quality",
         "alignment": "O is intelligent in Eu",
         "semantics": [
@@ -4926,28 +4926,28 @@
     {
         "word": "sondal",
         "def": "loud",
-        "gloss": "sound large",
+        "gloss": "sound-large",
         "type": "Quality",
         "alignment": "O is loud in Eu"
     },
     {
         "word": "sonkap",
         "def": "bell",
-        "gloss": "sound cup",
+        "gloss": "sound-cup",
         "type": "Entity",
         "alignment": "O is a bell"
     },
     {
         "word": "sonkottik",
         "def": "radio",
-        "gloss": "sound network machine",
+        "gloss": "sound-network-machine",
         "type": "Entity",
         "alignment": "O is a radio"
     },
     {
         "word": "sonxal",
         "def": "quiet",
-        "gloss": "sound small",
+        "gloss": "sound-small",
         "type": "Quality",
         "alignment": "O is quiet in Eu"
     },
@@ -5122,7 +5122,7 @@
     {
         "word": "sunko",
         "def": "resident",
-        "gloss": "reside AG.NZ",
+        "gloss": "reside-AG",
         "type": "Entity",
         "alignment": "O is an inhabitant of E",
         "semantics": [
@@ -5135,7 +5135,7 @@
     {
         "word": "sunxo",
         "def": "residence",
-        "gloss": "reside PAT.NZ",
+        "gloss": "reside-PAT",
         "type": "Entity",
         "alignment": "O is a residence of E",
         "semantics": [
@@ -5301,42 +5301,42 @@
     {
         "word": "tunbak",
         "def": "south",
-        "gloss": "land behind",
+        "gloss": "land-behind",
         "type": "Junction",
         "alignment": "O is south of E"
     },
     {
         "word": "tundek",
         "def": "east",
-        "gloss": "land right",
+        "gloss": "land-right",
         "type": "Junction",
         "alignment": "O is east of E"
     },
     {
         "word": "tungal",
         "def": "elevation",
-        "gloss": "land above",
+        "gloss": "land-above",
         "type": "Junction",
         "alignment": "O is higher in elevation than E"
     },
     {
         "word": "tunkut",
         "def": "north",
-        "gloss": "land front",
+        "gloss": "land-front",
         "type": "Junction",
         "alignment": "O is north of E"
     },
     {
         "word": "tunlep",
         "def": "west",
-        "gloss": "land left",
+        "gloss": "land-left",
         "type": "Junction",
         "alignment": "O is west of E"
     },
     {
         "word": "tunxit",
         "def": "low elevation",
-        "gloss": "land below",
+        "gloss": "land-below",
         "type": "Junction",
         "alignment": "O is lower in elevation than E"
     },
@@ -5773,7 +5773,7 @@
     {
         "word": "zoddanzon",
         "def": "capital city",
-        "gloss": "leader building place",
+        "gloss": "leader-building-place",
         "type": "Junction",
         "alignment": "O is a capital city of E",
         "semantics": [
