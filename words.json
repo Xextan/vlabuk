@@ -1978,7 +1978,8 @@
         ],
         "etymology": {
             "lang": "Hebrew",
-            "word": "גולגולת",
+            "word": "גֻּלְגֹּלֶת",
+            "urlform": "גולגולת",
             "translit": "gulgólet"
         }
     },
@@ -4986,6 +4987,7 @@
         "etymology": {
             "lang": "Hebrew",
             "word": "סוֹד",
+            "urlform": "סוד",
             "translit": "sod"
         }
     },
