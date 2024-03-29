@@ -2999,6 +2999,13 @@
         }
     },
     {
+        "word": "litska",
+        "def": "color",
+        "gloss": "light-qualia",
+        "type": "Junction",
+        "alignment": "O is color of E"
+    },
+    {
         "word": "lo",
         "def": "gnomic determiner",
         "type": "Determiner",
@@ -4742,21 +4749,25 @@
     {
         "word": "ska",
         "def": "qualia",
-        "xo": "sense",
-        "ko": "sensation",
-        "type": "Quality",
-        "alignment": "O is qualia of Eu",
+        "xo": "stimulus (Q)",
+        "ko": "vibe (J)",
+        "type": "Junction",
+        "alignment": "O is qualia of E",
         "semantics": [
+            "sensation",
             "qualia",
             "color",
             "timbre",
             "taste",
-            "texture"
+            "texture",
+            "vibe",
+            "mood"
         ],
         "etymology": {
             "lang": "Lojban",
             "word": "ska ← skari"
-        }
+        },
+        "notes": "more specific than \"color\"; cf. «litska» (\"color [of light]\"); «txiska» (\"flavor\")"
     },
     {
         "word": "ske",
@@ -5342,8 +5353,8 @@
             "be characterized by"
         ],
         "etymology": {
-            "lang": "",
-            "word": ""
+            "lang": "Ceqli",
+            "word": "ten"
         }
     },
     {
@@ -5386,8 +5397,8 @@
             "epoch"
         ],
         "etymology": {
-            "lang": "",
-            "word": ""
+            "lang": "Portuguese",
+            "word": "tempo"
         }
     },
     {
@@ -5525,6 +5536,43 @@
         "gloss": "land-below",
         "type": "Junction",
         "alignment": "O is lower in elevation than E"
+    },
+    {
+        "word": "txi",
+        "def": "eat",
+        "type": "Junction",
+        "alignment": "O eats E",
+        "semantics": [
+            "eat",
+            "consume",
+            "devour",
+            "swallow",
+            "absorb"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "吃",
+            "translit": "chī"
+        }
+    },
+    {
+        "word": "txiska",
+        "def": "flavor",
+        "gloss": "eat-qualia",
+        "type": "Junction",
+        "alignment": "O is flavor of E",
+        "semantics":[
+            "flavor",
+            "taste",
+            "terroir"
+        ]
+    },
+    {
+        "word": "txixo",
+        "def": "food",
+        "gloss": "eat-PAT",
+        "type": "Junction",
+        "alignment": "O is food to E"
     },
     {
         "word": "u",
