@@ -540,6 +540,18 @@
         }
     },
     {
+        "word": "butxen",
+        "def": "awaken",
+        "gloss": "awake-become",
+        "type": "Quality",
+        "alignment": "O awakens in Eu",
+        "semantics": [
+            "awaken (nt.)",
+            "wake up (nt.)",
+            "arouse (nt.)"
+        ]
+    },
+    {
         "word": "da",
         "def": "bind noun phrase to predicate (dative)",
         "type": "Binder",
@@ -3447,10 +3459,10 @@
     {
         "word": "not",
         "def": "other",
-        "xo": "option B",
-        "ko": "option A",
+        "xo": "otherness",
+        "ko": "another",
         "type": "Junction",
-        "alignment": "O is other than B",
+        "alignment": "O is other than E in Au",
         "semantics": [
             "other",
             "another",
@@ -5012,6 +5024,19 @@
         }
     },
     {
+        "word": "spaxen",
+        "def": "fall asleep",
+        "gloss": "sleep-become",
+        "type": "Quality",
+        "alignment": "O falls asleep in Eu",
+        "semantics": [
+            "fall asleep",
+            "doze off",
+            "pass out",
+            "lose consciousness"
+        ]
+    },
+    {
         "word": "spe",
         "def": "reflect",
         "xo": "reflection",
@@ -5207,6 +5232,41 @@
         }
     },
     {
+        "word": "tan",
+        "def": "source",
+        "xo": "origin",
+        "ko": "resource",
+        "type": "Relation",
+        "alignment": "O is source of E in Au",
+        "semantics": [
+            "source",
+            "origin",
+            "resource",
+            "provide"
+        ],
+        "etymology": {
+            "lang": "Toki Pona",
+            "word": "tan"
+        }
+    },
+    {
+        "word": "tat",
+        "def": "tight",
+        "xo": "tension",
+        "type": "Quality",
+        "alignment": "O is tight in Eu",
+        "semantics": [
+            "tight",
+            "tension",
+            "strain",
+            "stress"
+        ],
+        "etymology": {
+            "lang": "Scots",
+            "word": "tacht"
+        }
+    },
+    {
         "word": "te",
         "def": "deictic accusative case marker",
         "type": "Preposition",
@@ -5220,6 +5280,132 @@
         "type": "Preposition",
         "etymology": {
             "lang": "by analogy; cf. «te»"
+        }
+    },
+    {
+        "word": "tek",
+        "def": "specific",
+        "xo": "detail (J)",
+        "ko": "special (Q)",
+        "type": "Relation",
+        "alignment": "O is specific to E in Au",
+        "semantics": [
+            "specific",
+            "special",
+            "particular",
+            "outstanding"
+        ],
+        "etymology": {
+            "lang": "Turkish",
+            "word": "tek"
+        }
+    },
+    {
+        "word": "tekko",
+        "def": "special (Q)",
+        "gloss": "specific-AG",
+        "type": "Quality",
+        "alignment": "O is special in Eu",
+        "semantics": [
+            "special",
+            "individual",
+            "unique",
+            "species"
+        ]
+    },
+    {
+        "word": "tekxo",
+        "def": "detail",
+        "gloss": "specific-PAT",
+        "type": "Junction",
+        "alignment": "O is a detail of E",
+        "semantics": [
+            "detail",
+            "characteristic",
+            "trait",
+            "statistic",
+            "particularity"
+        ]
+    },
+    {
+        "word": "ten",
+        "def": "have",
+        "xo": "possession (J)",
+        "ko": "possessor (J)",
+        "type": "Relation",
+        "alignment": "O has E in Au",
+        "semantics": [
+            "have",
+            "possess",
+            "own",
+            "keep",
+            "be characterized by"
+        ],
+        "etymology": {
+            "lang": "",
+            "word": ""
+        }
+    },
+    {
+        "word": "tenko",
+        "def": "possessor",
+        "gloss": "have-AG",
+        "type": "Junction",
+        "alignment": "O is a possessor of E",
+        "semantics": [
+            "possessor",
+            "user",
+            "owner",
+            "haver"
+        ]
+    },
+    {
+        "word": "tenxo",
+        "def": "possession",
+        "gloss": "have-PAT",
+        "type": "Junction",
+        "alignment": "O is a possession of E",
+        "semantics": [
+            "possession",
+            "property",
+            "belong to"
+        ]
+    },
+    {
+        "word": "tep",
+        "def": "time",
+        "xo": "duration",
+        "ko": "era",
+        "type": "Quality",
+        "alignment": "O is time of Eu",
+        "semantics": [
+            "time",
+            "period",
+            "duration",
+            "era",
+            "epoch"
+        ],
+        "etymology": {
+            "lang": "",
+            "word": ""
+        }
+    },
+    {
+        "word": "tet",
+        "def": "try",
+        "xo": "effort (Q)",
+        "ko": "persistent (Q)",
+        "type": "Quality",
+        "alignment": "O tries Eu",
+        "semantics": [
+            "try",
+            "attempt",
+            "endeavor",
+            "effort"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "tentar"
         }
     },
     {
