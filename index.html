@@ -57,14 +57,24 @@
                     if ([entry.def, entry.alignment, ...(entry.semantics || []), entry.xo, entry.ko].some(e => new RegExp(regex, "iu").test(e))) {
                         results.push([entry, 3]);
                     }
-                    // if (entry.word.toLowerCase().startsWith((query))) {
-                    //     results.push([entry, 2]);
-                    // }
+                    if (entry.word.toLowerCase().startsWith(q)) {
+                        results.push([entry, 2]);
+                    }
                     if (entry.notes && new RegExp(regex, "iu").test(entry.notes)) {
                         results.push([entry, 1]);
                     }
                 }
-                return results;
+                return dedup(results);
+            }
+            function dedup(list) {
+                var list = list.sort((a, b) => b[1] - a[1]);
+                const logged = {};
+                list = list.filter(entry => {
+                    if (logged[entry[0].word]) return false;
+                    logged[entry[0].word] = true;
+                    return true;
+                });
+                return list;
             }
             document.getElementById("search").dispatchEvent(new Event("input", {"bubbles": true}));
             function mkelem(tag, props, children) {
