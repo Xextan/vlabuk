@@ -22,17 +22,51 @@
             <a href="https://github.com/Xextan/vlabuk">Github</a> &bull;
             <a href="https://docs.google.com/spreadsheets/d/1eR_NQPv9CY-d9L8y2VW-5YbLbr-_IhpM">Spreadsheet</a> (slowly migrating here)
         </p>
-        <input type="text" />
-        <p>↑ this will do things soon i promise! in the meantime here's all the words in the database so far</p>
+        <input type="text" id="search" />
+        <p>
+            <!-- ↑ this will do things soon i promise! in the meantime here's all the words in the database so far -->
+        </p>
         <div id="results"></div>
         <script src="words.js"></script>
         <script>
             document.getElementById("pickle").addEventListener("change", function() {
                 document.documentElement.classList.toggle("pickle");
             });
-            for (const entry of dict) {
-                document.getElementById("results").append(...[htmlify(entry)]);
+            document.getElementById("search").addEventListener("input", function() {
+                let q = document.getElementById("search").value.toLowerCase();
+                document.getElementById("results").innerHTML = "";
+                document.getElementById("results").append(
+                    ...search(q).sort((a, b) => b[1] - a[1]).map(e => htmlify(e[0]))
+                );
+            });
+            function deaccent(s) {
+                return s.replace(/[‘’]/g, "'").replace(/[áãâ]/, "a").replace(/[éẽê]/, "e").replace(/[íĩî]/, "i").replace(/[óõô]/, "o").replace(/[úũû]/, "u").replace(/[ýỹŷ]/, "y");
             }
+            function search(q) {
+                // kinda stolen from xlasisku lol
+                var results = [];
+                for (const w of q.split(/\s+/)) {
+                    const exact = dict.find(e => deaccent(e.word.toLowerCase()) == deaccent(w));
+                    if (exact) {
+                        results.push([exact, 10]);
+                    }
+                }
+                for (const entry of dict) {
+                    const rgx = q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+                    const regex = `(\\b|\\W|^)${rgx}(\\b|\\W|$)`;
+                    if ([entry.def, entry.alignment, ...(entry.semantics || []), entry.xo, entry.ko].some(e => new RegExp(regex, "iu").test(e))) {
+                        results.push([entry, 3]);
+                    }
+                    // if (entry.word.toLowerCase().startsWith((query))) {
+                    //     results.push([entry, 2]);
+                    // }
+                    if (entry.notes && new RegExp(regex, "iu").test(entry.notes)) {
+                        results.push([entry, 1]);
+                    }
+                }
+                return results;
+            }
+            document.getElementById("search").dispatchEvent(new Event("input", {"bubbles": true}));
             function mkelem(tag, props, children) {
                 const element = document.createElement(tag);
                 Object.assign(element, props);
@@ -44,6 +78,7 @@
                 return element;
             }
             function pos(e) {
+                if (!e.word) {console.log(e)}
                 return e.word.includes(" ") && !e.word.split(" ").some(e => pos({"word": e}) == "freeword") ? "serial" :
                 e.gloss ? "compound" :
                 /^.{0,2}[áéíóú]/iu.test(e.word) || (!/^[bdfgklmnpqstvxz]([aeiou][ptkln]|[bdfgklmnpqstvxz][aeiou])$/.test(e.word) && e.alignment) ? "freeword" :
