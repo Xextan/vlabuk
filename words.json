@@ -1948,6 +1948,20 @@
         ]
     },
     {
+        "word": "flanik",
+        "def": "lawyer",
+        "gloss": "law-agent",
+        "type": "Junction",
+        "alignment": "O is a lawyer representing E",
+        "semantics": [
+            "lawyer",
+            "attorney",
+            "counselor",
+            "solicitor",
+            "barrister"
+        ]
+    },
+    {
         "word": "fli",
         "def": "float",
         "type": "Junction",
@@ -2022,6 +2036,18 @@
         "notes": "& play [instrument]"
     },
     {
+        "word": "folbon",
+        "def": "useful",
+        "gloss": "use-good",
+        "type": "Relation",
+        "alignment": "O is useful to E in Au",
+        "semantics": [
+            "useful",
+            "helpful",
+            "handy"
+        ]
+    },
+    {
         "word": "fon",
         "def": "frame",
         "type": "Entity",
@@ -2064,6 +2090,82 @@
             "word": "服",
             "translit": "fuku"
         }
+    },
+    {
+        "word": "fuklap",
+        "def": "fabric",
+        "gloss": "clothing-sheet",
+        "type": "Junction",
+        "alignment": "O is fabric of E",
+        "semantics": [
+            "fabric",
+            "cloth",
+            "textile",
+            "woven"
+        ]
+    },
+    {
+        "word": "fukpon",
+        "def": "don",
+        "gloss": "clothing-put",
+        "type": "Junction",
+        "alignment": "O dons clothing E upon A",
+        "semantics": [
+            "don",
+            "put on",
+            "wear"
+        ]
+    },
+    {
+        "word": "fuksak",
+        "def": "naked",
+        "gloss": "clothing-lack",
+        "type": "Quality",
+        "alignment": "O is naked in Eu",
+        "semantics": [
+            "naked",
+            "nude",
+            "bare",
+            "without clothing"
+        ]
+    },
+    {
+        "word": "fukten",
+        "def": "wear",
+        "gloss": "clothing-have",
+        "type": "Junction",
+        "alignment": "O wears E",
+        "semantics": [
+            "wear",
+            "be clothed in",
+            "be adorned with"
+        ],
+        "notes": "opposite of «fuksak»"
+    },
+    {
+        "word": "fukxki",
+        "def": "undress",
+        "gloss": "clothing-remove",
+        "type": "Junction",
+        "alignment": "O doffs E from A",
+        "semantics": [
+            "doff",
+            "take off [clothes]",
+            "undress",
+            "remove clothes"
+        ]
+    },
+    {
+        "word": "fukxkise",
+        "def": "disrobe",
+        "gloss": "clothing-remove-REFL",
+        "type": "Junction",
+        "alignment": "O disrobes (SE)",
+        "semantics": [
+            "disrobe",
+            "undress",
+            "remove [clothes]"
+        ]
     },
     {
         "word": "fun",
@@ -2109,6 +2211,32 @@
         "notes": "Swaps O and A roles"
     },
     {
+        "word": "gadón",
+        "def": "receive",
+        "gloss": "PASS.IO give",
+        "type": "Modifier-Direction",
+        "alignment": "O receives E from A",
+        "semantics": [
+            "receive",
+            "accept",
+            "obtain"
+        ],
+        "notes": "false compound: «ga» + «don»"
+    },
+    {
+        "word": "gedón",
+        "def": "be given",
+        "gloss": "PASS.DO give",
+        "type": "Modifier-Direction",
+        "alignment": "O is given by E to A",
+        "semantics": [
+            "be given by",
+            "be gifted by",
+            "be provided by"
+        ],
+        "notes": "false compound: «ge» + «don»"
+    },
+    {
         "word": "gak",
         "def": "fail",
         "xo": "failure",
@@ -2139,6 +2267,31 @@
             "word": "高",
             "translit": "gāo"
         }
+    },
+    {
+        "word": "galgot",
+        "def": "ascend",
+        "gloss": "above-go",
+        "type": "Direction",
+        "alignment": "O ascends E from A",
+        "semantics": [
+            "ascend",
+            "climb",
+            "summit",
+            "surmount"
+        ]
+    },
+    {
+        "word": "galzit",
+        "def": "ceiling",
+        "gloss": "above-wall",
+        "type": "Junction",
+        "alignment": "O is ceiling of E",
+        "semantics": [
+            "ceiling",
+            "roof",
+            "lid"
+        ]
     },
     {
         "word": "ge",
@@ -2368,7 +2521,7 @@
     {
         "word": "gopnik",
         "def": "politician",
-        "gloss": "govern-servant",
+        "gloss": "govern-agent",
         "type": "Entity",
         "alignment": "O is a politician",
         "semantics": [
@@ -3215,13 +3368,14 @@
     {
         "word": "konqla",
         "def": "lung",
-        "gloss": "",
-        "type": "",
-        "alignment": "",
+        "gloss": "air-organ",
+        "type": "Junction",
+        "alignment": "O is lung of E",
         "semantics": [
-            "",
-            "",
-            ""
+            "lung",
+            "respiratory",
+            "pulmonary",
+            "breathing"
         ]
     },
     {
@@ -4158,12 +4312,13 @@
     },
     {
         "word": "nik",
-        "def": "employed",
+        "def": "agent",
         "xo": "job",
         "ko": "employed",
         "type": "Quality",
-        "alignment": "O is employed in Eu",
+        "alignment": "O is employed as agent of Eu",
         "semantics": [
+            "agent",
             "serve",
             "service",
             "servant",
@@ -4307,6 +4462,31 @@
             "lang": "Loglan",
             "word": "not ← notbi"
         }
+    },
+    {
+        "word": "notlen",
+        "def": "other person",
+        "gloss": "other-human",
+        "type": "Junction",
+        "alignment": "O is a person other than E",
+        "semantics": [
+            "other person",
+            "neighbor",
+            "fellow man"
+        ]
+    },
+    {
+        "word": "notsepxin",
+        "def": "transgender",
+        "gloss": "other-gender-heart",
+        "type": "Junction",
+        "alignment": "O is transgender identity of E",
+        "semantics": [
+            "transgender",
+            "transsexual",
+            "nonbinary"
+        ],
+        "notes": "transgender person = len notsepxin, be transgender = ten notsepxin (de)"
     },
     {
         "word": "nu",
@@ -5279,6 +5459,19 @@
         }
     },
     {
+        "word": "qlasep",
+        "def": "sex",
+        "gloss": "body-gender",
+        "type": "Junction",
+        "alignment": "O is biological sex of E",
+        "semantics": [
+            "sex",
+            "biological sex",
+            "physical sex",
+            "sex characteristics"
+        ]
+    },
+    {
         "word": "qle",
         "def": "valley",
         "xo": "ridged",
@@ -5551,6 +5744,33 @@
             "lang": "Spanish",
             "word": "señar"
         }
+    },
+    {
+        "word": "sep",
+        "def": "gender",
+        "type": "Junction",
+        "alignment": "O is gender/sex of E",
+        "semantics": [
+            "gender",
+            "sex"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "性別",
+            "translit": "seibetsu"
+        }
+    },
+    {
+        "word": "sepxin",
+        "def": "gender identity",
+        "gloss": "gender-heart",
+        "type": "Junction",
+        "alignment": "O is gender identity of E",
+        "semantics": [
+            "gender identity",
+            "gender"
+        ],
+        "notes": "see also «notsepxin» (\"transgender identity\")"
     },
     {
         "word": "set",
