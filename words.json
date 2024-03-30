@@ -9,22 +9,6 @@
         }
     },
     {
-        "word": "ai",
-        "def": "collective dative case marker",
-        "type": "Preposition",
-        "etymology": {
-            "lang": "by analogy; cf. «a»"
-        }
-    },
-    {
-        "word": "au",
-        "def": "abstract dative case marker",
-        "type": "Preposition",
-        "etymology": {
-            "lang": "by analogy; cf. «a»"
-        }
-    },
-    {
         "word": "Áfríka",
         "def": "Africa",
         "type": "Quality",
@@ -38,6 +22,14 @@
             "word": "Africa"
         },
         "notes": "proper name: la Áfríka"
+    },
+    {
+        "word": "ai",
+        "def": "collective dative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «a»"
+        }
     },
     {
         "word": "Ámríka",
@@ -85,19 +77,12 @@
         "notes": "proper name (n.): la Ámríka Tunkut"
     },
     {
-        "word": "Ázíja",
-        "def": "Asia",
-        "type": "Quality",
-        "alignment": "O is Asian in Eu",
-        "semantics": [
-            "Asia",
-            "Asian"
-        ],
+        "word": "au",
+        "def": "abstract dative case marker",
+        "type": "Preposition",
         "etymology": {
-            "lang": "English",
-            "word": "Asia"
-        },
-        "notes": "proper name (n.): la Ázíja"
+            "lang": "by analogy; cf. «a»"
+        }
     },
     {
         "word": "Áusrália",
@@ -113,6 +98,21 @@
             "word": "Australia"
         },
         "notes": "proper name (n.): la Áusrália"
+    },
+    {
+        "word": "Ázíja",
+        "def": "Asia",
+        "type": "Quality",
+        "alignment": "O is Asian in Eu",
+        "semantics": [
+            "Asia",
+            "Asian"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Asia"
+        },
+        "notes": "proper name (n.): la Ázíja"
     },
     {
         "word": "ba",
@@ -2010,6 +2010,24 @@
         ]
     },
     {
+        "word": "gun",
+        "def": "work",
+        "xo": "work (n.)",
+        "ko": "industrious",
+        "type": "Quality",
+        "alignment": "O works on Eu",
+        "semantics": [
+            "work",
+            "effort",
+            "labor",
+            "process (vt.)"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "gun ← gunka"
+        }
+    },
+    {
         "word": "gunset",
         "def": "crew",
         "gloss": "work-group",
@@ -2034,24 +2052,6 @@
             "bot",
             "machine"
         ]
-    },
-    {
-        "word": "gun",
-        "def": "work",
-        "xo": "work (n.)",
-        "ko": "industrious",
-        "type": "Quality",
-        "alignment": "O works on Eu",
-        "semantics": [
-            "work",
-            "effort",
-            "labor",
-            "process (vt.)"
-        ],
-        "etymology": {
-            "lang": "Lojban",
-            "word": "gun ← gunka"
-        }
     },
     {
         "word": "gut",
@@ -3755,6 +3755,16 @@
         }
     },
     {
+        "word": "peu",
+        "def": "topical case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "Loglan",
+            "word": "peu"
+        },
+        "notes": "about, regarding, concerning"
+    },
+    {
         "word": "péxí'éxi",
         "def": "time (poetic)",
         "type": "Quality",
@@ -3770,16 +3780,6 @@
             "lang": "a priori"
         },
         "notes": "one of the Giu Senko Xilati"
-    },
-    {
-        "word": "peu",
-        "def": "topical case marker",
-        "type": "Preposition",
-        "etymology": {
-            "lang": "Loglan",
-            "word": "peu"
-        },
-        "notes": "about, regarding, concerning"
     },
     {
         "word": "pi",
@@ -5456,6 +5456,71 @@
         "notes": "one of the Giu Senko Xilati"
     },
     {
+        "word": "tik",
+        "def": "machine",
+        "type": "Entity",
+        "alignment": "O is a machine",
+        "semantics": [
+            "machine",
+            "appliance",
+            "apparatus"
+        ],
+        "etymology": {
+            "lang": "AI-generated"
+        }
+    },
+    {
+        "word": "tin",
+        "def": "hear",
+        "type": "Junction",
+        "alignment": "O hears E",
+        "semantics": [
+            "hear",
+            "listen",
+            "auditory",
+            "ear"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "聽",
+            "translit": "tīng"
+        }
+    },
+    {
+        "word": "tip",
+        "def": "type",
+        "type": "Quality",
+        "alignment": "O is a type of Eu",
+        "semantics": [
+            "type",
+            "category",
+            "class",
+            "spectrum"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "tipo"
+        }
+    },
+    {
+        "word": "tit",
+        "def": "rod",
+        "type": "Junction",
+        "alignment": "O is a rod made of E",
+        "semantics": [
+            "rod",
+            "stick",
+            "pole",
+            "staff",
+            "dowel",
+            "branch"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "tyč"
+        }
+    },
+    {
         "word": "to",
         "def": "deictic nominative case marker",
         "type": "Preposition",
@@ -5469,6 +5534,132 @@
         "type": "Preposition",
         "etymology": {
             "lang": "by analogy; cf. «to»"
+        }
+    },
+    {
+        "word": "tok",
+        "def": "touch",
+        "type": "Junction",
+        "alignment": "O touches E",
+        "semantics": [
+            "touch",
+            "contact",
+            "reach",
+            "up against"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "tocar"
+        }
+    },
+    {
+        "word": "tol",
+        "def": "shake",
+        "type": "Junction",
+        "alignment": "O shakes E",
+        "semantics": [
+            "shake",
+            "wobble",
+            "vibrate",
+            "quake",
+            "tremor"
+        ],
+        "etymology": {
+            "lang": "Korean",
+            "word": "떨리다",
+            "translit": "tteollida"
+        }
+    },
+    {
+        "word": "tot",
+        "def": "dead",
+        "type": "Quality",
+        "alignment": "O is dead in Eu",
+        "semantics": [
+            "dead",
+            "death",
+            "destruction",
+            "peril",
+            "extinct"
+        ],
+        "etymology": {
+            "lang": "German",
+            "word": "tot"
+        }
+    },
+    {
+        "word": "tsa",
+        "def": "plant",
+        "type": "Entity",
+        "alignment": "O is a plant",
+        "semantics": [
+            "plant",
+            "vegetable",
+            "greenery",
+            "vegetation",
+            "flora"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "菜",
+            "translit": "cài"
+        }
+    },
+    {
+        "word": "tse",
+        "def": "intend",
+        "xo": "intent",
+        "type": "Quality",
+        "alignment": "O intends Eu",
+        "semantics": [
+            "intend",
+            "intent",
+            "plan",
+            "goal",
+            "aim"
+        ],
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "celi"
+        }
+    },
+    {
+        "word": "tsi",
+        "def": "value",
+        "xo": "price",
+        "ko": "money",
+        "type": "Junction",
+        "alignment": "O has value E",
+        "semantics": [
+            "value",
+            "price",
+            "cost",
+            "money",
+            "economy"
+        ],
+        "etymology": {
+            "lang": "Ukrainian",
+            "word": "ціна",
+            "translit": "ciná"
+        }
+    },
+    {
+        "word": "tsu",
+        "def": "soil",
+        "type": "Entity",
+        "alignment": "O is soil",
+        "semantics": [
+            "soil",
+            "dirt",
+            "earth",
+            "loam",
+            "clay",
+            "silt"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "土",
+            "translit": "tsuchi"
         }
     },
     {
@@ -5562,7 +5753,7 @@
         "gloss": "eat-qualia",
         "type": "Junction",
         "alignment": "O is flavor of E",
-        "semantics":[
+        "semantics": [
             "flavor",
             "taste",
             "terroir"
