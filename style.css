@@ -93,6 +93,11 @@ input[type="text"] {
 .Relation {
     background-color: var(--green);
 }
+.Null {
+    background-color: black;
+    color: white !important;
+    outline: 1px solid white;
+}
 .more {
     color: #000c;
 }
