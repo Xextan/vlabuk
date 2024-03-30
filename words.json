@@ -45,23 +45,7 @@
             "lang": "Latin",
             "word": "allēlūia"
         },
-        "notes": "nullary predicate: alleluia!/hallelujah! | originally cf. הַלְּלוּיָהּ \"hal'luyáh\")"
-    },
-    {
-        "word": "álélúja",
-        "def": "alleluia",
-        "type": "Null",
-        "alignment": "N: alleluia",
-        "semantics": [
-            "alleluia",
-            "hallelujah",
-            "Allahu akbar"
-        ],
-        "etymology": {
-            "lang": "Latin",
-            "word": "allēlūia"
-        },
-        "notes": "nullary predicate: alleluia!/hallelujah! | originally cf. הַלְּלוּיָהּ \"hal'luyáh\")"
+        "notes": "originally cf. הַלְּלוּיָהּ \"hal'luyáh\")"
     },
     {
         "word": "ámen",
@@ -78,7 +62,7 @@
             "word": "אָמֵן",
             "translit": "ʾāmēn"
         },
-        "notes": "nullary predicate: amen | see also «jizát»"
+        "notes": "see also «jizát»"
     },
     {
         "word": "Ámríka",
@@ -1194,6 +1178,22 @@
         }
     },
     {
+        "word": "Éire",
+        "def": "Ireland",
+        "type": "Quality",
+        "alignment": "O is Irish in Eu",
+        "semantics": [
+            "Ireland",
+            "Irish",
+            "Hibernian",
+            "Gaelic"
+        ],
+        "etymology": {
+            "lang": "Irish",
+            "word": "Eire"
+        }
+    },
+    {
         "word": "eu",
         "def": "abstract accusative case marker",
         "type": "Preposition",
@@ -2291,9 +2291,8 @@
             "get to"
         ],
         "etymology": {
-            "lang": "Kamaria"
-        },
-        "notes": "In honor of a friend"
+            "lang": "a priori"
+        }
     },
     {
         "word": "kánóka",
@@ -3633,6 +3632,22 @@
         }
     },
     {
+        "word": "Óxénia",
+        "def": "Oceania",
+        "type": "Quality",
+        "alignment": "O is Oceanian in Eu",
+        "semantics": [
+            "Oceania",
+            "Oceanian",
+            "Austronesian"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Oceania"
+        },
+        "notes": "also Melanesia, Micronesia, Polynesia"
+    },
+    {
         "word": "pa",
         "def": "past tense",
         "type": "Adverb",
@@ -4763,6 +4778,21 @@
         "etymology": {
             "lang": "Lojban",
             "word": "simxu"
+        }
+    },
+    {
+        "word": "Síkot",
+        "def": "Scotland",
+        "type": "Quality",
+        "alignment": "O is Scottish in Eu",
+        "semantics": [
+            "Scotland",
+            "Scottish",
+            "Alba"
+        ],
+        "etymology": {
+            "lang": "Scots",
+            "word": "Scot"
         }
     },
     {
