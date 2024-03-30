@@ -32,6 +32,14 @@
         }
     },
     {
+        "word": "ai",
+        "def": "collective dative case marker",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "by analogy; cf. «a»"
+        }
+    },
+    {
         "word": "álélúja",
         "def": "alleluia",
         "type": "Null",
@@ -118,6 +126,23 @@
             "word": "«Ámríka» + «tunkut»"
         },
         "notes": "proper name (n.): la Ámríka Tunkut"
+    },
+    {
+        "word": "Árábi",
+        "def": "Arab",
+        "type": "Quality",
+        "alignment": "O is Arab in Eu",
+        "semantics": [
+            "Arab",
+            "Arabic",
+            "Arabia"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "عَرَب",
+            "urlform": "عرب",
+            "translit": "ʕarab"
+        }
     },
     {
         "word": "au",
@@ -567,6 +592,13 @@
         "notes": "& inside-out"
     },
     {
+        "word": "bukónxup",
+        "def": "breathe out",
+        "gloss": "OPP air-suck",
+        "type": "Direction",
+        "alignment": "O breathes out E to A"
+    },
+    {
         "word": "but",
         "def": "awake",
         "xo": "wakefulness",
@@ -610,6 +642,13 @@
         "etymology": {
             "lang": "contraction: «da» + «qi»"
         }
+    },
+    {
+        "word": "daddul",
+        "def": "analyze",
+        "gloss": "data-read",
+        "type": "Relation",
+        "alignment": "O analyzes E for Au"
     },
     {
         "word": "dak",
@@ -677,6 +716,42 @@
         "notes": "retained from old Xextan"
     },
     {
+        "word": "danglu",
+        "def": "mortar",
+        "gloss": "building-sticky",
+        "type": "Junction",
+        "alignment": "O is mortar made of E",
+        "semantics":[
+            "mortar",
+            "tar",
+            "pitch"
+        ]
+    },
+    {
+        "word": "danxte",
+        "def": "hallway",
+        "gloss": "building-path",
+        "type": "Junction",
+        "alignment": "O is a hallway in E",
+        "semantics": [
+            "hallway",
+            "hall",
+            "corridor"
+        ]
+    },
+    {
+        "word": "danzi",
+        "def": "room",
+        "gloss": "building-DIM",
+        "type": "Junction",
+        "alignment": "O is a room in E",
+        "semantics": [
+            "room",
+            "quarters",
+            "hall"
+        ]
+    },
+    {
         "word": "danzon",
         "def": "city",
         "gloss": "building-place",
@@ -706,6 +781,18 @@
             "word": "-dabuka",
             "urlform": "dabuka"
         }
+    },
+    {
+        "word": "dapko",
+        "def": "fragile",
+        "gloss": "break-AG",
+        "type": "Quality",
+        "alignment": "O is fragile in Eu",
+        "semantics": [
+            "fragile",
+            "breakable",
+            "delicate"
+        ]
     },
     {
         "word": "dat",
@@ -838,11 +925,12 @@
     },
     {
         "word": "din",
-        "def": "sacred",
-        "xo": "holiness",
+        "def": "divine",
+        "xo": "divinity",
         "type": "Quality",
-        "alignment": "O is sacred in Eu",
+        "alignment": "O is divine in Eu",
         "semantics": [
+            "divine",
             "sacred",
             "holy",
             "faith",
@@ -854,6 +942,75 @@
             "urlform": "دين",
             "translit": "dīn"
         }
+    },
+    {
+        "word": "dindan",
+        "def": "temple",
+        "gloss": "divine-building",
+        "type": "Junction",
+        "alignment": "O is a temple of E",
+        "semantics": [
+            "temple",
+            "church",
+            "synagogue",
+            "mosque",
+            "chapel",
+            "cathedral"
+        ]
+    },
+    {
+        "word": "dinsit",
+        "def": "religion",
+        "gloss": "divine-system",
+        "type": "Junction",
+        "alignment": "O is religion of/for E",
+        "semantics": [
+            "religion",
+            "organized religion",
+            "faith",
+            "denomination",
+            "sect"
+        ]
+    },
+    {
+        "word": "dintun",
+        "def": "heaven",
+        "gloss": "divine-land",
+        "type": "Junction",
+        "alignment": "O is heaven of E",
+        "semantics": [
+            "heaven",
+            "paradise",
+            "kingdom come"
+        ]
+    },
+    {
+        "word": "dinxke",
+        "def": "holy",
+        "gloss": "divine-pure",
+        "type": "Quality",
+        "alignment": "O is holy in Eu",
+        "semantics": [
+            "holy",
+            "hallowed",
+            "blessed",
+            "virtuous",
+            "sanctified",
+            "saint"
+        ]
+    },
+    {
+        "word": "dinxo",
+        "def": "divinity",
+        "gloss": "divine-PAT",
+        "type": "Junction",
+        "alignment": "O is divinity of E",
+        "semantics": [
+            "divinity",
+            "holiness",
+            "sacredness",
+            "sanctification"
+        ]
     },
     {
         "word": "dip",
@@ -884,6 +1041,19 @@
             "lang": "Navajo",
             "word": "ditʼąh"
         }
+    },
+    {
+        "word": "dittun",
+        "def": "plains",
+        "gloss": "flat-land",
+        "type": "Junction",
+        "alignment": "O is plains of E",
+        "semantics": [
+            "plains",
+            "flatland",
+            "plateau",
+            "grassland"
+        ]
     },
     {
         "word": "do",
@@ -936,6 +1106,30 @@
             "lang": "Ceqli",
             "word": "don"
         }
+    },
+    {
+        "word": "donko",
+        "def": "donor",
+        "gloss": "give-AG",
+        "type": "Direction",
+        "alignment": "O is a donor of E to A",
+        "semantics": [
+            "donor",
+            "giver",
+            "philanthropist"
+        ]
+    },
+    {
+        "word": "donxo",
+        "def": "gift",
+        "gloss": "give-PAT",
+        "type": "Junction",
+        "alignment": "O is a gift from E",
+        "semantics": [
+            "gift",
+            "present",
+            "free of charge"
+        ]
     },
     {
         "word": "dop",
@@ -1058,6 +1252,57 @@
         }
     },
     {
+        "word": "dunsil",
+        "def": "knowledgeable",
+        "gloss": "know-strong",
+        "type": "Quality",
+        "alignment": "O is knowledgeable in Eu",
+        "semantics": [
+            "knowledgeable",
+            "well-read",
+            "expertise",
+            "expert",
+            "smart"
+        ]
+    },
+    {
+        "word": "dunvol",
+        "def": "wonder",
+        "gloss": "know-want",
+        "type": "Quality",
+        "alignment": "O wonders about Eu",
+        "semantics": [
+            "wonder",
+            "speculate",
+            "curious"
+        ]
+    },
+    {
+        "word": "dunvolko",
+        "def": "curious",
+        "gloss": "know-want-AG",
+        "type": "Quality",
+        "alignment": "O is curious in Eu",
+        "semantics": [
+            "curious",
+            "inquisitive",
+            "inquiring"
+        ]
+    },
+    {
+        "word": "dunxo",
+        "def": "knowledge",
+        "gloss": "know-PAT",
+        "type": "Relation",
+        "alignment": "O is E's knowledge of/about E",
+        "semantics": [
+            "knowledge",
+            "information",
+            "awareness",
+            "consciousness"
+        ]
+    },
+    {
         "word": "duo",
         "def": "numeral: 2",
         "type": "Determiner",
@@ -1101,6 +1346,18 @@
         }
     },
     {
+        "word": "dzetun",
+        "def": "homeland",
+        "gloss": "parent-land",
+        "type": "Junction",
+        "alignment": "O is homeland of E",
+        "semantics": [
+            "homeland",
+            "motherland",
+            "fatherland"
+        ]
+    },
+    {
         "word": "dzi",
         "def": "decay",
         "xo": "decay (n.)",
@@ -1118,6 +1375,18 @@
             "word": "-dzid",
             "urlform": "-DZID"
         }
+    },
+    {
+        "word": "dzilik",
+        "def": "alcohol",
+        "gloss": "decay-liquid",
+        "type": "Junction",
+        "alignment": "O is alcohol of E",
+        "semantics": [
+            "alcohol",
+            "hydroxyl",
+            "liqueur"
+        ]
     },
     {
         "word": "dzo",
@@ -1294,6 +1563,31 @@
         }
     },
     {
+        "word": "fangot",
+        "def": "return",
+        "gloss": "return-go",
+        "type": "Direction",
+        "alignment": "O returns to E",
+        "semantics": [
+            "return",
+            "retreat",
+            "head back to",
+            "go back to"
+        ]
+    },
+    {
+        "word": "fan zal",
+        "def": "return",
+        "gloss": "return at",
+        "type": "State-Junction",
+        "alignment": "(Ou) O returns to E",
+        "semantics": [
+            "return",
+            "turn back",
+            "retreat"
+        ]
+    },
+    {
         "word": "fat",
         "def": "toward",
         "xo": "direction",
@@ -1326,6 +1620,19 @@
         "etymology": {
             "lang": "by analogy; cf. «fi»"
         }
+    },
+    {
+        "word": "feddqe",
+        "def": "holiday",
+        "gloss": "ritual-date",
+        "type": "Quality",
+        "alignment": "O is holiday of Eu",
+        "semantics": [
+            "holiday",
+            "festival",
+            "feast",
+            "carnival"
+        ]
     },
     {
         "word": "fei",
@@ -1370,6 +1677,19 @@
             "lang": "Loglan",
             "word": "fem ← femdi"
         }
+    },
+      {
+        "word": "fenginzot",
+        "def": "queen",
+        "gloss": "female-family-leader",
+        "type": "Junction",
+        "alignment": "O is queen of E",
+        "semantics": [
+            "queen",
+            "empress",
+            "duchess",
+            "baroness"
+        ]
     },
     {
         "word": "fep",
@@ -1524,6 +1844,21 @@
         }
     },
     {
+        "word": "fippen",
+        "def": "worry",
+        "gloss": "fear-think",
+        "type": "Relation",
+        "alignment": "O worries about E for Au",
+        "semantics": [
+            "worry",
+            "concern",
+            "anxiety",
+            "trouble",
+            "obsess",
+            "fear"
+        ]
+    },
+    {
         "word": "fiu",
         "def": "adverbial: discursive but",
         "type": "Adverb",
@@ -1548,6 +1883,57 @@
             "lang": "Lojban",
             "word": "fla ← flalu"
         }
+    },
+    {
+        "word": "flaqan",
+        "def": "rulebreaker",
+        "gloss": "rule-disobey",
+        "type": "Relation",
+        "alignment": "O breaks rule/law E in Au",
+        "semantics": [
+            "criminal",
+            "rulebreaker",
+            "nonconformist"
+        ]
+    },
+    {
+        "word": "flaqandan",
+        "def": "jail",
+        "gloss": "rule-disobey-building",
+        "type": "Junction",
+        "alignment": "O is a jail for E",
+        "semantics": [
+            "jail",
+            "slammer",
+            "brig",
+            "dungeon",
+            "holding cell"
+        ],
+        "notes": "refers to county jail, drunk tank, etc. For \"prison\" see «flaqanzon»"
+    },
+    {
+        "word": "flaqanko",
+        "def": "criminal",
+        "gloss": "rule-disobey-AG",
+        "type": "Quality",
+        "alignment": "O is criminal in Eu",
+        "semantics": [
+            "criminal",
+            "outlaw",
+            "antisocial"
+        ]
+    },
+    {
+        "word": "flaqanzon",
+        "def": "prison",
+        "gloss": "rule-disobey-area",
+        "type": "Junction",
+        "alignment": "O is a prison for E",
+        "semantics": [
+            "prison",
+            "penitentiary",
+            "corrections facility"
+        ]
     },
     {
         "word": "fli",
@@ -2233,6 +2619,21 @@
         }
     },
     {
+        "word": "Júkei",
+        "def": "United Kingdom",
+        "type": "Quality",
+        "alignment": "O is British/of the United Kingdom in Eu",
+        "semantics": [
+            "United Kingdom",
+            "Britain",
+            "UK"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "UK"
+        }
+    },
+    {
         "word": "ka",
         "def": "interrogative predicate",
         "type": "Predicate",
@@ -2618,6 +3019,13 @@
             "lang": "Toki Pona",
             "word": "kon"
         }
+    },
+    {
+        "word": "konxup",
+        "def": "breathe in",
+        "gloss": "air-suck",
+        "type": "Direction",
+        "alignment": "O breathes in E from A"
     },
     {
         "word": "kot",
@@ -3135,6 +3543,21 @@
         "notes": "(imagine vertical hands + face between)"
     },
     {
+        "word": "Loqban",
+        "def": "Lojban",
+        "type": "Quality",
+        "alignment": "O is Lojbanic in Eu",
+        "semantics": [
+            "Lojban",
+            "Lojbanic",
+            "jbobau"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": ".lojban."
+        }
+    },
+    {
         "word": "lou",
         "def": "non-Xextanized quote marker",
         "type": "Determiner",
@@ -3467,6 +3890,22 @@
         "etymology": {
             "lang": "Volapük",
             "word": "nitednik"
+        }
+    },
+    {
+        "word": "Nípon",
+        "def": "Japan",
+        "type": "Quality",
+        "alignment": "O is Japanese in Eu",
+        "semantics": [
+            "Japan",
+            "Nihon",
+            "Nippon"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "日本",
+            "translit": "Nippon"
         }
     },
     {
@@ -4309,6 +4748,23 @@
         }
     },
     {
+        "word": "qéláisto",
+        "def": "farewell",
+        "type": "Null",
+        "alignment": "N: Farewell!",
+        "semantics": [
+            "farewell",
+            "adios",
+            "sayonara",
+            "auf wiedersehen"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "Jelhaisto!"
+        },
+        "notes": "lit. \"stay safe and happy\" | may be used as a formal closing to a letter or function, or as a sarcastic dismissal"
+    },
+    {
         "word": "qen",
         "def": "simple",
         "xo": "simplicity",
@@ -4550,6 +5006,22 @@
         "etymology": {
             "lang": "Lojban",
             "word": "jo"
+        }
+    },
+    {
+        "word": "Qôguo",
+        "def": "China",
+        "type": "Quality",
+        "alignment": "O is Chinese in Eu",
+        "semantics": [
+            "China",
+            "Chinese",
+            "Sinitic"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "中國",
+            "translit": "zhōngguó"
         }
     },
     {
@@ -6054,6 +6526,22 @@
         }
     },
     {
+        "word": "Úsa",
+        "def": "United States of America",
+        "type": "Quality",
+        "alignment": "O is [United States of] American in Eu",
+        "semantics": [
+            "United States of America",
+            "American",
+            "Columbia",
+            "Usonia"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "USA"
+        }
+    },
+    {
         "word": "vak",
         "def": "vehicle",
         "type": "Entity",
@@ -6819,6 +7307,20 @@
             "lang": "Japanese",
             "word": "下",
             "translit": "shita"
+        }
+    },
+    {
+        "word": "Xíxip",
+        "def": "Albania",
+        "type": "Quality",
+        "alignment": "O is Albanian in Eu",
+        "semantics": [
+            "Albania",
+            "Albanian"
+        ],
+        "etymology": {
+            "lang": "Albanian",
+            "word": "shqip"
         }
     },
     {
