@@ -4389,7 +4389,8 @@
         ],
         "etymology": {
             "lang": "Xhosa",
-            "word": "-jikeleza"
+            "word": "-jikeleza",
+            "urlform": "jikeleza"
         }
     },
     {
@@ -5760,7 +5761,7 @@
             "lang": "contraction: «ti» + «u»"
         }
     },
-        {
+    {
         "word": "tuk",
         "def": "permit [v.]",
         "xo": "permission",
@@ -6856,6 +6857,7 @@
         "etymology": {
             "lang": "Ukrainian",
             "word": "шко́дити",
+            "urlform": "шкодити",
             "translit": "škódyty"
         }
     },
@@ -7393,6 +7395,7 @@
         "etymology": {
             "lang": "Hebrew",
             "word": "סְבִיבָה",
+            "urlform": "סביבה",
             "translit": "s'vivá"
         }
     },
@@ -7432,8 +7435,7 @@
         "etymology": {
             "lang": "Cherokee",
             "word": "ᏍᏓᏩᏗ",
-            "translit": "-sdawad",
-            "urlform": "sdawad"
+            "translit": "-sdawad"
         }
     },
     {
@@ -7963,7 +7965,7 @@
         "word": "zun",
         "def": "outside",
         "ko": "exterior (J)",
-        "type":"Junction",
+        "type": "Junction",
         "alignment": "O is outside E",
         "semantics": [
             "outside",
