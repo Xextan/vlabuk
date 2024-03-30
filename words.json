@@ -596,7 +596,22 @@
         "def": "breathe out",
         "gloss": "OPP air-suck",
         "type": "Direction",
-        "alignment": "O breathes out E to A"
+        "alignment": "O breathes out E to A",
+        "semantics":[
+            "breathe out",
+            "exhale"
+        ]
+    },
+    {
+        "word": "buqíddun",
+        "def": "forget",
+        "gloss": "OPP memory-know",
+        "type": "Quality",
+        "alignment": "O forgets Eu",
+        "semantics": [
+            "forget",
+            "cease to remember"
+        ]
     },
     {
         "word": "but",
@@ -1386,6 +1401,21 @@
             "alcohol",
             "hydroxyl",
             "liqueur"
+        ]
+    },
+    {
+        "word": "dziqak",
+        "def": "rotten",
+        "gloss": "decay-disgusting",
+        "type": "Junction",
+        "alignment": "O is rotten in Eu",
+        "semantics": [
+            "rot",
+            "rotten",
+            "decaying",
+            "decomposing",
+            "putrid",
+            "putrefying"
         ]
     },
     {
@@ -2783,6 +2813,34 @@
         }
     },
     {
+        "word": "jo got fel",
+        "def": "good day!",
+        "gloss": "IMP move happy",
+        "type": "Illocution-Direction-Quality",
+        "alignment": "VP: good day to O at E",
+        "semantics": [
+            "good day",
+            "good morning",
+            "good afternoon",
+            "good evening",
+            "welcome",
+            "be my guest"
+        ]
+    },
+    {
+        "word": "jo spa fekól",
+        "def": "good night!",
+        "gloss": "IMP sleep easy",
+        "type": "Illocution-Quality-Preposition-Quality",
+        "alignment": "VP: good night to O in Eu",
+        "semantics": [
+            "good night",
+            "sleep well",
+            "sweet dreams",
+            "see you tomorrow"
+        ]
+    },
+    {
         "word": "jówájóka",
         "def": "world (poetic)",
         "type": "Quality",
@@ -3520,6 +3578,16 @@
             "share",
             "have in common",
             "hold collectively"
+        ]
+    },
+    {
+        "word": "kunvla",
+        "def": "compound word",
+        "gloss": "together-word",
+        "type": "Junction",
+        "alignment": "O is a compound word consisting of E (mass)",
+        "semantics": [
+            "compound word"
         ]
     },
     {
@@ -4666,6 +4734,51 @@
         }
     },
     {
+        "word": "pat",
+        "def": "write",
+        "type": "Direction",
+        "alignment": "O writes E on A",
+        "semantics": [
+            "write",
+            "inscribe",
+            "paint",
+            "carve",
+            "draw",
+            "sketch",
+            "calligraphy",
+            "stroke"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "psát"
+        }
+    },
+    {
+        "word": "pattit",
+        "def": "pencil",
+        "gloss": "write-stick",
+        "type": "Junction",
+        "alignment": "O is a pencil made of E",
+        "semantics": [
+            "pencil",
+            "crayon",
+            "stylus",
+            "chisel"
+        ]
+    },
+    {
+        "word": "pattul",
+        "def": "pen",
+        "gloss": "write-tool",
+        "type": "Junction",
+        "alignment": "O is a pen made of E",
+        "semantics": [
+            "pen",
+            "marker",
+            "quill"
+        ]
+    },
+    {
         "word": "pau",
         "def": "comparative past tense clause marker",
         "type": "Preposition",
@@ -5006,6 +5119,19 @@
         }
     },
     {
+        "word": "qabbet",
+        "def": "question",
+        "gloss": "answer-request",
+        "type": "Relation",
+        "alignment": "O questions E for Au",
+        "semantics": [
+            "ask question",
+            "interrogate",
+            "interview",
+            "inquire"
+        ]
+    },
+    {
         "word": "qak",
         "def": "disgusting",
         "xo": "vileness",
@@ -5024,6 +5150,31 @@
         }
     },
     {
+        "word": "qakdan",
+        "def": "latrine",
+        "gloss": "disgusting-building",
+        "type": "Entity",
+        "alignment": "O is a latrine",
+        "semantics": [
+            "latrine",
+            "outhouse"
+        ]
+    },
+    {
+        "word": "qakdanzi",
+        "def": "bathroom",
+        "gloss": "disgusting-building-DIM",
+        "type": "Junction",
+        "alignment": "O is bathroom in E",
+        "semantics": [
+            "bathroom",
+            "restroom",
+            "loo",
+            "toilet",
+            "water closet"
+        ]
+    },
+    {
         "word": "qakkap",
         "def": "toilet",
         "gloss": "disgusting-cup",
@@ -5034,6 +5185,32 @@
             "loo",
             "chamber pot",
             "bedpan"
+        ]
+    },
+    {
+        "word": "qakkek",
+        "def": "filthy",
+        "gloss": "disgusting-dirty",
+        "type": "Quality",
+        "alignment": "O is filthy in Eu",
+        "semantics": [
+            "filthy",
+            "vile",
+            "dirty",
+            "soiled"
+        ]
+    },
+    {
+        "word": "qakzon",
+        "def": "restroom",
+        "gloss": "disgusting-place",
+        "type": "Junction",
+        "alignment": "O is restroom in E",
+        "semantics": [
+            "restroom",
+            "bathroom",
+            "outhouse",
+            "toilet"
         ]
     },
     {
@@ -5298,6 +5475,19 @@
         }
     },
     {
+        "word": "qetxon",
+        "def": "prove",
+        "gloss": "truth-show",
+        "type": "Relation",
+        "alignment": "O shows that E is true in Au",
+        "semantics": [
+            "prove",
+            "argue",
+            "demonstrate truth of",
+            "show truth of"
+        ]
+    },
+    {
         "word": "qeu",
         "def": "affirmative adverbial",
         "type": "Adverb",
@@ -5351,6 +5541,19 @@
         }
     },
     {
+        "word": "qiddun",
+        "def": "remember",
+        "gloss": "memory-know",
+        "type": "Quality",
+        "alignment": "O remembers Eu",
+        "semantics": [
+            "remember",
+            "recall",
+            "recollect",
+            "have memory of"
+        ]
+    },
+    {
         "word": "qik",
         "def": "spin",
         "xo": "rotation",
@@ -5368,6 +5571,28 @@
             "word": "-jikeleza",
             "urlform": "jikeleza"
         }
+    },
+    {
+        "word": "qikkonvak",
+        "def": "helicopter",
+        "gloss": "spin-air-vehicle",
+        "type": "Junction",
+        "alignment": "O is a helicopter made of E",
+        "semantics": [
+            "helicopter",
+            "drone"
+        ]
+    },
+    {
+        "word": "qikxuk",
+        "def": "wheel",
+        "gloss": "spin-circle",
+        "type": "Junction",
+        "alignment": "O is a wheel made of E",
+        "semantics": [
+            "wheel",
+            "gear"
+        ]
     },
     {
         "word": "qil",
@@ -5424,15 +5649,38 @@
         }
     },
     {
-        "word": "qit",
-        "def": "remember",
-        "xo": "memory (n.)",
-        "ko": "eidetic",
+        "word": "qiplik",
+        "def": "blood",
+        "gloss": "life-liquid",
         "type": "Junction",
-        "alignment": "O remembers E",
+        "alignment": "O is blood of E",
         "semantics": [
-            "remember",
+            "blood",
+            "lifeblood",
+            "vitality",
+            "vim",
+            "sap"
+        ]
+    },
+    {
+        "word": "qippli",
+        "def": "breath",
+        "gloss": "life-gas",
+        "type": "Junction",
+        "alignment": "O is breath of E",
+        "semantics": [
+            "breath",
+            "respiration"
+        ]
+    },
+    {
+        "word": "qit",
+        "def": "memory",
+        "type": "Quality",
+        "alignment": "O is a memory of Eu",
+        "semantics": [
             "memory",
+            "remember",
             "recall",
             "recollection"
         ],
@@ -5441,6 +5689,18 @@
             "word": "記得",
             "translit": "jìde"
         }
+    },
+    {
+        "word": "qitsak",
+        "def": "amnesia",
+        "gloss": "memory-lack",
+        "type": "Quality",
+        "alignment": "O is amnesiac in Eu",
+        "semantics": [
+            "amnesia",
+            "amnesiac",
+            "memory loss"
+        ]
     },
     {
         "word": "qla",
@@ -5459,6 +5719,21 @@
         }
     },
     {
+        "word": "qlaqon",
+        "def": "torso",
+        "gloss": "body-center",
+        "type": "Junction",
+        "alignment": "O is torso of E",
+        "semantics": [
+            "torso",
+            "chest",
+            "ribcage",
+            "sternum",
+            "trunk",
+            "thorax"
+        ]
+    },
+    {
         "word": "qlasep",
         "def": "sex",
         "gloss": "body-gender",
@@ -5469,6 +5744,73 @@
             "biological sex",
             "physical sex",
             "sex characteristics"
+        ]
+    },
+    {
+        "word": "qlaset",
+        "def": "body",
+        "gloss": "organ-group",
+        "type": "Junction",
+        "alignment": "O is body of E",
+        "semantics": [
+            "body",
+            "physical self",
+            "organs",
+            "body systems"
+        ]
+    },
+    {
+        "word": "qlasil",
+        "def": "phyiscally strong",
+        "gloss": "organ-strong",
+        "type": "Quality",
+        "alignment": "O is strong in Eu",
+        "semantics": [
+            "strong",
+            "burly",
+            "tough",
+            "buff",
+            "bulky",
+            "jacked",
+            "ripped"
+        ]
+    },
+    {
+        "word": "qlatut",
+        "def": "holistic",
+        "gloss": "organ-whole",
+        "type": "Quality",
+        "alignment": "O is holistic in Eu",
+        "semantics": [
+            "holistic",
+            "organic",
+            "whole-grain",
+            "natural"
+        ]
+    },
+    {
+        "word": "qlazap",
+        "def": "disability",
+        "gloss": "organ-problem",
+        "type": "Relation",
+        "alignment": "O is a disability to E in Au",
+        "semantics": [
+            "disability",
+            "impairment",
+            "handicap",
+            "chronic illness"
+        ]
+    },
+    {
+        "word": "qlazi",
+        "def": "cell",
+        "gloss": "organ-DIM",
+        "type": "Junction",
+        "alignment": "O is a cell of E",
+        "semantics": [
+            "cell",
+            "cellular",
+            "tissue"
         ]
     },
     {
@@ -5625,6 +5967,19 @@
         }
     },
     {
+        "word": "saktun",
+        "def": "wasteland",
+        "gloss": "lack-land",
+        "type": "Junction",
+        "alignment": "O is wasteland of E",
+        "semantics": [
+            "wasteland",
+            "wilderness",
+            "desert",
+            "outback"
+        ]
+    },
+    {
         "word": "sal",
         "def": "number",
         "xo": "quantity",
@@ -5641,6 +5996,31 @@
             "lang": "German",
             "word": "Zahl"
         }
+    },
+    {
+        "word": "salste",
+        "def": "equal",
+        "gloss": "number-same",
+        "type": "relation",
+        "alignment": "O and E are equal in number in Au",
+        "semantics": [
+            "equal",
+            "equivalent",
+            "equation"
+        ]
+    },
+    {
+        "word": "saltik",
+        "def": "calculator",
+        "gloss": "number-machine",
+        "type": "Junction",
+        "alignment": "O is a calculator made of E",
+        "semantics": [
+            "calculator",
+            "abacus",
+            "counting machine",
+            "adding machine"
+        ]
     },
     {
         "word": "sat",
@@ -5710,6 +6090,44 @@
         }
     },
     {
+        "word": "sekko",
+        "def": "shield",
+        "gloss": "safe-AG",
+        "type": "Junction",
+        "alignment": "O is shield of E",
+        "semantics": [
+            "shield",
+            "shelter",
+            "guard",
+            "protectant",
+            "protection"
+        ]
+    },
+    {
+        "word": "seknik",
+        "def": "security guard",
+        "gloss": "safe-agent",
+        "type": "Junction",
+        "alignment": "O is a security guard of E",
+        "semantics": [
+            "security",
+            "guard",
+            "guardian",
+            "bouncer"
+        ]
+    },
+    {
+        "word": "sekxo",
+        "def": "safety",
+        "gloss": "safe-PAT",
+        "type": "Junction",
+        "alignment": "O is safety of E",
+        "semantics": [
+            "safety",
+            "security"
+        ]
+    },
+    {
         "word": "sel",
         "def": "self",
         "ko": "ego",
@@ -5725,6 +6143,19 @@
             "lang": "Loglan",
             "word": "sel ← selji"
         }
+    },
+    {
+        "word": "selvla",
+        "def": "name",
+        "gloss": "self-word",
+        "type": "Junction",
+        "alignment": "O is name of E",
+        "semantics": [
+            "name",
+            "title",
+            "appellation",
+            "reference"
+        ]
     },
     {
         "word": "sen",
@@ -5744,6 +6175,34 @@
             "lang": "Spanish",
             "word": "señar"
         }
+    },
+    {
+        "word": "senko",
+        "def": "symbol",
+        "gloss": "sign-AG",
+        "type": "Junction",
+        "alignment": "O is a symbol of Eu",
+        "semantics": [
+            "symbol",
+            "sign",
+            "emblem",
+            "seal"
+        ]
+    },
+    {
+        "word": "senxo",
+        "def": "meaning",
+        "gloss": "signify-[PAT]",
+        "type": "Junction",
+        "alignment": "O is a/the meaning of E",
+        "semantics": [
+            "meaning",
+            "definition",
+            "significance",
+            "represented",
+            "semiotic",
+            "semantic"
+        ]
     },
     {
         "word": "sep",
@@ -5789,6 +6248,19 @@
         }
     },
     {
+        "word": "setxo",
+        "def": "commonality",
+        "gloss": "group-PAT",
+        "type": "Junction",
+        "alignment": "O is the commonality shared by E",
+        "semantics": [
+            "commonality",
+            "common trait",
+            "common purpose",
+            "shared"
+        ]
+    },
+    {
         "word": "si",
         "def": "reciprocal marker",
         "type": "Suffix",
@@ -5829,6 +6301,19 @@
             "lang": "Czech",
             "word": "silný"
         }
+    },
+    {
+        "word": "silxo",
+        "def": "strength",
+        "gloss": "strong-[PAT]",
+        "type": "Junction",
+        "alignment": "O is strength of E",
+        "semantics": [
+            "strength",
+            "might",
+            "talent",
+            "power"
+        ]
     },
     {
         "word": "sin",
@@ -5963,6 +6448,20 @@
         }
     },
     {
+        "word": "sladan",
+        "def": "hospital",
+        "gloss": "health-building",
+        "type": "Junction",
+        "alignment": "O is hospital of E",
+        "semantics": [
+            "hospital",
+            "emergency room",
+            "clinic",
+            "medical center",
+            "doctor's office"
+        ]
+    },
+    {
         "word": "sli",
         "def": "image",
         "xo": "original",
@@ -5980,6 +6479,109 @@
             "lang": "Slovene",
             "word": "slika"
         }
+    },
+    {
+        "word": "sliflu",
+        "def": "video",
+        "gloss": "image-flow",
+        "type": "Junction",
+        "alignment": "O is video of E",
+        "semantics": [
+            "video",
+            "film",
+            "broadcast"
+        ]
+    },
+    {
+        "word": "slipal",
+        "def": "copy",
+        "gloss": "image-make",
+        "type": "Junction",
+        "alignment": "O makes copy of E",
+        "semantics": [
+            "copy",
+            "duplicate",
+            "print"
+        ]
+    },
+    {
+        "word": "slipaltik",
+        "def": "printer",
+        "gloss": "image-make-machine",
+        "type": "Junction",
+        "alignment": "O is a printer made of E",
+        "semantics": [
+            "printer",
+            "copy machine",
+            "copier",
+            "scanner",
+            "printing press"
+        ]
+    },
+    {
+        "word": "slipaltul",
+        "def": "camera",
+        "gloss": "image-make-tool",
+        "type": "Junction",
+        "alignment": "O is a camera made of E",
+        "semantics": [
+            "camera",
+            "camcorder",
+            "webcam",
+            "recorder"
+        ]
+    },
+    {
+        "word": "slipalxo",
+        "def": "copy",
+        "gloss": "image-make-PAT",
+        "type": "Junction",
+        "alignment": "O is a copy of E",
+        "semantics": [
+            "copy",
+            "duplicate",
+            "xerox",
+            "printing",
+            "forgery"
+        ]
+    },
+    {
+        "word": "slipat",
+        "def": "draw",
+        "gloss": "image-write",
+        "type": "Direction",
+        "alignment": "O draws E on A",
+        "semantics": [
+            "draw",
+            "sketch",
+            "paint"
+        ]
+    },
+    {
+        "word": "slixpi",
+        "def": "pretend",
+        "gloss": "image-play",
+        "type": "Relation",
+        "alignment": "O pretends to be E in Au",
+        "semantics": [
+            "pretend",
+            "act",
+            "dramatize",
+            "charade"
+        ]
+    },
+    {
+        "word": "slizuk",
+        "def": "act",
+        "gloss": "image-do",
+        "type": "Quality",
+        "alignment": "O acts as Eu",
+        "semantics": [
+            "act",
+            "play role",
+            "pretend at",
+            "play at"
+        ]
     },
     {
         "word": "slu",
@@ -6018,6 +6620,21 @@
             "lang": "Lojban",
             "word": "snada"
         }
+    },
+    {
+        "word": "snaxo",
+        "def": "success",
+        "gloss": "succeed-PAT",
+        "type": "Junction",
+        "alignment": "O is the success of E",
+        "semantics": [
+            "success",
+            "victory",
+            "accomplishment",
+            "achievement",
+            "feat",
+            "win"
+        ]
     },
     {
         "word": "so",
@@ -6100,11 +6717,35 @@
         "alignment": "O is a bell"
     },
     {
+        "word": "sonkot",
+        "def": "radio [technology]",
+        "gloss": "sound-network",
+        "type": "Entity",
+        "alignment": "O is radio",
+        "semantics": [
+            "radio",
+            "AM/FM",
+            "ham"
+        ]
+    },
+    {
         "word": "sonkottik",
         "def": "radio",
         "gloss": "sound-network-machine",
         "type": "Entity",
         "alignment": "O is a radio"
+    },
+    {
+        "word": "sonsak",
+        "def": "silent",
+        "gloss": "sound-lack",
+        "type": "Quality",
+        "alignment": "O is silent in Eu",
+        "semantics": [
+            "silent",
+            "quiet",
+            "still"
+        ]
     },
     {
         "word": "sonxal",
@@ -6172,6 +6813,44 @@
             "lang": "Czech",
             "word": "spát"
         }
+    },
+    {
+        "word": "spalil",
+        "def": "dream [v.]",
+        "gloss": "sleep-experience",
+        "type": "Quality",
+        "alignment": "O dreams Eu",
+        "semantics": [
+            "dream of",
+            "dream about",
+            "hallucinate"
+        ]
+    },
+    {
+        "word": "spalilxo",
+        "def": "dream [n.]",
+        "gloss": "sleep-experience-PAT",
+        "type": "Quality",
+        "alignment": "O is a dream of E",
+        "semantics": [
+            "dream",
+            "reverie",
+            "hallucination",
+            "vision"
+        ]
+    },
+    {
+        "word": "spaqbu",
+        "def": "bed",
+        "gloss": "sleep-table",
+        "type": "Junction",
+        "alignment": "O is a bed made of E",
+        "semantics": [
+            "bed",
+            "mattress",
+            "cot",
+            "bunk"
+        ]
     },
     {
         "word": "spaxen",
@@ -6295,6 +6974,18 @@
         }
     },
     {
+        "word": "sundan",
+        "def": "house",
+        "gloss": "reside-building",
+        "type": "Junction",
+        "alignment": "O is a house of E",
+        "semantics": [
+            "house",
+            "residence",
+            "apartment"
+        ]
+    },
+    {
         "word": "sunko",
         "def": "resident",
         "gloss": "reside-AG",
@@ -6305,6 +6996,30 @@
             "denizen",
             "citizen",
             "inhabitant"
+        ]
+    },
+    {
+        "word": "sunkun",
+        "def": "roommate",
+        "gloss": "reside-together",
+        "type": "Relation",
+        "alignment": "O is a roommate of E in/at Au",
+        "semantics": [
+            "roommate",
+            "housemate",
+            "flatmate",
+            "neighbor"
+        ]
+    },
+    {
+        "word": "sunlan",
+        "def": "neighbor",
+        "gloss": "reside-adjacent",
+        "type": "Junction",
+        "alignment": "O is a neighbor of E",
+        "semantics": [
+            "neighbor",
+            "next door"
         ]
     },
     {
@@ -7292,6 +8007,18 @@
             "lang": "Lojban",
             "word": "vla ← valsi"
         }
+    },
+    {
+        "word": "vlabuk",
+        "def": "dictionary",
+        "gloss": "word-book",
+        "type": "Junction",
+        "alignment": "O is a dictionary of E",
+        "semantics": [
+            "dictionary",
+            "lexicon",
+            "vocabulary"
+        ]
     },
     {
         "word": "vlazi",
