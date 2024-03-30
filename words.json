@@ -1679,9 +1679,9 @@
         }
     },
       {
-        "word": "fenginzot",
+        "word": "fengingop",
         "def": "queen",
-        "gloss": "female-family-leader",
+        "gloss": "female-family-govern",
         "type": "Junction",
         "alignment": "O is queen of E",
         "semantics": [
@@ -1689,6 +1689,18 @@
             "empress",
             "duchess",
             "baroness"
+        ]
+    },
+    {
+        "word": "fenginzot",
+        "def": "matriarch",
+        "gloss": "female-family-leader",
+        "type": "Junction",
+        "alignment": "O is matriarch of E",
+        "semantics": [
+            "matriarch",
+            "matron",
+            "headmistress"
         ]
     },
     {
@@ -2285,6 +2297,32 @@
         }
     },
     {
+        "word": "glofol",
+        "def": "consume",
+        "gloss": "fuel-use",
+        "type": "Relation",
+        "alignment": "O consumes E in Au",
+        "semantics": [
+            "consume",
+            "deplete",
+            "use up",
+            "go through"
+        ]
+    },
+    {
+        "word": "gloxto",
+        "def": "coal",
+        "gloss": "fuel-stone",
+        "type": "Junction",
+        "alignment": "O is coal of E",
+        "semantics": [
+            "coal",
+            "carbon",
+            "charcoal",
+            "coke"
+        ]
+    },
+    {
         "word": "glu",
         "def": "sticky",
         "type": "Quality",
@@ -2671,6 +2709,46 @@
         }
     },
     {
+        "word": "kakkap",
+        "def": "wastebasket",
+        "gloss": "waste-cup",
+        "type": "Junction",
+        "alignment": "O is a wastebasket made of E",
+        "semantics": [
+            "wastebasket",
+            "trash can",
+            "bin"
+        ],
+        "notes": "probably smaller than «kakkinko»"
+    },
+    {
+        "word": "kakkinko",
+        "def": "garbage can",
+        "gloss": "waste-contain-AG",
+        "type": "Entity",
+        "alignment": "O is a garbage can made of E",
+        "semantics": [
+            "garbage can",
+            "trash can",
+            "wastebasket",
+            "dumpster"
+        ],
+        "notes": "probably larger than «kakkap»"
+    },
+    {
+        "word": "kakzon",
+        "def": "dump",
+        "gloss": "waste-place",
+        "type": "Junction",
+        "alignment": "O is a dumping ground for E",
+        "semantics": [
+            "dump",
+            "landfill",
+            "junkyard",
+            "waste management facility"
+        ]
+    },
+    {
         "word": "kal",
         "def": "hot",
         "xo": "heat (n.)",
@@ -2758,6 +2836,30 @@
         }
     },
     {
+        "word": "katnok",
+        "def": "hoof",
+        "gloss": "hard-foot",
+        "type": "Junction",
+        "alignment": "O is hoof of E",
+        "semantics": [
+            "hoof",
+            "trotter",
+            "ungula"
+        ]
+    },
+    {
+        "word": "katnokfuk",
+        "def": "horseshoe",
+        "gloss": "hard-foot-clothes",
+        "type": "Junction",
+        "alignment": "O is a horseshoe made of E",
+        "semantics": [
+            "horseshoe",
+            "steel-toe boot",
+            "sabaton"
+        ]
+    },
+    {
         "word": "kau",
         "def": "qualitative interrogative determiner",
         "type": "Determiner",
@@ -2820,6 +2922,19 @@
         }
     },
     {
+        "word": "kenxo",
+        "def": "possibility",
+        "gloss": "able-PAT",
+        "type": "Junction",
+        "alignment": "O is the possibility of Eu",
+        "semantics": [
+            "possibility",
+            "capability",
+            "potential",
+            "option"
+        ]
+    },
+    {
         "word": "kep",
         "def": "idea",
         "xo": "concept [of]",
@@ -2872,6 +2987,17 @@
         }
     },
     {
+        "word": "kikfeddqe",
+        "def": "Thanksgiving",
+        "gloss": "thank-ritual-date",
+        "type": "Junction",
+        "alignment": "O is Thanksgiving of E",
+        "semantics": [
+            "Thanksgiving",
+            "harvest festival"
+        ]
+    },
+    {
         "word": "kil",
         "def": "wood",
         "type": "Junction",
@@ -2888,6 +3014,33 @@
             "word": "ξύλο",
             "translit": "xýlo"
         }
+    },
+    {
+        "word": "killap",
+        "def": "paper",
+        "gloss": "wood-sheet",
+        "type": "Junction",
+        "alignment": "O is paper of E",
+        "semantics": [
+            "paper",
+            "papyrus",
+            "cardboard",
+            "carton"
+        ]
+    },
+    {
+        "word": "kiltsa",
+        "def": "tree",
+        "gloss": "wood-plant",
+        "type": "Entity",
+        "alignment": "O is a tree",
+        "semantics": [
+            "tree",
+            "bush",
+            "shrub",
+            "bamboo",
+            "woody plant"
+        ]
     },
     {
         "word": "kin",
@@ -2907,6 +3060,21 @@
             "urlform": "قنينة",
             "translit": "qinnīna"
         }
+    },
+    {
+        "word": "kinko",
+        "def": "container",
+        "gloss": "contain-AG",
+        "type": "Junction",
+        "alignment": "O is a container for E",
+        "semantics": [
+            "container",
+            "package",
+            "box",
+            "chest",
+            "trunk",
+            "carton"
+        ]
     },
     {
         "word": "kit",
@@ -3021,6 +3189,55 @@
         }
     },
     {
+        "word": "konflu",
+        "def": "breeze",
+        "gloss": "air-flow",
+        "type": "Junction",
+        "alignment": "O is a breeze of E",
+        "semantics": [
+            "breeze",
+            "airflow",
+            "gust"
+        ]
+    },
+    {
+        "word": "konsak",
+        "def": "vacuum",
+        "gloss": "air-lack",
+        "type": "Junction",
+        "alignment": "O is vacuum at E",
+        "semantics": [
+            "vacuum",
+            "void",
+            "outer space"
+        ]
+    },
+    {
+        "word": "konqla",
+        "def": "lung",
+        "gloss": "",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "word": "konvak",
+        "def": "airplane",
+        "gloss": "air-vehicle",
+        "type": "Junction",
+        "alignment": "O is an airplane made of E",
+        "semantics": [
+            "airplane",
+            "aircraft",
+            "plane",
+            "helicopter"
+        ]
+    },
+    {
         "word": "konxup",
         "def": "breathe in",
         "gloss": "air-suck",
@@ -3043,6 +3260,35 @@
             "word": "kotnetre"
         },
         "notes": "& telephone, television"
+    },
+    {
+        "word": "kotflu",
+        "def": "channel",
+        "gloss": "network-flow",
+        "type": "Junction",
+        "alignment": "O is a channel of E",
+        "semantics": [
+            "channel",
+            "station",
+            "broadcast"
+        ]
+    },
+    {
+        "word": "kottul",
+        "def": "radio",
+        "gloss": "network-tool",
+        "type": "Junction",
+        "alignment": "O is a radio/phone made of E",
+        "semantics": [
+            "radio",
+            "phone",
+            "transmitter",
+            "receiver",
+            "intercom",
+            "handset",
+            "landline",
+            "walkie-talkie"
+        ]
     },
     {
         "word": "kou",
@@ -3111,6 +3357,18 @@
         }
     },
     {
+        "word": "kunten",
+        "def": "share",
+        "gloss": "together-have",
+        "type": "Relation",
+        "alignment": "O (mass) share E in Au",
+        "semantics": [
+            "share",
+            "have in common",
+            "hold collectively"
+        ]
+    },
+    {
         "word": "kup",
         "def": "cube",
         "type": "Quality",
@@ -3154,6 +3412,23 @@
             "lang": "Loglan",
             "word": "la"
         }
+    },
+    {
+        "word": "la Din",
+        "def": "God",
+        "gloss": "NAME divine",
+        "type": "Determiner-Quality",
+        "alignment": "DP: God",
+        "semantics": [
+            "God",
+            "Elohim",
+            "Allah",
+            "Jehovah",
+            "monad",
+            "Heavenly Father",
+            "Heavenly Mother",
+            "the divine"
+        ]
     },
     {
         "word": "lai",
@@ -3718,6 +3993,33 @@
             "word": "男",
             "translit": "nán"
         }
+    },
+    {
+        "word": "nangingop",
+        "def": "king",
+        "gloss": "male-family-govern",
+        "type": "Junction",
+        "alignment": "O is king of E",
+        "semantics": [
+            "king",
+            "emperor",
+            "duke",
+            "baron",
+            "earl"
+        ]
+    },
+    {
+        "word": "nanginzot",
+        "def": "patriarch",
+        "gloss": "male-family-leader",
+        "type": "Junction",
+        "alignment": "O is patriarch of E",
+        "semantics": [
+            "patriarch",
+            "father",
+            "headmaster",
+            "big daddy"
+        ]
     },
     {
         "word": "nat",
@@ -4540,6 +4842,19 @@
             "lang": "Toki Pona",
             "word": "jaki"
         }
+    },
+    {
+        "word": "qakkap",
+        "def": "toilet",
+        "gloss": "disgusting-cup",
+        "type": "Junction",
+        "alignment": "O is a toilet made of E",
+        "semantics": [
+            "toilet",
+            "loo",
+            "chamber pot",
+            "bedpan"
+        ]
     },
     {
         "word": "qap",
@@ -8470,7 +8785,7 @@
         "xo": "action",
         "ko": "actor",
         "type": "Quality",
-        "alignment": "O does E",
+        "alignment": "O does Eu",
         "semantics": [
             "do",
             "act",
