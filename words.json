@@ -6240,6 +6240,87 @@
         "notes": "cf. «danzon» (city)"
     },
     {
+        "word": "zok",
+        "def": "responsible",
+        "xo": "responsibility",
+        "ko": "in charge of (R)",
+        "type": "Relation",
+        "alignment": "O is responsible for E in Au",
+        "semantics": [
+            "responsible",
+            "liable",
+            "in charge",
+            "oversee",
+            "manage",
+            "obligation"
+        ],
+        "etymology": {
+            "lang": "German",
+            "word": "sorgen"
+        }
+    },
+    {
+        "word": "zol",
+        "def": "order",
+        "xo": "order (n.)",
+        "ko": "perfect",
+        "type": "Quality",
+        "alignment": "O is in order in Eu",
+        "semantics": [
+            "in order",
+            "orderly",
+            "organized",
+            "calm",
+            "tranquil",
+            "peaceful",
+            "at ease"
+        ],
+        "etymology": {
+            "lang": "Zulu",
+            "word": "-zola",
+            "urlform": "zola"
+        }
+    },
+    {
+        "word": "zon",
+        "def": "area",
+        "xo": "zoning (J)",
+        "ko": "environs",
+        "type": "Quality",
+        "alignment": "O is area designated for Eu",
+        "semantics": [
+            "area",
+            "zone",
+            "place",
+            "district",
+            "neighborhood"
+        ],
+        "etymology": {
+            "lang": "Polish",
+            "word": "zona"
+        }
+    },
+    {
+        "word": "zot",
+        "def": "lead",
+        "xo": "leadership",
+        "ko": "leader",
+        "type": "Relation",
+        "alignment": "O leads E in Au",
+        "semantics": [
+            "lead",
+            "chief",
+            "boss",
+            "head",
+            "president",
+            "lord"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "zat ← zasti"
+        }
+    },
+    {
         "word": "zoi",
         "def": "end topic statement/prenex",
         "type": "Illocution",
@@ -6254,5 +6335,78 @@
             }
         ],
         "notes": "as for, given, so..., well..."
+    },
+    {
+        "word": "zuk",
+        "def": "do",
+        "xo": "action",
+        "ko": "actor",
+        "type": "Quality",
+        "alignment": "O does E",
+        "semantics": [
+            "do",
+            "act",
+            "enact",
+            "commit",
+            "perform",
+            "engage in",
+            "intentional"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "zuk ← zukte"
+        }
+    },
+    {
+        "word": "zul",
+        "def": "weather",
+        "type": "Junction",
+        "alignment": "O is weather at E",
+        "semantics": [
+            "weather",
+            "climate",
+            "season",
+            "atmosphere",
+            "forecast",
+            "storm"
+        ],
+        "etymology": {
+            "lang": "Zulu",
+            "word": "-zulu",
+            "urlform": "zulu"
+        }
+    },
+    {
+        "word": "zun",
+        "def": "outside",
+        "ko": "exterior (J)",
+        "alignment": "",
+        "semantics": [
+            "outside",
+            "without",
+            "external",
+            "exterior",
+            "beyond"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "zunaj"
+        }
+    },
+    {
+        "word": "zut",
+        "def": "sugar",
+        "type": "Junction",
+        "alignment": "O is sugar of E",
+        "semantics": [
+            "sugar",
+            "starch",
+            "saccharine",
+            "carbohydrate"
+        ],
+        "etymology": {
+            "lang": "Dutch",
+            "word": "zoet"
+        }
     }
 ]
