@@ -6625,7 +6625,7 @@
         "def": "divide",
         "xo": "division (D)",
         "ko": "divider (D)",
-        "type": "Relation",
+        "type": "Direction",
         "alignment": "O divides E from A",
         "semantics": [
             "divide",
