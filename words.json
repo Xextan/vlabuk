@@ -1425,6 +1425,20 @@
         }
     },
     {
+        "word": "fin zal",
+        "gloss": "end at",
+        "type": "State-Junction",
+        "alignment": "(Ou) O leaves E",
+        "semantics": [
+            "leave",
+            "disappear",
+            "depart",
+            "go away from",
+            "ditch"
+        ],
+        "notes": "cf. «zalfin»"
+    },
+    {
         "word": "fio",
         "def": "adverbial: imperative",
         "type": "Adverb",
@@ -4039,6 +4053,19 @@
         }
     },
     {
+        "word": "qat zal",
+        "gloss": "continue at",
+        "type": "State-Junction",
+        "alignment": "(Ou) O stays at E",
+        "semantics": [
+            "stay at",
+            "remain at",
+            "abide at",
+            "dwell at/on"
+        ],
+        "notes": "cf. «zalqat»"
+    },
+    {
         "word": "qba",
         "def": "fruit",
         "type": "Junction",
@@ -5670,6 +5697,43 @@
             "lang": "contraction: «ti» + «u»"
         }
     },
+        {
+        "word": "tuk",
+        "def": "permit [v.]",
+        "xo": "permission",
+        "ko": "authority",
+        "type": "Relation",
+        "alignment": "O permits E to do/be Au",
+        "semantics": [
+            "permit",
+            "allow",
+            "condone",
+            "approve"
+        ],
+        "etymology": {
+            "lang": "Maori",
+            "word": "tuku"
+        }
+    },
+    {
+        "word": "tul",
+        "def": "tool",
+        "xo": "utility (Q)",
+        "type": "Quality",
+        "alignment": "O is a tool for Eu",
+        "semantics": [
+            "tool",
+            "instrument",
+            "implement",
+            "utility",
+            "apparatus"
+        ],
+        "etymology": {
+            "lang": "Vötgil",
+            "word": "Twl"
+        },
+        "notes": "typically refers to handheld tools and machines. for stationary machines see «tik»; for vehicles see «vak»"
+    },
     {
         "word": "tun",
         "def": "land",
@@ -5730,6 +5794,82 @@
         "alignment": "O is lower in elevation than E"
     },
     {
+        "word": "tup",
+        "def": "throw",
+        "xo": "projectile",
+        "ko": "launcher",
+        "type": "Direction",
+        "alignment": "O throws E, striking A",
+        "semantics": [
+            "throw",
+            "launch",
+            "toss",
+            "fling",
+            "yeet"
+        ],
+        "etymology": {
+            "lang": "Swahili",
+            "word": "-tupa",
+            "urlform": "tupa"
+        }
+    },
+    {
+        "word": "tut",
+        "def": "whole",
+        "xo": "entirety",
+        "ko": "whole [n.] (J)",
+        "type": "Quality",
+        "alignment": "O is whole in Eu",
+        "semantics": [
+            "whole",
+            "entire",
+            "complete",
+            "finished",
+            "perfect"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "tudo"
+        }
+    },
+    {
+        "word": "txa",
+        "def": "electricity",
+        "type": "Entity",
+        "alignment": "O is electricity",
+        "semantics": [
+            "electricity",
+            "power",
+            "lightning",
+            "arc",
+            "zap"
+        ],
+        "etymology": {
+            "lang": "Scottish Gaelic",
+            "word": "dealan"
+        }
+    },
+    {
+        "word": "txe",
+        "def": "excess",
+        "xo": "excess [n.] (J)",
+        "ko": "decadent (Q)",
+        "type": "Quality",
+        "alignment": "O is excessive in Eu",
+        "semantics": [
+            "excess",
+            "too much",
+            "too many",
+            "superfluous",
+            "redundant",
+            "decadent"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "tce ← mutce"
+        }
+    },
+    {
         "word": "txi",
         "def": "eat",
         "type": "Junction",
@@ -5767,12 +5907,107 @@
         "alignment": "O is food to E"
     },
     {
+        "word": "txo",
+        "def": "bird",
+        "type": "Entity",
+        "alignment": "O is a bird",
+        "semantics": [
+            "bird",
+            "avian",
+            "fowl",
+            "chick"
+        ],
+        "etymology": {
+            "lang": "Basque",
+            "word": "txori"
+        }
+    },
+    {
+        "word": "txu",
+        "def": "need",
+        "xo": "requirement (J)",
+        "ko": "in need (R)",
+        "type": "Quality",
+        "alignment": "O needs Eu",
+        "semantics": [
+            "need",
+            "require",
+            "demand",
+            "non-negotiable"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "tcu ← nitcu"
+        }
+    },
+    {
         "word": "u",
         "def": "verb marker",
         "type": "Preposition",
         "etymology": {
             "lang": "Lojban",
             "word": "cu"
+        }
+    },
+    {
+        "word": "vak",
+        "def": "vehicle",
+        "type": "Entity",
+        "alignment": "O is a vehicle",
+        "semantics": [
+            "vehicle",
+            "wagon",
+            "car",
+            "automobile",
+            "bus",
+            "train",
+            "ship",
+            "airplane",
+            "craft"
+        ],
+        "etymology": {
+            "lang": "German",
+            "word": "Wagen"
+        },
+        "notes": "see also «xtevak» (\"automobile\"); «linvak» (\"train\"); «xutvak» (\"boat\"); «konvak» (\"airplane\")"
+    },
+    {
+        "word": "val",
+        "def": "important",
+        "xo": "importance",
+        "ko": "precious",
+        "type": "Relation",
+        "alignment": "O is important to E in Au",
+        "semantics": [
+            "important",
+            "critical",
+            "necessary",
+            "precious",
+            "dear",
+            "care about"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "valor"
+        },
+        "notes": "see also «gevál» (O cares about E in/for Au)"
+    },
+    {
+        "word": "van",
+        "def": "common",
+        "xo": "ordinariness",
+        "ko": "whatever",
+        "type": "Quality",
+        "alignment": "O is common in Eu",
+        "semantics": [
+            "common",
+            "ordinary",
+            "often",
+            "familiar"
+        ],
+        "etymology": {
+            "lang": "Swedish",
+            "word": "vanlig"
         }
     },
     {
@@ -5785,6 +6020,86 @@
         "notes": "according to, from the perspective of"
     },
     {
+        "word": "vek",
+        "def": "limb",
+        "type": "Junction",
+        "alignment": "O is limb of E",
+        "semantics": [
+            "limb",
+            "branch",
+            "beam",
+            "arm",
+            "leg"
+        ],
+        "etymology": {
+            "lang": "Hungarian",
+            "word": "végtag"
+        },
+        "notes": "see «nokvek» (\"leg\"); «xakvek» (\"arm\")"
+    },
+    {
+        "word": "vel",
+        "def": "red",
+        "xo": "redness",
+        "ko": "red tint",
+        "type": "Quality",
+        "alignment": "O is red in Eu",
+        "semantics": [
+            "red",
+            "magenta",
+            "pink",
+            "orange",
+            "crimson",
+            "scarlet",
+            "maroon",
+            "burgundy",
+            "blush"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "vermelho"
+        }
+    },
+    {
+        "word": "ven",
+        "def": "trade",
+        "xo": "merchandise",
+        "ko": "merchant",
+        "type": "Direction",
+        "alignment": "O sells E to A",
+        "semantics": [
+            "trade",
+            "sell",
+            "barter",
+            "exchange",
+            "economy",
+            "money"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "vender"
+        }
+    },
+    {
+        "word": "vet",
+        "def": "believe",
+        "xo": "belief",
+        "ko": "position [in argument]",
+        "type": "Quality",
+        "alignment": "O believes Eu",
+        "semantics": [
+            "believe",
+            "opine",
+            "opinion",
+            "think",
+            "regard as"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "verjeti"
+        }
+    },
+    {
         "word": "vi",
         "def": "obviative 2nd person pronoun",
         "type": "Pronoun",
@@ -5792,6 +6107,114 @@
             "lang": "by analogy; cf. «vo»"
         },
         "notes": "\"...and you\""
+    },
+    {
+        "word": "vip",
+        "def": "choose",
+        "xo": "choice (R)",
+        "ko": "judge (R)",
+        "type": "Relation",
+        "alignment": "O chooses E for Au",
+        "semantics": [
+            "choose",
+            "decide",
+            "judge",
+            "select",
+            "elect"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "vybrat"
+        }
+    },
+    {
+        "word": "vit",
+        "def": "see",
+        "xo": "view [n.] (J)",
+        "ko": "viewer (J)",
+        "type": "Junction",
+        "alignment": "O sees E",
+        "semantics": [
+            "see",
+            "perceive",
+            "look",
+            "observe",
+            "visual",
+            "optic",
+            "eye"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "vidět"
+        }
+    },
+    {
+        "word": "vla",
+        "def": "word",
+        "xo": "semantics",
+        "type": "Quality",
+        "alignment": "O is a word representing Eu",
+        "semantics": [
+            "word",
+            "morpheme",
+            "semantic",
+            "semiotic",
+            "symbolic"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "vla ← valsi"
+        }
+    },
+    {
+        "word": "vlazi",
+        "def": "glyph",
+        "gloss": "word-DIM",
+        "type": "Quality",
+        "alignment": "O is a glyph representing Eu",
+        "semantics": [
+            "glyph",
+            "letter",
+            "character",
+            "symbol"
+        ]
+    },
+    {
+        "word": "vle",
+        "def": "pull",
+        "xo": "pull [n.] (R)",
+        "ko": "attract",
+        "type": "Relation",
+        "alignment": "O pulls on E in Au",
+        "semantics": [
+            "pull",
+            "tug",
+            "haul",
+            "draw",
+            "yank"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "vleči"
+        }
+    },
+    {
+        "word": "vli",
+        "def": "energy",
+        "xo": "energy source",
+        "ko": "power",
+        "type": "Junction",
+        "alignment": "O is energy of E",
+        "semantics": [
+            "energy",
+            "power",
+            "potential",
+            "excitement"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "vli ← vlipa"
+        }
     },
     {
         "word": "vo",
@@ -5812,6 +6235,25 @@
         "notes": "parallels Lojban {do}/{doi}"
     },
     {
+        "word": "vol",
+        "def": "want",
+        "xo": "desire [n.] (J)",
+        "ko": "desirer (Q)",
+        "type": "Quality",
+        "alignment": "O wants Eu",
+        "semantics": [
+            "want",
+            "desire",
+            "long for",
+            "yearn for",
+            "voluntary"
+        ],
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "voli"
+        }
+    },
+    {
         "word": "vu",
         "def": "discourse terminator",
         "type": "Terminator",
@@ -5829,6 +6271,25 @@
             "lang": "by analogy; cf. «vo»"
         },
         "notes": "your, yours"
+    },
+    {
+        "word": "vut",
+        "def": "explode",
+        "xo": "explosion (J)",
+        "ko": "ordnance (E)",
+        "type": "Junction",
+        "alignment": "O explodes with force E",
+        "semantics": [
+            "explode",
+            "detonate",
+            "burst",
+            "go kaboom"
+        ],
+        "etymology": {
+            "lang": "Zulu",
+            "word": "-vutha",
+            "urlform": "vutha"
+        }
     },
     {
         "word": "wa",
@@ -5933,6 +6394,77 @@
         }
     },
     {
+        "word": "xak",
+        "def": "hand",
+        "type": "Junction",
+        "alignment": "O is hand of E",
+        "semantics": [
+            "hand",
+            "palm",
+            "finger",
+            "arm",
+            "fan [shape]"
+        ],
+        "etymology": {
+            "lang": "Choctaw",
+            "word": "shakba"
+        }
+    },
+    {
+        "word": "xakzi",
+        "def": "finger",
+        "gloss": "hand-DIM",
+        "type": "Junction",
+        "alignment": "O is finger of E",
+        "semantics": [
+            "finger",
+            "digit",
+            "knuckle"
+        ]
+    },
+    {
+        "word": "xal",
+        "def": "small",
+        "xo": "smallness",
+        "ko": "little thing",
+        "type": "Quality",
+        "alignment": "O is small in Eu",
+        "semantics": [
+            "small",
+            "tiny",
+            "little",
+            "diminuitive",
+            "insignificant"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "小",
+            "translit": "xiǎo"
+        }
+    },
+    {
+        "word": "xan",
+        "def": "mountain",
+        "xo": "convexity (J)",
+        "ko": "mountainous (Q)",
+        "type": "Junction",
+        "alignment": "O is a mountain of E",
+        "semantics": [
+            "mountain",
+            "hill",
+            "convex",
+            "mound",
+            "lump",
+            "bump",
+            "raised area"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "山",
+            "translit": "shān"
+        }
+    },
+    {
         "word": "xau",
         "def": "conditional clause marker",
         "type": "Preposition",
@@ -5948,6 +6480,25 @@
         "etymology": {
             "lang": "Lojban",
             "word": "ce'u"
+        }
+    },
+    {
+        "word": "xel",
+        "def": "full",
+        "xo": "fullness",
+        "ko": "brimming",
+        "type": "Quality",
+        "alignment": "O is full in Eu",
+        "semantics": [
+            "full",
+            "filled",
+            "packed",
+            "crammed",
+            "overrun with"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "cheio"
         }
     },
     {
@@ -5993,6 +6544,55 @@
         "notes": "cf. «spaxen»"
     },
     {
+        "word": "xen zal",
+        "gloss": "begin at",
+        "type": "State-Junction",
+        "alignment": "(Ou) O arrives at E",
+        "semantics": [
+            "arrive",
+            "appear",
+            "show up",
+            "turn up"
+        ],
+        "notes": "cf. «zalxen»"
+    },
+    {
+        "word": "xep",
+        "def": "divide",
+        "xo": "division (D)",
+        "ko": "divider (D)",
+        "type": "Junction",
+        "alignment": "O divides E from A",
+        "semantics": [
+            "divide",
+            "separate",
+            "distinguish",
+            "split"
+        ],
+        "etymology": {
+            "lang": "Galician",
+            "word": "xebrar"
+        }
+    },
+    {
+        "word": "xet",
+        "def": "edge",
+        "ko": "outer limits",
+        "type": "Junction",
+        "alignment": "O is edge of E",
+        "semantics": [
+            "edge",
+            "boundary",
+            "border",
+            "limit"
+        ],
+        "etymology": {
+            "lang": "Kazakh",
+            "word": "шет",
+            "translit": "şet"
+        }
+    },
+    {
         "word": "xextan",
         "def": "Xextan",
         "type": "Quality",
@@ -6019,6 +6619,45 @@
         }
     },
     {
+        "word": "xik",
+        "def": "strange",
+        "xo": "strangeness (J)",
+        "ko": "oddity (E)",
+        "type": "Quality",
+        "alignment": "O is strange in Eu",
+        "semantics": [
+            "strange",
+            "weird",
+            "unusual",
+            "odd",
+            "peculiar",
+            "queer"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": " 奇怪",
+            "translit": "qíguài"
+        }
+    },
+    {
+        "word": "xil",
+        "def": "learn",
+        "xo": "study [n.] (J)",
+        "ko": "learner (Q)",
+        "type": "Quality",
+        "alignment": "O learns Eu",
+        "semantics": [
+            "learn",
+            "study",
+            "practice",
+            "train"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "cilre"
+        }
+    },
+    {
         "word": "xíláti",
         "def": "spirit (poetic)",
         "type": "Quality",
@@ -6033,6 +6672,224 @@
             "lang": "a priori"
         },
         "notes": "one of the Giu Senko Xilati"
+    },
+    {
+        "word": "xin",
+        "def": "heart",
+        "type": "Junction",
+        "alignment": "O is heart of E",
+        "semantics": [
+            "heart",
+            "soul",
+            "mind",
+            "psyche",
+            "psychic",
+            "spirit",
+            "core",
+            "essence"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "心",
+            "translit": "shin"
+        },
+        "notes": "see also «xíláti» (O is core/fundamental essence of Eu)"
+    },
+    {
+        "word": "xit",
+        "def": "below",
+        "xo": "lowness",
+        "ko": "underside",
+        "type": "Junction",
+        "alignment": "O is below E",
+        "semantics": [
+            "below",
+            "low",
+            "down",
+            "lowly",
+            "ground",
+            "basic",
+            "nether"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "下",
+            "translit": "shita"
+        }
+    },
+    {
+        "word": "xka",
+        "def": "degree",
+        "xo": "measurement (J)",
+        "ko": "scale (Q)",
+        "type": "Quality",
+        "alignment": "O is a degree of Eu",
+        "semantics": [
+            "degree",
+            "scale",
+            "measure",
+            "compare"
+        ],
+        "etymology": {
+            "lang": "Russian",
+            "word": "шкала́",
+            "translit": "škalá"
+        }
+    },
+    {
+        "word": "xke",
+        "def": "pure",
+        "xo": "purity (J)",
+        "ko": "flawless (Q)",
+        "type": "Quality",
+        "alignment": "O is pure in Eu",
+        "semantics": [
+            "pure",
+            "clean",
+            "tidy",
+            "flawless",
+            "spotless",
+            "virtuous"
+        ],
+        "etymology": {
+            "lang": "Maltese",
+            "word": "xkett"
+        }
+    },
+    {
+        "word": "xki",
+        "def": "remove",
+        "xo": "removal (J)",
+        "ko": "discriminating (Q)",
+        "type": "Direction",
+        "alignment": "O removes E from A",
+        "semantics": [
+            "remove",
+            "withdraw",
+            "extract",
+            "eliminate",
+            "cleanse"
+        ],
+        "etymology": {
+            "lang": "Albanian",
+            "word": "shqit"
+        }
+    },
+    {
+        "word": "xko",
+        "def": "damage",
+        "xo": "damage [n.] (J)",
+        "ko": "harmful (R)",
+        "type": "Relation",
+        "alignment": "O damages E in Au",
+        "semantics": [
+            "damage",
+            "harm",
+            "break",
+            "beat up",
+            "bust up",
+            "trash"
+        ],
+        "etymology": {
+            "lang": "Ukrainian",
+            "word": "шко́дити",
+            "translit": "škódyty"
+        }
+    },
+    {
+        "word": "xle",
+        "def": "carry",
+        "xo": "burden",
+        "ko": "bearer",
+        "type": "Junction",
+        "alignment": "O carries E",
+        "semantics": [
+            "carry",
+            "bear",
+            "transport",
+            "haul",
+            "schlep"
+        ],
+        "etymology": {
+            "lang": "Yiddish",
+            "word": "שלעפּן",
+            "translit": "shlepn"
+        }
+    },
+    {
+        "word": "xli",
+        "def": "method",
+        "xo": "process [n.] (J)",
+        "ko": "systematic (Q)",
+        "type": "Quality",
+        "alignment": "O is method for Eu",
+        "semantics": [
+            "method",
+            "technique",
+            "means",
+            "system",
+            "style",
+            "way"
+        ],
+        "etymology": {
+            "lang": "Irish",
+            "word": "slí"
+        }
+    },
+    {
+        "word": "xlo",
+        "def": "hit",
+        "xo": "impact [n.] (R)",
+        "ko": "make impact (R)",
+        "type": "Direction",
+        "alignment": "O hits E at A",
+        "semantics": [
+            "hit",
+            "strike",
+            "beat",
+            "impact"
+        ],
+        "etymology": {
+            "lang": "Yiddish",
+            "word": "שלאָגן",
+            "translit": "shlogn"
+        }
+    },
+    {
+        "word": "xne",
+        "def": "fast",
+        "xo": "speed",
+        "ko": "speedy",
+        "type": "Quality",
+        "alignment": "O is fast in Eu",
+        "semantics": [
+            "fast",
+            "speedy",
+            "rapid",
+            "velocity"
+        ],
+        "etymology": {
+            "lang": "German",
+            "word": "schnell"
+        }
+    },
+    {
+        "word": "xnu",
+        "def": "cord",
+        "type": "Junction",
+        "alignment": "O is cord of E",
+        "semantics": [
+            "cord",
+            "rope",
+            "string",
+            "cable",
+            "twine",
+            "noodle"
+        ],
+        "etymology": {
+            "lang": "German",
+            "word": "Schnur"
+        }
     },
     {
         "word": "xo",
@@ -6055,6 +6912,198 @@
         "notes": "hello, hi, goodbye, bye | also «xoi xoi!» (informal)"
     },
     {
+        "word": "xol",
+        "def": "black",
+        "xo": "darkness",
+        "ko": "dark tint",
+        "type": "Quality",
+        "alignment": "O is black in Eu",
+        "semantics": [
+            "black",
+            "dark",
+            "gray",
+            "dim"
+        ],
+        "etymology": {
+            "lang": "Russian",
+            "word": "чёрный",
+            "translit": "čórnyj"
+        }
+    },
+    {
+        "word": "xon",
+        "def": "show",
+        "xo": "presentation (J)",
+        "ko": "example (Q)",
+        "type": "Quality",
+        "alignment": "O shows Eu",
+        "semantics": [
+            "show",
+            "demonstrate",
+            "present",
+            "display",
+            "debut"
+        ],
+        "etymology": {
+            "lang": "Volapük",
+            "word": "jon"
+        }
+    },
+    {
+        "word": "xop",
+        "def": "catch",
+        "xo": "catch [n.] (J)",
+        "ko": "catcher",
+        "type": "Direction",
+        "alignment": "O catches E from/at A",
+        "semantics": [
+            "catch",
+            "grab",
+            "capture",
+            "receive"
+        ],
+        "etymology": {
+            "lang": "Vietnamese",
+            "word": "chộp"
+        }
+    },
+    {
+        "word": "xpa",
+        "def": "conserve",
+        "xo": "preserves (J)",
+        "ko": "conservative (Q)",
+        "type": "Junction",
+        "alignment": "O conserves E",
+        "semantics": [
+            "conserve",
+            "save",
+            "accumulate",
+            "preserve"
+        ],
+        "etymology": {
+            "lang": "German",
+            "word": "sparen"
+        }
+    },
+    {
+        "word": "xpe",
+        "def": "cave",
+        "xo": "concavity",
+        "ko": "cavern",
+        "type": "Quality",
+        "alignment": "O is concave in Eu",
+        "semantics": [
+            "cave",
+            "divot",
+            "depression",
+            "gulch",
+            "cavern",
+            "hollow",
+            "concave"
+        ],
+        "etymology": {
+            "lang": "Albanian",
+            "word": "shpellë"
+        }
+    },
+    {
+        "word": "xpi",
+        "def": "play",
+        "xo": "play [n.] (J)",
+        "ko": "player (J)",
+        "type": "Quality",
+        "alignment": "O plays at Eu",
+        "semantics": [
+            "play",
+            "amusement",
+            "recreation",
+            "have fun",
+            "toy"
+        ],
+        "etymology": {
+            "lang": "German",
+            "word": "spiel"
+        }
+    },
+    {
+        "word": "xpu",
+        "def": "scratch",
+        "type": "Junction",
+        "alignment": "O scratches E",
+        "semantics": [
+            "scratch",
+            "scrape",
+            "abrade",
+            "abrasion",
+            "debride"
+        ],
+        "etymology": {
+            "lang": "Armenian",
+            "word": "շփում",
+            "translit": "(špʿum)"
+        },
+        "notes": "scratch with X: xpu fo X"
+    },
+    {
+        "word": "xta",
+        "def": "animal",
+        "xo": "beastliness",
+        "ko": "beast",
+        "type": "Quality",
+        "alignment": "O is animal in Eu",
+        "semantics": [
+            "animal",
+            "beast",
+            "creature",
+            "predator",
+            "savage"
+        ],
+        "etymology": {
+            "lang": "Albanian",
+            "word": "shtaze"
+        }
+    },
+    {
+        "word": "xte",
+        "def": "path",
+        "xo": "end of path",
+        "ko": "beaten path",
+        "type": "Direction",
+        "alignment": "O is the path from E to A",
+        "semantics": [
+            "path",
+            "way",
+            "road",
+            "street",
+            "avenue",
+            "direction"
+        ],
+        "etymology": {
+            "lang": "Albanian",
+            "word": "shteg"
+        }
+    },
+    {
+        "word": "xto",
+        "def": "stone",
+        "xo": "mineral (J)",
+        "ko": "stony (Q)",
+        "type": "Junction",
+        "alignment": "O is stone containing E",
+        "semantics": [
+            "stone",
+            "rock",
+            "brick",
+            "boulder",
+            "quartz",
+            "granite"
+        ],
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "ŝtono"
+        }
+    },
+    {
         "word": "xu",
         "def": "universal terminator (reset to base level)",
         "type": "Terminator",
@@ -6074,6 +7123,26 @@
         "notes": "said X, quoth X | Can be delimited with discourse marker «vu»"
     },
     {
+        "word": "xuk",
+        "def": "circle",
+        "xo": "circularity",
+        "ko": "perfect circle",
+        "type": "Quality",
+        "alignment": "O is circular in Eu",
+        "semantics": [
+            "circle",
+            "circular",
+            "ring",
+            "disk",
+            "round",
+            "cycle"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "cuk ← cukla"
+        }
+    },
+    {
         "word": "xul",
         "def": "weigh",
         "type": "Junction",
@@ -6086,6 +7155,44 @@
         "etymology": {
             "lang": "Hungarian",
             "word": "súly"
+        }
+    },
+    {
+        "word": "xup",
+        "def": "suck",
+        "xo": "suction",
+        "ko": "sucker",
+        "type": "Junction",
+        "alignment": "O sucks E",
+        "semantics": [
+            "suck",
+            "suction",
+            "inhale",
+            "slurp",
+            "vacuum",
+            "take in"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "chupar"
+        }
+    },
+    {
+        "word": "xut",
+        "def": "water",
+        "type": "Junction",
+        "alignment": "O is water of E",
+        "semantics": [
+            "water",
+            "wet",
+            "moist",
+            "H2O",
+            "ice",
+            "vapor"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "cut ← cutri"
         }
     },
     {
@@ -6187,6 +7294,86 @@
         }
     },
     {
+        "word": "zba",
+        "def": "marry",
+        "xo": "marriage (J)",
+        "ko": "spouse (J)",
+        "type": "Relation",
+        "alignment": "O is married to E in Au",
+        "semantics": [
+            "marry",
+            "wed",
+            "wedding",
+            "spouse",
+            "husband",
+            "wife"
+        ],
+        "etymology": {
+            "lang": "Ceqli",
+            "word": "zban"
+        },
+        "notes": "see also «zbafet» (O [officiant] marries E (mass) under authority Au)"
+    },
+    {
+        "word": "zbi",
+        "def": "surround",
+        "xo": "between (R)",
+        "ko": "surroundings (J)",
+        "type": "Relation",
+        "alignment": "O (mass) surrounds E in Au",
+        "semantics": [
+            "surround",
+            "between",
+            "encircle",
+            "enclose"
+        ],
+        "etymology": {
+            "lang": "Hebrew",
+            "word": "סְבִיבָה",
+            "translit": "s'vivá"
+        }
+    },
+    {
+        "word": "zbu",
+        "def": "find",
+        "xo": "finding",
+        "ko": "finder",
+        "type": "Quality",
+        "alignment": "O finds Eu",
+        "semantics": [
+            "find",
+            "discover",
+            "realize",
+            "notice",
+            "detect"
+        ],
+        "etymology": {
+            "lang": "Albanian",
+            "word": "zbuloj"
+        }
+    },
+    {
+        "word": "zda",
+        "def": "follow",
+        "xo": "guirdance",
+        "ko": "followe",
+        "type": "Relation",
+        "alignment": "O follows E in Au",
+        "semantics": [
+            "follow",
+            "pursue",
+            "queue",
+            "sequence",
+            "be guided by"
+        ],
+        "etymology": {
+            "lang": "Cherokee",
+            "word": "ᏍᏓᏩᏗ",
+            "translit": "-sdawad",
+            "urlform": "sdawad"
+        }
+    },
+    {
         "word": "ze",
         "def": "non-logical connective",
         "type": "Connective",
@@ -6205,6 +7392,153 @@
             "word": "ze'e"
         },
         "notes": "always, forever (when combined with tense)"
+    },
+    {
+        "word": "zek",
+        "def": "explain",
+        "xo": "explanation",
+        "ko": "guide",
+        "type": "Quality",
+        "alignment": "O explains Eu",
+        "semantics": [
+            "explain",
+            "reason",
+            "tell",
+            "describe",
+            "denote",
+            "annotate",
+            "example",
+            "justify"
+        ],
+        "etymology": {
+            "lang": "Zulu",
+            "word": "-zekêlo",
+            "urlform": "zekelo"
+        }
+    },
+    {
+        "word": "zen",
+        "def": "increase",
+        "xo": "increase [n.] (Q)",
+        "ko": "trend upward (Q)",
+        "type": "State",
+        "alignment": "Ou increases",
+        "semantics": [
+            "increase",
+            "augment",
+            "escalate",
+            "appreciate",
+            "grow",
+            "improve"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "zen ← zenba"
+        }
+    },
+    {
+        "word": "zet",
+        "def": "sad",
+        "xo": "sadness",
+        "ko": "melancholy [person]",
+        "type": "Quality",
+        "alignment": "O is sad in Eu",
+        "semantics": [
+            "sad",
+            "sorrow",
+            "melancholy",
+            "depressed",
+            "lonely",
+            "feel blue",
+            "feel down"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "絶望",
+            "translit": "zetsubou"
+        }
+    },
+    {
+        "word": "zga",
+        "def": "cut",
+        "xo": "cut [n.] (J)",
+        "ko": "sharp",
+        "type": "Junction",
+        "alignment": "O cuts E",
+        "semantics": [
+            "cut",
+            "slice",
+            "slit",
+            "tear into"
+        ],
+        "etymology": {
+            "lang": "Italian",
+            "word": "sgarrare"
+        }
+    },
+    {
+        "word": "zgi",
+        "def": "music",
+        "type": "Junction",
+        "alignment": "O is music of E",
+        "semantics": [
+            "music",
+            "song",
+            "dance",
+            "poetry",
+            "drama",
+            "art",
+            "creative",
+            "myth",
+            "epic",
+            "story"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "zgi ← zgike"
+        }
+    },
+    {
+        "word": "zgo",
+        "def": "harmony",
+        "xo": "harmony [n.] (J)",
+        "ko": "rhyme",
+        "type": "Relation",
+        "alignment": "O is in harmony with E in Au",
+        "semantics": [
+            "harmony",
+            "peace",
+            "rhyme",
+            "concord",
+            "agree",
+            "fit",
+            "match",
+            "appropriate",
+            "unity"
+        ],
+        "etymology": {
+            "lang": "Polish",
+            "word": "zgoda"
+        }
+    },
+    {
+        "word": "zgu",
+        "def": "lose",
+        "xo": "loss [n.] (J)",
+        "ko": "loser (J)",
+        "type": "Junction",
+        "alignment": "O loses E",
+        "semantics": [
+            "lose",
+            "drop",
+            "abandon",
+            "leave",
+            "quit"
+        ],
+        "etymology": {
+            "lang": "Polish",
+            "word": "zgubić"
+        }
     },
     {
         "word": "zi",
