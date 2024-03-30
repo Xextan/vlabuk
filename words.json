@@ -431,8 +431,8 @@
         "word": "bon",
         "def": "good",
         "xo": "benefit",
-        "type": "Quality",
-        "alignment": "O is good in Eu",
+        "type": "Relation",
+        "alignment": "O is good for E in Au",
         "semantics": [
             "good",
             "nice",
@@ -6218,6 +6218,192 @@
         "notes": "cf. Esperanto {-ero}"
     },
     {
+        "word": "zik",
+        "def": "sick",
+        "xo": "sickness (J)",
+        "ko": "infected (Q)",
+        "type": "Quality",
+        "alignment": "O is sick in/with Eu",
+        "semantics": [
+            "sick",
+            "ill",
+            "infection",
+            "disease"
+        ],
+        "etymology": {
+            "lang": "Dutch",
+            "word": "ziek"
+        }
+    },
+    {
+        "word": "zin",
+        "def": "cold",
+        "xo": "coldness (J)",
+        "ko": "cold (n.)",
+        "type": "Quality",
+        "alignment": "O is cold in Eu",
+        "semantics": [
+            "cold",
+            "icy",
+            "frigid",
+            "wintry",
+            "freezing"
+        ],
+        "etymology": {
+            "lang": "Polish",
+            "word": "zimno"
+        }
+    },
+    {
+        "word": "zip",
+        "def": "bounce",
+        "type": "Junction",
+        "alignment": "O bounces on E",
+        "semantics": [
+            "bounce",
+            "jump",
+            "hop",
+            "skip"
+        ],
+        "etymology": {
+            "lang": "Turkish",
+            "word": "zıp"
+        }
+    },
+    {
+        "word": "zit",
+        "def": "wall",
+        "type": "Junction",
+        "alignment": "O is wall of E",
+        "semantics": [
+            "wall",
+            "ceiling",
+            "floor",
+            "barrier",
+            "fence",
+            "divider",
+            "blockade"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "zîd"
+        }
+    },
+    {
+        "word": "zla",
+        "def": "substitute",
+        "xo": "representation",
+        "ko": "representative",
+        "type": "Relation",
+        "alignment": "O substitutes for E in Au",
+        "semantics": [
+            "substitute",
+            "instead",
+            "replace",
+            "represent",
+            "stand in"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "zlato"
+        }
+    },
+    {
+        "word": "zle",
+        "def": "mature",
+        "xo": "maturity (J)",
+        "ko": "adult (E)",
+        "type": "Quality",
+        "alignment": "O is mature in Eu",
+        "semantics": [
+            "mature",
+            "adult",
+            "grown-up",
+            "elder"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "zletilý"
+        }
+    },
+    {
+        "word": "zlo",
+        "def": "bad",
+        "xo": "undesirability (J)",
+        "ko": "detriment (J)",
+        "type": "Relation",
+        "alignment": "O is bad for E in Au",
+        "semantics": [
+            "bad",
+            "poor",
+            "low quality",
+            "useless",
+            "evil",
+            "harmful",
+            "undesirable",
+            "detestable",
+            "despicable"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "zlo"
+        }
+    },
+    {
+        "word": "zna",
+        "def": "familiar",
+        "xo": "familiarity (R)",
+        "ko": "landmark (R)",
+        "type": "Relation",
+        "alignment": "O is familiar to E in Au",
+        "semantics": [
+            "familiar",
+            "known",
+            "mundane",
+            "commonplace"
+        ],
+        "etymology": {
+            "lang": "Polish",
+            "word": "znać"
+        }
+    },
+    {
+        "word": "zni",
+        "def": "seem",
+        "xo": "appearance (J)",
+        "ko": "apparent (Q)",
+        "type": "State",
+        "alignment": "Ou seems to be the case",
+        "semantics": [
+            "seem",
+            "appear",
+            "probably",
+            "impression"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "znít"
+        }
+    },
+    {
+        "word": "zno",
+        "def": "repeat",
+        "xo": "recurrence",
+        "ko": "cyclical",
+        "type": "State",
+        "alignment": "Ou repeats",
+        "semantics": [
+            "repeat",
+            "again",
+            "recur",
+            "instance"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "znova"
+        }
+    },
+    {
         "word": "zo",
         "def": "non-logical disjunction",
         "type": "Connective",
@@ -6380,7 +6566,8 @@
         "word": "zun",
         "def": "outside",
         "ko": "exterior (J)",
-        "alignment": "",
+        "type":"Junction",
+        "alignment": "O is outside E",
         "semantics": [
             "outside",
             "without",
