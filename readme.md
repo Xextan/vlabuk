@@ -1,10 +1,6 @@
 # vlabuk
 
-i was going to make a why do they call it oven joke but then realized that would be stupid ~evie
-
 ## Guide to editing `words.json`
-
-Sonkap is free to edit this, or ask me (evie). I'll only edit it to move stuff out of the spreadsheet & for cleanup. Everyone else please go through #submit-a-word in Discord.
 
 **Before committing** changes to the JSON please
 - ensure nothing is empty (regex-search `[^\\]""|\[\]`)
