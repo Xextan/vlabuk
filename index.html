@@ -57,7 +57,7 @@
                     if ([entry.def, entry.alignment, ...(entry.semantics || []), entry.xo, entry.ko].some(e => new RegExp(regex, "iu").test(e))) {
                         results.push([entry, 3]);
                     }
-                    if (entry.word.toLowerCase().startsWith(q)) {
+                    if ([entry.word, ...(entry.semantics || [])].some(e => e.toLowerCase().startsWith(q))) {
                         results.push([entry, 2]);
                     }
                     if (entry.notes && new RegExp(regex, "iu").test(entry.notes)) {
