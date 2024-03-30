@@ -32,6 +32,55 @@
         }
     },
     {
+        "word": "álélúja",
+        "def": "alleluia",
+        "type": "Null",
+        "alignment": "N: alleluia",
+        "semantics": [
+            "alleluia",
+            "hallelujah",
+            "Allahu akbar"
+        ],
+        "etymology": {
+            "lang": "Latin",
+            "word": "allēlūia"
+        },
+        "notes": "nullary predicate: alleluia!/hallelujah! | originally cf. הַלְּלוּיָהּ \"hal'luyáh\")"
+    },
+    {
+        "word": "álélúja",
+        "def": "alleluia",
+        "type": "Null",
+        "alignment": "N: alleluia",
+        "semantics": [
+            "alleluia",
+            "hallelujah",
+            "Allahu akbar"
+        ],
+        "etymology": {
+            "lang": "Latin",
+            "word": "allēlūia"
+        },
+        "notes": "nullary predicate: alleluia!/hallelujah! | originally cf. הַלְּלוּיָהּ \"hal'luyáh\")"
+    },
+    {
+        "word": "ámen",
+        "def": "amen",
+        "type": "Null",
+        "alignment": "N: amen",
+        "semantics": [
+            "amen",
+            "indeed",
+            "let it be"
+        ],
+        "etymology": {
+            "lang": "Hebrew",
+            "word": "אָמֵן",
+            "translit": "ʾāmēn"
+        },
+        "notes": "nullary predicate: amen | see also «jizát»"
+    },
+    {
         "word": "Ámríka",
         "def": "America",
         "type": "Quality",
@@ -2121,6 +2170,20 @@
         "etymology": {
             "lang": "by analogy; cf. «ja», «je», «jo», «ju»"
         }
+    },
+    {
+        "word": "jizát",
+        "def": "let it be",
+        "gloss": "PRFRM-exist",
+        "type": "Illocution-Quality",
+        "alignment": "Let it be so (Ou)",
+        "semantics": [
+            "let it be",
+            "let there be",
+            "amen",
+            "it is so"
+        ],
+        "notes": "false compound «ji» + «zat» | often found in stock phrases e.g. \"jizát ámen\" (\"let it be so, amen\")"
     },
     {
         "word": "jo",
@@ -5341,7 +5404,7 @@
     },
     {
         "word": "tekko",
-        "def": "special (Q)",
+        "def": "special",
         "gloss": "specific-AG",
         "type": "Quality",
         "alignment": "O is special in Eu",
@@ -6561,7 +6624,7 @@
         "def": "divide",
         "xo": "division (D)",
         "ko": "divider (D)",
-        "type": "Junction",
+        "type": "Relation",
         "alignment": "O divides E from A",
         "semantics": [
             "divide",
