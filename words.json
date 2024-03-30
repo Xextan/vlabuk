@@ -41,28 +41,20 @@
             "hallelujah",
             "Allahu akbar"
         ],
-        "etymology": {
-            "lang": "Latin",
-            "word": "allēlūia"
-        },
-        "notes": "nullary predicate: alleluia!/hallelujah! | originally cf. הַלְּלוּיָהּ \"hal'luyáh\")"
-    },
-    {
-        "word": "álélúja",
-        "def": "alleluia",
-        "type": "Null",
-        "alignment": "N: alleluia",
-        "semantics": [
-            "alleluia",
-            "hallelujah",
-            "Allahu akbar"
-        ],
-        "etymology": {
-            "lang": "Latin",
-            "word": "allēlūia"
-        },
-        "notes": "nullary predicate: alleluia!/hallelujah! | originally cf. הַלְּלוּיָהּ \"hal'luyáh\")"
-    },
+        "etymology": [
+            {
+                "lang": "Latin",
+                "word": "allēlūia",
+                "urlform": "alleluia"
+            },
+            "←",
+            {
+                "lang": "Hebrew",
+                "word": "הַלְּלוּיָהּ",
+                "urlform": "הללויה",
+                "translit": "hal'luyáh"
+            }
+        ]    },
     {
         "word": "ámen",
         "def": "amen",
@@ -76,9 +68,10 @@
         "etymology": {
             "lang": "Hebrew",
             "word": "אָמֵן",
-            "translit": "ʾāmēn"
+            "urlform": "אמן",
+            "translit": "amén"
         },
-        "notes": "nullary predicate: amen | see also «jizát»"
+        "notes": "see also «jizát»"
     },
     {
         "word": "Ámríka",
@@ -6699,7 +6692,7 @@
         ],
         "etymology": {
             "lang": "Mandarin",
-            "word": " 奇怪",
+            "word": "奇怪",
             "translit": "qíguài"
         }
     },
@@ -7105,9 +7098,9 @@
         "etymology": {
             "lang": "Armenian",
             "word": "շփում",
-            "translit": "(špʿum)"
+            "translit": "špʿum"
         },
-        "notes": "scratch with X: xpu fo X"
+        "notes": "scratch with X: xpu «fo» X"
     },
     {
         "word": "xta",
@@ -7914,6 +7907,7 @@
                 "lang": "Lojban",
                 "word": "zo'u"
             },
+            "+",
             {
                 "lang": "Loglan",
                 "word": "zoi"
