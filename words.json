@@ -65,6 +65,22 @@
         ]
     },
     {
+        "word": "álu",
+        "def": "potato",
+        "type": "Entity",
+        "alignment": "O is a potato",
+        "semantics": [
+            "potato",
+            "yam",
+            "tuber"
+        ],
+        "etymology": {
+            "lang": "Hindi",
+            "word": "आलू",
+            "translit": "ālū"
+        }
+    },
+    {
         "word": "ámen",
         "def": "amen",
         "type": "Null",
@@ -81,6 +97,22 @@
             "translit": "amén"
         },
         "notes": "see also «jizát»"
+    },
+    {
+        "word": "Ántártíka",
+        "def": "Antarctica",
+        "type": "Quality",
+        "alignment": "O is Antarctic in Eu",
+        "semantics": [
+            "Antarctica",
+            "Antarctic",
+            "South Pole",
+            "polar"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Antarctica"
+        }
     },
     {
         "word": "Ámríka",
@@ -1309,7 +1341,7 @@
         "def": "knowledge",
         "gloss": "know-PAT",
         "type": "Relation",
-        "alignment": "O is E's knowledge of/about E",
+        "alignment": "O is E's knowledge of/about Au",
         "semantics": [
             "knowledge",
             "information",
