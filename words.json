@@ -3013,8 +3013,8 @@
     {
         "word": "kap",
         "def": "cup",
-        "type": "Entity",
-        "alignment": "O is cup-shaped",
+        "type": "Junction",
+        "alignment": "O is a cup made of E",
         "semantics": [
             "cup",
             "bowl",
