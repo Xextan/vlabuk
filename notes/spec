@@ -14,11 +14,13 @@ Lojban     - https://sisku.org/?en#◌
 Klingon    - https://klingon.wiki/Word/◌
 Ceqli      - http://ceqli.pbworks.com/w/page/5455969/Ceqli-English%20Glossary
 Volapuk    - http://volapük.com/VoEnDictionary-20100830.pdf
+Navajo     - ?
 Toki Pona  - https://linku.la/?q=◌
 Japanese   - https://jisho.org/word/◌
 Toaq       - https://toadua.uakci.pl/#=◌
 PIE        - https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/◌
 Votgil     - http://www.ostracodfiles.com/votgil/guide.html
 ASL        - https://www.signasl.org/sign/◌
-Navajo     - ?
-Cherokee   - ?
+
+maybe urlform can also just be determined per language
+ex Wikt = first word to strip transliterations
