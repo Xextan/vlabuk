@@ -255,6 +255,23 @@
         }
     },
     {
+        "word": "bálu",
+        "def": "bear",
+        "type": "Entity",
+        "alignment": "O is a bear",
+        "semantics": [
+            "bear",
+            "ursine",
+            "teddy"
+        ],
+        "etymology": {
+            "lang": "Urdu",
+            "word": "بھالو",
+            "urlform": "भालू",
+            "translit": "bhālū"
+        }
+    },  
+    {
         "word": "ban",
         "def": "language",
         "type": "Entity",
@@ -635,6 +652,20 @@
         ]
     },
     {
+        "word": "buóhai",
+        "def": "shark",
+        "type": "Entity",
+        "alignment": "O is a shark",
+        "semantics": [
+            "shark",
+            "haye"
+        ],
+        "etymology": {
+            "lang": "Swedish",
+            "word": "blåhaj"
+        }
+    }, 
+    {
         "word": "buqíddun",
         "def": "forget",
         "gloss": "OPP memory-know",
@@ -936,6 +967,23 @@
         "notes": "i.e. subjective obligation (not probability)"
     },
     {
+        "word": "dése",
+        "def": "bee",
+        "type": "Entity",
+        "alignment": "O is a bee",
+        "semantics": [
+            "bee",
+            "honeybee",
+            "bumblebee",
+            "apiculture"
+        ],
+        "etymology": {
+            "lang": "a priori",
+            "word": "Deseret"
+        },
+        "notes": "from the word Deseret, a word mentioned in the Book of Mormon meaning \"bee\" and believed by Latter-day Saints to have derived from an unattested ancient Semitic language"
+    }, 
+    {
         "word": "di",
         "def": "obviative abstract pronoun",
         "type": "Pronoun",
@@ -1103,6 +1151,23 @@
         ]
     },
     {
+        "word": "Díqu",
+        "def": "Earth",
+        "type": "Entity",
+        "alignment": "O is Earth",
+        "semantics": [
+            "Earth",
+            "the Earth",
+            "Terra",
+            "Gaia"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "地球",
+            "translit": "díqiú"
+        }
+    }, 
+    {
         "word": "do",
         "def": "bind n. phrase to predicate (nominative)",
         "type": "Binder",
@@ -1111,6 +1176,21 @@
             "word": "do"
         }
     },
+    {
+        "word": "dófi",
+        "def": "dolphin",
+        "type": "Entity",
+        "alignment": "O is a dolphin",
+        "semantics": [
+            "dolphin",
+            "delphine",
+            "cetacean"
+        ],
+        "etymology": {
+            "lang": "Catalan",
+            "word": "dofi"
+        }
+    }, 
     {
         "word": "doi",
         "def": "nominative mass binder",
@@ -1136,6 +1216,20 @@
             "word": "dolor"
         }
     },
+    {
+        "word": "dólar",
+        "def": "dollar",
+        "type": "Entity",
+        "alignment": "O is a dollar",
+        "semantics": [
+            "dollar",
+            "buck"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "dollar"
+        }
+    }, 
     {
         "word": "don",
         "def": "give",
@@ -3111,6 +3205,25 @@
         }
     },
     {
+        "word": "kával",
+        "def": "horse",
+        "type": "Entity",
+        "alignment": "O is a horse",
+        "semantics": [
+            "horse",
+            "equine",
+            "colt",
+            "stallion",
+            "mare",
+            "colt",
+            "filly"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "cavalho"
+        }
+    },  
+    {
         "word": "ke",
         "def": "relative clause marker",
         "type": "Tag",
@@ -3319,6 +3432,23 @@
             "carton"
         ]
     },
+    {
+        "word": "kísékit",
+        "def": "elm seed bug",
+        "type": "Entity",
+        "alignment": "O is an elm seed bug",
+        "semantics": [
+            "elm seed bug",
+            "miracle bug",
+            "kisekit"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "奇跡",
+            "translit": "kiseki"
+        },
+        "notes": "Symbol of Xextan, these persistent little guys represent the creativity and free spirit of the Xextan community. Hey, there's one on on my sleeve- how do they keep getting in here...?"
+    }, 
     {
         "word": "kit",
         "def": "insect",
@@ -7454,6 +7584,18 @@
         }
     },
     {
+        "word": "ten xíláti",
+        "gloss": "have spirit",
+        "type": "State-Quality",
+        "alignment": "|TEN| O has the spirit of |XÍLÁTI| (O) E",
+        "semantics": [
+            "have the spirit of",
+            "have in one's heart",
+            "have in one's blood"
+        ],
+        "notes": "ten xíláti [de] Xextan = to have the spirit of Xextan; ten xíláti [de] Návída = to have the spirit of Christmas; etc."
+    },
+    {
         "word": "tenko",
         "def": "possessor",
         "gloss": "have-AG",
@@ -8582,6 +8724,21 @@
         "notes": "if X... (antecedent of if-then statement); see «xa»"
     },
     {
+        "word": "xával",
+        "def": "rice",
+        "type": "Entity",
+        "alignment": "O is rice",
+        "semantics": [
+            "rice",
+            "Oryzo sativa"
+        ],
+        "etymology": {
+            "lang": "Hindi",
+            "word": "चावल",
+            "translit": "cāval"
+        }
+    }, 
+    {
         "word": "xe",
         "def": "lambda/resumptive pronoun",
         "type": "Pronoun",
@@ -8669,13 +8826,14 @@
         "def": "divide",
         "xo": "division (D)",
         "ko": "divider (D)",
-        "type": "Direction",
-        "alignment": "O divides E from A",
+        "type": "Relation",
+        "alignment": "O is separated from E in Au",
         "semantics": [
             "divide",
             "separate",
             "distinguish",
-            "split"
+            "split",
+            "cut off"
         ],
         "etymology": {
             "lang": "Galician",
@@ -9600,6 +9758,22 @@
         }
     },
     {
+        "word": "zga xep",
+        "gloss": "cut off",
+        "type": "Junction-Relation",
+        "alignment": "|ZGA| O cuts |XEP| O off from E in Au",
+        "semantics": [
+            "cut off",
+            "slice off",
+            "chop off",
+            "hack off",
+            "cleave",
+            "separate [tr.]",
+            "amputate"
+        ],
+        "notes": "cf. «spabut»"
+    },
+    {
         "word": "zgi",
         "def": "music",
         "type": "Junction",
@@ -10053,5 +10227,31 @@
             "lang": "Dutch",
             "word": "zoet"
         }
+    },
+    {
+        "word": "zutglu",
+        "def": "syrup",
+        "gloss": "sweet-sticky",
+        "type": "Junction",
+        "alignment": "O is syrup of E",
+        "semantics": [
+            "syrup",
+            "nectar",
+            "sap"
+        ],
+        "notes": "cf. «danzon» (city)"
+    },
+    {
+        "word": "zutglu dése",
+        "def": "honey",
+        "gloss": "syrup bee",
+        "type": "Junction-Entity",
+        "alignment": "|ZUTGLU| O is honey |DÉSE| [O]",
+        "semantics": [
+            "honey",
+            "honeyed",
+            "mellifluous"
+        ],
+        "notes": "cf. «danzon» (city)"
     }
 ]
