@@ -629,7 +629,7 @@
         "gloss": "OPP air-suck",
         "type": "Direction",
         "alignment": "O breathes out E to A",
-        "semantics":[
+        "semantics": [
             "breathe out",
             "exhale"
         ]
@@ -768,7 +768,7 @@
         "gloss": "building-sticky",
         "type": "Junction",
         "alignment": "O is mortar made of E",
-        "semantics":[
+        "semantics": [
             "mortar",
             "tar",
             "pitch"
@@ -1740,7 +1740,7 @@
             "word": "fem ← femdi"
         }
     },
-      {
+    {
         "word": "fengingop",
         "def": "queen",
         "gloss": "female-family-govern",
@@ -4035,7 +4035,6 @@
             "community",
             "settlement",
             "civilization"
-
         ]
     },
     {
@@ -5001,11 +5000,17 @@
         "word": "pe",
         "def": "associative marker",
         "type": "Tag",
-        "etymology": {
-            "lang": "Loglan/Lojban",
-            "word": "pe"
-        },
-        "notes": "ultimately from Loglan {perti} (\"to pertain\")"
+        "etymology": [
+            {
+                "lang": "Loglan/Lojban",
+                "word": "pe"
+            },
+            "←",
+            {
+                "lang": "Loglan",
+                "word": "perti"
+            }
+        ]
     },
     {
         "word": "pei",
