@@ -1309,7 +1309,7 @@
         "def": "knowledge",
         "gloss": "know-PAT",
         "type": "Relation",
-        "alignment": "O is E's knowledge of/about E",
+        "alignment": "O is E's knowledge of/about A",
         "semantics": [
             "knowledge",
             "information",
