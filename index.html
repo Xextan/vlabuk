@@ -55,11 +55,14 @@
                 for (const entry of dict) {
                     const rgx = q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
                     const regex = `(\\b|\\W|^)${rgx}(\\b|\\W|$)`;
-                    if ([entry.def, entry.alignment, ...(entry.semantics || []), entry.xo, entry.ko].some(e => new RegExp(regex, "iu").test(e))) {
-                        results.push([entry, 3]);
-                    }
-                    if ([entry.word, ...(entry.semantics || [])].some(e => e.toLowerCase().startsWith(q))) {
+                    if (entry.def && entry.def.toLowerCase() == q) {
                         results.push([entry, 2]);
+                    }
+                    if ([entry.def, entry.alignment, ...(entry.semantics || []), entry.xo, entry.ko].some(e => new RegExp(regex, "iu").test(e))) {
+                        results.push([entry, 1]);
+                    }
+                    if (deaccent(entry.word.toLowerCase()).startsWith(deaccent(q)) || (entry.semantics || []).some(e => e.toLowerCase().startsWith(q))) {
+                        results.push([entry, 1]);
                     }
                     if (entry.notes && new RegExp(regex, "iu").test(entry.notes)) {
                         results.push([entry, 1]);
