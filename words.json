@@ -5429,6 +5429,21 @@
         ]
     },
     {
+        "word": "qan",
+        "def": "disobey",
+        "xo": "disobedience",
+        "ko": "rulebreaker",
+        "type": "Quality",
+        "alignment": "O is disobedient in Eu",
+        "etymology": {
+            "lang": "Arabic",
+            "word": "جَنَى",
+            "urlform": "جنى",
+            "translit": "janā"
+        },
+        "notes": "see also «flaqan» (break law)"
+    },
+    {
         "word": "qap",
         "def": "answer",
         "xo": "prompt",

@@ -61,7 +61,7 @@
                     if ([entry.def, entry.alignment, ...(entry.semantics || []), entry.xo, entry.ko].some(e => new RegExp(regex, "iu").test(e))) {
                         results.push([entry, 1]);
                     }
-                    if (deaccent(entry.word.toLowerCase()).startsWith(deaccent(q)) || (entry.semantics || []).some(e => e.toLowerCase().startsWith(q))) {
+                    if (deaccent(entry.word.toLowerCase()).startsWith(deaccent(q)) || deaccent(entry.word.toLowerCase()).includes(deaccent(q)) || (entry.semantics || []).some(e => e.toLowerCase().startsWith(q))) {
                         results.push([entry, 1]);
                     }
                     if (entry.notes && new RegExp(regex, "iu").test(entry.notes)) {
