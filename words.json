@@ -1629,6 +1629,55 @@
         }
     },
     {
+        "word": "Énígil",
+        "def": "England",
+        "type": "Quality",
+        "alignment": "O is English in Eu",
+        "semantics": [
+            "England",
+            "English",
+            "Anglo-Saxon",
+            "Anglic"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "England"
+        }
+    },
+    {
+        "word": "Éspánia",
+        "def": "Spain",
+        "type": "Quality",
+        "alignment": "O is Spanish in Eu",
+        "semantics": [
+            "Spain",
+            "Spanish",
+            "Castilian",
+            "español",
+            "castellano"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "España"
+        }
+    },
+    {
+        "word": "Éspéránto",
+        "def": "Esperanto",
+        "type": "Quality",
+        "alignment": "O is Esperantic (pertaining to Esperanto) in Eu",
+        "semantics": [
+            "Esperanto",
+            "Esperantic",
+            "Esperantist",
+            "Esperantujo"
+        ],
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "Esperanto"
+        }
+    }, 
+    {
         "word": "eu",
         "def": "abstract accusative case marker",
         "type": "Preposition",
@@ -1701,6 +1750,22 @@
             "word": "fal"
         }
     },
+    {
+        "word": "fálózin",
+        "def": "coda (Xextan)",
+        "type": "Entity",
+        "alignment": "O is a falozim",
+        "semantics": [
+            "falozim",
+            "coda",
+            "ending consonant"
+        ],
+        "etymology": {
+            "lang": "Ceqli",
+            "word": "falozim"
+        },
+        "notes": "Ceqlian SSM terminology: refers to the permitted Xextan syllable codas p/b/t/d/k/g/l/n"
+    }, 
     {
         "word": "fan",
         "def": "resume",
@@ -2221,6 +2286,23 @@
         }
     },
     {
+        "word": "Frâsi",
+        "def": "France",
+        "type": "Quality",
+        "alignment": "O is French in Eu",
+        "semantics": [
+            "France",
+            "French",
+            "Frankish",
+            "Frankic",
+            "Gaulic"
+        ],
+        "etymology": {
+            "lang": "France",
+            "word": "France"
+        }
+    }, 
+    {
         "word": "fu",
         "def": "generalizing suffix",
         "type": "Suffix",
@@ -2393,6 +2475,23 @@
         "notes": "false compound: «ge» + «don»"
     },
     {
+        "word": "gágil",
+        "def": "boomer",
+        "type": "Quality",
+        "alignment": "O is boomer in Eu",
+        "semantics": [
+            "boomer",
+            "crotchety",
+            "out of touch",
+            "grandpa",
+            "grandma"
+        ],
+        "etymology": {
+            "lang": "Ceqli",
+            "word": "gagil"
+        }
+    }, 
+    {
         "word": "gak",
         "def": "fail",
         "xo": "failure",
@@ -2425,6 +2524,21 @@
         }
     },
     {
+        "word": "gálep",
+        "def": "gull",
+        "type": "Entity",
+        "alignment": "O is a gull",
+        "semantics": [
+            "gull",
+            "seagull",
+            "seabird"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "galêb"
+        }
+    }, 
+    {
         "word": "galgot",
         "def": "ascend",
         "gloss": "above-go",
@@ -2449,6 +2563,20 @@
             "lid"
         ]
     },
+    {
+        "word": "gáuli",
+        "def": "mule",
+        "type": "Entity",
+        "alignment": "O is a mule/hinny (horse-donkey hybrid)",
+        "semantics": [
+            "mule",
+            "hinny"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "England"
+        }
+    }, 
     {
         "word": "ge",
         "def": "passive voice",
@@ -2878,6 +3006,22 @@
         }
     },
     {
+        "word": "Hálówin",
+        "def": "Halloween",
+        "type": "Junction",
+        "alignment": "O is Halloween of E",
+        "semantics": [
+            "Halloween",
+            "All Hallows' Eve",
+            "Samhain",
+            "haunted house"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Halloween"
+        }
+    }, 
+    {
         "word": "i",
         "def": "modal illocution: declarative",
         "type": "Illocution",
@@ -3009,6 +3153,20 @@
         }
     },
     {
+        "word": "Júle",
+        "def": "Yule",
+        "type": "Junction",
+        "alignment": "O is Yule of E",
+        "semantics": [
+            "Yule",
+            "winter solstice"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Yule"
+        }
+    }, 
+    {
         "word": "ka",
         "def": "interrogative predicate",
         "type": "Predicate",
@@ -3019,6 +3177,21 @@
         }
     },
     {
+        "word": "káfe",
+        "def": "coffee",
+        "type": "Entity",
+        "alignment": "O is coffee",
+        "semantics": [
+            "coffee",
+            "espresso",
+            "café"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "café"
+        }
+    }, 
+    {
         "word": "kai",
         "def": "comparative",
         "type": "Connective",
@@ -3028,6 +3201,24 @@
         },
         "notes": "like, as, similar to"
     },
+    {
+        "word": "káini",
+        "def": "bovine",
+        "type": "Entity",
+        "alignment": "O is a bovine",
+        "semantics": [
+            "bovine",
+            "cattle",
+            "cow",
+            "bull",
+            "steer",
+            "calf"
+        ],
+        "etymology": {
+            "lang": "Ceqli",
+            "word": "kayni"
+        }
+    }, 
     {
         "word": "kak",
         "def": "waste",
@@ -3045,6 +3236,21 @@
             "word": "caca"
         }
     },
+    {
+        "word": "kákau",
+        "def": "chocolate",
+        "type": "Entity",
+        "alignment": "O is chocolate",
+        "semantics": [
+            "chocolate",
+            "cocoa",
+            "cacao"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "cacau"
+        }
+    }, 
     {
         "word": "kakkap",
         "def": "wastebasket",
@@ -3197,6 +3403,24 @@
         ]
     },
     {
+        "word": "Kátólik",
+        "def": "Catholic",
+        "type": "Quality",
+        "alignment": "O is (Roman) Catholic in Eu",
+        "semantics": [
+            "Catholic",
+            "Roman Church",
+            "Roman Rite",
+            "Vatican",
+            "pope",
+            "papacy"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Catholic"
+        }
+    }, 
+    {
         "word": "kau",
         "def": "qualitative interrogative determiner",
         "type": "Determiner",
@@ -3308,6 +3532,21 @@
             "word": "Kep"
         }
     },
+    {
+        "word": "kéiqu",
+        "def": "cheese",
+        "type": "Junction",
+        "alignment": "O is cheese of E",
+        "semantics": [
+            "cheese",
+            "queso",
+            "queijo"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "queijo"
+        }
+    }, 
     {
         "word": "ki",
         "def": "marker for comment/nr. rel. clause",
@@ -3447,7 +3686,7 @@
             "word": "奇跡",
             "translit": "kiseki"
         },
-        "notes": "Symbol of Xextan, these persistent little guys represent the creativity and free spirit of the Xextan community. Hey, there's one on on my sleeve- how do they keep getting in here...?"
+        "notes": "Symbol of Xextan, these persistent little guys represent the creativity and free spirit of the Xextan community. Hey, there's one on my sleeve- how do they keep getting in here...?"
     }, 
     {
         "word": "kit",
@@ -3674,6 +3913,20 @@
         }
     },
     {
+        "word": "kóxka",
+        "def": "cat",
+        "type": "Entity",
+        "alignment": "O is a cat",
+        "semantics": [
+            "cat",
+            "feline"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "kočka"
+        }
+    }, 
+    {
         "word": "ku",
         "def": "long scope clause terminator",
         "type": "Terminator",
@@ -3691,6 +3944,36 @@
             "word": "quatro"
         }
     },
+    {
+        "word": "kuákuak",
+        "def": "duck",
+        "type": "Entity",
+        "alignment": "O is a duck",
+        "semantics": [
+            "duck",
+            "mallard"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "quack"
+        },
+        "notes": "onomatopoeic: quack quack"
+    },
+    {
+        "word": "kuétla",
+        "def": "poinsettia",
+        "type": "Entity",
+        "alignment": "O is a poinsettia",
+        "semantics": [
+            "poinsettia",
+            "spurge",
+            "Euphorbia"
+        ],
+        "etymology": {
+            "lang": "Nahuatl",
+            "word": "cuetlaxochitl"
+        }
+    }, 
     {
         "word": "kul",
         "def": "dark",
@@ -4024,6 +4307,24 @@
         }
     },
     {
+        "word": "Ládése",
+        "def": "Latter-day Saint",
+        "type": "Quality",
+        "alignment": "O is Latter-day Saint in Eu",
+        "semantics": [
+            "Latter-day Saint",
+            "LDS",
+            "Church of Jesus Christ of Latter-day Saints",
+            "Mormon",
+            "Brighamite"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Latter-day Saint"
+        },
+        "notes": "refers to the mainstream Latter-day Saint (Mormon) church and religion; for the ethnoreligious group, see «Mórmon»"
+    }, 
+    {
         "word": "lau",
         "def": "non-Xextanized name marker",
         "type": "Determiner",
@@ -4199,6 +4500,22 @@
         }
     },
     {
+        "word": "léixi",
+        "def": "milk",
+        "type": "Junction",
+        "alignment": "O is milk of E",
+        "semantics": [
+            "milk",
+            "dairy",
+            "lactic",
+            "lactose"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "leite"
+        }
+    }, 
+    {
         "word": "li",
         "def": "obviative animate pronoun",
         "type": "Pronoun",
@@ -4207,6 +4524,22 @@
             "word": "ele"
         }
     },
+    {
+        "word": "líbra",
+        "def": "pound",
+        "type": "Junction",
+        "alignment": "O is a pound of E",
+        "semantics": [
+            "pound",
+            "libra",
+            "lbs.",
+            "lira"
+        ],
+        "etymology": {
+            "lang": "Latin",
+            "word": "libra"
+        }
+    }, 
     {
         "word": "lia",
         "def": "3rd person animate possessive",
@@ -4332,6 +4665,22 @@
             "word": "loe"
         }
     },
+    {
+        "word": "Lógílan",
+        "def": "Loglan",
+        "type": "Quality",
+        "alignment": "O is Loglanic in Eu",
+        "semantics": [
+            "Loglan",
+            "Loglanic",
+            "Loglandia",
+            "Loglandian"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "Loglan"
+        }
+    }, 
     {
         "word": "lok",
         "def": "conclude",
@@ -4492,6 +4841,87 @@
         }
     },
     {
+        "word": "máda",
+        "def": "dog",
+        "type": "Entity",
+        "alignment": "O is a domestic dog",
+        "semantics": [
+            "dog",
+            "canine",
+            "mutt",
+            "pooch",
+            "bitch"
+        ],
+        "etymology": {
+            "lang": "Scottish Gaelic",
+            "word": "madadh"
+        }
+    },
+    {
+        "word": "máhou",
+        "def": "magic",
+        "type": "Quality",
+        "alignment": "O is magic of/in Eu",
+        "semantics": [
+            "magic",
+            "wizardry",
+            "sorcery",
+            "witchcraft",
+            "miracle"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "魔法",
+            "translit": "mahou"
+        }
+    },
+    {
+        "word": "Méxíko",
+        "def": "Mexico",
+        "type": "Quality",
+        "alignment": "O is Mexican in Eu",
+        "semantics": [
+            "Mexico",
+            "Mexican",
+            "Mexica",
+            "Aztec"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "México"
+        }
+    }, 
+    {
+        "word": "Mórmon",
+        "def": "Mormon",
+        "type": "Quality",
+        "alignment": "O is Mormon in Eu",
+        "semantics": [
+            "Mormon",
+            "Deseret"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Mormon"
+        },
+        "notes": "An ethnoreligious and cultural group mostly concentrated in the U.S. states of Utah, Idaho, and the American West, descended from members of the early Latter-day Saint religious movement (see «Ládése») and converts from the United Kingdom, Scandinavia, and western Europe."
+    },
+    {
+        "word": "mótil",
+        "def": "butterfly",
+        "type": "Entity",
+        "alignment": "O is a butterfly/moth",
+        "semantics": [
+            "butterfly",
+            "moth"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "motýl"
+        },
+        "notes": "refers to the adult stage of butterflies, moths, and similar creatures"
+    }, 
+    {
         "word": "na",
         "def": "present tense",
         "type": "Adverb",
@@ -4598,6 +5028,23 @@
         },
         "notes": "while, during"
     },
+    {
+        "word": "Návída",
+        "def": "Christmas",
+        "type": "Junction",
+        "alignment": "O is Christmas of E",
+        "semantics": [
+            "Christmas",
+            "Nativity",
+            "Noel",
+            "Yule",
+            "Xmas"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "Navidad"
+        }
+    }, 
     {
         "word": "ne",
         "def": "numeral: 1",
@@ -4962,6 +5409,24 @@
         }
     },
     {
+        "word": "ótxa",
+        "def": "tea",
+        "type": "Entity",
+        "alignment": "O is tea (Camellia sinensis)",
+        "semantics": [
+            "tea",
+            "cha",
+            "chai",
+            "camellia"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "お茶",
+            "translit": "ocha"
+        },
+        "notes": "refers to the plant itself; for the drink, see «xut ótxa»"
+    }, 
+    {
         "word": "ou",
         "def": "abstract nominative case marker",
         "type": "Preposition",
@@ -5070,6 +5535,36 @@
             "lang": "Armenian",
             "word": "փափուկ",
             "translit": "pʿapʿuk"
+        }
+    },
+    {
+        "word": "páskéti",
+        "def": "spaghetti",
+        "type": "Junction",
+        "alignment": "O is spaghetti of E",
+        "semantics": [
+            "spaghetti",
+            "pasketti"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "pasghetti"
+        },
+        "notes": "tee hee"
+    },
+    {
+        "word": "Páskua",
+        "def": "Easter",
+        "type": "Junction",
+        "alignment": "O is Easter of E",
+        "semantics": [
+            "Easter",
+            "Pascha",
+            "Paschal"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "Pascua"
         }
     },
     {
@@ -5218,6 +5713,22 @@
         ]
     },
     {
+        "word": "Pésáxi",
+        "def": "Passover",
+        "type": "Junction",
+        "alignment": "O is Passover of E",
+        "semantics": [
+            "Passover",
+            "Pesach"
+        ],
+        "etymology": {
+            "lang": "Hebrew",
+            "word": "פֶּסַח",
+            "urlform": "פסח",
+            "translit": "pésakh"
+        }
+    }, 
+    {
         "word": "pet",
         "def": "pertain",
         "xo": "association",
@@ -5271,6 +5782,23 @@
             "word": "pi"
         }
     },
+    {
+        "word": "piáno",
+        "def": "piano",
+        "type": "Entity",
+        "alignment": "O is a piano",
+        "semantics": [
+            "piano",
+            "pianoforte",
+            "keyboard",
+            "harpsichord",
+            "clavichord"
+        ],
+        "etymology": {
+            "lang": "Italian",
+            "word": "pianoforte"
+        }
+    }, 
     {
         "word": "pil",
         "def": "tired",
@@ -5385,6 +5913,21 @@
             "word": "poner"
         }
     },
+    {
+        "word": "póne",
+        "def": "apple",
+        "type": "Entity",
+        "alignment": "O is an apple (Malus domestica)",
+        "semantics": [
+            "apple",
+            "Malus domestica"
+        ],
+        "etymology": {
+            "lang": "French",
+            "word": "pomme"
+        },
+        "notes": "slightly mangled due to being imported before [m] was allowed in borrowings"
+    }, 
     {
         "word": "pot",
         "def": "similar",
@@ -6261,6 +6804,21 @@
         }
     },
     {
+        "word": "qúqek",
+        "def": "beetle",
+        "type": "Entity",
+        "alignment": "O is a beetle (order Coleoptera)",
+        "semantics": [
+            "beetle",
+            "coleopteran",
+            "bug"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "žužek"
+        }
+    }, 
+    {
         "word": "qul",
         "def": "deep",
         "xo": "depth",
@@ -6327,6 +6885,23 @@
         }
     },
     {
+        "word": "sáke",
+        "def": "liquor",
+        "type": "Junction",
+        "alignment": "O is liquor of E",
+        "semantics": [
+            "liquor",
+            "booze",
+            "spirits",
+            "alcohol"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "酒",
+            "translit": "sake"
+        }
+    }, 
+    {
         "word": "saktun",
         "def": "wasteland",
         "gloss": "lack-land",
@@ -6382,6 +6957,23 @@
             "adding machine"
         ]
     },
+    {
+        "word": "sámáqvat",
+        "def": "socialism",
+        "type": "Quality",
+        "alignment": "O is socialist in Eu",
+        "semantics": [
+            "socialism",
+            "socialist",
+            "Marxist",
+            "communist"
+        ],
+        "etymology": {
+            "lang": "Hindi",
+            "word": "समाजवाद",
+            "translit": "samājvād"
+        }
+    }, 
     {
         "word": "sat",
         "def": "friend",
@@ -6607,6 +7199,24 @@
             "word": "set ← setci"
         }
     },
+    {
+        "word": "séténókéléidómásátóideu",
+        "def": "sternocleidomastoideus",
+        "type": "Junction",
+        "alignment": "O is sternocleidomastoideus of E",
+        "semantics": [
+            "sternocleidomastoideus",
+            "sternocleidomastoideal",
+            "sternocleidomastoideology",
+            "sternocleidomastoideometry",
+            "sternocleidomastoideography"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "sternocleidomastoideus"
+        },
+        "notes": "do you think this is funny? do you think this is some kind of joke?"
+    }, 
     {
         "word": "setxo",
         "def": "commonality",
@@ -7015,6 +7625,21 @@
         "notes": "even, X himself/herself/themself/itself [emphasizer]"
     },
     {
+        "word": "sója",
+        "def": "soy",
+        "type": "Entity",
+        "alignment": "O is soy",
+        "semantics": [
+            "soy",
+            "soya",
+            "shoyu"
+        ],
+        "etymology": {
+            "lang": "Dutch",
+            "word": "soya"
+        }
+    }, 
+    {
         "word": "sok",
         "def": "fungus",
         "type": "Entity",
@@ -7031,6 +7656,21 @@
             "translit": "soḳo"
         }
     },
+    {
+        "word": "sókou",
+        "def": "falcon",
+        "type": "Entity",
+        "alignment": "O is a falcon",
+        "semantics": [
+            "falcon",
+            "falco",
+            "falconry"
+        ],
+        "etymology": {
+            "lang": "Polish",
+            "word": "sokół"
+        }
+    }, 
     {
         "word": "sol",
         "def": "star",
@@ -7444,6 +8084,22 @@
         }
     },
     {
+        "word": "tádan",
+        "def": "tomato",
+        "type": "Entity",
+        "alignment": "O is a tomato",
+        "semantics": [
+            "tomato",
+            "tomatillo",
+            "nightshade"
+        ],
+        "etymology": {
+            "lang": "Maltese",
+            "word": "tadam"
+        },
+        "notes": "cf. Maltese \"tuffieħa t’Adam\" (\"apple of Adam\")"
+    }, 
+    {
         "word": "tai",
         "def": "deictic collective dative case marker",
         "type": "Preposition",
@@ -7486,6 +8142,22 @@
             "word": "tan"
         }
     },
+    {
+        "word": "táqélávi",
+        "def": "tanjelavi",
+        "type": "Null",
+        "alignment": "N: tanjelavi",
+        "semantics": [
+            "tanjelavi",
+            "life's not fair",
+            "shikata ga nai",
+            "sucks to suck"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "tanjelavi"
+        }
+    }, 
     {
         "word": "tat",
         "def": "tight",
@@ -8160,6 +8832,38 @@
         }
     },
     {
+        "word": "úkúléle",
+        "def": "ukulele",
+        "type": "Junction",
+        "alignment": "O is a ukulele made of E",
+        "semantics": [
+            "ukulele",
+            "uke",
+            "cavaquinho"
+        ],
+        "etymology": {
+            "lang": "Hawaiian",
+            "word": "ʻukulele"
+        }
+    },
+    {
+        "word": "únági",
+        "def": "eel",
+        "type": "Entity",
+        "alignment": "O is an eel",
+        "semantics": [
+            "eel",
+            "elver",
+            "unagi"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "ウナギ",
+            "translit": "unagi"
+        },
+        "notes": "\"xel de únági o nia xutvak konfli.\" (My hovercraft is full of eels.)"
+    },
+    {
         "word": "Úsa",
         "def": "United States of America",
         "type": "Quality",
@@ -8236,6 +8940,35 @@
             "word": "vanlig"
         }
     },
+    {
+        "word": "Vátígil",
+        "def": "Vötgil",
+        "type": "Quality",
+        "alignment": "O is Vötgil in Eu",
+        "semantics": [
+            "Vötgil",
+            "Votgil"
+        ],
+        "etymology": {
+            "lang": "Vötgil",
+            "word": "Vötgil"
+        }
+    },
+    {
+        "word": "váuzin",
+        "def": "vowel (Xextan)",
+        "type": "Entity",
+        "alignment": "O is a vauzim",
+        "semantics": [
+            "vauzim",
+            "vowel",
+            "five-vowel"
+        ],
+        "etymology": {
+            "lang": "a priori; cf. Ceqli \"vawl\", \"cwazim\", \"falozim\". see «xuázin», «fálózin»"
+        },
+        "notes": "refers to the five vowels a/e/i/o/u"
+    }, 
     {
         "word": "vei",
         "def": "perspective case marker (frame of reference)",
@@ -8492,6 +9225,20 @@
         }
     },
     {
+        "word": "Vólápuk",
+        "def": "Volapük",
+        "type": "Quality",
+        "alignment": "O pertains to Volapük in Eu",
+        "semantics": [
+            "Volapük",
+            "Volapükian"
+        ],
+        "etymology": {
+            "lang": "Volapük",
+            "word": "Volapük"
+        }
+    }, 
+    {
         "word": "vu",
         "def": "discourse terminator",
         "type": "Terminator",
@@ -8613,6 +9360,21 @@
         "notes": "\"Unfortunately...\" / \"Bummer\" / \"I'm sorry\""
     },
     {
+        "word": "wúja",
+        "def": "crow",
+        "type": "Entity",
+        "alignment": "O is a crow",
+        "semantics": [
+            "crow",
+            "corvid"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "烏鴉",
+            "translit": "wūyā"
+        }
+    }, 
+    {
         "word": "xa",
         "def": "conditional tense (irrealis)",
         "type": "Adverb",
@@ -8693,6 +9455,25 @@
         }
     },
     {
+        "word": "xámat",
+        "def": "chess",
+        "type": "Entity",
+        "alignment": "O is a game of chess",
+        "semantics": [
+            "chess",
+            "checkmate",
+            "chaturanga",
+            "xiangqi",
+            "shogi"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "شاه‌مات",
+            "urlform": "شاه‌مات",
+            "translit": "šâh mât"
+        }
+    }, 
+    {
         "word": "xan",
         "def": "mountain",
         "xo": "convexity (J)",
@@ -8766,6 +9547,22 @@
             "word": "cheio"
         }
     },
+    {
+        "word": "Xêli",
+        "def": "Ceqli",
+        "type": "Quality",
+        "alignment": "O is Ceqli/Ceqlian in Eu",
+        "semantics": [
+            "Ceqli",
+            "Ceqlian",
+            "Ceqlic",
+            "Tceqli"
+        ],
+        "etymology": {
+            "lang": "Ceqli",
+            "word": "Ceqli"
+        }
+    }, 
     {
         "word": "xen",
         "def": "begin",
@@ -9393,6 +10190,29 @@
             "word": "cu"
         }
     },
+    {
+        "word": "xua",
+        "def": "lambda possessive",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "by analogy; cf. «xe», «vua»"
+        }
+    },
+    {
+        "word": "xuázin",
+        "def": "fricative (Xextan)",
+        "type": "Entity",
+        "alignment": "O is a cuazim",
+        "semantics": [
+            "cuazim",
+            "fricative"
+        ],
+        "etymology": {
+            "lang": "Ceqli",
+            "word": "cwazim"
+        },
+        "notes": "Ceqlian SSM terminology: refers to the Xextan fricatives f/s/x/v/z/q, which cannot serve as a syllable coda and therefore may be used to distinguish certain freeword shapes from compounds"
+    }, 
     {
         "word": "xue",
         "def": "vocative: inverse vocative",
