@@ -2686,6 +2686,17 @@
         ]
     },
     {
+        "word": "gingopsit",
+        "def": "monarchy",
+        "gloss": "family-govern-system",
+        "type": "Junction",
+        "alignment": "O is monarchy of E",
+        "semantics": [
+            "monarchy",
+            "empire"
+        ]
+    },
+    {
         "word": "gingopzot",
         "def": "emperor",
         "gloss": "family-govern-leader",
@@ -2695,17 +2706,6 @@
             "emperor",
             "chancellor",
             "Caesar"
-        ]
-    },
-    {
-        "word": "gingopsit",
-        "def": "family-govern-system",
-        "gloss": "monarchy",
-        "type": "Junction",
-        "alignment": "O is monarchy of E",
-        "semantics": [
-            "monarchy",
-            "empire"
         ]
     },
     {
@@ -10573,7 +10573,7 @@
             "shogi"
         ],
         "etymology": {
-            "lang": "Arabic",
+            "lang": "Persian",
             "word": "شاه‌مات",
             "urlform": "شاه‌مات",
             "translit": "šâh mât"
