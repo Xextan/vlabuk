@@ -5944,6 +5944,19 @@
         }
     },
     {
+        "word": "papkinko",
+        "def": "bag",
+        "gloss": "soft-contain-AG",
+        "type": "Junction",
+        "alignment": "O is a bag made of E",
+        "semantics": [
+            "bag",
+            "sack",
+            "bundle",
+            "sachet"
+        ]
+    },
+    {
         "word": "páskéti",
         "def": "spaghetti",
         "type": "Junction",
@@ -5992,6 +6005,33 @@
             "lang": "Czech",
             "word": "psát"
         }
+    },
+    {
+        "word": "patlap",
+        "def": "notepad",
+        "gloss": "write-sheet",
+        "type": "Junction",
+        "alignment": "O is a notepad of E",
+        "semantics": [
+            "notepad",
+            "notebook",
+            "legal pad",
+            "sticky note",
+            "post-it note"
+        ]
+    },
+    {
+        "word": "patlik",
+        "def": "ink",
+        "gloss": "write-liquid",
+        "type": "Junction",
+        "alignment": "O is ink of E",
+        "semantics": [
+            "ink",
+            "paint",
+            "type",
+            "toner"
+        ]
     },
     {
         "word": "pattit",
@@ -9446,6 +9486,117 @@
         }
     },
     {
+        "word": "vendan",
+        "def": "shop",
+        "gloss": "sell-building",
+        "type": "Junction",
+        "alignment": "O is a shop of E",
+        "semantics": [
+            "shop",
+            "store",
+            "market",
+            "bodega"
+        ]
+    },
+    {
+        "word": "venko",
+        "def": "merchant",
+        "gloss": "sell-AG",
+        "type": "Junction",
+        "alignment": "O is a merchant of E",
+        "semantics": [
+            "merchant",
+            "seller",
+            "procurer",
+            "dealer"
+        ]
+    },
+    {
+        "word": "vennik",
+        "def": "salesperson",
+        "gloss": "sell-agent",
+        "type": "Junction",
+        "alignment": "O is a salesperson for E",
+        "semantics": [
+            "salesperson",
+            "salesman",
+            "saleswoman"
+        ]
+    },
+    {
+        "word": "vensit",
+        "def": "economy",
+        "gloss": "sell-system",
+        "type": "Junction",
+        "alignment": "O is economy of E",
+        "semantics": [
+            "economy",
+            "commerce",
+            "trade"
+        ]
+    },
+    {
+        "word": "ventsi",
+        "def": "cost [v.]",
+        "gloss": "sell-value",
+        "type": "Junction",
+        "alignment": "O costs E",
+        "semantics": [
+            "cost",
+            "be worth",
+            "be priced at"
+        ]
+    },
+    {
+        "word": "ventsixo",
+        "def": "price",
+        "gloss": "sell-value-PAT",
+        "type": "Junction",
+        "alignment": "O is the price of E",
+        "semantics": [
+            "price",
+            "cost"
+        ]
+    },
+    {
+        "word": "venxo",
+        "def": "merchandise",
+        "gloss": "sell-PAT",
+        "type": "Junction",
+        "alignment": "O is merchandise of E",
+        "semantics": [
+            "merchandise",
+            "wares",
+            "products",
+            "services"
+        ]
+    },
+    {
+        "word": "venzla",
+        "def": "money",
+        "gloss": "sell-represent",
+        "type": "Junction",
+        "alignment": "O is money worth E",
+        "semantics": [
+            "money",
+            "cash",
+            "credit",
+            "currency"
+        ]
+    },
+    {
+        "word": "venzon",
+        "def": "market",
+        "gloss": "sell-place",
+        "type": "Junction",
+        "alignment": "O is market of E",
+        "semantics": [
+            "market",
+            "marketplace",
+            "bazaar"
+        ]
+    },
+    {
         "word": "vet",
         "def": "believe",
         "xo": "belief",
@@ -9681,6 +9832,32 @@
             "word": "-vutha",
             "urlform": "vutha"
         }
+    },
+    {
+        "word": "vutko",
+        "def": "ordnance",
+        "gloss": "explode-AG",
+        "type": "Junction",
+        "alignment": "O is ordnance of E",
+        "semantics": [
+            "ordnance",
+            "explosives",
+            "dynamite",
+            "artillery",
+            "bombardment"
+        ]
+    },  {
+        "word": "vutxo",
+        "def": "explosion",
+        "gloss": "explode-PAT",
+        "type": "Junction",
+        "alignment": "O is explosion of E",
+        "semantics": [
+            "explosion",
+            "blast",
+            "inferno",
+            "shockwave"
+        ]
     },
     {
         "word": "wa",
