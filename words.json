@@ -1358,9 +1358,9 @@
     {
         "word": "dqunik",
         "def": "assistant",
-        "gloss": "",
-        "type": "",
-        "alignment": "",
+        "gloss": "help-agent",
+        "type": "Quality",
+        "alignment": "O is assistant in Eu",
         "semantics": [
             "assistant",
             "attendant",
@@ -1383,7 +1383,7 @@
     {
         "word": "dqunik xildqu",
         "def": "paraprofessional",
-        "gloss": "assistant ",
+        "gloss": "assistant-teach",
         "type": "Quality-Relation",
         "alignment": "O is a paraprofessional to E in Au",
         "semantics": [
@@ -5346,7 +5346,6 @@
         "etymology": {
             "lang": "Egyptian Arabic",
             "word": "مصر",
-            "urlform": "مصر",
             "translit": "maṣr"
         }
     }, 
