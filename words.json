@@ -1383,7 +1383,7 @@
     {
         "word": "dqunik xildqu",
         "def": "paraprofessional",
-        "gloss": "assistant-teach",
+        "gloss": "assistant teach",
         "type": "Quality-Relation",
         "alignment": "O is a paraprofessional to E in Au",
         "semantics": [
