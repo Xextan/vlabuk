@@ -1190,7 +1190,7 @@
         ],
         "etymology": {
             "lang": "Catalan",
-            "word": "dofi"
+            "word": "dofí"
         }
     }, 
     {
@@ -1710,6 +1710,13 @@
             "lang": "Loglan",
             "word": "fa"
         }
+    },
+    {
+        "word": "fadie",
+        "def": "tomorrow",
+        "type": "Adverb",
+        "notes": "adverb complex: «fa» + «die»"
+
     },
     {
         "word": "fai",
@@ -5291,6 +5298,12 @@
         }
     },
     {
+        "word": "nadie",
+        "def": "today",
+        "type": "Adverb",
+        "notes": "adverb complex: «na» + «die»"
+    },
+    {
         "word": "nai",
         "def": "adverbial: false",
         "type": "Adverb",
@@ -5871,6 +5884,12 @@
             "lang": "Loglan",
             "word": "pa"
         }
+    },
+    {
+        "word": "padie",
+        "def": "yesterday",
+        "type": "Adverb",
+        "notes": "adverb complex: «pa» + «die»"
     },
     {
         "word": "pai",
