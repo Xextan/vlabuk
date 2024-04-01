@@ -185,7 +185,7 @@
         }
     },
     {
-        "word": "Áusrália",
+        "word": "Áustrália",
         "def": "Australia",
         "type": "Quality",
         "alignment": "O is Australian in Eu",
@@ -197,7 +197,7 @@
             "lang": "English",
             "word": "Australia"
         },
-        "notes": "proper name (n.): la Áusrália"
+        "notes": "proper name (n.): la Áustrália"
     },
     {
         "word": "Ázíja",
@@ -2573,8 +2573,8 @@
             "hinny"
         ],
         "etymology": {
-            "lang": "English",
-            "word": "England"
+            "lang": "Pennsylvania German",
+            "word": "Gaul"
         }
     }, 
     {
@@ -2645,6 +2645,95 @@
         }
     },
     {
+        "word": "gingip",
+        "def": "genocide",
+        "gloss": "family-destroy",
+        "type": "Relation",
+        "alignment": "O commits genocide against E in Au",
+        "semantics": [
+            "genocide",
+            "pogrom",
+            "ethnic cleansing",
+            "annihilate",
+            "exterminate"
+        ]
+    },
+    {
+        "word": "gingop",
+        "def": "monarch",
+        "gloss": "family-govern",
+        "type": "Junction",
+        "alignment": "O is monarch of E",
+        "semantics": [
+            "monarch",
+            "king",
+            "queen",
+            "emperor"
+        ]
+    },
+    {
+        "word": "gingopset",
+        "def": "aristocracy",
+        "gloss": "family-govern-group",
+        "type": "Junction",
+        "alignment": "O is aristocracy of E",
+        "semantics": [
+            "aristocracy", "aristocratic",
+            "oligarchy", "oligarchical",
+            "nobility", "noble"
+        ]
+    },
+    {
+        "word": "gingopzot",
+        "def": "emperor",
+        "gloss": "family-govern-leader",
+        "type": "Junction",
+        "alignment": "O is emperor of E",
+        "semantics": [
+            "emperor",
+            "chancellor",
+            "Caesar"
+        ]
+    },
+    {
+        "word": "gingopsit",
+        "def": "family-govern-system",
+        "gloss": "monarcy",
+        "type": "O is monarchy of E",
+        "alignment": "",
+        "semantics": [
+            "monarchy",
+            "empire"
+        ]
+    },
+    {
+        "word": "ginqbi",
+        "def": "family",
+        "gloss": "family-near",
+        "type": "Relation",
+        "alignment": "O is family of E in Au",
+        "semantics": [
+            "family",
+            "relative",
+            "related",
+            "cousin"
+        ]
+    },
+    {
+        "word": "gintip",
+        "def": "gene",
+        "gloss": "family-type",
+        "type": "Junction",
+        "alignment": "O is gene of E",
+        "semantics": [
+            "gene",
+            "allele",
+            "trait",
+            "genotype",
+            "DNA"
+        ]
+    },
+    {
         "word": "gip",
         "def": "destroy",
         "type": "Junction",
@@ -2659,6 +2748,19 @@
             "lang": "Tagalog",
             "word": "gibâ"
         }
+    },
+    {
+        "word": "giplut",
+        "def": "war",
+        "gloss": "destroy-compete",
+        "type": "Relation",
+        "alignment": "O wars against E in Au",
+        "semantics": [
+            "war",
+            "battle",
+            "deathmatch",
+            "struggle"
+        ]
     },
     {
         "word": "giu",
@@ -2689,8 +2791,8 @@
     {
         "word": "gle",
         "def": "sexual",
-        "type": "Relation",
-        "alignment": "O is sexual with E in Au",
+        "type": "Quality",
+        "alignment": "O is sexual in Eu",
         "semantics": [
             "sexual",
             "have sex",
@@ -2701,6 +2803,19 @@
             "lang": "Lojban",
             "word": "gle ← gletu"
         }
+    },
+    {
+        "word": "glelak",
+        "def": "have sex",
+        "gloss": "sexual-interact",
+        "type": "Relation",
+        "alignment": "O has sex with E in Au",
+        "semantics": [
+            "have sex",
+            "make love",
+            "copulate",
+            "mate"
+        ]
     },
     {
         "word": "gli",
@@ -4622,6 +4737,37 @@
             "lang": "Portuguese",
             "word": "linha"
         }
+    },
+    {
+        "word": "lindal",
+        "def": "long",
+        "gloss": "line-large",
+        "type": "Quality",
+        "alignment": "O is long in Eu",
+        "semantics": [
+            "long",
+            "lengthy",
+            "winding",
+            "circuitous"
+        ]
+    },
+    {
+        "word": "linvak",
+        "def": "train",
+        "gloss": "line-vehicle",
+        "type": "Junction",
+        "alignment": "O is a train of E",
+        "semantics": [
+            "train",
+            "locomotive",
+            "railroad",
+            "railway",
+            "subway",
+            "tram",
+            "light rail",
+            "shinkansen",
+            "choo-choo"
+        ]
     },
     {
         "word": "lio",
@@ -8097,7 +8243,7 @@
             "lang": "Maltese",
             "word": "tadam"
         },
-        "notes": "cf. Maltese \"tuffieħa t’Adam\" (\"apple of Adam\")"
+        "notes": "cf. Maltese {tuffieħa t’Adam} (\"apple of Adam\")"
     }, 
     {
         "word": "tai",
@@ -8861,7 +9007,7 @@
             "word": "ウナギ",
             "translit": "unagi"
         },
-        "notes": "\"xel de únági o nia xutvak konfli.\" (My hovercraft is full of eels.)"
+        "notes": "«xel de únági o nia xutvak konfli.» (My hovercraft is full of eels.)"
     },
     {
         "word": "Úsa",
