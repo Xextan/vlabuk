@@ -736,7 +736,10 @@
         "alignment": "O is under pressure E",
         "semantics": [
             "compress (nt.)",
-            "squeeze (nt.)"
+            "squeeze (nt.)",
+            "press",
+            "pressure",
+            "push"
         ],
         "etymology": {
             "lang": "Arabic",
@@ -5892,6 +5895,20 @@
         }
     },
     {
+        "word": "pakdunxo",
+        "def": "history",
+        "gloss": "past-know-PAT",
+        "type": "Junction",
+        "alignment": "O is history of E",
+        "semantics": [
+            "history",
+            "anthropology",
+            "historiography",
+            "chronicle",
+            "records"
+        ]
+    },
+    {
         "word": "pal",
         "def": "make",
         "type": "Junction",
@@ -5923,6 +5940,19 @@
             "lang": "Toki Pona",
             "word": "pan"
         }
+    },
+    {
+        "word": "panpul",
+        "def": "flour",
+        "gloss": "grain-powder",
+        "type": "Junction",
+        "alignment": "O is flour of E",
+        "semantics": [
+            "flour",
+            "meal",
+            "dough",
+            "masa"
+        ]
     },
     {
         "word": "pap",
@@ -6034,6 +6064,18 @@
         ]
     },
     {
+        "word": "patqbu",
+        "def": "desk",
+        "gloss": "write-table",
+        "type": "Junction",
+        "alignment": "O is a desk made of E",
+        "semantics": [
+            "desk",
+            "counter",
+            "easel"
+        ]
+    },
+    {
         "word": "pattit",
         "def": "pencil",
         "gloss": "write-stick",
@@ -6056,6 +6098,20 @@
             "pen",
             "marker",
             "quill"
+        ]
+    },
+    {
+        "word": "patxo",
+        "def": "writing",
+        "gloss": "write-PAT",
+        "type": "Junction",
+        "alignment": "O is writing of/by E",
+        "semantics": [
+            "writing",
+            "handwriting",
+            "calligraphy",
+            "brushwork",
+            "script"
         ]
     },
     {
@@ -6146,6 +6202,22 @@
         }
     },
     {
+        "word": "penlil",
+        "def": "imagine",
+        "gloss": "think-experience",
+        "type": "Quality",
+        "alignment": "O imagines Eu",
+        "semantics": [
+            "imagine",
+            "visualize",
+            "contemplate",
+            "fathom",
+            "picture",
+            "conjure",
+            "empathize"
+        ]
+    },
+    {
         "word": "pensil",
         "def": "intelligent",
         "gloss": "think-strong",
@@ -6156,6 +6228,18 @@
             "smart",
             "clever",
             "creative"
+        ]
+    },
+    {
+        "word": "pentik",
+        "def": "artificial intelligence",
+        "gloss": "think-machine",
+        "type": "Entity",
+        "alignment": "O is an AI",
+        "semantics": [
+            "artificial intelligence",
+            "AI",
+            "machine learning"
         ]
     },
     {
@@ -6302,6 +6386,18 @@
         }
     },
     {
+        "word": "plevak",
+        "def": "bus",
+        "gloss": "multiple-vehicle",
+        "type": "Entity",
+        "alignment": "O is a bus",
+        "semantics": [
+            "bus",
+            "autobus",
+            "jet"
+        ]
+    },
+    {
         "word": "pli",
         "def": "gas",
         "type": "Junction",
@@ -6315,6 +6411,19 @@
             "lang": "Slovene",
             "word": "plin"
         }
+    },
+    {
+        "word": "plitup",
+        "def": "cough",
+        "gloss": "gas-throw",
+        "type": "Direction",
+        "alignment": "O coughs E at/into A",
+        "semantics": [
+            "cough",
+            "sneeze",
+            "burp",
+            "fart"
+        ]
     },
     {
         "word": "po",
@@ -6373,7 +6482,21 @@
             "word": "pomme"
         },
         "notes": "slightly mangled due to being imported before [m] was allowed in borrowings"
-    }, 
+    },
+    {
+        "word": "ponqbu",
+        "def": "shelf",
+        "gloss": "put-table",
+        "type": "Junction",
+        "alignment": "O is a shelf made of E",
+        "semantics": [
+            "shelf",
+            "counter",
+            "cabinet",
+            "rack",
+            "display"
+        ]
+    },
     {
         "word": "pot",
         "def": "similar",
@@ -6418,6 +6541,18 @@
         }
     },
     {
+        "word": "pulplu",
+        "def": "snow",
+        "gloss": "powder-rain",
+        "type": "Junction",
+        "alignment": "O is snow of E",
+        "semantics": [
+            "snow",
+            "sleet",
+            "slush"
+        ]
+    },
+    {
         "word": "pun",
         "def": "corrosive",
         "xo": "acidity",
@@ -6434,6 +6569,53 @@
             "lang": "Maori",
             "word": "pūnguru"
         }
+    },
+    {
+        "word": "punxpa",
+        "def": "pickle [v.]",
+        "gloss": "corrosive-preserve",
+        "type": "Junction",
+        "alignment": "O pickles E",
+        "semantics": [
+            "pickle",
+            "ferment",
+            "brine"
+        ]
+    },
+    {
+        "word": "punxpalik",
+        "def": "brine",
+        "gloss": "corrosive-preserve-liquid",
+        "type": "Junction",
+        "alignment": "O is brine of E",
+        "semantics": [
+            "brine",
+            "pickle juice"
+        ]
+    },
+    {
+        "word": "punxpaxo",
+        "def": "pickle [n.]",
+        "gloss": "corrosive-preserve-PAT",
+        "type": "Junction",
+        "alignment": "O is a pickle in E",
+        "semantics": [
+            "pickle",
+            "pickled",
+            "preserve"
+        ]
+    },
+    {
+        "word": "punxpaxo xulzak",
+        "def": "load-bearing pickle",
+        "gloss": "pickle load-bearing",
+        "type": "Junction Junction",
+        "alignment": "O is a load-bearing pickle supporting E",
+        "semantics": [
+            "load-bearing pickle",
+            "obligatory pickle",
+            "critical pickle infrastructure"
+        ]
     },
     {
         "word": "qa",
@@ -10840,6 +11022,18 @@
             "lang": "Hungarian",
             "word": "súly"
         }
+    },
+    {
+        "word": "xulzak",
+        "def": "load-bearing",
+        "gloss": "weight foundation",
+        "type": "Junction",
+        "alignment": "O is load-bearing to E",
+        "semantics": [
+            "load-bearing",
+            "support beam",
+            "foundation"
+        ]
     },
     {
         "word": "xup",
