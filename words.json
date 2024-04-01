@@ -2298,7 +2298,7 @@
             "Gaulic"
         ],
         "etymology": {
-            "lang": "France",
+            "lang": "French",
             "word": "France"
         }
     }, 
@@ -2699,8 +2699,8 @@
         "word": "gingopsit",
         "def": "family-govern-system",
         "gloss": "monarcy",
-        "type": "O is monarchy of E",
-        "alignment": "",
+        "type": "Junction",
+        "alignment": "O is monarchy of E",
         "semantics": [
             "monarchy",
             "empire"
@@ -4796,6 +4796,45 @@
         }
     },
     {
+        "word": "littik",
+        "def": "overhead light",
+        "gloss": "light-machine",
+        "type": "Junction",
+        "alignment": "O is overhead/room light of E",
+        "semantics": [
+            "overhead light",
+            "fluorescent light",
+            "light switch",
+            "light bulb",
+            "room light",
+            "strobe light"
+        ]
+    },
+    {
+        "word": "littit",
+        "def": "torch",
+        "gloss": "light-stick",
+        "type": "Junction",
+        "alignment": "O is a torch made of E",
+        "semantics": [
+            "torch",
+            "candle",
+            "sconce"
+        ]
+    },
+    {
+        "word": "littul",
+        "def": "lamp",
+        "gloss": "light-tool",
+        "type": "Junction",
+        "alignment": "O is a lamp made of E",
+        "semantics": [
+            "lamp",
+            "lantern",
+            "flashlight"
+        ]
+    },
+    {
         "word": "litska",
         "def": "color",
         "gloss": "light-qualia",
@@ -4843,6 +4882,59 @@
             "lang": "Lojban",
             "word": "logji"
         }
+    },
+    {
+        "word": "loksit",
+        "def": "logic",
+        "gloss": "logic-system",
+        "type": "Junction",
+        "alignment": "O is logic of E",
+        "semantics": [
+            "logic",
+            "reason",
+            "deduction",
+            "induction"
+        ]
+    },
+    {
+        "word": "loktik",
+        "def": "computer",
+        "gloss": "logic-machine",
+        "type": "Entity",
+        "alignment": "O is a computer",
+        "semantics": [
+            "computer",
+            "calculator",
+            "terminal"
+        ]
+    },
+    {
+        "word": "loktikkot",
+        "def": "internet",
+        "gloss": "logic-machine-network",
+        "type": "Entity",
+        "alignment": "O is the internet",
+        "semantics": [
+            "internet",
+            "web",
+            "online",
+            "wi-fi",
+            "cyberspace"
+        ]
+    },
+    {
+        "word": "lokzgo",
+        "def": "logical",
+        "gloss": "logic-harmony",
+        "type": "Quality",
+        "alignment": "O is logical in Eu",
+        "semantics": [
+            "logical",
+            "rational",
+            "reasonable",
+            "understandable",
+            "sane"
+        ]
     },
     {
         "word": "lol",
@@ -4935,6 +5027,31 @@
         }
     },
     {
+        "word": "luldal",
+        "def": "thick",
+        "gloss": "thick-large",
+        "type": "Quality",
+        "alignment": "O is thick in Eu",
+        "semantics": [
+            "thick",
+            "layered",
+            "chunky",
+            "fat"
+        ]
+    },
+    {
+        "word": "lulxal",
+        "def": "thin",
+        "gloss": "thick-small",
+        "type": "Quality",
+        "alignment": "O is thin in Eu",
+        "semantics": [
+            "thin",
+            "sheer",
+            "papery"
+        ]
+    },
+    {
         "word": "lun",
         "def": "planet",
         "type": "Entity",
@@ -4950,6 +5067,30 @@
             "lang": "Spanish",
             "word": "luna"
         }
+    },
+    {
+        "word": "luntut",
+        "def": "world",
+        "gloss": "planet-whole",
+        "type": "Junction",
+        "alignment": "O is world of E",
+        "semantics": [
+            "world",
+            "planet",
+            "earth"
+        ]
+    },
+    {
+        "word": "lunxut",
+        "def": "ocean",
+        "gloss": "planet-water",
+        "type": "Junction",
+        "alignment": "O is ocean of E",
+        "semantics": [
+            "ocean",
+            "sea",
+            "waters"
+        ]
     },
     {
         "word": "lup",
@@ -4973,6 +5114,7 @@
         "word": "lut",
         "def": "compete",
         "xo": "competition",
+        "ko": "competititve",
         "type": "Quality",
         "alignment": "O (mass) compete in Eu",
         "semantics": [
@@ -4985,6 +5127,71 @@
             "lang": "Portuguese",
             "word": "lutar"
         }
+    },
+    {
+        "word": "lutko",
+        "def": "competitive",
+        "gloss": "compete-AG",
+        "type": "Quality",
+        "alignment": "O is competitive in Eu",
+        "semantics": [
+            "competitive",
+            "fierce",
+            "cutthroat"
+        ]
+    },
+    {
+        "word": "lutpin",
+        "def": "aggressive",
+        "gloss": "compete-angry",
+        "type": "Quality",
+        "alignment": "O is aggressive in Eu",
+        "semantics": [
+            "aggressive",
+            "hostile",
+            "angry",
+            "furious"
+        ]
+    },
+    {
+        "word": "lutsna",
+        "def": "win",
+        "gloss": "compete-succeed",
+        "type": "Quality",
+        "alignment": "O wins against E in Au",
+        "semantics": [
+            "win",
+            "victory",
+            "defeat",
+            "vanquish",
+            "come out on top"
+        ]
+    },
+    {
+        "word": "lutsnaxo",
+        "def": "victory",
+        "gloss": "compete-succeed-PAT",
+        "type": "Direction",
+        "alignment": "O is victory of E over A",
+        "semantics": [
+            "victory",
+            "win [n.]",
+            "success",
+            "triumph"
+        ]
+    },
+    {
+        "word": "lutxo",
+        "def": "competition",
+        "gloss": "compete-PAT",
+        "type": "Junction",
+        "alignment": "O is the competition of E",
+        "semantics": [
+            "competition",
+            "performance",
+            "showing",
+            "fight"
+        ]
     },
     {
         "word": "máda",
@@ -5252,6 +5459,31 @@
         }
     },
     {
+        "word": "nengoddil",
+        "def": "entrance",
+        "gloss": "inside-move-hole",
+        "type": "Junction",
+        "alignment": "O is entrance to E",
+        "semantics": [
+            "entrance",
+            "entryway",
+            "door",
+            "gate"
+        ]
+    },
+    {
+        "word": "nengot",
+        "def": "enter",
+        "gloss": "inside-move",
+        "type": "Direction",
+        "alignment": "O enters E from A",
+        "semantics": [
+            "enter",
+            "go into",
+            "cross threshold of"
+        ]
+    },
+    {
         "word": "net",
         "def": "most",
         "xo": "supremacy",
@@ -5396,6 +5628,34 @@
             "lang": "Slovene",
             "word": "noga"
         }
+    },
+    {
+        "word": "nokfuk",
+        "def": "sock",
+        "gloss": "foot-clothing",
+        "type": "Junction",
+        "alignment": "O is a sock made of E",
+        "semantics": [
+            "socks",
+            "stockings",
+            "tights",
+            "nylong",
+            "pantyhose"
+        ]
+    },
+    {
+        "word": "noksekko",
+        "def": "shoe",
+        "gloss": "foot-safe-AG",
+        "type": "Junction",
+        "alignment": "O is a shoe made of E",
+        "semantics": [
+            "shoe",
+            "boot",
+            "sandal",
+            "sneaker",
+            "clog"
+        ]
     },
     {
         "word": "nokvek",
