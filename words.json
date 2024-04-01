@@ -580,6 +580,20 @@
         "notes": "& proactive"
     },
     {
+        "word": "Brázil",
+        "def": "Brazil",
+        "type": "Quality",
+        "alignment": "O is Brazilian in Eu",
+        "semantics": [
+            "Brazil",
+            "Brazilian"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "Brasil"
+        }
+    }, 
+    {
         "word": "bu",
         "def": "modifier: opposite",
         "type": "Modifier",
@@ -1342,6 +1356,45 @@
         }
     },
     {
+        "word": "dqunik",
+        "def": "assistant",
+        "gloss": "",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "assistant",
+            "attendant",
+            "clerk",
+            "vice"
+        ]
+    },
+    {
+        "word": "dqunik qlalek",
+        "def": "nurse",
+        "gloss": "assistant medical",
+        "type": "Relation",
+        "alignment": "O is a nurse to E in Au",
+        "semantics": [
+            "nurse",
+            "midwife",
+            "medical assistant"
+        ]
+    },
+    {
+        "word": "dqunik xildqu",
+        "def": "paraprofessional",
+        "gloss": "assistant ",
+        "type": "Quality-Relation",
+        "alignment": "O is a paraprofessional to E in Au",
+        "semantics": [
+            "paraprofessional",
+            "paraeducator",
+            "para",
+            "teacher aide",
+            "teaching assistant"
+        ]
+    },
+    {
         "word": "du",
         "def": "3rd person abstract pronoun",
         "type": "Pronoun",
@@ -1931,6 +1984,17 @@
             "matriarch",
             "matron",
             "headmistress"
+        ]
+    },
+    {
+        "word": "fenzba",
+        "def": "wife",
+        "gloss": "female-spouse",
+        "type": "Junction",
+        "alignment": "O is wife of E",
+        "semantics": [
+            "wife",
+            "bride"
         ]
     },
     {
@@ -3451,6 +3515,20 @@
         }
     },
     {
+        "word": "Kánáda",
+        "def": "Canada",
+        "type": "Quality",
+        "alignment": "O is Canadian in Eu",
+        "semantics": [
+            "Canada",
+            "Canadian"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Canada"
+        }
+    }, 
+    {
         "word": "kánóka",
         "def": "paradise (poetic)",
         "type": "Quality",
@@ -3625,6 +3703,20 @@
             "word": "ken"
         }
     },
+    {
+        "word": "Kénia",
+        "def": "Kenya",
+        "type": "Quality",
+        "alignment": "O is Kenyan in Eu",
+        "semantics": [
+            "Kenya",
+            "Kenyan"
+        ],
+        "etymology": {
+            "lang": "Swahili",
+            "word": "Kenya"
+        }
+    }, 
     {
         "word": "kenxo",
         "def": "possibility",
@@ -5243,6 +5335,22 @@
         }
     },
     {
+        "word": "Másra",
+        "def": "Egypt",
+        "type": "Quality",
+        "alignment": "O is Egyptian in Eu",
+        "semantics": [
+            "Egypt",
+            "Egyptian"
+        ],
+        "etymology": {
+            "lang": "Egyptian Arabic",
+            "word": "مصر",
+            "urlform": "مصر",
+            "translit": "maṣr"
+        }
+    }, 
+    {
         "word": "Méxíko",
         "def": "Mexico",
         "type": "Quality",
@@ -5257,7 +5365,7 @@
             "lang": "Spanish",
             "word": "México"
         }
-    }, 
+    },
     {
         "word": "Mórmon",
         "def": "Mormon",
@@ -5271,7 +5379,7 @@
             "lang": "English",
             "word": "Mormon"
         },
-        "notes": "An ethnoreligious and cultural group mostly concentrated in the U.S. states of Utah, Idaho, and the American West, descended from members of the early Latter-day Saint religious movement (see «Ládése») and converts from the United Kingdom, Scandinavia, and western Europe."
+        "notes": "An ethnoreligious and cultural group with ties to the Latter-day Saint religious movement (see «Ládése»)."
     },
     {
         "word": "mótil",
@@ -5374,6 +5482,18 @@
         ]
     },
     {
+        "word": "nanzba",
+        "def": "husband",
+        "gloss": "male-spouse",
+        "type": "Junction",
+        "alignment": "O is husband of E",
+        "semantics": [
+            "husband",
+            "bridegroom",
+            "groom"
+        ]
+    },
+    {
         "word": "nat",
         "def": "false",
         "xo": "falsity",
@@ -5427,6 +5547,21 @@
             "word": "ne"
         }
     },
+    {
+        "word": "Nédérlan",
+        "def": "Netherlands",
+        "type": "Quality",
+        "alignment": "O is Dutch in Eu",
+        "semantics": [
+            "Netherlands",
+            "Dutch",
+            "Holland"
+        ],
+        "etymology": {
+            "lang": "Dutch",
+            "word": "Nederland"
+        }
+    }, 
     {
         "word": "nek",
         "def": "motive",
@@ -5725,6 +5860,20 @@
             "link": "https://en.wikipedia.org/wiki/X86_instruction_listings"
         }
     },
+    {
+        "word": "Norge",
+        "def": "Norway",
+        "type": "Quality",
+        "alignment": "O is Norwegian in Eu",
+        "semantics": [
+            "Norway",
+            "Norwegian"
+        ],
+        "etymology": {
+            "lang": "Norwegian Bokmål",
+            "word": "Norge"
+        }
+    }, 
     {
         "word": "not",
         "def": "other",
@@ -6238,6 +6387,20 @@
             "picture",
             "conjure",
             "empathize"
+        ]
+    },
+    {
+        "word": "penqla",
+        "def": "brain",
+        "gloss": "think-organ",
+        "type": "Junction",
+        "alignment": "O is brain of E",
+        "semantics": [
+            "brain",
+            "neural",
+            "neurons",
+            "mental",
+            "intelligence"
         ]
     },
     {
@@ -7273,6 +7436,34 @@
         }
     },
     {
+        "word": "qlalek",
+        "def": "treat",
+        "gloss": "organ-repair",
+        "type": "Relation",
+        "alignment": "O treats E in Au",
+        "semantics": [
+            "treat",
+            "treatment",
+            "medical",
+            "tend to",
+            "administer first aid"
+        ]
+    },
+    {
+        "word": "qlaleknik",
+        "def": "doctor",
+        "gloss": "organ-repair-agent",
+        "type": "Relation",
+        "alignment": "O is a doctor to E in Au",
+        "semantics": [
+            "doctor",
+            "physician",
+            "dentist",
+            "surgeon",
+            "medical provider"
+        ]
+    },
+    {
         "word": "qlaqon",
         "def": "torso",
         "gloss": "body-center",
@@ -7991,6 +8182,20 @@
             "word": "sitot"
         }
     },
+    {
+        "word": "Sívérje",
+        "def": "Sweden",
+        "type": "Quality",
+        "alignment": "O is Swedish in Eu",
+        "semantics": [
+            "Sweden",
+            "Swedish"
+        ],
+        "etymology": {
+            "lang": "Swedish",
+            "word": "Sverige"
+        }
+    }, 
     {
         "word": "ska",
         "def": "qualia",
@@ -9343,6 +9548,19 @@
         ]
     },
     {
+        "word": "tsexoset",
+        "def": "program",
+        "gloss": "intention-PAT-group",
+        "type": "Quality",
+        "alignment": "O (mass) is a program of Eu",
+        "semantics": [
+            "program",
+            "schedule",
+            "plan",
+            "outline"
+        ]
+    },
+    {
         "word": "tsi",
         "def": "value",
         "xo": "price",
@@ -10548,6 +10766,20 @@
         ]
     },
     {
+        "word": "xakxlo",
+        "def": "punch",
+        "gloss": "hand-strike",
+        "type": "Direction",
+        "alignment": "O punches E on/at A",
+        "semantics": [
+            "punch",
+            "slap",
+            "beat",
+            "strike"
+        ]
+    },
+
+    {
         "word": "xakzi",
         "def": "finger",
         "gloss": "hand-DIM",
@@ -10579,6 +10811,21 @@
             "translit": "xiǎo"
         }
     },
+    {
+        "word": "xallun",
+        "def": "moon",
+        "gloss": "small-planet",
+        "type": "Junction",
+        "alignment": "O is moon of E",
+        "semantics": [
+            "moon",
+            "lunar",
+            "Luna",
+            "Diana",
+            "Selene"
+        ]
+    },
+
     {
         "word": "xámat",
         "def": "chess",
@@ -10846,6 +11093,89 @@
         }
     },
     {
+        "word": "xildan",
+        "def": "school",
+        "gloss": "learn-building",
+        "type": "Junction",
+        "alignment": "O is school of E",
+        "semantics": [
+            "school",
+            "campus",
+            "academy",
+            "college",
+            "university"
+        ]
+    },
+    {
+        "word": "xildqu",
+        "def": "teach",
+        "gloss": "learn-help",
+        "type": "Relation",
+        "alignment": "O teaches E material Au",
+        "semantics": [
+            "teach",
+            "instruct",
+            "educate",
+            "guide"
+        ]
+    },
+    {
+        "word": "xilgun",
+        "def": "study",
+        "gloss": "learn-work",
+        "type": "Relation",
+        "alignment": "O studies E in Au",
+        "semantics": [
+            "study",
+            "research",
+            "analyze",
+            "become acquainted with",
+            "pore over"
+        ]
+    },
+    {
+        "word": "xilko",
+        "def": "student",
+        "gloss": "learn-AG",
+        "type": "Quality",
+        "alignment": "O is a student of E in Au",
+        "semantics": [
+            "student",
+            "pupil",
+            "learner",
+            "academic",
+            "collegiate"
+        ]
+    },
+    {
+        "word": "xilnik",
+        "def": "teacher",
+        "gloss": "learn-agent",
+        "type": "Relation",
+        "alignment": "O is a teacher of E in Au",
+        "semantics": [
+            "teacher",
+            "professor",
+            "educator"
+        ]
+    },
+    {
+        "word": "xilzuk",
+        "def": "practice",
+        "gloss": "learn-do",
+        "type": "Relation",
+        "alignment": "O practices E by doing Au",
+        "semantics": [
+            "practice", "practise",
+            "exercise",
+            "train",
+            "drill",
+            "scrimmage",
+            "mock",
+            "moot"
+        ]
+    },
+    {
         "word": "xíláti",
         "def": "spirit (poetic)",
         "type": "Quality",
@@ -10884,6 +11214,19 @@
         "notes": "see also «xíláti» (O is core/fundamental essence of Eu)"
     },
     {
+        "word": "xinvol",
+        "def": "hope",
+        "gloss": "heart-desire",
+        "type": "Quality",
+        "alignment": "O hopes for Eu",
+        "semantics": [
+            "hope",
+            "wish",
+            "long for",
+            "heart's desire"
+        ]
+    },
+    {
         "word": "xit",
         "def": "below",
         "xo": "lowness",
@@ -10893,6 +11236,7 @@
         "semantics": [
             "below",
             "low",
+            "under",
             "down",
             "lowly",
             "ground",
@@ -10978,6 +11322,19 @@
         }
     },
     {
+        "word": "xkikak",
+        "def": "garbage",
+        "gloss": "remove-waste",
+        "type": "Entity",
+        "alignment": "O is garbage",
+        "semantics": [
+            "garbage",
+            "trash",
+            "refuse"
+        ]
+    },
+
+    {
         "word": "xko",
         "def": "damage",
         "xo": "damage [n.] (J)",
@@ -10998,6 +11355,46 @@
             "urlform": "шкодити",
             "translit": "škódyty"
         }
+    },
+    {
+        "word": "xkolut",
+        "def": "fight",
+        "gloss": "harm-compete",
+        "type": "Relation",
+        "alignment": "O fights E in Au",
+        "semantics": [
+            "fight",
+            "brawl",
+            "struggle",
+            "wrestle",
+            "battle"
+        ]
+    },
+    {
+        "word": "xkosup",
+        "def": "poison",
+        "gloss": "harm-stuff",
+        "type": "Quality",
+        "alignment": "O is poisonous in Eu",
+        "semantics": [
+            "poison",
+            "poisonous",
+            "toxic"
+        ]
+    },
+    {
+        "word": "xkozuk",
+        "def": "attack",
+        "gloss": "harm-do",
+        "type": "Relation",
+        "alignment": "O attacks E in Au",
+        "semantics": [
+            "attack",
+            "aggress",
+            "violent",
+            "violence",
+            "offensive"
+        ]
     },
     {
         "word": "xle",
@@ -11057,6 +11454,19 @@
             "word": "שלאָגן",
             "translit": "shlogn"
         }
+    },
+    {
+        "word": "xlotul",
+        "def": "hammer",
+        "gloss": "strike-tool",
+        "type": "Junction",
+        "alignment": "O is a hammer made of E",
+        "semantics": [
+            "hammer",
+            "mallet",
+            "club",
+            "cudgel"
+        ]
     },
     {
         "word": "xne",
@@ -11153,6 +11563,18 @@
         }
     },
     {
+        "word": "xondan",
+        "def": "museum",
+        "gloss": "show-building",
+        "type": "Junction",
+        "alignment": "O is a museum of E",
+        "semantics": [
+            "museum",
+            "gallery",
+            "library"
+        ]
+    },
+    {
         "word": "xop",
         "def": "catch",
         "xo": "catch [n.] (J)",
@@ -11229,6 +11651,80 @@
         }
     },
     {
+        "word": "xpibek",
+        "def": "toy",
+        "gloss": "play-thing",
+        "type": "Junction",
+        "alignment": "O is a toy made of E",
+        "semantics": [
+            "toy",
+            "plaything",
+            "doll"
+        ]
+    },
+    {
+        "word": "xpibol",
+        "def": "sports ball",
+        "gloss": "play-ball",
+        "type": "Junction",
+        "alignment": "O is a sports ball made of E",
+        "semantics": [
+            "football",
+            "basketball",
+            "baseball",
+            "soccer ball"
+        ]
+    },
+    {
+        "word": "xpilut",
+        "def": "play game",
+        "gloss": "play-compete",
+        "type": "Relation",
+        "alignment": "O plays game against E in Au",
+        "semantics": [
+            "game",
+            "compete",
+            "face off"
+        ]
+    },
+    {
+        "word": "xpilutsit",
+        "def": "game",
+        "gloss": "play-compete-system",
+        "type": "Junction",
+        "alignment": "O is a game of E",
+        "semantics": [
+            "game",
+            "competition",
+            "activity"
+        ]
+    },
+    {
+        "word": "xpilutxo",
+        "def": "gameplay",
+        "gloss": "play-compete-PAT",
+        "type": "Junction",
+        "alignment": "O is the gameplay of E",
+        "semantics": [
+            "gameplay",
+            "performance",
+            "competition",
+            "activitiy"
+        ]
+    },
+    {
+        "word": "xpixo",
+        "def": "play [n.]",
+        "gloss": "play-PAT",
+        "type": "Junction",
+        "alignment": "O is the play of E",
+        "semantics": [
+            "play",
+            "recreation",
+            "activity"
+        ]
+    },
+    {
         "word": "xpu",
         "def": "scratch",
         "type": "Junction",
@@ -11267,6 +11763,18 @@
         }
     },
     {
+        "word": "xtabat",
+        "def": "ovum",
+        "gloss": "animal-seed",
+        "type": "Junction",
+        "alignment": "O is ovum of E",
+        "semantics": [
+            "ovum",
+            "egg cell",
+            "female gamete"
+        ]
+    },
+    {
         "word": "xte",
         "def": "path",
         "xo": "end of path",
@@ -11287,6 +11795,23 @@
         }
     },
     {
+        "word": "xtevak",
+        "def": "automobile",
+        "gloss": "path-vehicle",
+        "type": "Junction",
+        "alignment": "O is an automobile made of E",
+        "semantics": [
+            "automobile",
+            "auto",
+            "car",
+            "truck",
+            "bus",
+            "sedan",
+            "coupe",
+            "convertible"
+        ]
+    },
+    {
         "word": "xto",
         "def": "stone",
         "xo": "mineral (J)",
@@ -11305,6 +11830,43 @@
             "lang": "Esperanto",
             "word": "ŝtono"
         }
+    },
+    {
+        "word": "xtoglu",
+        "def": "asphalt",
+        "gloss": "stone-sticky",
+        "type": "Junction",
+        "alignment": "O is asphalt of E",
+        "semantics": [
+            "asphalt",
+            "tar",
+            "pitch"
+        ]
+    },
+    {
+        "word": "xtokup",
+        "def": "block",
+        "gloss": "stone-block",
+        "type": "Junction",
+        "alignment": "O is a block of E",
+        "semantics": [
+            "block",
+            "brick",
+            "quarry",
+            "masonry"
+        ]
+    },
+    {
+        "word": "xtokuppal",
+        "def": "quarry",
+        "gloss": "stone-block-make",
+        "type": "Direction",
+        "alignment": "O quarries E from A",
+        "semantics": [
+            "quarry",
+            "hew",
+            "mason"
+        ]
     },
     {
         "word": "xu",
@@ -11585,6 +12147,18 @@
         }
     },
     {
+        "word": "zakvla",
+        "def": "root word",
+        "gloss": "foundation-word",
+        "type": "Junction",
+        "alignment": "O is a root word of E",
+        "semantics": [
+            "root word",
+            "primitive",
+            "gismu"
+        ]
+    },
+    {
         "word": "zal",
         "def": "at",
         "xo": "environment",
@@ -11677,6 +12251,29 @@
             "word": "zban"
         },
         "notes": "see also «zbafet» (O [officiant] marries E (mass) under authority Au)"
+    },
+    {
+        "word": "zbako",
+        "def": "spouse",
+        "gloss": "spouse-AG",
+        "type": "Junction",
+        "alignment": "O is spouse of E",
+        "semantics": [
+            "spouse",
+            "partner"
+        ]
+    },
+    {
+        "word": "zbaxo",
+        "def": "marriage",
+        "gloss": "spouse-PAT",
+        "type": "Junction",
+        "alignment": "O is marriage of E (mass)",
+        "semantics": [
+            "marriage",
+            "nuptial",
+            "union"
+        ]
     },
     {
         "word": "zbi",
@@ -11781,6 +12378,47 @@
         }
     },
     {
+        "word": "zekko",
+        "def": "precedent",
+        "gloss": "example-AG",
+        "type": "Relation",
+        "alignment": "O is precedent for E in Au",
+        "semantics": [
+            "precedent",
+            "instructive",
+            "exemplar",
+            "example",
+            "sample",
+            "model"
+        ]
+    },
+    {
+        "word": "zeksli",
+        "def": "chart",
+        "gloss": "explain-image",
+        "type": "Junction",
+        "alignment": "O is chart explaining E",
+        "semantics": [
+            "chart",
+            "map",
+            "diagram",
+            "graph",
+            "blueprint"
+        ]
+    },
+    {
+        "word": "zekxo",
+        "def": "explanation",
+        "gloss": "explain-PAT",
+        "type": "Junction",
+        "alignment": "O is explanation of E",
+        "semantics": [
+            "explanation",
+            "description",
+            "elaboration"
+        ]
+    },
+    {
         "word": "zen",
         "def": "increase",
         "xo": "increase [n.] (Q)",
@@ -11879,6 +12517,47 @@
         }
     },
     {
+        "word": "zgigot",
+        "def": "dance",
+        "gloss": "music-move",
+        "type": "Relation",
+        "alignment": "O dances to E in Au",
+        "semantics": [
+            "dance",
+            "prance",
+            "jig",
+            "gyrate",
+            "get down",
+            "shake a leg",
+            "cut a rug",
+            "trip the light fantastic"
+        ]
+    },
+    {
+        "word": "zgitak",
+        "def": "sing",
+        "gloss": "music-talk",
+        "type": "Junction",
+        "alignment": "O sings E",
+        "semantics": [
+            "sing",
+            "chant",
+            "croon",
+            "ululate"
+        ]
+    },
+    {
+        "word": "zgitul",
+        "def": "musical instrument",
+        "gloss": "music-tool",
+        "type": "Junction",
+        "alignment": "O is a musical instrument made of E",
+        "semantics": [
+            "instrument",
+            "musical instrument"
+        ]
+    },
+    {
         "word": "zgo",
         "def": "harmony",
         "xo": "harmony [n.] (J)",
@@ -11930,6 +12609,19 @@
             "translit": "zǐ"
         },
         "notes": "cf. Esperanto {-ero}"
+    },
+    {
+        "word": "ziddil",
+        "def": "window",
+        "gloss": "wall-hole",
+        "type": "Junction",
+        "alignment": "O is window in E",
+        "semantics": [
+            "window",
+            "aperture",
+            "fenestration",
+            "skylight"
+        ]
     },
     {
         "word": "zik",
@@ -12062,6 +12754,19 @@
             "lang": "Slovene",
             "word": "zlo"
         }
+    },
+    {
+        "word": "zlodzi",
+        "def": "rot",
+        "gloss": "bad-decay",
+        "type": "Quality",
+        "alignment": "O rots away in Eu",
+        "semantics": [
+            "rotten",
+            "decaying",
+            "decomposing",
+            "putrefying"
+        ]
     },
     {
         "word": "zna",
@@ -12257,6 +12962,21 @@
             "lang": "Lojban",
             "word": "zuk ← zukte"
         }
+    },
+    {
+        "word": "zukset",
+        "def": "team",
+        "gloss": "do-group",
+        "type": "Quality",
+        "alignment": "O (mass) is a team in Eu",
+        "semantics": [
+            "team",
+            "group",
+            "partnership",
+            "band",
+            "squad",
+            "crew"
+        ]
     },
     {
         "word": "zul",
