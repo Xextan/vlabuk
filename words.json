@@ -267,7 +267,6 @@
         "etymology": {
             "lang": "Urdu",
             "word": "بھالو",
-            "urlform": "भालू",
             "translit": "bhālū"
         }
     },  
@@ -2701,7 +2700,7 @@
     {
         "word": "gingopsit",
         "def": "family-govern-system",
-        "gloss": "monarcy",
+        "gloss": "monarchy",
         "type": "Junction",
         "alignment": "O is monarchy of E",
         "semantics": [
@@ -3179,7 +3178,7 @@
     {
         "word": "jizát",
         "def": "let it be",
-        "gloss": "PRFRM-exist",
+        "gloss": "PERF-exist",
         "type": "Illocution-Quality",
         "alignment": "Let it be so (Ou)",
         "semantics": [
@@ -3973,7 +3972,12 @@
         "def": "breathe in",
         "gloss": "air-suck",
         "type": "Direction",
-        "alignment": "O breathes in E from A"
+        "alignment": "O breathes in E from A",
+        "semantics": [
+            "breathe in",
+            "inhale",
+            "suck in"
+        ]
     },
     {
         "word": "kot",
@@ -6545,7 +6549,7 @@
         "def": "snow",
         "gloss": "powder-rain",
         "type": "Junction",
-        "alignment": "O is snow of E",
+        "alignment": "O snows at E",
         "semantics": [
             "snow",
             "sleet",
@@ -6609,7 +6613,7 @@
         "word": "punxpaxo xulzak",
         "def": "load-bearing pickle",
         "gloss": "pickle load-bearing",
-        "type": "Junction Junction",
+        "type": "Junction-Junction",
         "alignment": "O is a load-bearing pickle supporting E",
         "semantics": [
             "load-bearing pickle",
@@ -7903,7 +7907,7 @@
     {
         "word": "silxo",
         "def": "strength",
-        "gloss": "strong-[PAT]",
+        "gloss": "strong-PAT",
         "type": "Junction",
         "alignment": "O is strength of E",
         "semantics": [
@@ -8753,6 +8757,32 @@
         }
     },
     {
+        "word": "takkot",
+        "def": "telephone",
+        "gloss": "talk-network",
+        "type": "Junction",
+        "alignment": "O is telephony of E",
+        "semantics": [
+            "telephone",
+            "telephony",
+            "telephone line",
+            "cellular network"
+        ]
+    },
+    {
+        "word": "takkottul",
+        "def": "telephone",
+        "gloss": "talk-network-tool",
+        "type": "Junction",
+        "alignment": "O is a phone made of E",
+        "semantics": [
+            "telephone",
+            "phone",
+            "cell phone"
+        ],
+        "notes": "for sense \"telephone\" sometimes shortened to «kottul»"
+    },
+    {
         "word": "tan",
         "def": "source",
         "xo": "origin",
@@ -8865,6 +8895,18 @@
         ]
     },
     {
+        "word": "tekxto",
+        "def": "mineral",
+        "gloss": "special-stone",
+        "type": "Junction",
+        "alignment": "O is a mineral of E",
+        "semantics": [
+            "mineral",
+            "ore",
+            "crystal"
+        ]
+    },
+    {
         "word": "ten",
         "def": "have",
         "xo": "possession (J)",
@@ -8940,6 +8982,19 @@
         }
     },
     {
+        "word": "teptik",
+        "def": "clock",
+        "gloss": "time-machine",
+        "type": "Junction",
+        "alignment": "O is a clock made of E",
+        "semantics": [
+            "clock",
+            "watch",
+            "timer",
+            "dial"
+        ]
+    },
+    {
         "word": "tet",
         "def": "try",
         "xo": "effort (Q)",
@@ -9005,6 +9060,35 @@
         "etymology": {
             "lang": "AI-generated"
         }
+    },
+    {
+        "word": "tikdel",
+        "def": "hardware",
+        "gloss": "machine-part",
+        "type": "Junction",
+        "alignment": "O is hardware for E",
+        "semantics": [
+            "hardware",
+            "parts",
+            "circuitry",
+            "inner workings"
+        ]
+    },
+    {
+        "word": "tikzi",
+        "def": "simple machine",
+        "gloss": "machine-DIM",
+        "type": "Quality",
+        "alignment": "O is a simple machine in Eu",
+        "semantics": [
+            "simple machine",
+            "lever",
+            "plane",
+            "wheel",
+            "pulley",
+            "screw",
+            "wedge"
+        ]
     },
     {
         "word": "tin",
@@ -9125,6 +9209,32 @@
         }
     },
     {
+        "word": "totqla",
+        "def": "corpse",
+        "gloss": "dead-organ",
+        "type": "Junction",
+        "alignment": "O is corpse of E",
+        "semantics": [
+            "corpse",
+            "carcass",
+            "dead body"
+        ]
+    },
+    {
+        "word": "totxen",
+        "def": "die",
+        "gloss": "dead-begin",
+        "type": "Quality",
+        "alignment": "O dies in Eu",
+        "semantics": [
+            "die",
+            "doom",
+            "perish",
+            "succumb",
+            "pass away"
+        ]
+    },
+    {
         "word": "tsa",
         "def": "plant",
         "type": "Entity",
@@ -9143,9 +9253,49 @@
         }
     },
     {
+        "word": "tsabat",
+        "def": "seed",
+        "gloss": "plant-seed",
+        "type": "Entity",
+        "alignment": "O is seed of E",
+        "semantics": [
+            "seed",
+            "nut",
+            "pit",
+            "germ",
+            "sprout"
+        ]
+    },
+    {
+        "word": "tsakap",
+        "def": "flower",
+        "gloss": "plant-cup",
+        "type": "Junction",
+        "alignment": "O is flower of E",
+        "semantics": [
+            "flower",
+            "bloom",
+            "blossom",
+            "petals"
+        ]
+    },
+    {
+        "word": "tsaxut",
+        "def": "tea",
+        "gloss": "plant-water",
+        "type": "Junction",
+        "alignment": "O is tea/coffee made with E",
+        "semantics": [
+            "tea",
+            "coffee",
+            "yerba mate"
+        ],
+        "notes": "used to describe hot drinks made by steeping leaves or grounds, i.e. tea («tsaxut ótxa») or coffee («tsaxut káfe») "
+    },
+    {
         "word": "tse",
         "def": "intend",
-        "xo": "intent",
+        "xo": "intention",
         "type": "Quality",
         "alignment": "O intends Eu",
         "semantics": [
@@ -9159,6 +9309,19 @@
             "lang": "Esperanto",
             "word": "celi"
         }
+    },
+    {
+        "word": "tsexo",
+        "def": "intention",
+        "gloss": "intend-PAT",
+        "type": "Junction",
+        "alignment": "O is the intention of E",
+        "semantics": [
+            "intention",
+            "intent",
+            "plan",
+            "scheme"
+        ]
     },
     {
         "word": "tsi",
@@ -9181,6 +9344,20 @@
         }
     },
     {
+        "word": "tsibek",
+        "def": "treasure",
+        "gloss": "value-thing",
+        "type": "Entity",
+        "alignment": "O is treasure",
+        "semantics": [
+            "treasure",
+            "valuables",
+            "riches",
+            "jewels",
+            "gold"
+        ]
+    },
+    {
         "word": "tsu",
         "def": "soil",
         "type": "Entity",
@@ -9198,6 +9375,18 @@
             "word": "土",
             "translit": "tsuchi"
         }
+    },
+    {
+        "word": "tsukup",
+        "def": "brick",
+        "gloss": "soil-block",
+        "type": "Junction",
+        "alignment": "O is a brick of E",
+        "semantics": [
+            "brick",
+            "block",
+            "masonry"
+        ]
     },
     {
         "word": "tu",
@@ -9224,6 +9413,19 @@
             "lang": "Maori",
             "word": "tuku"
         }
+    },
+    {
+        "word": "tuksenko",
+        "def": "license",
+        "gloss": "allow-signify-AG",
+        "type": "Quality",
+        "alignment": "O is a license for Eu",
+        "semantics": [
+            "license",
+            "passport",
+            "diploma",
+            "permission slip"
+        ]
     },
     {
         "word": "tul",
@@ -9410,6 +9612,18 @@
         ]
     },
     {
+        "word": "txitxu",
+        "def": "hungry",
+        "gloss": "food-need",
+        "type": "Quality",
+        "alignment": "O is hungry in/for Eu",
+        "semantics": [
+            "hungry", "hunger",
+            "thirsty", "thirst",
+            "famine"
+        ]
+    },
+    {
         "word": "txixo",
         "def": "food",
         "gloss": "eat-PAT",
@@ -9431,6 +9645,17 @@
             "lang": "Basque",
             "word": "txori"
         }
+    },
+    {
+        "word": "txobat",
+        "def": "egg",
+        "gloss": "bird-seed",
+        "type": "Junction",
+        "alignment": "O is bird egg of E",
+        "semantics": [
+            "egg",
+            "ovum"
+        ]
     },
     {
         "word": "txu",
@@ -9486,7 +9711,7 @@
         ],
         "etymology": {
             "lang": "Japanese",
-            "word": "ウナギ",
+            "word": "鰻",
             "translit": "unagi"
         },
         "notes": "«xel de únági o nia xutvak konfli.» (My hovercraft is full of eels.)"
@@ -9530,6 +9755,20 @@
         "notes": "see also «xtevak» (\"automobile\"); «linvak» (\"train\"); «xutvak» (\"boat\"); «konvak» (\"airplane\")"
     },
     {
+        "word": "vakxte",
+        "def": "road",
+        "gloss": "vehicle-path",
+        "type": "Direction",
+        "alignment": "O is road from E to A",
+        "semantics": [
+            "road",
+            "street",
+            "pavement",
+            "highway",
+            "freeway"
+        ]
+    },
+    {
         "word": "val",
         "def": "important",
         "xo": "importance",
@@ -9549,6 +9788,32 @@
             "word": "valor"
         },
         "notes": "see also «gevál» (O cares about E in/for Au)"
+    },
+    {
+        "word": "valko",
+        "def": "dear",
+        "gloss": "important-AG",
+        "type": "Relation",
+        "alignment": "O is dear to E in Au",
+        "semantics": [
+            "dear",
+            "darling",
+            "care",
+            "value"
+        ]
+    },
+    {
+        "word": "valxo",
+        "def": "importance",
+        "gloss": "important-PAT",
+        "type": "Junction",
+        "alignment": "O is the importance of E",
+        "semantics": [
+            "importance",
+            "significance",
+            "relevance",
+            "purpose"
+        ]
     },
     {
         "word": "van",
@@ -9847,6 +10112,31 @@
         }
     },
     {
+        "word": "vitkot",
+        "def": "television",
+        "gloss": "see-network",
+        "type": "Junction",
+        "alignment": "O is television of E",
+        "semantics": [
+            "television",
+            "TV",
+            "broadcast"
+        ]
+    },
+    {
+        "word": "vitkottik",
+        "def": "TV",
+        "gloss": "see-network-machine",
+        "type": "Junction",
+        "alignment": "O is a TV set made of E",
+        "semantics": [
+            "TV",
+            "television",
+            "screen",
+            "monitor"
+        ]
+    },
+    {
         "word": "vla",
         "def": "word",
         "xo": "semantics",
@@ -9874,6 +10164,44 @@
             "dictionary",
             "lexicon",
             "vocabulary"
+        ]
+    },
+    {
+        "word": "vlaset",
+        "def": "sentence",
+        "gloss": "word-group",
+        "type": "Junction",
+        "alignment": "O is a sentence of E",
+        "semantics": [
+            "sentence",
+            "phrase",
+            "clause",
+            "utterance"
+        ]
+    },
+    {
+        "word": "vlazgi",
+        "def": "poetry",
+        "gloss": "word-music",
+        "type": "Junction",
+        "alignment": "O is poetry of E",
+        "semantics": [
+            "poetry",
+            "verse",
+            "lyrics"
+        ]
+    },
+    {
+        "word": "vlazgo",
+        "def": "rhyme",
+        "gloss": "word-harmony",
+        "type": "Relation",
+        "alignment": "O rhymes with E in Au",
+        "semantics": [
+            "rhyme",
+            "alliteration",
+            "assonance",
+            "consonance"
         ]
     },
     {
@@ -9976,7 +10304,20 @@
             "lang": "Volapük",
             "word": "Volapük"
         }
-    }, 
+    },
+    {
+        "word": "voldol",
+        "def": "yearn",
+        "gloss": "want-pain",
+        "type": "Quality",
+        "alignment": "O yearns for Eu",
+        "semantics": [
+            "yearn for",
+            "long for",
+            "miss",
+            "saudade"
+        ]
+    },
     {
         "word": "vu",
         "def": "discourse terminator",
@@ -10356,7 +10697,7 @@
             "come to",
             "regain consciousness"
         ],
-        "notes": "cf. «spabut»"
+        "notes": "cf. «butxen»"
     },
     {
         "word": "xen spa",
@@ -11026,7 +11367,7 @@
     {
         "word": "xulzak",
         "def": "load-bearing",
-        "gloss": "weight foundation",
+        "gloss": "weight-foundation",
         "type": "Junction",
         "alignment": "O is load-bearing to E",
         "semantics": [
@@ -11072,6 +11413,132 @@
             "lang": "Loglan",
             "word": "cut ← cutri"
         }
+    },
+    {
+        "word": "xutfli",
+        "def": "swim",
+        "gloss": "water-float",
+        "type": "Junction",
+        "alignment": "O floats in E",
+        "semantics": [
+            "float",
+            "swim",
+            "tread water"
+        ]
+    },
+    {
+        "word": "xutflu",
+        "def": "river",
+        "gloss": "water-flow",
+        "type": "Junction",
+        "alignment": "O is a river of E",
+        "semantics": [
+            "river",
+            "stream",
+            "brook",
+            "creek",
+            "ditch",
+            "estuary",
+            "delta",
+            "flow"
+        ]
+    },
+    {
+        "word": "xutgot",
+        "def": "swim",
+        "gloss": "water-move",
+        "type": "Direction",
+        "alignment": "O swims from E to A",
+        "semantics": [
+            "swim",
+            "paddle",
+            "float"
+        ]
+    },
+    {
+        "word": "xutpul",
+        "def": "snow",
+        "gloss": "water-powder",
+        "type": "Entity",
+        "alignment": "O is snow",
+        "semantics": [
+            "snow",
+            "slush",
+            "sleet",
+            "hail"
+        ]
+    },
+    {
+        "word": "xutsak",
+        "def": "dry",
+        "gloss": "water-lack",
+        "type": "Quality",
+        "alignment": "O is dry in Eu",
+        "semantics": [
+            "dry",
+            "arid",
+            "parched",
+            "shriveled",
+            "withered",
+            "dead"
+        ]
+    },
+    {
+        "word": "xutsaktun",
+        "def": "desert",
+        "gloss": "water-lack-land",
+        "type": "Junction",
+        "alignment": "O is desert of E",
+        "semantics": [
+            "desert",
+            "arid",
+            "wilderness"
+        ]
+    },
+    {
+        "word": "xuttxu",
+        "def": "thirsty",
+        "gloss": "water-need",
+        "type": "Quality",
+        "alignment": "O is thirsty in/for Eu",
+        "semantics": [
+            "thirsty",
+            "parched",
+            "drought",
+            "scorched",
+            "dry"
+        ]
+    },
+    {
+        "word": "xutvak",
+        "def": "boat",
+        "gloss": "water-vehicle",
+        "type": "Junction",
+        "alignment": "O is a boat made of E",
+        "semantics": [
+            "boat",
+            "ship",
+            "raft",
+            "craft",
+            "skipper",
+            "schooner",
+            "dinghy",
+            "canoe",
+            "kayak",
+            "boatboatboat"
+        ]
+    },
+    {
+        "word": "xutxel",
+        "def": "soaked",
+        "gloss": "water-full",
+        "type": "Junction",
+        "alignment": "O is soaked in/with E",
+        "semantics": [
+            "soaked",
+            "drenched",
+            "waterlogged"
+        ]
     },
     {
         "word": "za",
