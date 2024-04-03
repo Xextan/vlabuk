@@ -2284,7 +2284,7 @@
         ],
         "etymology": {
             "lang": "Albanian",
-            "word": "coat"
+            "word": "flok"
         },
         "notes": "use mass argument markers to refer to \"hair\" collectively"
     },
@@ -3582,6 +3582,21 @@
         }
     },
     {
+        "word": "kápíbára",
+        "def": "capybara",
+        "type": "Entity",
+        "alignment": "O is a capybara",
+        "semantics": [
+            "capybara",
+            "capibara",
+            "capivara"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "capibara"
+        }
+    }, 
+    {
         "word": "kat",
         "def": "hard",
         "xo": "hardness",
@@ -3669,6 +3684,21 @@
             "word": "cavalho"
         }
     },
+    {
+        "word": "kaxxol",
+        "def": "kashol",
+        "type": "Entity",
+        "alignment": "O is kashol script",
+        "semantics": [
+            "kashol",
+            "tapir script",
+            "Xextan script"
+        ],
+        "etymology": {
+            "lang": "a priori; cf. «xextanval» (Old Xextan \"Xextan words\") → «xával» (\"rice\") → «kával» (\"horse\") → «lákáxol» (\"tapir\") → la káxol → la kaxxol"
+        },
+        "notes": "Xextan alphasyllabary inspired by Hangul"
+    }, 
     {
         "word": "ke",
         "def": "relative clause marker",
@@ -4426,6 +4456,21 @@
         }
     },
     {
+        "word": "lákáxol",
+        "def": "tapir",
+        "type": "Entity",
+        "alignment": "O is a tapir",
+        "semantics": [
+            "tapir",
+            "cumom"
+        ],
+        "etymology": {
+            "lang": "Nahuatl",
+            "word": "tlacaxolotl"
+        },
+        "notes": "see also «kával»"
+    }, 
+    {
         "word": "lakdan",
         "def": "community center",
         "gloss": "interact-building",
@@ -4968,6 +5013,21 @@
         ]
     },
     {
+        "word": "líxka",
+        "def": "fox",
+        "type": "Entity",
+        "alignment": "O is a fox",
+        "semantics": [
+            "fox",
+            "vixen",
+            "vulpine"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "liška"
+        }
+    }, 
+    {
         "word": "lo",
         "def": "gnomic determiner",
         "type": "Determiner",
@@ -5354,6 +5414,21 @@
             "translit": "mahou"
         }
     },
+    {
+        "word": "mámut",
+        "def": "mammoth",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "mammoth",
+            "behemoth",
+            "curelom"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "mamut"
+        }
+    }, 
     {
         "word": "Másra",
         "def": "Egypt",
