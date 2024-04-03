@@ -99,22 +99,6 @@
         "notes": "see also «jizát»"
     },
     {
-        "word": "Ántártíka",
-        "def": "Antarctica",
-        "type": "Quality",
-        "alignment": "O is Antarctic in Eu",
-        "semantics": [
-            "Antarctica",
-            "Antarctic",
-            "South Pole",
-            "polar"
-        ],
-        "etymology": {
-            "lang": "English",
-            "word": "Antarctica"
-        }
-    },
-    {
         "word": "Ámríka",
         "def": "America",
         "type": "Quality",
@@ -158,6 +142,22 @@
             "word": "«Ámríka» + «tunkut»"
         },
         "notes": "proper name (n.): la Ámríka Tunkut"
+    },
+    {
+        "word": "Ántártíka",
+        "def": "Antarctica",
+        "type": "Quality",
+        "alignment": "O is Antarctic in Eu",
+        "semantics": [
+            "Antarctica",
+            "Antarctic",
+            "South Pole",
+            "polar"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Antarctica"
+        }
     },
     {
         "word": "Árábi",
@@ -269,7 +269,7 @@
             "word": "بھالو",
             "translit": "bhālū"
         }
-    },  
+    },
     {
         "word": "ban",
         "def": "language",
@@ -592,7 +592,7 @@
             "lang": "Portuguese",
             "word": "Brasil"
         }
-    }, 
+    },
     {
         "word": "bu",
         "def": "modifier: opposite",
@@ -635,6 +635,17 @@
         "alignment": "O is a library"
     },
     {
+        "word": "bukónxup",
+        "def": "breathe out",
+        "gloss": "OPP air-suck",
+        "type": "Direction",
+        "alignment": "O breathes out E to A",
+        "semantics": [
+            "breathe out",
+            "exhale"
+        ]
+    },
+    {
         "word": "bul",
         "def": "opposite",
         "xo": "inversion",
@@ -654,17 +665,6 @@
         "notes": "& inside-out"
     },
     {
-        "word": "bukónxup",
-        "def": "breathe out",
-        "gloss": "OPP air-suck",
-        "type": "Direction",
-        "alignment": "O breathes out E to A",
-        "semantics": [
-            "breathe out",
-            "exhale"
-        ]
-    },
-    {
         "word": "buóhai",
         "def": "shark",
         "type": "Entity",
@@ -677,7 +677,7 @@
             "lang": "Swedish",
             "word": "blåhaj"
         }
-    }, 
+    },
     {
         "word": "buqíddun",
         "def": "forget",
@@ -727,19 +727,19 @@
         }
     },
     {
+        "word": "daddul",
+        "def": "analyze",
+        "gloss": "data-read",
+        "type": "Relation",
+        "alignment": "O analyzes E for Au"
+    },
+    {
         "word": "dai",
         "def": "dative mass binder",
         "type": "Binder",
         "etymology": {
             "lang": "contraction: «da» + «qi»"
         }
-    },
-    {
-        "word": "daddul",
-        "def": "analyze",
-        "gloss": "data-read",
-        "type": "Relation",
-        "alignment": "O analyzes E for Au"
     },
     {
         "word": "dak",
@@ -998,7 +998,7 @@
             "word": "Deseret"
         },
         "notes": "from the word Deseret, a word mentioned in the Book of Mormon meaning \"bee\" and believed by Latter-day Saints to have derived from an unattested ancient Semitic language"
-    }, 
+    },
     {
         "word": "di",
         "def": "obviative abstract pronoun",
@@ -1139,6 +1139,23 @@
         }
     },
     {
+        "word": "Díqu",
+        "def": "Earth",
+        "type": "Entity",
+        "alignment": "O is Earth",
+        "semantics": [
+            "Earth",
+            "the Earth",
+            "Terra",
+            "Gaia"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "地球",
+            "translit": "díqiú"
+        }
+    },
+    {
         "word": "dit",
         "def": "flat",
         "xo": "flatness",
@@ -1167,23 +1184,6 @@
         ]
     },
     {
-        "word": "Díqu",
-        "def": "Earth",
-        "type": "Entity",
-        "alignment": "O is Earth",
-        "semantics": [
-            "Earth",
-            "the Earth",
-            "Terra",
-            "Gaia"
-        ],
-        "etymology": {
-            "lang": "Mandarin",
-            "word": "地球",
-            "translit": "díqiú"
-        }
-    }, 
-    {
         "word": "do",
         "def": "bind n. phrase to predicate (nominative)",
         "type": "Binder",
@@ -1206,7 +1206,7 @@
             "lang": "Catalan",
             "word": "dofí"
         }
-    }, 
+    },
     {
         "word": "doi",
         "def": "nominative mass binder",
@@ -1245,7 +1245,7 @@
             "lang": "English",
             "word": "dollar"
         }
-    }, 
+    },
     {
         "word": "don",
         "def": "give",
@@ -1731,7 +1731,7 @@
             "lang": "Esperanto",
             "word": "Esperanto"
         }
-    }, 
+    },
     {
         "word": "eu",
         "def": "abstract accusative case marker",
@@ -1769,7 +1769,6 @@
         "def": "tomorrow",
         "type": "Adverb",
         "notes": "adverb complex: «fa» + «die»"
-
     },
     {
         "word": "fai",
@@ -1827,7 +1826,7 @@
             "word": "falozim"
         },
         "notes": "Ceqlian SSM terminology: refers to the permitted Xextan syllable codas p/b/t/d/k/g/l/n"
-    }, 
+    },
     {
         "word": "fan",
         "def": "resume",
@@ -1846,6 +1845,18 @@
         }
     },
     {
+        "word": "fan zal",
+        "def": "return",
+        "gloss": "return at",
+        "type": "State-Junction",
+        "alignment": "(Ou) O returns to E",
+        "semantics": [
+            "return",
+            "turn back",
+            "retreat"
+        ]
+    },
+    {
         "word": "fangot",
         "def": "return",
         "gloss": "return-go",
@@ -1856,18 +1867,6 @@
             "retreat",
             "head back to",
             "go back to"
-        ]
-    },
-    {
-        "word": "fan zal",
-        "def": "return",
-        "gloss": "return at",
-        "type": "State-Junction",
-        "alignment": "(Ou) O returns to E",
-        "semantics": [
-            "return",
-            "turn back",
-            "retreat"
         ]
     },
     {
@@ -2191,6 +2190,20 @@
         }
     },
     {
+        "word": "flanik",
+        "def": "lawyer",
+        "gloss": "law-agent",
+        "type": "Junction",
+        "alignment": "O is a lawyer representing E",
+        "semantics": [
+            "lawyer",
+            "attorney",
+            "counselor",
+            "solicitor",
+            "barrister"
+        ]
+    },
+    {
         "word": "flaqan",
         "def": "rulebreaker",
         "gloss": "rule-disobey",
@@ -2242,20 +2255,6 @@
         ]
     },
     {
-        "word": "flanik",
-        "def": "lawyer",
-        "gloss": "law-agent",
-        "type": "Junction",
-        "alignment": "O is a lawyer representing E",
-        "semantics": [
-            "lawyer",
-            "attorney",
-            "counselor",
-            "solicitor",
-            "barrister"
-        ]
-    },
-    {
         "word": "fli",
         "def": "float",
         "type": "Junction",
@@ -2288,22 +2287,6 @@
             "word": "coat"
         },
         "notes": "use mass argument markers to refer to \"hair\" collectively"
-    },
-      {
-        "word": "flu",
-        "def": "flow",
-        "type": "Junction",
-        "alignment": "O is a flow of E",
-        "semantics": [
-            "flow",
-            "stream",
-            "river",
-            "barrage"
-        ],
-        "etymology": {
-            "lang": "Portuguese",
-            "word": "fluir"
-        }
     },
     {
         "word": "flu",
@@ -2408,7 +2391,7 @@
             "lang": "French",
             "word": "France"
         }
-    }, 
+    },
     {
         "word": "fu",
         "def": "generalizing suffix",
@@ -2569,19 +2552,6 @@
         "notes": "false compound: «ga» + «don»"
     },
     {
-        "word": "gedón",
-        "def": "be given",
-        "gloss": "PASS.DO give",
-        "type": "Modifier-Direction",
-        "alignment": "O is given by E to A",
-        "semantics": [
-            "be given by",
-            "be gifted by",
-            "be provided by"
-        ],
-        "notes": "false compound: «ge» + «don»"
-    },
-    {
         "word": "gágil",
         "def": "boomer",
         "type": "Quality",
@@ -2597,7 +2567,7 @@
             "lang": "Ceqli",
             "word": "gagil"
         }
-    }, 
+    },
     {
         "word": "gak",
         "def": "fail",
@@ -2644,7 +2614,7 @@
             "lang": "Slovene",
             "word": "galêb"
         }
-    }, 
+    },
     {
         "word": "galgot",
         "def": "ascend",
@@ -2683,7 +2653,7 @@
             "lang": "Pennsylvania German",
             "word": "Gaul"
         }
-    }, 
+    },
     {
         "word": "ge",
         "def": "passive voice",
@@ -2693,6 +2663,19 @@
             "word": "ge-"
         },
         "notes": "Swaps O and E roles"
+    },
+    {
+        "word": "gedón",
+        "def": "be given",
+        "gloss": "PASS.DO give",
+        "type": "Modifier-Direction",
+        "alignment": "O is given by E to A",
+        "semantics": [
+            "be given by",
+            "be gifted by",
+            "be provided by"
+        ],
+        "notes": "false compound: «ge» + «don»"
     },
     {
         "word": "gen",
@@ -2785,9 +2768,12 @@
         "type": "Junction",
         "alignment": "O is aristocracy of E",
         "semantics": [
-            "aristocracy", "aristocratic",
-            "oligarchy", "oligarchical",
-            "nobility", "noble"
+            "aristocracy",
+            "aristocratic",
+            "oligarchy",
+            "oligarchical",
+            "nobility",
+            "noble"
         ]
     },
     {
@@ -3242,7 +3228,7 @@
             "lang": "English",
             "word": "Halloween"
         }
-    }, 
+    },
     {
         "word": "i",
         "def": "modal illocution: declarative",
@@ -3387,7 +3373,7 @@
             "lang": "English",
             "word": "Yule"
         }
-    }, 
+    },
     {
         "word": "ka",
         "def": "interrogative predicate",
@@ -3412,7 +3398,7 @@
             "lang": "Portuguese",
             "word": "café"
         }
-    }, 
+    },
     {
         "word": "kai",
         "def": "comparative",
@@ -3440,7 +3426,7 @@
             "lang": "Ceqli",
             "word": "kayni"
         }
-    }, 
+    },
     {
         "word": "kak",
         "def": "waste",
@@ -3472,7 +3458,7 @@
             "lang": "Portuguese",
             "word": "cacau"
         }
-    }, 
+    },
     {
         "word": "kakkap",
         "def": "wastebasket",
@@ -3561,7 +3547,7 @@
             "lang": "English",
             "word": "Canada"
         }
-    }, 
+    },
     {
         "word": "kánóka",
         "def": "paradise (poetic)",
@@ -3655,7 +3641,7 @@
             "lang": "English",
             "word": "Catholic"
         }
-    }, 
+    },
     {
         "word": "kau",
         "def": "qualitative interrogative determiner",
@@ -3682,7 +3668,7 @@
             "lang": "Portuguese",
             "word": "cavalho"
         }
-    },  
+    },
     {
         "word": "ke",
         "def": "relative clause marker",
@@ -3698,6 +3684,21 @@
         "type": "Adverb",
         "etymology": {
             "lang": "backformed from «ken»"
+        }
+    },
+    {
+        "word": "kéiqu",
+        "def": "cheese",
+        "type": "Junction",
+        "alignment": "O is cheese of E",
+        "semantics": [
+            "cheese",
+            "queso",
+            "queijo"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "queijo"
         }
     },
     {
@@ -3750,7 +3751,7 @@
             "lang": "Swahili",
             "word": "Kenya"
         }
-    }, 
+    },
     {
         "word": "kenxo",
         "def": "possibility",
@@ -3782,21 +3783,6 @@
             "word": "Kep"
         }
     },
-    {
-        "word": "kéiqu",
-        "def": "cheese",
-        "type": "Junction",
-        "alignment": "O is cheese of E",
-        "semantics": [
-            "cheese",
-            "queso",
-            "queijo"
-        ],
-        "etymology": {
-            "lang": "Portuguese",
-            "word": "queijo"
-        }
-    }, 
     {
         "word": "ki",
         "def": "marker for comment/nr. rel. clause",
@@ -3937,7 +3923,7 @@
             "translit": "kiseki"
         },
         "notes": "Symbol of Xextan, these persistent little guys represent the creativity and free spirit of the Xextan community. Hey, there's one on my sleeve- how do they keep getting in here...?"
-    }, 
+    },
     {
         "word": "kit",
         "def": "insect",
@@ -4063,18 +4049,6 @@
         ]
     },
     {
-        "word": "konsak",
-        "def": "vacuum",
-        "gloss": "air-lack",
-        "type": "Junction",
-        "alignment": "O is vacuum at E",
-        "semantics": [
-            "vacuum",
-            "void",
-            "outer space"
-        ]
-    },
-    {
         "word": "konqla",
         "def": "lung",
         "gloss": "air-organ",
@@ -4085,6 +4059,18 @@
             "respiratory",
             "pulmonary",
             "breathing"
+        ]
+    },
+    {
+        "word": "konsak",
+        "def": "vacuum",
+        "gloss": "air-lack",
+        "type": "Junction",
+        "alignment": "O is vacuum at E",
+        "semantics": [
+            "vacuum",
+            "void",
+            "outer space"
         ]
     },
     {
@@ -4180,7 +4166,7 @@
             "lang": "Czech",
             "word": "kočka"
         }
-    }, 
+    },
     {
         "word": "ku",
         "def": "long scope clause terminator",
@@ -4228,7 +4214,7 @@
             "lang": "Nahuatl",
             "word": "cuetlaxochitl"
         }
-    }, 
+    },
     {
         "word": "kul",
         "def": "dark",
@@ -4392,6 +4378,24 @@
         ]
     },
     {
+        "word": "Ládése",
+        "def": "Latter-day Saint",
+        "type": "Quality",
+        "alignment": "O is Latter-day Saint in Eu",
+        "semantics": [
+            "Latter-day Saint",
+            "LDS",
+            "Church of Jesus Christ of Latter-day Saints",
+            "Mormon",
+            "Brighamite"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "Latter-day Saint"
+        },
+        "notes": "refers to the mainstream Latter-day Saint (Mormon) church and religion; for the ethnoreligious group, see «Mórmon»"
+    },
+    {
         "word": "lai",
         "def": "probability: probably",
         "type": "Adverb",
@@ -4514,18 +4518,6 @@
         }
     },
     {
-        "word": "lapxnu",
-        "def": "ribbon",
-        "gloss": "sheet-cord",
-        "type": "Junction",
-        "alignment": "O is ribbon of E",
-        "semantics": [
-            "ribbon",
-            "tape",
-            "strip"
-        ]
-    },
-    {
         "word": "lápélápe",
         "def": "birth (poetic)",
         "type": "Quality",
@@ -4541,6 +4533,18 @@
             "lang": "a priori"
         },
         "notes": "one of the Giu Senko Xilati"
+    },
+    {
+        "word": "lapxnu",
+        "def": "ribbon",
+        "gloss": "sheet-cord",
+        "type": "Junction",
+        "alignment": "O is ribbon of E",
+        "semantics": [
+            "ribbon",
+            "tape",
+            "strip"
+        ]
     },
     {
         "word": "lat",
@@ -4561,24 +4565,6 @@
             "translit": "latta"
         }
     },
-    {
-        "word": "Ládése",
-        "def": "Latter-day Saint",
-        "type": "Quality",
-        "alignment": "O is Latter-day Saint in Eu",
-        "semantics": [
-            "Latter-day Saint",
-            "LDS",
-            "Church of Jesus Christ of Latter-day Saints",
-            "Mormon",
-            "Brighamite"
-        ],
-        "etymology": {
-            "lang": "English",
-            "word": "Latter-day Saint"
-        },
-        "notes": "refers to the mainstream Latter-day Saint (Mormon) church and religion; for the ethnoreligious group, see «Mórmon»"
-    }, 
     {
         "word": "lau",
         "def": "non-Xextanized name marker",
@@ -4621,6 +4607,22 @@
             "lay down on",
             "recline on"
         ]
+    },
+    {
+        "word": "léixi",
+        "def": "milk",
+        "type": "Junction",
+        "alignment": "O is milk of E",
+        "semantics": [
+            "milk",
+            "dairy",
+            "lactic",
+            "lactose"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "leite"
+        }
     },
     {
         "word": "lek",
@@ -4755,22 +4757,6 @@
         }
     },
     {
-        "word": "léixi",
-        "def": "milk",
-        "type": "Junction",
-        "alignment": "O is milk of E",
-        "semantics": [
-            "milk",
-            "dairy",
-            "lactic",
-            "lactose"
-        ],
-        "etymology": {
-            "lang": "Portuguese",
-            "word": "leite"
-        }
-    }, 
-    {
         "word": "li",
         "def": "obviative animate pronoun",
         "type": "Pronoun",
@@ -4778,6 +4764,16 @@
             "lang": "Portuguese",
             "word": "ele"
         }
+    },
+    {
+        "word": "lia",
+        "def": "3rd person animate possessive",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "lia"
+        },
+        "notes": "his, her, their"
     },
     {
         "word": "líbra",
@@ -4794,16 +4790,6 @@
             "lang": "Latin",
             "word": "libra"
         }
-    }, 
-    {
-        "word": "lia",
-        "def": "3rd person animate possessive",
-        "type": "Determiner",
-        "etymology": {
-            "lang": "Esperanto",
-            "word": "lia"
-        },
-        "notes": "his, her, their"
     },
     {
         "word": "lik",
@@ -4936,6 +4922,13 @@
         }
     },
     {
+        "word": "litska",
+        "def": "color",
+        "gloss": "light-qualia",
+        "type": "Junction",
+        "alignment": "O is color of E"
+    },
+    {
         "word": "littik",
         "def": "overhead light",
         "gloss": "light-machine",
@@ -4975,13 +4968,6 @@
         ]
     },
     {
-        "word": "litska",
-        "def": "color",
-        "gloss": "light-qualia",
-        "type": "Junction",
-        "alignment": "O is color of E"
-    },
-    {
         "word": "lo",
         "def": "gnomic determiner",
         "type": "Determiner",
@@ -5005,7 +4991,7 @@
             "lang": "Loglan",
             "word": "Loglan"
         }
-    }, 
+    },
     {
         "word": "lok",
         "def": "conclude",
@@ -5382,7 +5368,7 @@
             "word": "مصر",
             "translit": "maṣr"
         }
-    }, 
+    },
     {
         "word": "Méxíko",
         "def": "Mexico",
@@ -5428,7 +5414,7 @@
             "word": "motýl"
         },
         "notes": "refers to the adult stage of butterflies, moths, and similar creatures"
-    }, 
+    },
     {
         "word": "na",
         "def": "present tense",
@@ -5570,7 +5556,7 @@
             "lang": "Spanish",
             "word": "Navidad"
         }
-    }, 
+    },
     {
         "word": "ne",
         "def": "numeral: 1",
@@ -5594,7 +5580,7 @@
             "lang": "Dutch",
             "word": "Nederland"
         }
-    }, 
+    },
     {
         "word": "nek",
         "def": "motive",
@@ -5740,6 +5726,22 @@
         }
     },
     {
+        "word": "Nípon",
+        "def": "Japan",
+        "type": "Quality",
+        "alignment": "O is Japanese in Eu",
+        "semantics": [
+            "Japan",
+            "Nihon",
+            "Nippon"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "日本",
+            "translit": "Nippon"
+        }
+    },
+    {
         "word": "nit",
         "def": "interesting",
         "xo": "intrigue (n.)",
@@ -5755,22 +5757,6 @@
         "etymology": {
             "lang": "Volapük",
             "word": "nitednik"
-        }
-    },
-    {
-        "word": "Nípon",
-        "def": "Japan",
-        "type": "Quality",
-        "alignment": "O is Japanese in Eu",
-        "semantics": [
-            "Japan",
-            "Nihon",
-            "Nippon"
-        ],
-        "etymology": {
-            "lang": "Japanese",
-            "word": "日本",
-            "translit": "Nippon"
         }
     },
     {
@@ -5906,7 +5892,7 @@
             "lang": "Norwegian Bokmål",
             "word": "Norge"
         }
-    }, 
+    },
     {
         "word": "not",
         "def": "other",
@@ -6033,7 +6019,7 @@
             "translit": "ocha"
         },
         "notes": "refers to the plant itself; for the drink, see «xut ótxa»"
-    }, 
+    },
     {
         "word": "ou",
         "def": "abstract nominative case marker",
@@ -6476,7 +6462,7 @@
             "urlform": "פסח",
             "translit": "pésakh"
         }
-    }, 
+    },
     {
         "word": "pet",
         "def": "pertain",
@@ -6547,7 +6533,7 @@
             "lang": "Italian",
             "word": "pianoforte"
         }
-    }, 
+    },
     {
         "word": "pil",
         "def": "tired",
@@ -6846,14 +6832,6 @@
         }
     },
     {
-        "word": "qai",
-        "def": "illocution: OR",
-        "type": "Illocution",
-        "etymology": {
-            "lang": "contraction: «qa» + «i»"
-        }
-    },
-    {
         "word": "qabbet",
         "def": "question",
         "gloss": "answer-request",
@@ -6865,6 +6843,14 @@
             "interview",
             "inquire"
         ]
+    },
+    {
+        "word": "qai",
+        "def": "illocution: OR",
+        "type": "Illocution",
+        "etymology": {
+            "lang": "contraction: «qa» + «i»"
+        }
     },
     {
         "word": "qak",
@@ -7679,21 +7665,6 @@
         }
     },
     {
-        "word": "qúqek",
-        "def": "beetle",
-        "type": "Entity",
-        "alignment": "O is a beetle (order Coleoptera)",
-        "semantics": [
-            "beetle",
-            "coleopteran",
-            "bug"
-        ],
-        "etymology": {
-            "lang": "Slovene",
-            "word": "žužek"
-        }
-    }, 
-    {
         "word": "qul",
         "def": "deep",
         "xo": "depth",
@@ -7728,6 +7699,21 @@
         "etymology": {
             "lang": "Portuguese",
             "word": "juntar"
+        }
+    },
+    {
+        "word": "qúqek",
+        "def": "beetle",
+        "type": "Entity",
+        "alignment": "O is a beetle (order Coleoptera)",
+        "semantics": [
+            "beetle",
+            "coleopteran",
+            "bug"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "žužek"
         }
     },
     {
@@ -7775,7 +7761,7 @@
             "word": "酒",
             "translit": "sake"
         }
-    }, 
+    },
     {
         "word": "saktun",
         "def": "wasteland",
@@ -7848,7 +7834,7 @@
             "word": "समाजवाद",
             "translit": "samājvād"
         }
-    }, 
+    },
     {
         "word": "sat",
         "def": "friend",
@@ -8091,7 +8077,7 @@
             "word": "sternocleidomastoideus"
         },
         "notes": "do you think this is funny? do you think this is some kind of joke?"
-    }, 
+    },
     {
         "word": "setxo",
         "def": "commonality",
@@ -8228,7 +8214,7 @@
             "lang": "Swedish",
             "word": "Sverige"
         }
-    }, 
+    },
     {
         "word": "ska",
         "def": "qualia",
@@ -8527,7 +8513,7 @@
             "lang": "Dutch",
             "word": "soya"
         }
-    }, 
+    },
     {
         "word": "sok",
         "def": "fungus",
@@ -8559,7 +8545,7 @@
             "lang": "Polish",
             "word": "sokół"
         }
-    }, 
+    },
     {
         "word": "sol",
         "def": "star",
@@ -8987,7 +8973,7 @@
             "word": "tadam"
         },
         "notes": "cf. Maltese {tuffieħa t’Adam} (\"apple of Adam\")"
-    }, 
+    },
     {
         "word": "tai",
         "def": "deictic collective dative case marker",
@@ -9072,7 +9058,7 @@
             "lang": "Lojban",
             "word": "tanjelavi"
         }
-    }, 
+    },
     {
         "word": "tat",
         "def": "tight",
@@ -9906,8 +9892,10 @@
         "type": "Quality",
         "alignment": "O is hungry in/for Eu",
         "semantics": [
-            "hungry", "hunger",
-            "thirsty", "thirst",
+            "hungry",
+            "hunger",
+            "thirsty",
+            "thirst",
             "famine"
         ]
     },
@@ -10149,7 +10137,7 @@
             "lang": "a priori; cf. Ceqli \"vawl\", \"cwazim\", \"falozim\". see «xuázin», «fálózin»"
         },
         "notes": "refers to the five vowels a/e/i/o/u"
-    }, 
+    },
     {
         "word": "vei",
         "def": "perspective case marker (frame of reference)",
@@ -10657,7 +10645,8 @@
             "artillery",
             "bombardment"
         ]
-    },  {
+    },
+    {
         "word": "vutxo",
         "def": "explosion",
         "gloss": "explode-PAT",
@@ -10767,7 +10756,7 @@
             "word": "烏鴉",
             "translit": "wūyā"
         }
-    }, 
+    },
     {
         "word": "xa",
         "def": "conditional tense (irrealis)",
@@ -10829,7 +10818,6 @@
             "strike"
         ]
     },
-
     {
         "word": "xakzi",
         "def": "finger",
@@ -10876,7 +10864,6 @@
             "Selene"
         ]
     },
-
     {
         "word": "xámat",
         "def": "chess",
@@ -10895,7 +10882,7 @@
             "urlform": "شاه‌مات",
             "translit": "šâh mât"
         }
-    }, 
+    },
     {
         "word": "xan",
         "def": "mountain",
@@ -10941,7 +10928,7 @@
             "word": "चावल",
             "translit": "cāval"
         }
-    }, 
+    },
     {
         "word": "xe",
         "def": "lambda/resumptive pronoun",
@@ -10985,7 +10972,7 @@
             "lang": "Ceqli",
             "word": "Ceqli"
         }
-    }, 
+    },
     {
         "word": "xen",
         "def": "begin",
@@ -11144,6 +11131,22 @@
         }
     },
     {
+        "word": "xíláti",
+        "def": "spirit (poetic)",
+        "type": "Quality",
+        "alignment": "O is shilati in/of Eu",
+        "semantics": [
+            "shilati",
+            "spirit",
+            "heart",
+            "essence"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "one of the Giu Senko Xilati"
+    },
+    {
         "word": "xildan",
         "def": "school",
         "gloss": "learn-building",
@@ -11217,7 +11220,8 @@
         "type": "Relation",
         "alignment": "O practices E by doing Au",
         "semantics": [
-            "practice", "practise",
+            "practice",
+            "practise",
             "exercise",
             "train",
             "drill",
@@ -11225,22 +11229,6 @@
             "mock",
             "moot"
         ]
-    },
-    {
-        "word": "xíláti",
-        "def": "spirit (poetic)",
-        "type": "Quality",
-        "alignment": "O is shilati in/of Eu",
-        "semantics": [
-            "shilati",
-            "spirit",
-            "heart",
-            "essence"
-        ],
-        "etymology": {
-            "lang": "a priori"
-        },
-        "notes": "one of the Giu Senko Xilati"
     },
     {
         "word": "xin",
@@ -11384,7 +11372,6 @@
             "refuse"
         ]
     },
-
     {
         "word": "xko",
         "def": "damage",
@@ -11950,7 +11937,7 @@
             "word": "cwazim"
         },
         "notes": "Ceqlian SSM terminology: refers to the Xextan fricatives f/s/x/v/z/q, which cannot serve as a syllable coda and therefore may be used to distinguish certain freeword shapes from compounds"
-    }, 
+    },
     {
         "word": "xue",
         "def": "vocative: inverse vocative",
@@ -12896,6 +12883,23 @@
         "notes": "cf. «danzon» (city)"
     },
     {
+        "word": "zoi",
+        "def": "end topic statement/prenex",
+        "type": "Illocution",
+        "etymology": [
+            {
+                "lang": "Lojban",
+                "word": "zo'u"
+            },
+            "+",
+            {
+                "lang": "Loglan",
+                "word": "zoi"
+            }
+        ],
+        "notes": "as for, given, so..., well..."
+    },
+    {
         "word": "zok",
         "def": "responsible",
         "xo": "responsibility",
@@ -12975,23 +12979,6 @@
             "lang": "Lojban",
             "word": "zat ← zasti"
         }
-    },
-    {
-        "word": "zoi",
-        "def": "end topic statement/prenex",
-        "type": "Illocution",
-        "etymology": [
-            {
-                "lang": "Lojban",
-                "word": "zo'u"
-            },
-            "+",
-            {
-                "lang": "Loglan",
-                "word": "zoi"
-            }
-        ],
-        "notes": "as for, given, so..., well..."
     },
     {
         "word": "zuk",
