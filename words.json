@@ -2272,6 +2272,40 @@
         }
     },
     {
+        "word": "flo",
+        "def": "hair",
+        "type": "Junction",
+        "alignment": "O is a hair of E",
+        "semantics": [
+            "hair",
+            "fur",
+            "coat",
+            "fuzz",
+            "scruff"
+        ],
+        "etymology": {
+            "lang": "Albanian",
+            "word": "coat"
+        },
+        "notes": "use mass argument markers to refer to \"hair\" collectively"
+    },
+      {
+        "word": "flu",
+        "def": "flow",
+        "type": "Junction",
+        "alignment": "O is a flow of E",
+        "semantics": [
+            "flow",
+            "stream",
+            "river",
+            "barrage"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "fluir"
+        }
+    },
+    {
         "word": "flu",
         "def": "flow",
         "type": "Junction",
@@ -9128,6 +9162,24 @@
             "ore",
             "crystal"
         ]
+    },
+    {
+        "word": "tel",
+        "def": "oil",
+        "type": "Junction",
+        "alignment": "O is oil of E",
+        "semantics": [
+            "oil",
+            "grease",
+            "fat",
+            "lipid",
+            "wax"
+        ],
+        "etymology": {
+            "lang": "Hindi",
+            "word": "तेल",
+            "translit": "tel"
+        }
     },
     {
         "word": "ten",
