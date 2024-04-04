@@ -42,7 +42,7 @@
                 );
             });
             function deaccent(s) {
-                return s.replace(/[‘’]/g, "'").replace(/[áãâ]/, "a").replace(/[éẽê]/, "e").replace(/[íĩî]/, "i").replace(/[óõô]/, "o").replace(/[úũû]/, "u").replace(/[ýỹŷ]/, "y");
+                return s.replace(/[‘’]/g, "'").replace(/[áãâ]/g, "a").replace(/[éẽê]/g, "e").replace(/[íĩî]/g, "i").replace(/[óõô]/g, "o").replace(/[úũû]/g, "u").replace(/[ýỹŷ]/g, "y");
             }
             function search(q) {
                 // kinda stolen from xlasisku lol
