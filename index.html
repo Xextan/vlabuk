@@ -94,7 +94,7 @@
             }
             function pos(e) {
                 if (!e.word) {console.log(e)}
-                return e.word.includes(" ") && !e.word.split(" ").some(e => pos({"word": e}) == "freeword") ? "serial" :
+                return e.word.includes(" ") ? "serial" :
                 e.gloss ? "compound" :
                 /^.{0,2}[áéíóú]/iu.test(e.word) || (!/^[bdfgklmnpqstvxz]([aeiou][ptkln]|[bdfgklmnpqstvxz][aeiou])$/.test(e.word) && e.alignment) ? "freeword" :
                 e.alignment ? "root" :
