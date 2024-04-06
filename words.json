@@ -3021,8 +3021,8 @@
         "def": "triangle",
         "xo": "triangularity",
         "ko": "angular",
-        "type": "",
-        "alignment": "",
+        "type": "Junction",
+        "alignment": "O is triangular in Eu",
         "semantics": [
             "triangle",
             "triangular",
@@ -5469,8 +5469,8 @@
     {
         "word": "mámut",
         "def": "mammoth",
-        "type": "",
-        "alignment": "",
+        "type": "Entity",
+        "alignment": "O is a mammoth",
         "semantics": [
             "mammoth",
             "behemoth",
@@ -6107,6 +6107,37 @@
         }
     },
     {
+        "word": "óbo",
+        "def": "monkey",
+        "type": "Entity",
+        "alignment": "O is a monkey",
+        "semantics": [
+            "monkey",
+            "simian",
+            "ape"
+        ],
+        "etymology": {
+            "lang": "Yoruba",
+            "word": "ọ̀bọ"
+        }
+    },
+    {
+        "word": "óbua",
+        "def": "oboe",
+        "type": "Junction",
+        "alignment": "O is an oboe made of E",
+        "semantics": [
+            "oboe",
+            "bassoon",
+            "hautboy",
+            "fagot"
+        ],
+        "etymology": {
+            "lang": "French",
+            "word": "hautbois"
+        }
+    }, 
+    {
         "word": "Óbúfe",
         "def": "Obufe",
         "type": "Entity",
@@ -6129,6 +6160,23 @@
             "lang": "by analogy; cf. «o»"
         }
     },
+    {
+        "word": "órgan",
+        "def": "organ (instrument)",
+        "type": "Junction",
+        "alignment": "O is an organ made of E",
+        "semantics": [
+            "organ",
+            "calliope",
+            "harmonium",
+            "orchestrion"
+        ],
+        "etymology": {
+            "lang": "Greek",
+            "word": "όργανο",
+            "translit": "órgano"
+        }
+    }, 
     {
         "word": "ótxa",
         "def": "tea",
