@@ -862,12 +862,13 @@
     {
         "word": "dap",
         "def": "break",
-        "type": "Junction",
-        "alignment": "O (mass) are broken pieces of E",
+        "type": "Quality",
+        "alignment": "O is broken in Eu",
         "semantics": [
+            "break",
             "broken",
-            "shattered",
-            "split",
+            "shatter",
+            "split up",
             "divided"
         ],
         "etymology": {
@@ -1015,6 +1016,28 @@
         "etymology": {
             "lang": "Latin",
             "word": "dies"
+        }
+    },
+    {
+        "word": "dik",
+        "def": "rectangle",
+        "xo": "rectangularity",
+        "ko": "blocky",
+        "type": "Quality",
+        "alignment": "O is rectangular in Eu",
+        "semantics": [
+            "rectangle",
+            "rectangular",
+            "square",
+            "perpendicular",
+            "right angle",
+            "rhombus",
+            "quadrilateral",
+            "parallelogram"
+        ],
+        "etymology": {
+            "lang": "Turkish",
+            "word": "dik"
         }
     },
     {
@@ -2991,6 +3014,35 @@
             "lang": "Korean",
             "word": "것",
             "translit": "geot"
+        }
+    },
+    {
+        "word": "gon",
+        "def": "triangle",
+        "xo": "triangularity",
+        "ko": "angular",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "triangle",
+            "triangular",
+            "angle",
+            "angular",
+            "pointed",
+            "serrated",
+            "convex",
+            "wedge",
+            "star",
+            "pentagon",
+            "hexagon",
+            "polygon",
+            "pyramid",
+            "arch"
+        ],
+        "etymology": {
+            "lang": "Greek",
+            "word": "γωνία",
+            "translit": "gōnía"
         }
     },
     {
@@ -6693,6 +6745,21 @@
         }
     },
     {
+        "word": "pliqok",
+        "def": "gas-piece",
+        "gloss": "cloud",
+        "type": "Junction",
+        "alignment": "O is a cloud of E",
+        "semantics": [
+            "cloud",
+            "plume",
+            "puff",
+            "poof",
+            "smoke",
+            "vapor"
+        ]
+    },
+    {
         "word": "plitup",
         "def": "cough",
         "gloss": "gas-throw",
@@ -7719,6 +7786,31 @@
         "type": "Illocution",
         "etymology": {
             "lang": "contraction: «qo» + «i»"
+        }
+    },
+    {
+        "word": "qok",
+        "def": "piece",
+        "xo": "whole [n.]",
+        "ko": "piecemeal",
+        "type": "Junction",
+        "alignment": "O is a piece of E",
+        "semantics": [
+            "piece",
+            "chunk",
+            "clump",
+            "cluster",
+            "bundle",
+            "unit",
+            "bunch",
+            "shard",
+            "sliver",
+            "strip"
+        ],
+        "etymology": {
+            "lang": "Korean",
+            "word": "조각",
+            "translit": "jogak"
         }
     },
     {
