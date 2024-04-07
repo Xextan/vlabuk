@@ -822,6 +822,21 @@
         ]
     },
     {
+        "word": "Dánímak",
+        "def": "Denmark",
+        "type": "Quality",
+        "alignment": "O is Danish in Eu",
+        "semantics": [
+            "Denmark",
+            "Danish",
+            "Dane"
+        ],
+        "etymology": {
+            "lang": "Danish",
+            "word": "Danmark"
+        }
+    }, 
+    {
         "word": "danxte",
         "def": "hallway",
         "gloss": "building-path",
@@ -1851,6 +1866,21 @@
             "word": "fal"
         }
     },
+    {
+        "word": "Fálástin",
+        "def": "Palestine",
+        "type": "Quality",
+        "alignment": "O is Palestinian in Eu",
+        "semantics": [
+            "Palestine",
+            "Palestinian"
+        ],
+        "etymology": {
+            "lang": "South Levantine Arabic",
+            "word": "فلسطين",
+            "translit": "falasṭīn"
+        }
+    }, 
     {
         "word": "fálózin",
         "def": "coda (Xextan)",
@@ -3308,6 +3338,39 @@
         }
     },
     {
+        "word": "Írak",
+        "def": "Iraq",
+        "type": "Quality",
+        "alignment": "O is Iraqi in Eu",
+        "semantics": [
+            "Iraq",
+            "Iraqi"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "الْعِرَاق",
+            "urlform": "العراق",
+            "translit": "al-ʕirāq"
+        }
+    },
+    {
+        "word": "Íran",
+        "def": "Iran",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "Iran",
+            "Iranian",
+            "Persian",
+            "Farsi"
+        ],
+        "etymology": {
+            "lang": "Persian",
+            "word": "ایران",
+            "translit": "irân"
+        }
+    }, 
+    {
         "word": "ja",
         "def": "modal illocution: interrogative",
         "type": "Illocution",
@@ -3335,6 +3398,22 @@
             "lang": "by analogy; cf. «ja», «je», «jo», «ju»"
         }
     },
+    {
+        "word": "Jísrá'el",
+        "def": "Israel",
+        "type": "Quality",
+        "alignment": "O is Israeli in Eu",
+        "semantics": [
+            "Israel",
+            "Israeli"
+        ],
+        "etymology": {
+            "lang": "Hebrew",
+            "word": "יִשְׂרָאֵל",
+            "urlform": "ישראל",
+            "translit": "yisra'él"
+        }
+    }, 
     {
         "word": "jizát",
         "def": "let it be",
@@ -3819,6 +3898,22 @@
         },
         "notes": "also used in positive/neutral cont."
     },
+    {
+        "word": "Kémri",
+        "def": "Wales",
+        "type": "Quality",
+        "alignment": "O is Welsh in Eu",
+        "semantics": [
+            "Wales",
+            "Welsh",
+            "Cymru",
+            "Cymraeg"
+        ],
+        "etymology": {
+            "lang": "Welsh",
+            "word": "Cymru"
+        }
+    }, 
     {
         "word": "ken",
         "def": "able",
@@ -10239,6 +10334,21 @@
         }
     },
     {
+        "word": "Úkráina",
+        "def": "Ukraine",
+        "type": "Quality",
+        "alignment": "O is Ukrainian in Eu",
+        "semantics": [
+            "Ukraine",
+            "Ukrainian"
+        ],
+        "etymology": {
+            "lang": "Ukrainian",
+            "word": "Украї́на",
+            "translit": "Ukrajína"
+        }
+    }, 
+    {
         "word": "úkúléle",
         "def": "ukulele",
         "type": "Junction",
@@ -11328,7 +11438,7 @@
     {
         "word": "Xésko",
         "def": "Czechia",
-        "type": "Cz",
+        "type": "Quality",
         "alignment": "O is Czech in Eu",
         "semantics": [
             "Czech",
@@ -13328,6 +13438,22 @@
             "urlform": "zulu"
         }
     },
+    {
+        "word": "Zúlu",
+        "def": "Zulu",
+        "type": "Quality",
+        "alignment": "O is Zulu in Eu",
+        "semantics": [
+            "Zulu",
+            "umZulu",
+            "isiZulu",
+            "amaZulu"
+        ],
+        "etymology": {
+            "lang": "Zulu",
+            "word": "Zulu"
+        }
+    }, 
     {
         "word": "zun",
         "def": "outside",
