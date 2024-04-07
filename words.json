@@ -65,6 +65,22 @@
         ]
     },
     {
+        "word": "Álqáza",
+        "def": "Algeria",
+        "type": "Quality",
+        "alignment": "O is Algerian in Eu",
+        "semantics": [
+            "Algeria",
+            "Algerian"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "الْجَزَائِر",
+            "urlform": "الجزائر",
+            "translit": "al-jazāʔir"
+        }
+    }, 
+    {
         "word": "álu",
         "def": "potato",
         "type": "Entity",
@@ -1101,10 +1117,9 @@
             "apiculture"
         ],
         "etymology": {
-            "lang": "a priori",
+            "lang": "English",
             "word": "Deseret"
-        },
-        "notes": "from the word Deseret, a word mentioned in the Book of Mormon meaning \"bee\" and believed by Latter-day Saints to have derived from an unattested ancient Semitic language"
+        }
     },
     {
         "word": "di",
@@ -4053,6 +4068,20 @@
         }
     },
     {
+        "word": "Kámérun",
+        "def": "Cameroon",
+        "type": "Quality",
+        "alignment": "O is Cameroonian in Eu",
+        "semantics": [
+            "Cameroon",
+            "Cameroonian"
+        ],
+        "etymology": {
+            "lang": "French",
+            "word": "Cameroun"
+        }
+    }, 
+    {
         "word": "kan",
         "def": "free",
         "xo": "opportunity",
@@ -4242,6 +4271,24 @@
             "word": "que"
         }
     },
+    {
+        "word": "kého",
+        "def": "filler word",
+        "type": "Null",
+        "alignment": "N: y'know...",
+        "semantics": [
+            "filler word",
+            "y'know",
+            "like",
+            "well",
+            "man"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "xe'o"
+        },
+        "notes": "um, er, well, y'know, it's just, like, a generic filler word, man"
+    }, 
     {
         "word": "kei",
         "def": "probability: possibly/maybe",
@@ -5502,6 +5549,21 @@
         "notes": "his, her, their"
     },
     {
+        "word": "Líbia",
+        "def": "Libya",
+        "type": "Quality",
+        "alignment": "O is Libyan in Eu",
+        "semantics": [
+            "Libya",
+            "Libyan"
+        ],
+        "etymology": {
+            "lang": "Libyan Arabic",
+            "word": "ليبيا",
+            "translit": "Lībya"
+        }
+    }, 
+    {
         "word": "líbra",
         "def": "pound",
         "type": "Junction",
@@ -6116,6 +6178,23 @@
         "etymology": {
             "lang": "Hungarian",
             "word": "Magyar"
+        }
+    },
+    {
+        "word": "Mágrip",
+        "def": "Morocco",
+        "type": "Quality",
+        "alignment": "O is Moroccan in Eu",
+        "semantics": [
+            "Morocco",
+            "Moroccan",
+            "Maghreb"
+        ],
+        "etymology": {
+            "lang": "Moroccan Arabic",
+            "word": "المَغْرِب",
+            "urlform": "المغرب",
+            "translit": "el-maḡrib"
         }
     }, 
     {
