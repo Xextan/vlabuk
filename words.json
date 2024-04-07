@@ -200,6 +200,21 @@
         "notes": "proper name (n.): la Áustrália"
     },
     {
+        "word": "Áuté'á",
+        "def": "New Zealand",
+        "type": "Quality",
+        "alignment": "O is New Zealand in Eu",
+        "semantics": [
+            "New Zealand",
+            "Aotearoa",
+            "Kiwi"
+        ],
+        "etymology": {
+            "lang": "Maori",
+            "word": "Aotearoa"
+        }
+    }, 
+    {
         "word": "Ázíja",
         "def": "Asia",
         "type": "Quality",
@@ -284,6 +299,21 @@
             "word": "ban ← bangu"
         }
     },
+    {
+        "word": "báníqo",
+        "def": "banjo",
+        "type": "Junction",
+        "alignment": "O is a banjo made of E",
+        "semantics": [
+            "banjo",
+            "bandore",
+            "banjolele"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "banjo"
+        }
+    }, 
     {
         "word": "banfla",
         "def": "grammar",
@@ -1253,6 +1283,23 @@
             "grassland"
         ]
     },
+    {
+        "word": "díxéfáko",
+        "def": "whatever",
+        "type": "Null",
+        "alignment": "N: Whatever.",
+        "semantics": [
+            "whatever",
+            "I don't care",
+            "who cares",
+            "idgaf",
+            "meh"
+        ],
+        "etymology": {
+            "lang": "Lojban (dialectal)",
+            "word": "jdicefako"
+        }
+    }, 
     {
         "word": "do",
         "def": "bind n. phrase to predicate (nominative)",
@@ -3100,7 +3147,7 @@
         "def": "triangle",
         "xo": "triangularity",
         "ko": "angular",
-        "type": "Junction",
+        "type": "Quality",
         "alignment": "O is triangular in Eu",
         "semantics": [
             "triangle",
@@ -3432,6 +3479,22 @@
         "etymology": {
             "lang": "Icelandic",
             "word": "Ísland"
+        }
+    },
+    {
+        "word": "Ītália",
+        "def": "Italy",
+        "type": "Quality",
+        "alignment": "O is Italian in Eu",
+        "semantics": [
+            "Italy",
+            "Italian",
+            "Latin",
+            "Roman"
+        ],
+        "etymology": {
+            "lang": "Italian",
+            "word": "Italia"
         }
     }, 
     {
@@ -4218,6 +4281,22 @@
         "notes": "coll. word for all invertebrates (non-taxonomic)"
     },
     {
+        "word": "kítára",
+        "def": "guitar",
+        "type": "Junction",
+        "alignment": "O is a guitar made of E",
+        "semantics": [
+            "guitar",
+            "guitarron"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "قِيثَارَة",
+            "urlform": "قيثارة",
+            "translit": "qīṯāra"
+        }
+    }, 
+    {
         "word": "kle",
         "def": "mercy",
         "xo": "mercy (n.)",
@@ -4277,6 +4356,38 @@
             "word": "kou"
         }
     },
+    {
+        "word": "kójóte",
+        "def": "coyote",
+        "type": "Entity",
+        "alignment": "O is a coyote",
+        "semantics": [
+            "coyote",
+            "prairie wolf",
+            "desert wolf"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "coyote"
+        }
+    }, 
+    {
+        "word": "kóko",
+        "def": "chicken",
+        "type": "Entity",
+        "alignment": "O is a chicken",
+        "semantics": [
+            "chicken",
+            "hen",
+            "fowl",
+            "rooster",
+            "cock"
+        ],
+        "etymology": {
+            "lang": "Esperanto",
+            "word": "koko"
+        }
+    }, 
     {
         "word": "kol",
         "def": "easy",
@@ -6194,6 +6305,21 @@
         ]
     },
     {
+        "word": "nokvekfuk",
+        "def": "pants",
+        "gloss": "foot-limb-clothing",
+        "type": "Junction",
+        "alignment": "O are pants made of E",
+        "semantics": [
+            "pants",
+            "trousers",
+            "leggings",
+            "pantaloons",
+            "slacks",
+            "chinos"
+        ]
+    },
+    {
         "word": "nóno",
         "def": "reflection (poetic)",
         "type": "Quality",
@@ -6441,6 +6567,23 @@
             "lang": "by analogy; cf. «o»"
         }
     },
+    {
+        "word": "óvan",
+        "def": "sheep",
+        "type": "Entity",
+        "alignment": "O is a sheep",
+        "semantics": [
+            "sheep",
+            "lamb",
+            "ewe",
+            "ram",
+            "ovine"
+        ],
+        "etymology": {
+            "lang": "Serbo-Croatian",
+            "word": "ovan"
+        }
+    }, 
     {
         "word": "Óxénia",
         "def": "Oceania",
@@ -7146,6 +7289,22 @@
             "display"
         ]
     },
+    {
+        "word": "Pórtúgal",
+        "def": "Portugal",
+        "type": "Quality",
+        "alignment": "O is Portuguese in Eu",
+        "semantics": [
+            "Portugal",
+            "Portuguese",
+            "Lusitania",
+            "Lusophone"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "Portugal"
+        }
+    }, 
     {
         "word": "pot",
         "def": "similar",
@@ -8633,7 +8792,7 @@
         }
     },
     {
-        "word": "Sílóvénia",
+        "word": "Sílóven",
         "def": "Slovenia",
         "type": "Quality",
         "alignment": "O is Slovene in Eu",
@@ -9005,6 +9164,20 @@
         }
     },
     {
+        "word": "soddinsit",
+        "def": "cult",
+        "gloss": "secret-holy-system",
+        "type": "Quality",
+        "alignment": "O is a cult of Eu",
+        "semantics": [
+            "cult",
+            "sect",
+            "occult",
+            "witchcraft",
+            "secret combinations"
+        ]
+    },
+    {
         "word": "soi",
         "def": "focus emphasis",
         "type": "Modifier",
@@ -9343,6 +9516,24 @@
             "word": "so'i"
         }
     },
+    {
+        "word": "suínu",
+        "def": "pig",
+        "type": "Entity",
+        "alignment": "O is a pig",
+        "semantics": [
+            "pig",
+            "hog",
+            "swine",
+            "boar",
+            "porcine",
+            "pork"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "suino"
+        }
+    }, 
     {
         "word": "sun",
         "def": "reside",
@@ -10328,6 +10519,22 @@
         }
     },
     {
+        "word": "Túrkíje",
+        "def": "Turkey",
+        "type": "Quality",
+        "alignment": "O is Turkish in Eu",
+        "semantics": [
+            "Turkey",
+            "Türkiye",
+            "Turkish",
+            "Turk"
+        ],
+        "etymology": {
+            "lang": "Turkish",
+            "word": "Türkiye"
+        }
+    }, 
+    {
         "word": "tut",
         "def": "whole",
         "xo": "entirety",
@@ -10891,6 +11098,34 @@
         "notes": "\"...and you\""
     },
     {
+        "word": "víbráfon",
+        "def": "vibraphone",
+        "type": "Junction",
+        "alignment": "O is a vibraphone made of E",
+        "semantics": [
+            "vibraphone",
+            "vibes"
+        ],
+        "etymology": {
+            "lang": "French",
+            "word": "vibraphone"
+        }
+    }, 
+    {
+        "word": "Viéti",
+        "def": "Vietnam",
+        "type": "Quality",
+        "alignment": "O is Vietnamese in Eu",
+        "semantics": [
+            "Vietnamese",
+            "Viet"
+        ],
+        "etymology": {
+            "lang": "Vietnamese",
+            "word": "Việt Nam"
+        }
+    }, 
+    {
         "word": "vip",
         "def": "choose",
         "xo": "choice (R)",
@@ -11137,6 +11372,21 @@
             "saudade"
         ]
     },
+    {
+        "word": "vólik",
+        "def": "wolf",
+        "type": "Entity",
+        "alignment": "O is a wolf",
+        "semantics": [
+            "wolf",
+            "lupine"
+        ],
+        "etymology": {
+            "lang": "Russian",
+            "word": "волк",
+            "translit": "volk"
+        }
+    }, 
     {
         "word": "vu",
         "def": "discourse terminator",
@@ -11482,6 +11732,20 @@
         }
     },
     {
+        "word": "xékítau",
+        "def": "tcekitau",
+        "type": "Junction",
+        "alignment": "O is tcekitau of E",
+        "semantics": [
+            "tcekitau",
+            "particle swap"
+        ],
+        "etymology": {
+            "lang": "Lojban (dialectal)",
+            "word": "tcekitau"
+        }
+    }, 
+    {
         "word": "xel",
         "def": "full",
         "xo": "fullness",
@@ -11571,6 +11835,21 @@
         ],
         "notes": "cf. «zalxen»"
     },
+    {
+        "word": "xénit",
+        "def": "wheat",
+        "type": "Entity",
+        "alignment": "O is wheat",
+        "semantics": [
+            "wheat",
+            "durum",
+            "semolina"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "pšenice"
+        }
+    }, 
     {
         "word": "xep",
         "def": "divide",
