@@ -38,7 +38,6 @@
 }
 input[type="text"] {
     font: inherit;
-    width: 300px;
 }
 .entry {
     background-color: #0001;
