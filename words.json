@@ -4746,6 +4746,20 @@
         }
     },
     {
+        "word": "kózel",
+        "def": "goat",
+        "type": "Entity",
+        "alignment": "O is a goat",
+        "semantics": [
+            "goat",
+            "caprine"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "kozel"
+        }
+    }, 
+    {
         "word": "Krísto",
         "def": "Christian",
         "type": "Quality",
@@ -9707,6 +9721,19 @@
             "lang": "Czech",
             "word": "spát"
         }
+    },
+    {
+        "word": "spadan",
+        "def": "hotel",
+        "gloss": "sleep-building",
+        "type": "Junction",
+        "alignment": "O is a hotel of E",
+        "semantics": [
+            "hotel",
+            "motel",
+            "inn",
+            "bed and breakfast"
+        ]
     },
     {
         "word": "spalil",
