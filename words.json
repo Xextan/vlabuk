@@ -2231,7 +2231,7 @@
     {
         "word": "fenpokkun",
         "def": "sister",
-        "gloss": "female-child-togehter",
+        "gloss": "female-child-together",
         "type": "Junction",
         "alignment": "O is sister of E",
         "semantics": [
