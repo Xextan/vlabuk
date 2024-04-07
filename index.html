@@ -25,6 +25,7 @@
             <a href="https://docs.google.com/spreadsheets/d/1eR_NQPv9CY-d9L8y2VW-5YbLbr-_IhpM">Spreadsheet</a> (slowly migrating here)
         </p>
         <input type="text" id="search" />
+        <span id="len"></span>
         <p>
             <!-- ↑ this will do things soon i promise! in the meantime here's all the words in the database so far -->
         </p>
@@ -36,10 +37,10 @@
             });
             document.getElementById("search").addEventListener("input", function() {
                 let q = document.getElementById("search").value.toLowerCase();
+                let r = search(q).sort((a, b) => b[1] - a[1]).map(e => htmlify(e[0]));
                 document.getElementById("results").innerHTML = "";
-                document.getElementById("results").append(
-                    ...search(q).sort((a, b) => b[1] - a[1]).map(e => htmlify(e[0]))
-                );
+                document.getElementById("results").append(...r);
+                document.getElementById("len").innerHTML = r.length + " results";
             });
             function deaccent(s) {
                 return s.replace(/[‘’]/g, "'").replace(/[áãâ]/g, "a").replace(/[éẽê]/g, "e").replace(/[íĩî]/g, "i").replace(/[óõô]/g, "o").replace(/[úũû]/g, "u").replace(/[ýỹŷ]/g, "y");
