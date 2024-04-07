@@ -2159,9 +2159,33 @@
     },
     {
         "word": "fendze fendze",
-        "def": "grandmother",
+        "def": "maternal grandmother",
         "gloss": "mother mother",
         "type": "Junction-Junction",
+        "alignment": "O is maternal grandmother of E",
+        "semantics": [
+            "maternal grandmother",
+            "grandmother",
+            "grandma"
+        ]
+    },
+    {
+        "word": "fendze nandze",
+        "def": "paternal grandmother",
+        "gloss": "mother father",
+        "type": "Junction-Junction",
+        "alignment": "O is paternal grandmother of E",
+        "semantics": [
+            "paternal grandmother",
+            "grandmother",
+            "grandma"
+        ]
+    },
+    {
+        "word": "fendzedze",
+        "def": "grandmother",
+        "gloss": "female-parent-parent",
+        "type": "Junction",
         "alignment": "O is grandmother of E",
         "semantics": [
             "grandmother",
@@ -6130,12 +6154,25 @@
         ]
     },
     {
+        "word": "nandze fendze",
+        "def": "maternal grandfather",
+        "gloss": "father mother",
+        "type": "Junction-Junction",
+        "alignment": "O is maternal grandfather of E",
+        "semantics": [
+            "maternal grandfather",
+            "grandfather",
+            "grandpa"
+        ]
+    },
+    {
         "word": "nandze nandze",
-        "def": "grandfather",
+        "def": "paternal grandfather",
         "gloss": "father father",
         "type": "Junction-Junction",
-        "alignment": "O is grandfather of E",
+        "alignment": "O is paternal grandfather of E",
         "semantics": [
+            "paternal grandfather",
             "grandfather",
             "grandpa"
         ]
@@ -6152,6 +6189,17 @@
             "duke",
             "baron",
             "earl"
+        ]
+    },
+    {
+        "word": "nandzedze",
+        "def": "grandfather",
+        "gloss": "male-parent-parent",
+        "type": "Junction",
+        "alignment": "O is grandfather of E",
+        "semantics": [
+            "grandfather",
+            "grandpa"
         ]
     },
     {
