@@ -200,7 +200,7 @@
         "notes": "proper name (n.): la Áustrália"
     },
     {
-        "word": "Áuté'á",
+        "word": "Áutéjárówa",
         "def": "New Zealand",
         "type": "Quality",
         "alignment": "O is New Zealand in Eu",
@@ -2552,6 +2552,24 @@
         "notes": "-ish, -ishness"
     },
     {
+        "word": "fú'e",
+        "def": "flute",
+        "type": "Junction",
+        "alignment": "O is a flute made of E",
+        "semantics": [
+            "flute",
+            "whistle",
+            "pipes",
+            "recorder"
+        ],
+        "etymology": {
+            "lang": "Japanese",
+            "word": "笛",
+            "translit": "fue"
+        }
+    }, 
+
+    {
         "word": "fuk",
         "def": "clothing",
         "type": "Entity",
@@ -3170,6 +3188,39 @@
             "word": "γωνία",
             "translit": "gōnía"
         }
+    },
+    {
+        "word": "gonbol",
+        "def": "tetrahedron",
+        "gloss": "triangle-sphere",
+        "type": "Junction",
+        "alignment": "O is a tetrahedron of E",
+        "semantics": [
+            "tetrahedron",
+            "triangular pyramid"
+        ]
+    },
+    {
+        "word": "gonkup",
+        "def": "wedge",
+        "gloss": "triangle-cube",
+        "type": "Junction",
+        "alignment": "O is a wedge of E",
+        "semantics": [
+            "wedge",
+            "triangular prism"
+        ]
+    },
+    {
+        "word": "gonxan",
+        "def": "pyramid",
+        "gloss": "triangle-mountain",
+        "type": "Junction",
+        "alignment": "O is a pyramid of E",
+        "semantics": [
+            "pyramid",
+            "pyramidal"
+        ]
     },
     {
         "word": "gop",
@@ -7128,6 +7179,20 @@
         }
     },
     {
+        "word": "pintak",
+        "def": "berate",
+        "gloss": "anger-talk",
+        "type": "Junction",
+        "alignment": "O berates E",
+        "semantics": [
+            "berate",
+            "harass",
+            "quarrel with",
+            "fight with",
+            "argue with"
+        ]
+    },
+    {
         "word": "pip",
         "def": "pipe",
         "type": "Junction",
@@ -10215,6 +10280,38 @@
         ]
     },
     {
+        "word": "trónbon",
+        "def": "trombone",
+        "type": "Junction",
+        "alignment": "O is a trombone made of E",
+        "semantics": [
+            "trombone",
+            "bone"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "trombón"
+        }
+    }, 
+
+    {
+        "word": "trónpet",
+        "def": "trumpet",
+        "type": "Junction",
+        "alignment": "O is a trumpet made of E",
+        "semantics": [
+            "trumpet",
+            "bugle",
+            "horn",
+            "trump"
+        ],
+        "etymology": {
+            "lang": "Dutch",
+            "word": "trompet"
+        }
+    }, 
+
+    {
         "word": "tsa",
         "def": "plant",
         "type": "Entity",
@@ -10569,6 +10666,19 @@
             "lang": "Scottish Gaelic",
             "word": "dealan"
         }
+    },
+    {
+        "word": "txatan",
+        "def": "power source",
+        "gloss": "electric-source",
+        "type": "Junction",
+        "alignment": "O is a source of power E",
+        "semantics": [
+            "power source",
+            "electricity source",
+            "power outlet",
+            "electrical outlet"
+        ]
     },
     {
         "word": "txe",
@@ -11686,6 +11796,7 @@
         "semantics": [
             "mountain",
             "hill",
+            "cone",
             "convex",
             "mound",
             "lump",
@@ -12588,6 +12699,31 @@
         ]
     },
     {
+        "word": "xpisit",
+        "def": "game",
+        "gloss": "play-system",
+        "type": "Quality",
+        "alignment": "O is a game of Eu",
+        "semantics": [
+            "game",
+            "set",
+            "match"
+        ]
+    },
+    {
+        "word": "xpisit loktik",
+        "def": "video game",
+        "gloss": "game computer",
+        "type": "Quality",
+        "alignment": "O is a video game of Eu",
+        "semantics": [
+            "video game",
+            "computer game",
+            "arcade game",
+            "gaming"
+        ]
+    },
+    {
         "word": "xpixo",
         "def": "play [n.]",
         "gloss": "play-PAT",
@@ -12804,6 +12940,20 @@
             "lang": "Lojban",
             "word": "cuk ← cukla"
         }
+    },
+    {
+        "word": "xukkup",
+        "def": "cylinder",
+        "gloss": "circle-cube",
+        "type": "Junction",
+        "alignment": "O is a cylinder of E",
+        "semantics": [
+            "cylinder",
+            "cylindrical",
+            "barrel",
+            "pipe",
+            "column"
+        ]
     },
     {
         "word": "xul",
