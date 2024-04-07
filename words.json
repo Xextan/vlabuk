@@ -144,6 +144,21 @@
         "notes": "proper name (n.): la Ámríka Tunkut"
     },
     {
+        "word": "ángel",
+        "def": "angel",
+        "type": "Quality",
+        "alignment": "O is angelic in Eu",
+        "semantics": [
+            "angel",
+            "angelic"
+        ],
+        "etymology": {
+            "lang": "Ancient Greek",
+            "word": "ἄγγελος",
+            "translit": "ángelos"
+        }
+    }, 
+    {
         "word": "Ántártíka",
         "def": "Antarctica",
         "type": "Quality",
@@ -1883,7 +1898,7 @@
         }
     }, 
     {
-        "word": "Énígil",
+        "word": "Éngil",
         "def": "England",
         "type": "Quality",
         "alignment": "O is English in Eu",
@@ -7127,6 +7142,44 @@
         }
     },
     {
+        "word": "panbol",
+        "def": "bread",
+        "gloss": "grain-ball",
+        "type": "Junction",
+        "alignment": "O is bread made of E",
+        "semantics": [
+            "bread",
+            "loaf",
+            "bun",
+            "roll"
+        ],
+        "notes": "general word for bread; see also  «pankup» (loaf)"
+    },
+    {
+        "word": "panbollap",
+        "def": "bread slice",
+        "gloss": "grain-ball-sheet",
+        "type": "Junction",
+        "alignment": "O is a slice of bread E",
+        "semantics": [
+            "bread slice",
+            "toast"
+        ],
+        "notes": "cf. «lap de panbol» (slice of bread)"
+    },
+    {
+        "word": "pankup",
+        "def": "loaf",
+        "gloss": "grain-cube",
+        "type": "Junction",
+        "alignment": "O is a loaf of bread made of E",
+        "semantics": [
+            "loaf",
+            "bread"
+        ],
+        "notes": "typically cuboid; see also «panbol» (bread)"
+    },
+    {
         "word": "panpul",
         "def": "flour",
         "gloss": "grain-powder",
@@ -7925,6 +7978,26 @@
             "inquire"
         ]
     },
+    {
+        "word": "qábu",
+        "def": "devil",
+        "type": "Quality",
+        "alignment": "O is devilish in Eu",
+        "semantics": [
+            "devil",
+            "the Devil",
+            "Satan",
+            "demon",
+            "diabolical",
+            "hell",
+            "inferno"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "diabo"
+        },
+        "notes": "see also «la Qábu» (the Devil)"
+    }, 
     {
         "word": "qai",
         "def": "illocution: OR",
