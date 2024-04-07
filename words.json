@@ -1239,6 +1239,23 @@
         }
     },
     {
+        "word": "Dóixi",
+        "def": "Germany",
+        "type": "Quality",
+        "alignment": "O is German in Eu",
+        "semantics": [
+            "German",
+            "Germany",
+            "Germanic",
+            "Teutonic",
+            "Deustch"
+        ],
+        "etymology": {
+            "lang": "German",
+            "word": "Deutsch"
+        }
+    }, 
+    {
         "word": "dol",
         "def": "pain",
         "xo": "pain (n.)",
@@ -6795,8 +6812,8 @@
     },
     {
         "word": "pliqok",
-        "def": "gas-piece",
-        "gloss": "cloud",
+        "def": "cloud",
+        "gloss": "gas-piece",
         "type": "Junction",
         "alignment": "O is a cloud of E",
         "semantics": [
@@ -6911,6 +6928,20 @@
             "word": "podobný"
         }
     },
+    {
+        "word": "Póuska",
+        "def": "Poland",
+        "type": "Quality",
+        "alignment": "O is Polish in Eu",
+        "semantics": [
+            "Poland",
+            "Polish"
+        ],
+        "etymology": {
+            "lang": "Polish",
+            "word": "Polska"
+        }
+    }, 
     {
         "word": "pu",
         "def": "division operator",
@@ -7933,6 +7964,22 @@
         }
     },
     {
+        "word": "Rósia",
+        "def": "Russia",
+        "type": "Quality",
+        "alignment": "O is Russian in Eu",
+        "semantics": [
+            "Russia",
+            "Russian",
+            "Rus"
+        ],
+        "etymology": {
+            "lang": "Russian",
+            "word": "Росси́я",
+            "translit": "Rossíja"
+        }
+    }, 
+    {
         "word": "sai",
         "def": "general intensifier",
         "type": "Modifier",
@@ -8349,6 +8396,21 @@
             "word": "silný"
         }
     },
+    {
+        "word": "Sílóvénia",
+        "def": "Slovenia",
+        "type": "Quality",
+        "alignment": "O is Slovene in Eu",
+        "semantics": [
+            "Slovene",
+            "Slovenia",
+            "Slovenian"
+        ],
+        "etymology": {
+            "lang": "Slovene",
+            "word": "Slovẹ́nija"
+        }
+    }, 
     {
         "word": "silxo",
         "def": "strength",
@@ -11263,6 +11325,21 @@
             "word": "xebrar"
         }
     },
+    {
+        "word": "Xésko",
+        "def": "Czechia",
+        "type": "Cz",
+        "alignment": "O is Czech in Eu",
+        "semantics": [
+            "Czech",
+            "Czechia",
+            "Czech Republic"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "Česko"
+        }
+    }, 
     {
         "word": "xet",
         "def": "edge",
