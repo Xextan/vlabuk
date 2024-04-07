@@ -11561,6 +11561,18 @@
         ]
     },
     {
+        "word": "Vlabuk Xextan",
+        "def": "Vlabuk Xextan",
+        "gloss": "dictionary Xextan",
+        "type": "Junction-Quality",
+        "alignment": "O is the Vlabuk Xextan [Eu]",
+        "semantics": [
+            "Vlabuk Xextan",
+            "Xextan dictionary",
+            "Xexicon"
+        ]
+    },
+    {
         "word": "vlaset",
         "def": "sentence",
         "gloss": "word-group",
