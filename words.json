@@ -1676,6 +1676,23 @@
         }
     },
     {
+        "word": "dzedze",
+        "def": "grandparent",
+        "gloss": "parent-parent",
+        "type": "Junction",
+        "alignment": "O is grandparent of E",
+        "semantics": [
+            "grandparent",
+            "grandfather",
+            "grandmother",
+            "grandpa",
+            "grandma",
+            "elder",
+            "ancestor",
+            "progenitor"
+        ]
+    },
+    {
         "word": "dzetun",
         "def": "homeland",
         "gloss": "parent-land",
@@ -2126,6 +2143,32 @@
         }
     },
     {
+        "word": "fendze",
+        "def": "mother",
+        "gloss": "female-parent",
+        "type": "Junction",
+        "alignment": "O is mother of E",
+        "semantics": [
+            "mother",
+            "mom",
+            "grandmother",
+            "maternal",
+            "mama",
+            "matriarch"
+        ]
+    },
+    {
+        "word": "fendze fendze",
+        "def": "grandmother",
+        "gloss": "mother mother",
+        "type": "Junction-Junction",
+        "alignment": "O is grandmother of E",
+        "semantics": [
+            "grandmother",
+            "grandma"
+        ]
+    },
+    {
         "word": "fengingop",
         "def": "queen",
         "gloss": "female-family-govern",
@@ -2148,6 +2191,29 @@
             "matriarch",
             "matron",
             "headmistress"
+        ]
+    },
+    {
+        "word": "fenpok",
+        "def": "daughter",
+        "gloss": "female-child",
+        "type": "Junction",
+        "alignment": "O is daughter of E",
+        "semantics": [
+            "daughter",
+            "offspring"
+        ]
+    },
+    {
+        "word": "fenpokkun",
+        "def": "sister",
+        "gloss": "female-child-togehter",
+        "type": "Junction",
+        "alignment": "O is sister of E",
+        "semantics": [
+            "sister",
+            "sis",
+            "sororal"
         ]
     },
     {
@@ -6049,6 +6115,32 @@
         }
     },
     {
+        "word": "nandze",
+        "def": "father",
+        "gloss": "male-parent",
+        "type": "Junction",
+        "alignment": "O is father of E",
+        "semantics": [
+            "father",
+            "grandfather",
+            "dad",
+            "papa",
+            "paternal",
+            "patriarch"
+        ]
+    },
+    {
+        "word": "nandze nandze",
+        "def": "grandfather",
+        "gloss": "father father",
+        "type": "Junction-Junction",
+        "alignment": "O is grandfather of E",
+        "semantics": [
+            "grandfather",
+            "grandpa"
+        ]
+    },
+    {
         "word": "nangingop",
         "def": "king",
         "gloss": "male-family-govern",
@@ -6073,6 +6165,29 @@
             "father",
             "headmaster",
             "big daddy"
+        ]
+    },
+    {
+        "word": "nanpok",
+        "def": "son",
+        "gloss": "male-child",
+        "type": "Junction",
+        "alignment": "O is son of E",
+        "semantics": [
+            "son",
+            "offspring"
+        ]
+    },
+    {
+        "word": "nanpokkun",
+        "def": "brother",
+        "gloss": "male-child-together",
+        "type": "Junction",
+        "alignment": "O is brother of E",
+        "semantics": [
+            "brother",
+            "bro",
+            "fraternal"
         ]
     },
     {
@@ -7385,6 +7500,18 @@
             "lang": "Finnish",
             "word": "poika"
         }
+    },
+    {
+        "word": "pokkun",
+        "def": "sibling",
+        "gloss": "child-together",
+        "type": "Junction",
+        "alignment": "O is sibling of E",
+        "semantics": [
+            "sibling",
+            "brother",
+            "sister"
+        ]
     },
     {
         "word": "pon",
@@ -8979,6 +9106,20 @@
             "lang": "Toki Pona",
             "word": "sin"
         }
+    },
+    {
+        "word": "sinpok",
+        "def": "child",
+        "gloss": "new-child",
+        "type": "Junction",
+        "alignment": "O is a (minor) child of E",
+        "semantics": [
+            "child",
+            "young",
+            "minor",
+            "infant",
+            "immature"
+        ]
     },
     {
         "word": "sip",
