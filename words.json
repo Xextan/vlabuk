@@ -1794,6 +1794,22 @@
         "notes": "one of the Giu Senko Xilati"
     },
     {
+        "word": "éhédai",
+        "def": "do your best",
+        "type": "Null",
+        "alignment": "N: do your best!",
+        "semantics": [
+            "do your best!",
+            "break a leg!",
+            "good luck!",
+            "ganbatte!"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": ".e'e dai"
+        }
+    }, 
+    {
         "word": "ei",
         "def": "collective accusative case marker",
         "type": "Preposition",
@@ -2638,6 +2654,17 @@
         "notes": "opposite of «fuksak»"
     },
     {
+        "word": "fukxketik",
+        "def": "washing machine",
+        "gloss": "clothing-pure-machine",
+        "type": "Junction",
+        "alignment": "O is a washing machine made of E",
+        "semantics": [
+            "washing machine",
+            "laundry machine"
+        ]
+    },
+    {
         "word": "fukxki",
         "def": "undress",
         "gloss": "clothing-remove",
@@ -2793,6 +2820,19 @@
             "climb",
             "summit",
             "surmount"
+        ]
+    },
+    {
+        "word": "galxte",
+        "def": "bridge",
+        "gloss": "high-road",
+        "type": "Direction",
+        "alignment": "O is a bridge from E to A",
+        "semantics": [
+            "bridge",
+            "causeway",
+            "overpass",
+            "span"
         ]
     },
     {
@@ -4486,6 +4526,17 @@
         ]
     },
     {
+        "word": "konflutik",
+        "def": "fan",
+        "gloss": "air-flow-machine",
+        "type": "Junction",
+        "alignment": "O is a fan made of E",
+        "semantics": [
+            "fan",
+            "air conditioner"
+        ]
+    },
+    {
         "word": "konqla",
         "def": "lung",
         "gloss": "air-organ",
@@ -5034,6 +5085,18 @@
             "word": "латта",
             "translit": "latta"
         }
+    },
+    {
+        "word": "latxte",
+        "def": "ramp",
+        "gloss": "vertical-road",
+        "type": "Direction",
+        "alignment": "O is a ramp from E to A",
+        "semantics": [
+            "ramp",
+            "plane",
+            "stairs"
+        ]
     },
     {
         "word": "lau",
@@ -6553,6 +6616,21 @@
         },
         "notes": "Xextanic folk hero; also a stereotypical given name in Xextan culture"
     },
+    {
+        "word": "óhi",
+        "def": "warning",
+        "type": "Null",
+        "alignment": "N: warning!",
+        "semantics": [
+            "warning!",
+            "caution!",
+            "danger!"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": ".o'i"
+        }
+    }, 
     {
         "word": "oi",
         "def": "collective nominative case marker",
@@ -10535,6 +10613,17 @@
             "word": "Twl"
         },
         "notes": "typically refers to handheld tools and machines. for stationary machines see «tik»; for vehicles see «vak»"
+    },
+    {
+        "word": "tulxketik",
+        "def": "dishwasher",
+        "gloss": "tool-pure-machine",
+        "type": "Junction",
+        "alignment": "O is a dishwasher made of E",
+        "semantics": [
+            "dishwasher",
+            "plate washer"
+        ]
     },
     {
         "word": "tun",
