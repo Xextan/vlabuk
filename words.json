@@ -4455,6 +4455,7 @@
         "etymology": {
             "lang": "Ancient Greek",
             "word": "Χρῑστός",
+            "urlform": "Χριστός",
             "translit": "Khrīstós"
         },
         "notes": "cf. Lojban {xriso}"
@@ -5234,6 +5235,18 @@
         "gloss": "light-qualia",
         "type": "Junction",
         "alignment": "O is color of E"
+    },
+    {
+        "word": "littan",
+        "def": "light source",
+        "gloss": "light-source",
+        "type": "Junction",
+        "alignment": "O is source of light E",
+        "semantics": [
+            "light source",
+            "illumination",
+            "lamp"
+        ]
     },
     {
         "word": "littik",
@@ -6969,6 +6982,22 @@
         "etymology": {
             "lang": "Quechua",
             "word": "phiña"
+        }
+    },
+    {
+        "word": "pip",
+        "def": "pipe",
+        "type": "Junction",
+        "alignment": "O is a pipe of E",
+        "semantics": [
+            "pipe",
+            "tube",
+            "straw",
+            "duct"
+        ],
+        "etymology": {
+            "lang": "Indonesian",
+            "word": "pipa"
         }
     },
     {
@@ -9920,6 +9949,20 @@
         }
     },
     {
+        "word": "Tókípóna",
+        "def": "Toki Pona",
+        "type": "Quality",
+        "alignment": "O is Toki Pona in Eu",
+        "semantics": [
+            "Toki Pona",
+            "jan pona"
+        ],
+        "etymology": {
+            "lang": "Toki Pona",
+            "word": "toki pona"
+        }
+    }, 
+    {
         "word": "tol",
         "def": "shake",
         "type": "Junction",
@@ -12547,6 +12590,19 @@
             "lang": "Loglan",
             "word": "cut ← cutri"
         }
+    },
+    {
+        "word": "xuttan",
+        "def": "water source",
+        "gloss": "water-source",
+        "type": "Junction",
+        "alignment": "O is source of water E",
+        "semantics": [
+            "water source",
+            "spring",
+            "aquifer",
+            "plumbing"
+        ]
     },
     {
         "word": "xutfli",
