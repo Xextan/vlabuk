@@ -317,6 +317,22 @@
         "notes": "Sense \"door\" refers to the physical object, not the space/entryway («ziddil», «goddil»)"
     },
     {
+        "word": "Bárat",
+        "def": "India",
+        "type": "Quality",
+        "alignment": "O is Indian in Eu",
+        "semantics": [
+            "India",
+            "Indian",
+            "Hindu"
+        ],
+        "etymology": {
+            "lang": "Hindi",
+            "word": "भारत",
+            "translit": "bhārat"
+        }
+    }, 
+    {
         "word": "bat",
         "def": "seed",
         "type": "Entity",
@@ -601,8 +617,24 @@
             "lang": "Mandarin",
             "word": "不",
             "translit": "bù"
+            
         }
     },
+    {
+        "word": "Búda",
+        "def": "Buddhist",
+        "type": "Quality",
+        "alignment": "O is Buddhist in Eu",
+        "semantics": [
+            "Buddhist",
+            "Buddha dharma"
+        ],
+        "etymology": {
+            "lang": "Sanskrit",
+            "word": "बुद्ध",
+            "translit": "buddha"
+        }
+    }, 
     {
         "word": "bui",
         "def": "numeral: 8",
@@ -3369,6 +3401,38 @@
             "word": "ایران",
             "translit": "irân"
         }
+    },
+    {
+        "word": "Íslámi",
+        "def": "Islam",
+        "type": "Quality",
+        "alignment": "O is Islamic in Eu",
+        "semantics": [
+            "Islam",
+            "Islamic",
+            "Muslim",
+            "Mohammedan"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "إِسْلَام",
+            "urlform": "إسلام",
+            "translit": "ʔislām"
+        }
+    },
+    {
+        "word": "Íslan",
+        "def": "Iceland",
+        "type": "Quality",
+        "alignment": "O is Icelandic in Eu",
+        "semantics": [
+            "Iceland",
+            "Icelandic"
+        ],
+        "etymology": {
+            "lang": "Icelandic",
+            "word": "Ísland"
+        }
     }, 
     {
         "word": "ja",
@@ -3390,6 +3454,23 @@
             "link": "https://wiki.lojban.io/New_Sentence_Links"
         }
     },
+    {
+        "word": "Jéhúdi",
+        "def": "Jewish",
+        "type": "Quality",
+        "alignment": "O is Jewish in Eu",
+        "semantics": [
+            "Jew",
+            "Jewish",
+            "Judaic"
+        ],
+        "etymology": {
+            "lang": "Hebrew",
+            "word": "יְהוּדִי",
+            "urlform": "יהודי",
+            "translit": "yehudí"
+        }
+    }, 
     {
         "word": "ji",
         "def": "modal illocution: performative",
@@ -4361,6 +4442,23 @@
             "word": "kočka"
         }
     },
+    {
+        "word": "Krísto",
+        "def": "Christian",
+        "type": "Quality",
+        "alignment": "O is Christian in Eu",
+        "semantics": [
+            "Christian",
+            "Christ",
+            "the Church"
+        ],
+        "etymology": {
+            "lang": "Ancient Greek",
+            "word": "Χρῑστός",
+            "translit": "Khrīstós"
+        },
+        "notes": "cf. Lojban {xriso}"
+    }, 
     {
         "word": "ku",
         "def": "long scope clause terminator",
@@ -6288,6 +6386,20 @@
             "lang": "Greek",
             "word": "όργανο",
             "translit": "órgano"
+        }
+    },
+    {
+        "word": "Órtódok",
+        "def": "Orthodox",
+        "type": "Quality",
+        "alignment": "O is Orthodox (Christian) in Eu",
+        "semantics": [
+            "Orthodox",
+            "Eastern Orthodox"
+        ],
+        "etymology": {
+            "lang": "Turkish",
+            "word": "Ortodoks"
         }
     }, 
     {
