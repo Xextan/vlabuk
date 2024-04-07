@@ -3356,8 +3356,8 @@
     {
         "word": "Íran",
         "def": "Iran",
-        "type": "",
-        "alignment": "",
+        "type": "Quality",
+        "alignment": "O is Iranian in Eu",
         "semantics": [
             "Iran",
             "Iranian",
