@@ -162,7 +162,7 @@
                     url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
                 } else if (e.lang == "Loglan") {
                     url = "https://randall-holmes.github.io/Loglan/Dictionary/L-to-E-TDR.html#" + (e.urlform || e.word.split(" ").slice(-1)[0]);
-                } else if (e.lang.endsWith("Lojban")) {
+                } else if (e.lang.includes("Lojban")) {
                     url = "https://sisku.org?en#" + (e.urlform || e.word.split(" ").slice(-1)[0]);
                 } else if (e.lang == "Klingon") {
                     url = "https://klingon.wiki/Word/" + (e.urlform || e.word);
