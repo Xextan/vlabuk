@@ -191,6 +191,24 @@
         }
     },
     {
+        "word": "ápóstol",
+        "def": "apostle",
+        "type": "Quality",
+        "alignment": "O is an apostle of Eu",
+        "semantics": [
+            "apostle",
+            "messenger",
+            "prophet",
+            "preacher"
+        ],
+        "etymology": {
+            "lang": "Ancient Greek",
+            "word": "ᾰ̓πόστολος",
+            "urlform": "ἀπόστολος",
+            "translit": "apóstolos"
+        }
+    }, 
+    {
         "word": "Árábi",
         "def": "Arab",
         "type": "Quality",
@@ -5293,6 +5311,21 @@
             "strip"
         ]
     },
+    {
+        "word": "láska",
+        "def": "grace",
+        "type": "Quality",
+        "alignment": "O is grace [of God] in Eu",
+        "semantics": [
+            "grace",
+            "mercy",
+            "divine favor"
+        ],
+        "etymology": {
+            "lang": "Czech",
+            "word": "láska"
+        }
+    }, 
     {
         "word": "lat",
         "def": "vertical",
