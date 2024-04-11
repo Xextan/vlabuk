@@ -3913,6 +3913,23 @@
         }
     },
     {
+        "word": "jy",
+        "def": "feline illocution: meow",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "onomatopoeic: meow/nyaa"
+        },
+        "notes": "please don't actually use this lol"
+    },
+    {
+        "word": "jỹ",
+        "def": "meow",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "onomatopoeic: meow/nyaa"
+        }
+    },
+    {
         "word": "Júkei",
         "def": "United Kingdom",
         "type": "Quality",
@@ -13876,6 +13893,25 @@
             "lang": "backformed from «zal»"
         },
         "notes": "older texts may use «bu»"
+    },
+    {
+        "word": "y",
+        "def": "nonverbal utterance",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "Lojban",
+            "word": ".y"
+        },
+        "notes": "Marginal phoneme typically realized as the schwa /ə/, but also capable of standing in for any vowel not found in Xextan. On its own it may be used to denote a filler word (\"uh\", \"um\", \"er\") or a nonverbal utterance (cry, scream, yelp, bark, etc.) while in particle-shaped syllables (e.g. «py», «ty») it creates a free modifier representing a generic onomatopoeia"
+    },
+    {
+        "word": "za",
+        "def": "context/location",
+        "type": "Preposition",
+        "etymology": {
+            "lang": "backformed from «zal»"
+        },
+        "notes": "older texts may use «bu», as this word was reassigned late into the development of pre-alpha Xextan"
     },
     {
         "word": "zak",
