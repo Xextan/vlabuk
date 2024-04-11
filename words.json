@@ -11264,7 +11264,8 @@
             "lang": "Swahili",
             "word": "-tupa",
             "urlform": "tupa"
-        }
+        },
+        "notes": "\"What goes up, must come down.\"  Use of the dative case here implies that E actually makes contact with A; for general sense of \"throw at\", use «fai»"
     },
     {
         "word": "Túrkíje",
@@ -12211,6 +12212,35 @@
             "artillery",
             "bombardment"
         ]
+    },
+    {
+        "word": "vutpip",
+        "def": "gun",
+        "gloss": "explode-pipe",
+        "type": "Junction",
+        "alignment": "O is a gun made of E",
+        "semantics": [
+            "gun",
+            "firearm",
+            "arm",
+            "cannon",
+            "artillery"
+        ]
+    },
+    {
+        "word": "vuttup",
+        "def": "fire [weapon]",
+        "gloss": "explode-throw",
+        "type": "Direction",
+        "alignment": "O fires projectile E, striking A",
+        "semantics": [
+            "fire",
+            "shoot",
+            "blast",
+            "barrage",
+            "bombard"
+        ],
+        "notes": "E = projectile; use «fo» to specify weapon"
     },
     {
         "word": "vutxo",
