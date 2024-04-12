@@ -79,7 +79,7 @@
             "urlform": "الجزائر",
             "translit": "al-jazāʔir"
         }
-    }, 
+    },
     {
         "word": "álu",
         "def": "potato",
@@ -173,7 +173,7 @@
             "word": "ἄγγελος",
             "translit": "ángelos"
         }
-    }, 
+    },
     {
         "word": "Ántártíka",
         "def": "Antarctica",
@@ -207,7 +207,7 @@
             "urlform": "ἀπόστολος",
             "translit": "apóstolos"
         }
-    }, 
+    },
     {
         "word": "Árábi",
         "def": "Arab",
@@ -262,7 +262,7 @@
             "lang": "Maori",
             "word": "Aotearoa"
         }
-    }, 
+    },
     {
         "word": "Ázíja",
         "def": "Asia",
@@ -349,6 +349,13 @@
         }
     },
     {
+        "word": "banfla",
+        "def": "grammar",
+        "gloss": "language-rule",
+        "type": "Junction",
+        "alignment": "O is the grammar of E"
+    },
+    {
         "word": "báníqo",
         "def": "banjo",
         "type": "Junction",
@@ -362,13 +369,6 @@
             "lang": "English",
             "word": "banjo"
         }
-    }, 
-    {
-        "word": "banfla",
-        "def": "grammar",
-        "gloss": "language-rule",
-        "type": "Junction",
-        "alignment": "O is the grammar of E"
     },
     {
         "word": "bankok",
@@ -410,7 +410,7 @@
             "word": "भारत",
             "translit": "bhārat"
         }
-    }, 
+    },
     {
         "word": "bat",
         "def": "seed",
@@ -669,7 +669,7 @@
             "lang": "Setswana",
             "word": "Botswana"
         }
-    }, 
+    },
     {
         "word": "bot",
         "def": "prevent",
@@ -710,7 +710,6 @@
             "lang": "Mandarin",
             "word": "不",
             "translit": "bù"
-            
         }
     },
     {
@@ -727,7 +726,7 @@
             "word": "बुद्ध",
             "translit": "buddha"
         }
-    }, 
+    },
     {
         "word": "bui",
         "def": "numeral: 8",
@@ -960,7 +959,7 @@
             "lang": "Danish",
             "word": "Danmark"
         }
-    }, 
+    },
     {
         "word": "danxte",
         "def": "hallway",
@@ -1361,7 +1360,7 @@
             "lang": "Lojban (dialectal)",
             "word": "jdicefako"
         }
-    }, 
+    },
     {
         "word": "do",
         "def": "bind n. phrase to predicate (nominative)",
@@ -1410,7 +1409,7 @@
             "lang": "German",
             "word": "Deutsch"
         }
-    }, 
+    },
     {
         "word": "dol",
         "def": "pain",
@@ -1887,7 +1886,7 @@
             "lang": "Lojban",
             "word": ".e'e dai"
         }
-    }, 
+    },
     {
         "word": "ei",
         "def": "collective accusative case marker",
@@ -1929,7 +1928,7 @@
             "word": "Ελλάδα",
             "translit": "Elláda"
         }
-    }, 
+    },
     {
         "word": "Éngil",
         "def": "England",
@@ -1964,20 +1963,6 @@
         }
     },
     {
-        "word": "Ésti",
-        "def": "Estonia",
-        "type": "Quality",
-        "alignment": "O is Estonian in Eu",
-        "semantics": [
-            "Estonia",
-            "Estonian"
-        ],
-        "etymology": {
-            "lang": "Estonian",
-            "word": "Eesti"
-        }
-    }, 
-    {
         "word": "Éspéránto",
         "def": "Esperanto",
         "type": "Quality",
@@ -1991,6 +1976,20 @@
         "etymology": {
             "lang": "Esperanto",
             "word": "Esperanto"
+        }
+    },
+    {
+        "word": "Ésti",
+        "def": "Estonia",
+        "type": "Quality",
+        "alignment": "O is Estonian in Eu",
+        "semantics": [
+            "Estonia",
+            "Estonian"
+        ],
+        "etymology": {
+            "lang": "Estonian",
+            "word": "Eesti"
         }
     },
     {
@@ -2086,7 +2085,7 @@
             "word": "فلسطين",
             "translit": "falasṭīn"
         }
-    }, 
+    },
     {
         "word": "fálózin",
         "def": "coda (Xextan)",
@@ -2767,8 +2766,7 @@
             "word": "笛",
             "translit": "fue"
         }
-    }, 
-
+    },
     {
         "word": "fuk",
         "def": "clothing",
@@ -3771,7 +3769,7 @@
             "lang": "Italian",
             "word": "Italia"
         }
-    }, 
+    },
     {
         "word": "ja",
         "def": "modal illocution: interrogative",
@@ -3808,7 +3806,7 @@
             "urlform": "יהודי",
             "translit": "yehudí"
         }
-    }, 
+    },
     {
         "word": "ji",
         "def": "modal illocution: performative",
@@ -3832,7 +3830,7 @@
             "urlform": "ישראל",
             "translit": "yisra'él"
         }
-    }, 
+    },
     {
         "word": "jizát",
         "def": "let it be",
@@ -3913,23 +3911,6 @@
         }
     },
     {
-        "word": "jy",
-        "def": "feline illocution: meow",
-        "type": "Adverb",
-        "etymology": {
-            "lang": "onomatopoeic: meow/nyaa"
-        },
-        "notes": "please don't actually use this lol"
-    },
-    {
-        "word": "jỹ",
-        "def": "meow",
-        "type": "Adverb",
-        "etymology": {
-            "lang": "onomatopoeic: meow/nyaa"
-        }
-    },
-    {
         "word": "Júkei",
         "def": "United Kingdom",
         "type": "Quality",
@@ -3956,6 +3937,23 @@
         "etymology": {
             "lang": "English",
             "word": "Yule"
+        }
+    },
+    {
+        "word": "jy",
+        "def": "feline illocution: meow",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "onomatopoeic: meow/nyaa"
+        },
+        "notes": "please don't actually use this lol"
+    },
+    {
+        "word": "jỹ",
+        "def": "meow",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "onomatopoeic: meow/nyaa"
         }
     },
     {
@@ -4115,7 +4113,7 @@
             "lang": "French",
             "word": "Cameroun"
         }
-    }, 
+    },
     {
         "word": "kan",
         "def": "free",
@@ -4193,7 +4191,7 @@
             "lang": "Spanish",
             "word": "capibara"
         }
-    }, 
+    },
     {
         "word": "kat",
         "def": "hard",
@@ -4296,7 +4294,7 @@
             "lang": "a priori; cf. «xextanval» (Old Xextan \"Xextan words\") → «xával» (\"rice\") → «kával» (\"horse\") → «lákáxol» (\"tapir\") → la káxol → la kaxxol"
         },
         "notes": "Xextan alphasyllabary inspired by Hangul"
-    }, 
+    },
     {
         "word": "ke",
         "def": "relative clause marker",
@@ -4323,7 +4321,7 @@
             "word": "xe'o"
         },
         "notes": "um, er, well, y'know, it's just, like, a generic filler word, man"
-    }, 
+    },
     {
         "word": "kei",
         "def": "probability: possibly/maybe",
@@ -4381,7 +4379,7 @@
             "lang": "Welsh",
             "word": "Cymru"
         }
-    }, 
+    },
     {
         "word": "ken",
         "def": "able",
@@ -4619,7 +4617,7 @@
             "urlform": "قيثارة",
             "translit": "qīṯāra"
         }
-    }, 
+    },
     {
         "word": "kle",
         "def": "mercy",
@@ -4664,6 +4662,21 @@
         }
     },
     {
+        "word": "kójóte",
+        "def": "coyote",
+        "type": "Entity",
+        "alignment": "O is a coyote",
+        "semantics": [
+            "coyote",
+            "prairie wolf",
+            "desert wolf"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "coyote"
+        }
+    },
+    {
         "word": "kok",
         "def": "cause",
         "xo": "result (n.)",
@@ -4681,21 +4694,6 @@
         }
     },
     {
-        "word": "kójóte",
-        "def": "coyote",
-        "type": "Entity",
-        "alignment": "O is a coyote",
-        "semantics": [
-            "coyote",
-            "prairie wolf",
-            "desert wolf"
-        ],
-        "etymology": {
-            "lang": "Spanish",
-            "word": "coyote"
-        }
-    }, 
-    {
         "word": "kóko",
         "def": "chicken",
         "type": "Entity",
@@ -4711,7 +4709,7 @@
             "lang": "Esperanto",
             "word": "koko"
         }
-    }, 
+    },
     {
         "word": "kol",
         "def": "easy",
@@ -4901,7 +4899,7 @@
             "lang": "Czech",
             "word": "kozel"
         }
-    }, 
+    },
     {
         "word": "Krísto",
         "def": "Christian",
@@ -4919,7 +4917,7 @@
             "translit": "Khrīstós"
         },
         "notes": "cf. Lojban {xriso}"
-    }, 
+    },
     {
         "word": "ku",
         "def": "long scope clause terminator",
@@ -4966,7 +4964,7 @@
             "lang": "Spanish",
             "word": "Cuba"
         }
-    }, 
+    },
     {
         "word": "kuétla",
         "def": "poinsettia",
@@ -5206,7 +5204,7 @@
             "word": "tlacaxolotl"
         },
         "notes": "see also «kával»"
-    }, 
+    },
     {
         "word": "lakdan",
         "def": "community center",
@@ -5342,7 +5340,7 @@
             "lang": "Czech",
             "word": "láska"
         }
-    }, 
+    },
     {
         "word": "lat",
         "def": "vertical",
@@ -5375,7 +5373,7 @@
             "lang": "Latvian",
             "word": "Latvija"
         }
-    }, 
+    },
     {
         "word": "latxte",
         "def": "ramp",
@@ -5612,7 +5610,7 @@
             "word": "ليبيا",
             "translit": "Lībya"
         }
-    }, 
+    },
     {
         "word": "líbra",
         "def": "pound",
@@ -5642,7 +5640,7 @@
             "lang": "Lithuanian",
             "word": "Lietuvà"
         }
-    }, 
+    },
     {
         "word": "lik",
         "def": "liquid",
@@ -5845,7 +5843,7 @@
             "lang": "Czech",
             "word": "liška"
         }
-    }, 
+    },
     {
         "word": "lo",
         "def": "gnomic determiner",
@@ -6246,7 +6244,7 @@
             "urlform": "المغرب",
             "translit": "el-maḡrib"
         }
-    }, 
+    },
     {
         "word": "máhou",
         "def": "magic",
@@ -6279,7 +6277,7 @@
             "lang": "Czech",
             "word": "mamut"
         }
-    }, 
+    },
     {
         "word": "Másra",
         "def": "Egypt",
@@ -6439,6 +6437,17 @@
         ]
     },
     {
+        "word": "nandzedze",
+        "def": "grandfather",
+        "gloss": "male-parent-parent",
+        "type": "Junction",
+        "alignment": "O is grandfather of E",
+        "semantics": [
+            "grandfather",
+            "grandpa"
+        ]
+    },
+    {
         "word": "nangingop",
         "def": "king",
         "gloss": "male-family-govern",
@@ -6450,17 +6459,6 @@
             "duke",
             "baron",
             "earl"
-        ]
-    },
-    {
-        "word": "nandzedze",
-        "def": "grandfather",
-        "gloss": "male-parent-parent",
-        "type": "Junction",
-        "alignment": "O is grandfather of E",
-        "semantics": [
-            "grandfather",
-            "grandpa"
         ]
     },
     {
@@ -6780,7 +6778,7 @@
             "lang": "Zulu",
             "word": "iNingizimu Afrika"
         }
-    }, 
+    },
     {
         "word": "no",
         "def": "negation modifier",
@@ -7038,7 +7036,7 @@
             "lang": "French",
             "word": "hautbois"
         }
-    }, 
+    },
     {
         "word": "Óbúfe",
         "def": "Obufe",
@@ -7068,7 +7066,7 @@
             "lang": "Lojban",
             "word": ".o'i"
         }
-    }, 
+    },
     {
         "word": "oi",
         "def": "collective nominative case marker",
@@ -7122,7 +7120,7 @@
             "lang": "German",
             "word": "Österreich"
         }
-    }, 
+    },
     {
         "word": "ótxa",
         "def": "tea",
@@ -7165,7 +7163,7 @@
             "lang": "Serbo-Croatian",
             "word": "ovan"
         }
-    }, 
+    },
     {
         "word": "Óxénia",
         "def": "Oceania",
@@ -7950,7 +7948,7 @@
             "lang": "Portuguese",
             "word": "Portugal"
         }
-    }, 
+    },
     {
         "word": "pot",
         "def": "similar",
@@ -7982,7 +7980,7 @@
             "lang": "Polish",
             "word": "Polska"
         }
-    }, 
+    },
     {
         "word": "pu",
         "def": "division operator",
@@ -8126,7 +8124,7 @@
             "word": "diabo"
         },
         "notes": "see also «la Qábu» (the Devil)"
-    }, 
+    },
     {
         "word": "qai",
         "def": "illocution: OR",
@@ -9038,7 +9036,7 @@
             "lang": "Romanian",
             "word": "România"
         }
-    }, 
+    },
     {
         "word": "Rósia",
         "def": "Russia",
@@ -9054,7 +9052,7 @@
             "word": "Росси́я",
             "translit": "Rossíja"
         }
-    }, 
+    },
     {
         "word": "sai",
         "def": "general intensifier",
@@ -9486,7 +9484,7 @@
             "lang": "Slovene",
             "word": "Slovẹ́nija"
         }
-    }, 
+    },
     {
         "word": "silxo",
         "def": "strength",
@@ -10241,7 +10239,7 @@
             "lang": "Portuguese",
             "word": "suino"
         }
-    }, 
+    },
     {
         "word": "sun",
         "def": "reside",
@@ -10346,7 +10344,7 @@
             "lang": "Finnish",
             "word": "Suomi"
         }
-    }, 
+    },
     {
         "word": "sup",
         "def": "matter",
@@ -10874,7 +10872,7 @@
             "lang": "Toki Pona",
             "word": "toki pona"
         }
-    }, 
+    },
     {
         "word": "tol",
         "def": "shake",
@@ -10949,8 +10947,7 @@
             "lang": "Spanish",
             "word": "trombón"
         }
-    }, 
-
+    },
     {
         "word": "trónpet",
         "def": "trumpet",
@@ -10966,8 +10963,7 @@
             "lang": "Dutch",
             "word": "trompet"
         }
-    }, 
-
+    },
     {
         "word": "tsa",
         "def": "plant",
@@ -11299,7 +11295,7 @@
             "lang": "Turkish",
             "word": "Türkiye"
         }
-    }, 
+    },
     {
         "word": "tut",
         "def": "whole",
@@ -11488,7 +11484,7 @@
             "word": "Украї́на",
             "translit": "Ukrajína"
         }
-    }, 
+    },
     {
         "word": "úkúléle",
         "def": "ukulele",
@@ -11889,7 +11885,7 @@
             "lang": "French",
             "word": "vibraphone"
         }
-    }, 
+    },
     {
         "word": "Viéti",
         "def": "Vietnam",
@@ -11903,7 +11899,7 @@
             "lang": "Vietnamese",
             "word": "Việt Nam"
         }
-    }, 
+    },
     {
         "word": "vip",
         "def": "choose",
@@ -12177,7 +12173,7 @@
             "word": "волк",
             "translit": "volk"
         }
-    }, 
+    },
     {
         "word": "vu",
         "def": "discourse terminator",
@@ -12565,7 +12561,7 @@
             "lang": "Lojban (dialectal)",
             "word": "tcekitau"
         }
-    }, 
+    },
     {
         "word": "xel",
         "def": "full",
@@ -12670,7 +12666,7 @@
             "lang": "Czech",
             "word": "pšenice"
         }
-    }, 
+    },
     {
         "word": "xep",
         "def": "divide",
@@ -12704,7 +12700,7 @@
             "lang": "Czech",
             "word": "Česko"
         }
-    }, 
+    },
     {
         "word": "xet",
         "def": "edge",
@@ -12961,7 +12957,7 @@
             "lang": "German",
             "word": "Schweiz"
         }
-    }, 
+    },
     {
         "word": "Xíxip",
         "def": "Albania",
@@ -13747,19 +13743,6 @@
         }
     },
     {
-        "word": "xuttan",
-        "def": "water source",
-        "gloss": "water-source",
-        "type": "Junction",
-        "alignment": "O is source of water E",
-        "semantics": [
-            "water source",
-            "spring",
-            "aquifer",
-            "plumbing"
-        ]
-    },
-    {
         "word": "xutfli",
         "def": "swim",
         "gloss": "water-float",
@@ -13841,6 +13824,19 @@
         ]
     },
     {
+        "word": "xuttan",
+        "def": "water source",
+        "gloss": "water-source",
+        "type": "Junction",
+        "alignment": "O is source of water E",
+        "semantics": [
+            "water source",
+            "spring",
+            "aquifer",
+            "plumbing"
+        ]
+    },
+    {
         "word": "xuttxu",
         "def": "thirsty",
         "gloss": "water-need",
@@ -13884,15 +13880,6 @@
             "drenched",
             "waterlogged"
         ]
-    },
-    {
-        "word": "za",
-        "def": "context/location",
-        "type": "Preposition",
-        "etymology": {
-            "lang": "backformed from «zal»"
-        },
-        "notes": "older texts may use «bu»"
     },
     {
         "word": "y",
@@ -14394,6 +14381,20 @@
         "notes": "cf. Esperanto {-ero}"
     },
     {
+        "word": "Zîbábue",
+        "def": "Zimbabwe",
+        "type": "Quality",
+        "alignment": "O is Zimbabwean in Eu",
+        "semantics": [
+            "Zimbabwe",
+            "Zimbabwean"
+        ],
+        "etymology": {
+            "lang": "Shona",
+            "word": "Zimbabwe"
+        }
+    },
+    {
         "word": "ziddil",
         "def": "window",
         "gloss": "wall-hole",
@@ -14424,20 +14425,6 @@
             "word": "ziek"
         }
     },
-    {
-        "word": "Zîbábue",
-        "def": "Zimbabwe",
-        "type": "Quality",
-        "alignment": "O is Zimbabwean in Eu",
-        "semantics": [
-            "Zimbabwe",
-            "Zimbabwean"
-        ],
-        "etymology": {
-            "lang": "Shona",
-            "word": "Zimbabwe"
-        }
-    }, 
     {
         "word": "zin",
         "def": "cold",
@@ -14809,7 +14796,7 @@
             "lang": "Zulu",
             "word": "Zulu"
         }
-    }, 
+    },
     {
         "word": "zun",
         "def": "outside",
