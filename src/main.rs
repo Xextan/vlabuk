@@ -9,7 +9,7 @@ fn main() {
         &serde_json::from_str::<Vec<Value>>(&fs::read_to_string("words.json").unwrap()).unwrap(),
     )
     .unwrap();
-    fs::write("words.js", format!("const dict = {min}.sort(function(a, b) {{return a.word.localeCompare(b.word);}});")).unwrap();
+    fs::write("words.js", format!("const dict = {min}.sort((a, b) => a.word.localeCompare(b.word));")).unwrap();
     // fonts (cf xlasisku)
     let client = NotoizeClient::new();
     let mut fonts = client.clone().notoize(min.as_str()).files();
