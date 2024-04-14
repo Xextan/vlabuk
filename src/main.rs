@@ -13,7 +13,7 @@ fn main() {
     // fonts (cf xlasisku)
     let client = NotoizeClient::new();
     let mut fonts = client.clone().notoize(min.as_str()).files();
-    fonts.retain(|f| !["Noto Sans"].contains(&f.fontname.as_str()));
+    fonts.retain(|f| f.fontname != "Noto Sans");
     let mut css = String::new();
     for font in fonts.clone() {
         fs::write(format!("fonts/{}", font.filename), font.bytes).unwrap();
