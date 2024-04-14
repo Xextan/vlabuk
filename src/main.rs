@@ -1,9 +1,10 @@
 // use serde::{Deserialize, Serialize};
 use notoize::NotoizeClient;
 use serde_json::Value;
-use std::fs;
+use std::{fs, time::Instant};
 
 fn main() {
+    let start = Instant::now();
     let min = serde_json::to_string(
         &serde_json::from_str::<Vec<Value>>(&fs::read_to_string("words.json").unwrap()).unwrap(),
     )
@@ -27,4 +28,5 @@ fn main() {
             .join(", ")
     );
     fs::write("noto.css", css).unwrap();
+    println!("{:?}", Instant::now() - start)
 }
