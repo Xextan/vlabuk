@@ -1,4 +1,3 @@
-// use serde::{Deserialize, Serialize};
 use notoize::NotoizeClient;
 use serde_json::Value;
 use std::{fs, time::Instant};
@@ -9,7 +8,11 @@ fn main() {
         &serde_json::from_str::<Vec<Value>>(&fs::read_to_string("words.json").unwrap()).unwrap(),
     )
     .unwrap();
-    fs::write("words.js", format!("const dict = {min}.sort((a, b) => a.word.localeCompare(b.word));")).unwrap();
+    fs::write(
+        "words.js",
+        format!("const dict = {min}.sort((a, b) => a.word.localeCompare(b.word));"),
+    )
+    .unwrap();
     // fonts (cf xlasisku)
     let client = NotoizeClient::new();
     let mut fonts = client.clone().notoize(min.as_str()).files();
