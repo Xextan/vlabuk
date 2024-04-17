@@ -14,6 +14,17 @@ fn main() {
     )
     .unwrap();
     // fonts (cf xlasisku)
+    for font in fs::read_dir("fonts/").unwrap() {
+        let font = font.unwrap();
+        if let Some(name) = font.file_name().to_str() {
+            if !["NotoSans-", "Iosevka-"]
+                .iter()
+                .any(|x| name.starts_with(x))
+            {
+                fs::remove_file(font.path()).unwrap();
+            }
+        }
+    }
     let client = NotoizeClient::new();
     let mut fonts = client.clone().notoize(min.as_str()).files();
     fonts.retain(|f| f.fontname != "Noto Sans");
