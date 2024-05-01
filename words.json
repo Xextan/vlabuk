@@ -2538,6 +2538,19 @@
         }
     },
     {
+        "word": "flabuk",
+        "def": "statute",
+        "gloss": "law-book",
+        "type": "Junction",
+        "alignment": "O are statutes (legal code) of E",
+        "semantics": [
+            "statutes",
+            "code",
+            "regulations"
+        ],
+        "notes": "see also «zakflabuk» (constitution)"
+    },
+    {
         "word": "flanik",
         "def": "lawyer",
         "gloss": "law-agent",
@@ -13915,6 +13928,19 @@
             "lang": "Czech",
             "word": "základ"
         }
+    },
+    {
+        "word": "zakflabuk",
+        "def": "constitution",
+        "gloss": "foundation-rule-book",
+        "type": "Junction",
+        "alignment": "O is constitution of E",
+        "semantics": [
+            "constitution",
+            "charter",
+            "Basic Law"
+        ],
+        "notes": "see also «flabuk» (statute/code)"
     },
     {
         "word": "zakvla",
