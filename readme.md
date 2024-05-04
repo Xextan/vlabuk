@@ -24,7 +24,7 @@ Root-specific:
 - **`alignment`:** The place structure.
 - **`type`:** One of the new ones that start with a capital letter.
 - **`semantics`:** The semantic space.
-- **`xo` and `ko`:** The new `def` this word has when suffixed with either. (For ease of JSing these fields don't start with hyphens.)
+- **`xo`/`ko`/`ga`/`ge`/`qu`/`po`/`sa`:** The new `def` this word has when attached with either.
 
 The "pat." column is unnecessary here as it can be found via `/[^aeiou]$/.test(word) ? "a" : "b"`.
 
