@@ -129,7 +129,7 @@
                         entry.def && entry.alignment ? " – " : null,
                         entry.alignment
                     ]),
-                    entry.notes || entry.semantics || entry.etymology || entry.xo || entry.ko || entry.gloss ? mkelem("div", {"className": "more"}, [
+                    entry.notes || entry.semantics || entry.etymology || entry.xo || entry.ko || entry.ga || entry.ge || entry.qu || entry.po || entry.sa || entry.gloss ? mkelem("div", {"className": "more"}, [
                         entry.gloss ? mkelem("p", {}, [
                             mkelem("span", {"className": "h"}, ["Gloss: "]),
                             mkelem("code", {}, [entry.gloss])
@@ -138,11 +138,11 @@
                             mkelem("span", {"className": "h"}, ["Keywords: "]),
                             entry.semantics.join(", ")
                         ]) : null,
-                        entry.xo || entry.ko ? mkelem("p", {}, [
+                        entry.xo || entry.ko || entry.ga || entry.ge || entry.qu || entry.po || entry.sa ? mkelem("p", {}, [
                             mkelem("span", {"className": "h"}, ["Derivations: "]),
-                            ...[entry.xo ?? "", entry.ko ?? ""].map((e, i) => e ? [
+                            ...[entry.xo ?? "", entry.ko ?? "", entry.ga ?? "", entry.ge ?? "", entry.qu ?? "", entry.po ?? "", entry.sa ?? ""].map((e, i) => e ? [
                                 mkelem("br", {}, []),
-                                mkelem("b", {}, [entry.word + ["xo", "ko"][i]]),
+                                mkelem("b", {}, [derive(entry.word, ["xo", "ko", "ga", "ge", "qu", "po", "sa"][i])]),
                                 " " + e
                             ] : null).flat()
                         ]) : null,
@@ -153,6 +153,15 @@
                         etym_content
                     ]) : null
                 ]);
+            }
+            function derive(w, a) {
+                var i = /(?<![iu])[aeiou]/.exec(w).index;
+                var v = w.match(/(?<![iu])[aeiou]/);
+                if (["xo", "ko", "sa"].includes(a)) {
+                    return w + a;
+                } else {
+                    return a + w.replace("a", "á").replace("e", "é").replace("i", "í").replace("o", "ó").replace("u", "ú");
+                }
             }
             function url(e) {
                 var url;

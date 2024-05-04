@@ -32,6 +32,7 @@
     --blue: blue;
     --purple: purple;
     --gray: #6b6b6b;
+    --xanadu: #537253; /* 608060 */
 }
 * {
     transition: background-color 0.2s;
@@ -97,6 +98,9 @@ input[type="text"] {
     color: white !important;
     outline: 1px solid white;
 }
+.Special {
+    background-color: var(--xanadu);
+}
 .more {
     color: #000c;
 }
@@ -118,6 +122,7 @@ html.pickle {
     --green: #070;
     --cyan: #007273;
     --gray: #676767;
+    --xanadu: #4f6d4f;
 }
 html.pickle header {
     background-color: green;
@@ -136,6 +141,7 @@ html.pickle a {
         --blue: #a06bff;
         --purple: #cc5cc9;
         --gray: #898989;
+        --xanadu: #729272;
     }
     .entry {
         background-color: #fff2;
@@ -157,6 +163,7 @@ html.pickle a {
         --blue: #c088ff;
         --purple: #ea77e5;
         --gray: #a3a3a3;
+        --xanadu: #89aa89;
     }
     html.pickle a {
         color: lightgreen;
