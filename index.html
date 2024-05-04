@@ -26,9 +26,7 @@
         </p>
         <input type="text" id="search" />
         <span id="len"></span>
-        <p>
-            <!-- ↑ this will do things soon i promise! in the meantime here's all the words in the database so far -->
-        </p>
+        <p></p>
         <div id="results"></div>
         <script src="words.js"></script>
         <script>
@@ -94,9 +92,9 @@
                 return element;
             }
             function pos(e) {
-                if (!e.word) {console.log(e)}
-                return e.word.includes(" ") ? "serial" :
-                e.gloss ? "compound" :
+                return e.word.includes(" ") || ["qu", "po"].some(x => e.word.startsWith(x) && pos(dict.find(x => deaccent(x.word) == deaccent(e.word.slice(2))) ?? {word: ""}) != "bad") ? "serial" :
+                ["ga", "ge"].some(x => e.word.startsWith(x) && pos(dict.find(x => deaccent(x.word) == deaccent(e.word.slice(2))) ?? {word: ""}) != "bad") || ["ko", "xo", "sa"].some(x => e.word.endsWith(x) && pos(dict.find(x => x.word == e.word.slice(0, e.word.length - 2)) ?? {word: ""}) != "bad") ? "pseudocompound" :
+                e.gloss ? "compound" : // true
                 /^.{0,2}[áéíóú]/iu.test(e.word) || (!/^[bdfgklmnpqstvxz]([aeiou][ptkln]|[bdfgklmnpqstvxz][aeiou])$/.test(e.word) && e.alignment) ? "freeword" :
                 e.alignment ? "root" :
                 e.type ? "particle" :
