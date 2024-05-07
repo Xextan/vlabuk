@@ -349,6 +349,21 @@
         }
     },
     {
+        "word": "bánána",
+        "def": "banana",
+        "type": "Entity",
+        "alignment": "O is a banana",
+        "semantics": [
+            "banana",
+            "plantain"
+        ],
+        "etymology": {
+            "lang": "Portuguese",
+            "word": "banana"
+        }
+    }, 
+
+    {
         "word": "banfla",
         "def": "grammar",
         "gloss": "language-rule",
@@ -371,7 +386,7 @@
         }
     },
     {
-        "word": "bankok",
+        "word": "bansa",
         "def": "translate",
         "gloss": "language-cause",
         "type": "Direction",
@@ -7020,22 +7035,6 @@
         }
     },
     {
-        "word": "óbo",
-        "def": "monkey",
-        "type": "Entity",
-        "alignment": "O is a monkey",
-        "semantics": [
-            "monkey",
-            "simian",
-            "ape"
-        ],
-        "etymology": {
-            "lang": "Yoruba",
-            "word": "ọ̀bọ",
-            "urlform": "ọbọ"
-        }
-    },
-    {
         "word": "óbua",
         "def": "oboe",
         "type": "Junction",
@@ -8243,6 +8242,20 @@
             "translit": "janā"
         },
         "notes": "see also «flaqan» (break law)"
+    },
+    {
+        "word": "qantotsa",
+        "def": "murder",
+        "gloss": "disobey-dead-CAUS",
+        "type": "Quality",
+        "alignment": "O murders E",
+        "semantics": [
+            "murder",
+            "massacre",
+            "asssassinate",
+            "slay",
+            "slaughter"
+        ]
     },
     {
         "word": "qap",
@@ -10936,6 +10949,9 @@
     {
         "word": "tot",
         "def": "dead",
+        "ko": "the dead",
+        "sa": "kill",
+        "qu": "death",
         "type": "Quality",
         "alignment": "O is dead in Eu",
         "semantics": [
@@ -10960,6 +10976,19 @@
             "corpse",
             "carcass",
             "dead body"
+        ]
+    },
+    {
+        "word": "totsa",
+        "def": "kill",
+        "gloss": "dead-CAUS",
+        "type": "Quality",
+        "alignment": "O kills E",
+        "semantics": [
+            "kill",
+            "destroy",
+            "terminate",
+            "dispatch"
         ]
     },
     {
@@ -11510,6 +11539,20 @@
         "etymology": {
             "lang": "Lojban",
             "word": "cu"
+        }
+    },
+    {
+        "word": "úki",
+        "def": "monkey",
+        "type": "Entity",
+        "alignment": "O is a monkey",
+        "semantics": [
+            "monkey",
+            "simian",
+            "ape"
+        ],
+        "etymology": {
+            "lang": "onomatopoeic: ukiki"
         }
     },
     {
