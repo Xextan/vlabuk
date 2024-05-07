@@ -2538,9 +2538,8 @@
     {
         "word": "fla",
         "def": "law",
-        "xo": "rule (n.)",
         "type": "State",
-        "alignment": "Ou is a law/rule",
+        "alignment": "Ou is a law",
         "semantics": [
             "law",
             "rule",
@@ -2749,7 +2748,8 @@
         "etymology": {
             "lang": "Choctaw",
             "word": "foni"
-        }
+        },
+        "notes": "can refer to any natural or artificial framework used to lend rigidity to a structure, including architectural support beams, animal bones, etc."
     },
     {
         "word": "Frâsi",
@@ -8247,7 +8247,7 @@
         "word": "qantotsa",
         "def": "murder",
         "gloss": "disobey-dead-CAUS",
-        "type": "Quality",
+        "type": "Junction",
         "alignment": "O murders E",
         "semantics": [
             "murder",
@@ -8748,14 +8748,14 @@
     },
     {
         "word": "qla",
-        "def": "organ",
+        "def": "flesh",
         "type": "Junction",
-        "alignment": "O is an organ of E",
+        "alignment": "O is flesh of E",
         "semantics": [
-            "organ",
-            "body part",
+            "flesh",
+            "meat",
             "tissue",
-            "biological"
+            "organ"
         ],
         "etymology": {
             "lang": "Czech",
@@ -10982,7 +10982,7 @@
         "word": "totsa",
         "def": "kill",
         "gloss": "dead-CAUS",
-        "type": "Quality",
+        "type": "Junction",
         "alignment": "O kills E",
         "semantics": [
             "kill",
