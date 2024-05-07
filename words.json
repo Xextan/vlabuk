@@ -4691,15 +4691,14 @@
     },
     {
         "word": "kok",
-        "def": "cause",
-        "xo": "result (n.)",
+        "def": "reason",
         "type": "Quality",
-        "alignment": "O causes Eu",
+        "alignment": "O is the reason for Eu",
         "semantics": [
+            "reason",
+            "justification",
             "cause",
-            "influence",
-            "bring about",
-            "make happen"
+            "motive"
         ],
         "etymology": {
             "lang": "Loglan",
@@ -6593,18 +6592,20 @@
     },
     {
         "word": "nek",
-        "def": "motive",
+        "def": "purpose",
         "type": "Quality",
-        "alignment": "O is motive for Eu",
+        "alignment": "O is purpose of Eu",
         "semantics": [
-            "motive",
+            "purpose",
             "goal",
-            "reason"
+            "objective",
+            "intention"
         ],
         "etymology": {
-            "lang": "backformed from «neu», via Old Xextan {nug} cf. Lojban",
+            "lang": "Lojban",
             "word": "muk ← mukti"
-        }
+        },
+        "notes": "backformed from «neu», itself from Old Xextan \"nug\", from Lojban {mukti}"
     },
     {
         "word": "nel",
@@ -9067,6 +9068,14 @@
         }
     },
     {
+        "word": "sa",
+        "def": "causative suffix",
+        "type": "Suffix",
+        "etymology": {
+            "lang": "backformed from «sap»"
+        }
+    },
+    {
         "word": "sai",
         "def": "general intensifier",
         "type": "Modifier",
@@ -9183,6 +9192,26 @@
             "lang": "Hindi",
             "word": "समाजवाद",
             "translit": "samājvād"
+        }
+    },
+    {
+        "word": "sap",
+        "def": "cause",
+        "xo": "effect",
+        "ko": "agent",
+        "type": "Quality",
+        "alignment": "O causes Eu",
+        "semantics": [
+            "cause",
+            "effect",
+            "result",
+            "bring about"
+        ],
+        "etymology": {
+            "lang": "Arabic",
+            "word": "سَبَّبَ",
+            "urlform": "سبب",
+            "translit": "sabbaba"
         }
     },
     {
