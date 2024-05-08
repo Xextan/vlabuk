@@ -127,7 +127,7 @@
                         entry.def && entry.alignment ? " – " : null,
                         entry.alignment
                     ]),
-                    entry.notes || entry.semantics || entry.etymology || entry.xo || entry.ko || entry.ga || entry.ge || entry.qu || entry.po || entry.sa || entry.gloss ? mkelem("div", {"className": "more"}, [
+                    entry.notes || entry.semantics || entry.etymology || entry.ko || entry.xo || entry.sa || entry.se || entry.si || entry.ge || entry.ga || entry.po || entry.qu || entry.gloss ? mkelem("div", {"className": "more"}, [
                         entry.gloss ? mkelem("p", {}, [
                             mkelem("span", {"className": "h"}, ["Gloss: "]),
                             mkelem("code", {}, [entry.gloss])
@@ -136,11 +136,11 @@
                             mkelem("span", {"className": "h"}, ["Keywords: "]),
                             entry.semantics.join(", ")
                         ]) : null,
-                        entry.xo || entry.ko || entry.ga || entry.ge || entry.qu || entry.po || entry.sa ? mkelem("p", {}, [
+                        entry.ko || entry.xo || entry.sa || entry.se || entry.si || entry.ge || entry.ga || entry.po || entry.qu ? mkelem("p", {}, [
                             mkelem("span", {"className": "h"}, ["Derivations: "]),
-                            ...[entry.xo ?? "", entry.ko ?? "", entry.ga ?? "", entry.ge ?? "", entry.qu ?? "", entry.po ?? "", entry.sa ?? ""].map((e, i) => e ? [
+                            ...[entry.ko ?? "", entry.xo ?? "", entry.sa ?? "", entry.se ?? "", entry.si ?? "", entry.ge ?? "", entry.ga ?? "", entry.po ?? "", entry.qu ?? ""].map((e, i) => e ? [
                                 mkelem("br", {}, []),
-                                mkelem("b", {}, [derive(entry.word, ["xo", "ko", "ga", "ge", "qu", "po", "sa"][i])]),
+                                mkelem("b", {}, [derive(entry.word, ["ko", "xo", "sa", "se", "si", "ge", "ga", "po", "qu"][i])]),
                                 " " + e
                             ] : null).flat()
                         ]) : null,
