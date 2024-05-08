@@ -93,7 +93,7 @@
             }
             function pos(e) {
                 return e.word.includes(" ") || ["qu", "po"].some(x => e.word.startsWith(x) && pos(dict.find(x => deaccent(x.word) == deaccent(e.word.slice(2))) ?? {word: ""}) != "bad") ? "serial" :
-                ["ga", "ge"].some(x => e.word.startsWith(x) && pos(dict.find(x => deaccent(x.word) == deaccent(e.word.slice(2))) ?? {word: ""}) != "bad") || ["ko", "xo", "sa"].some(x => e.word.endsWith(x) && pos(dict.find(x => x.word == e.word.slice(0, e.word.length - 2)) ?? {word: ""}) != "bad") ? "pseudocompound" :
+                ["ga", "ge"].some(x => e.word.startsWith(x) && pos(dict.find(x => deaccent(x.word) == deaccent(e.word.slice(2))) ?? {word: ""}) != "bad") || ["ko", "xo", "sa", "se", "si"].some(x => e.word.endsWith(x) && pos(dict.find(x => x.word == e.word.slice(0, e.word.length - 2)) ?? {word: ""}) != "bad") ? "pseudocompound" :
                 e.gloss ? "compound" : // true
                 /^.{0,2}[áéíóú]/iu.test(e.word) || (!/^[bdfgklmnpqstvxz]([aeiou][ptkln]|[bdfgklmnpqstvxz][aeiou])$/.test(e.word) && e.alignment) ? "freeword" :
                 e.alignment ? "root" :
