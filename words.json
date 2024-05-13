@@ -1647,10 +1647,10 @@
     },
     {
         "word": "dul",
-        "def": "read",
-        "xo": "analysis",
+        "def": "analyze",
+        "xo": "reading (n.)",
         "type": "Relation",
-        "alignment": "O reads E for Au",
+        "alignment": "O analyzes E for Au",
         "semantics": [
             "read",
             "analyze",
@@ -1661,7 +1661,8 @@
             "lang": "Mandarin",
             "word": "讀",
             "translit": "dú"
-        }
+        },
+        "notes": "for \"read [text]\", see «vladul»"
     },
     {
         "word": "dun",
@@ -3120,7 +3121,7 @@
     {
         "word": "gei",
         "def": "comparative",
-        "type": "",
+        "type": "Preposition",
         "etymology": {
             "lang": "backformed from «gen»"
         },
@@ -4040,15 +4041,6 @@
             "lang": "Portuguese",
             "word": "café"
         }
-    },
-    {
-        "word": "kai",
-        "def": "",
-        "type": "",
-        "etymology": {
-            "lang": ""
-        },
-        "notes": "reassigned cf. «poi»"
     },
     {
         "word": "káini",
