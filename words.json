@@ -487,6 +487,20 @@
         "notes": "& profound, sublime"
     },
     {
+        "word": "belsa",
+        "def": "decorate",
+        "gloss": "beautiful-CAUS",
+        "type": "Junction",
+        "alignment": "O decorates E",
+        "semantics": [
+            "decorate",
+            "decoration",
+            "adorn",
+            "accessory"
+        ],
+        "notes": "«»"
+    },
+    {
         "word": "ben",
         "def": "burn",
         "type": "Junction",
@@ -1515,6 +1529,15 @@
             "word": "добре",
             "translit": "dóbre"
         }
+    },
+    {
+        "word": "dou",
+        "def": "adverbial: probably",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "by analogy; cf. «dal»"
+        },
+        "notes": "see also «xou»"
     },
     {
         "word": "dqe",
@@ -3095,6 +3118,15 @@
         "notes": "false compound: «ge» + «don»"
     },
     {
+        "word": "gei",
+        "def": "comparative",
+        "type": "",
+        "etymology": {
+            "lang": "backformed from «gen»"
+        },
+        "notes": "compared to, moreso than, with reference point"
+    },
+    {
         "word": "gen",
         "def": "more",
         "type": "Relation",
@@ -4011,13 +4043,12 @@
     },
     {
         "word": "kai",
-        "def": "comparative",
-        "type": "Connective",
+        "def": "",
+        "type": "",
         "etymology": {
-            "lang": "Lojban",
-            "word": "kai"
+            "lang": ""
         },
-        "notes": "like, as, similar to"
+        "notes": "reassigned cf. «poi»"
     },
     {
         "word": "káini",
@@ -5189,12 +5220,13 @@
     },
     {
         "word": "lai",
-        "def": "probability: probably",
-        "type": "Adverb",
+        "def": "determiner: mass named...",
+        "type": "determiner",
         "etymology": {
             "lang": "Lojban",
-            "word": "la'a"
-        }
+            "word": "lai"
+        },
+        "notes": "Can be used to express full personal names in more formal contexts, using the \"la X pe lai Y\" form: for instance, la Múhámat Áli = la Múhámat pe lai Áli"
     },
     {
         "word": "lak",
@@ -7395,6 +7427,23 @@
         }
     },
     {
+        "word": "pastel",
+        "def": "pastry",
+        "type": "Junction",
+        "alignment": "O is a pastry made of E",
+        "semantics": [
+            "pastry",
+            "donut",
+            "doughnut",
+            "fritter",
+            "beignet"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "pastel"
+        }
+    },
+    {
         "word": "pat",
         "def": "write",
         "type": "Direction",
@@ -7870,6 +7919,29 @@
             "lang": "Loglan",
             "word": "po"
         }
+    },
+    {
+        "word": "poddul",
+        "def": "compare",
+        "gloss": "similar-analyze",
+        "type": "Relation",
+        "alignment": "O compares E (mass) in Au",
+        "semantics": [
+            "compare",
+            "contrast",
+            "balance",
+            "judge"
+        ],
+        "notes": "see also «vip»"
+    },
+    {
+        "word": "poi",
+        "def": "comparative",
+        "type": "Connective",
+        "etymology": {
+            "lang": "backformed from «pot»"
+        },
+        "notes": "like, as, similar to"
     },
     {
         "word": "pok",
@@ -9164,6 +9236,18 @@
             "lang": "German",
             "word": "Zahl"
         }
+    },
+    {
+        "word": "salsop",
+        "def": "right amount",
+        "gloss": "number-fit",
+        "type": "Relation",
+        "alignment": "O is just the right number/amount for E in Au",
+        "semantics": [
+            "right amount",
+            "just right",
+            "Goldilocks zone"
+        ]
     },
     {
         "word": "salste",
@@ -10667,6 +10751,20 @@
         }
     },
     {
+        "word": "tendep",
+        "def": "deserve",
+        "gloss": "have-should",
+        "type": "Relation",
+        "alignment": "O deserves E in Au",
+        "semantics": [
+            "deserve",
+            "merit",
+            "earn",
+            "worthy",
+            "rightful"
+        ]
+    },
+    {
         "word": "ten xíláti",
         "gloss": "have spirit",
         "type": "State-Quality",
@@ -11655,6 +11753,14 @@
         ]
     },
     {
+        "word": "vai",
+        "def": "adverbial: usually",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "backformed from «van»"
+        }
+    },
+    {
         "word": "val",
         "def": "important",
         "xo": "importance",
@@ -12090,6 +12196,19 @@
             "Vlabuk Xextan",
             "Xextan dictionary",
             "Xexicon"
+        ]
+    },
+    {
+        "word": "vladul",
+        "def": "read",
+        "gloss": "word-analyze",
+        "type": "Junction",
+        "alignment": "O reads E",
+        "semantics": [
+            "read",
+            "study",
+            "peruse",
+            "scrutinize"
         ]
     },
     {
@@ -13384,6 +13503,15 @@
             "lang": "Vietnamese",
             "word": "chộp"
         }
+    },
+    {
+        "word": "xou",
+        "def": "adverbial: unlikely",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "by analogy; cf. «xal»"
+        },
+        "notes": "see also «dou»"
     },
     {
         "word": "xpa",
