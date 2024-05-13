@@ -10782,6 +10782,22 @@
         ]
     },
     {
+        "word": "tentun",
+        "def": "territory",
+        "gloss": "have-land",
+        "type": "Junction",
+        "alignment": "O is territory of E",
+        "semantics": [
+            "territory",
+            "domain",
+            "realm",
+            "landholding",
+            "fiefdom",
+            "fee"
+        ],
+        "notes": "«»"
+    },
+    {
         "word": "tenxo",
         "def": "possession",
         "gloss": "have-PAT",
@@ -14218,6 +14234,33 @@
             "lang": "Lojban",
             "word": "zat ← zasti"
         }
+    },
+    {
+        "word": "zattut",
+        "def": "reality",
+        "gloss": "exist-whole",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "reality",
+            "real world",
+            "IRL",
+            "universe"
+        ],
+        "notes": "see also «zattuttun» (universe)"
+    },
+    {
+        "word": "zattuttun",
+        "def": "universe",
+        "gloss": "exist-whole-land",
+        "type": "Junction",
+        "alignment": "O is universe of E",
+        "semantics": [
+            "universe",
+            "world",
+            "dimension"
+        ],
+        "notes": "see also «zattun» (reality), «tuttun» (domain/realm)"
     },
     {
         "word": "zba",
