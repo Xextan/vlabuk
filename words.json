@@ -5825,9 +5825,26 @@
     {
         "word": "litska",
         "def": "color",
+        "xo": "color [n.]",
         "gloss": "light-qualia",
         "type": "Junction",
-        "alignment": "O is color of E"
+        "alignment": "O has color E",
+        "semantics": [
+            "color",
+            "be colored"
+        ]
+    },
+    {
+        "word": "litskaxo",
+        "def": "color",
+        "gloss": "light-qualia-PAT",
+        "type": "Junction",
+        "alignment": "O is color of E",
+        "semantics": [
+            "color",
+            "shade",
+            "hue"
+        ]
     },
     {
         "word": "littan",
@@ -8011,6 +8028,24 @@
         ]
     },
     {
+        "word": "pop",
+        "def": "happen",
+        "ko": "event",
+        "type": "State",
+        "alignment": "Ou happens",
+        "semantics": [
+            "happen",
+            "occur",
+            "take place",
+            "event"
+        ],
+        "etymology": {
+            "lang": "Loglan",
+            "word": "po"
+        },
+        "notes": "or, \"Ou is the state of affairs\""
+    },
+    {
         "word": "Pórtúgal",
         "def": "Portugal",
         "type": "Quality",
@@ -9099,6 +9134,26 @@
         }
     },
     {
+        "word": "qup",
+        "def": "property",
+        "xo": "exemplar",
+        "ko": "trait",
+        "type": "State",
+        "alignment": "Ou is a property",
+        "semantics": [
+            "property",
+            "characteristic",
+            "attribute",
+            "trait",
+            "feature",
+            "distinction"
+        ],
+        "etymology": {
+            "lang": "backformed from «qu»"
+        },
+        "notes": "for \"property of\", use «pe»"
+    },
+    {
         "word": "qúqek",
         "def": "beetle",
         "type": "Entity",
@@ -9715,10 +9770,10 @@
     {
         "word": "ska",
         "def": "qualia",
-        "xo": "stimulus (Q)",
-        "ko": "vibe (J)",
-        "type": "Junction",
-        "alignment": "O is qualia of E",
+        "xo": "qualia (Q)",
+        "ko": "stimulus (J)",
+        "type": "Quality",
+        "alignment": "O has qualia Eu",
         "semantics": [
             "sensation",
             "qualia",
@@ -9736,22 +9791,43 @@
         "notes": "more specific than \"color\"; cf. «litska» (\"color [of light]\"); «txiska» (\"flavor\")"
     },
     {
-        "word": "ske",
-        "def": "happen",
-        "xo": "event",
-        "ko": "occasion",
-        "type": "State",
-        "alignment": "Ou happens",
+        "word": "skalil",
+        "def": "sense",
+        "gloss": "qualia-experience",
+        "type": "Quality",
+        "alignment": "O senses Eu",
         "semantics": [
-            "happen",
-            "occur",
-            "take place",
-            "event"
+            "sense",
+            "feel sensation",
+            "experience"
         ],
-        "etymology": {
-            "lang": "Danish",
-            "word": "ske"
-        }
+        "notes": "see also «fil»"
+    },
+    {
+        "word": "skako",
+        "def": "stimulus",
+        "gloss": "qualia-AG",
+        "type": "Quality",
+        "alignment": "O is stimulus in Eu",
+        "semantics": [
+            "stimulus",
+            "catalyst",
+            "impetus"
+        ],
+        "notes": "felt by FAI"
+    },
+    {
+        "word": "skaxo",
+        "def": "sensation",
+        "gloss": "qualia-PAT",
+        "type": "Junction",
+        "alignment": "O is sensation of/caused by E",
+        "semantics": [
+            "sensation",
+            "feeling",
+            "experience"
+        ],
+        "notes": "«»"
     },
     {
         "word": "sku",
@@ -11565,7 +11641,7 @@
         "def": "flavor",
         "gloss": "eat-qualia",
         "type": "Junction",
-        "alignment": "O is flavor of E",
+        "alignment": "O has flavor E",
         "semantics": [
             "flavor",
             "taste",
@@ -14239,8 +14315,8 @@
         "word": "zattut",
         "def": "reality",
         "gloss": "exist-whole",
-        "type": "",
-        "alignment": "",
+        "type": "Junction",
+        "alignment": "O is reality of E",
         "semantics": [
             "reality",
             "real world",
