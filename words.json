@@ -494,11 +494,23 @@
         "alignment": "O decorates E",
         "semantics": [
             "decorate",
-            "decoration",
             "adorn",
-            "accessory"
-        ],
-        "notes": "«»"
+            "design",
+            "accessorize"
+        ]
+    },
+    {
+        "word": "belsabek",
+        "def": "decoration",
+        "gloss": "beautiful-CAUS-object",
+        "type": "Junction",
+        "alignment": "O decorates E",
+        "semantics": [
+            "decoration",
+            "adornment",
+            "accessory",
+            "jewelry"
+        ]
     },
     {
         "word": "ben",
@@ -515,6 +527,20 @@
             "word": "brennen"
         }
     },
+    {
+        "word": "bésklróda",
+        "def": "besklroda",
+        "type": "Entity",
+        "alignment": "O is the besklroda",
+        "semantics": [
+            "besklroda",
+            "jabberwock"
+        ],
+        "etymology": {
+            "lang": "a priori"
+        },
+        "notes": "Legendary colossal beast in Xextanic folklore and mythology resembling a cross between a bear and a caribou. The Xextanic folk epic Xtazda Soltun claims that the great hunter «Óbúfe» slew the besklroda after pursuing the beast for nine hundred and ninety-nine years, upon which it was elevated into the night sky and transformed into a constellation by «Jówájóka», the demiurge."
+    }, 
     {
         "word": "bet",
         "def": "ask",
@@ -731,6 +757,24 @@
             "word": "Brasil"
         }
     },
+    {
+        "word": "bróda",
+        "def": "broda",
+        "type": "Junction",
+        "alignment": "O brodas E",
+        "semantics": [
+            "broda",
+            "brode",
+            "brodi",
+            "brodo",
+            "brodu"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "broda"
+        },
+        "notes": "Used to describe an unspecified action; sometimes used as a vague or indeterminate threat for humorous effect, as in \"You take one more step and I'll broda you into next week!\""
+    }, 
     {
         "word": "bu",
         "def": "modifier: opposite",
@@ -7097,14 +7141,12 @@
         "type": "Entity",
         "alignment": "O is Obufe",
         "semantics": [
-            "Obufe",
-            "Joe",
-            "John"
+            "Obufe"
         ],
         "etymology": {
             "lang": "a priori"
         },
-        "notes": "Xextanic folk hero; also a stereotypical given name in Xextan culture"
+        "notes": "Xextanic folk hero and hunter of colossal beasts; also a common given name in Xextan culture"
     },
     {
         "word": "óhi",
@@ -8206,10 +8248,24 @@
     },
     {
         "word": "qabbet",
-        "def": "question",
+        "def": "question (v.)",
+        "xo": "question (n.)",
         "gloss": "answer-request",
         "type": "Relation",
         "alignment": "O questions E for Au",
+        "semantics": [
+            "ask question",
+            "interrogate",
+            "interview",
+            "inquire"
+        ]
+    },
+    {
+        "word": "qabbetxo",
+        "def": "question (n.)",
+        "gloss": "answer-request-PAT",
+        "type": "Junction",
+        "alignment": "O is a question by E to A",
         "semantics": [
             "ask question",
             "interrogate",
@@ -9826,8 +9882,7 @@
             "sensation",
             "feeling",
             "experience"
-        ],
-        "notes": "«»"
+        ]
     },
     {
         "word": "sku",
@@ -10870,8 +10925,7 @@
             "landholding",
             "fiefdom",
             "fee"
-        ],
-        "notes": "«»"
+        ]
     },
     {
         "word": "tenxo",
