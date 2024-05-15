@@ -1118,6 +1118,15 @@
         }
     },
     {
+        "word": "dau",
+        "def": "abstract dative binder",
+        "type": "Binder",
+        "etymology": {
+            "lang": "by analogy; cf. «da», «au»"
+        },
+        "notes": "see also «dou», «deu»"
+    },
+    {
         "word": "de",
         "def": "bind noun phrase to predicate (accusative)",
         "type": "Binder",
@@ -1210,6 +1219,15 @@
             "lang": "English",
             "word": "Deseret"
         }
+    },
+    {
+        "word": "deu",
+        "def": "abstract accusative binder",
+        "type": "Binder",
+        "etymology": {
+            "lang": "by analogy; cf. «de», «eu»"
+        },
+        "notes": "see also «dou», «dau»"
     },
     {
         "word": "di",
@@ -1576,12 +1594,12 @@
     },
     {
         "word": "dou",
-        "def": "adverbial: probably",
-        "type": "Adverb",
+        "def": "abstract nominative binder",
+        "type": "Binder",
         "etymology": {
-            "lang": "by analogy; cf. «dal»"
+            "lang": "by analogy; cf. «do», «ou»"
         },
-        "notes": "see also «xou»"
+        "notes": "see also «deu», «dau»"
     },
     {
         "word": "dqe",
@@ -2818,6 +2836,15 @@
             "word": "foni"
         },
         "notes": "can refer to any natural or artificial framework used to lend rigidity to a structure, including architectural support beams, animal bones, etc."
+    },
+    {
+        "word": "fou",
+        "def": "adverbial: probably",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "by analogy; cf. «fun»"
+        },
+        "notes": "see also «xou»"
     },
     {
         "word": "Frâsi",
