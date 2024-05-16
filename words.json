@@ -1593,6 +1593,21 @@
         }
     },
     {
+        "word": "dóvu",
+        "def": "elephant",
+        "type": "Entity",
+        "alignment": "O is an elephant",
+        "semantics": [
+            "elephant",
+            "pachyderm",
+            "mammoth"
+        ],
+        "etymology": {
+            "lang": "Swahili",
+            "word": "ndovu"
+        }
+    }, 
+    {
         "word": "dou",
         "def": "abstract nominative binder",
         "type": "Binder",
@@ -5518,6 +5533,21 @@
         }
     },
     {
+        "word": "láufu",
+        "def": "tiger",
+        "type": "Entity",
+        "alignment": "O is a tiger",
+        "semantics": [
+            "tiger",
+            "Panthera tigris"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "老虎",
+            "translit": "lǎohǔ"
+        }
+    }, 
+    {
         "word": "le",
         "def": "3rd person animate pronoun",
         "type": "Pronoun",
@@ -5567,6 +5597,19 @@
             "word": "leite"
         }
     },
+    {
+        "word": "léjon",
+        "def": "lion",
+        "type": "entity",
+        "alignment": "O is a lion",
+        "semantics": [
+            "lion"
+        ],
+        "etymology": {
+            "lang": "Spanish",
+            "word": "león"
+        }
+    }, 
     {
         "word": "lek",
         "def": "repair",
