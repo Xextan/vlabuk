@@ -25,8 +25,8 @@ fn main() {
             }
         }
     }
-    let client = NotoizeClient::new();
-    let mut fonts = client.clone().notoize(min.as_str()).files();
+    let mut client = NotoizeClient::new();
+    let mut fonts = client.notoize(min.as_str()).files();
     fonts.retain(|f| f.fontname != "Noto Sans");
     let mut css = String::new();
     for font in fonts.clone() {
