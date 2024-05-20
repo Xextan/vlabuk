@@ -7418,6 +7418,19 @@
         }
     },
     {
+        "word": "paldan",
+        "def": "workshop",
+        "gloss": "make-building",
+        "type": "Junction",
+        "alignment": "O is a workshop for E",
+        "semantics": [
+            "workshop",
+            "shop",
+            "garage"
+        ],
+        "notes": "see also «plepaldan» (factory)"
+    },
+    {
         "word": "pan",
         "def": "grain",
         "type": "Entity",
@@ -7976,6 +7989,22 @@
             "word": "πλῆθος",
             "translit": "plêthos"
         }
+    },
+    {
+        "word": "plepaldan",
+        "def": "factory",
+        "gloss": "multiple-make-building",
+        "type": "Junction",
+        "alignment": "O is a factory producing E",
+        "semantics": [
+            "factory",
+            "plant",
+            "mill",
+            "industrial",
+            "industry",
+            "assembly line"
+        ],
+        "notes": "see also «paldan» (workshop)"
     },
     {
         "word": "plevak",
