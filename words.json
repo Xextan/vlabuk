@@ -5298,8 +5298,8 @@
     },
     {
         "word": "lai",
-        "def": "determiner: mass named...",
-        "type": "determiner",
+        "def": "mass name determiner",
+        "type": "Determiner",
         "etymology": {
             "lang": "Lojban",
             "word": "lai"
