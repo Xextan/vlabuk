@@ -712,6 +712,21 @@
         }
     },
     {
+        "word": "bondop",
+        "def": "okay",
+        "gloss": "good-enough",
+        "type": "Quality",
+        "alignment": "O is okay in Eu",
+        "semantics": [
+            "okay",
+            "alright",
+            "acceptable",
+            "decent",
+            "good enough"
+        ],
+        "notes": "covers semantic space previously occupied by «dop» (\"enough\")"
+    },
+    {
         "word": "Bósuána",
         "def": "Botswana",
         "type": "Quality",
@@ -1589,21 +1604,21 @@
     },
     {
         "word": "dop",
-        "def": "okay",
-        "xo": "acceptableness",
+        "def": "enough",
         "type": "Quality",
-        "alignment": "O is okay in Eu",
+        "alignment": "O is enough in Eu",
         "semantics": [
-            "okay",
-            "alright",
-            "decent",
+            "enough",
+            "sufficient",
+            "adequate",
             "acceptable"
         ],
         "etymology": {
             "lang": "Ukrainian",
             "word": "добре",
             "translit": "dóbre"
-        }
+        },
+        "notes": "Expanded from previous meaning \"okay\"/\"alright\". Original semantic space now covered by «bondop»."
     },
     {
         "word": "dóvu",
