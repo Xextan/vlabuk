@@ -31,7 +31,11 @@ fn main() {
     let mut css = String::new();
     for font in fonts.clone() {
         fs::write(format!("fonts/{}", font.filename), font.bytes).unwrap();
-        css = format!("{css}@font-face {{\r\n    font-family: \"{}\";\r\n    src: url(\"fonts/{}\");\r\n    font-display: swap;\r\n}}\r\n", font.fontname, font.filename);
+        css = format!(
+            "{css}@font-face {{\r\n    font-family: \"{}\";\r\n    src: url(\"fonts/{}\");\r\n    \
+             font-display: swap;\r\n}}\r\n",
+            font.fontname, font.filename
+        );
     }
     css = format!(
         "{css}:root {{\r\n    --sans: \"Noto Sans\", {}, ui-sans-serif, sans-serif;\r\n}}",
