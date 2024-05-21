@@ -915,6 +915,19 @@
         ]
     },
     {
+        "word": "buzgóxon",
+        "def": "protest",
+        "gloss": "OPP-harmony-show",
+        "type": "Relation",
+        "alignment": "O protests E in Au",
+        "semantics": [
+            "protest",
+            "demonstrate",
+            "manifest"
+        ],
+        "notes": "generally political protest, counter-protest, etc."
+    },
+    {
         "word": "da",
         "def": "bind noun phrase to predicate (dative)",
         "type": "Binder",
@@ -12245,6 +12258,33 @@
             "wares",
             "products",
             "services"
+        ]
+    },
+    {
+        "word": "venxon",
+        "def": "advertise",
+        "ko": "advertisement",
+        "gloss": "sell-show",
+        "type": "Relation",
+        "alignment": "O advertises E as Au",
+        "semantics": [
+            "advertise",
+            "promote",
+            "sponsor",
+            "hawk"
+        ]
+    },
+    {
+        "word": "venxonko",
+        "def": "advertise",
+        "gloss": "sell-show-thing",
+        "type": "Relation",
+        "alignment": "O is an advertisement for E in Au",
+        "semantics": [
+            "advertise",
+            "promote",
+            "sponsor",
+            "hawk"
         ]
     },
     {
