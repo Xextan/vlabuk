@@ -2759,6 +2759,49 @@
         ]
     },
     {
+        "word": "flasa",
+        "def": "authorize",
+        "gloss": "rule-CAUS",
+        "type": "Quality",
+        "alignment": "O authorizes Eu",
+        "semantics": [
+            "authorize",
+            "proclaim",
+            "pronounce",
+            "declare",
+            "perform",
+            "legislate"
+        ],
+        "notes": "I now pronounce you married: «ji flasa ni põ zbasi oi vo»"
+    },
+    {
+        "word": "flavipnik",
+        "def": "judge",
+        "gloss": "rule-choose-servant",
+        "type": "Quality",
+        "alignment": "O is a judge adjudicating Eu",
+        "semantics": [
+            "judge",
+            "jurist",
+            "magistrate",
+            "arbitrator"
+        ],
+        "notes": "arbitrator: «flavipnik sep»"
+    },
+    {
+        "word": "flavipsto",
+        "def": "court",
+        "gloss": "rule-choose-institution",
+        "type": "Quality",
+        "alignment": "O is a court adjudicating Eu",
+        "semantics": [
+            "court",
+            "hearing",
+            "tribunal"
+        ],
+        "notes": "see also «flavipnik»"
+    },
+    {
         "word": "fli",
         "def": "float",
         "type": "Junction",
@@ -8526,6 +8569,18 @@
         "notes": "see also «flaqan» (break law)"
     },
     {
+        "word": "qanflasa",
+        "def": "convict",
+        "gloss": "disobey-rule-CAUS",
+        "type": "Relation",
+        "alignment": "O convicts E of Au",
+        "semantics": [
+            "convict",
+            "condemn",
+            "find guilty"
+        ]
+    },
+    {
         "word": "qantotsa",
         "def": "murder",
         "gloss": "disobey-dead-CAUS",
@@ -10576,6 +10631,24 @@
         }
     },
     {
+        "word": "sto",
+        "def": "institution",
+        "type": "Quality",
+        "alignment": "O is an institution concerned with Eu",
+        "semantics": [
+            "institution",
+            "establishment",
+            "organization",
+            "agency",
+            "company"
+        ],
+        "etymology": {
+            "lang": "Icelandic",
+            "word": "stofnur"
+        },
+        "notes": "abstract construct representing the common work and purpose of people engaged in organized action. Includes organized religious institutions, universities, corporations, nonprofit agencies, courts of law, and so forth."
+    },
+    {
         "word": "su",
         "def": "numeral: at least [one]",
         "type": "Determiner",
@@ -12237,6 +12310,21 @@
             "economy",
             "commerce",
             "trade"
+        ]
+    },
+    {
+        "word": "vensto",
+        "def": "company",
+        "gloss": "sell-institution",
+        "type": "Quality",
+        "alignment": "O is a company engaged in the business of Eu",
+        "semantics": [
+            "company",
+            "corporation",
+            "business",
+            "firm",
+            "merchant",
+            "purveyor"
         ]
     },
     {
