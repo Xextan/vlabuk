@@ -13504,9 +13504,40 @@
         ]
     },
     {
+        "word": "xip",
+        "def": "test",
+        "type": "Quality",
+        "alignment": "O is a test for Eu",
+        "semantics": [
+            "test",
+            "proof",
+            "trial",
+            "experiment",
+            "examination"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "cip ← cipra"
+        },
+        "notes": "see also «xipzuk»"
+    },
+    {
+        "word": "xipzuk",
+        "def": "check",
+        "gloss": "test-do",
+        "type": "Quality",
+        "alignment": "O checks the truth of Eu",
+        "semantics": [
+            "check",
+            "inspect",
+            "scan",
+            "scrutinize"
+        ],
+        "notes": "«»"
+    },
+    {
         "word": "xit",
         "def": "below",
-        "xo": "lowness",
         "ko": "underside",
         "type": "Junction",
         "alignment": "O is below E",
