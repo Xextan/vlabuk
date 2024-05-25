@@ -608,6 +608,23 @@
         }
     },
     {
+        "word": "bit",
+        "def": "particle",
+        "type": "Junction",
+        "alignment": "O is a particle comprised of E",
+        "semantics": [
+            "particle",
+            "granule",
+            "grain",
+            "crumb",
+            "atom"
+        ],
+        "etymology": {
+            "lang": "Scottish Gaelic",
+            "word": "bìdeag"
+        }
+    },
+    {
         "word": "ble",
         "def": "ugly",
         "xo": "ugliness",
@@ -4369,6 +4386,19 @@
         "notes": "also Heaven, Eden. One of the Giu Senko Xilati"
     },
     {
+        "word": "kanvik",
+        "def": "bacterium",
+        "gloss": "free-microbe",
+        "type": "Entity",
+        "alignment": "O is a bacterium",
+        "semantics": [
+            "bacterium",
+            "bacteria",
+            "germ"
+        ],
+        "notes": "see also «vikbit» (virus)"
+    },
+    {
         "word": "kap",
         "def": "cup",
         "type": "Junction",
@@ -5079,6 +5109,22 @@
             "word": "kou"
         }
     },
+    {
+        "word": "kóvdípáso",
+        "def": "COVID-19",
+        "type": "Entity",
+        "alignment": "O is COVID-19",
+        "semantics": [
+            "COVID-19",
+            "coronavirus",
+            "the 'rona"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "kovdipaso"
+        },
+        "notes": "refers to the disease. for the virus, see «vikbit kóvdípáso»"
+    }, 
     {
         "word": "kóxka",
         "def": "cat",
@@ -5991,6 +6037,22 @@
             "translit": "liù"
         }
     },
+    {
+        "word": "liókan",
+        "def": "influenza",
+        "type": "Entity",
+        "alignment": "O is influenza",
+        "semantics": [
+            "influenza",
+            "flu"
+        ],
+        "etymology": {
+            "lang": "Mandarin",
+            "word": "流感",
+            "translit": "liúgǎn"
+        },
+        "notes": "Refers to the disease. For the virus itself, see «vikbit liókan»"
+    }, 
     {
         "word": "lit",
         "def": "light",
@@ -10667,6 +10729,19 @@
         }
     },
     {
+        "word": "subbit",
+        "def": "atom",
+        "gloss": "substance-particle",
+        "type": "",
+        "alignment": "",
+        "semantics": [
+            "atom",
+            "molecule"
+        ],
+        "notes": "see also «supzi»"
+    },
+
+    {
         "word": "sue",
         "def": "special numeral: most",
         "type": "Determiner",
@@ -10835,7 +10910,8 @@
             "atom",
             "molecule",
             "particle"
-        ]
+        ],
+        "notes": "see also «subbit»"
     },
     {
         "word": "ta",
@@ -12472,6 +12548,40 @@
         }
     },
     {
+        "word": "vik",
+        "def": "microbe",
+        "type": "Entity",
+        "alignment": "O is a microbe",
+        "semantics": [
+            "microbe",
+            "microorganism",
+            "germ",
+            "bacteria",
+            "virus",
+            "paramecium",
+            "amoeba"
+        ],
+        "etymology": {
+            "lang": "Vietnamese",
+            "word": "vi khuẩn"
+        }
+    },
+    {
+        "word": "vikbit",
+        "def": "virus",
+        "gloss": "microbe-particle",
+        "type": "Entity",
+        "alignment": "O is a virus",
+        "semantics": [
+            "virus",
+            "virion",
+            "viral",
+            "prion"
+        ],
+        "notes": "see also «liókan» (influenza); «kóvdípáso» (COVID-19)"
+    },
+
+    {
         "word": "vip",
         "def": "choose",
         "xo": "choice (R)",
@@ -13532,8 +13642,7 @@
             "inspect",
             "scan",
             "scrutinize"
-        ],
-        "notes": "«»"
+        ]
     },
     {
         "word": "xit",
