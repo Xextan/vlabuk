@@ -6292,7 +6292,9 @@
     {
         "word": "litska",
         "def": "color",
-        "xo": "color [n.]",
+        "derivs": {
+            "xo": "color [n.]"
+        },
         "gloss": "light-qualia",
         "type": "Junction",
         "alignment": "O has color E",
@@ -8742,7 +8744,9 @@
     {
         "word": "qabbet",
         "def": "question (v.)",
-        "xo": "question (n.)",
+        "derivs": {
+            "xo": "question (n.)"
+        },
         "gloss": "answer-request",
         "type": "Relation",
         "alignment": "O questions E for Au",
@@ -12856,7 +12860,9 @@
     {
         "word": "venxon",
         "def": "advertise",
-        "ko": "advertisement",
+        "derivs": {
+            "ko": "advertisement"
+        },
         "gloss": "sell-show",
         "type": "Relation",
         "alignment": "O advertises E as Au",
