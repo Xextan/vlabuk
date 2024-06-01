@@ -306,7 +306,9 @@
     {
         "word": "bal",
         "def": "balance",
-        "xo": "balance (n.)",
+        "derivs": {
+            "xo": "balance (n.)"
+        },
         "type": "Quality",
         "alignment": "O (mass) is in balance in Eu",
         "semantics": [
@@ -361,8 +363,7 @@
             "lang": "Portuguese",
             "word": "banana"
         }
-    }, 
-
+    },
     {
         "word": "banfla",
         "def": "grammar",
@@ -471,7 +472,9 @@
     {
         "word": "bel",
         "def": "beautiful",
-        "xo": "beauty",
+        "derivs": {
+            "xo": "beauty"
+        },
         "type": "Quality",
         "alignment": "O is beautiful in Eu",
         "semantics": [
@@ -540,11 +543,13 @@
             "lang": "a priori"
         },
         "notes": "Legendary colossal beast in Xextanic folklore and mythology resembling a cross between a bear and a caribou. The Xextanic folk epic Xtazda Soltun claims that the great hunter «Óbúfe» slew the besklroda after pursuing the beast for nine hundred and ninety-nine years, upon which it was elevated into the night sky and transformed into a constellation by «Jówájóka», the demiurge."
-    }, 
+    },
     {
         "word": "bet",
         "def": "ask",
-        "xo": "request (n.)",
+        "derivs": {
+            "xo": "request (n.)"
+        },
         "type": "Relation",
         "alignment": "O requests from E for Au",
         "semantics": [
@@ -560,8 +565,9 @@
     {
         "word": "bik",
         "def": "force",
-        "xo": "force (n.)",
-        "ko": "violent",
+        "derivs": {
+            "ko": "violent"
+        },
         "type": "State",
         "alignment": "O forces Eu to occur",
         "semantics": [
@@ -578,7 +584,9 @@
     {
         "word": "bil",
         "def": "white",
-        "xo": "whiteness",
+        "derivs": {
+            "xo": "whiteness"
+        },
         "type": "Quality",
         "alignment": "O is white in Eu",
         "semantics": [
@@ -627,7 +635,9 @@
     {
         "word": "ble",
         "def": "ugly",
-        "xo": "ugliness",
+        "derivs": {
+            "xo": "ugliness"
+        },
         "type": "Quality",
         "alignment": "O is ugly in Eu",
         "semantics": [
@@ -644,7 +654,9 @@
     {
         "word": "bli",
         "def": "ready",
-        "xo": "preparation",
+        "derivs": {
+            "xo": "preparation"
+        },
         "type": "State",
         "alignment": "Ou is ready to occur",
         "semantics": [
@@ -659,7 +671,9 @@
     {
         "word": "blu",
         "def": "cyan",
-        "xo": "blueness",
+        "derivs": {
+            "xo": "blueness"
+        },
         "type": "Quality",
         "alignment": "O is cyan in Eu",
         "semantics": [
@@ -698,7 +712,9 @@
     {
         "word": "bol",
         "def": "ball",
-        "xo": "roundness",
+        "derivs": {
+            "xo": "roundness"
+        },
         "type": "Quality",
         "alignment": "O is spherical in Eu",
         "semantics": [
@@ -713,7 +729,9 @@
     {
         "word": "bon",
         "def": "good",
-        "xo": "benefit",
+        "derivs": {
+            "xo": "benefit"
+        },
         "type": "Relation",
         "alignment": "O is good for E in Au",
         "semantics": [
@@ -806,7 +824,7 @@
             "word": "broda"
         },
         "notes": "Used to describe an unspecified action; sometimes used as a vague or indeterminate threat for humorous effect, as in \"You take one more step and I'll broda you into next week!\""
-    }, 
+    },
     {
         "word": "bu",
         "def": "modifier: opposite",
@@ -877,7 +895,9 @@
     {
         "word": "bul",
         "def": "opposite",
-        "xo": "inversion",
+        "derivs": {
+            "xo": "inversion"
+        },
         "type": "Relation",
         "alignment": "O is opposite E in Au",
         "semantics": [
@@ -921,7 +941,9 @@
     {
         "word": "but",
         "def": "awake",
-        "xo": "wakefulness",
+        "derivs": {
+            "xo": "wakefulness"
+        },
         "type": "Quality",
         "alignment": "O is awake in Eu",
         "semantics": [
@@ -986,7 +1008,9 @@
     {
         "word": "dak",
         "def": "compress",
-        "xo": "pressure",
+        "derivs": {
+            "xo": "pressure"
+        },
         "type": "Junction",
         "alignment": "O is under pressure E",
         "semantics": [
@@ -1006,7 +1030,9 @@
     {
         "word": "dal",
         "def": "big",
-        "xo": "size",
+        "derivs": {
+            "xo": "size"
+        },
         "type": "Quality",
         "alignment": "O is large in Eu",
         "semantics": [
@@ -1258,7 +1284,9 @@
     {
         "word": "dep",
         "def": "should",
-        "xo": "obligation",
+        "derivs": {
+            "xo": "obligation"
+        },
         "type": "State",
         "alignment": "Ou should occur/be the case",
         "semantics": [
@@ -1318,8 +1346,9 @@
     {
         "word": "dik",
         "def": "rectangle",
-        "xo": "rectangularity",
-        "ko": "blocky",
+        "derivs": {
+            "ko": "blocky"
+        },
         "type": "Quality",
         "alignment": "O is rectangular in Eu",
         "semantics": [
@@ -1357,7 +1386,9 @@
     {
         "word": "din",
         "def": "divine",
-        "xo": "divinity",
+        "derivs": {
+            "xo": "divinity"
+        },
         "type": "Quality",
         "alignment": "O is divine in Eu",
         "semantics": [
@@ -1478,7 +1509,9 @@
     {
         "word": "dit",
         "def": "flat",
-        "xo": "flatness",
+        "derivs": {
+            "xo": "flatness"
+        },
         "type": "Quality",
         "alignment": "O is flat in Eu",
         "semantics": [
@@ -1572,7 +1605,9 @@
     {
         "word": "dol",
         "def": "pain",
-        "xo": "pain (n.)",
+        "derivs": {
+            "xo": "pain (n.)"
+        },
         "type": "Quality",
         "alignment": "O feels pain in Eu",
         "semantics": [
@@ -1603,7 +1638,9 @@
     {
         "word": "don",
         "def": "give",
-        "xo": "gift",
+        "derivs": {
+            "xo": "gift"
+        },
         "type": "Direction",
         "alignment": "O gives E to A",
         "semantics": [
@@ -1674,7 +1711,7 @@
             "lang": "Swahili",
             "word": "ndovu"
         }
-    }, 
+    },
     {
         "word": "dou",
         "def": "abstract nominative binder",
@@ -1703,7 +1740,9 @@
     {
         "word": "dqi",
         "def": "proud",
-        "xo": "pride",
+        "derivs": {
+            "xo": "pride"
+        },
         "type": "Quality",
         "alignment": "O is proud in Eu",
         "semantics": [
@@ -1719,7 +1758,9 @@
     {
         "word": "dqu",
         "def": "help",
-        "xo": "assistance",
+        "derivs": {
+            "xo": "assistance"
+        },
         "type": "Relation",
         "alignment": "O helps E with Au",
         "semantics": [
@@ -1793,7 +1834,9 @@
     {
         "word": "dul",
         "def": "analyze",
-        "xo": "reading (n.)",
+        "derivs": {
+            "xo": "reading (n.)"
+        },
         "type": "Relation",
         "alignment": "O analyzes E for Au",
         "semantics": [
@@ -1812,7 +1855,9 @@
     {
         "word": "dun",
         "def": "know",
-        "xo": "knowledge",
+        "derivs": {
+            "xo": "knowledge"
+        },
         "type": "Quality",
         "alignment": "O knows Eu",
         "semantics": [
@@ -1889,7 +1934,9 @@
     {
         "word": "dza",
         "def": "on",
-        "xo": "platform",
+        "derivs": {
+            "xo": "platform"
+        },
         "type": "Junction",
         "alignment": "O is on E",
         "semantics": [
@@ -1905,7 +1952,9 @@
     {
         "word": "dze",
         "def": "parent",
-        "xo": "descendant",
+        "derivs": {
+            "xo": "descendant"
+        },
         "type": "Junction",
         "alignment": "O is parent of E",
         "semantics": [
@@ -1952,7 +2001,9 @@
     {
         "word": "dzi",
         "def": "decay",
-        "xo": "decay (n.)",
+        "derivs": {
+            "xo": "decay (n.)"
+        },
         "type": "Quality",
         "alignment": "O decays in Eu",
         "semantics": [
@@ -1998,7 +2049,9 @@
     {
         "word": "dzo",
         "def": "walk",
-        "xo": "path",
+        "derivs": {
+            "xo": "path"
+        },
         "type": "Junction",
         "alignment": "O walks on E",
         "semantics": [
@@ -2289,7 +2342,9 @@
     {
         "word": "fan",
         "def": "resume",
-        "xo": "resumption",
+        "derivs": {
+            "xo": "resumption"
+        },
         "type": "State",
         "alignment": "Ou resumes",
         "semantics": [
@@ -2331,7 +2386,9 @@
     {
         "word": "fat",
         "def": "toward",
-        "xo": "direction",
+        "derivs": {
+            "xo": "direction"
+        },
         "type": "Quality",
         "alignment": "O is [oriented] toward Eu",
         "semantics": [
@@ -2387,7 +2444,9 @@
     {
         "word": "fel",
         "def": "happy",
-        "xo": "happiness",
+        "derivs": {
+            "xo": "happiness"
+        },
         "type": "Quality",
         "alignment": "O is happy in Eu",
         "semantics": [
@@ -2404,7 +2463,9 @@
     {
         "word": "fen",
         "def": "feminine",
-        "xo": "femininity",
+        "derivs": {
+            "xo": "femininity"
+        },
         "type": "Quality",
         "alignment": "O is feminine in Eu",
         "semantics": [
@@ -2531,7 +2592,9 @@
     {
         "word": "fep",
         "def": "weak",
-        "xo": "weakness",
+        "derivs": {
+            "xo": "weakness"
+        },
         "type": "Quality",
         "alignment": "O is weak in Eu",
         "semantics": [
@@ -2548,7 +2611,9 @@
     {
         "word": "fet",
         "def": "celebrate",
-        "xo": "ceremony",
+        "derivs": {
+            "xo": "ceremony"
+        },
         "type": "Relation",
         "alignment": "O celebrates E in Au",
         "semantics": [
@@ -2592,7 +2657,9 @@
     {
         "word": "fik",
         "def": "difficult",
-        "xo": "struggle (n.)",
+        "derivs": {
+            "xo": "struggle (n.)"
+        },
         "type": "Relation",
         "alignment": "O is difficult for E in Au",
         "semantics": [
@@ -2610,7 +2677,9 @@
     {
         "word": "fil",
         "def": "feel",
-        "xo": "emotion",
+        "derivs": {
+            "xo": "emotion"
+        },
         "type": "Junction",
         "alignment": "O feels E",
         "semantics": [
@@ -2626,7 +2695,9 @@
     {
         "word": "fin",
         "def": "end",
-        "xo": "end (n.)",
+        "derivs": {
+            "xo": "end (n.)"
+        },
         "type": "State",
         "alignment": "Ou ends",
         "semantics": [
@@ -2666,7 +2737,9 @@
     {
         "word": "fip",
         "def": "fear",
-        "xo": "fear (n.)",
+        "derivs": {
+            "xo": "fear (n.)"
+        },
         "type": "Relation",
         "alignment": "O fears E in Au",
         "semantics": [
@@ -2937,7 +3010,9 @@
     {
         "word": "fok",
         "def": "obey",
-        "xo": "obedience",
+        "derivs": {
+            "xo": "obedience"
+        },
         "type": "Relation",
         "alignment": "O obeys E in Au",
         "semantics": [
@@ -3158,7 +3233,9 @@
     {
         "word": "fun",
         "def": "chance",
-        "xo": "luck",
+        "derivs": {
+            "xo": "luck"
+        },
         "type": "State",
         "alignment": "Ou occurs by chance",
         "semantics": [
@@ -3231,7 +3308,9 @@
     {
         "word": "gak",
         "def": "fail",
-        "xo": "failure",
+        "derivs": {
+            "xo": "failure"
+        },
         "type": "Quality",
         "alignment": "O fails to do Eu",
         "semantics": [
@@ -3678,8 +3757,9 @@
     {
         "word": "gon",
         "def": "triangle",
-        "xo": "triangularity",
-        "ko": "angular",
+        "derivs": {
+            "ko": "angular"
+        },
         "type": "Quality",
         "alignment": "O is triangular in Eu",
         "semantics": [
@@ -3898,8 +3978,9 @@
     {
         "word": "gun",
         "def": "work",
-        "xo": "work (n.)",
-        "ko": "industrious",
+        "derivs": {
+            "ko": "industrious"
+        },
         "type": "Quality",
         "alignment": "O works on Eu",
         "semantics": [
@@ -3942,7 +4023,9 @@
     {
         "word": "gut",
         "def": "distance",
-        "xo": "distance",
+        "derivs": {
+            "xo": "distance"
+        },
         "type": "Quality",
         "alignment": "O (mass) spans distance Eu",
         "semantics": [
@@ -4367,8 +4450,9 @@
     {
         "word": "kal",
         "def": "hot",
-        "xo": "heat (n.)",
-        "ko": "burner",
+        "derivs": {
+            "ko": "burner"
+        },
         "type": "Quality",
         "alignment": "O is hot in Eu",
         "semantics": [
@@ -4400,8 +4484,9 @@
     {
         "word": "kan",
         "def": "free",
-        "xo": "opportunity",
-        "ko": "free",
+        "derivs": {
+            "ko": "free"
+        },
         "type": "Quality",
         "alignment": "O is free to do Eu",
         "semantics": [
@@ -4440,7 +4525,7 @@
             "translit": "kánnabis"
         },
         "notes": "Quit bogarting the vlabuk, brah."
-    }, 
+    },
     {
         "word": "Kánáda",
         "def": "Canada",
@@ -4519,7 +4604,9 @@
     {
         "word": "kat",
         "def": "hard",
-        "xo": "hardness",
+        "derivs": {
+            "xo": "hardness"
+        },
         "type": "Quality",
         "alignment": "O is hard in Eu",
         "semantics": [
@@ -4672,7 +4759,9 @@
     {
         "word": "kek",
         "def": "dirty",
-        "xo": "contaminant",
+        "derivs": {
+            "xo": "contaminant"
+        },
         "type": "Quality",
         "alignment": "O is dirty in Eu",
         "semantics": [
@@ -4707,8 +4796,9 @@
     {
         "word": "ken",
         "def": "able",
-        "xo": "ability",
-        "ko": "possibility",
+        "derivs": {
+            "ko": "possibility"
+        },
         "type": "State",
         "alignment": "Ou is possible",
         "semantics": [
@@ -4752,8 +4842,9 @@
     {
         "word": "kep",
         "def": "idea",
-        "xo": "concept [of]",
-        "ko": "abstract",
+        "derivs": {
+            "ko": "abstract"
+        },
         "type": "State",
         "alignment": "Ou is an idea",
         "semantics": [
@@ -4788,7 +4879,9 @@
     {
         "word": "kik",
         "def": "thankful",
-        "xo": "gratitude",
+        "derivs": {
+            "xo": "gratitude"
+        },
         "type": "Relation",
         "alignment": "O is thankful to E for Au",
         "semantics": [
@@ -4860,8 +4953,9 @@
     {
         "word": "kin",
         "def": "contain",
-        "xo": "contents",
-        "ko": "container",
+        "derivs": {
+            "ko": "container"
+        },
         "type": "Junction",
         "alignment": "O contains E",
         "semantics": [
@@ -4945,8 +5039,9 @@
     {
         "word": "kle",
         "def": "mercy",
-        "xo": "mercy (n.)",
-        "ko": "merciful",
+        "derivs": {
+            "ko": "merciful"
+        },
         "type": "Relation",
         "alignment": "O has mercy on E in Au",
         "semantics": [
@@ -5036,8 +5131,9 @@
     {
         "word": "kol",
         "def": "easy",
-        "xo": "ease",
-        "ko": "user-friendly",
+        "derivs": {
+            "ko": "user-friendly"
+        },
         "type": "Relation",
         "alignment": "O is easy for E in Au",
         "semantics": [
@@ -5237,7 +5333,7 @@
             "word": "kovdipaso"
         },
         "notes": "refers to the disease. for the virus, see «vikbit kóvdípáso»"
-    }, 
+    },
     {
         "word": "kóxka",
         "def": "cat",
@@ -5349,8 +5445,9 @@
     {
         "word": "kul",
         "def": "dark",
-        "xo": "darkness",
-        "ko": "shadow",
+        "derivs": {
+            "ko": "shadow"
+        },
         "type": "Quality",
         "alignment": "O is dark in Eu",
         "semantics": [
@@ -5370,8 +5467,9 @@
     {
         "word": "kun",
         "def": "together",
-        "xo": "togetherness",
-        "ko": "group",
+        "derivs": {
+            "ko": "group"
+        },
         "type": "Relation",
         "alignment": "O is together with E in Au",
         "semantics": [
@@ -5428,7 +5526,9 @@
     {
         "word": "kut",
         "def": "front",
-        "ko": "foreground",
+        "derivs": {
+            "ko": "foreground"
+        },
         "type": "Junction",
         "alignment": "O is in front of E",
         "semantics": [
@@ -5539,8 +5639,9 @@
     {
         "word": "lak",
         "def": "interact",
-        "xo": "interaction",
-        "ko": "outgoing",
+        "derivs": {
+            "ko": "outgoing"
+        },
         "type": "Relation",
         "alignment": "O interacts with E in Au",
         "semantics": [
@@ -5614,8 +5715,9 @@
     {
         "word": "lal",
         "def": "old",
-        "xo": "old age",
-        "ko": "antique",
+        "derivs": {
+            "ko": "antique"
+        },
         "type": "Quality",
         "alignment": "O is old in Eu",
         "semantics": [
@@ -5633,8 +5735,9 @@
     {
         "word": "lan",
         "def": "adjacent",
-        "xo": "juxtaposition",
-        "ko": "neighbor",
+        "derivs": {
+            "ko": "neighbor"
+        },
         "type": "Relation",
         "alignment": "O is adjacent to E in Au",
         "semantics": [
@@ -5711,8 +5814,9 @@
     {
         "word": "lat",
         "def": "vertical",
-        "xo": "uprightness",
-        "ko": "support",
+        "derivs": {
+            "ko": "support"
+        },
         "type": "Quality",
         "alignment": "O is vertical in Eu",
         "semantics": [
@@ -5776,7 +5880,7 @@
             "word": "老虎",
             "translit": "lǎohǔ"
         }
-    }, 
+    },
     {
         "word": "le",
         "def": "3rd person animate pronoun",
@@ -5839,7 +5943,7 @@
             "lang": "Spanish",
             "word": "león"
         }
-    }, 
+    },
     {
         "word": "lek",
         "def": "repair",
@@ -5872,8 +5976,9 @@
     {
         "word": "lel",
         "def": "funny",
-        "xo": "humor",
-        "ko": "joke",
+        "derivs": {
+            "ko": "joke"
+        },
         "type": "Quality",
         "alignment": "O is funny in Eu",
         "semantics": [
@@ -6080,7 +6185,9 @@
     {
         "word": "lil",
         "def": "experience",
-        "xo": "experience (n.)",
+        "derivs": {
+            "xo": "experience (n.)"
+        },
         "type": "Quality",
         "alignment": "O experiences Eu",
         "semantics": [
@@ -6165,7 +6272,7 @@
             "translit": "liúgǎn"
         },
         "notes": "Refers to the disease. For the virus itself, see «vikbit liókan»"
-    }, 
+    },
     {
         "word": "lit",
         "def": "light",
@@ -6544,8 +6651,9 @@
     {
         "word": "lut",
         "def": "compete",
-        "xo": "competition",
-        "ko": "competititve",
+        "derivs": {
+            "ko": "competititve"
+        },
         "type": "Quality",
         "alignment": "O (mass) compete in Eu",
         "semantics": [
@@ -6809,7 +6917,9 @@
     {
         "word": "nan",
         "def": "masculine",
-        "xo": "masculinity",
+        "derivs": {
+            "xo": "masculinity"
+        },
         "type": "Quality",
         "alignment": "O is masculine in Eu",
         "semantics": [
@@ -6940,8 +7050,9 @@
     {
         "word": "nat",
         "def": "false",
-        "xo": "falsity",
-        "ko": "fake (n.)",
+        "derivs": {
+            "ko": "fake (n.)"
+        },
         "type": "Quality",
         "alignment": "O is false in Eu",
         "semantics": [
@@ -7038,8 +7149,9 @@
     {
         "word": "nel",
         "def": "like",
-        "xo": "pleasure (n.)",
-        "ko": "agreeable",
+        "derivs": {
+            "ko": "agreeable"
+        },
         "type": "Quality",
         "alignment": "O likes Eu",
         "semantics": [
@@ -7056,8 +7168,9 @@
     {
         "word": "nen",
         "def": "inside",
-        "xo": "encapsulation",
-        "ko": "interior",
+        "derivs": {
+            "ko": "interior"
+        },
         "type": "Junction",
         "alignment": "O is inside E",
         "semantics": [
@@ -7099,8 +7212,9 @@
     {
         "word": "net",
         "def": "most",
-        "xo": "supremacy",
-        "ko": "maximum",
+        "derivs": {
+            "ko": "maximum"
+        },
         "type": "Quality",
         "alignment": "O is the most Eu",
         "semantics": [
@@ -7146,8 +7260,9 @@
     {
         "word": "nik",
         "def": "agent",
-        "xo": "job",
-        "ko": "employed",
+        "derivs": {
+            "ko": "employed"
+        },
         "type": "Quality",
         "alignment": "O is employed as agent of Eu",
         "semantics": [
@@ -7183,8 +7298,9 @@
     {
         "word": "nit",
         "def": "interesting",
-        "xo": "intrigue (n.)",
-        "ko": "trivia",
+        "derivs": {
+            "ko": "trivia"
+        },
         "type": "Quality",
         "alignment": "O is interesting in Eu",
         "semantics": [
@@ -7331,8 +7447,9 @@
     {
         "word": "nop",
         "def": "idle",
-        "xo": "rest (n.)",
-        "ko": "lazy",
+        "derivs": {
+            "ko": "lazy"
+        },
         "type": "Quality",
         "alignment": "O is idle in Eu",
         "semantics": [
@@ -7364,8 +7481,9 @@
     {
         "word": "not",
         "def": "other",
-        "xo": "otherness",
-        "ko": "another",
+        "derivs": {
+            "ko": "another"
+        },
         "type": "Junction",
         "alignment": "O is other than E in Au",
         "semantics": [
@@ -7423,8 +7541,9 @@
     {
         "word": "nuk",
         "def": "smell",
-        "xo": "odor",
-        "ko": "perfume",
+        "derivs": {
+            "ko": "perfume"
+        },
         "type": "Quality",
         "alignment": "O smells like Eu",
         "semantics": [
@@ -7631,7 +7750,9 @@
     {
         "word": "pak",
         "def": "past",
-        "ko": "predecessor",
+        "derivs": {
+            "ko": "predecessor"
+        },
         "type": "Junction",
         "alignment": "O is the past of E",
         "semantics": [
@@ -7759,8 +7880,9 @@
     {
         "word": "pap",
         "def": "soft",
-        "xo": "softness",
-        "ko": "plush",
+        "derivs": {
+            "ko": "plush"
+        },
         "type": "Quality",
         "alignment": "O is soft in Eu",
         "semantics": [
@@ -7970,7 +8092,9 @@
     {
         "word": "pek",
         "def": "cling",
-        "ko": "clingy",
+        "derivs": {
+            "ko": "clingy"
+        },
         "type": "Junction",
         "alignment": "O clings to E",
         "semantics": [
@@ -7987,8 +8111,9 @@
     {
         "word": "pel",
         "def": "dangerous",
-        "xo": "danger (situation)",
-        "ko": "danger (thing)",
+        "derivs": {
+            "ko": "danger (thing)"
+        },
         "type": "Relation",
         "alignment": "O is dangerous to E in Au",
         "semantics": [
@@ -8005,8 +8130,9 @@
     {
         "word": "pen",
         "def": "think",
-        "xo": "thought",
-        "ko": "thinker",
+        "derivs": {
+            "ko": "thinker"
+        },
         "type": "Junction",
         "alignment": "O thinks about E",
         "semantics": [
@@ -8094,8 +8220,9 @@
     {
         "word": "pet",
         "def": "pertain",
-        "xo": "association",
-        "ko": "concern",
+        "derivs": {
+            "ko": "concern"
+        },
         "type": "Relation",
         "alignment": "O pertains to E in Au",
         "semantics": [
@@ -8165,8 +8292,9 @@
     {
         "word": "pil",
         "def": "tired",
-        "xo": "exhaustion",
-        "ko": "dozy",
+        "derivs": {
+            "ko": "dozy"
+        },
         "type": "Quality",
         "alignment": "O is tired in Eu",
         "semantics": [
@@ -8184,8 +8312,9 @@
     {
         "word": "pin",
         "def": "angry",
-        "xo": "anger",
-        "ko": "short-tempered",
+        "derivs": {
+            "ko": "short-tempered"
+        },
         "type": "Quality",
         "alignment": "O is angry in Eu",
         "semantics": [
@@ -8232,8 +8361,9 @@
     {
         "word": "ple",
         "def": "multiple",
-        "xo": "plurality",
-        "ko": "multitude",
+        "derivs": {
+            "ko": "multitude"
+        },
         "type": "Quality",
         "alignment": "O is multiple in Eu",
         "semantics": [
@@ -8383,7 +8513,9 @@
     {
         "word": "pon",
         "def": "put",
-        "xo": "placement",
+        "derivs": {
+            "xo": "placement"
+        },
         "type": "Direction",
         "alignment": "O puts E in/at A",
         "semantics": [
@@ -8429,7 +8561,9 @@
     {
         "word": "pop",
         "def": "happen",
-        "ko": "event",
+        "derivs": {
+            "ko": "event"
+        },
         "type": "State",
         "alignment": "Ou happens",
         "semantics": [
@@ -8463,8 +8597,9 @@
     {
         "word": "pot",
         "def": "similar",
-        "xo": "similarity",
-        "ko": "lookalike",
+        "derivs": {
+            "ko": "lookalike"
+        },
         "type": "Relation",
         "alignment": "O is similar to E in Au",
         "semantics": [
@@ -8532,8 +8667,9 @@
     {
         "word": "pun",
         "def": "corrosive",
-        "xo": "acidity",
-        "ko": "acid",
+        "derivs": {
+            "ko": "acid"
+        },
         "type": "Quality",
         "alignment": "O is corrosive in Eu",
         "semantics": [
@@ -8661,8 +8797,9 @@
     {
         "word": "qak",
         "def": "disgusting",
-        "xo": "vileness",
-        "ko": "sicko",
+        "derivs": {
+            "ko": "sicko"
+        },
         "type": "Quality",
         "alignment": "O is disgusting in Eu",
         "semantics": [
@@ -8805,8 +8942,9 @@
     {
         "word": "qap",
         "def": "answer",
-        "xo": "prompt",
-        "ko": "key",
+        "derivs": {
+            "ko": "key"
+        },
         "type": "Junction",
         "alignment": "O is answer to E",
         "semantics": [
@@ -8825,8 +8963,9 @@
     {
         "word": "qat",
         "def": "continue",
-        "xo": "continuation",
-        "ko": "persistent",
+        "derivs": {
+            "ko": "persistent"
+        },
         "type": "State",
         "alignment": "Ou continues",
         "semantics": [
@@ -8888,8 +9027,9 @@
     {
         "word": "qbi",
         "def": "almost",
-        "xo": "closeness",
-        "ko": "marginal",
+        "derivs": {
+            "ko": "marginal"
+        },
         "type": "Quality",
         "alignment": "O is almost Eu",
         "semantics": [
@@ -8905,8 +9045,9 @@
     {
         "word": "qbo",
         "def": "complex",
-        "xo": "complexity",
-        "ko": "cryptic",
+        "derivs": {
+            "ko": "cryptic"
+        },
         "type": "Quality",
         "alignment": "O is complex in Eu",
         "semantics": [
@@ -8940,8 +9081,9 @@
     {
         "word": "qde",
         "def": "wait",
-        "xo": "pause (n.)",
-        "ko": "patient",
+        "derivs": {
+            "ko": "patient"
+        },
         "type": "Quality",
         "alignment": "O waits for Eu",
         "semantics": [
@@ -8959,7 +9101,9 @@
     {
         "word": "qdi",
         "def": "decrease",
-        "xo": "decrease (n.)",
+        "derivs": {
+            "xo": "decrease (n.)"
+        },
         "type": "State",
         "alignment": "Ou decreases",
         "semantics": [
@@ -8993,8 +9137,9 @@
     {
         "word": "qel",
         "def": "solid",
-        "xo": "solidity",
-        "ko": "solid (n.)",
+        "derivs": {
+            "ko": "solid (n.)"
+        },
         "type": "Quality",
         "alignment": "O is solid in Eu",
         "semantics": [
@@ -9028,8 +9173,9 @@
     {
         "word": "qen",
         "def": "simple",
-        "xo": "simplicity",
-        "ko": "trivial",
+        "derivs": {
+            "ko": "trivial"
+        },
         "type": "Quality",
         "alignment": "O is simple in Eu",
         "semantics": [
@@ -9047,8 +9193,9 @@
     {
         "word": "qet",
         "def": "true",
-        "xo": "truth value",
-        "ko": "truth (n.)",
+        "derivs": {
+            "ko": "truth (n.)"
+        },
         "type": "Quality",
         "alignment": "O is true in Eu",
         "semantics": [
@@ -9089,7 +9236,9 @@
     {
         "word": "qga",
         "def": "hold",
-        "ko": "grabber",
+        "derivs": {
+            "ko": "grabber"
+        },
         "type": "Junction",
         "alignment": "O holds E",
         "semantics": [
@@ -9106,7 +9255,9 @@
     {
         "word": "qge",
         "def": "knot",
-        "ko": "tangle",
+        "derivs": {
+            "ko": "tangle"
+        },
         "type": "Junction",
         "alignment": "O is a knot of E",
         "semantics": [
@@ -9145,8 +9296,9 @@
     {
         "word": "qik",
         "def": "spin",
-        "xo": "rotation",
-        "ko": "wheel",
+        "derivs": {
+            "ko": "wheel"
+        },
         "type": "Junction",
         "alignment": "O spins around E",
         "semantics": [
@@ -9222,8 +9374,9 @@
     {
         "word": "qip",
         "def": "alive",
-        "xo": "life",
-        "ko": "organism",
+        "derivs": {
+            "ko": "organism"
+        },
         "type": "Quality",
         "alignment": "O is alive in Eu",
         "semantics": [
@@ -9433,8 +9586,9 @@
     {
         "word": "qle",
         "def": "valley",
-        "xo": "ridged",
-        "ko": "canyon",
+        "derivs": {
+            "ko": "canyon"
+        },
         "type": "Junction",
         "alignment": "O is a canyon in E",
         "semantics": [
@@ -9452,8 +9606,9 @@
     {
         "word": "qlu",
         "def": "yellow",
-        "xo": "yellowness",
-        "ko": "golden",
+        "derivs": {
+            "ko": "golden"
+        },
         "type": "Quality",
         "alignment": "O is yellow/green in Eu",
         "semantics": [
@@ -9502,8 +9657,9 @@
     {
         "word": "qok",
         "def": "piece",
-        "xo": "whole [n.]",
-        "ko": "piecemeal",
+        "derivs": {
+            "ko": "piecemeal"
+        },
         "type": "Junction",
         "alignment": "O is a piece of E",
         "semantics": [
@@ -9527,7 +9683,9 @@
     {
         "word": "qon",
         "def": "center",
-        "ko": "core",
+        "derivs": {
+            "ko": "core"
+        },
         "type": "Junction",
         "alignment": "O is center of E",
         "semantics": [
@@ -9545,8 +9703,9 @@
     {
         "word": "qul",
         "def": "deep",
-        "xo": "depth",
-        "ko": "deep (n.)",
+        "derivs": {
+            "ko": "deep (n.)"
+        },
         "type": "Quality",
         "alignment": "O is deep in Eu",
         "semantics": [
@@ -9564,8 +9723,9 @@
     {
         "word": "qun",
         "def": "join",
-        "xo": "link",
-        "ko": "union",
+        "derivs": {
+            "ko": "union"
+        },
         "type": "Quality",
         "alignment": "O (mass) is joined in Eu",
         "semantics": [
@@ -9582,8 +9742,9 @@
     {
         "word": "qup",
         "def": "property",
-        "xo": "exemplar",
-        "ko": "trait",
+        "derivs": {
+            "ko": "trait"
+        },
         "type": "State",
         "alignment": "Ou is a property",
         "semantics": [
@@ -9666,8 +9827,9 @@
     {
         "word": "sak",
         "def": "lack",
-        "xo": "absence",
-        "ko": "empty",
+        "derivs": {
+            "ko": "empty"
+        },
         "type": "Relation",
         "alignment": "O lacks E in Au",
         "semantics": [
@@ -9715,8 +9877,9 @@
     {
         "word": "sal",
         "def": "number",
-        "xo": "quantity",
-        "ko": "quantifier",
+        "derivs": {
+            "ko": "quantifier"
+        },
         "type": "Quality",
         "alignment": "O is a number quantifying Eu",
         "semantics": [
@@ -9810,8 +9973,9 @@
     {
         "word": "sap",
         "def": "cause",
-        "xo": "effect",
-        "ko": "agent",
+        "derivs": {
+            "ko": "agent"
+        },
         "type": "Quality",
         "alignment": "O causes Eu",
         "semantics": [
@@ -9830,8 +9994,9 @@
     {
         "word": "sat",
         "def": "friend",
-        "xo": "friendship",
-        "ko": "friend",
+        "derivs": {
+            "ko": "friend"
+        },
         "type": "Relation",
         "alignment": "O is a friend to E in Au",
         "semantics": [
@@ -9879,8 +10044,9 @@
     {
         "word": "sek",
         "def": "safe",
-        "xo": "security",
-        "ko": "guard",
+        "derivs": {
+            "ko": "guard"
+        },
         "type": "Quality",
         "alignment": "O is safe in Eu",
         "semantics": [
@@ -9935,7 +10101,9 @@
     {
         "word": "sel",
         "def": "self",
-        "ko": "ego",
+        "derivs": {
+            "ko": "ego"
+        },
         "type": "Junction",
         "alignment": "O is self of E",
         "semantics": [
@@ -9965,8 +10133,9 @@
     {
         "word": "sen",
         "def": "signify",
-        "xo": "meaning",
-        "ko": "sign",
+        "derivs": {
+            "ko": "sign"
+        },
         "type": "Quality",
         "alignment": "O signifies Eu",
         "semantics": [
@@ -10110,8 +10279,9 @@
     {
         "word": "sil",
         "def": "strong",
-        "xo": "strength",
-        "ko": "powerful",
+        "derivs": {
+            "ko": "powerful"
+        },
         "type": "Quality",
         "alignment": "O is strong in Eu",
         "semantics": [
@@ -10156,8 +10326,9 @@
     {
         "word": "sin",
         "def": "new",
-        "xo": "newness",
-        "ko": "news",
+        "derivs": {
+            "ko": "news"
+        },
         "type": "Quality",
         "alignment": "O is new in Eu",
         "semantics": [
@@ -10188,8 +10359,9 @@
     {
         "word": "sip",
         "def": "mutual",
-        "xo": "reciprocity",
-        "ko": "party (to discussion etc.)",
+        "derivs": {
+            "ko": "party (to discussion etc.)"
+        },
         "type": "Quality",
         "alignment": "O (mass) mutually Eu",
         "semantics": [
@@ -10207,8 +10379,9 @@
     {
         "word": "sit",
         "def": "system",
-        "xo": "structure",
-        "ko": "organization",
+        "derivs": {
+            "ko": "organization"
+        },
         "type": "Quality",
         "alignment": "O is a system of Eu",
         "semantics": [
@@ -10239,8 +10412,9 @@
     {
         "word": "ska",
         "def": "qualia",
-        "xo": "qualia (Q)",
-        "ko": "stimulus (J)",
+        "derivs": {
+            "ko": "stimulus (J)"
+        },
         "type": "Quality",
         "alignment": "O has qualia Eu",
         "semantics": [
@@ -10300,8 +10474,9 @@
     {
         "word": "sku",
         "def": "express",
-        "xo": "message",
-        "ko": "speaker",
+        "derivs": {
+            "ko": "speaker"
+        },
         "type": "Relation",
         "alignment": "O expresses to E message Au",
         "semantics": [
@@ -10319,8 +10494,9 @@
     {
         "word": "sla",
         "def": "healthy",
-        "xo": "health",
-        "ko": "fit",
+        "derivs": {
+            "ko": "fit"
+        },
         "type": "Quality",
         "alignment": "O is healthy in Eu",
         "semantics": [
@@ -10350,8 +10526,9 @@
     {
         "word": "sli",
         "def": "image",
-        "xo": "original",
-        "ko": "duplicate",
+        "derivs": {
+            "ko": "duplicate"
+        },
         "type": "Junction",
         "alignment": "O is an image of Eu",
         "semantics": [
@@ -10472,8 +10649,9 @@
     {
         "word": "slu",
         "def": "slow",
-        "xo": "sluggishness",
-        "ko": "slowpoke",
+        "derivs": {
+            "ko": "slowpoke"
+        },
         "type": "Quality",
         "alignment": "O is slow in Eu",
         "semantics": [
@@ -10490,8 +10668,9 @@
     {
         "word": "sna",
         "def": "succeed",
-        "xo": "success",
-        "ko": "victor",
+        "derivs": {
+            "ko": "victor"
+        },
         "type": "Quality",
         "alignment": "O succeeds in Eu",
         "semantics": [
@@ -10687,8 +10866,9 @@
     {
         "word": "sop",
         "def": "fit",
-        "xo": "fit (n.)",
-        "ko": "match (n.)",
+        "derivs": {
+            "ko": "match (n.)"
+        },
         "type": "Relation",
         "alignment": "O fits E in Au",
         "semantics": [
@@ -10707,8 +10887,9 @@
     {
         "word": "sot",
         "def": "secret",
-        "xo": "confidentiality",
-        "ko": "secret (n.)",
+        "derivs": {
+            "ko": "secret (n.)"
+        },
         "type": "Quality",
         "alignment": "O is secret in Eu",
         "semantics": [
@@ -10727,8 +10908,9 @@
     {
         "word": "spa",
         "def": "sleep",
-        "xo": "sleep (n.)",
-        "ko": "sleepyhead",
+        "derivs": {
+            "ko": "sleepyhead"
+        },
         "type": "Quality",
         "alignment": "O is asleep in Eu",
         "semantics": [
@@ -10811,8 +10993,9 @@
     {
         "word": "spe",
         "def": "reflect",
-        "xo": "reflection",
-        "ko": "mirror",
+        "derivs": {
+            "ko": "mirror"
+        },
         "type": "Junction",
         "alignment": "O reflects E",
         "semantics": [
@@ -10845,8 +11028,9 @@
     {
         "word": "ste",
         "def": "same",
-        "xo": "equivalence",
-        "ko": "parallel (n.)",
+        "derivs": {
+            "ko": "parallel (n.)"
+        },
         "type": "Relation",
         "alignment": "O is the same as E in Au",
         "semantics": [
@@ -10909,7 +11093,6 @@
         ],
         "notes": "see also «supzi»"
     },
-
     {
         "word": "sue",
         "def": "special numeral: most",
@@ -10949,8 +11132,9 @@
     {
         "word": "sun",
         "def": "reside",
-        "xo": "residence",
-        "ko": "resident",
+        "derivs": {
+            "ko": "resident"
+        },
         "type": "Junction",
         "alignment": "O inhabits E",
         "semantics": [
@@ -11054,8 +11238,9 @@
     {
         "word": "sup",
         "def": "matter",
-        "xo": "component",
-        "ko": "substance",
+        "derivs": {
+            "ko": "substance"
+        },
         "type": "Junction",
         "alignment": "O is matter containing E",
         "semantics": [
@@ -11160,8 +11345,9 @@
     {
         "word": "tan",
         "def": "source",
-        "xo": "origin",
-        "ko": "resource",
+        "derivs": {
+            "ko": "resource"
+        },
         "type": "Relation",
         "alignment": "O is source of E in Au",
         "semantics": [
@@ -11194,7 +11380,9 @@
     {
         "word": "tat",
         "def": "tight",
-        "xo": "tension",
+        "derivs": {
+            "xo": "tension"
+        },
         "type": "Quality",
         "alignment": "O is tight in Eu",
         "semantics": [
@@ -11227,8 +11415,9 @@
     {
         "word": "tek",
         "def": "specific",
-        "xo": "detail (J)",
-        "ko": "special (Q)",
+        "derivs": {
+            "ko": "special (Q)"
+        },
         "type": "Relation",
         "alignment": "O is specific to E in Au",
         "semantics": [
@@ -11302,8 +11491,9 @@
     {
         "word": "ten",
         "def": "have",
-        "xo": "possession (J)",
-        "ko": "possessor (J)",
+        "derivs": {
+            "ko": "possessor (J)"
+        },
         "type": "Relation",
         "alignment": "O has E in Au",
         "semantics": [
@@ -11387,8 +11577,9 @@
     {
         "word": "tep",
         "def": "time",
-        "xo": "duration",
-        "ko": "era",
+        "derivs": {
+            "ko": "era"
+        },
         "type": "Quality",
         "alignment": "O is time of Eu",
         "semantics": [
@@ -11419,8 +11610,9 @@
     {
         "word": "tet",
         "def": "try",
-        "xo": "effort (Q)",
-        "ko": "persistent (Q)",
+        "derivs": {
+            "ko": "persistent (Q)"
+        },
         "type": "Quality",
         "alignment": "O tries Eu",
         "semantics": [
@@ -11630,9 +11822,9 @@
     {
         "word": "tot",
         "def": "dead",
-        "ko": "the dead",
-        "sa": "kill",
-        "qu": "death",
+        "derivs": {
+            "qu": "death"
+        },
         "type": "Quality",
         "alignment": "O is dead in Eu",
         "semantics": [
@@ -11801,7 +11993,9 @@
     {
         "word": "tse",
         "def": "intend",
-        "xo": "intention",
+        "derivs": {
+            "xo": "intention"
+        },
         "type": "Quality",
         "alignment": "O intends Eu",
         "semantics": [
@@ -11845,8 +12039,9 @@
     {
         "word": "tsi",
         "def": "value",
-        "xo": "price",
-        "ko": "money",
+        "derivs": {
+            "ko": "money"
+        },
         "type": "Junction",
         "alignment": "O has value E",
         "semantics": [
@@ -11918,8 +12113,9 @@
     {
         "word": "tuk",
         "def": "permit [v.]",
-        "xo": "permission",
-        "ko": "authority",
+        "derivs": {
+            "ko": "authority"
+        },
         "type": "Relation",
         "alignment": "O permits E to do/be Au",
         "semantics": [
@@ -11949,7 +12145,9 @@
     {
         "word": "tul",
         "def": "tool",
-        "xo": "utility (Q)",
+        "derivs": {
+            "xo": "utility (Q)"
+        },
         "type": "Quality",
         "alignment": "O is a tool for Eu",
         "semantics": [
@@ -11978,7 +12176,7 @@
             "word": "tulip"
         },
         "notes": "He called me a bulbiferous geophyte :("
-    }, 
+    },
     {
         "word": "tulxketik",
         "def": "dishwasher",
@@ -12053,8 +12251,9 @@
     {
         "word": "tup",
         "def": "throw",
-        "xo": "projectile",
-        "ko": "launcher",
+        "derivs": {
+            "ko": "launcher"
+        },
         "type": "Direction",
         "alignment": "O throws E, striking A",
         "semantics": [
@@ -12090,8 +12289,9 @@
     {
         "word": "tut",
         "def": "whole",
-        "xo": "entirety",
-        "ko": "whole [n.] (J)",
+        "derivs": {
+            "ko": "whole [n.] (J)"
+        },
         "type": "Quality",
         "alignment": "O is whole in Eu",
         "semantics": [
@@ -12139,8 +12339,9 @@
     {
         "word": "txe",
         "def": "excess",
-        "xo": "excess [n.] (J)",
-        "ko": "decadent (Q)",
+        "derivs": {
+            "ko": "decadent (Q)"
+        },
         "type": "Quality",
         "alignment": "O is excessive in Eu",
         "semantics": [
@@ -12237,8 +12438,9 @@
     {
         "word": "txu",
         "def": "need",
-        "xo": "requirement (J)",
-        "ko": "in need (R)",
+        "derivs": {
+            "ko": "in need (R)"
+        },
         "type": "Quality",
         "alignment": "O needs Eu",
         "semantics": [
@@ -12385,8 +12587,9 @@
     {
         "word": "val",
         "def": "important",
-        "xo": "importance",
-        "ko": "precious",
+        "derivs": {
+            "ko": "precious"
+        },
         "type": "Relation",
         "alignment": "O is important to E in Au",
         "semantics": [
@@ -12432,8 +12635,9 @@
     {
         "word": "van",
         "def": "common",
-        "xo": "ordinariness",
-        "ko": "whatever",
+        "derivs": {
+            "ko": "whatever"
+        },
         "type": "Quality",
         "alignment": "O is common in Eu",
         "semantics": [
@@ -12506,8 +12710,9 @@
     {
         "word": "vel",
         "def": "red",
-        "xo": "redness",
-        "ko": "red tint",
+        "derivs": {
+            "ko": "red tint"
+        },
         "type": "Quality",
         "alignment": "O is red in Eu",
         "semantics": [
@@ -12529,8 +12734,9 @@
     {
         "word": "ven",
         "def": "trade",
-        "xo": "merchandise",
-        "ko": "merchant",
+        "derivs": {
+            "ko": "merchant"
+        },
         "type": "Direction",
         "alignment": "O sells E to A",
         "semantics": [
@@ -12702,8 +12908,9 @@
     {
         "word": "vet",
         "def": "believe",
-        "xo": "belief",
-        "ko": "position [in argument]",
+        "derivs": {
+            "ko": "position [in argument]"
+        },
         "type": "Quality",
         "alignment": "O believes Eu",
         "semantics": [
@@ -12788,12 +12995,12 @@
         ],
         "notes": "see also «liókan» (influenza); «kóvdípáso» (COVID-19)"
     },
-
     {
         "word": "vip",
         "def": "choose",
-        "xo": "choice (R)",
-        "ko": "judge (R)",
+        "derivs": {
+            "ko": "judge (R)"
+        },
         "type": "Relation",
         "alignment": "O chooses E for Au",
         "semantics": [
@@ -12811,8 +13018,9 @@
     {
         "word": "vit",
         "def": "see",
-        "xo": "view [n.] (J)",
-        "ko": "viewer (J)",
+        "derivs": {
+            "ko": "viewer (J)"
+        },
         "type": "Junction",
         "alignment": "O sees E",
         "semantics": [
@@ -12857,7 +13065,9 @@
     {
         "word": "vla",
         "def": "word",
-        "xo": "semantics",
+        "derivs": {
+            "xo": "semantics"
+        },
         "type": "Quality",
         "alignment": "O is a word representing Eu",
         "semantics": [
@@ -12963,8 +13173,9 @@
     {
         "word": "vle",
         "def": "pull",
-        "xo": "pull [n.] (R)",
-        "ko": "attract",
+        "derivs": {
+            "ko": "attract"
+        },
         "type": "Relation",
         "alignment": "O pulls on E in Au",
         "semantics": [
@@ -12982,8 +13193,9 @@
     {
         "word": "vli",
         "def": "energy",
-        "xo": "energy source",
-        "ko": "power",
+        "derivs": {
+            "ko": "power"
+        },
         "type": "Junction",
         "alignment": "O is energy of E",
         "semantics": [
@@ -13018,8 +13230,9 @@
     {
         "word": "vol",
         "def": "want",
-        "xo": "desire [n.] (J)",
-        "ko": "desirer (Q)",
+        "derivs": {
+            "ko": "desirer (Q)"
+        },
         "type": "Quality",
         "alignment": "O wants Eu",
         "semantics": [
@@ -13098,8 +13311,9 @@
     {
         "word": "vut",
         "def": "explode",
-        "xo": "explosion (J)",
-        "ko": "ordnance (E)",
+        "derivs": {
+            "ko": "ordnance (E)"
+        },
         "type": "Junction",
         "alignment": "O explodes with force E",
         "semantics": [
@@ -13344,8 +13558,9 @@
     {
         "word": "xal",
         "def": "small",
-        "xo": "smallness",
-        "ko": "little thing",
+        "derivs": {
+            "ko": "little thing"
+        },
         "type": "Quality",
         "alignment": "O is small in Eu",
         "semantics": [
@@ -13397,8 +13612,9 @@
     {
         "word": "xan",
         "def": "mountain",
-        "xo": "convexity (J)",
-        "ko": "mountainous (Q)",
+        "derivs": {
+            "ko": "mountainous (Q)"
+        },
         "type": "Junction",
         "alignment": "O is a mountain of E",
         "semantics": [
@@ -13467,8 +13683,9 @@
     {
         "word": "xel",
         "def": "full",
-        "xo": "fullness",
-        "ko": "brimming",
+        "derivs": {
+            "ko": "brimming"
+        },
         "type": "Quality",
         "alignment": "O is full in Eu",
         "semantics": [
@@ -13572,8 +13789,9 @@
     {
         "word": "xep",
         "def": "divide",
-        "xo": "division (D)",
-        "ko": "divider (D)",
+        "derivs": {
+            "ko": "divider (D)"
+        },
         "type": "Relation",
         "alignment": "O is separated from E in Au",
         "semantics": [
@@ -13606,7 +13824,9 @@
     {
         "word": "xet",
         "def": "edge",
-        "ko": "outer limits",
+        "derivs": {
+            "ko": "outer limits"
+        },
         "type": "Junction",
         "alignment": "O is edge of E",
         "semantics": [
@@ -13650,8 +13870,9 @@
     {
         "word": "xik",
         "def": "strange",
-        "xo": "strangeness (J)",
-        "ko": "oddity (E)",
+        "derivs": {
+            "ko": "oddity (E)"
+        },
         "type": "Quality",
         "alignment": "O is strange in Eu",
         "semantics": [
@@ -13671,8 +13892,9 @@
     {
         "word": "xil",
         "def": "learn",
-        "xo": "study [n.] (J)",
-        "ko": "learner (Q)",
+        "derivs": {
+            "ko": "learner (Q)"
+        },
         "type": "Quality",
         "alignment": "O learns Eu",
         "semantics": [
@@ -13883,7 +14105,9 @@
     {
         "word": "xit",
         "def": "below",
-        "ko": "underside",
+        "derivs": {
+            "ko": "underside"
+        },
         "type": "Junction",
         "alignment": "O is below E",
         "semantics": [
@@ -13935,8 +14159,9 @@
     {
         "word": "xka",
         "def": "degree",
-        "xo": "measurement (J)",
-        "ko": "scale (Q)",
+        "derivs": {
+            "ko": "scale (Q)"
+        },
         "type": "Quality",
         "alignment": "O is a degree of Eu",
         "semantics": [
@@ -13954,8 +14179,9 @@
     {
         "word": "xke",
         "def": "pure",
-        "xo": "purity (J)",
-        "ko": "flawless (Q)",
+        "derivs": {
+            "ko": "flawless (Q)"
+        },
         "type": "Quality",
         "alignment": "O is pure in Eu",
         "semantics": [
@@ -13974,8 +14200,9 @@
     {
         "word": "xki",
         "def": "remove",
-        "xo": "removal (J)",
-        "ko": "discriminating (Q)",
+        "derivs": {
+            "ko": "discriminating (Q)"
+        },
         "type": "Direction",
         "alignment": "O removes E from A",
         "semantics": [
@@ -14005,8 +14232,9 @@
     {
         "word": "xko",
         "def": "damage",
-        "xo": "damage [n.] (J)",
-        "ko": "harmful (R)",
+        "derivs": {
+            "ko": "harmful (R)"
+        },
         "type": "Relation",
         "alignment": "O damages E in Au",
         "semantics": [
@@ -14067,8 +14295,9 @@
     {
         "word": "xle",
         "def": "carry",
-        "xo": "burden",
-        "ko": "bearer",
+        "derivs": {
+            "ko": "bearer"
+        },
         "type": "Junction",
         "alignment": "O carries E",
         "semantics": [
@@ -14087,8 +14316,9 @@
     {
         "word": "xli",
         "def": "method",
-        "xo": "process [n.] (J)",
-        "ko": "systematic (Q)",
+        "derivs": {
+            "ko": "systematic (Q)"
+        },
         "type": "Quality",
         "alignment": "O is method for Eu",
         "semantics": [
@@ -14107,8 +14337,9 @@
     {
         "word": "xlo",
         "def": "hit",
-        "xo": "impact [n.] (R)",
-        "ko": "make impact (R)",
+        "derivs": {
+            "ko": "make impact (R)"
+        },
         "type": "Direction",
         "alignment": "O hits E at A",
         "semantics": [
@@ -14139,8 +14370,9 @@
     {
         "word": "xne",
         "def": "fast",
-        "xo": "speed",
-        "ko": "speedy",
+        "derivs": {
+            "ko": "speedy"
+        },
         "type": "Quality",
         "alignment": "O is fast in Eu",
         "semantics": [
@@ -14195,8 +14427,9 @@
     {
         "word": "xol",
         "def": "black",
-        "xo": "darkness",
-        "ko": "dark tint",
+        "derivs": {
+            "ko": "dark tint"
+        },
         "type": "Quality",
         "alignment": "O is black in Eu",
         "semantics": [
@@ -14214,8 +14447,9 @@
     {
         "word": "xon",
         "def": "show",
-        "xo": "presentation (J)",
-        "ko": "example (Q)",
+        "derivs": {
+            "ko": "example (Q)"
+        },
         "type": "Quality",
         "alignment": "O shows Eu",
         "semantics": [
@@ -14245,8 +14479,9 @@
     {
         "word": "xop",
         "def": "catch",
-        "xo": "catch [n.] (J)",
-        "ko": "catcher",
+        "derivs": {
+            "ko": "catcher"
+        },
         "type": "Direction",
         "alignment": "O catches E from/at A",
         "semantics": [
@@ -14272,8 +14507,9 @@
     {
         "word": "xpa",
         "def": "conserve",
-        "xo": "preserves (J)",
-        "ko": "conservative (Q)",
+        "derivs": {
+            "ko": "conservative (Q)"
+        },
         "type": "Junction",
         "alignment": "O conserves E",
         "semantics": [
@@ -14290,8 +14526,9 @@
     {
         "word": "xpe",
         "def": "cave",
-        "xo": "concavity",
-        "ko": "cavern",
+        "derivs": {
+            "ko": "cavern"
+        },
         "type": "Quality",
         "alignment": "O is concave in Eu",
         "semantics": [
@@ -14311,8 +14548,9 @@
     {
         "word": "xpi",
         "def": "play",
-        "xo": "play [n.] (J)",
-        "ko": "player (J)",
+        "derivs": {
+            "ko": "player (J)"
+        },
         "type": "Quality",
         "alignment": "O plays at Eu",
         "semantics": [
@@ -14448,8 +14686,9 @@
     {
         "word": "xta",
         "def": "animal",
-        "xo": "beastliness",
-        "ko": "beast",
+        "derivs": {
+            "ko": "beast"
+        },
         "type": "Quality",
         "alignment": "O is animal in Eu",
         "semantics": [
@@ -14479,8 +14718,9 @@
     {
         "word": "xte",
         "def": "path",
-        "xo": "end of path",
-        "ko": "beaten path",
+        "derivs": {
+            "ko": "beaten path"
+        },
         "type": "Direction",
         "alignment": "O is the path from E to A",
         "semantics": [
@@ -14516,8 +14756,9 @@
     {
         "word": "xto",
         "def": "stone",
-        "xo": "mineral (J)",
-        "ko": "stony (Q)",
+        "derivs": {
+            "ko": "stony (Q)"
+        },
         "type": "Junction",
         "alignment": "O is stone containing E",
         "semantics": [
@@ -14615,8 +14856,9 @@
     {
         "word": "xuk",
         "def": "circle",
-        "xo": "circularity",
-        "ko": "perfect circle",
+        "derivs": {
+            "ko": "perfect circle"
+        },
         "type": "Quality",
         "alignment": "O is circular in Eu",
         "semantics": [
@@ -14676,8 +14918,9 @@
     {
         "word": "xup",
         "def": "suck",
-        "xo": "suction",
-        "ko": "sucker",
+        "derivs": {
+            "ko": "sucker"
+        },
         "type": "Junction",
         "alignment": "O sucks E",
         "semantics": [
@@ -14913,8 +15156,9 @@
     {
         "word": "zal",
         "def": "at",
-        "xo": "environment",
-        "ko": "attendee",
+        "derivs": {
+            "ko": "attendee"
+        },
         "type": "Junction",
         "alignment": "O is at E",
         "semantics": [
@@ -14932,8 +15176,9 @@
     {
         "word": "zan",
         "def": "honor",
-        "xo": "honor (n.)",
-        "ko": "honorable",
+        "derivs": {
+            "ko": "honorable"
+        },
         "type": "Quality",
         "alignment": "O is honored in Eu",
         "semantics": [
@@ -14950,8 +15195,9 @@
     {
         "word": "zap",
         "def": "problem",
-        "xo": "frustration",
-        "ko": "obstacle",
+        "derivs": {
+            "ko": "obstacle"
+        },
         "type": "Relation",
         "alignment": "O is a problem for E in Au",
         "semantics": [
@@ -14968,8 +15214,9 @@
     {
         "word": "zat",
         "def": "exist",
-        "xo": "existence",
-        "ko": "reality",
+        "derivs": {
+            "ko": "reality"
+        },
         "type": "Quality",
         "alignment": "O exists in Eu",
         "semantics": [
@@ -15013,8 +15260,9 @@
     {
         "word": "zba",
         "def": "marry",
-        "xo": "marriage (J)",
-        "ko": "spouse (J)",
+        "derivs": {
+            "ko": "spouse (J)"
+        },
         "type": "Relation",
         "alignment": "O is married to E in Au",
         "semantics": [
@@ -15057,8 +15305,9 @@
     {
         "word": "zbi",
         "def": "surround",
-        "xo": "between (R)",
-        "ko": "surroundings (J)",
+        "derivs": {
+            "ko": "surroundings (J)"
+        },
         "type": "Relation",
         "alignment": "O (mass) surrounds E in Au",
         "semantics": [
@@ -15077,8 +15326,9 @@
     {
         "word": "zbu",
         "def": "find",
-        "xo": "finding",
-        "ko": "finder",
+        "derivs": {
+            "ko": "finder"
+        },
         "type": "Quality",
         "alignment": "O finds Eu",
         "semantics": [
@@ -15096,8 +15346,9 @@
     {
         "word": "zda",
         "def": "follow",
-        "xo": "guirdance",
-        "ko": "followe",
+        "derivs": {
+            "ko": "followe"
+        },
         "type": "Relation",
         "alignment": "O follows E in Au",
         "semantics": [
@@ -15136,8 +15387,9 @@
     {
         "word": "zek",
         "def": "explain",
-        "xo": "explanation",
-        "ko": "guide",
+        "derivs": {
+            "ko": "guide"
+        },
         "type": "Quality",
         "alignment": "O explains Eu",
         "semantics": [
@@ -15200,8 +15452,9 @@
     {
         "word": "zen",
         "def": "increase",
-        "xo": "increase [n.] (Q)",
-        "ko": "trend upward (Q)",
+        "derivs": {
+            "ko": "trend upward (Q)"
+        },
         "type": "State",
         "alignment": "Ou increases",
         "semantics": [
@@ -15220,8 +15473,9 @@
     {
         "word": "zet",
         "def": "sad",
-        "xo": "sadness",
-        "ko": "melancholy [person]",
+        "derivs": {
+            "ko": "melancholy [person]"
+        },
         "type": "Quality",
         "alignment": "O is sad in Eu",
         "semantics": [
@@ -15242,8 +15496,9 @@
     {
         "word": "zga",
         "def": "cut",
-        "xo": "cut [n.] (J)",
-        "ko": "sharp",
+        "derivs": {
+            "ko": "sharp"
+        },
         "type": "Junction",
         "alignment": "O cuts E",
         "semantics": [
@@ -15339,8 +15594,9 @@
     {
         "word": "zgo",
         "def": "harmony",
-        "xo": "harmony [n.] (J)",
-        "ko": "rhyme",
+        "derivs": {
+            "ko": "rhyme"
+        },
         "type": "Relation",
         "alignment": "O is in harmony with E in Au",
         "semantics": [
@@ -15362,8 +15618,9 @@
     {
         "word": "zgu",
         "def": "lose",
-        "xo": "loss [n.] (J)",
-        "ko": "loser (J)",
+        "derivs": {
+            "ko": "loser (J)"
+        },
         "type": "Junction",
         "alignment": "O loses E",
         "semantics": [
@@ -15419,8 +15676,9 @@
     {
         "word": "zik",
         "def": "sick",
-        "xo": "sickness (J)",
-        "ko": "infected (Q)",
+        "derivs": {
+            "ko": "infected (Q)"
+        },
         "type": "Quality",
         "alignment": "O is sick in/with Eu",
         "semantics": [
@@ -15437,8 +15695,9 @@
     {
         "word": "zin",
         "def": "cold",
-        "xo": "coldness (J)",
-        "ko": "cold (n.)",
+        "derivs": {
+            "ko": "cold (n.)"
+        },
         "type": "Quality",
         "alignment": "O is cold in Eu",
         "semantics": [
@@ -15491,8 +15750,9 @@
     {
         "word": "zla",
         "def": "substitute",
-        "xo": "representation",
-        "ko": "representative",
+        "derivs": {
+            "ko": "representative"
+        },
         "type": "Relation",
         "alignment": "O substitutes for E in Au",
         "semantics": [
@@ -15510,8 +15770,9 @@
     {
         "word": "zle",
         "def": "mature",
-        "xo": "maturity (J)",
-        "ko": "adult (E)",
+        "derivs": {
+            "ko": "adult (E)"
+        },
         "type": "Quality",
         "alignment": "O is mature in Eu",
         "semantics": [
@@ -15528,8 +15789,9 @@
     {
         "word": "zlo",
         "def": "bad",
-        "xo": "undesirability (J)",
-        "ko": "detriment (J)",
+        "derivs": {
+            "ko": "detriment (J)"
+        },
         "type": "Relation",
         "alignment": "O is bad for E in Au",
         "semantics": [
@@ -15564,8 +15826,9 @@
     {
         "word": "zna",
         "def": "familiar",
-        "xo": "familiarity (R)",
-        "ko": "landmark (R)",
+        "derivs": {
+            "ko": "landmark (R)"
+        },
         "type": "Relation",
         "alignment": "O is familiar to E in Au",
         "semantics": [
@@ -15582,8 +15845,9 @@
     {
         "word": "zni",
         "def": "seem",
-        "xo": "appearance (J)",
-        "ko": "apparent (Q)",
+        "derivs": {
+            "ko": "apparent (Q)"
+        },
         "type": "State",
         "alignment": "Ou seems to be the case",
         "semantics": [
@@ -15600,8 +15864,9 @@
     {
         "word": "zno",
         "def": "repeat",
-        "xo": "recurrence",
-        "ko": "cyclical",
+        "derivs": {
+            "ko": "cyclical"
+        },
         "type": "State",
         "alignment": "Ou repeats",
         "semantics": [
@@ -15670,8 +15935,9 @@
     {
         "word": "zok",
         "def": "responsible",
-        "xo": "responsibility",
-        "ko": "in charge of (R)",
+        "derivs": {
+            "ko": "in charge of (R)"
+        },
         "type": "Relation",
         "alignment": "O is responsible for E in Au",
         "semantics": [
@@ -15690,8 +15956,9 @@
     {
         "word": "zol",
         "def": "order",
-        "xo": "order (n.)",
-        "ko": "perfect",
+        "derivs": {
+            "ko": "perfect"
+        },
         "type": "Quality",
         "alignment": "O is in order in Eu",
         "semantics": [
@@ -15712,8 +15979,9 @@
     {
         "word": "zon",
         "def": "area",
-        "xo": "zoning (J)",
-        "ko": "environs",
+        "derivs": {
+            "ko": "environs"
+        },
         "type": "Quality",
         "alignment": "O is area designated for Eu",
         "semantics": [
@@ -15731,8 +15999,9 @@
     {
         "word": "zot",
         "def": "lead",
-        "xo": "leadership",
-        "ko": "leader",
+        "derivs": {
+            "ko": "leader"
+        },
         "type": "Relation",
         "alignment": "O leads E in Au",
         "semantics": [
@@ -15760,8 +16029,9 @@
     {
         "word": "zuk",
         "def": "do",
-        "xo": "action",
-        "ko": "actor",
+        "derivs": {
+            "ko": "actor"
+        },
         "type": "Quality",
         "alignment": "O does Eu",
         "semantics": [
@@ -15832,7 +16102,9 @@
     {
         "word": "zun",
         "def": "outside",
-        "ko": "exterior (J)",
+        "derivs": {
+            "ko": "exterior (J)"
+        },
         "type": "Junction",
         "alignment": "O is outside E",
         "semantics": [

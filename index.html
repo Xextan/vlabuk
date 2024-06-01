@@ -117,6 +117,15 @@
                         ])
                     ]).flat()
                 ]) : null;
+                let d = entry.derivs;
+                let derivs = d ? mkelem("p", {}, [
+                    mkelem("span", {"className": "h"}, ["Derivations: "]),
+                    ...[d.ko ?? "", d.xo ?? "", d.sa ?? "", d.se ?? "", d.si ?? "", d.ge ?? "", d.ga ?? "", d.po ?? "", d.qu ?? ""].map((e, i) => e ? [
+                        mkelem("br", {}, []),
+                        mkelem("b", {}, [derive(entry.word, ["ko", "xo", "sa", "se", "si", "ge", "ga", "po", "qu"][i])]),
+                        " " + e
+                    ] : null).flat()
+                ]) : null;
                 return mkelem("div", {"className": "entry " + pos(entry)}, [
                     mkelem("p", {}, [
                         mkelem("b", {}, [entry.word]),
@@ -136,14 +145,7 @@
                             mkelem("span", {"className": "h"}, ["Keywords: "]),
                             entry.semantics.join(", ")
                         ]) : null,
-                        entry.ko || entry.xo || entry.sa || entry.se || entry.si || entry.ge || entry.ga || entry.po || entry.qu ? mkelem("p", {}, [
-                            mkelem("span", {"className": "h"}, ["Derivations: "]),
-                            ...[entry.ko ?? "", entry.xo ?? "", entry.sa ?? "", entry.se ?? "", entry.si ?? "", entry.ge ?? "", entry.ga ?? "", entry.po ?? "", entry.qu ?? ""].map((e, i) => e ? [
-                                mkelem("br", {}, []),
-                                mkelem("b", {}, [derive(entry.word, ["ko", "xo", "sa", "se", "si", "ge", "ga", "po", "qu"][i])]),
-                                " " + e
-                            ] : null).flat()
-                        ]) : null,
+                        derivs,
                         entry.notes ? mkelem("p", {}, [
                             mkelem("span", {"className": "h"}, ["Notes: "]),
                             entry.notes
