@@ -1023,6 +1023,29 @@
         "notes": "& huge, massive, spacious"
     },
     {
+        "word": "dalqan",
+        "def": "felony",
+        "gloss": "large-crime",
+        "type": "State",
+        "alignment": "Ou is a felony",
+        "semantics": [
+            "felony",
+            "high crime"
+        ],
+        "notes": "see also «xalqan» (misdemeanor)"
+    },
+    {
+        "word": "dalqanzu",
+        "def": "felon",
+        "gloss": "large-crime-AG",
+        "type": "Entity",
+        "alignment": "O is a felon",
+        "semantics": [
+            "felon",
+            "felonious"
+        ]
+    },
+    {
         "word": "dalxut",
         "def": "sea",
         "gloss": "large-water",
@@ -2725,31 +2748,27 @@
         ]
     },
     {
-        "word": "flaqan",
-        "def": "rulebreaker",
-        "gloss": "rule-disobey",
+        "word": "flaqabbet",
+        "def": "audit",
+        "gloss": "rule-answer-request",
         "type": "Relation",
-        "alignment": "O breaks rule/law E in Au",
+        "alignment": "O audits E for Au",
         "semantics": [
-            "criminal",
-            "rulebreaker",
-            "nonconformist"
+            "audit",
+            "inquiry",
+            "discovery"
         ]
     },
     {
         "word": "flaqandan",
         "def": "jail",
-        "gloss": "rule-disobey-building",
+        "gloss": "rule-crime-building",
         "type": "Junction",
         "alignment": "O is a jail for E",
         "semantics": [
-            "jail",
-            "slammer",
-            "brig",
-            "dungeon",
-            "holding cell"
+            "jail"
         ],
-        "notes": "refers to county jail, drunk tank, etc. For \"prison\" see «flaqanzon»"
+        "notes": "refers to the place where accused criminals are held prior to sentencing. for \"prison\" in the sense of \"penitentiary\" see «flaqanzon»; for general sense, see «qandan»"
     },
     {
         "word": "flaqanko",
@@ -2764,15 +2783,54 @@
         ]
     },
     {
+        "word": "flaqanlen",
+        "def": "criminal",
+        "gloss": "rule-disobey",
+        "type": "Entity",
+        "alignment": "O is a criminal",
+        "semantics": [
+            "criminal",
+            "lawbreaker",
+            "outlaw"
+        ]
+    },
+    {
+        "word": "flaqansa",
+        "def": "prohibit",
+        "gloss": "disobey-rule-CAUS",
+        "type": "Junction",
+        "alignment": "O prohibits E",
+        "semantics": [
+            "prohibit",
+            "ban",
+            "outlaw",
+            "condemn",
+            "illegalize"
+        ]
+    },
+    {
         "word": "flaqanzon",
-        "def": "prison",
+        "def": "penitentiary",
         "gloss": "rule-disobey-area",
         "type": "Junction",
-        "alignment": "O is a prison for E",
+        "alignment": "O is a penitentiary for E",
         "semantics": [
-            "prison",
             "penitentiary",
-            "corrections facility"
+            "prison",
+            "corrections",
+            "parole"
+        ]
+    },
+    {
+        "word": "flaqanzu",
+        "def": "convict",
+        "gloss": "disobey-rule-AG",
+        "type": "Relation",
+        "alignment": "O convicts E of Au",
+        "semantics": [
+            "convict",
+            "condemn",
+            "find guilty"
         ]
     },
     {
@@ -4356,6 +4414,34 @@
         }
     },
     {
+        "word": "kánábi",
+        "def": "cannabis",
+        "type": "Entity",
+        "alignment": "O is cannabis",
+        "semantics": [
+            "cannabis",
+            "hemp",
+            "marijuana",
+            "weed",
+            "pot",
+            "grass",
+            "dank",
+            "420",
+            "the chronic",
+            "sticky icky",
+            "wacky tobaccy",
+            "that purp",
+            "jazz cabbage",
+            "the devil's lettuce"
+        ],
+        "etymology": {
+            "lang": "Ancient Greek",
+            "word": "κάνναβις",
+            "translit": "kánnabis"
+        },
+        "notes": "Quit bogarting the vlabuk, brah."
+    }, 
+    {
         "word": "Kánáda",
         "def": "Canada",
         "type": "Quality",
@@ -4980,6 +5066,33 @@
             "lang": "Toki Pona",
             "word": "kon"
         }
+    },
+    {
+        "word": "konfli",
+        "def": "fly",
+        "gloss": "air-float",
+        "type": "Direction",
+        "alignment": "O flies to E from A",
+        "semantics": [
+            "fly",
+            "glide",
+            "soar",
+            "hover",
+            "hang"
+        ]
+    },
+    {
+        "word": "konflipip",
+        "def": "rocket",
+        "gloss": "air-float-pipe",
+        "type": "Junction",
+        "alignment": "O is a rocket made of E",
+        "semantics": [
+            "rocket",
+            "missile",
+            "projectile"
+        ],
+        "notes": "for vehicle, see «pipvak»"
     },
     {
         "word": "konflu",
@@ -6844,6 +6957,18 @@
         }
     },
     {
+        "word": "natsku",
+        "def": "lie",
+        "gloss": "false-say",
+        "type": "Direction",
+        "alignment": "O lies to E by saying A",
+        "semantics": [
+            "lie",
+            "fib",
+            "falsehood"
+        ]
+    },
+    {
         "word": "nau",
         "def": "comparative present tense clause marker",
         "type": "Preposition",
@@ -8617,29 +8742,50 @@
     },
     {
         "word": "qan",
-        "def": "disobey",
-        "xo": "disobedience",
-        "ko": "rulebreaker",
-        "type": "Quality",
-        "alignment": "O is disobedient in Eu",
+        "def": "crime",
+        "type": "State",
+        "alignment": "O is a crime",
+        "semantics": [
+            "crime",
+            "sin",
+            "violation",
+            "infraction",
+            "prohibited",
+            "wrong",
+            "illegal"
+        ],
         "etymology": {
             "lang": "Arabic",
             "word": "جَنَى",
             "urlform": "جنى",
             "translit": "janā"
         },
-        "notes": "see also «flaqan» (break law)"
+        "notes": "see also «qanzu» (do crime)"
     },
     {
-        "word": "qanflasa",
-        "def": "convict",
-        "gloss": "disobey-rule-CAUS",
-        "type": "Relation",
-        "alignment": "O convicts E of Au",
+        "word": "qandan",
+        "def": "prison",
+        "gloss": "crime-building",
+        "type": "Junction",
+        "alignment": "O is a prison for E",
         "semantics": [
-            "convict",
-            "condemn",
-            "find guilty"
+            "prison",
+            "dungeon",
+            "brig",
+            "holding cell"
+        ]
+    },
+    {
+        "word": "qanlen",
+        "def": "rulebreaker",
+        "gloss": "crime-person",
+        "type": "Entity",
+        "alignment": "O is a rulebreaker",
+        "semantics": [
+            "rulebreaker",
+            "lawbreaker",
+            "delinquent",
+            "offender"
         ]
     },
     {
@@ -9585,6 +9731,29 @@
         }
     },
     {
+        "word": "salgen",
+        "def": "outnumber",
+        "gloss": "number-more",
+        "type": "Relation",
+        "alignment": "O outnumbers E in Au",
+        "semantics": [
+            "outnumber",
+            "exceed",
+            "greater than"
+        ]
+    },
+    {
+        "word": "salnet",
+        "def": "greatest in number",
+        "gloss": "number-most",
+        "type": "Quality",
+        "alignment": "O is numerically greatest in Eu",
+        "semantics": [
+            "greatest in number",
+            "most numerous"
+        ]
+    },
+    {
         "word": "salsop",
         "def": "right amount",
         "gloss": "number-fit",
@@ -10288,9 +10457,9 @@
         ]
     },
     {
-        "word": "slizuk",
+        "word": "slizu",
         "def": "act",
-        "gloss": "image-do",
+        "gloss": "image-AG",
         "type": "Quality",
         "alignment": "O acts as Eu",
         "semantics": [
@@ -10732,8 +10901,8 @@
         "word": "subbit",
         "def": "atom",
         "gloss": "substance-particle",
-        "type": "",
-        "alignment": "",
+        "type": "Junction",
+        "alignment": "O is an atom of E",
         "semantics": [
             "atom",
             "molecule"
@@ -11479,6 +11648,30 @@
         }
     },
     {
+        "word": "totfeddqe",
+        "def": "day of mourning",
+        "gloss": "death-ritual-date",
+        "type": "Junction",
+        "alignment": "O is day of mourning for E",
+        "semantics": [
+            "day of mourning",
+            "deathday"
+        ]
+    },
+    {
+        "word": "totfet",
+        "def": "funeral",
+        "gloss": "death-ritual",
+        "type": "Junction",
+        "alignment": "O is a funeral for E",
+        "semantics": [
+            "funeral",
+            "memorial",
+            "burial",
+            "interment"
+        ]
+    },
+    {
         "word": "totqla",
         "def": "corpse",
         "gloss": "dead-organ",
@@ -11773,6 +11966,20 @@
         "notes": "typically refers to handheld tools and machines. for stationary machines see «tik»; for vehicles see «vak»"
     },
     {
+        "word": "túlip",
+        "def": "tulip",
+        "type": "Entity",
+        "alignment": "O is a tulip",
+        "semantics": [
+            "tulip"
+        ],
+        "etymology": {
+            "lang": "English",
+            "word": "tulip"
+        },
+        "notes": "He called me a bulbiferous geophyte :("
+    }, 
+    {
         "word": "tulxketik",
         "def": "dishwasher",
         "gloss": "tool-pure-machine",
@@ -11780,6 +11987,7 @@
         "alignment": "O is a dishwasher made of E",
         "semantics": [
             "dishwasher",
+            "sanitizer",
             "plate washer"
         ]
     },
@@ -13479,6 +13687,34 @@
         }
     },
     {
+        "word": "xilfep",
+        "def": "beginner",
+        "gloss": "learn-weak",
+        "type": "Quality",
+        "alignment": "O is a beginner in Eu",
+        "semantics": [
+            "beginner",
+            "amateur",
+            "newbie",
+            "noob"
+        ],
+        "notes": "see also «xilsil», «xilsil»"
+    },
+    {
+        "word": "xilsin",
+        "def": "freshman",
+        "gloss": "learn-new",
+        "type": "Entity",
+        "alignment": "O is a freshman",
+        "semantics": [
+            "freshman",
+            "neophyte",
+            "greenhorn",
+            "nintadni"
+        ],
+        "notes": "see also «xilsil», «dau»"
+    },
+    {
         "word": "xíláti",
         "def": "spirit (poetic)",
         "type": "Quality",
@@ -13562,9 +13798,9 @@
         ]
     },
     {
-        "word": "xilzuk",
+        "word": "xilzu",
         "def": "practice",
-        "gloss": "learn-do",
+        "gloss": "learn-AG",
         "type": "Relation",
         "alignment": "O practices E by doing Au",
         "semantics": [
@@ -13629,12 +13865,12 @@
             "lang": "Lojban",
             "word": "cip ← cipra"
         },
-        "notes": "see also «xipzuk»"
+        "notes": "see also «xipzu»"
     },
     {
-        "word": "xipzuk",
+        "word": "xipzu",
         "def": "check",
-        "gloss": "test-do",
+        "gloss": "test-AG",
         "type": "Quality",
         "alignment": "O checks the truth of Eu",
         "semantics": [
@@ -13815,9 +14051,9 @@
         ]
     },
     {
-        "word": "xkozuk",
+        "word": "xkozu",
         "def": "attack",
-        "gloss": "harm-do",
+        "gloss": "harm-AG",
         "type": "Relation",
         "alignment": "O attacks E in Au",
         "semantics": [
@@ -15402,6 +15638,19 @@
         "notes": "cf. «danzon» (city)"
     },
     {
+        "word": "zoddqu",
+        "def": "deputy",
+        "gloss": "leader-help",
+        "type": "Relation",
+        "alignment": "O is deputy to E in Au",
+        "semantics": [
+            "deputy",
+            "vice-",
+            "vizier"
+        ],
+        "notes": "vice president, deputy sheriff, etc."
+    },
+    {
         "word": "zoi",
         "def": "end topic statement/prenex",
         "type": "Illocution",
@@ -15500,6 +15749,15 @@
         }
     },
     {
+        "word": "zu",
+        "def": "agent suffix",
+        "type": "Suffix",
+        "etymology": {
+            "lang": "Lojban",
+            "word": "zu'e"
+        }
+    },
+    {
         "word": "zuk",
         "def": "do",
         "xo": "action",
@@ -15518,7 +15776,8 @@
         "etymology": {
             "lang": "Lojban",
             "word": "zuk ← zukte"
-        }
+        },
+        "notes": "see also «zu»"
     },
     {
         "word": "zukset",
