@@ -9705,6 +9705,14 @@
         }
     },
     {
+        "word": "qu",
+        "def": "property clause marker",
+        "type": "Determiner",
+        "etymology": {
+            "lang": "by analogy; cf. «ou», «qi»"
+        }
+    },
+    {
         "word": "qul",
         "def": "deep",
         "derivs": {
