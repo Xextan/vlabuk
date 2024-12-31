@@ -15782,6 +15782,17 @@
         }
     },
     {
+        "word": "zlavla",
+        "def": "pronoun",
+        "gloss": "substitute-word",
+        "type": "Junction",
+        "alignment": "O is a pronoun referring to antecedent E",
+        "semantics": [
+            "pronoun",
+            "pro-substantive"
+        ]
+    },
+    {
         "word": "zle",
         "def": "mature",
         "derivs": {
