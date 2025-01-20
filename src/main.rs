@@ -46,5 +46,5 @@ fn main() {
             .join(", ")
     );
     fs::write("noto.css", css).unwrap();
-    println!("{:?}", Instant::now() - start)
+    println!("{:?}", start.elapsed());
 }
