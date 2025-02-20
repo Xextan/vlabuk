@@ -1698,6 +1698,15 @@
         "notes": "Expanded from previous meaning \"okay\"/\"alright\". Original semantic space now covered by «bondop»."
     },
     {
+        "word": "dou",
+        "def": "abstract nominative binder",
+        "type": "Binder",
+        "etymology": {
+            "lang": "by analogy; cf. «do», «ou»"
+        },
+        "notes": "see also «deu», «dau»"
+    },
+    {
         "word": "dóvu",
         "def": "elephant",
         "type": "Entity",
@@ -1711,15 +1720,6 @@
             "lang": "Swahili",
             "word": "ndovu"
         }
-    },
-    {
-        "word": "dou",
-        "def": "abstract nominative binder",
-        "type": "Binder",
-        "etymology": {
-            "lang": "by analogy; cf. «do», «ou»"
-        },
-        "notes": "see also «deu», «dau»"
     },
     {
         "word": "dqe",
@@ -10446,19 +10446,6 @@
         "notes": "more specific than \"color\"; cf. «litska» (\"color [of light]\"); «txiska» (\"flavor\")"
     },
     {
-        "word": "skalil",
-        "def": "sense",
-        "gloss": "qualia-experience",
-        "type": "Quality",
-        "alignment": "O senses Eu",
-        "semantics": [
-            "sense",
-            "feel sensation",
-            "experience"
-        ],
-        "notes": "see also «fil»"
-    },
-    {
         "word": "skako",
         "def": "stimulus",
         "gloss": "qualia-AG",
@@ -10470,6 +10457,19 @@
             "impetus"
         ],
         "notes": "felt by FAI"
+    },
+    {
+        "word": "skalil",
+        "def": "sense",
+        "gloss": "qualia-experience",
+        "type": "Quality",
+        "alignment": "O senses Eu",
+        "semantics": [
+            "sense",
+            "feel sensation",
+            "experience"
+        ],
+        "notes": "see also «fil»"
     },
     {
         "word": "skaxo",
@@ -11521,6 +11521,18 @@
         }
     },
     {
+        "word": "ten xíláti",
+        "gloss": "have spirit",
+        "type": "State-Quality",
+        "alignment": "|TEN| O has the spirit of |XÍLÁTI| (O) E",
+        "semantics": [
+            "have the spirit of",
+            "have in one's heart",
+            "have in one's blood"
+        ],
+        "notes": "ten xíláti [de] Xextan = to have the spirit of Xextan; ten xíláti [de] Návída = to have the spirit of Christmas; etc."
+    },
+    {
         "word": "tendep",
         "def": "deserve",
         "gloss": "have-should",
@@ -11533,18 +11545,6 @@
             "worthy",
             "rightful"
         ]
-    },
-    {
-        "word": "ten xíláti",
-        "gloss": "have spirit",
-        "type": "State-Quality",
-        "alignment": "|TEN| O has the spirit of |XÍLÁTI| (O) E",
-        "semantics": [
-            "have the spirit of",
-            "have in one's heart",
-            "have in one's blood"
-        ],
-        "notes": "ten xíláti [de] Xextan = to have the spirit of Xextan; ten xíláti [de] Návída = to have the spirit of Christmas; etc."
     },
     {
         "word": "tenko",
@@ -12553,6 +12553,14 @@
         }
     },
     {
+        "word": "vai",
+        "def": "adverbial: usually",
+        "type": "Adverb",
+        "etymology": {
+            "lang": "backformed from «van»"
+        }
+    },
+    {
         "word": "vak",
         "def": "vehicle",
         "type": "Entity",
@@ -12587,14 +12595,6 @@
             "highway",
             "freeway"
         ]
-    },
-    {
-        "word": "vai",
-        "def": "adverbial: usually",
-        "type": "Adverb",
-        "etymology": {
-            "lang": "backformed from «van»"
-        }
     },
     {
         "word": "val",
@@ -13923,34 +13923,6 @@
         }
     },
     {
-        "word": "xilfep",
-        "def": "beginner",
-        "gloss": "learn-weak",
-        "type": "Quality",
-        "alignment": "O is a beginner in Eu",
-        "semantics": [
-            "beginner",
-            "amateur",
-            "newbie",
-            "noob"
-        ],
-        "notes": "see also «xilsil», «xilsil»"
-    },
-    {
-        "word": "xilsin",
-        "def": "freshman",
-        "gloss": "learn-new",
-        "type": "Entity",
-        "alignment": "O is a freshman",
-        "semantics": [
-            "freshman",
-            "neophyte",
-            "greenhorn",
-            "nintadni"
-        ],
-        "notes": "see also «xilsil», «dau»"
-    },
-    {
         "word": "xíláti",
         "def": "spirit (poetic)",
         "type": "Quality",
@@ -13994,6 +13966,20 @@
         ]
     },
     {
+        "word": "xilfep",
+        "def": "beginner",
+        "gloss": "learn-weak",
+        "type": "Quality",
+        "alignment": "O is a beginner in Eu",
+        "semantics": [
+            "beginner",
+            "amateur",
+            "newbie",
+            "noob"
+        ],
+        "notes": "see also «xilsil», «xilsil»"
+    },
+    {
         "word": "xilgun",
         "def": "study",
         "gloss": "learn-work",
@@ -14032,6 +14018,20 @@
             "professor",
             "educator"
         ]
+    },
+    {
+        "word": "xilsin",
+        "def": "freshman",
+        "gloss": "learn-new",
+        "type": "Entity",
+        "alignment": "O is a freshman",
+        "semantics": [
+            "freshman",
+            "neophyte",
+            "greenhorn",
+            "nintadni"
+        ],
+        "notes": "see also «xilsil», «dau»"
     },
     {
         "word": "xilzu",

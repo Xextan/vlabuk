@@ -24,15 +24,16 @@
 }
 :root {
     font-family: var(--sans);
-    --red: #db0000;
-    --orange: #a35900;
-    --yellow: #677200;
-    --green: #007e00;
-    --cyan: #00797a;
-    --blue: blue;
-    --purple: purple;
-    --gray: #6b6b6b;
-    --xanadu: #537253; /* 608060 */
+    /* oklch: l=65 c=0.15 */
+    --red: #db6371; /* 15 */
+    --orange: #d56f2c; /* 50 */
+    --yellow: #a59000; /* 100 */
+    --green: #3aa85b; /* 150 */
+    --cyan: #00a8a1; /* 190 */
+    --blue: #3a93e6; /* 250 */
+    --purple: #9e77dc; /* 300 */
+    --gray: #8f8f8f; /* c=0 */
+    --xanadu: #6e9c77; /* c=0.075 */
 }
 * {
     transition: background-color 0.2s;
@@ -116,16 +117,8 @@ input[type="text"] {
 code {
     font-family: "Iosevka", var(--sans), monospace;
 }
-/* pickle mode */
 html.pickle {
     background-color: #dfd;
-    --red: #cf0000;
-    --orange: #9b5200;
-    --yellow: #606b00;
-    --green: #070;
-    --cyan: #007273;
-    --gray: #676767;
-    --xanadu: #4f6d4f;
 }
 html.pickle header {
     background-color: green;
@@ -135,17 +128,6 @@ html.pickle a {
 }
 /* dark mode */
 @media (prefers-color-scheme: dark) {
-    :root {
-        --red: #ff3d22;
-        --orange: #c67626;
-        --yellow: #869028;
-        --green: #379d29;
-        --cyan: #379898;
-        --blue: #a06bff;
-        --purple: #cc5cc9;
-        --gray: #898989;
-        --xanadu: #729272;
-    }
     .entry {
         background-color: #fff2;
     }
@@ -155,23 +137,10 @@ html.pickle a {
     .h {
         color: white;
     }
-    /* dark pickle mode */
     html.pickle {
         background-color: #020;
-        --red: #ff7a54;
-        --orange: #e28d3d;
-        --yellow: #9fa840;
-        --green: #53b641;
-        --cyan: #52b0b0;
-        --blue: #c088ff;
-        --purple: #ea77e5;
-        --gray: #a3a3a3;
-        --xanadu: #89aa89;
     }
     html.pickle a {
         color: lightgreen;
-    }
-    html.pickle .type {
-        color: black;
     }
 }
