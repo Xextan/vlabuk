@@ -88,14 +88,33 @@
                 }
                 return element;
             }
+            function hasPrefixes(e, a) {
+                return a.some(p =>
+                    e.word.startsWith(p)
+                    && !["bad", "particle"].includes(pos(dict.find(x => deaccent(x.word) == deaccent(e.word.slice(2))) ?? {word: ""}))
+                );
+            }
+            function hasSuffixes(e, a) {
+                return a.some(p =>
+                    e.word.endsWith(p)
+                    && !["bad", "particle"].includes(pos(dict.find(x => deaccent(x.word) == deaccent(e.word.slice(0, -2))) ?? {word: ""}))
+                );
+            }
             function pos(e) {
-                return e.word.includes(" ") || ["qu", "po"].some(x => e.word.startsWith(x) && pos(dict.find(x => deaccent(x.word) == deaccent(e.word.slice(2))) ?? {word: ""}) != "bad") ? "serial" :
-                ["ga", "ge"].some(x => e.word.startsWith(x) && pos(dict.find(x => deaccent(x.word) == deaccent(e.word.slice(2))) ?? {word: ""}) != "bad") || ["ko", "xo", "sa", "se", "si"].some(x => e.word.endsWith(x) && pos(dict.find(x => x.word == e.word.slice(0, e.word.length - 2)) ?? {word: ""}) != "bad") ? "pseudocompound" :
-                e.gloss ? "compound" : // true
-                /^.{0,2}[áéíóú]/iu.test(e.word) || (!/^[bdfgklmnpqstvxz]([aeiou][ptkln]|[bdfgklmnpqstvxz][aeiou])$/.test(e.word) && e.alignment) ? "freeword" :
-                e.alignment ? "root" :
-                e.type ? "particle" :
-                "bad";
+                if (e.word.includes(" ") || hasPrefixes(e, ["qu", "po"])) {
+                    return "serial";
+                }
+                if (hasPrefixes(e, ["ga", "ge"]) || hasSuffixes(e, ["ko", "xo", "sa", "se", "si"]))
+                    return "pseudocompound";
+                if (e.gloss)
+                    return "compound"; // true
+                if (/^.{0,2}[áéíóú]/iu.test(e.word) || (!/^[bdfgklmnpqstvxz]([aeiou][ptkln]|[bdfgklmnpqstvxz][aeiou])$/.test(e.word) && e.alignment))
+                    return "freeword";
+                if (e.alignment)
+                    return "root";
+                if (e.type)
+                    return "particle";
+                return "bad";
             }
             function htmlify(entry) {
                 let etym_content = entry.etymology ? mkelem("p", {}, [
@@ -133,7 +152,7 @@
                         entry.def && entry.alignment ? " – " : null,
                         entry.alignment
                     ]),
-                    entry.notes || entry.semantics || entry.etymology || entry.ko || entry.xo || entry.sa || entry.se || entry.si || entry.ge || entry.ga || entry.po || entry.qu || entry.gloss ? mkelem("div", {"className": "more"}, [
+                    entry.notes || entry.semantics || entry.etymology || entry.derivs || entry.gloss ? mkelem("div", {"className": "more"}, [
                         entry.gloss ? mkelem("p", {}, [
                             mkelem("span", {"className": "h"}, ["Gloss: "]),
                             mkelem("code", {}, [entry.gloss])
