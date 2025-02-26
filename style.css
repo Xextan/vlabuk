@@ -50,25 +50,25 @@ input[type="text"] {
     margin-block: 6px;
 }
 .root {
-    border-left: 2px solid var(--cyan);
+    border-left: 3px solid var(--cyan);
 }
 .compound {
-    border-left: 2px solid var(--blue);
+    border-left: 3px solid var(--blue);
 }
 .pseudocompound {
-    border-left: 2px solid var(--xanadu);
+    border-left: 3px solid var(--xanadu);
 }
 .freeword {
-    border-left: 2px solid var(--purple);
+    border-left: 3px solid var(--purple);
 }
 .particle {
-    border-left: 2px solid var(--gray);
+    border-left: 3px solid var(--gray);
 }
 .serial {
-    border-left: 2px solid var(--orange);
+    border-left: 3px solid var(--orange);
 }
 .bad {
-    border-left: 2px solid var(--red);
+    border-left: 3px solid var(--red);
 }
 .type {
     background-color: var(--gray);
@@ -119,12 +119,12 @@ code {
 }
 html.pickle {
     background-color: #dfd;
-}
-html.pickle header {
-    background-color: green;
-}
-html.pickle a {
-    color: var(--green);
+    header {
+        background-color: #007c25; /* oklch 50% 0.2 150 */
+    }
+    a {
+        color: var(--green);
+    }
 }
 /* dark mode */
 @media (prefers-color-scheme: dark) {
@@ -138,9 +138,12 @@ html.pickle a {
         color: white;
     }
     html.pickle {
-        background-color: #020;
-    }
-    html.pickle a {
-        color: lightgreen;
+        background-color: #062911; /* oklch 25% 0.08 150 */
+        a {
+            color: #98e2a8; /* oklch 85% 0.11 150 */
+        }
+        /* .entry {
+            background-color: #fff1;
+        } */
     }
 }
