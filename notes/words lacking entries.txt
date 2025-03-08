@@ -1,0 +1,110 @@
+MENTIONED IN JSON NOTES OR SPREADSHEET:
+
+word        source entry
+------------------------
+fezláde     [zla]
+fizlá       [zla]
+fubbak      [fup]
+gavén       [kli] <---- see below, kli does not exist either somehow
+goddil      [bap]
+klusup      [klu]
+sendun      [kop] <---- kop is also not in sheet/website
+tepzi       [sni] <---- same w this
+
+in deprecated words:
+fakdun      [spo]
+fakdunsku   [spo]
+falxut      [plu]
+galbin      [nep]
+likxutfal   [plu]
+pulxutfal   [plu]
+tsesli      [pla]
+tsexo       [pla]
+tsezekko    [pla]
+vitqla      [lot]
+xutfal      [plu]
+zalqat      [sto]
+zbutet      [sik]
+
+
+OTHER SPREADSHEET:
+word        definition      tab
+--------------------------------------
+bankok      translate       compounds
+bulúkkok    distract
+fingot      arrive
+folzla      ticket
+kinkok      pack (v.)
+notbankok   translate
+panbol      bread
+sekkok      protect
+soltsakap   sunflower
+sonple      noisy
+sonxel      noisy
+fin got                     serials
+xen tot
+zno zuk
+bi                          particles-list
+nie/nio
+tu[aeio]    [speculative]
+xua         lambda poss.
+quo
+kai         comparative
+[td][aeo]u  abstract things
+zou/qeu/xau
+seu         "discursive?"   particles-classes
+
+all the letter names
+all the time terms
+
+
+ACCEPTED IN #SUBMIT-A-WORD:
+there are a bunch of these but some of them have since been assigned instead to
+other meanings (eg ~dak~ was given to "compress" over "minute") so idk which
+you want to keep. here i list the ones where none of the words proposed in the
+thread exist and they also aren't marked for deprecation in the sheet.
+
+word    definition  thread date     notes
+----------------------------------------------
+nep     sky         2023 05 10
+dot     appreciate  2023 06 25      cf nel, zen
+gup     complete    2023 07 22      not explicitly axexpted or reqeqcted. i
+                                    think it sounds cool :3
+kli     buy         2023 08 01      ?? i thought this was already a thing?? but
+                                    it isn't in vlabuk or spreadsheet
+lon     night       2023 10 15
+zloxin  evil        2023 10 16
+xkotul  weapon      2023 11 30      no response
+dinlen  spirit      "               "
+vou     even [adv]  2023 12 14      proposed by fendze ban herself
+papkin  bag         2023 12 17      papkinko exists
+vlazi   morpheme    2023 12 19      defined as 'glyph' but imo morpheme makes
+                                    more sense for word-DIM. patzi exists for
+                                    letter
+dinxte  faith       "
+nokko   nose        2024 01 03      idk when the ko/xo/etc switcheroo happened\
+skesku  narrate     2024 01 12      no response
+slizuk  portray     2024 01 18      slixpi was added but not this
+txixpe  mouth       2024 01 21
+zukxoset  program   2024 01 22      zukset exists but means team
+paklan  previous    2024 01 24
+faklan  next        "
+kaptit  spoon       2024 02 06
+znizuk  simulate    2024 02 12      fendze ban creation
+vetkun  agree       2024 02 28
+qinxto  ore         2024 03 13
+fakdun  predict     "
+záhap   gold        "
+jéro    iron        2023 03 16
+qui    by standard  2024 05 27      not in sheet
+qetsku  truthful    2024 05 28      in natsku thread
+gopvip  vote        2024 06 03
+kotget  download    2024 06 20
+kotdon  upload      "
+véizíxi worm        2024 06 27      meee :3 (~evie)
+pákóla  be HAI      2024 07 07      "
+pérau   radius      2024 10 02      ", no response
+penvan  neurotyp    2025 01 01
+penxik  neurodiv    "
+tap     shut        2025 02 01      fendze ban creation
+nîbúna  turtle      2025 03 05      meee :3 , no response
