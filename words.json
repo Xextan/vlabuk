@@ -3563,7 +3563,7 @@
     {
         "word": "ginqbi",
         "def": "family",
-        "gloss": "family-near",
+        "gloss": "gene-near",
         "type": "Relation",
         "alignment": "O is family of E in Au",
         "semantics": [
