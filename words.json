@@ -5934,7 +5934,7 @@
     {
         "word": "léjon",
         "def": "lion",
-        "type": "entity",
+        "type": "Entity",
         "alignment": "O is a lion",
         "semantics": [
             "lion"
@@ -9944,7 +9944,7 @@
         "word": "salste",
         "def": "equal",
         "gloss": "number-same",
-        "type": "relation",
+        "type": "Relation",
         "alignment": "O and E are equal in number in Au",
         "semantics": [
             "equal",
