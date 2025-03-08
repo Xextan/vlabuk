@@ -12376,6 +12376,7 @@
         "alignment": "O eats E",
         "semantics": [
             "eat",
+            "drink",
             "consume",
             "devour",
             "swallow",
