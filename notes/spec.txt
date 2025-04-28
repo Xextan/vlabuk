@@ -21,4 +21,5 @@ PIE        - https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/�
 Votgil     - http://www.ostracodfiles.com/votgil/guide.html
 ASL        - https://www.signasl.org/sign/◌
 Navajo     - ?
-Cherokee   - ?
+Cherokee   - https://www.cherokeedictionary.net/share/◌
+  url will only contain an opaque id number

@@ -207,6 +207,8 @@
                     url = "http://www.ostracodfiles.com/votgil/guide.html";
                 } else if (e.lang == "American Sign Language") {
                     url = "https://www.signasl.org/sign/" + e.word.toLowerCase();
+                } else if (e.lang == "Cherokee" && +e.urlform) {
+                    url = "https://www.cherokeedictionary.net/share/" + e.urlform;
                 } else {
                     url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
                 }
