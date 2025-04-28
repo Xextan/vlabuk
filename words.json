@@ -7260,6 +7260,17 @@
         "notes": "my, our"
     },
     {
+        "word": "níbúná",
+        "def": "turtle",
+        "type": "Entity",
+        "alignment": "O is a turtle",
+        "etymology": {
+            "lang": "Sumerian",
+            "word": "𒃻𒅮𒈾",
+            "translit": "nig̃₂-bun₂-na"
+        }
+    },
+    {
         "word": "nik",
         "def": "agent",
         "derivs": {
@@ -13880,6 +13891,20 @@
         "etymology": {
             "lang": "Loglan",
             "word": "ci"
+        }
+    },
+    {
+        "word": "xíbépéhu",
+        "def": "nonsense",
+        "type": "Quality",
+        "alignment": "O is nonsensical",
+        "semantics": [
+            "meaningless",
+            "pointless"
+        ],
+        "etymology": {
+            "lang": "Lojban",
+            "word": "cribe pesxu"
         }
     },
     {

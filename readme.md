@@ -5,7 +5,7 @@
 **Before committing** changes to the JSON please
 - ensure nothing is empty (regex-search `[^\\]""|\[\]`)
 - press `shift option/alt f` (autoformat)
-- run `cargo run --release` - this will update `words.js` to reflect your changes & fetch any necessary fonts (should take ~20 seconds). Or equivalently you can run the jsify Github Action *after* committing/pushing.
+- run `cargo run -r` - this will update `words.js` to reflect your changes & fetch any necessary fonts (should take ~20 seconds). Or equivalently you can run the jsify Github Action *after* committing/pushing.
 
 Properties that exist:
 

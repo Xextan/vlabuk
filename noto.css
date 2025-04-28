@@ -38,6 +38,11 @@
     src: url("fonts/NotoSansCJKhk-Regular.otf");
     font-display: swap;
 }
+@font-face {
+    font-family: "Noto Sans Cuneiform";
+    src: url("fonts/NotoSansCuneiform-Regular.ttf");
+    font-display: swap;
+}
 :root {
-    --sans: "Noto Sans", "Noto Sans Armenian", "Noto Sans Hebrew", "Noto Sans Arabic", "Noto Sans Devanagari", "Noto Sans Thai", "Noto Sans Georgian", "Noto Sans Cherokee", "Noto Sans CJK HK", ui-sans-serif, sans-serif;
+    --sans: "Noto Sans", "Noto Sans Armenian", "Noto Sans Hebrew", "Noto Sans Arabic", "Noto Sans Devanagari", "Noto Sans Thai", "Noto Sans Georgian", "Noto Sans Cherokee", "Noto Sans CJK HK", "Noto Sans Cuneiform", ui-sans-serif, sans-serif;
 }

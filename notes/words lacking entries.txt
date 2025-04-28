@@ -82,7 +82,7 @@ vlazi   morpheme    2023 12 19      defined as 'glyph' but imo morpheme makes
                                     more sense for word-DIM. patzi exists for
                                     letter
 dinxte  faith       "
-nokko   nose        2024 01 03      idk when the ko/xo/etc switcheroo happened\
+nokko   nose        2024 01 03      idk when the ko/xo/etc switcheroo happened
 skesku  narrate     2024 01 12      no response
 slizuk  portray     2024 01 18      slixpi was added but not this
 txixpe  mouth       2024 01 21
@@ -103,8 +103,7 @@ kotget  download    2024 06 20
 kotdon  upload      "
 véizíxi worm        2024 06 27      meee :3 (~evie)
 pákóla  be HAI      2024 07 07      "
-pérau   radius      2024 10 02      ", no response
+pérau   radish      2024 10 02      ", no response
 penvan  neurotyp    2025 01 01
 penxik  neurodiv    "
 tap     shut        2025 02 01      fendze ban creation
-nîbúna  turtle      2025 03 05      meee :3 , no response
