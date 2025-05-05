@@ -604,9 +604,9 @@ dependencies = [
 
 [[package]]
 name = "notoize"
-version = "2.14.0"
+version = "2.16.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e120a59890eaa6187a8a74ae11fd66fcf60ae2075ac08b6f3f3dfcba5eaa4f14"
+checksum = "76a4a280d4ed9351dcce0230914c6e651fdf4647c435517d2a04212c1c37b7f1"
 dependencies = [
  "gh-file-curler",
  "itertools",
