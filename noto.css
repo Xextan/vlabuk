@@ -43,6 +43,11 @@
     src: url("fonts/NotoSansCuneiform-Regular.ttf");
     font-display: swap;
 }
+@font-face {
+    font-family: "Nokia Pure HL KLGN";
+    src: url("fonts/nokiapiqad.ttf");
+    font-display: swap;
+}
 :root {
-    --sans: "Noto Sans", "Noto Sans Armenian", "Noto Sans Hebrew", "Noto Sans Arabic", "Noto Sans Devanagari", "Noto Sans Thai", "Noto Sans Georgian", "Noto Sans Cherokee", "Noto Sans CJK HK", "Noto Sans Cuneiform", ui-sans-serif, sans-serif;
+    --sans: "Noto Sans", "Noto Sans Armenian", "Noto Sans Hebrew", "Noto Sans Arabic", "Noto Sans Devanagari", "Noto Sans Thai", "Noto Sans Georgian", "Noto Sans Cherokee", "Noto Sans CJK HK", "Noto Sans Cuneiform", "Nokia Pure HL KLGN", ui-sans-serif, sans-serif;
 }
