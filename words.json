@@ -12722,6 +12722,14 @@
     "notes": "refers to the five vowels a/e/i/o/u"
   },
   {
+    "word": "ve",
+    "type": "Suffix",
+    "def": "aggregate kinda thing idk",
+    "etymology": {
+      "lang": "backformed from «vep»"
+    }
+  },
+  {
     "word": "vei",
     "def": "perspective case marker (frame of reference)",
     "type": "Preposition",
@@ -12947,6 +12955,14 @@
       "marketplace",
       "bazaar"
     ]
+  },
+  {
+    "word": "vep",
+    "def": "network, group, cluster, aggregate",
+    "etymology": {
+      "lang": "Yiddish",
+      "word": "וועב"
+    }
   },
   {
     "word": "vet",
