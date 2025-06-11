@@ -12724,7 +12724,7 @@
   {
     "word": "ve",
     "type": "Suffix",
-    "def": "aggregate kinda thing idk",
+    "def": "aggregate suffix",
     "etymology": {
       "lang": "backformed from «vep»"
     }
@@ -12958,7 +12958,12 @@
   },
   {
     "word": "vep",
-    "def": "network, group, cluster, aggregate",
+    "def": "network",
+    "semantics": [
+      "group",
+      "cluster",
+      "aggregate"
+    ],
     "etymology": {
       "lang": "Yiddish",
       "word": "וועב"
