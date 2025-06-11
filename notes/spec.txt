@@ -9,7 +9,7 @@ v notes
 urls - 
 
 Wiktionary - https://en.wiktionary.org/wiki/◌
-Loglan     - https://randall-holmes.github.io/Loglan/Dictionary/L-to-E-TDR.html#◌
+Loglan     - https://mi2ebi.github.io/zalduvrai/?q=◌
 Lojban     - https://sisku.org/?en#◌
 Klingon    - https://klingon.wiki/Word/◌
 Ceqli      - http://ceqli.pbworks.com/w/page/5455969/Ceqli-English%20Glossary
