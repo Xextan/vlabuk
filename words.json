@@ -503,7 +503,7 @@
     ]
   },
   {
-    "word": "belsabek",
+    "word": "belsabbek",
     "def": "decoration",
     "gloss": "beautiful-CAUS-object",
     "type": "Junction",
@@ -11035,7 +11035,7 @@
   },
   {
     "word": "spo",
-    "def": "reflect",
+    "def": "expect",
     "etymology": {
       "lang": "Danish",
       "word": "spå"
@@ -12051,6 +12051,19 @@
     }
   },
   {
+    "word": "tsepopset",
+    "def": "program",
+    "gloss": "intention-PAT-group",
+    "type": "Quality",
+    "alignment": "O (mass) is a program of Eu",
+    "semantics": [
+      "program",
+      "schedule",
+      "plan",
+      "outline"
+    ]
+  },
+  {
     "word": "tsexo",
     "def": "intention",
     "gloss": "intend-PAT",
@@ -12061,19 +12074,6 @@
       "intent",
       "plan",
       "scheme"
-    ]
-  },
-  {
-    "word": "tsexoset",
-    "def": "program",
-    "gloss": "intention-PAT-group",
-    "type": "Quality",
-    "alignment": "O (mass) is a program of Eu",
-    "semantics": [
-      "program",
-      "schedule",
-      "plan",
-      "outline"
     ]
   },
   {

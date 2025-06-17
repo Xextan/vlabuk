@@ -4,8 +4,15 @@
 
 **Before committing** changes to the JSON please
 - ensure nothing is empty (regex-search `[^\\]""|\[\]`)
-- press `shift option/alt f` (autoformat)
-- run `cargo run -r` - this will update `words.js` to reflect your changes & fetch any necessary fonts (should take ~20 seconds). Or equivalently you can run the jsify Github Action *after* committing/pushing.
+- also ensure there aren't any json syntax errors
+- run this, sans comments (ie ignore everything after the `#`s). you will need `node` and `cargo` installed
+  ```sh
+  cp words.json words.json.bak                   # makes a backup
+  node sortjson.js < words.json.bak > words.json # sorts and formats
+  rm words.json.bak                              # removes the backup
+  cargo run -r                                   # minifies it to words.js
+  ```
+  if you use Helix like evie you can instead press Esc then `%|node sortjson.js` and then `cargo run -r` in terminal
 
 Properties that exist:
 

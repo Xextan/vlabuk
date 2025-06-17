@@ -4,15 +4,10 @@ use std::{fs, time::Instant};
 
 fn main() {
     let start = Instant::now();
-    let min = serde_json::to_string(
-        &serde_json::from_str::<Vec<Value>>(&fs::read_to_string("words.json").unwrap()).unwrap(),
-    )
-    .unwrap();
-    fs::write(
-        "words.js",
-        format!("const dict = {min}.sort((a, b) => a.word.localeCompare(b.word));"),
-    )
-    .unwrap();
+    let words =
+        serde_json::from_str::<Vec<Value>>(&fs::read_to_string("words.json").unwrap()).unwrap();
+    let min = serde_json::to_string(&words).unwrap();
+    fs::write("words.js", format!("const dict = {min};")).unwrap();
     // fonts (cf xlasisku)
     for font in fs::read_dir("fonts/").unwrap() {
         let font = font.unwrap();
