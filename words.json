@@ -9432,6 +9432,15 @@
     ]
   },
   {
+    "word": "qíqo",
+    "def": "gecko",
+    "etymology": {
+      "lang": "Thai",
+      "word": "จิ้งจก",
+      "translit": "jîng-jòk"
+    }
+  },
+  {
     "word": "qit",
     "def": "memory",
     "type": "Quality",
