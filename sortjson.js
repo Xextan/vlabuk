@@ -1,5 +1,5 @@
 let input = "";
-process.stdin.on("data", data => {input += data;});
+process.stdin.on("data", data => { input += data; });
 process.stdin.on("end", () => {
   const data = JSON.parse(input);
   if (!Array.isArray(data)) {
