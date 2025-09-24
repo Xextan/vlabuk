@@ -1,6 +1,7 @@
+use std::{fs, time::Instant};
+
 use notoize::{Font, NotoizeClient};
 use serde_json::Value;
-use std::{fs, time::Instant};
 
 fn main() {
     let start = Instant::now();
@@ -12,10 +13,7 @@ fn main() {
     for font in fs::read_dir("fonts/").unwrap() {
         let font = font.unwrap();
         if let Some(name) = font.file_name().to_str() {
-            if !["NotoSans-", "Iosevka-", "nokiapiqad"]
-                .iter()
-                .any(|x| name.starts_with(x))
-            {
+            if !["NotoSans-", "Iosevka-", "nokiapiqad"].iter().any(|x| name.starts_with(x)) {
                 fs::remove_file(font.path()).unwrap();
             }
         }
@@ -39,11 +37,7 @@ fn main() {
     }
     css = format!(
         "{css}:root {{\r\n    --sans: \"Noto Sans\", {}, ui-sans-serif, sans-serif;\r\n}}",
-        fonts
-            .iter()
-            .map(|f| format!("\"{}\"", f.fontname))
-            .collect::<Vec<_>>()
-            .join(", ")
+        fonts.iter().map(|f| format!("\"{}\"", f.fontname)).collect::<Vec<_>>().join(", ")
     );
     fs::write("noto.css", css).unwrap();
     println!(" in {:?}", start.elapsed());
