@@ -1,0 +1,194 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "vlabuk schema",
+  "description": "schema for vlabuk xextan",
+  "type": "object",
+  "required": [
+    "data"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "schema reference"
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "word",
+          "def"
+        ],
+        "properties": {
+          "word": {
+            "type": "string",
+            "minLength": 1,
+            "description": "the word itself"
+          },
+          "def": {
+            "type": "string",
+            "minLength": 1,
+            "description": "short definition/meaning"
+          },
+          "etymology": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "lang": {
+                    "type": "string",
+                    "description": "source language"
+                  },
+                  "word": {
+                    "type": "string",
+                    "description": "source word"
+                  },
+                  "translit": {
+                    "type": "string",
+                    "description": "transliteration"
+                  },
+                  "urlform": {
+                    "type": "string",
+                    "description": "what to put in the link url"
+                  },
+                  "link": {
+                    "oneOf": [
+                      {
+                        "type": "boolean",
+                        "description": "whether to link it anywhere at all"
+                      },
+                      {
+                        "type": "string",
+                        "description": "override of the link",
+                        "format": "uri"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "lang"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "array",
+                "items": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "lang": {
+                          "type": "string",
+                          "description": "source language"
+                        },
+                        "word": {
+                          "type": "string",
+                          "description": "source word"
+                        },
+                        "translit": {
+                          "type": "string",
+                          "description": "transliteration"
+                        },
+                        "urlform": {
+                          "type": "string",
+                          "description": "what to put in the link url"
+                        },
+                        "link": {
+                          "oneOf": [
+                            {
+                              "type": "boolean",
+                              "description": "whether to link it anywhere at all"
+                            },
+                            {
+                              "type": "string",
+                              "description": "override of the link",
+                              "format": "uri"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "lang"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "string",
+                      "enum": [
+                        "+",
+                        "←"
+                      ],
+                      "description": "connector"
+                    }
+                  ]
+                },
+                "minItems": 1
+              }
+            ],
+            "description": "etymology information"
+          },
+          "notes": {
+            "type": "string",
+            "description": "additional notes about the word"
+          },
+          "alignment": {
+            "type": "string",
+            "description": "place structure (root-specific)"
+          },
+          "type": {
+            "type": "string",
+            "pattern": "^(Null|Preposition|Determiner|Predicate|Modifier|Binder|Tag|Pronoun|Suffix|Terminator|Adverb|Illocution|Connective|Transmogrifier|Entity|Junction|Direction|State|Quality|Relation)(-(Null|Preposition|Determiner|Predicate|Modifier|Binder|Tag|Pronoun|Suffix|Terminator|Adverb|Illocution|Connective|Transmogrifier|Entity|Junction|Direction|State|Quality|Relation))*$",
+            "description": "word type"
+          },
+          "semantics": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "semantic space (root-specific)"
+          },
+          "derivs": {
+            "type": "object",
+            "properties": {
+              "xo": {
+                "type": "string"
+              },
+              "ko": {
+                "type": "string"
+              },
+              "ga": {
+                "type": "string"
+              },
+              "ge": {
+                "type": "string"
+              },
+              "qu": {
+                "type": "string"
+              },
+              "po": {
+                "type": "string"
+              },
+              "sa": {
+                "type": "string"
+              },
+              "se": {
+                "type": "string"
+              },
+              "si": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false,
+            "description": "derivational forms (root-specific)"
+          },
+          "gloss": {
+            "type": "string",
+            "description": "gloss (compound-specific)"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

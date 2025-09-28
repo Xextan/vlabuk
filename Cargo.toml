@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 notoize = "2.16.0"
-serde_json = "1.0.139"
+serde_json = { version = "1.0.139", features = ["preserve_order"] }
