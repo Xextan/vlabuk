@@ -3,21 +3,18 @@
   src: url("fonts/Iosevka-Regular.ttf");
   font-display: swap;
 }
-
 @font-face {
   font-family: "Iosevka";
   src: url("fonts/Iosevka-Italic.ttf");
   font-display: swap;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Iosevka";
   src: url("fonts/Iosevka-Bold.ttf");
   font-display: swap;
   font-weight: bold;
 }
-
 @font-face {
   font-family: "Iosevka";
   src: url("fonts/Iosevka-BoldItalic.ttf");
@@ -25,34 +22,28 @@
   font-weight: bold;
   font-style: italic;
 }
-
-:root {
-  font-family: var(--sans);
-  /* oklch: l=65 c=0.15 */
-  --red: #db6371;
-  /* 15 */
-  --orange: #d56f2c;
-  /* 50 */
-  --yellow: #a59000;
-  /* 100 */
-  --green: #3aa85b;
-  /* 150 */
-  --cyan: #00a8a1;
-  /* 190 */
-  --blue: #3a93e6;
-  /* 250 */
-  --purple: #9e77dc;
-  /* 300 */
-  --gray: #8f8f8f;
-  /* c=0 */
-  --xanadu: #6e9c77;
-  /* c=0.075 */
+@font-face {
+    font-family: "Nokia Pure HL KLGN";
+    src: url("fonts/nokiapiqad.ttf");
+    font-display: swap;
 }
 
+:root {
+  font-family: "Noto Sans", "Nokia Pure HL KLGN", ui-sans-serif, system-ui, sans-serif;
+  /* oklch: l=65 c=0.15 */
+  --red: #db6371;     /* 15 */
+  --orange: #d56f2c;  /* 50 */
+  --yellow: #a59000;  /* 100 */
+  --green: #3aa85b;   /* 150 */
+  --cyan: #00a8a1;    /* 190 */
+  --blue: #3a93e6;    /* 250 */
+  --purple: #9e77dc;  /* 300 */
+  --gray: #8f8f8f;    /* c=0 */
+  --xanadu: #6e9c77;  /* c=0.075 */
+}
 * {
   transition: background-color 0.2s;
 }
-
 input[type="text"] {
   font: inherit;
 }
@@ -62,39 +53,30 @@ input[type="text"] {
   padding: 0.5em 1.25em;
   margin-bottom: 0.5em;
 }
-
 .entry p {
   margin-block: 6px;
 }
-
 .root {
   border-left: 3px solid var(--cyan);
 }
-
 .compound {
   border-left: 3px solid var(--blue);
 }
-
 .pseudocompound {
   border-left: 3px solid var(--xanadu);
 }
-
 .freeword {
   border-left: 3px solid var(--purple);
 }
-
 .particle {
   border-left: 3px solid var(--gray);
 }
-
 .serial {
   border-left: 3px solid var(--orange);
 }
-
 .bad {
   border-left: 3px solid var(--red);
 }
-
 .type {
   background-color: var(--gray);
   color: white;
@@ -104,65 +86,50 @@ input[type="text"] {
   bottom: 1px;
   display: inline-block;
 }
-
 .Entity {
   background-color: var(--yellow);
 }
-
 .Junction {
   background-color: var(--orange);
 }
-
 .Direction {
   background-color: var(--red);
 }
-
 .State {
   background-color: var(--purple);
 }
-
 .Quality {
   background-color: var(--blue);
 }
-
 .Relation {
   background-color: var(--green);
 }
-
 .Null {
   background-color: black;
   color: white !important;
   outline: 1px solid white;
 }
-
 .Special {
   background-color: var(--xanadu);
 }
-
 .more {
   color: #000c;
 }
-
 .h {
   color: black;
 }
-
 .entry a {
   text-decoration: none;
 }
-
 code {
-  font-family: "Iosevka", var(--sans), monospace;
+  font-family: "Iosevka", monospace;
 }
 
 html.pickle {
   background-color: #dfd;
-
   header {
-    background-color: #007c25;
-    /* oklch 50% 0.2 150 */
+    background-color: #007c25; /* oklch 50% 0.2 150 */
   }
-
   a {
     color: var(--green);
   }
@@ -173,26 +140,16 @@ html.pickle {
   .entry {
     background-color: #fff2;
   }
-
   .more {
     color: #fffb;
   }
-
   .h {
     color: white;
   }
-
   html.pickle {
-    background-color: #062911;
-
-    /* oklch 25% 0.08 150 */
+    background-color: #062911; /* oklch 25% 0.08 150 */
     a {
-      color: #98e2a8;
-      /* oklch 85% 0.11 150 */
+      color: #98e2a8; /* oklch 85% 0.11 150 */
     }
-
-    /* .entry {
-            background-color: #fff1;
-        } */
   }
 }
