@@ -5,14 +5,7 @@
 **Before committing** changes to the JSON please
 - ensure nothing is empty (regex-search `[^\\]""|\[\]`)
 - also ensure there aren't any json syntax errors
-- run this, sans comments (ie ignore everything after the `#`s). you will need `node` and `cargo` installed
-  ```sh
-  cp words.json words.json.bak                   # makes a backup
-  node sortjson.js < words.json.bak > words.json # sorts and formats
-  rm words.json.bak                              # removes the backup
-  cargo run -r                                   # minifies it to words.js
-  ```
-  if you use Helix like evie you can instead press Esc then `%|node sortjson.js` and then `cargo run -r` in terminal
+- run `cargo run -r`
 
 Properties that exist:
 

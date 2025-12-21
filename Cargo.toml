@@ -6,4 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+icu_collator = "2.1.1"
 serde_json = { version = "1.0.139", features = ["preserve_order"] }
