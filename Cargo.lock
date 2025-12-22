@@ -332,6 +332,7 @@ name = "vlabuk"
 version = "0.1.0"
 dependencies = [
  "icu_collator",
+ "serde",
  "serde_json",
 ]
 

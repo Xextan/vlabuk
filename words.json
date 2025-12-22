@@ -61,8 +61,8 @@
         {
           "lang": "Hebrew",
           "word": "הַלְּלוּיָהּ",
-          "urlform": "הללויה",
-          "translit": "hal'luyáh"
+          "translit": "hal'luyáh",
+          "urlform": "הללויה"
         }
       ]
     },
@@ -78,8 +78,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "الْجَزَائِر",
-        "urlform": "الجزائر",
-        "translit": "al-jazāʔir"
+        "translit": "al-jazāʔir",
+        "urlform": "الجزائر"
       }
     },
     {
@@ -111,8 +111,8 @@
       "etymology": {
         "lang": "Hebrew",
         "word": "אָמֵן",
-        "urlform": "אמן",
-        "translit": "amén"
+        "translit": "amén",
+        "urlform": "אמן"
       },
       "notes": "see also «jizát»"
     },
@@ -128,8 +128,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "أَمْرِيكَا",
-        "urlform": "أمريكا",
-        "translit": "ʔamrīkā"
+        "translit": "ʔamrīkā",
+        "urlform": "أمريكا"
       },
       "notes": "proper name: la Ámríka"
     },
@@ -206,8 +206,8 @@
       "etymology": {
         "lang": "Ancient Greek",
         "word": "ᾰ̓πόστολος",
-        "urlform": "ἀπόστολος",
-        "translit": "apóstolos"
+        "translit": "apóstolos",
+        "urlform": "ἀπόστολος"
       }
     },
     {
@@ -223,8 +223,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "عَرَب",
-        "urlform": "عرب",
-        "translit": "ʕarab"
+        "translit": "ʕarab",
+        "urlform": "عرب"
       }
     },
     {
@@ -408,8 +408,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "بَاب",
-        "urlform": "باب",
-        "translit": "bāb"
+        "translit": "bāb",
+        "urlform": "باب"
       },
       "notes": "Sense \"door\" refers to the physical object, not the space/entryway («ziddil», «goddil»)"
     },
@@ -442,8 +442,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "بَذْرَة",
-        "urlform": "بذرة",
-        "translit": "baḏra"
+        "translit": "baḏra",
+        "urlform": "بذرة"
       }
     },
     {
@@ -1026,8 +1026,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "ضَغَطَ",
-        "urlform": "ضغط",
-        "translit": "ḍaḡaṭa"
+        "translit": "ḍaḡaṭa",
+        "urlform": "ضغط"
       }
     },
     {
@@ -1404,8 +1404,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "دِين",
-        "urlform": "دين",
-        "translit": "dīn"
+        "translit": "dīn",
+        "urlform": "دين"
       }
     },
     {
@@ -3961,8 +3961,8 @@
       "etymology": {
         "lang": "Hebrew",
         "word": "גֻּלְגֹּלֶת",
-        "urlform": "גולגולת",
-        "translit": "gulgólet"
+        "translit": "gulgólet",
+        "urlform": "גולגולת"
       }
     },
     {
@@ -4081,8 +4081,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "الْعِرَاق",
-        "urlform": "العراق",
-        "translit": "al-ʕirāq"
+        "translit": "al-ʕirāq",
+        "urlform": "العراق"
       }
     },
     {
@@ -4116,8 +4116,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "إِسْلَام",
-        "urlform": "إسلام",
-        "translit": "ʔislām"
+        "translit": "ʔislām",
+        "urlform": "إسلام"
       }
     },
     {
@@ -4183,8 +4183,8 @@
       "etymology": {
         "lang": "Hebrew",
         "word": "יְהוּדִי",
-        "urlform": "יהודי",
-        "translit": "yehudí"
+        "translit": "yehudí",
+        "urlform": "יהודי"
       }
     },
     {
@@ -4207,8 +4207,8 @@
       "etymology": {
         "lang": "Hebrew",
         "word": "יִשְׂרָאֵל",
-        "urlform": "ישראל",
-        "translit": "yisra'él"
+        "translit": "yisra'él",
+        "urlform": "ישראל"
       }
     },
     {
@@ -4970,8 +4970,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "قِنِّينَة",
-        "urlform": "قنينة",
-        "translit": "qinnīna"
+        "translit": "qinnīna",
+        "urlform": "قنينة"
       }
     },
     {
@@ -5036,8 +5036,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "قِيثَارَة",
-        "urlform": "قيثارة",
-        "translit": "qīṯāra"
+        "translit": "qīṯāra",
+        "urlform": "قيثارة"
       }
     },
     {
@@ -5379,8 +5379,8 @@
       "etymology": {
         "lang": "Ancient Greek",
         "word": "Χρῑστός",
-        "urlform": "Χριστός",
-        "translit": "Khrīstós"
+        "translit": "Khrīstós",
+        "urlform": "Χριστός"
       },
       "notes": "cf. Lojban {xriso}"
     },
@@ -5543,8 +5543,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "قُدَّامَ",
-        "urlform": "قدام",
-        "translit": "quddāma"
+        "translit": "quddāma",
+        "urlform": "قدام"
       }
     },
     {
@@ -5658,8 +5658,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "لَاقَى",
-        "urlform": "لاقى",
-        "translit": "lāqā"
+        "translit": "lāqā",
+        "urlform": "لاقى"
       }
     },
     {
@@ -6784,8 +6784,8 @@
       "etymology": {
         "lang": "Moroccan Arabic",
         "word": "المَغْرِب",
-        "urlform": "المغرب",
-        "translit": "el-maḡrib"
+        "translit": "el-maḡrib",
+        "urlform": "المغرب"
       }
     },
     {
@@ -8231,8 +8231,8 @@
       "etymology": {
         "lang": "Hebrew",
         "word": "פֶּסַח",
-        "urlform": "פסח",
-        "translit": "pésakh"
+        "translit": "pésakh",
+        "urlform": "פסח"
       }
     },
     {
@@ -8914,8 +8914,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "جَنَى",
-        "urlform": "جنى",
-        "translit": "janā"
+        "translit": "janā",
+        "urlform": "جنى"
       },
       "notes": "see also «qanzu» (do crime)"
     },
@@ -8976,8 +8976,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "جَوَاب",
-        "urlform": "جواب",
-        "translit": "jawāb"
+        "translit": "jawāb",
+        "urlform": "جواب"
       }
     },
     {
@@ -9371,8 +9371,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "جِلْد",
-        "urlform": "جلد",
-        "translit": "jild"
+        "translit": "jild",
+        "urlform": "جلد"
       }
     },
     {
@@ -10025,8 +10025,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "سَبَّبَ",
-        "urlform": "سبب",
-        "translit": "sabbaba"
+        "translit": "sabbaba",
+        "urlform": "سبب"
       }
     },
     {
@@ -10047,8 +10047,8 @@
       "etymology": {
         "lang": "Arabic",
         "word": "صَدَاقَة",
-        "urlform": "صداقة",
-        "translit": "ṣadāqa"
+        "translit": "ṣadāqa",
+        "urlform": "صداقة"
       }
     },
     {
@@ -10939,8 +10939,8 @@
       "etymology": {
         "lang": "Hebrew",
         "word": "סוֹד",
-        "urlform": "סוד",
-        "translit": "sod"
+        "translit": "sod",
+        "urlform": "סוד"
       }
     },
     {
@@ -12738,8 +12738,8 @@
     },
     {
       "word": "ve",
-      "type": "Suffix",
       "def": "aggregate suffix",
+      "type": "Suffix",
       "etymology": {
         "lang": "backformed from «vep»"
       }
@@ -13684,8 +13684,8 @@
       "etymology": {
         "lang": "Persian",
         "word": "شاه‌مات",
-        "urlform": "شاه‌مات",
-        "translit": "šâh mât"
+        "translit": "šâh mât",
+        "urlform": "شاه‌مات"
       }
     },
     {
@@ -14344,8 +14344,8 @@
       "etymology": {
         "lang": "Ukrainian",
         "word": "шко́дити",
-        "urlform": "шкодити",
-        "translit": "škódyty"
+        "translit": "škódyty",
+        "urlform": "шкодити"
       }
     },
     {
@@ -15415,8 +15415,8 @@
       "etymology": {
         "lang": "Hebrew",
         "word": "סְבִיבָה",
-        "urlform": "סביבה",
-        "translit": "s'vivá"
+        "translit": "s'vivá",
+        "urlform": "סביבה"
       }
     },
     {
