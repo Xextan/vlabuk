@@ -45,11 +45,13 @@ fin got                     serials
 xen tot
 zno zuk
 bi                          particles-list
+nie         1pl.INCL
+nio         1pl.EXCL
 tu[aeio]    [speculative]
-quo
+quo         cursing
 [td][aeo]u  abstract things
-zou/qau/xau
-seu         "discursive?"   particles-classes
+zou/qau/xau numbers
+seu         "discursive?"   particles-classes   (different from ~fi~ somehow?)
 
 all the letter names
 all the time terms
@@ -67,19 +69,19 @@ nep     sky         2023 05 10
 dot     appreciate  2023 06 25      cf nel, zen
 gup     complete    2023 07 22      not explicitly axexpted or reqeqcted. i
                                     think it sounds cool :3
+                                    maybe ~tut zu~
 kli     buy         2023 08 01      ?? i thought this was already a thing?? but
                                     it isn't in vlabuk or spreadsheet
 lon     night       2023 10 15
 zloxin  evil        2023 10 16
 xkotul  weapon      2023 11 30      no response
 dinlen  spirit      "               "
-vou     even [adv]  2023 12 14      proposed by fendze ban herself
 papkin  bag         2023 12 17      papkinko exists
 vlazi   morpheme    2023 12 19      defined as 'glyph' but imo morpheme makes
                                     more sense for word-DIM. patzi exists for
                                     letter
 dinxte  faith       "
-nokko   nose        2024 01 03      idk when the ko/xo/etc switcheroo happened
+nukko   nose        2024 01 03      idk when the ko/xo/etc switcheroo happened
 skesku  narrate     2024 01 12      no response
 slizuk  portray     2024 01 18      slixpi was added but not this
 txixpe  mouth       2024 01 21
@@ -103,3 +105,7 @@ pákóla  be HAI      2024 07 07      "
 pérau   radish      2024 10 02      ", no response
 penvan  neurotyp    2025 01 01
 penxik  neurodiv    "
+sonsli  recording   2025 06 30
+xikdol  ashamed     2025 07 16
+gek     guilt(y?)   "               in xikdol thread
+salzu   calculate   2026 01 03
