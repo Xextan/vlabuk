@@ -24,7 +24,7 @@ Root-specific:
 - **`alignment`:** The place structure.
 - **`type`:** One of the new ones that start with a capital letter.
 - **`semantics`:** The semantic space.
-- **`derivs`:** Object with any of the keys `xo`/`ko`/`ga`/`ge`/`qu`/`po`/`sa`/`se`/`si`, representing the new `def` this word has when any are attached to it.
+- **`derivs`:** Object with any of the keys `xo`/`ko`/`ga`/`ge`/`qu`/`po`/`sa`/`se`/`si`/`zu`, representing the new `def` this word has when any are attached to it.
 
 The "pat." column is unnecessary here as it can be found via `/[^aeiou]$/.test(word) ? "a" : "b"`.
 
