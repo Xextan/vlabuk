@@ -28,6 +28,11 @@
   <div id="results"></div>
   <script src="words.js"></script>
   <script>
+    let SERIAL_PREFIXES = ["qu","po"];
+    let COMPOUND_PREFIXES = ["ga","ge"];
+    let PREFIXES = [...SERIAL_PREFIXES,...COMPOUND_PREFIXES];
+    let SUFFIXES = ["ko","xo","sa","se","si","zu"];
+    let AFFIXES = [...PREFIXES,...SUFFIXES];
     document.getElementById("pickle").addEventListener("change", function () {
       document.documentElement.classList.toggle("pickle");
     });
@@ -102,10 +107,10 @@
       );
     }
     function pos(e) {
-      if (e.word.includes(" ") || hasPrefixes(e, ["qu", "po"])) {
+      if (e.word.includes(" ") || hasPrefixes(e, SERIAL_PREFIXES)) {
         return "serial";
       }
-      if (hasPrefixes(e, ["ga", "ge"]) || hasSuffixes(e, ["ko", "xo", "sa", "se", "si"]))
+      if (hasPrefixes(e, COMPOUND_PREFIXES) || hasSuffixes(e, SUFFIXES))
         return "pseudocompound";
       if (e.gloss)
         return "compound"; // true
@@ -137,9 +142,9 @@
       let d = entry.derivs;
       let derivs = d ? mkelem("p", {}, [
         mkelem("span", {"className": "h"}, ["Derivations: "]),
-        ...[d.ko ?? "", d.xo ?? "", d.sa ?? "", d.se ?? "", d.si ?? "", d.ge ?? "", d.ga ?? "", d.po ?? "", d.qu ?? ""].map((e, i) => e ? [
+        ...[d.qu ?? "", d.po ?? "", d.ga ?? "", d.ge ?? "", d.ko ?? "", d.xo ?? "", d.sa ?? "", d.se ?? "", d.si ?? "", d.zu ?? ""].map((e, i) => e ? [
           mkelem("br", {}, []),
-          mkelem("b", {}, [derive(entry.word, ["ko", "xo", "sa", "se", "si", "ge", "ga", "po", "qu"][i])]),
+          mkelem("b", {}, [derive(entry.word, AFFIXES[i])]),
           " " + e
         ] : null).flat()
       ]) : null;
@@ -174,7 +179,7 @@
     function derive(w, a) {
       var i = /(?<![iu])[aeiou]/.exec(w).index;
       var v = w.match(/(?<![iu])[aeiou]/);
-      if (["xo", "ko", "sa"].includes(a)) {
+      if (SUFFIXES.includes(a)) {
         return w + a;
       } else {
         return a + w.replace("a", "á").replace("e", "é").replace("i", "í").replace("o", "ó").replace("u", "ú");

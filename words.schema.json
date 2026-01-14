@@ -176,6 +176,9 @@
               },
               "si": {
                 "type": "string"
+              },
+              "zu": {
+                "type": "string"
               }
             },
             "additionalProperties": false,

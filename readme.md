@@ -31,3 +31,9 @@ The "pat." column is unnecessary here as it can be found via `/[^aeiou]$/.test(w
 Compound-specific: **`gloss`**.
 
 Particle-specific: **`type`**.
+
+## Adding an affix key to `derivs`
+you need to add it to three things:
+1. the json schema (around line 180)
+2. the `Derivs` struct in `src/main.rs` (around line 50)
+3. whatever list is relevant in `index.html` (around line 30)

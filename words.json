@@ -9916,7 +9916,8 @@
       "word": "sal",
       "def": "number",
       "derivs": {
-        "ko": "quantifier"
+        "ko": "quantifier",
+        "zu": "calculate"
       },
       "type": "Quality",
       "alignment": "O is a number quantifying Eu",
@@ -9989,6 +9990,14 @@
         "abacus",
         "counting machine",
         "adding machine"
+      ]
+    },
+    {
+      "word": "salzu",
+      "def": "calculate",
+      "gloss": "number-AG",
+      "semantics": [
+        "count"
       ]
     },
     {
@@ -10893,6 +10902,11 @@
         "quiet",
         "still"
       ]
+    },
+    {
+      "word": "sonsli",
+      "def": "audio recording",
+      "gloss": "sound-image"
     },
     {
       "word": "sonxal",

@@ -4,79 +4,82 @@ use icu_collator::{Collator, CollatorPreferences, options::CollatorOptions};
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize)]
-pub struct Dictionary {
+struct Dictionary {
     #[serde(rename = "$schema")]
     pub schema: String,
     pub data: Vec<Word>,
 }
 #[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Word {
-    pub word: String,
-    pub def: String,
+#[allow(clippy::struct_field_names)]
+struct Word {
+    word: String,
+    def: String,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub derivs: Option<Derivs>,
+    derivs: Option<Derivs>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub gloss: Option<String>,
+    gloss: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
     #[serde(rename = "type")]
-    pub word_type: Option<String>,
+    word_type: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub alignment: Option<String>,
+    alignment: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub semantics: Option<Vec<String>>,
+    semantics: Option<Vec<String>>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub etymology: Option<Etymology>,
+    etymology: Option<Etymology>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub notes: Option<String>,
+    notes: Option<String>,
 }
 #[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Derivs {
+struct Derivs {
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub xo: Option<String>,
+    xo: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub ko: Option<String>,
+    ko: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub ga: Option<String>,
+    ga: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub ge: Option<String>,
+    ge: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub qu: Option<String>,
+    qu: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub po: Option<String>,
+    po: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub sa: Option<String>,
+    sa: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub se: Option<String>,
+    se: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub si: Option<String>,
+    si: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    zu: Option<String>,
 }
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(untagged)]
-pub enum Etymology {
+enum Etymology {
     Single(EtymologyEntry),
     Multiple(Vec<EtymologyItem>),
 }
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(untagged)]
-pub enum EtymologyItem {
+enum EtymologyItem {
     Entry(EtymologyEntry),
     Connector(String), // "+" or "←"
 }
 #[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct EtymologyEntry {
-    pub lang: String,
+struct EtymologyEntry {
+    lang: String,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub word: Option<String>,
+    word: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub translit: Option<String>,
+    translit: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub urlform: Option<String>,
+    urlform: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub link: Option<Link>,
+    link: Option<Link>,
 }
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(untagged)]
-pub enum Link {
+enum Link {
     Bool(bool),
     Url(String),
 }
