@@ -1,6 +1,11 @@
-use std::{fs, time::Instant};
+use std::{
+    fs::{self, File},
+    io::Write as _,
+    time::Instant,
+};
 
 use icu_collator::{Collator, CollatorPreferences, options::CollatorOptions};
+use regex::Regex;
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize)]
@@ -91,6 +96,13 @@ fn main() {
     let collator =
         Collator::try_new(CollatorPreferences::default(), CollatorOptions::default()).unwrap();
     dict.data.sort_by(|a, b| collator.compare(&a.word, &b.word));
+    let root = Regex::new("^[bdfgklnpqstxz]([aeiou][klnpt]|[bdgklnpqstxz][aeiou])$").unwrap();
+    let mut roots_tsv = File::create("roots.tsv").unwrap();
+    for word in &dict.data {
+        if root.is_match(&word.word) {
+            writeln!(roots_tsv, "{}\t{}", word.word, word.def).unwrap();
+        }
+    }
     let min = serde_json::to_string(&dict.data).unwrap();
     fs::write("words.js", format!("const dict = {min};\n")).unwrap();
     let pretty = serde_json::to_string_pretty(&dict).unwrap() + "\n";
