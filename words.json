@@ -10309,6 +10309,17 @@
       }
     },
     {
+      "word": "sik",
+      "def": "search",
+      "semantics": [
+        "look for"
+      ],
+      "etymology": {
+        "lang": "Lojban",
+        "word": "sisku"
+      }
+    },
+    {
       "word": "Síkot",
       "def": "Scotland",
       "type": "Quality",
@@ -11887,6 +11898,22 @@
         "word": "떨리다",
         "translit": "tteollida"
       }
+    },
+    {
+      "word": "ton",
+      "def": "tone",
+      "semantics": [
+        "pitch"
+      ],
+      "etymology": {
+        "lang": "Lojban",
+        "word": "tonga"
+      }
+    },
+    {
+      "word": "tonsen",
+      "def": "musical notation",
+      "gloss": "tone-sign"
     },
     {
       "word": "tot",
