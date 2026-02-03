@@ -5,7 +5,7 @@
 **Before committing** changes to the JSON please
 - ensure nothing is empty (regex-search `[^\\]""|\[\]`)
 - also ensure there aren't any json syntax errors
-- run `cargo run -r`
+- run `cargo run -r` (to sort it and keep the fields in a consistent order)
 
 Properties that exist:
 
@@ -36,4 +36,4 @@ Particle-specific: **`type`**.
 you need to add it to three things:
 1. the json schema (around line 180)
 2. the `Derivs` struct in `src/main.rs` (around line 50)
-3. whatever list is relevant in `index.html` (around line 30)
+3. whatever list is relevant at the top of `search.js`

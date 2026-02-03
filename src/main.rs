@@ -103,8 +103,6 @@ fn main() {
             writeln!(roots_tsv, "{}\t{}", word.word, word.def).unwrap();
         }
     }
-    let min = serde_json::to_string(&dict.data).unwrap();
-    fs::write("words.js", format!("const dict = {min};\n")).unwrap();
     let pretty = serde_json::to_string_pretty(&dict).unwrap() + "\n";
     fs::write("words.json", pretty).unwrap();
     println!("finished in {:?}", start.elapsed());
