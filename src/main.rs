@@ -33,7 +33,16 @@ struct Word {
     #[serde(skip_serializing_if = "Option::is_none")]
     etymology: Option<Etymology>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    notes: Option<String>,
+    notes: Option<Notes>,
+}
+#[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(untagged)]
+enum Notes {
+    Text(String),
+    EvilHtml {
+        #[serde(rename = "EVIL_DANGEROUS_HTML")]
+        evil_dangerous_html: String,
+    },
 }
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct Derivs {

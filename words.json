@@ -931,6 +931,20 @@
       }
     },
     {
+      "word": "bup",
+      "def": "dull",
+      "etymology": [
+        "ａｅｓｔｈｅｔｉｃ ...actually,",
+        {
+          "lang": "",
+          "word": "bouba"
+        }
+      ],
+      "notes": {
+        "EVIL_DANGEROUS_HTML": "<img src='img/bup-etymology.png' />"
+      }
+    },
+    {
       "word": "buqíddun",
       "def": "forget",
       "gloss": "OPP memory-know",
@@ -3397,6 +3411,24 @@
       ]
     },
     {
+      "word": "gan",
+      "def": "limb",
+      "type": "Junction",
+      "alignment": "O is limb of E",
+      "semantics": [
+        "limb",
+        "branch",
+        "beam",
+        "arm",
+        "leg"
+      ],
+      "etymology": {
+        "lang": "Navajo",
+        "word": "agaan"
+      },
+      "notes": "see «noggan» (\"leg\"); «xaggan» (\"arm\")"
+    },
+    {
       "word": "gáuli",
       "def": "mule",
       "type": "Entity",
@@ -4059,6 +4091,19 @@
         "lang": "English",
         "word": "Halloween"
       }
+    },
+    {
+      "word": "húvba",
+      "def": "Deaf",
+      "etymology": [
+        "the internationally used sign for",
+        {
+          "lang": "",
+          "word": "DEAF",
+          "link": "https://www.signasl.org/sign/deaf"
+        },
+        "creatively Xextanized by la Littul"
+      ]
     },
     {
       "word": "i",
@@ -4882,20 +4927,10 @@
     },
     {
       "word": "kik",
-      "def": "thankful",
-      "derivs": {
-        "xo": "gratitude"
-      },
-      "type": "Relation",
-      "alignment": "O is thankful to E for Au",
-      "semantics": [
-        "thankful",
-        "grateful",
-        "appreciative"
-      ],
+      "def": "sharp",
       "etymology": {
-        "lang": "Lojban",
-        "word": "ki'e"
+        "lang": "",
+        "word": "kiki"
       }
     },
     {
@@ -4988,6 +5023,24 @@
         "trunk",
         "carton"
       ]
+    },
+    {
+      "word": "kip",
+      "def": "thankful",
+      "derivs": {
+        "xo": "gratitude"
+      },
+      "type": "Relation",
+      "alignment": "O is thankful to E for Au",
+      "semantics": [
+        "thankful",
+        "grateful",
+        "appreciative"
+      ],
+      "etymology": {
+        "lang": "Lojban",
+        "word": "ki'e"
+      }
     },
     {
       "word": "kísékit",
@@ -7365,6 +7418,18 @@
       }
     },
     {
+      "word": "noggan",
+      "def": "leg",
+      "gloss": "foot-limb",
+      "type": "Junction",
+      "alignment": "O is leg of E",
+      "semantics": [
+        "leg",
+        "hind limb",
+        "shank"
+      ]
+    },
+    {
       "word": "noi",
       "def": "adverbial: never",
       "type": "Adverb",
@@ -7416,18 +7481,6 @@
         "sandal",
         "sneaker",
         "clog"
-      ]
-    },
-    {
-      "word": "nokvek",
-      "def": "leg",
-      "gloss": "foot-limb",
-      "type": "Junction",
-      "alignment": "O is leg of E",
-      "semantics": [
-        "leg",
-        "hind limb",
-        "shank"
       ]
     },
     {
@@ -8653,6 +8706,15 @@
         "lang": "a priori"
       },
       "notes": "also fraction sign | pu«duo» = 1/2; «tie» pu«kua» = 3/4"
+    },
+    {
+      "word": "puk",
+      "def": "face (n.)",
+      "etymology": {
+        "lang": "Hopi",
+        "word": "puku",
+        "link": "https://archive.org/details/hopidictionaryho0000unse"
+      }
     },
     {
       "word": "pul",
@@ -12795,24 +12857,6 @@
       "notes": "according to, from the perspective of"
     },
     {
-      "word": "vek",
-      "def": "limb",
-      "type": "Junction",
-      "alignment": "O is limb of E",
-      "semantics": [
-        "limb",
-        "branch",
-        "beam",
-        "arm",
-        "leg"
-      ],
-      "etymology": {
-        "lang": "Hungarian",
-        "word": "végtag"
-      },
-      "notes": "see «nokvek» (\"leg\"); «xakvek» (\"arm\")"
-    },
-    {
       "word": "vel",
       "def": "red",
       "derivs": {
@@ -13620,6 +13664,18 @@
       "notes": "...then Y (consequent of if-then statement) | see «xau»"
     },
     {
+      "word": "xaggan",
+      "def": "arm",
+      "gloss": "hand-limb",
+      "type": "Junction",
+      "alignment": "O is arm of E",
+      "semantics": [
+        "arm",
+        "forelimb",
+        "branch"
+      ]
+    },
+    {
       "word": "xai",
       "def": "numeral: 7",
       "type": "Determiner",
@@ -13645,18 +13701,6 @@
         "lang": "Choctaw",
         "word": "shakba"
       }
-    },
-    {
-      "word": "xakvek",
-      "def": "arm",
-      "gloss": "hand-limb",
-      "type": "Junction",
-      "alignment": "O is arm of E",
-      "semantics": [
-        "arm",
-        "forelimb",
-        "branch"
-      ]
     },
     {
       "word": "xakxlo",

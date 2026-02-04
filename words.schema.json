@@ -114,10 +114,6 @@
                     },
                     {
                       "type": "string",
-                      "enum": [
-                        "+",
-                        "←"
-                      ],
                       "description": "connector"
                     }
                   ]
@@ -128,7 +124,23 @@
             "description": "etymology information"
           },
           "notes": {
-            "type": "string",
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "EVIL_DANGEROUS_HTML": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "EVIL_DANGEROUS_HTML"
+                ],
+                "additionalProperties": false
+              }
+            ],
             "description": "additional notes about the word"
           },
           "alignment": {
