@@ -933,6 +933,9 @@
     {
       "word": "bup",
       "def": "dull",
+      "semantics": [
+        "blunt"
+      ],
       "etymology": [
         "ａｅｓｔｈｅｔｉｃ ...actually,",
         {
@@ -10140,8 +10143,7 @@
       "etymology": {
         "lang": "Lojban",
         "word": "sefsi"
-      },
-      "notes": "[U:O-O]"
+      }
     },
     {
       "word": "sei",
