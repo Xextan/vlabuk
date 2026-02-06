@@ -9097,6 +9097,17 @@
       }
     },
     {
+      "word": "qbabattsa",
+      "def": "angiosperm",
+      "gloss": "fruit-seed-plant",
+      "semantics": [
+        "flower",
+        "grass",
+        "legume"
+      ],
+      "notes": "plant where the seeds are enclosed in fruit. besides the keywords, also includes lots of trees"
+    },
+    {
       "word": "qbe",
       "def": "born",
       "type": "Junction",
@@ -13808,6 +13819,17 @@
         "word": "山",
         "translit": "shān"
       }
+    },
+    {
+      "word": "xanbattsa",
+      "def": "gymnosperm",
+      "gloss": "cone-seed-plant",
+      "semantics": [
+        "conifer",
+        "ginkgo",
+        "cycad"
+      ],
+      "notes": "plant where the seeds are *not* enclosed in fruit"
     },
     {
       "word": "xau",
