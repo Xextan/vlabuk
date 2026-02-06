@@ -1,26 +1,7 @@
 @font-face {
-  font-family: "Iosevka";
-  src: url("fonts/Iosevka-Regular.ttf");
+  font-family: "iosevie";
+  src: url("https://raw.githubusercontent.com/mi2ebi/iosevie/refs/heads/main/dist/Iosevie/TTF/Iosevie-Regular.ttf");
   font-display: swap;
-}
-@font-face {
-  font-family: "Iosevka";
-  src: url("fonts/Iosevka-Italic.ttf");
-  font-display: swap;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Iosevka";
-  src: url("fonts/Iosevka-Bold.ttf");
-  font-display: swap;
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Iosevka";
-  src: url("fonts/Iosevka-BoldItalic.ttf");
-  font-display: swap;
-  font-weight: bold;
-  font-style: italic;
 }
 @font-face {
     font-family: "Nokia Pure HL KLGN";
@@ -122,7 +103,7 @@ input[type="text"] {
   text-decoration: none;
 }
 code {
-  font-family: "Iosevka", monospace;
+  font-family: "iosevie", monospace;
 }
 
 html.pickle {
