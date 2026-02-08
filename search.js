@@ -86,10 +86,10 @@ function pos(e) {
     return "pseudocompound";
   if (e.gloss)
     return "compound"; // true
-  if (/^.{0,2}[áéíóú]/iu.test(e.word) || (!/^[bdfgklmnpqstvxz]([aeiou][ptkln]|[bdfgklmnpqstvxz][aeiou])$/.test(e.word) && e.alignment))
-    return "freeword";
-  if (e.alignment)
+  if (/^[bdfgklnpqstxz]([aeiou][klnpt]|[bdgklnpqstxz][aeiou])$/.test(e.word))
     return "root";
+  if (/^.{0,2}[áéíóú]/iu.test(e.word) || e.alignment)
+    return "freeword";
   if (e.type)
     return "particle";
   return "bad";
