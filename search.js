@@ -86,7 +86,7 @@ function pos(e) {
     return "pseudocompound";
   if (e.gloss)
     return "compound"; // true
-  if (/^[bdfgklnpqstxz]([aeiou][klnpt]|[bdgklnpqstxz][aeiou])$/.test(e.word))
+  if (/^[bdfgklnpqstvxz]([aeiou][klnpt]|[bdgklnpqstxz][aeiou])$/.test(e.word))
     return "root";
   if (/^.{0,2}[áéíóú]/iu.test(e.word) || e.alignment)
     return "freeword";
