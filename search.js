@@ -169,7 +169,7 @@ function url(e) {
   } else if (!e.lang) {
     url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
   } else if (e.lang == "Loglan") {
-    url = "https://mi2ebi.github.io/zalduvrai?q=" + (e.urlform || e.word.split(" ").slice(-1)[0]);
+    url = "https://zalduvrai.github.io/?q=" + (e.urlform || e.word.split(" ").slice(-1)[0]);
   } else if (e.lang.includes("Lojban")) {
     url = "https://sisku.org?en#" + (e.urlform || (e.word.includes("←") ? e.word.split(" ").slice(-1)[0] : e.word));
   } else if (e.lang == "Klingon") {
