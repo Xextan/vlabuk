@@ -3992,6 +3992,14 @@
       ]
     },
     {
+      "word": "joi",
+      "def": "auxiliary illocution: mark previous discourse as topic",
+      "type": "Illocution",
+      "etymology": {
+        "lang": "contraction: «je» + «zoi»"
+      }
+    },
+    {
       "word": "jówájóka",
       "def": "world (poetic)",
       "type": "Quality",
