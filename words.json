@@ -62,6 +62,13 @@
       ]
     },
     {
+      "word": "álga",
+      "def": "alga",
+      "semantics": [
+        "algae"
+      ]
+    },
+    {
       "word": "Álqáza",
       "def": "Algeria",
       "type": "Quality",
@@ -606,6 +613,17 @@
       "etymology": {
         "lang": "Volapük",
         "word": "blümik"
+      }
+    },
+    {
+      "word": "blo",
+      "def": "shield (n.?)",
+      "semantics": [
+        "shell"
+      ],
+      "etymology": {
+        "lang": "Loglan",
+        "word": "blosti"
       }
     },
     {
@@ -1802,6 +1820,19 @@
       "etymology": {
         "lang": "Proto-Indo-European",
         "word": "*dwóh₁"
+      }
+    },
+    {
+      "word": "dut",
+      "def": "worm",
+      "semantics": [
+        "slug"
+      ],
+      "etymology": {
+        "lang": "Arabic",
+        "word": "دُودَة",
+        "translit": "dūda",
+        "urlform": "دودة"
       }
     },
     {
@@ -3217,6 +3248,20 @@
         "lang": "backformed from «gen»"
       },
       "notes": "compared to, moreso than, with reference point"
+    },
+    {
+      "word": "gel",
+      "def": "clam",
+      "semantics": [
+        "oyster",
+        "starfish"
+      ],
+      "etymology": {
+        "lang": "Mandarin",
+        "word": "蛤蜊",
+        "urlform": "gélí"
+      },
+      "notes": "≈ bivalve"
     },
     {
       "word": "gen",
@@ -4727,6 +4772,14 @@
       "etymology": {
         "lang": "Portuguese",
         "word": "clemência"
+      }
+    },
+    {
+      "word": "kli",
+      "def": "snake",
+      "etymology": {
+        "lang": "Navajo",
+        "word": "tł'iish"
       }
     },
     {
@@ -7660,6 +7713,20 @@
       ]
     },
     {
+      "word": "pep",
+      "def": "crustacean",
+      "semantics": [
+        "crab",
+        "shrimp",
+        "krill"
+      ],
+      "etymology": {
+        "lang": "Dzhongka",
+        "word": "སྦལཔ་ཀང་ཀུར",
+        "translit": "sbalp kang kur"
+      }
+    },
+    {
       "word": "Pésáxi",
       "def": "Passover",
       "type": "Junction",
@@ -7742,6 +7809,19 @@
       "etymology": {
         "lang": "Italian",
         "word": "pianoforte"
+      }
+    },
+    {
+      "word": "pik",
+      "def": "frog",
+      "semantics": [
+        "toad"
+      ],
+      "etymology": {
+        "lang": "Assyrian Neo-Aramaic",
+        "word": "ܦܸܩܥܵܐ",
+        "translit": "piqʕā",
+        "urlform": "ܦܩܥܐ"
       }
     },
     {
@@ -7894,6 +7974,14 @@
         "burp",
         "fart"
       ]
+    },
+    {
+      "word": "plu",
+      "def": "rain",
+      "etymology": {
+        "lang": "Esperanto",
+        "word": "pluvi"
+      }
     },
     {
       "word": "po",
@@ -14570,6 +14658,14 @@
       "etymology": {
         "lang": "Lojban",
         "word": "zen ← zenba"
+      }
+    },
+    {
+      "word": "zep",
+      "def": "grass",
+      "etymology": {
+        "lang": "Haitian Creole",
+        "word": "zèb"
       }
     },
     {
