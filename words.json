@@ -5548,6 +5548,18 @@
         "translit": "lǎohǔ"
       }
     },
+        {
+      "word": "lavdel",
+      "def": "lavender",
+      "semantics": [
+        "lavender",
+        "Lavandula"
+      ],
+      "etymology": {
+        "lang": "German",
+        "word": "Lavendel"
+      }
+    },
     {
       "word": "le",
       "def": "3rd person animate pronoun",
