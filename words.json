@@ -5548,7 +5548,7 @@
         "translit": "lǎohǔ"
       }
     },
-        {
+    {
       "word": "lavdel",
       "def": "lavender",
       "semantics": [
@@ -6786,6 +6786,20 @@
         "go into",
         "cross threshold of"
       ]
+    },
+    {
+      "word": "nep",
+      "def": "sky",
+      "semantics": [
+        "sky",
+        "heaven",
+        "firmament",
+        "celestial"
+      ],
+      "etymology": {
+        "lang": "Czech",
+        "word": "nebe"
+      }
     },
     {
       "word": "net",
