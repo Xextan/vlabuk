@@ -715,6 +715,21 @@
       "notes": "covers semantic space previously occupied by «dop» (\"enough\")"
     },
     {
+      "word": "bop",
+      "def": "hole",
+      "type": "Junction",
+      "alignment": "O is a hole in E",
+      "semantics": [
+        "door",
+        "window"
+      ],
+      "etymology": {
+        "lang": "Zulu",
+        "word": "-bobo"
+      },
+      "notes": "space, not object"
+    },
+    {
       "word": "Bósuána",
       "def": "Botswana",
       "type": "Quality",
@@ -1303,19 +1318,30 @@
     },
     {
       "word": "dil",
-      "def": "hole",
-      "type": "Junction",
-      "alignment": "O is a hole in E",
+      "def": "substitute",
+      "derivs": {
+        "ko": "representative"
+      },
+      "type": "Relation",
+      "alignment": "O substitutes for E in Au",
       "semantics": [
-        "door",
-        "window"
+        "instead",
+        "replace",
+        "represent",
+        "stand in"
       ],
       "etymology": {
-        "lang": "Russian",
-        "word": "дыра",
-        "translit": "dyrá"
-      },
-      "notes": "space, not object"
+        "lang": "Loglan",
+        "word": "dilri"
+      }
+    },
+    {
+      "word": "dilvla",
+      "def": "pronoun",
+      "gloss": "represent-word",
+      "semantics": [
+        "pronoun"
+      ]
     },
     {
       "word": "din",
@@ -14957,17 +14983,11 @@
     },
     {
       "word": "zla",
-      "def": "substitute",
-      "derivs": {
-        "ko": "representative"
-      },
-      "type": "Relation",
-      "alignment": "O substitutes for E in Au",
+      "def": "money",
       "semantics": [
-        "instead",
-        "replace",
-        "represent",
-        "stand in"
+        "money",
+        "financial",
+        "finances"
       ],
       "etymology": {
         "lang": "Slovene",
@@ -14975,13 +14995,11 @@
       }
     },
     {
-      "word": "zlavla",
-      "def": "pronoun",
-      "gloss": "substitute-word",
-      "type": "Junction",
-      "alignment": "O is a pronoun referring to antecedent E",
+      "word": "zlaqin",
+      "def": "gold",
+      "gloss": "money-metal",
       "semantics": [
-        "pro-substantive"
+        "pronoun"
       ]
     },
     {
