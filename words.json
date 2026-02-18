@@ -373,7 +373,7 @@
         "translit": "bāb",
         "urlform": "باب"
       },
-      "notes": "Sense \"door\" refers to the physical object, not the space/entryway («ziddil», «goddil»)"
+      "notes": "Sense \"door\" refers to the physical object, not the space/entryway («zidbop», «nenbop»)"
     },
     {
       "word": "Bárat",
@@ -6799,9 +6799,9 @@
       }
     },
     {
-      "word": "nengoddil",
+      "word": "nenbop",
       "def": "entrance",
-      "gloss": "inside-move-hole",
+      "gloss": "inside-hole",
       "type": "Junction",
       "alignment": "O is entrance to E",
       "semantics": [
@@ -14900,18 +14900,6 @@
       }
     },
     {
-      "word": "ziddil",
-      "def": "window",
-      "gloss": "wall-hole",
-      "type": "Junction",
-      "alignment": "O is window in E",
-      "semantics": [
-        "aperture",
-        "fenestration",
-        "skylight"
-      ]
-    },
-    {
       "word": "zik",
       "def": "sick",
       "derivs": {
@@ -14980,6 +14968,18 @@
         "lang": "Slovene",
         "word": "zîd"
       }
+    },
+        {
+      "word": "zitbop",
+      "def": "window",
+      "gloss": "wall-hole",
+      "type": "Junction",
+      "alignment": "O is window in E",
+      "semantics": [
+        "aperture",
+        "fenestration",
+        "skylight"
+      ]
     },
     {
       "word": "zla",
