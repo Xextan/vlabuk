@@ -10323,6 +10323,16 @@
       "type": "Entity",
       "alignment": "O is a radio"
     },
+       {
+      "word": "sonqin",
+      "def": "bronze",
+      "gloss": "sound-metal",
+      "semantics": [
+        "bronze",
+        "brass"
+      ],
+      "notes": "sonqin vel = bronze, sonqin qlu = brass"
+    },
     {
       "word": "sonsak",
       "def": "silent",
@@ -11603,6 +11613,14 @@
       },
       "notes": "He called me a bulbiferous geophyte :("
     },
+       {
+      "word": "tulqin",
+      "def": "steel",
+      "gloss": "tool-metal",
+      "semantics": [
+        "steel"
+      ]
+    },
     {
       "word": "tulxketik",
       "def": "dishwasher",
@@ -11801,6 +11819,15 @@
       "semantics": [
         "taste",
         "terroir"
+      ]
+    },
+       {
+      "word": "txiqin",
+      "def": "silver",
+      "gloss": "eat-metal",
+      "semantics": [
+        "silver",
+        "argent"
       ]
     },
     {
@@ -12108,6 +12135,16 @@
         "lang": "Portuguese",
         "word": "vermelho"
       }
+    },
+       {
+      "word": "velqin",
+      "def": "iron",
+      "gloss": "red-metal",
+      "semantics": [
+        "iron",
+        "ferrous",
+        "ferric"
+      ]
     },
     {
       "word": "ven",
