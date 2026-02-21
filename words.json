@@ -10037,15 +10037,14 @@
     },
     {
       "word": "sladan",
-      "def": "hospital",
+      "def": "gymnasium",
       "gloss": "health-building",
-      "type": "Junction",
-      "alignment": "O is hospital of E",
+      "type": "Entity",
+      "alignment": "O is a gymnasium",
       "semantics": [
-        "emergency room",
-        "clinic",
-        "medical center",
-        "doctor's office"
+        "gymnasium",
+        "gym",
+        "athletics"
       ]
     },
     {
@@ -15006,6 +15005,19 @@
         "lang": "Dutch",
         "word": "ziek"
       }
+    },
+        {
+      "word": "zikdan",
+      "def": "hospital",
+      "gloss": "health-building",
+      "type": "Junction",
+      "alignment": "O is hospital of E",
+      "semantics": [
+        "emergency room",
+        "clinic",
+        "medical center",
+        "doctor's office"
+      ]
     },
     {
       "word": "zin",
