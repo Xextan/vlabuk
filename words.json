@@ -4951,30 +4951,17 @@
         "word": "kon"
       }
     },
-    {
+          {
       "word": "konfli",
-      "def": "fly",
+      "def": "hover",
       "gloss": "air-float",
       "type": "Direction",
-      "alignment": "O flies to E from A",
+      "alignment": "O hovers at E",
       "semantics": [
-        "glide",
-        "soar",
         "hover",
-        "hang"
+        "hang",
+        "suspend"
       ]
-    },
-    {
-      "word": "konflipip",
-      "def": "rocket",
-      "gloss": "air-float-pipe",
-      "type": "Junction",
-      "alignment": "O is a rocket made of E",
-      "semantics": [
-        "missile",
-        "projectile"
-      ],
-      "notes": "for vehicle, see «pipvak»"
     },
     {
       "word": "konflu",
@@ -5018,18 +5005,6 @@
       "semantics": [
         "void",
         "outer space"
-      ]
-    },
-    {
-      "word": "konvak",
-      "def": "airplane",
-      "gloss": "air-vehicle",
-      "type": "Junction",
-      "alignment": "O is an airplane made of E",
-      "semantics": [
-        "aircraft",
-        "plane",
-        "helicopter"
       ]
     },
     {
@@ -6867,6 +6842,43 @@
         "lang": "Czech",
         "word": "nebe"
       }
+    },
+        {
+      "word": "nepfli",
+      "def": "fly",
+      "gloss": "air-float",
+      "type": "Direction",
+      "alignment": "O flies to E from A",
+      "semantics": [
+        "glide",
+        "soar",
+        "hover",
+        "hang"
+      ]
+    },
+        {
+      "word": "nepflipip",
+      "def": "rocket",
+      "gloss": "air-float-pipe",
+      "type": "Junction",
+      "alignment": "O is a rocket made of E",
+      "semantics": [
+        "missile",
+        "projectile"
+      ],
+      "notes": "for vehicle, see «pipvak»"
+    },
+       {
+      "word": "nepvak",
+      "def": "airplane",
+      "gloss": "air-vehicle",
+      "type": "Junction",
+      "alignment": "O is an airplane made of E",
+      "semantics": [
+        "aircraft",
+        "plane",
+        "helicopter"
+      ]
     },
     {
       "word": "net",
@@ -8887,7 +8899,7 @@
       }
     },
     {
-      "word": "qikkonvak",
+      "word": "qiknepvak",
       "def": "helicopter",
       "gloss": "spin-air-vehicle",
       "type": "Junction",
@@ -12040,7 +12052,7 @@
         "lang": "German",
         "word": "Wagen"
       },
-      "notes": "see also «xtevak» (\"automobile\"); «linvak» (\"train\"); «xutvak» (\"boat\"); «konvak» (\"airplane\")"
+      "notes": "see also «xtevak» (\"automobile\"); «linvak» (\"train\"); «xutvak» (\"boat\"); «nepvak» (\"airplane\")"
     },
     {
       "word": "vakxte",
