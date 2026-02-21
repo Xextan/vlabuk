@@ -8187,20 +8187,15 @@
     },
     {
       "word": "pot",
-      "def": "similar",
-      "derivs": {
-        "ko": "lookalike"
-      },
-      "type": "Relation",
-      "alignment": "O is similar to E in Au",
+      "def": "various",
       "semantics": [
-        "alike",
-        "akin",
-        "like"
+        "diverse",
+        "various",
+        "salad"
       ],
       "etymology": {
-        "lang": "Czech",
-        "word": "podobný"
+        "lang": "English",
+        "word": "melting pot"
       }
     },
     {
@@ -9511,6 +9506,26 @@
       }
     },
     {
+      "word": "san",
+      "def": "same",
+      "derivs": {
+        "ko": "parallel (n.)"
+      },
+      "type": "Relation",
+      "alignment": "O is the same as E in Au",
+      "semantics": [
+        "equal",
+        "equivalent",
+        "identical",
+        "parallel"
+      ],
+      "etymology": {
+        "lang": "Esperanto",
+        "word": "sama"
+      },
+      "notes": "cf. Toki Pona 'sama'"
+    },
+    {
       "word": "sap",
       "def": "cause",
       "derivs": {
@@ -10187,6 +10202,24 @@
         "win"
       ]
     },
+     {
+      "word": "sni",
+      "def": "similar",
+      "derivs": {
+        "ko": "lookalike"
+      },
+      "type": "Relation",
+      "alignment": "O is similar to E in Au",
+      "semantics": [
+        "alike",
+        "akin",
+        "like"
+      ],
+      "etymology": {
+        "lang": "Lojban",
+        "word": "smi ← simsa"
+      }
+    },
     {
       "word": "so",
       "def": "delimiting marker (\"only\"/\"just\")",
@@ -10512,25 +10545,6 @@
       "etymology": {
         "lang": "Czech",
         "word": "stav"
-      }
-    },
-    {
-      "word": "ste",
-      "def": "same",
-      "derivs": {
-        "ko": "parallel (n.)"
-      },
-      "type": "Relation",
-      "alignment": "O is the same as E in Au",
-      "semantics": [
-        "equal",
-        "equivalent",
-        "identical",
-        "parallel"
-      ],
-      "etymology": {
-        "lang": "Czech",
-        "word": "stejný"
       }
     },
     {
