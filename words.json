@@ -10547,6 +10547,24 @@
         "word": "stav"
       }
     },
+        {
+      "word": "ste",
+      "def": "sequence",
+      "derivs": {
+        "ko": "parallel (n.)"
+      },
+      "type": "Junction",
+      "alignment": "O (mass) is a sequence/list/ordered set",
+      "semantics": [
+        "sequence",
+        "list",
+        "order"
+      ],
+      "etymology": {
+        "lang": "Lojban",
+        "word": "ste ← liste"
+      }
+    },
     {
       "word": "sto",
       "def": "institution",
@@ -14660,24 +14678,24 @@
     },
     {
       "word": "zda",
-      "def": "follow",
+      "def": "guide",
       "derivs": {
-        "ko": "followe"
+        "ko": "navigator"
       },
       "type": "Relation",
-      "alignment": "O follows E in Au",
+      "alignment": "O guides E in Au",
       "semantics": [
-        "pursue",
-        "queue",
-        "sequence",
-        "be guided by"
+        "guide",
+        "direct",
+        "navigate"
       ],
       "etymology": {
         "lang": "Cherokee",
         "word": "ᏍᏓᏩᏗ",
         "translit": "-sdawad",
         "urlform": "100003"
-      }
+      },
+      "notes": "inverted from original form"
     },
     {
       "word": "ze",
