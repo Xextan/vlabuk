@@ -2653,6 +2653,15 @@
         "fear"
       ]
     },
+      {
+      "word": "fivlánót",
+      "def": "in other words",
+      "type": "prepositional phrase",
+      "etymology": {
+        "lang": "compound",
+        "word": "fi + vla + not"
+      }
+    },
     {
       "word": "fiu",
       "def": "adverbial: discursive but",
