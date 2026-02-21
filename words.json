@@ -4244,6 +4244,30 @@
       ],
       "notes": "probably larger than «kakkap»"
     },
+        {
+      "word": "kakqbu",
+      "def": "toilet",
+      "gloss": "waste-table",
+      "type": "Junction",
+      "alignment": "O is a toilet made of E",
+      "semantics": [
+        "loo",
+        "chamber pot",
+        "bedpan"
+      ]
+    },
+        {
+      "word": "kakqbuzon",
+      "def": "restroom",
+      "gloss": "waste-table-place",
+      "type": "Entity",
+      "alignment": "O is a restroom",
+      "semantics": [
+        "restroom",
+        "bathroom",
+        "toilet"
+      ]
+    },
     {
       "word": "kakzon",
       "def": "dump",
@@ -8412,18 +8436,6 @@
         "loo",
         "toilet",
         "water closet"
-      ]
-    },
-    {
-      "word": "qakkap",
-      "def": "toilet",
-      "gloss": "disgusting-cup",
-      "type": "Junction",
-      "alignment": "O is a toilet made of E",
-      "semantics": [
-        "loo",
-        "chamber pot",
-        "bedpan"
       ]
     },
     {
