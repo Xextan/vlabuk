@@ -15009,7 +15009,7 @@
         {
       "word": "zikdan",
       "def": "hospital",
-      "gloss": "health-building",
+      "gloss": "sick-building",
       "type": "Junction",
       "alignment": "O is hospital of E",
       "semantics": [
