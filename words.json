@@ -6844,9 +6844,9 @@
       }
     },
         {
-      "word": "nepfli",
+      "word": "nepgot",
       "def": "fly",
-      "gloss": "air-float",
+      "gloss": "sky-move",
       "type": "Direction",
       "alignment": "O flies to E from A",
       "semantics": [
@@ -6857,9 +6857,9 @@
       ]
     },
         {
-      "word": "nepflipip",
+      "word": "nepgotpip",
       "def": "rocket",
-      "gloss": "air-float-pipe",
+      "gloss": "sky-float-pipe",
       "type": "Junction",
       "alignment": "O is a rocket made of E",
       "semantics": [
@@ -6871,7 +6871,7 @@
        {
       "word": "nepvak",
       "def": "airplane",
-      "gloss": "air-vehicle",
+      "gloss": "sky-vehicle",
       "type": "Junction",
       "alignment": "O is an airplane made of E",
       "semantics": [
@@ -8901,7 +8901,7 @@
     {
       "word": "qiknepvak",
       "def": "helicopter",
-      "gloss": "spin-air-vehicle",
+      "gloss": "spin-sky-vehicle",
       "type": "Junction",
       "alignment": "O is a helicopter made of E",
       "semantics": [
@@ -14335,14 +14335,16 @@
         "word": "cut ← cutri"
       }
     },
-    {
+     {
       "word": "xutfli",
-      "def": "swim",
+      "def": "river",
       "gloss": "water-float",
       "type": "Junction",
-      "alignment": "O floats in E",
+      "alignment": "O floats in/on E",
       "semantics": [
-        "tread water"
+        "float",
+        "bob",
+        "buoy"
       ]
     },
     {
