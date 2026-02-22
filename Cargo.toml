@@ -10,3 +10,4 @@ icu_collator = "2.1.1"
 regex = "1.12.2"
 serde = { version = "1.0.228", features = ["derive"] }
 serde_json = { version = "1.0.139", features = ["preserve_order"] }
+unicode-normalization = "0.1.25"

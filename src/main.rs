@@ -7,6 +7,7 @@ use std::{
 use icu_collator::{Collator, CollatorPreferences, options::CollatorOptions};
 use regex::Regex;
 use serde::{Deserialize, Serialize};
+use unicode_normalization::UnicodeNormalization as _;
 
 #[derive(Debug, Serialize, Deserialize)]
 struct Dictionary {
@@ -102,6 +103,9 @@ fn main() {
     let start = Instant::now();
     let json = fs::read_to_string("words.json").unwrap();
     let mut dict = serde_json::from_str::<Dictionary>(&json).unwrap();
+    for word in &mut dict.data {
+        word.word = word.word.nfc().collect();
+    }
     let collator =
         Collator::try_new(CollatorPreferences::default(), CollatorOptions::default()).unwrap();
     dict.data.sort_by(|a, b| collator.compare(&a.word, &b.word));

@@ -9,14 +9,14 @@ document.getElementById("pickle").addEventListener("change", function() {
   document.documentElement.classList.toggle("pickle");
 });
 document.getElementById("search").addEventListener("input", function() {
-  let q = document.getElementById("search").value.toLowerCase();
+  let q = document.getElementById("search").value.toLowerCase().normalize("NFC");
   let r = search(q).sort((a, b) => b[1] - a[1]).map(e => htmlify(e[0]));
   document.getElementById("results").innerHTML = "";
   document.getElementById("results").append(...r);
   document.getElementById("len").innerHTML = r.length + " result" + (r.length != 1 ? "s" : "");
 });
 function deaccent(s) {
-  return s.replace(/[‘’]/g, "'").replace(/[áãâ]/g, "a").replace(/[éẽê]/g, "e").replace(/[íĩî]/g, "i").replace(/[óõô]/g, "o").replace(/[úũû]/g, "u").replace(/[ýỹŷ]/g, "y");
+  return s.replace(/[‘’]/g, "'").normalize("NFD").replace(/[\u0301\u0302\u0303]/g, "");
 }
 function search(q) {
   // kinda stolen from xlasisku lol
