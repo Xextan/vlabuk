@@ -25,17 +25,13 @@
       "word": "ai",
       "def": "collective dative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «a»"
-      }
+      "etymology": "by analogy; cf. «a»"
     },
     {
       "word": "ai",
       "def": "collective dative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «a»"
-      }
+      "etymology": "by analogy; cf. «a»"
     },
     {
       "word": "álélúja",
@@ -130,9 +126,7 @@
       "def": "South America",
       "type": "Quality",
       "alignment": "O is South American in Eu",
-      "etymology": {
-        "lang": "«Ámríka» + «tunbak»"
-      },
+      "etymology": "«Ámríka» + «tunbak»",
       "notes": "proper name (n.): la Ámríka Tunbak"
     },
     {
@@ -140,9 +134,7 @@
       "def": "North America",
       "type": "Quality",
       "alignment": "O is North American in Eu",
-      "etymology": {
-        "lang": "«Ámríka» + «tunkut»"
-      },
+      "etymology": "«Ámríka» + «tunkut»",
       "notes": "proper name (n.): la Ámríka Tunkut"
     },
     {
@@ -207,9 +199,7 @@
       "word": "au",
       "def": "abstract dative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «a»"
-      }
+      "etymology": "by analogy; cf. «a»"
     },
     {
       "word": "Áustrália",
@@ -493,9 +483,7 @@
       "semantics": [
         "jabberwock"
       ],
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "Legendary colossal beast in Xextanic folklore and mythology resembling a cross between a bear and a caribou. The Xextanic folk epic Xtazda Soltun claims that the great hunter «Óbúfe» slew the besklroda after pursuing the beast for nine hundred and ninety-nine years, upon which it was elevated into the night sky and transformed into a constellation by «Jówájóka», the demiurge."
     },
     {
@@ -989,9 +977,7 @@
       "word": "dai",
       "def": "dative mass binder",
       "type": "Binder",
-      "etymology": {
-        "lang": "contraction: «da» + «qi»"
-      }
+      "etymology": "contraction: «da» + «qi»"
     },
     {
       "word": "dak",
@@ -1185,9 +1171,7 @@
       "word": "dau",
       "def": "abstract dative binder",
       "type": "Binder",
-      "etymology": {
-        "lang": "by analogy; cf. «da», «au»"
-      },
+      "etymology": "by analogy; cf. «da», «au»",
       "notes": "see also «dou», «deu»"
     },
     {
@@ -1203,9 +1187,7 @@
       "word": "dei",
       "def": "accusative mass binder",
       "type": "Binder",
-      "etymology": {
-        "lang": "contraction: «de» + «qi»"
-      }
+      "etymology": "contraction: «de» + «qi»"
     },
     {
       "word": "dek",
@@ -1281,18 +1263,14 @@
       "word": "deu",
       "def": "abstract accusative binder",
       "type": "Binder",
-      "etymology": {
-        "lang": "by analogy; cf. «de», «eu»"
-      },
+      "etymology": "by analogy; cf. «de», «eu»",
       "notes": "see also «dou», «dau»"
     },
     {
       "word": "di",
       "def": "obviative abstract pronoun",
       "type": "Pronoun",
-      "etymology": {
-        "lang": "by analogy; cf. «du»"
-      },
+      "etymology": "by analogy; cf. «du»",
       "notes": "\"that\" (abstract)"
     },
     {
@@ -1537,9 +1515,7 @@
       "word": "doi",
       "def": "nominative mass binder",
       "type": "Binder",
-      "etymology": {
-        "lang": "contraction: «do» + «qi»"
-      }
+      "etymology": "contraction: «do» + «qi»"
     },
     {
       "word": "Dóixi",
@@ -1649,9 +1625,7 @@
       "word": "dou",
       "def": "abstract nominative binder",
       "type": "Binder",
-      "etymology": {
-        "lang": "by analogy; cf. «do», «ou»"
-      },
+      "etymology": "by analogy; cf. «do», «ou»",
       "notes": "see also «deu», «dau»"
     },
     {
@@ -1768,9 +1742,7 @@
       "word": "dua",
       "def": "3rd person abstract possessive",
       "type": "Determiner",
-      "etymology": {
-        "lang": "by analogy; cf. «du», «gua»"
-      }
+      "etymology": "by analogy; cf. «du», «gua»"
     },
     {
       "word": "dul",
@@ -2040,9 +2012,7 @@
         "winter",
         "night"
       ],
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "one of the Giu Senko Xilati"
     },
     {
@@ -2064,9 +2034,7 @@
       "word": "ei",
       "def": "collective accusative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «e»"
-      }
+      "etymology": "by analogy; cf. «e»"
     },
     {
       "word": "Éire",
@@ -2155,9 +2123,7 @@
       "word": "eu",
       "def": "abstract accusative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «e»"
-      }
+      "etymology": "by analogy; cf. «e»"
     },
     {
       "word": "Éurópa",
@@ -2312,18 +2278,14 @@
       "word": "fau",
       "def": "comparative future tense clause marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «fa»"
-      },
+      "etymology": "by analogy; cf. «fa»",
       "notes": "after, following"
     },
     {
       "word": "fe",
       "def": "adverbial marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «fi»"
-      }
+      "etymology": "by analogy; cf. «fi»"
     },
     {
       "word": "feddqe",
@@ -2341,9 +2303,7 @@
       "word": "fei",
       "def": "modifier: somewhat",
       "type": "Modifier",
-      "etymology": {
-        "lang": "by analogy; cf. «sai», «fep»"
-      },
+      "etymology": "by analogy; cf. «sai», «fep»",
       "notes": "somewhat, a bit, kinda, sorta, vaguely"
     },
     {
@@ -2530,18 +2490,14 @@
       "word": "fia",
       "def": "adverbial: interrogative",
       "type": "Adverb",
-      "etymology": {
-        "lang": "by analogy; «fi» + «ja»"
-      },
+      "etymology": "by analogy; «fi» + «ja»",
       "notes": "is it? right? correct?"
     },
     {
       "word": "fie",
       "def": "adverbial: discursive and",
       "type": "Adverb",
-      "etymology": {
-        "lang": "by analogy; «fi» + «je»"
-      },
+      "etymology": "by analogy; «fi» + «je»",
       "notes": "also, moreover, relatedly"
     },
     {
@@ -2616,9 +2572,7 @@
       "word": "fio",
       "def": "adverbial: imperative",
       "type": "Adverb",
-      "etymology": {
-        "lang": "by analogy; «fi» + «jo»"
-      },
+      "etymology": "by analogy; «fi» + «jo»",
       "notes": "make it so!"
     },
     {
@@ -2657,18 +2611,14 @@
       "word": "fiu",
       "def": "adverbial: discursive but",
       "type": "Adverb",
-      "etymology": {
-        "lang": "by analogy; «fi» + «ju»"
-      },
+      "etymology": "by analogy; «fi» + «ju»",
       "notes": "though, although, however, but"
     },
     {
       "word": "fivlánót",
       "def": "in other words",
       "type": "prepositional phrase",
-      "etymology": {
-        "lang": "compound: «fi» + «vla» + «not»"
-      }
+      "etymology": "compound: «fi» + «vla» + «not»"
     },
     {
       "word": "fla",
@@ -2877,9 +2827,7 @@
       "word": "fo",
       "def": "instrumental case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "backformed from «fol»"
-      }
+      "etymology": "backformed from «fol»"
     },
     {
       "word": "fok",
@@ -2947,9 +2895,7 @@
       "word": "fou",
       "def": "adverbial: probably",
       "type": "Adverb",
-      "etymology": {
-        "lang": "by analogy; cf. «fun»"
-      },
+      "etymology": "by analogy; cf. «fun»",
       "notes": "see also «xou»"
     },
     {
@@ -3128,9 +3074,7 @@
       "word": "ga",
       "def": "dative passive voice",
       "type": "Modifier",
-      "etymology": {
-        "lang": "by analogy; cf. «ge», «a»"
-      },
+      "etymology": "by analogy; cf. «ge», «a»",
       "notes": "Swaps O and A roles"
     },
     {
@@ -3295,9 +3239,7 @@
       "word": "gei",
       "def": "comparative",
       "type": "Preposition",
-      "etymology": {
-        "lang": "backformed from «gen»"
-      },
+      "etymology": "backformed from «gen»",
       "notes": "compared to, moreso than, with reference point"
     },
     {
@@ -3349,9 +3291,7 @@
       "word": "gi",
       "def": "obviative inanimate pronoun",
       "type": "Pronoun",
-      "etymology": {
-        "lang": "by analogy; cf. «go»"
-      }
+      "etymology": "by analogy; cf. «go»"
     },
     {
       "word": "gin",
@@ -3783,9 +3723,7 @@
       "word": "gua",
       "def": "3rd person inanimate possessive",
       "type": "Determiner",
-      "etymology": {
-        "lang": "by analogy; cf. «go», «vua»"
-      }
+      "etymology": "by analogy; cf. «go», «vua»"
     },
     {
       "word": "gul",
@@ -4022,9 +3960,7 @@
       "word": "ji",
       "def": "modal illocution: performative",
       "type": "Illocution",
-      "etymology": {
-        "lang": "by analogy; cf. «ja», «je», «jo», «ju»"
-      }
+      "etymology": "by analogy; cf. «ja», «je», «jo», «ju»"
     },
     {
       "word": "Jísrá'el",
@@ -4091,9 +4027,7 @@
       "word": "joi",
       "def": "auxiliary illocution: mark previous discourse as topic",
       "type": "Illocution",
-      "etymology": {
-        "lang": "contraction: «je» + «zoi»"
-      }
+      "etymology": "contraction: «je» + «zoi»"
     },
     {
       "word": "jówájóka",
@@ -4106,9 +4040,7 @@
         "nature",
         "creation"
       ],
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "also demiurge, Yaldabaoth. one of the Giu Senko Xilati"
     },
     {
@@ -4152,9 +4084,7 @@
       "word": "jỹ",
       "def": "meow",
       "type": "Adverb",
-      "etymology": {
-        "lang": "onomatopoeic: meow/nyaa"
-      }
+      "etymology": "onomatopoeic: meow/nyaa"
     },
     {
       "word": "ka",
@@ -4329,9 +4259,7 @@
         "have the opportunity to",
         "get to"
       ],
-      "etymology": {
-        "lang": "a priori"
-      }
+      "etymology": "a priori"
     },
     {
       "word": "kánábi",
@@ -4370,9 +4298,7 @@
         "love",
         "safety"
       ],
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "also Heaven, Eden. One of the Giu Senko Xilati"
     },
     {
@@ -4480,9 +4406,7 @@
       "word": "kau",
       "def": "qualitative interrogative determiner",
       "type": "Determiner",
-      "etymology": {
-        "lang": "by analogy; cf. «ka», «sau»"
-      }
+      "etymology": "by analogy; cf. «ka», «sau»"
     },
     {
       "word": "kával",
@@ -4511,9 +4435,7 @@
         "tapir script",
         "Xextan script"
       ],
-      "etymology": {
-        "lang": "a priori; cf. «xextanval» (Old Xextan \"Xextan words\") → «xával» (\"rice\") → «kával» (\"horse\") → «lákáxol» (\"tapir\") → la káxol → la kaxxol"
-      },
+      "etymology": "a priori; cf. «xextanval» (Old Xextan \"Xextan words\") → «xával» (\"rice\") → «kával» (\"horse\") → «lákáxol» (\"tapir\") → la káxol → la kaxxol",
       "notes": "Xextan alphasyllabary inspired by Hangul"
     },
     {
@@ -4545,9 +4467,7 @@
       "word": "kei",
       "def": "probability: possibly/maybe",
       "type": "Adverb",
-      "etymology": {
-        "lang": "backformed from «ken»"
-      }
+      "etymology": "backformed from «ken»"
     },
     {
       "word": "kéiqu",
@@ -4877,9 +4797,7 @@
       "word": "ko",
       "def": "agentive/habitual suffix",
       "type": "Suffix",
-      "etymology": {
-        "lang": "backformed from «kou»"
-      }
+      "etymology": "backformed from «kou»"
     },
     {
       "word": "kójóte",
@@ -5505,9 +5423,7 @@
         "birth",
         "rebirth"
       ],
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "one of the Giu Senko Xilati"
     },
     {
@@ -6192,9 +6108,7 @@
       "word": "lou",
       "def": "non-Xextanized quote marker",
       "type": "Determiner",
-      "etymology": {
-        "lang": "by analogy; cf. «lu», «lau»"
-      }
+      "etymology": "by analogy; cf. «lu», «lau»"
     },
     {
       "word": "lu",
@@ -6719,9 +6633,7 @@
       "word": "nau",
       "def": "comparative present tense clause marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «na»"
-      },
+      "etymology": "by analogy; cf. «na»",
       "notes": "while, during"
     },
     {
@@ -6911,9 +6823,7 @@
       "word": "neu",
       "def": "purpose/reason clause marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "because, in order to"
     },
     {
@@ -7115,9 +7025,7 @@
         "another",
         "create"
       ],
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "one of the Giu Senko Xilati"
     },
     {
@@ -7194,17 +7102,13 @@
       "word": "nu",
       "def": "numeral: 0",
       "type": "Determiner",
-      "etymology": {
-        "lang": "by analogy; cf. «nu»"
-      }
+      "etymology": "by analogy; cf. «nu»"
     },
     {
       "word": "nue",
       "def": "negative sign, -1",
       "type": "Determiner",
-      "etymology": {
-        "lang": "by analogy; cf. «nu», «ne»"
-      }
+      "etymology": "by analogy; cf. «nu», «ne»"
     },
     {
       "word": "nuk",
@@ -7253,9 +7157,7 @@
       "def": "Obufe",
       "type": "Entity",
       "alignment": "O is Obufe",
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "Xextanic folk hero and hunter of colossal beasts; also a common given name in Xextan culture"
     },
     {
@@ -7277,9 +7179,7 @@
       "word": "oi",
       "def": "collective nominative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «o»"
-      }
+      "etymology": "by analogy; cf. «o»"
     },
     {
       "word": "órgan",
@@ -7343,9 +7243,7 @@
       "word": "ou",
       "def": "abstract nominative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «o»"
-      }
+      "etymology": "by analogy; cf. «o»"
     },
     {
       "word": "óvan",
@@ -7396,9 +7294,7 @@
       "word": "pai",
       "def": "ablative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «fai», «pau»"
-      },
+      "etymology": "by analogy; cf. «fai», «pau»",
       "notes": "from, away from"
     },
     {
@@ -7690,9 +7586,7 @@
       "word": "pau",
       "def": "comparative past tense clause marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «pa»"
-      },
+      "etymology": "by analogy; cf. «pa»",
       "notes": "before, prior to"
     },
     {
@@ -7894,9 +7788,7 @@
         "evolution",
         "passage"
       ],
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "one of the Giu Senko Xilati"
     },
     {
@@ -8122,9 +8014,7 @@
       "word": "poi",
       "def": "comparative",
       "type": "Connective",
-      "etymology": {
-        "lang": "backformed from «pot»"
-      },
+      "etymology": "backformed from «pot»",
       "notes": "like, as, similar to"
     },
     {
@@ -8256,9 +8146,7 @@
       "word": "pu",
       "def": "division operator",
       "type": "Connective",
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "also fraction sign | pu«duo» = 1/2; «tie» pu«kua» = 3/4"
     },
     {
@@ -8413,9 +8301,7 @@
       "word": "qai",
       "def": "illocution: OR",
       "type": "Illocution",
-      "etymology": {
-        "lang": "contraction: «qa» + «i»"
-      }
+      "etymology": "contraction: «qa» + «i»"
     },
     {
       "word": "qak",
@@ -8733,9 +8619,7 @@
       "word": "qei",
       "def": "illocution: AND",
       "type": "Illocution",
-      "etymology": {
-        "lang": "contraction: «qe» + «i»"
-      }
+      "etymology": "contraction: «qe» + «i»"
     },
     {
       "word": "qel",
@@ -8871,9 +8755,7 @@
       "word": "qi",
       "def": "determiner: collective",
       "type": "Determiner",
-      "etymology": {
-        "lang": "backformed; cf. «oi»/«ei»/«ai»"
-      }
+      "etymology": "backformed; cf. «oi»/«ei»/«ai»"
     },
     {
       "word": "qiddun",
@@ -9225,9 +9107,7 @@
       "word": "qoi",
       "def": "illocution: XOR",
       "type": "Illocution",
-      "etymology": {
-        "lang": "contraction: «qo» + «i»"
-      }
+      "etymology": "contraction: «qo» + «i»"
     },
     {
       "word": "qok",
@@ -9277,9 +9157,7 @@
       "word": "qu",
       "def": "property clause marker",
       "type": "Determiner",
-      "etymology": {
-        "lang": "by analogy; cf. «ou», «qi»"
-      }
+      "etymology": "by analogy; cf. «ou», «qi»"
     },
     {
       "word": "qul",
@@ -9333,9 +9211,7 @@
         "feature",
         "distinction"
       ],
-      "etymology": {
-        "lang": "backformed from «qu»"
-      },
+      "etymology": "backformed from «qu»",
       "notes": "for \"property of\", use «pe»"
     },
     {
@@ -9380,9 +9256,7 @@
       "word": "sa",
       "def": "causative suffix",
       "type": "Suffix",
-      "etymology": {
-        "lang": "backformed from «sap»"
-      }
+      "etymology": "backformed from «sap»"
     },
     {
       "word": "sai",
@@ -9603,9 +9477,7 @@
       "word": "sau",
       "def": "quantitative interrogative determiner",
       "type": "Determiner",
-      "etymology": {
-        "lang": "backformed from «sal»"
-      },
+      "etymology": "backformed from «sal»",
       "notes": "how many? how much?"
     },
     {
@@ -9621,9 +9493,7 @@
       "word": "sei",
       "def": "figurative marker",
       "type": "Modifier",
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "so to speak, figuratively speaking, if you will"
     },
     {
@@ -10277,9 +10147,7 @@
       "word": "soi",
       "def": "focus emphasis",
       "type": "Modifier",
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "even, X himself/herself/themself/itself [emphasizer]"
     },
     {
@@ -10806,9 +10674,7 @@
       "word": "ta",
       "def": "deictic dative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "contraction: «a» + «tu»"
-      }
+      "etymology": "contraction: «a» + «tu»"
     },
     {
       "word": "tádan",
@@ -10829,9 +10695,7 @@
       "word": "tai",
       "def": "deictic collective dative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «ta»"
-      }
+      "etymology": "by analogy; cf. «ta»"
     },
     {
       "word": "tak",
@@ -10935,17 +10799,13 @@
       "word": "te",
       "def": "deictic accusative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "contraction: «e» + «tu»"
-      }
+      "etymology": "contraction: «e» + «tu»"
     },
     {
       "word": "tei",
       "def": "deictic collective accusative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «te»"
-      }
+      "etymology": "by analogy; cf. «te»"
     },
     {
       "word": "tek",
@@ -11177,9 +11037,7 @@
         "power",
         "God"
       ],
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "one of the Giu Senko Xilati"
     },
     {
@@ -11191,9 +11049,7 @@
         "appliance",
         "apparatus"
       ],
-      "etymology": {
-        "lang": "AI-generated"
-      }
+      "etymology": "AI-generated"
     },
     {
       "word": "tikdel",
@@ -11274,17 +11130,13 @@
       "word": "to",
       "def": "deictic nominative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "contraction: «o» + «tu»"
-      }
+      "etymology": "contraction: «o» + «tu»"
     },
     {
       "word": "toi",
       "def": "deictic collective nominative case marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «to»"
-      }
+      "etymology": "by analogy; cf. «to»"
     },
     {
       "word": "tok",
@@ -11611,9 +11463,7 @@
       "word": "tu",
       "def": "deictic verb marker",
       "type": "Transmogrifier",
-      "etymology": {
-        "lang": "contraction: «ti» + «u»"
-      }
+      "etymology": "contraction: «ti» + «u»"
     },
     {
       "word": "tuk",
@@ -11974,9 +11824,7 @@
         "simian",
         "ape"
       ],
-      "etymology": {
-        "lang": "onomatopoeic: ukiki"
-      }
+      "etymology": "onomatopoeic: ukiki"
     },
     {
       "word": "Úkráina",
@@ -12037,9 +11885,7 @@
       "word": "vai",
       "def": "adverbial: usually",
       "type": "Adverb",
-      "etymology": {
-        "lang": "backformed from «van»"
-      }
+      "etymology": "backformed from «van»"
     },
     {
       "word": "vak",
@@ -12159,26 +12005,20 @@
       "semantics": [
         "vowel"
       ],
-      "etymology": {
-        "lang": "a priori; cf. Ceqli \"vawl\", \"cwazim\", \"falozim\". see «xuázin», «fálózin»"
-      },
+      "etymology": "a priori; cf. Ceqli \"vawl\", \"cwazim\", \"falozim\". see «xuázin», «fálózin»",
       "notes": "refers to the five vowels a/e/i/o/u"
     },
     {
       "word": "ve",
       "def": "aggregate suffix",
       "type": "Suffix",
-      "etymology": {
-        "lang": "backformed from «vep»"
-      }
+      "etymology": "backformed from «vep»"
     },
     {
       "word": "vei",
       "def": "perspective case marker (frame of reference)",
       "type": "Preposition",
-      "etymology": {
-        "lang": "backformed from «vet»"
-      },
+      "etymology": "backformed from «vet»",
       "notes": "according to, from the perspective of"
     },
     {
@@ -12408,9 +12248,7 @@
       "word": "vi",
       "def": "obviative 2nd person pronoun",
       "type": "Pronoun",
-      "etymology": {
-        "lang": "by analogy; cf. «vo»"
-      },
+      "etymology": "by analogy; cf. «vo»",
       "notes": "\"...and you\""
     },
     {
@@ -12683,9 +12521,7 @@
       "word": "voi",
       "def": "vocative marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «vo»"
-      },
+      "etymology": "by analogy; cf. «vo»",
       "notes": "parallels Lojban {do}/{doi}"
     },
     {
@@ -12757,9 +12593,7 @@
       "word": "vua",
       "def": "2nd person possessive",
       "type": "Determiner",
-      "etymology": {
-        "lang": "by analogy; cf. «vo»"
-      },
+      "etymology": "by analogy; cf. «vo»",
       "notes": "your, yours"
     },
     {
@@ -12861,9 +12695,7 @@
         "cruelty",
         "sadism"
       ],
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "wanton cruelty"
     },
     {
@@ -12877,9 +12709,7 @@
         "rapture",
         "destruction"
       ],
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "one of the Giu Senko Xilati"
     },
     {
@@ -12940,9 +12770,7 @@
       "word": "xa",
       "def": "conditional tense (irrealis)",
       "type": "Adverb",
-      "etymology": {
-        "lang": "by analogy; cf. «pa», «na», «fa»"
-      },
+      "etymology": "by analogy; cf. «pa», «na», «fa»",
       "notes": "...then Y (consequent of if-then statement) | see «xau»"
     },
     {
@@ -13094,9 +12922,7 @@
       "word": "xau",
       "def": "conditional clause marker",
       "type": "Preposition",
-      "etymology": {
-        "lang": "by analogy; cf. «xa»"
-      },
+      "etymology": "by analogy; cf. «xa»",
       "notes": "if X... (antecedent of if-then statement); see «xa»"
     },
     {
@@ -13373,9 +13199,7 @@
         "heart",
         "essence"
       ],
-      "etymology": {
-        "lang": "a priori"
-      },
+      "etymology": "a priori",
       "notes": "one of the Giu Senko Xilati"
     },
     {
@@ -13916,9 +13740,7 @@
       "word": "xou",
       "def": "adverbial: unlikely",
       "type": "Adverb",
-      "etymology": {
-        "lang": "by analogy; cf. «xal»"
-      },
+      "etymology": "by analogy; cf. «xal»",
       "notes": "see also «fou»"
     },
     {
@@ -14222,9 +14044,7 @@
       "word": "xua",
       "def": "lambda possessive",
       "type": "Determiner",
-      "etymology": {
-        "lang": "by analogy; cf. «xe», «vua»"
-      }
+      "etymology": "by analogy; cf. «xe», «vua»"
     },
     {
       "word": "xuázin",
@@ -14487,9 +14307,7 @@
       "word": "za",
       "def": "context/location",
       "type": "Preposition",
-      "etymology": {
-        "lang": "backformed from «zal»"
-      },
+      "etymology": "backformed from «zal»",
       "notes": "older texts may use «bu», as this word was reassigned late into the development of pre-alpha Xextan"
     },
     {
@@ -15240,9 +15058,7 @@
       "word": "zo",
       "def": "non-logical disjunction",
       "type": "Connective",
-      "etymology": {
-        "lang": "by analogy; cf. «ze», «qo»"
-      },
+      "etymology": "by analogy; cf. «ze», «qo»",
       "notes": "or, versus; this OR that?"
     },
     {

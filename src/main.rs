@@ -71,6 +71,7 @@ struct Derivs {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(untagged)]
 enum Etymology {
+    Text(String),
     Single(EtymologyEntry),
     Multiple(Vec<EtymologyItem>),
 }
@@ -105,6 +106,21 @@ fn main() {
     let mut dict = serde_json::from_str::<Dictionary>(&json).unwrap();
     for word in &mut dict.data {
         word.word = word.word.nfc().collect();
+    }
+    let mut needed_to_fix_etymologies = false;
+    for word in &mut dict.data {
+        if let Some(Etymology::Single(ref e)) = word.etymology {
+            if e.word.is_none() && e.translit.is_none() && e.urlform.is_none() && e.link.is_none() {
+                word.etymology = Some(Etymology::Text(e.lang.clone()));
+                needed_to_fix_etymologies = true;
+            }
+        }
+    }
+    if needed_to_fix_etymologies {
+        println!(
+            "\x1b[93m`etymology` can just be a string now! i've fixed it for you but by april \
+             2026 i will not be so generous\x1b[m"
+        );
     }
     let collator =
         Collator::try_new(CollatorPreferences::default(), CollatorOptions::default()).unwrap();

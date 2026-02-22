@@ -33,6 +33,11 @@
           "etymology": {
             "oneOf": [
               {
+                "type": "string",
+                "minLength": 1,
+                "description": "the etymology",
+              },
+              {
                 "type": "object",
                 "properties": {
                   "lang": {
@@ -149,7 +154,6 @@
           },
           "type": {
             "type": "string",
-            "pattern": "^(Null|Preposition|Determiner|Predicate|Modifier|Binder|Tag|Pronoun|Suffix|Terminator|Adverb|Illocution|Connective|Transmogrifier|Entity|Junction|Direction|State|Quality|Relation)(-(Null|Preposition|Determiner|Predicate|Modifier|Binder|Tag|Pronoun|Suffix|Terminator|Adverb|Illocution|Connective|Transmogrifier|Entity|Junction|Direction|State|Quality|Relation))*$",
             "description": "word type"
           },
           "semantics": {

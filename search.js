@@ -97,7 +97,7 @@ function pos(e) {
 function htmlify(entry) {
   let etym_content = entry.etymology ? mkelem("p", {}, [
     mkelem("span", { "className": "h" }, ["Etymology: "]),
-    ...(entry.etymology.length ? entry.etymology : [entry.etymology]).map(e => typeof e == "string" ? [` ${e} `] : [
+    ...(Array.isArray(entry.etymology) ? entry.etymology : [entry.etymology]).map(e => typeof e == "string" ? [` ${e} `] : [
       e.lang,
       " ",
       e.link ?? true ? mkelem("a", { "href": url(e) }, [
