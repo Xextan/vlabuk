@@ -1716,7 +1716,7 @@
       ]
     },
     {
-      "word": "dqunik xildqu",
+      "word": "dqunik xilxtu",
       "def": "paraprofessional",
       "gloss": "assistant teach",
       "type": "Quality-Relation",
@@ -13216,9 +13216,9 @@
       ]
     },
     {
-      "word": "xildqu",
+      "word": "xilxtu",
       "def": "teach",
-      "gloss": "learn-help",
+      "gloss": "learn-guide",
       "type": "Relation",
       "alignment": "O teaches E material Au",
       "semantics": [
@@ -14031,6 +14031,25 @@
         "mason"
       ]
     },
+        {
+      "word": "xtu",
+      "def": "guide",
+      "derivs": {
+        "ko": "guide (person)"
+      },
+      "type": "Relation",
+      "alignment": "O guides E in Au",
+      "semantics": [
+        "guide",
+        "direct",
+        "navigate",
+        "teach"
+      ],
+      "etymology": {
+        "lang": "Lojban",
+        "word": "ctu ← ctuca"
+      }
+    },
     {
       "word": "xu",
       "def": "universal terminator (reset to base level)",
@@ -14529,24 +14548,23 @@
     },
     {
       "word": "zda",
-      "def": "guide",
+      "def": "follow",
       "derivs": {
-        "ko": "navigator"
+        "ko": "follower"
       },
       "type": "Relation",
-      "alignment": "O guides E in Au",
+      "alignment": "O follows E in Au",
       "semantics": [
-        "guide",
-        "direct",
-        "navigate"
+        "follow",
+        "chase",
+        "pursue"
       ],
       "etymology": {
         "lang": "Cherokee",
         "word": "ᏍᏓᏩᏗ",
         "translit": "-sdawad",
         "urlform": "100003"
-      },
-      "notes": "inverted from original form"
+      }
     },
     {
       "word": "ze",
