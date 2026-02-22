@@ -652,7 +652,7 @@
         "word": "bo"
       }
     },
-        {
+    {
       "word": "bobbap",
       "def": "door",
       "gloss": "hole-covering",
@@ -2653,15 +2653,6 @@
         "fear"
       ]
     },
-      {
-      "word": "fivlánót",
-      "def": "in other words",
-      "type": "prepositional phrase",
-      "etymology": {
-        "lang": "compound",
-        "word": "fi + vla + not"
-      }
-    },
     {
       "word": "fiu",
       "def": "adverbial: discursive but",
@@ -2670,6 +2661,14 @@
         "lang": "by analogy; «fi» + «ju»"
       },
       "notes": "though, although, however, but"
+    },
+    {
+      "word": "fivlánót",
+      "def": "in other words",
+      "type": "prepositional phrase",
+      "etymology": {
+        "lang": "compound: «fi» + «vla» + «not»"
+      }
     },
     {
       "word": "fla",
@@ -4253,7 +4252,7 @@
       ],
       "notes": "probably larger than «kakkap»"
     },
-        {
+    {
       "word": "kakqbu",
       "def": "toilet",
       "gloss": "waste-table",
@@ -4265,7 +4264,7 @@
         "bedpan"
       ]
     },
-        {
+    {
       "word": "kakqbuzon",
       "def": "restroom",
       "gloss": "waste-table-place",
@@ -4960,7 +4959,7 @@
         "word": "kon"
       }
     },
-          {
+    {
       "word": "konfli",
       "def": "hover",
       "gloss": "air-float",
@@ -6852,7 +6851,7 @@
         "word": "nebe"
       }
     },
-        {
+    {
       "word": "nepgot",
       "def": "fly",
       "gloss": "sky-move",
@@ -6865,7 +6864,7 @@
         "hang"
       ]
     },
-        {
+    {
       "word": "nepgotpip",
       "def": "rocket",
       "gloss": "sky-move-pipe",
@@ -6877,7 +6876,7 @@
       ],
       "notes": "for vehicle, see «pipvak»"
     },
-       {
+    {
       "word": "nepvak",
       "def": "airplane",
       "gloss": "sky-vehicle",
@@ -9483,16 +9482,6 @@
       ]
     },
     {
-      "word": "salsop",
-      "def": "right amount",
-      "gloss": "number-fit",
-      "type": "Relation",
-      "alignment": "O is just the right number/amount for E in Au",
-      "semantics": [
-        "Goldilocks zone"
-      ]
-    },
-    {
       "word": "salsan",
       "def": "equal",
       "gloss": "number-same",
@@ -9501,6 +9490,16 @@
       "semantics": [
         "equivalent",
         "equation"
+      ]
+    },
+    {
+      "word": "salsop",
+      "def": "right amount",
+      "gloss": "number-fit",
+      "type": "Relation",
+      "alignment": "O is just the right number/amount for E in Au",
+      "semantics": [
+        "Goldilocks zone"
       ]
     },
     {
@@ -10234,7 +10233,7 @@
         "win"
       ]
     },
-     {
+    {
       "word": "sni",
       "def": "similar",
       "derivs": {
@@ -10388,7 +10387,7 @@
       "type": "Entity",
       "alignment": "O is a radio"
     },
-       {
+    {
       "word": "sonqin",
       "def": "bronze",
       "gloss": "sound-metal",
@@ -10579,7 +10578,7 @@
         "word": "stav"
       }
     },
-        {
+    {
       "word": "ste",
       "def": "sequence",
       "derivs": {
@@ -11677,7 +11676,7 @@
       },
       "notes": "He called me a bulbiferous geophyte :("
     },
-       {
+    {
       "word": "tulqin",
       "def": "steel",
       "gloss": "tool-metal",
@@ -11875,6 +11874,15 @@
       }
     },
     {
+      "word": "txiqin",
+      "def": "silver",
+      "gloss": "eat-metal",
+      "semantics": [
+        "silver",
+        "argent"
+      ]
+    },
+    {
       "word": "txiska",
       "def": "flavor",
       "gloss": "eat-qualia",
@@ -11883,15 +11891,6 @@
       "semantics": [
         "taste",
         "terroir"
-      ]
-    },
-       {
-      "word": "txiqin",
-      "def": "silver",
-      "gloss": "eat-metal",
-      "semantics": [
-        "silver",
-        "argent"
       ]
     },
     {
@@ -12200,7 +12199,7 @@
         "word": "vermelho"
       }
     },
-       {
+    {
       "word": "velqin",
       "def": "iron",
       "gloss": "red-metal",
@@ -14344,7 +14343,7 @@
         "word": "cut ← cutri"
       }
     },
-     {
+    {
       "word": "xutfli",
       "def": "river",
       "gloss": "water-float",
@@ -15029,7 +15028,7 @@
         "word": "ziek"
       }
     },
-        {
+    {
       "word": "zikdan",
       "def": "hospital",
       "gloss": "sick-building",
@@ -15094,7 +15093,7 @@
         "word": "zîd"
       }
     },
-        {
+    {
       "word": "zitbop",
       "def": "window",
       "gloss": "wall-hole",
