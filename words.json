@@ -14183,7 +14183,7 @@
     },
     {
       "word": "xutfli",
-      "def": "river",
+      "def": "float",
       "gloss": "water-float",
       "type": "Junction",
       "alignment": "O floats in/on E",
