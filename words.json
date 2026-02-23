@@ -13216,18 +13216,6 @@
       ]
     },
     {
-      "word": "xilxtu",
-      "def": "teach",
-      "gloss": "learn-guide",
-      "type": "Relation",
-      "alignment": "O teaches E material Au",
-      "semantics": [
-        "instruct",
-        "educate",
-        "guide"
-      ]
-    },
-    {
       "word": "xilfep",
       "def": "beginner",
       "gloss": "learn-weak",
@@ -13290,6 +13278,18 @@
         "nintadni"
       ],
       "notes": "see also «xilsil», «dau»"
+    },
+    {
+      "word": "xilxtu",
+      "def": "teach",
+      "gloss": "learn-guide",
+      "type": "Relation",
+      "alignment": "O teaches E material Au",
+      "semantics": [
+        "instruct",
+        "educate",
+        "guide"
+      ]
     },
     {
       "word": "xilzu",
@@ -14031,7 +14031,7 @@
         "mason"
       ]
     },
-        {
+    {
       "word": "xtu",
       "def": "guide",
       "derivs": {

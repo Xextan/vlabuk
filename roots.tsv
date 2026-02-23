@@ -317,6 +317,7 @@ xpu	scratch
 xta	animal
 xte	path
 xto	stone
+xtu	guide
 xuk	circle
 xul	weigh
 xup	suck
@@ -329,7 +330,7 @@ zat	exist
 zba	marry
 zbi	surround
 zbu	find
-zda	guide
+zda	follow
 zek	explain
 zen	increase
 zep	grass
