@@ -297,16 +297,18 @@
     },
     {
       "word": "ban",
-      "def": "language",
-      "type": "Entity",
-      "alignment": "O is a language",
+      "def": "encoding",
       "semantics": [
-        "code"
+        "code",
+        "language",
+        "alphabet",
+        "cipher"
       ],
       "etymology": {
         "lang": "Lojban",
         "word": "ban ← bangu"
-      }
+      },
+      "notes": "anything that translates symbols into some other meaning. see eg «skuban» 'language'"
     },
     {
       "word": "bánána",
@@ -9895,18 +9897,18 @@
       "derivs": {
         "ko": "speaker"
       },
-      "type": "Relation",
-      "alignment": "O expresses to E message Au",
       "semantics": [
         "communicate",
         "say",
         "tell",
-        "explain"
+        "explain",
+        "talk to"
       ],
       "etymology": {
         "lang": "Lojban",
         "word": "sku ← cusku"
-      }
+      },
+      "notes": "need not be vocal, see «tak» for that"
     },
     {
       "word": "sla",
@@ -10699,19 +10701,16 @@
     },
     {
       "word": "tak",
-      "def": "talk",
-      "type": "Junction",
-      "alignment": "O talks to E",
+      "def": "voice",
       "semantics": [
         "speak",
-        "chat",
-        "discuss",
-        "converse"
+        "vocal sounds"
       ],
       "etymology": {
         "lang": "Loglan",
         "word": "takna"
-      }
+      },
+      "notes": "need not have semantic content. used to mean talk; this has moved to «sku»"
     },
     {
       "word": "takkot",
