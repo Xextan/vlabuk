@@ -1,4 +1,4 @@
-import json from "./words.json" with {type: "json"};
+const json = await fetch("./words.json").then(r => r.json());
 let dict = json.data;
 let SERIAL_PREFIXES = ["qu", "po"];
 let COMPOUND_PREFIXES = ["ga", "ge"];
