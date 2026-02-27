@@ -6860,12 +6860,12 @@
     },
     {
       "word": "nik",
-      "def": "agent",
+      "def": "serve",
       "derivs": {
-        "ko": "employed"
+        "ko": "employee"
       },
       "type": "Quality",
-      "alignment": "O is employed as agent of Eu",
+      "alignment": "O serves E",
       "semantics": [
         "serve",
         "service",
@@ -6878,6 +6878,36 @@
         "lang": "Polish",
         "word": "-nik"
       }
+    },
+        {
+      "word": "nin",
+      "def": "new",
+      "derivs": {
+        "ko": "news"
+      },
+      "type": "Quality",
+      "alignment": "O is new in Eu",
+      "semantics": [
+        "novel",
+        "recent",
+        "young"
+      ],
+      "etymology": {
+        "lang": "Lojban",
+        "word": "nin ← cnino"
+      }
+    },
+        {
+      "word": "ninpok",
+      "def": "child",
+      "gloss": "new-child",
+      "type": "Junction",
+      "alignment": "O is a (minor) child of E",
+      "semantics": [
+        "young",
+        "infant",
+        "immature"
+      ]
     },
     {
       "word": "Nípon",
@@ -9757,33 +9787,21 @@
     },
     {
       "word": "sin",
-      "def": "new",
+      "def": "magic",
       "derivs": {
-        "ko": "news"
+        "ko": "miracle"
       },
       "type": "Quality",
       "alignment": "O is new in Eu",
       "semantics": [
-        "novel",
-        "recent",
-        "young"
+        "magic",
+        "supernatural",
+        "paranormal"
       ],
       "etymology": {
-        "lang": "Toki Pona",
+        "lang": "Navajo",
         "word": "sin"
       }
-    },
-    {
-      "word": "sinpok",
-      "def": "child",
-      "gloss": "new-child",
-      "type": "Junction",
-      "alignment": "O is a (minor) child of E",
-      "semantics": [
-        "young",
-        "infant",
-        "immature"
-      ]
     },
     {
       "word": "sip",
@@ -13265,7 +13283,7 @@
       ]
     },
     {
-      "word": "xilsin",
+      "word": "xilnin",
       "def": "freshman",
       "gloss": "learn-new",
       "type": "Entity",
