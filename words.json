@@ -6909,6 +6909,19 @@
         "immature"
       ]
     },
+        {
+      "word": "ninxil",
+      "def": "neophyte",
+      "gloss": "new-learn",
+      "type": "Entity",
+      "alignment": "O is a neophyte",
+      "semantics": [
+        "neophyte",
+        "greenhorn",
+        "freshman",
+        "nintadni"
+      ]
+    },
     {
       "word": "Nípon",
       "def": "Japan",
@@ -9796,7 +9809,8 @@
       "semantics": [
         "magic",
         "supernatural",
-        "paranormal"
+        "paranormal",
+        "zash"
       ],
       "etymology": {
         "lang": "Navajo",
@@ -13232,19 +13246,6 @@
       ]
     },
     {
-      "word": "xilfep",
-      "def": "beginner",
-      "gloss": "learn-weak",
-      "type": "Quality",
-      "alignment": "O is a beginner in Eu",
-      "semantics": [
-        "amateur",
-        "newbie",
-        "noob"
-      ],
-      "notes": "see also «xilsil», «xilsil»"
-    },
-    {
       "word": "xilgun",
       "def": "study",
       "gloss": "learn-work",
@@ -13281,19 +13282,6 @@
         "professor",
         "educator"
       ]
-    },
-    {
-      "word": "xilnin",
-      "def": "freshman",
-      "gloss": "learn-new",
-      "type": "Entity",
-      "alignment": "O is a freshman",
-      "semantics": [
-        "neophyte",
-        "greenhorn",
-        "nintadni"
-      ],
-      "notes": "see also «xilsil», «dau»"
     },
     {
       "word": "xilxtu",
