@@ -6911,11 +6911,12 @@
     },
         {
       "word": "ninxil",
-      "def": "neophyte",
+      "def": "beginner",
       "gloss": "new-learn",
       "type": "Entity",
-      "alignment": "O is a neophyte",
+      "alignment": "O is a beginner",
       "semantics": [
+        "beginner",
         "neophyte",
         "greenhorn",
         "freshman",
