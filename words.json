@@ -4292,16 +4292,16 @@
     },
     {
       "word": "kánóka",
-      "def": "paradise (poetic)",
+      "def": "home (poetic)",
       "type": "Quality",
       "alignment": "O is kanokah in/of Eu",
       "semantics": [
-        "paradise",
+        "home",
         "love",
         "safety"
       ],
       "etymology": "a priori",
-      "notes": "also Heaven, Eden. One of the Giu Senko Xilati"
+      "notes": "One of the Giu Senko Xilati"
     },
     {
       "word": "kanvik",
@@ -9806,11 +9806,12 @@
         "ko": "miracle"
       },
       "type": "Quality",
-      "alignment": "O is new in Eu",
+      "alignment": "O is magic",
       "semantics": [
         "magic",
         "supernatural",
         "paranormal",
+        "dream",
         "zash"
       ],
       "etymology": {
