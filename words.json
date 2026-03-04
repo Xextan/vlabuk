@@ -2007,7 +2007,7 @@
       "word": "é'e",
       "def": "sleep (poetic)",
       "type": "Quality",
-      "alignment": "O is e'eh in/of Eu",
+      "alignment": "O is e'e in/of Eu",
       "semantics": [
         "sleep",
         "death",
@@ -4035,7 +4035,7 @@
       "word": "jówájóka",
       "def": "world (poetic)",
       "type": "Quality",
-      "alignment": "O is yohwa-yokah in Eu",
+      "alignment": "O is jowajoka in Eu",
       "semantics": [
         "world",
         "universe",
@@ -4294,7 +4294,7 @@
       "word": "kánóka",
       "def": "home (poetic)",
       "type": "Quality",
-      "alignment": "O is kanokah in/of Eu",
+      "alignment": "O is kanoka in/of Eu",
       "semantics": [
         "home",
         "love",
@@ -5451,7 +5451,7 @@
       "word": "lápélápe",
       "def": "birth (poetic)",
       "type": "Quality",
-      "alignment": "O is lapelappeh in/of Eu",
+      "alignment": "O is lapelape in/of Eu",
       "semantics": [
         "life",
         "growth",
@@ -7098,7 +7098,7 @@
       "word": "nóno",
       "def": "reflection (poetic)",
       "type": "Quality",
-      "alignment": "O is nonoh in/of Eu",
+      "alignment": "O is nono in/of Eu",
       "semantics": [
         "likeness",
         "another",
@@ -7860,7 +7860,7 @@
       "word": "péxí'éxi",
       "def": "time (poetic)",
       "type": "Quality",
-      "alignment": "O is peshi-eshi in/of Eu",
+      "alignment": "O is pexi'exi in/of Eu",
       "semantics": [
         "time",
         "change",
@@ -11118,7 +11118,7 @@
       "word": "tíjóti",
       "def": "light (poetic)",
       "type": "Quality",
-      "alignment": "O is tiyoti in/of Eu",
+      "alignment": "O is tijoti in/of Eu",
       "semantics": [
         "light",
         "sun",
@@ -12828,7 +12828,7 @@
       "word": "wáwa",
       "def": "evil (poetic)",
       "type": "Quality",
-      "alignment": "O is wawah in/of Eu",
+      "alignment": "O is wawa in/of Eu",
       "semantics": [
         "evil",
         "tragedy",
@@ -13330,7 +13330,7 @@
       "word": "xíláti",
       "def": "spirit (poetic)",
       "type": "Quality",
-      "alignment": "O is shilati in/of Eu",
+      "alignment": "O is xilati in/of Eu",
       "semantics": [
         "spirit",
         "heart",
