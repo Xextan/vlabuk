@@ -4754,6 +4754,20 @@
       }
     },
     {
+      "word": "kla",
+      "def": "step",
+      "semantics": [
+        "discrete",
+        "increment",
+        "decrement",
+        "stairs"
+      ],
+      "etymology": {
+        "lang": "Norwegian Bokmål",
+        "word": "klatre"
+      }
+    },
+    {
       "word": "kle",
       "def": "mercy",
       "derivs": {
@@ -4777,6 +4791,14 @@
       "etymology": {
         "lang": "Navajo",
         "word": "tłʼiish"
+      }
+    },
+    {
+      "word": "klo",
+      "def": "shut",
+      "etymology": {
+        "lang": "Loglan",
+        "word": "klo ← klogu"
       }
     },
     {
@@ -4945,6 +4967,17 @@
         "inhale",
         "suck in"
       ]
+    },
+    {
+      "word": "kop",
+      "def": "dig",
+      "semantics": [
+        "burrow"
+      ],
+      "etymology": {
+        "lang": "Czech",
+        "word": "kopat"
+      }
     },
     {
       "word": "kot",
@@ -10087,6 +10120,18 @@
       ]
     },
     {
+      "word": "slo",
+      "def": "slope",
+      "semantics": [
+        "incline",
+        "tilt"
+      ],
+      "etymology": {
+        "lang": "Loglan",
+        "word": "slo ← slopu"
+      }
+    },
+    {
       "word": "slu",
       "def": "slow",
       "derivs": {
@@ -10788,10 +10833,21 @@
     },
     {
       "word": "tap",
-      "def": "shut",
+      "def": "plank",
       "etymology": {
-        "lang": "Samoan",
-        "word": "tapuni"
+        "lang": "Lojban",
+        "word": "taplo"
+      }
+    },
+    {
+      "word": "tápu",
+      "def": "taboo",
+      "semantics": [
+        "sacred"
+      ],
+      "etymology": {
+        "lang": "Tongan",
+        "word": "tapo"
       }
     },
     {
@@ -11125,6 +11181,11 @@
         "word": "聽",
         "translit": "tīng"
       }
+    },
+    {
+      "word": "tinqla",
+      "def": "ear",
+      "gloss": "hear-organ"
     },
     {
       "word": "tip",
@@ -12541,6 +12602,27 @@
       }
     },
     {
+      "word": "vlo",
+      "def": "fiber/fibre",
+      "semantics": [
+        "thread",
+        "(individual) hair"
+      ],
+      "etymology": [
+        {
+          "lang": "Ukrainian",
+          "word": "волокно́",
+          "translit": "voloknó",
+          "urlform": "волокно"
+        },
+        "+",
+        {
+          "lang": "Czech",
+          "word": "vlákno"
+        }
+      ]
+    },
+    {
       "word": "vo",
       "def": "2nd person pronoun",
       "type": "Pronoun",
@@ -12555,6 +12637,18 @@
       "type": "Preposition",
       "etymology": "by analogy; cf. «vo»",
       "notes": "parallels Lojban {do}/{doi}"
+    },
+    {
+      "word": "vok",
+      "def": "call",
+      "semantics": [
+        "invoke",
+        "summon"
+      ],
+      "etymology": {
+        "lang": "Esperanto",
+        "word": "alvoki"
+      }
     },
     {
       "word": "vol",
@@ -13143,6 +13237,17 @@
         "word": "шет",
         "translit": "şet"
       }
+    },
+    {
+      "word": "xexnik",
+      "def": "Xextanist",
+      "etymology": [
+        "xex- + «nik», cf ",
+        {
+          "lang": "Lojban",
+          "word": "jbosoi"
+        }
+      ]
     },
     {
       "word": "xextan",
@@ -13983,6 +14088,17 @@
         "coupe",
         "convertible"
       ]
+    },
+    {
+      "word": "xti",
+      "def": "puncture",
+      "semantics": [
+        "pierce"
+      ],
+      "etymology": {
+        "lang": "German",
+        "word": "Stich"
+      }
     },
     {
       "word": "xto",

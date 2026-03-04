@@ -57,7 +57,7 @@ all the letter names
 all the time terms
 
 
-ACCEPTED IN #SUBMIT-A-WORD:
+#SUBMIT-A-WORD:
 there are a bunch of these but some of them have since been assigned instead to
 other meanings (eg ~dak~ was given to "compress" over "minute") so idk which
 you want to keep. here i list the ones where none of the words proposed in the
@@ -105,3 +105,9 @@ pákóla  be HAI      2024 07 07      "
 pérau   radish      2024 10 02      ", no response
 penvan  neurotyp    2025 01 01
 penxik  neurodiv    "
+lago(ma) bnuy       2026-02-27
+ederk   spider      2026-02-28
+        metric      "
+        colors      "
+vit     glass       2026-03-03
+put     half        "
