@@ -125,7 +125,10 @@ fn main() {
     let collator =
         Collator::try_new(CollatorPreferences::default(), CollatorOptions::default()).unwrap();
     dict.data.sort_by(|a, b| collator.compare(&a.word, &b.word));
-    let root = Regex::new("^[bdfgklnpqstvxz]([aeiou][klnpt]|[bdgklnpqstxz][aeiou])$").unwrap();
+    let root = Regex::new(
+        "^([bdfgklnpqstvxz][aeiou][klnpt]|([zq][bdgln]|[sx][ptkln]|[pbkgfv]l|d[zq]|t[sx])[aeiou])$",
+    )
+    .unwrap();
     let mut roots_tsv = File::create("roots.tsv").unwrap();
     for word in &dict.data {
         if root.is_match(&word.word) {
