@@ -7505,7 +7505,7 @@
       "notes": "typically cuboid; see also «panbol» (bread)"
     },
     {
-      "word": "panpul",
+      "word": "panpol",
       "def": "flour",
       "gloss": "grain-powder",
       "type": "Junction",
@@ -8145,6 +8145,32 @@
       ]
     },
     {
+      "word": "pol",
+      "def": "powder",
+      "type": "Junction",
+      "alignment": "O is powder of E",
+      "semantics": [
+        "dust",
+        "flour",
+        "granulated"
+      ],
+      "etymology": {
+        "lang": "Italian",
+        "word": "polvere"
+      }
+    },
+    {
+      "word": "polplu",
+      "def": "snow",
+      "gloss": "powder-rain",
+      "type": "Junction",
+      "alignment": "O snows at E",
+      "semantics": [
+        "sleet",
+        "slush"
+      ]
+    },
+    {
       "word": "pon",
       "def": "put",
       "derivs": {
@@ -8260,29 +8286,15 @@
     },
     {
       "word": "pul",
-      "def": "powder",
-      "type": "Junction",
-      "alignment": "O is powder of E",
+      "def": "purple",
       "semantics": [
-        "dust",
-        "flour",
-        "granulated"
+        "violet",
+        "magenta"
       ],
       "etymology": {
-        "lang": "Esperanto",
-        "word": "pulvo"
+        "lang": "Loglan",
+        "word": "purpu"
       }
-    },
-    {
-      "word": "pulplu",
-      "def": "snow",
-      "gloss": "powder-rain",
-      "type": "Junction",
-      "alignment": "O snows at E",
-      "semantics": [
-        "sleet",
-        "slush"
-      ]
     },
     {
       "word": "pun",
@@ -14405,7 +14417,7 @@
       ]
     },
     {
-      "word": "xutpul",
+      "word": "xutpol",
       "def": "snow",
       "gloss": "water-powder",
       "type": "Entity",
@@ -15069,18 +15081,6 @@
         "medical center",
         "doctor's office"
       ]
-    },
-    {
-      "word": "zil",
-      "def": "purple",
-      "semantics": [
-        "violet",
-        "magenta"
-      ],
-      "etymology": {
-        "lang": "Lojban",
-        "word": "zir ← zirpu"
-      }
     },
     {
       "word": "zin",
