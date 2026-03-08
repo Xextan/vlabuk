@@ -14,7 +14,7 @@ bit	particle
 ble	ugly
 bli	ready
 blo	shield (n.?)
-blu	cyan
+blu	blue
 bok	side
 bol	ball
 bon	good
@@ -242,6 +242,7 @@ spo	expect
 sta	status
 ste	sequence
 sto	institution
+sul	gray/grey
 sun	reside
 sup	matter
 tak	voice
@@ -283,8 +284,10 @@ ven	sell
 vep	network
 vet	believe
 vik	microbe
+vil	wild
+vin	see
 vip	choose
-vit	see
+vit	glass
 vla	word
 vle	pull
 vli	energy
@@ -340,6 +343,7 @@ zbi	surround
 zbu	find
 zda	follow
 zek	explain
+zel	green
 zen	increase
 zep	grass
 zet	sad
@@ -348,6 +352,7 @@ zgi	music
 zgo	harmony
 zgu	lose
 zik	sick
+zil	purple
 zin	cold
 zip	bounce
 zit	wall

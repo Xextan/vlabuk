@@ -533,7 +533,8 @@
       "alignment": "O is white in Eu",
       "semantics": [
         "blank",
-        "light-colored"
+        "light-colored",
+        "pale"
       ],
       "etymology": {
         "lang": "Ukrainian",
@@ -618,15 +619,14 @@
     },
     {
       "word": "blu",
-      "def": "cyan",
+      "def": "blue",
       "derivs": {
         "xo": "blueness"
       },
       "type": "Quality",
-      "alignment": "O is cyan in Eu",
+      "alignment": "O is blue in Eu",
       "semantics": [
-        "blue",
-        "purple"
+        "cyan"
       ],
       "etymology": {
         "lang": "Esperanto",
@@ -6207,6 +6207,18 @@
       ]
     },
     {
+      "word": "lúlu",
+      "def": "doll",
+      "semantics": [
+        "plaything",
+        "toy"
+      ],
+      "etymology": {
+        "lang": "Toaq",
+        "word": "lúlu"
+      }
+    },
+    {
       "word": "lulxal",
       "def": "thin",
       "gloss": "thick-small",
@@ -6449,6 +6461,15 @@
       "etymology": {
         "lang": "Spanish",
         "word": "México"
+      }
+    },
+    {
+      "word": "mísei",
+      "def": "MSG (monosodium glutamate)",
+      "etymology": {
+        "lang": "Japanese",
+        "word": "味精",
+        "translit": "misei"
       }
     },
     {
@@ -9150,7 +9171,7 @@
         "ko": "golden"
       },
       "type": "Quality",
-      "alignment": "O is yellow/green in Eu",
+      "alignment": "O is yellow in Eu",
       "semantics": [
         "golden"
       ],
@@ -10623,6 +10644,17 @@
       "etymology": {
         "lang": "Portuguese",
         "word": "suino"
+      }
+    },
+    {
+      "word": "sul",
+      "def": "gray/grey",
+      "semantics": [
+        "desaturated"
+      ],
+      "etymology": {
+        "lang": "Macedonian",
+        "word": "сур"
       }
     },
     {
@@ -12123,7 +12155,6 @@
       "type": "Quality",
       "alignment": "O is red in Eu",
       "semantics": [
-        "magenta",
         "pink",
         "orange"
       ],
@@ -12402,6 +12433,68 @@
       "notes": "see also «liókan» (influenza); «kóvdípáso» (COVID-19)"
     },
     {
+      "word": "vil",
+      "def": "wild",
+      "semantics": [
+        "untamed"
+      ],
+      "etymology": [
+        {
+          "lang": "German",
+          "word": "wild"
+        },
+        "+",
+        {
+          "lang": "Lojban",
+          "word": "vil ← vlile"
+        }
+      ]
+    },
+    {
+      "word": "vin",
+      "def": "see",
+      "derivs": {
+        "ko": "viewer (J)"
+      },
+      "type": "Junction",
+      "alignment": "O sees E",
+      "semantics": [
+        "perceive",
+        "look",
+        "observe",
+        "visual",
+        "optic",
+        "eye"
+      ],
+      "etymology": {
+        "lang": "Lojban",
+        "word": "vin ← jvinu"
+      }
+    },
+    {
+      "word": "vinkot",
+      "def": "television",
+      "gloss": "see-network",
+      "type": "Junction",
+      "alignment": "O is television of E",
+      "semantics": [
+        "TV",
+        "broadcast"
+      ]
+    },
+    {
+      "word": "vinkottik",
+      "def": "TV",
+      "gloss": "see-network-machine",
+      "type": "Junction",
+      "alignment": "O is a TV set made of E",
+      "semantics": [
+        "television",
+        "screen",
+        "monitor"
+      ]
+    },
+    {
       "word": "vip",
       "def": "choose",
       "derivs": {
@@ -12422,47 +12515,15 @@
     },
     {
       "word": "vit",
-      "def": "see",
-      "derivs": {
-        "ko": "viewer (J)"
-      },
-      "type": "Junction",
-      "alignment": "O sees E",
+      "def": "glass",
       "semantics": [
-        "perceive",
-        "look",
-        "observe",
-        "visual",
-        "optic",
-        "eye"
+        "crystal",
+        "gem"
       ],
       "etymology": {
-        "lang": "Czech",
-        "word": "vidět"
+        "lang": "Portuguese",
+        "word": "vidro"
       }
-    },
-    {
-      "word": "vitkot",
-      "def": "television",
-      "gloss": "see-network",
-      "type": "Junction",
-      "alignment": "O is television of E",
-      "semantics": [
-        "TV",
-        "broadcast"
-      ]
-    },
-    {
-      "word": "vitkottik",
-      "def": "TV",
-      "gloss": "see-network-machine",
-      "type": "Junction",
-      "alignment": "O is a TV set made of E",
-      "semantics": [
-        "television",
-        "screen",
-        "monitor"
-      ]
     },
     {
       "word": "vla",
@@ -13791,7 +13852,6 @@
       "alignment": "O is black in Eu",
       "semantics": [
         "dark",
-        "gray",
         "dim"
       ],
       "etymology": {
@@ -14771,6 +14831,16 @@
       ]
     },
     {
+      "word": "zel",
+      "def": "green",
+      "etymology": {
+        "lang": "Bulgarian",
+        "word": "зеле́н",
+        "translit": "zelén",
+        "urlform": "зелен"
+      }
+    },
+    {
       "word": "zen",
       "def": "increase",
       "derivs": {
@@ -14999,6 +15069,18 @@
         "medical center",
         "doctor's office"
       ]
+    },
+    {
+      "word": "zil",
+      "def": "purple",
+      "semantics": [
+        "violet",
+        "magenta"
+      ],
+      "etymology": {
+        "lang": "Lojban",
+        "word": "zir ← zirpu"
+      }
     },
     {
       "word": "zin",
