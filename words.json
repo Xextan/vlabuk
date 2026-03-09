@@ -10235,6 +10235,21 @@
       }
     },
     {
+      "word": "snu",
+      "def": "confuse",
+      "semantics": [
+        "baffle",
+        "bewilder",
+        "trick",
+        "deceive"
+      ],
+      "etymology": {
+        "lang": "Bulgarian",
+        "word": "смущавам",
+        "translit": "smuštavam"
+      }
+    },
+    {
       "word": "so",
       "def": "delimiting marker (\"only\"/\"just\")",
       "type": "Modifier",
