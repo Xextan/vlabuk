@@ -871,6 +871,18 @@
       "notes": "& inside-out"
     },
     {
+      "word": "bun",
+      "def": "sew",
+      "semantics": [
+        "weave"
+      ],
+      "etymology": {
+        "lang": "Hindi",
+        "word": "बुनना",
+        "translit": "bunnā"
+      }
+    },
+    {
       "word": "buóhai",
       "def": "shark",
       "type": "Entity",
@@ -5142,6 +5154,14 @@
       "etymology": {
         "lang": "Nahuatl",
         "word": "cuetlaxochitl"
+      }
+    },
+    {
+      "word": "kuk",
+      "def": "less than",
+      "etymology": {
+        "lang": "Toaq",
+        "word": "kuoı"
       }
     },
     {
