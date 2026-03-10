@@ -1730,7 +1730,7 @@
       ]
     },
     {
-      "word": "dqunik xilxtu",
+      "word": "dqunik xlixtu",
       "def": "paraprofessional",
       "gloss": "assistant teach",
       "type": "Quality-Relation",
@@ -6985,7 +6985,7 @@
       ]
     },
     {
-      "word": "ninxil",
+      "word": "ninxli",
       "def": "beginner",
       "gloss": "new-learn",
       "type": "Entity",
@@ -13459,85 +13459,6 @@
       "notes": "one of the Giu Senko Xilati"
     },
     {
-      "word": "xildan",
-      "def": "school",
-      "gloss": "learn-building",
-      "type": "Junction",
-      "alignment": "O is school of E",
-      "semantics": [
-        "campus",
-        "academy",
-        "college",
-        "university"
-      ]
-    },
-    {
-      "word": "xilgun",
-      "def": "study",
-      "gloss": "learn-work",
-      "type": "Relation",
-      "alignment": "O studies E in Au",
-      "semantics": [
-        "research",
-        "analyze",
-        "become acquainted with",
-        "pore over"
-      ]
-    },
-    {
-      "word": "xilko",
-      "def": "student",
-      "gloss": "learn-AG",
-      "type": "Quality",
-      "alignment": "O is a student of E in Au",
-      "semantics": [
-        "pupil",
-        "learner",
-        "academic",
-        "collegiate"
-      ]
-    },
-    {
-      "word": "xilnik",
-      "def": "teacher",
-      "gloss": "learn-agent",
-      "type": "Relation",
-      "alignment": "O is a teacher of E in Au",
-      "semantics": [
-        "teach",
-        "professor",
-        "educator"
-      ]
-    },
-    {
-      "word": "xilxtu",
-      "def": "teach",
-      "gloss": "learn-guide",
-      "type": "Relation",
-      "alignment": "O teaches E material Au",
-      "semantics": [
-        "instruct",
-        "educate",
-        "guide"
-      ]
-    },
-    {
-      "word": "xilzu",
-      "def": "practice",
-      "gloss": "learn-AG",
-      "type": "Relation",
-      "alignment": "O practices E by doing Au",
-      "semantics": [
-        "practise",
-        "exercise",
-        "train",
-        "drill",
-        "scrimmage",
-        "mock",
-        "moot"
-      ]
-    },
-    {
       "word": "xin",
       "def": "heart",
       "type": "Junction",
@@ -13810,6 +13731,85 @@
         "lang": "Lojban",
         "word": "cli ← cilre"
       }
+    },
+    {
+      "word": "xlidan",
+      "def": "school",
+      "gloss": "learn-building",
+      "type": "Junction",
+      "alignment": "O is school of E",
+      "semantics": [
+        "campus",
+        "academy",
+        "college",
+        "university"
+      ]
+    },
+    {
+      "word": "xligun",
+      "def": "study",
+      "gloss": "learn-work",
+      "type": "Relation",
+      "alignment": "O studies E in Au",
+      "semantics": [
+        "research",
+        "analyze",
+        "become acquainted with",
+        "pore over"
+      ]
+    },
+    {
+      "word": "xliko",
+      "def": "student",
+      "gloss": "learn-AG",
+      "type": "Quality",
+      "alignment": "O is a student of E in Au",
+      "semantics": [
+        "pupil",
+        "learner",
+        "academic",
+        "collegiate"
+      ]
+    },
+    {
+      "word": "xlinik",
+      "def": "teacher",
+      "gloss": "learn-agent",
+      "type": "Relation",
+      "alignment": "O is a teacher of E in Au",
+      "semantics": [
+        "teach",
+        "professor",
+        "educator"
+      ]
+    },
+    {
+      "word": "xlixtu",
+      "def": "teach",
+      "gloss": "learn-guide",
+      "type": "Relation",
+      "alignment": "O teaches E material Au",
+      "semantics": [
+        "instruct",
+        "educate",
+        "guide"
+      ]
+    },
+    {
+      "word": "xlizu",
+      "def": "practice",
+      "gloss": "learn-AG",
+      "type": "Relation",
+      "alignment": "O practices E by doing Au",
+      "semantics": [
+        "practise",
+        "exercise",
+        "train",
+        "drill",
+        "scrimmage",
+        "mock",
+        "moot"
+      ]
     },
     {
       "word": "xlo",
