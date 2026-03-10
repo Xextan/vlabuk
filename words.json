@@ -9197,6 +9197,26 @@
       }
     },
     {
+      "word": "qli",
+      "def": "method",
+      "derivs": {
+        "ko": "systematic (Q)"
+      },
+      "type": "Quality",
+      "alignment": "O is method for Eu",
+      "semantics": [
+        "technique",
+        "means",
+        "system",
+        "style",
+        "way"
+      ],
+      "etymology": {
+        "lang": "Irish",
+        "word": "slí"
+      }
+    },
+    {
       "word": "qlu",
       "def": "yellow",
       "derivs": {
@@ -13417,21 +13437,12 @@
     },
     {
       "word": "xil",
-      "def": "learn",
-      "derivs": {
-        "ko": "learner (Q)"
-      },
-      "type": "Quality",
-      "alignment": "O learns Eu",
+      "def": "shape",
       "semantics": [
-        "study",
-        "practice",
-        "train"
+        "form",
+        "pattern"
       ],
-      "etymology": {
-        "lang": "Lojban",
-        "word": "cilre"
-      }
+      "etymology": "«xíláti»"
     },
     {
       "word": "xíláti",
@@ -13784,22 +13795,20 @@
     },
     {
       "word": "xli",
-      "def": "method",
+      "def": "learn",
       "derivs": {
-        "ko": "systematic (Q)"
+        "ko": "learner (Q)"
       },
       "type": "Quality",
-      "alignment": "O is method for Eu",
+      "alignment": "O learns Eu",
       "semantics": [
-        "technique",
-        "means",
-        "system",
-        "style",
-        "way"
+        "study",
+        "practice",
+        "train"
       ],
       "etymology": {
-        "lang": "Irish",
-        "word": "slí"
+        "lang": "Lojban",
+        "word": "cli ← cilre"
       }
     },
     {

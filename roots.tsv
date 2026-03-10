@@ -205,6 +205,7 @@ qip	alive
 qit	memory
 qla	flesh
 qle	valley
+qli	method
 qlu	yellow
 qok	piece
 qon	center
@@ -308,7 +309,7 @@ xen	begin
 xep	divide
 xet	edge
 xik	strange
-xil	learn
+xil	shape
 xin	heart
 xip	test
 xit	below
@@ -317,7 +318,7 @@ xke	pure
 xki	remove
 xko	damage
 xle	carry
-xli	method
+xli	learn
 xlo	hit
 xne	fast
 xnu	cord
