@@ -10,6 +10,9 @@ document.getElementById("pickle").addEventListener("change", function() {
 });
 document.getElementById("search").addEventListener("input", function() {
   let q = document.getElementById("search").value.toLowerCase().normalize("NFC");
+  const params = new URLSearchParams(window.location.search);
+  params.set("q", q);
+  history.replaceState(null, null, "?" + params.toString());
   let r = search(q).sort((a, b) => b[1] - a[1]).map(e => htmlify(e[0]));
   document.getElementById("results").innerHTML = "";
   document.getElementById("results").append(...r);
@@ -55,7 +58,9 @@ function dedup(list) {
   });
   return list;
 }
-document.getElementById("search").dispatchEvent(new Event("input", { "bubbles": true }));
+const initial = new URLSearchParams(window.location.search).get("q");
+if (initial) document.getElementById("search").value = initial;
+document.getElementById("search").dispatchEvent(new Event("input", {bubbles: true}));
 function mkelem(tag, props, children) {
   const element = document.createElement(tag);
   Object.assign(element, props);
