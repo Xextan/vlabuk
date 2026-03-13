@@ -1241,6 +1241,14 @@
       ]
     },
     {
+      "word": "den",
+      "def": "tooth",
+      "etymology": {
+        "lang": "Lojban",
+        "word": "den ← denci"
+      }
+    },
+    {
       "word": "dep",
       "def": "should",
       "derivs": {
