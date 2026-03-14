@@ -7798,6 +7798,11 @@
       }
     },
     {
+      "word": "penfep",
+      "def": "stupid",
+      "gloss": "think-weak"
+    },
+    {
       "word": "penlil",
       "def": "imagine",
       "gloss": "think-experience",
@@ -15272,6 +15277,15 @@
         "decaying",
         "decomposing",
         "putrefying"
+      ]
+    },
+    {
+      "word": "zlozok",
+      "def": "responsible (neg.)",
+      "gloss": "bad-responsible",
+      "semantics": [
+        "blamed",
+        "guilty"
       ]
     },
     {
