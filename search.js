@@ -9,10 +9,10 @@ document.getElementById("pickle").addEventListener("change", function() {
   document.documentElement.classList.toggle("pickle");
 });
 document.getElementById("search").addEventListener("input", function() {
-  let q = document.getElementById("search").value.toLowerCase().normalize("NFC");
+  let q = document.getElementById("search").value.trim().toLowerCase().normalize("NFC");
   const params = new URLSearchParams(window.location.search);
   params.set("q", q);
-  history.replaceState(null, null, "?" + params.toString());
+  if (q) history.replaceState(null, null, "?" + params.toString());
   let r = search(q).sort((a, b) => b[1] - a[1]).map(e => htmlify(e[0]));
   document.getElementById("results").innerHTML = "";
   document.getElementById("results").append(...r);
