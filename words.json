@@ -9043,11 +9043,6 @@
       }
     },
     {
-      "word": "qilvla",
-      "def": "adverb",
-      "gloss": "manner-word"
-    },
-    {
       "word": "qin",
       "def": "metal",
       "type": "Entity",
@@ -9298,12 +9293,18 @@
         "means",
         "system",
         "style",
-        "way"
+        "way",
+        "manner"
       ],
       "etymology": {
         "lang": "Irish",
         "word": "slí"
       }
+    },
+    {
+      "word": "qlivla",
+      "def": "adverb",
+      "gloss": "manner-word"
     },
     {
       "word": "qlu",
