@@ -2329,6 +2329,15 @@
       "notes": "somewhat, a bit, kinda, sorta, vaguely"
     },
     {
+      "word": "fek",
+      "def": "[intensifier]",
+      "etymology": {
+        "lang": "Esperanto",
+        "word": "fek-"
+      },
+      "notes": "e.g.: «fekbon to txi!» \"this food is the shit!\""
+    },
+    {
       "word": "fel",
       "def": "happy",
       "derivs": {
@@ -11842,6 +11851,23 @@
         "lang": "Turkish",
         "word": "Türkiye"
       }
+    },
+    {
+      "word": "túsan",
+      "def": "thou",
+      "etymology": [
+        {
+          "lang": "Portuguese",
+          "word": "tu"
+        },
+        "+",
+        {
+          "lang": "Japanese",
+          "word": "さん",
+          "translit": "san"
+        }
+      ],
+      "notes": "the idea is for it to be both faimilar and respectful. despite the definition being a pronoun, this word is still verbshaped!"
     },
     {
       "word": "tut",
