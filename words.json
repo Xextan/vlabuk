@@ -2568,6 +2568,11 @@
       }
     },
     {
+      "word": "filzik",
+      "def": "dysregulation",
+      "gloss": "feel-sick"
+    },
+    {
       "word": "fin",
       "def": "end",
       "derivs": {
@@ -6160,6 +6165,11 @@
       ]
     },
     {
+      "word": "lokzik",
+      "def": "psychosis",
+      "gloss": "conclude-sick"
+    },
+    {
       "word": "lol",
       "def": "open",
       "type": "Quality",
@@ -7276,6 +7286,24 @@
         "word": "-nuka",
         "urlform": "nuka"
       }
+    },
+    {
+      "word": "nup",
+      "def": "sudden",
+      "semantics": [
+        "abrupt"
+      ],
+      "etymology": {
+        "lang": "Arabic",
+        "word": "مُبَاغِت",
+        "translit": "mubāḡit",
+        "urlform": "مباغت"
+      }
+    },
+    {
+      "word": "nupfil",
+      "def": "surprised",
+      "gloss": "sudden-feel"
     },
     {
       "word": "o",
