@@ -197,6 +197,8 @@ function url(e) {
     url = "https://www.signasl.org/sign/" + e.word.toLowerCase();
   } else if (e.lang == "Cherokee" && +e.urlform) {
     url = "https://www.cherokeedictionary.net/share/" + e.urlform;
+  } else if (e.lang == "Final Fantasy") {
+    url = "https://finalfantasy.fandom.com/wiki/" + (e.urlform || e.word);
   } else {
     url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
   }
