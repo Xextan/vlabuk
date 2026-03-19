@@ -422,6 +422,11 @@
       }
     },
     {
+      "word": "bekvla",
+      "def": "noun",
+      "gloss": "thing-word"
+    },
+    {
       "word": "bel",
       "def": "beautiful",
       "derivs": {
@@ -544,13 +549,8 @@
     },
     {
       "word": "bin",
-      "def": "space",
+      "def": "between",
       "type": "Junction",
-      "alignment": "O is space containing E",
-      "semantics": [
-        "expanse",
-        "room"
-      ],
       "etymology": {
         "lang": "Lojban",
         "word": "bin ← jbini"
@@ -5487,6 +5487,11 @@
       }
     },
     {
+      "word": "lanvla",
+      "def": "adposition",
+      "gloss": "adjacent-word"
+    },
+    {
       "word": "lap",
       "def": "sheet",
       "type": "Junction",
@@ -6716,6 +6721,18 @@
       ]
     },
     {
+      "word": "nap",
+      "def": "space",
+      "semantics": [
+        "expanse",
+        "room"
+      ],
+      "etymology": {
+        "lang": "Swahili",
+        "word": "nafasi"
+      }
+    },
+    {
       "word": "nat",
       "def": "false",
       "derivs": {
@@ -6864,6 +6881,11 @@
         "go into",
         "cross threshold of"
       ]
+    },
+    {
+      "word": "nenskuvla",
+      "def": "interjection",
+      "gloss": "inside-speech-word"
     },
     {
       "word": "nep",
@@ -9021,6 +9043,11 @@
       }
     },
     {
+      "word": "qilvla",
+      "def": "adverb",
+      "gloss": "manner-word"
+    },
+    {
       "word": "qin",
       "def": "metal",
       "type": "Entity",
@@ -9411,6 +9438,11 @@
       }
     },
     {
+      "word": "qunvla",
+      "def": "conjunction",
+      "gloss": "join-word"
+    },
+    {
       "word": "qup",
       "def": "property",
       "derivs": {
@@ -9427,6 +9459,11 @@
       ],
       "etymology": "backformed from «qu»",
       "notes": "for \"property of\", use «pe»"
+    },
+    {
+      "word": "qupvla",
+      "def": "verb",
+      "gloss": "property-word"
     },
     {
       "word": "qúqek",
@@ -9601,6 +9638,11 @@
         "counting machine",
         "adding machine"
       ]
+    },
+    {
+      "word": "salvla",
+      "def": "numeral [word]",
+      "gloss": "number-word"
     },
     {
       "word": "salzu",
@@ -15581,6 +15623,11 @@
         "squad",
         "crew"
       ]
+    },
+    {
+      "word": "zukvla",
+      "def": "verb",
+      "gloss": "act-word"
     },
     {
       "word": "zul",
