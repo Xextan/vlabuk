@@ -28,12 +28,6 @@
       "etymology": "by analogy; cf. «a»"
     },
     {
-      "word": "ai",
-      "def": "collective dative case marker",
-      "type": "Preposition",
-      "etymology": "by analogy; cf. «a»"
-    },
-    {
       "word": "álélúja",
       "def": "alleluia",
       "type": "Null",
@@ -2698,7 +2692,7 @@
     {
       "word": "flaqabbet",
       "def": "audit",
-      "gloss": "rule-answer-request",
+      "gloss": "law-answer-request",
       "type": "Relation",
       "alignment": "O audits E for Au",
       "semantics": [
@@ -2709,7 +2703,7 @@
     {
       "word": "flaqandan",
       "def": "jail",
-      "gloss": "rule-crime-building",
+      "gloss": "law-crime-building",
       "type": "Junction",
       "alignment": "O is a jail for E",
       "notes": "refers to the place where accused criminals are held prior to sentencing. for \"prison\" in the sense of \"penitentiary\" see «flaqanzon»; for general sense, see «qandan»"
@@ -2717,7 +2711,7 @@
     {
       "word": "flaqanko",
       "def": "criminal",
-      "gloss": "rule-disobey-AG",
+      "gloss": "law-crime-AG",
       "type": "Quality",
       "alignment": "O is criminal in Eu",
       "semantics": [
@@ -2728,7 +2722,7 @@
     {
       "word": "flaqanlen",
       "def": "criminal",
-      "gloss": "rule-disobey",
+      "gloss": "law-crime-person",
       "type": "Entity",
       "alignment": "O is a criminal",
       "semantics": [
@@ -2739,7 +2733,7 @@
     {
       "word": "flaqansa",
       "def": "prohibit",
-      "gloss": "disobey-rule-CAUS",
+      "gloss": "law-crime-CAUS",
       "type": "Junction",
       "alignment": "O prohibits E",
       "semantics": [
@@ -2752,7 +2746,7 @@
     {
       "word": "flaqanzon",
       "def": "penitentiary",
-      "gloss": "rule-disobey-area",
+      "gloss": "law-crime-area",
       "type": "Junction",
       "alignment": "O is a penitentiary for E",
       "semantics": [
@@ -2764,7 +2758,7 @@
     {
       "word": "flaqanzu",
       "def": "convict",
-      "gloss": "disobey-rule-AG",
+      "gloss": "law-crime-AG",
       "type": "Relation",
       "alignment": "O convicts E of Au",
       "semantics": [
@@ -4466,7 +4460,6 @@
         "colt",
         "stallion",
         "mare",
-        "colt",
         "filly"
       ],
       "etymology": {
@@ -9463,7 +9456,7 @@
     },
     {
       "word": "qupvla",
-      "def": "verb",
+      "def": "adjective",
       "gloss": "property-word"
     },
     {
@@ -12492,10 +12485,9 @@
     },
     {
       "word": "venxonko",
-      "def": "advertise",
-      "gloss": "sell-show-thing",
+      "def": "advertiser",
+      "gloss": "sell-show-AG",
       "type": "Relation",
-      "alignment": "O is an advertisement for E in Au",
       "semantics": [
         "promote",
         "sponsor",
