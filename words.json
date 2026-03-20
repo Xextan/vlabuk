@@ -6726,6 +6726,15 @@
       }
     },
     {
+      "word": "násin",
+      "def": "idiosyncrasy",
+      "etymology": {
+        "lang": "Toki Pona",
+        "word": "nasin"
+      },
+      "notes": "the individual way someone does something, eg idiolect"
+    },
+    {
       "word": "nat",
       "def": "false",
       "derivs": {
