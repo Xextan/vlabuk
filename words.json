@@ -8195,6 +8195,17 @@
       }
     },
     {
+      "word": "pobbuk",
+      "def": "newspaper",
+      "gloss": "event-book",
+      "semantics": [
+        "news",
+        "periodical",
+        "journal",
+        "press"
+      ]
+    },
+    {
       "word": "poddul",
       "def": "compare",
       "gloss": "similar-analyze",
@@ -9862,7 +9873,7 @@
     {
       "word": "senxo",
       "def": "meaning",
-      "gloss": "signify-[PAT]",
+      "gloss": "signify-PAT",
       "type": "Junction",
       "alignment": "O is a/the meaning of E",
       "semantics": [
@@ -11666,7 +11677,7 @@
     {
       "word": "tsepopset",
       "def": "program",
-      "gloss": "intention-PAT-group",
+      "gloss": "intend-event-group",
       "type": "Quality",
       "alignment": "O (mass) is a program of Eu",
       "semantics": [
@@ -11943,7 +11954,7 @@
           "translit": "san"
         }
       ],
-      "notes": "the idea is for it to be both faimilar and respectful. despite the definition being a pronoun, this word is still verbshaped!"
+      "notes": "the idea is for it to be both familiar and respectful. despite the definition being a pronoun, this word is still verbshaped!"
     },
     {
       "word": "tut",
@@ -13896,6 +13907,11 @@
         "professor",
         "educator"
       ]
+    },
+    {
+      "word": "xlisto",
+      "def": "academia",
+      "gloss": "learn-institution"
     },
     {
       "word": "xlixtu",
