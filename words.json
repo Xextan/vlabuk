@@ -5020,45 +5020,14 @@
     },
     {
       "word": "kot",
-      "def": "network",
-      "type": "Entity",
-      "alignment": "O is a network",
+      "def": "tail",
       "semantics": [
-        "internet",
-        "radio",
-        "broadcast"
+        "appendage"
       ],
       "etymology": {
-        "lang": "Loglan",
-        "word": "kotnetre"
-      },
-      "notes": "& telephone, television"
-    },
-    {
-      "word": "kotflu",
-      "def": "channel",
-      "gloss": "network-flow",
-      "type": "Junction",
-      "alignment": "O is a channel of E",
-      "semantics": [
-        "station",
-        "broadcast"
-      ]
-    },
-    {
-      "word": "kottul",
-      "def": "radio",
-      "gloss": "network-tool",
-      "type": "Junction",
-      "alignment": "O is a radio/phone made of E",
-      "semantics": [
-        "transmitter",
-        "receiver",
-        "intercom",
-        "handset",
-        "landline",
-        "walkie-talkie"
-      ]
+        "lang": "Italian",
+        "word": "coda"
+      }
     },
     {
       "word": "kou",
@@ -6137,7 +6106,7 @@
       ]
     },
     {
-      "word": "loktikkot",
+      "word": "loktiknet",
       "def": "internet",
       "gloss": "logic-machine-network",
       "type": "Entity",
@@ -6593,6 +6562,25 @@
       }
     },
     {
+      "word": "nal",
+      "def": "most",
+      "derivs": {
+        "ko": "maximum"
+      },
+      "type": "Quality",
+      "alignment": "O is the most Eu",
+      "semantics": [
+        "highest",
+        "superlative",
+        "supreme"
+      ],
+      "etymology": {
+        "lang": "Polish",
+        "word": "naj-"
+      },
+      "notes": "i.e. superlative"
+    },
+    {
       "word": "nan",
       "def": "masculine",
       "derivs": {
@@ -6942,22 +6930,45 @@
     },
     {
       "word": "net",
-      "def": "most",
-      "derivs": {
-        "ko": "maximum"
-      },
-      "type": "Quality",
-      "alignment": "O is the most Eu",
+      "def": "network",
+      "type": "Entity",
+      "alignment": "O is a network",
       "semantics": [
-        "highest",
-        "superlative",
-        "supreme"
+        "internet",
+        "radio",
+        "broadcast"
       ],
       "etymology": {
-        "lang": "Czech",
-        "word": "nejvíce"
+        "lang": "English",
+        "word": "network"
       },
-      "notes": "i.e. superlative"
+      "notes": "& telephone, television"
+    },
+    {
+      "word": "netflu",
+      "def": "channel",
+      "gloss": "network-flow",
+      "type": "Junction",
+      "alignment": "O is a channel of E",
+      "semantics": [
+        "station",
+        "broadcast"
+      ]
+    },
+    {
+      "word": "nettul",
+      "def": "radio",
+      "gloss": "network-tool",
+      "type": "Junction",
+      "alignment": "O is a radio/phone made of E",
+      "semantics": [
+        "transmitter",
+        "receiver",
+        "intercom",
+        "handset",
+        "landline",
+        "walkie-talkie"
+      ]
     },
     {
       "word": "neu",
@@ -9616,7 +9627,7 @@
       ]
     },
     {
-      "word": "salnet",
+      "word": "salnal",
       "def": "greatest in number",
       "gloss": "number-most",
       "type": "Quality",
@@ -10529,7 +10540,7 @@
       "alignment": "O is a bell"
     },
     {
-      "word": "sonkot",
+      "word": "sonnet",
       "def": "radio [technology]",
       "gloss": "sound-network",
       "type": "Entity",
@@ -10540,7 +10551,7 @@
       ]
     },
     {
-      "word": "sonkottik",
+      "word": "sonnettik",
       "def": "radio",
       "gloss": "sound-network-machine",
       "type": "Entity",
@@ -11013,7 +11024,7 @@
       "notes": "need not have semantic content. used to mean talk; this has moved to «sku»"
     },
     {
-      "word": "takkot",
+      "word": "taknet",
       "def": "telephone",
       "gloss": "talk-network",
       "type": "Junction",
@@ -11024,7 +11035,7 @@
       ]
     },
     {
-      "word": "takkottul",
+      "word": "taknettul",
       "def": "telephone",
       "gloss": "talk-network-tool",
       "type": "Junction",
@@ -12687,7 +12698,7 @@
       }
     },
     {
-      "word": "vinkot",
+      "word": "vinnet",
       "def": "television",
       "gloss": "see-network",
       "type": "Junction",
@@ -12698,7 +12709,7 @@
       ]
     },
     {
-      "word": "vinkottik",
+      "word": "vinnettik",
       "def": "TV",
       "gloss": "see-network-machine",
       "type": "Junction",
