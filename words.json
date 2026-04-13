@@ -143,6 +143,15 @@
       }
     },
     {
+      "word": "ánkábut",
+      "def": "spider",
+      "etymology": {
+        "lang": "Arabic",
+        "word": "عنكبوت",
+        "translit": "ʕankabūt"
+      }
+    },
+    {
       "word": "Ántártíka",
       "def": "Antarctica",
       "type": "Quality",
@@ -9352,6 +9361,19 @@
       }
     },
     {
+      "word": "qna",
+      "def": "science",
+      "semantics": [
+        "-ology",
+        "subject"
+      ],
+      "etymology": {
+        "lang": "Marathi",
+        "word": "ज्ञान",
+        "translit": "jñān"
+      }
+    },
+    {
       "word": "qo",
       "def": "logical connective: XOR",
       "type": "Connective",
@@ -13350,6 +13372,28 @@
         "word": "चावल",
         "translit": "cāval"
       }
+    },
+    {
+      "word": "xaznal",
+      "def": "goose",
+      "etymology": [
+        {
+          "lang": "Basque",
+          "word": "antzara"
+        },
+        "+",
+        {
+          "lang": "Sanskrit",
+          "word": "हं॒स",
+          "translit": "haṃsá"
+        },
+        "+",
+        {
+          "lang": "Arabic",
+          "word": "إوز",
+          "translit": "ʔiwazz"
+        }
+      ]
     },
     {
       "word": "xe",
