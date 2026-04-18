@@ -138,7 +138,7 @@ function htmlify(entry) {
     entry.notes || entry.semantics || entry.etymology || entry.derivs || entry.gloss ? mkelem("div", { "className": "more" }, [
       entry.gloss ? mkelem("p", {}, [
         mkelem("span", { "className": "h" }, ["Gloss: "]),
-        mkelem("code", {}, [entry.gloss])
+        entry.gloss
       ]) : null,
       entry.semantics ? mkelem("p", {}, [
         mkelem("span", { "className": "h" }, ["Keywords: "]),

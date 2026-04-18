@@ -1,16 +1,11 @@
 @font-face {
-  font-family: "iosevie";
-  src: url("https://raw.githubusercontent.com/mi2ebi/iosevie/refs/heads/main/dist/Iosevie/TTF/Iosevie-Regular.ttf");
-  font-display: swap;
-}
-@font-face {
     font-family: "Nokia Pure HL KLGN";
     src: url("fonts/nokiapiqad.ttf");
     font-display: swap;
 }
 
 :root {
-  font-family: "Noto Sans", "Nokia Pure HL KLGN", ui-sans-serif, system-ui, sans-serif;
+  font-family: "Iosevka Dingdong", "Nokia Pure HL KLGN", ui-sans-serif, system-ui, sans-serif;
   /* oklch: l=65 c=0.15 */
   --red: #db6371;     /* 15 */
   --orange: #d56f2c;  /* 50 */
@@ -101,9 +96,6 @@ input[type="text"] {
 }
 .entry a {
   text-decoration: none;
-}
-code {
-  font-family: "iosevie", monospace;
 }
 
 html.pickle {

@@ -2791,7 +2791,7 @@
       "notes": "I now pronounce you married: «ji flasa ni põ zbasi oi vo»"
     },
     {
-      "word": "flavipnik",
+      "word": "flazgenik",
       "def": "judge",
       "gloss": "rule-choose-servant",
       "type": "Quality",
@@ -2801,10 +2801,10 @@
         "magistrate",
         "arbitrator"
       ],
-      "notes": "arbitrator: «flavipnik sep»"
+      "notes": "arbitrator: «flazgenik sep»"
     },
     {
-      "word": "flavipsto",
+      "word": "flazgesto",
       "def": "court",
       "gloss": "rule-choose-institution",
       "type": "Quality",
@@ -2813,7 +2813,7 @@
         "hearing",
         "tribunal"
       ],
-      "notes": "see also «flavipnik»"
+      "notes": "see also «flazgenik»"
     },
     {
       "word": "fli",
@@ -8250,7 +8250,7 @@
         "balance",
         "judge"
       ],
-      "notes": "see also «vip»"
+      "notes": "see also «zge»"
     },
     {
       "word": "poi",
@@ -12744,22 +12744,18 @@
     },
     {
       "word": "vip",
-      "def": "choose",
-      "derivs": {
-        "ko": "judge (R)"
-      },
-      "type": "Relation",
-      "alignment": "O chooses E for Au",
+      "def": "imagine",
       "semantics": [
-        "decide",
-        "judge",
-        "select",
-        "elect"
+        "visualize"
       ],
-      "etymology": {
-        "lang": "Czech",
-        "word": "vybrat"
-      }
+      "etymology": [
+        {
+          "lang": "Blessing",
+          "word": "vip",
+          "link": false
+        },
+        "← \"Visual Imagination Power\""
+      ]
     },
     {
       "word": "vit",
@@ -15186,6 +15182,25 @@
         "amputate"
       ],
       "notes": "cf. «xepzga»"
+    },
+    {
+      "word": "zge",
+      "def": "choose",
+      "derivs": {
+        "ko": "judge (R)"
+      },
+      "type": "Relation",
+      "alignment": "O chooses E for Au",
+      "semantics": [
+        "decide",
+        "judge",
+        "select",
+        "elect"
+      ],
+      "etymology": {
+        "lang": "Albanian",
+        "word": "zgjedh"
+      }
     },
     {
       "word": "zgi",
