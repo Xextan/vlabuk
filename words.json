@@ -5029,14 +5029,45 @@
     },
     {
       "word": "kot",
-      "def": "tail",
+      "def": "network",
+      "type": "Entity",
+      "alignment": "O is a network",
       "semantics": [
-        "appendage"
+        "internet",
+        "radio",
+        "broadcast"
       ],
       "etymology": {
-        "lang": "Italian",
-        "word": "coda"
-      }
+        "lang": "Loglan",
+        "word": "kotnetre"
+      },
+      "notes": "& telephone, television"
+    },
+    {
+      "word": "kotflu",
+      "def": "channel",
+      "gloss": "network-flow",
+      "type": "Junction",
+      "alignment": "O is a channel of E",
+      "semantics": [
+        "station",
+        "broadcast"
+      ]
+    },
+    {
+      "word": "kottul",
+      "def": "radio",
+      "gloss": "network-tool",
+      "type": "Junction",
+      "alignment": "O is a radio/phone made of E",
+      "semantics": [
+        "transmitter",
+        "receiver",
+        "intercom",
+        "handset",
+        "landline",
+        "walkie-talkie"
+      ]
     },
     {
       "word": "kou",
@@ -6115,7 +6146,7 @@
       ]
     },
     {
-      "word": "loktiknet",
+      "word": "loktikkot",
       "def": "internet",
       "gloss": "logic-machine-network",
       "type": "Entity",
@@ -6939,45 +6970,16 @@
     },
     {
       "word": "net",
-      "def": "network",
-      "type": "Entity",
-      "alignment": "O is a network",
+      "def": "oppose",
       "semantics": [
-        "internet",
-        "radio",
-        "broadcast"
+        "argue",
+        "contend"
       ],
       "etymology": {
-        "lang": "English",
-        "word": "network"
-      },
-      "notes": "& telephone, television"
-    },
-    {
-      "word": "netflu",
-      "def": "channel",
-      "gloss": "network-flow",
-      "type": "Junction",
-      "alignment": "O is a channel of E",
-      "semantics": [
-        "station",
-        "broadcast"
-      ]
-    },
-    {
-      "word": "nettul",
-      "def": "radio",
-      "gloss": "network-tool",
-      "type": "Junction",
-      "alignment": "O is a radio/phone made of E",
-      "semantics": [
-        "transmitter",
-        "receiver",
-        "intercom",
-        "handset",
-        "landline",
-        "walkie-talkie"
-      ]
+        "lang": "",
+        "word": "Ned Ludd",
+        "link": "https://en.wikipedia.org/wiki/Ned_Ludd"
+      }
     },
     {
       "word": "neu",
@@ -9374,6 +9376,17 @@
       }
     },
     {
+      "word": "qni",
+      "def": "understand",
+      "semantics": [
+        "comprehend"
+      ],
+      "etymology": {
+        "lang": "Lojban",
+        "word": "jmi ← jimpe"
+      }
+    },
+    {
       "word": "qo",
       "def": "logical connective: XOR",
       "type": "Connective",
@@ -10562,7 +10575,7 @@
       "alignment": "O is a bell"
     },
     {
-      "word": "sonnet",
+      "word": "sonkot",
       "def": "radio [technology]",
       "gloss": "sound-network",
       "type": "Entity",
@@ -10573,7 +10586,7 @@
       ]
     },
     {
-      "word": "sonnettik",
+      "word": "sonkottik",
       "def": "radio",
       "gloss": "sound-network-machine",
       "type": "Entity",
@@ -11046,7 +11059,7 @@
       "notes": "need not have semantic content. used to mean talk; this has moved to «sku»"
     },
     {
-      "word": "taknet",
+      "word": "takkot",
       "def": "telephone",
       "gloss": "talk-network",
       "type": "Junction",
@@ -11057,7 +11070,7 @@
       ]
     },
     {
-      "word": "taknettul",
+      "word": "takkottul",
       "def": "telephone",
       "gloss": "talk-network-tool",
       "type": "Junction",
@@ -12594,7 +12607,8 @@
       ],
       "etymology": {
         "lang": "Yiddish",
-        "word": "וועב"
+        "word": "וועב",
+        "translit": "veb"
       }
     },
     {
@@ -12720,7 +12734,7 @@
       }
     },
     {
-      "word": "vinnet",
+      "word": "vinkot",
       "def": "television",
       "gloss": "see-network",
       "type": "Junction",
@@ -12731,7 +12745,7 @@
       ]
     },
     {
-      "word": "vinnettik",
+      "word": "vinkottik",
       "def": "TV",
       "gloss": "see-network-machine",
       "type": "Junction",
@@ -13008,6 +13022,17 @@
         "lang": "Russian",
         "word": "волк",
         "translit": "volk"
+      }
+    },
+    {
+      "word": "vot",
+      "def": "tail",
+      "semantics": [
+        "appendage"
+      ],
+      "etymology": {
+        "lang": "Esperanto",
+        "word": "vosto"
       }
     },
     {
@@ -15347,6 +15372,15 @@
         "medical center",
         "doctor's office"
       ]
+    },
+    {
+      "word": "zil",
+      "def": "elemental part",
+      "etymology": {
+        "lang": "Mandarin",
+        "word": "子",
+        "translit": "zǐ"
+      }
     },
     {
       "word": "zin",
