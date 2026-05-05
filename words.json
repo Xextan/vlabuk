@@ -874,6 +874,10 @@
       "notes": "& inside-out"
     },
     {
+      "word": "bulúp",
+      "def": "hate"
+    },
+    {
       "word": "bun",
       "def": "sew",
       "semantics": [
@@ -2831,6 +2835,11 @@
       }
     },
     {
+      "word": "flixak",
+      "def": "wing",
+      "gloss": "float-hand"
+    },
+    {
       "word": "flo",
       "def": "hair",
       "type": "Junction",
@@ -4393,6 +4402,14 @@
         "lang": "Spanish",
         "word": "capibara"
       }
+    },
+    {
+      "word": "kaptul",
+      "def": "spoon",
+      "gloss": "cup-tool",
+      "semantics": [
+        "ladle"
+      ]
     },
     {
       "word": "kat",
@@ -8256,10 +8273,12 @@
     },
     {
       "word": "poi",
-      "def": "comparative",
+      "def": "decimal point",
       "type": "Connective",
-      "etymology": "backformed from «pot»",
-      "notes": "like, as, similar to"
+      "etymology": {
+        "lang": "Ceqli",
+        "word": "poy"
+      }
     },
     {
       "word": "pok",
@@ -10009,6 +10028,13 @@
       }
     },
     {
+      "word": "sie",
+      "def": "comparative",
+      "type": "Connective",
+      "etymology": "backformed from «sni de»",
+      "notes": "like, as, similar to"
+    },
+    {
       "word": "sik",
       "def": "search",
       "semantics": [
@@ -11420,6 +11446,12 @@
       ]
     },
     {
+      "word": "tiklen",
+      "def": "robot",
+      "gloss": "machine-person",
+      "notes": "refers to anthropomorphic robots, like androids"
+    },
+    {
       "word": "tikzi",
       "def": "simple machine",
       "gloss": "machine-DIM",
@@ -12360,6 +12392,23 @@
       "etymology": {
         "lang": "Swedish",
         "word": "vanlig"
+      }
+    },
+    {
+      "word": "vap",
+      "def": "wave",
+      "semantics": [
+        "undulation"
+      ],
+      "etymology": [
+        "ｖａｐｏｒｗａｖｅ ...actually,",
+        {
+          "lang": "Loglan",
+          "word": "-vap- ← valpu"
+        }
+      ],
+      "notes": {
+        "EVIL_DANGEROUS_HTML": "<img src='img/vap-etymology.png' />"
       }
     },
     {
@@ -14767,6 +14816,11 @@
         "kayak",
         "boatboatboat"
       ]
+    },
+    {
+      "word": "xutxak",
+      "def": "fin",
+      "gloss": "water-hand"
     },
     {
       "word": "xutxel",
