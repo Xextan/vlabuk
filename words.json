@@ -12400,15 +12400,12 @@
       "semantics": [
         "undulation"
       ],
-      "etymology": [
-        "ｖａｐｏｒｗａｖｅ ...actually,",
-        {
-          "lang": "Loglan",
-          "word": "-vap- ← valpu"
-        }
-      ],
+      "etymology": {
+        "lang": "Loglan",
+        "word": "-vap- ← valpu"
+      },
       "notes": {
-        "EVIL_DANGEROUS_HTML": "<img src='img/vap-etymology.png' />"
+        "EVIL_DANGEROUS_HTML": "<img src='img/vap-for-wave.png' />"
       }
     },
     {
