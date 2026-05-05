@@ -14,7 +14,7 @@
       "word": "Áfríka",
       "def": "Africa",
       "type": "Quality",
-      "alignment": "O is African in Eu",
+      "alignment": "O is African",
       "etymology": {
         "lang": "English",
         "word": "Africa"
@@ -62,7 +62,7 @@
       "word": "Álqáza",
       "def": "Algeria",
       "type": "Quality",
-      "alignment": "O is Algerian in Eu",
+      "alignment": "O is Algerian",
       "etymology": {
         "lang": "Arabic",
         "word": "الْجَزَائِر",
@@ -106,7 +106,7 @@
       "word": "Ámríka",
       "def": "America",
       "type": "Quality",
-      "alignment": "O is American in Eu",
+      "alignment": "O is American",
       "etymology": {
         "lang": "Arabic",
         "word": "أَمْرِيكَا",
@@ -119,7 +119,7 @@
       "word": "Ámríka Tunbak",
       "def": "South America",
       "type": "Quality",
-      "alignment": "O is South American in Eu",
+      "alignment": "O is South American",
       "etymology": "«Ámríka» + «tunbak»",
       "notes": "proper name (n.): la Ámríka Tunbak"
     },
@@ -127,7 +127,7 @@
       "word": "Ámríka Tunkut",
       "def": "North America",
       "type": "Quality",
-      "alignment": "O is North American in Eu",
+      "alignment": "O is North American",
       "etymology": "«Ámríka» + «tunkut»",
       "notes": "proper name (n.): la Ámríka Tunkut"
     },
@@ -135,7 +135,7 @@
       "word": "ángel",
       "def": "angel",
       "type": "Quality",
-      "alignment": "O is angelic in Eu",
+      "alignment": "O is angelic",
       "etymology": {
         "lang": "Ancient Greek",
         "word": "ἄγγελος",
@@ -155,7 +155,7 @@
       "word": "Ántártíka",
       "def": "Antarctica",
       "type": "Quality",
-      "alignment": "O is Antarctic in Eu",
+      "alignment": "O is Antarctic",
       "semantics": [
         "South Pole",
         "polar"
@@ -186,7 +186,7 @@
       "word": "Árábi",
       "def": "Arab",
       "type": "Quality",
-      "alignment": "O is Arab in Eu",
+      "alignment": "O is Arab",
       "semantics": [
         "Arabic",
         "Arabia"
@@ -208,7 +208,7 @@
       "word": "Áustrália",
       "def": "Australia",
       "type": "Quality",
-      "alignment": "O is Australian in Eu",
+      "alignment": "O is Australian",
       "semantics": [
         "Aussie"
       ],
@@ -222,7 +222,7 @@
       "word": "Áutéjárówa",
       "def": "New Zealand",
       "type": "Quality",
-      "alignment": "O is New Zealand in Eu",
+      "alignment": "O is New Zealand",
       "semantics": [
         "Aotearoa",
         "Kiwi"
@@ -236,7 +236,7 @@
       "word": "Ázíja",
       "def": "Asia",
       "type": "Quality",
-      "alignment": "O is Asian in Eu",
+      "alignment": "O is Asian",
       "etymology": {
         "lang": "English",
         "word": "Asia"
@@ -274,7 +274,7 @@
         "xo": "balance (n.)"
       },
       "type": "Quality",
-      "alignment": "O (mass) is in balance in Eu",
+      "alignment": "O (mass) is in balance",
       "semantics": [
         "equilibrium"
       ],
@@ -374,7 +374,7 @@
       "word": "Bárat",
       "def": "India",
       "type": "Quality",
-      "alignment": "O is Indian in Eu",
+      "alignment": "O is Indian",
       "semantics": [
         "Hindu"
       ],
@@ -436,7 +436,7 @@
         "xo": "beauty"
       },
       "type": "Quality",
-      "alignment": "O is beautiful in Eu",
+      "alignment": "O is beautiful",
       "semantics": [
         "pretty",
         "cute",
@@ -538,7 +538,7 @@
         "xo": "whiteness"
       },
       "type": "Quality",
-      "alignment": "O is white in Eu",
+      "alignment": "O is white",
       "semantics": [
         "blank",
         "light-colored",
@@ -582,7 +582,7 @@
         "xo": "ugliness"
       },
       "type": "Quality",
-      "alignment": "O is ugly in Eu",
+      "alignment": "O is ugly",
       "semantics": [
         "repulsive",
         "unattractive"
@@ -627,7 +627,7 @@
         "xo": "blueness"
       },
       "type": "Quality",
-      "alignment": "O is blue in Eu",
+      "alignment": "O is blue",
       "semantics": [
         "cyan"
       ],
@@ -674,7 +674,7 @@
         "xo": "roundness"
       },
       "type": "Quality",
-      "alignment": "O is spherical in Eu",
+      "alignment": "O is spherical",
       "semantics": [
         "sphere"
       ],
@@ -707,7 +707,7 @@
       "def": "okay",
       "gloss": "good-enough",
       "type": "Quality",
-      "alignment": "O is okay in Eu",
+      "alignment": "O is okay",
       "semantics": [
         "alright",
         "acceptable",
@@ -735,7 +735,7 @@
       "word": "Bósuána",
       "def": "Botswana",
       "type": "Quality",
-      "alignment": "O is Botswanan in Eu",
+      "alignment": "O is Botswanan",
       "etymology": {
         "lang": "Setswana",
         "word": "Botswana"
@@ -763,7 +763,7 @@
       "word": "Brázil",
       "def": "Brazil",
       "type": "Quality",
-      "alignment": "O is Brazilian in Eu",
+      "alignment": "O is Brazilian",
       "semantics": [
         "Brazilian"
       ],
@@ -803,7 +803,7 @@
       "word": "Búda",
       "def": "Buddhist",
       "type": "Quality",
-      "alignment": "O is Buddhist in Eu",
+      "alignment": "O is Buddhist",
       "semantics": [
         "Buddha dharma"
       ],
@@ -937,7 +937,7 @@
         "xo": "wakefulness"
       },
       "type": "Quality",
-      "alignment": "O is awake in Eu",
+      "alignment": "O is awake",
       "semantics": [
         "alert",
         "turned on"
@@ -952,7 +952,7 @@
       "def": "awaken",
       "gloss": "awake-become",
       "type": "Quality",
-      "alignment": "O awakens in Eu",
+      "alignment": "O awakens",
       "semantics": [
         "wake up (nt.)",
         "arouse (nt.)"
@@ -1027,7 +1027,7 @@
         "xo": "size"
       },
       "type": "Quality",
-      "alignment": "O is large in Eu",
+      "alignment": "O is large",
       "semantics": [
         "very",
         "extremely"
@@ -1102,7 +1102,7 @@
       "word": "Dánímak",
       "def": "Denmark",
       "type": "Quality",
-      "alignment": "O is Danish in Eu",
+      "alignment": "O is Danish",
       "semantics": [
         "Dane"
       ],
@@ -1150,7 +1150,7 @@
       "word": "dap",
       "def": "break",
       "type": "Quality",
-      "alignment": "O is broken in Eu",
+      "alignment": "O is broken",
       "semantics": [
         "shatter",
         "split up",
@@ -1167,7 +1167,7 @@
       "def": "fragile",
       "gloss": "break-AG",
       "type": "Quality",
-      "alignment": "O is fragile in Eu",
+      "alignment": "O is fragile",
       "semantics": [
         "breakable",
         "delicate"
@@ -1318,7 +1318,7 @@
         "ko": "blocky"
       },
       "type": "Quality",
-      "alignment": "O is rectangular in Eu",
+      "alignment": "O is rectangular",
       "semantics": [
         "square",
         "perpendicular",
@@ -1366,7 +1366,7 @@
         "xo": "divinity"
       },
       "type": "Quality",
-      "alignment": "O is divine in Eu",
+      "alignment": "O is divine",
       "semantics": [
         "sacred",
         "holy",
@@ -1423,7 +1423,7 @@
       "def": "holy",
       "gloss": "divine-pure",
       "type": "Quality",
-      "alignment": "O is holy in Eu",
+      "alignment": "O is holy",
       "semantics": [
         "hallowed",
         "blessed",
@@ -1480,7 +1480,7 @@
         "xo": "flatness"
       },
       "type": "Quality",
-      "alignment": "O is flat in Eu",
+      "alignment": "O is flat",
       "semantics": [
         "smooth"
       ],
@@ -1550,7 +1550,7 @@
       "word": "Dóixi",
       "def": "Germany",
       "type": "Quality",
-      "alignment": "O is German in Eu",
+      "alignment": "O is German",
       "semantics": [
         "Germanic",
         "Teutonic",
@@ -1568,7 +1568,7 @@
         "xo": "pain (n.)"
       },
       "type": "Quality",
-      "alignment": "O feels pain in Eu",
+      "alignment": "O feels pain",
       "semantics": [
         "hurt",
         "agony",
@@ -1637,7 +1637,7 @@
       "word": "dop",
       "def": "enough",
       "type": "Quality",
-      "alignment": "O is enough in Eu",
+      "alignment": "O is enough",
       "semantics": [
         "sufficient",
         "adequate",
@@ -1693,7 +1693,7 @@
         "xo": "pride"
       },
       "type": "Quality",
-      "alignment": "O is proud in Eu",
+      "alignment": "O is proud",
       "semantics": [
         "have self-esteem"
       ],
@@ -1726,7 +1726,7 @@
       "def": "assistant",
       "gloss": "help-agent",
       "type": "Quality",
-      "alignment": "O is assistant in Eu",
+      "alignment": "O is assistant",
       "semantics": [
         "attendant",
         "clerk",
@@ -1815,7 +1815,7 @@
       "def": "knowledgeable",
       "gloss": "know-strong",
       "type": "Quality",
-      "alignment": "O is knowledgeable in Eu",
+      "alignment": "O is knowledgeable",
       "semantics": [
         "well-read",
         "expertise",
@@ -1839,7 +1839,7 @@
       "def": "curious",
       "gloss": "know-want-AG",
       "type": "Quality",
-      "alignment": "O is curious in Eu",
+      "alignment": "O is curious",
       "semantics": [
         "inquisitive",
         "inquiring"
@@ -1949,7 +1949,7 @@
         "xo": "decay (n.)"
       },
       "type": "Quality",
-      "alignment": "O decays in Eu",
+      "alignment": "O decays",
       "semantics": [
         "rot",
         "erode",
@@ -1978,7 +1978,7 @@
       "def": "rotten",
       "gloss": "decay-disgusting",
       "type": "Junction",
-      "alignment": "O is rotten in Eu",
+      "alignment": "O is rotten",
       "semantics": [
         "rot",
         "decaying",
@@ -2034,7 +2034,7 @@
       "word": "é'e",
       "def": "sleep (poetic)",
       "type": "Quality",
-      "alignment": "O is e'e in/of Eu",
+      "alignment": "O is e'e",
       "semantics": [
         "sleep",
         "death",
@@ -2069,7 +2069,7 @@
       "word": "Éire",
       "def": "Ireland",
       "type": "Quality",
-      "alignment": "O is Irish in Eu",
+      "alignment": "O is Irish",
       "semantics": [
         "Hibernian",
         "Gaelic"
@@ -2083,7 +2083,7 @@
       "word": "Éláda",
       "def": "Greece",
       "type": "Quality",
-      "alignment": "O is Greek in Eu",
+      "alignment": "O is Greek",
       "semantics": [
         "Hellas",
         "Hellenic",
@@ -2099,7 +2099,7 @@
       "word": "Éngil",
       "def": "England",
       "type": "Quality",
-      "alignment": "O is English in Eu",
+      "alignment": "O is English",
       "semantics": [
         "Anglo-Saxon",
         "Anglic"
@@ -2113,7 +2113,7 @@
       "word": "Éspánia",
       "def": "Spain",
       "type": "Quality",
-      "alignment": "O is Spanish in Eu",
+      "alignment": "O is Spanish",
       "semantics": [
         "Castilian",
         "español",
@@ -2128,7 +2128,7 @@
       "word": "Éspéránto",
       "def": "Esperanto",
       "type": "Quality",
-      "alignment": "O is Esperantic (pertaining to Esperanto) in Eu",
+      "alignment": "O is Esperantic (pertaining to Esperanto)",
       "semantics": [
         "Esperantist",
         "Esperantujo"
@@ -2142,7 +2142,7 @@
       "word": "Ésti",
       "def": "Estonia",
       "type": "Quality",
-      "alignment": "O is Estonian in Eu",
+      "alignment": "O is Estonian",
       "etymology": {
         "lang": "Estonian",
         "word": "Eesti"
@@ -2158,7 +2158,7 @@
       "word": "Éurópa",
       "def": "Europe",
       "type": "Quality",
-      "alignment": "O is European in Eu",
+      "alignment": "O is European",
       "etymology": {
         "lang": "Latin",
         "word": "Europa"
@@ -2223,7 +2223,7 @@
       "word": "Fálástin",
       "def": "Palestine",
       "type": "Quality",
-      "alignment": "O is Palestinian in Eu",
+      "alignment": "O is Palestinian",
       "etymology": {
         "lang": "South Levantine Arabic",
         "word": "فلسطين",
@@ -2351,7 +2351,7 @@
         "xo": "happiness"
       },
       "type": "Quality",
-      "alignment": "O is happy in Eu",
+      "alignment": "O is happy",
       "semantics": [
         "joyful",
         "cheerful",
@@ -2369,7 +2369,7 @@
         "xo": "femininity"
       },
       "type": "Quality",
-      "alignment": "O is feminine in Eu",
+      "alignment": "O is feminine",
       "semantics": [
         "woman",
         "girl",
@@ -2486,7 +2486,7 @@
         "xo": "weakness"
       },
       "type": "Quality",
-      "alignment": "O is weak in Eu",
+      "alignment": "O is weak",
       "semantics": [
         "frail",
         "infirm",
@@ -2726,7 +2726,7 @@
       "def": "criminal",
       "gloss": "law-crime-AG",
       "type": "Quality",
-      "alignment": "O is criminal in Eu",
+      "alignment": "O is criminal",
       "semantics": [
         "outlaw",
         "antisocial"
@@ -2950,7 +2950,7 @@
       "word": "Frâsi",
       "def": "France",
       "type": "Quality",
-      "alignment": "O is French in Eu",
+      "alignment": "O is French",
       "semantics": [
         "Frankish",
         "Frankic",
@@ -3033,7 +3033,7 @@
       "def": "naked",
       "gloss": "clothing-lack",
       "type": "Quality",
-      "alignment": "O is naked in Eu",
+      "alignment": "O is naked",
       "semantics": [
         "nude",
         "bare",
@@ -3141,7 +3141,7 @@
       "word": "gágil",
       "def": "boomer",
       "type": "Quality",
-      "alignment": "O is boomer in Eu",
+      "alignment": "O is boomer",
       "semantics": [
         "crotchety",
         "out of touch",
@@ -3495,7 +3495,7 @@
       "word": "gla",
       "def": "transparent",
       "type": "Quality",
-      "alignment": "O is transparent in Eu",
+      "alignment": "O is transparent",
       "semantics": [
         "clear",
         "translucent"
@@ -3510,7 +3510,7 @@
       "word": "gle",
       "def": "sexual",
       "type": "Quality",
-      "alignment": "O is sexual in Eu",
+      "alignment": "O is sexual",
       "semantics": [
         "have sex",
         "mate",
@@ -3537,7 +3537,7 @@
       "word": "gli",
       "def": "gentle",
       "type": "Quality",
-      "alignment": "O is gentle in Eu",
+      "alignment": "O is gentle",
       "semantics": [
         "mild",
         "kind"
@@ -3590,7 +3590,7 @@
       "word": "glu",
       "def": "sticky",
       "type": "Quality",
-      "alignment": "O is sticky in Eu",
+      "alignment": "O is sticky",
       "semantics": [
         "tacky",
         "glue",
@@ -3618,7 +3618,7 @@
         "ko": "angular"
       },
       "type": "Quality",
-      "alignment": "O is triangular in Eu",
+      "alignment": "O is triangular",
       "semantics": [
         "angle",
         "angular",
@@ -3838,7 +3838,7 @@
       "def": "crew",
       "gloss": "work-group",
       "type": "Quality",
-      "alignment": "O is a crew in Eu",
+      "alignment": "O is a crew",
       "semantics": [
         "squad",
         "team",
@@ -3917,7 +3917,7 @@
       "word": "Írak",
       "def": "Iraq",
       "type": "Quality",
-      "alignment": "O is Iraqi in Eu",
+      "alignment": "O is Iraqi",
       "etymology": {
         "lang": "Arabic",
         "word": "الْعِرَاق",
@@ -3929,7 +3929,7 @@
       "word": "Íran",
       "def": "Iran",
       "type": "Quality",
-      "alignment": "O is Iranian in Eu",
+      "alignment": "O is Iranian",
       "semantics": [
         "Persian",
         "Farsi"
@@ -3944,7 +3944,7 @@
       "word": "Íslámi",
       "def": "Islam",
       "type": "Quality",
-      "alignment": "O is Islamic in Eu",
+      "alignment": "O is Islamic",
       "semantics": [
         "Muslim",
         "Mohammedan"
@@ -3960,7 +3960,7 @@
       "word": "Íslan",
       "def": "Iceland",
       "type": "Quality",
-      "alignment": "O is Icelandic in Eu",
+      "alignment": "O is Icelandic",
       "etymology": {
         "lang": "Icelandic",
         "word": "Ísland"
@@ -3970,7 +3970,7 @@
       "word": "Ítália",
       "def": "Italy",
       "type": "Quality",
-      "alignment": "O is Italian in Eu",
+      "alignment": "O is Italian",
       "semantics": [
         "Latin",
         "Roman"
@@ -4004,7 +4004,7 @@
       "word": "Jéhúdi",
       "def": "Jewish",
       "type": "Quality",
-      "alignment": "O is Jewish in Eu",
+      "alignment": "O is Jewish",
       "semantics": [
         "Jew",
         "Judaic"
@@ -4026,7 +4026,7 @@
       "word": "Jísrá'el",
       "def": "Israel",
       "type": "Quality",
-      "alignment": "O is Israeli in Eu",
+      "alignment": "O is Israeli",
       "etymology": {
         "lang": "Hebrew",
         "word": "יִשְׂרָאֵל",
@@ -4076,7 +4076,7 @@
       "def": "good night!",
       "gloss": "IMP sleep easy",
       "type": "Illocution-Quality-Preposition-Quality",
-      "alignment": "VP: good night to O in Eu",
+      "alignment": "VP: good night to O",
       "semantics": [
         "sleep well",
         "sweet dreams",
@@ -4093,7 +4093,7 @@
       "word": "jówájóka",
       "def": "world (poetic)",
       "type": "Quality",
-      "alignment": "O is jowajoka in Eu",
+      "alignment": "O is jowajoka",
       "semantics": [
         "world",
         "universe",
@@ -4117,7 +4117,7 @@
       "word": "Júkei",
       "def": "United Kingdom",
       "type": "Quality",
-      "alignment": "O is British/of the United Kingdom in Eu",
+      "alignment": "O is British/of the United Kingdom",
       "semantics": [
         "Britain",
         "UK"
@@ -4285,7 +4285,7 @@
         "ko": "burner"
       },
       "type": "Quality",
-      "alignment": "O is hot in Eu",
+      "alignment": "O is hot",
       "semantics": [
         "warm",
         "searing",
@@ -4301,7 +4301,7 @@
       "word": "Kámérun",
       "def": "Cameroon",
       "type": "Quality",
-      "alignment": "O is Cameroonian in Eu",
+      "alignment": "O is Cameroonian",
       "etymology": {
         "lang": "French",
         "word": "Cameroun"
@@ -4342,7 +4342,7 @@
       "word": "Kánáda",
       "def": "Canada",
       "type": "Quality",
-      "alignment": "O is Canadian in Eu",
+      "alignment": "O is Canadian",
       "etymology": {
         "lang": "English",
         "word": "Canada"
@@ -4352,7 +4352,7 @@
       "word": "kánóka",
       "def": "home (poetic)",
       "type": "Quality",
-      "alignment": "O is kanoka in/of Eu",
+      "alignment": "O is kanoka",
       "semantics": [
         "home",
         "love",
@@ -4418,7 +4418,7 @@
         "xo": "hardness"
       },
       "type": "Quality",
-      "alignment": "O is hard in Eu",
+      "alignment": "O is hard",
       "semantics": [
         "firm",
         "durable",
@@ -4457,7 +4457,7 @@
       "word": "Kátólik",
       "def": "Catholic",
       "type": "Quality",
-      "alignment": "O is (Roman) Catholic in Eu",
+      "alignment": "O is (Roman) Catholic",
       "semantics": [
         "Roman Church",
         "Roman Rite",
@@ -4557,7 +4557,7 @@
         "xo": "contaminant"
       },
       "type": "Quality",
-      "alignment": "O is dirty in Eu",
+      "alignment": "O is dirty",
       "semantics": [
         "messy",
         "contaminated",
@@ -4574,7 +4574,7 @@
       "word": "Kémri",
       "def": "Wales",
       "type": "Quality",
-      "alignment": "O is Welsh in Eu",
+      "alignment": "O is Welsh",
       "semantics": [
         "Cymru",
         "Cymraeg"
@@ -4605,7 +4605,7 @@
       "word": "Kénia",
       "def": "Kenya",
       "type": "Quality",
-      "alignment": "O is Kenyan in Eu",
+      "alignment": "O is Kenyan",
       "etymology": {
         "lang": "Swahili",
         "word": "Kenya"
@@ -5140,7 +5140,7 @@
       "word": "Krísto",
       "def": "Christian",
       "type": "Quality",
-      "alignment": "O is Christian in Eu",
+      "alignment": "O is Christian",
       "semantics": [
         "Christ",
         "the Church"
@@ -5189,7 +5189,7 @@
       "word": "Kúba",
       "def": "Cuba",
       "type": "Quality",
-      "alignment": "O is Cuban in Eu",
+      "alignment": "O is Cuban",
       "etymology": {
         "lang": "Spanish",
         "word": "Cuba"
@@ -5224,7 +5224,7 @@
         "ko": "shadow"
       },
       "type": "Quality",
-      "alignment": "O is dark in Eu",
+      "alignment": "O is dark",
       "semantics": [
         "dim",
         "obscure",
@@ -5278,7 +5278,7 @@
       "word": "kup",
       "def": "cube",
       "type": "Quality",
-      "alignment": "O is cube-shaped in Eu",
+      "alignment": "O is cube-shaped",
       "semantics": [
         "block",
         "box",
@@ -5340,7 +5340,7 @@
       "def": "tall",
       "gloss": "vertical-large",
       "type": "Quality",
-      "alignment": "O is tall in Eu",
+      "alignment": "O is tall",
       "semantics": [
         "giant",
         "high",
@@ -5374,7 +5374,7 @@
       "word": "Ládése",
       "def": "Latter-day Saint",
       "type": "Quality",
-      "alignment": "O is Latter-day Saint in Eu",
+      "alignment": "O is Latter-day Saint",
       "semantics": [
         "LDS",
         "Church of Jesus Christ of Latter-day Saints",
@@ -5475,7 +5475,7 @@
         "ko": "antique"
       },
       "type": "Quality",
-      "alignment": "O is old in Eu",
+      "alignment": "O is old",
       "semantics": [
         "aged",
         "ancient",
@@ -5529,7 +5529,7 @@
       "word": "lápélápe",
       "def": "birth (poetic)",
       "type": "Quality",
-      "alignment": "O is lapelape in/of Eu",
+      "alignment": "O is lapelape",
       "semantics": [
         "life",
         "growth",
@@ -5554,7 +5554,7 @@
       "word": "láska",
       "def": "grace",
       "type": "Quality",
-      "alignment": "O is grace [of God] in Eu",
+      "alignment": "O is grace [of God]",
       "semantics": [
         "mercy",
         "divine favor"
@@ -5571,7 +5571,7 @@
         "ko": "support"
       },
       "type": "Quality",
-      "alignment": "O is vertical in Eu",
+      "alignment": "O is vertical",
       "semantics": [
         "upright",
         "erect",
@@ -5587,7 +5587,7 @@
       "word": "Látívia",
       "def": "Latvia",
       "type": "Quality",
-      "alignment": "O is Latvian in Eu",
+      "alignment": "O is Latvian",
       "etymology": {
         "lang": "Latvian",
         "word": "Latvija"
@@ -5653,7 +5653,7 @@
       "def": "wide",
       "gloss": "horizontal-large",
       "type": "Quality",
-      "alignment": "O is wide in Eu",
+      "alignment": "O is wide",
       "semantics": [
         "broad",
         "spacious",
@@ -5716,7 +5716,7 @@
       "def": "technician",
       "gloss": "repair-agent",
       "type": "Quality",
-      "alignment": "O is a technician specializing in Eu",
+      "alignment": "O is a technician specializing",
       "semantics": [
         "repairman",
         "handyman",
@@ -5731,7 +5731,7 @@
         "ko": "joke"
       },
       "type": "Quality",
-      "alignment": "O is funny in Eu",
+      "alignment": "O is funny",
       "semantics": [
         "amusing",
         "humorous",
@@ -5776,7 +5776,7 @@
       "def": "uninhabited",
       "gloss": "person-lack",
       "type": "Quality",
-      "alignment": "O is uninhabited in Eu",
+      "alignment": "O is uninhabited",
       "semantics": [
         "unpopulated",
         "remote"
@@ -5810,7 +5810,7 @@
       "word": "let",
       "def": "horizontal",
       "type": "Junction",
-      "alignment": "O is horizontal in Eu",
+      "alignment": "O is horizontal",
       "semantics": [
         "lie",
         "lay",
@@ -5844,7 +5844,7 @@
       "word": "Líbia",
       "def": "Libya",
       "type": "Quality",
-      "alignment": "O is Libyan in Eu",
+      "alignment": "O is Libyan",
       "etymology": {
         "lang": "Libyan Arabic",
         "word": "ليبيا",
@@ -5870,7 +5870,7 @@
       "word": "Liétúva",
       "def": "Lithuania",
       "type": "Quality",
-      "alignment": "O is Lithuanian in Eu",
+      "alignment": "O is Lithuanian",
       "etymology": {
         "lang": "Lithuanian",
         "word": "Lietuvà"
@@ -5951,7 +5951,7 @@
       "def": "long",
       "gloss": "line-large",
       "type": "Quality",
-      "alignment": "O is long in Eu",
+      "alignment": "O is long",
       "semantics": [
         "lengthy",
         "winding",
@@ -6113,7 +6113,7 @@
       "word": "Lógílan",
       "def": "Loglan",
       "type": "Quality",
-      "alignment": "O is Loglanic in Eu",
+      "alignment": "O is Loglanic",
       "semantics": [
         "Loglandia",
         "Loglandian"
@@ -6180,7 +6180,7 @@
       "def": "logical",
       "gloss": "logic-harmony",
       "type": "Quality",
-      "alignment": "O is logical in Eu",
+      "alignment": "O is logical",
       "semantics": [
         "rational",
         "reasonable",
@@ -6197,7 +6197,7 @@
       "word": "lol",
       "def": "open",
       "type": "Quality",
-      "alignment": "O is open in Eu",
+      "alignment": "O is open",
       "semantics": [
         "ajar",
         "accessible",
@@ -6213,7 +6213,7 @@
       "word": "Loqban",
       "def": "Lojban",
       "type": "Quality",
-      "alignment": "O is Lojbanic in Eu",
+      "alignment": "O is Lojbanic",
       "semantics": [
         "jbobau"
       ],
@@ -6282,7 +6282,7 @@
       "def": "thick",
       "gloss": "thick-large",
       "type": "Quality",
-      "alignment": "O is thick in Eu",
+      "alignment": "O is thick",
       "semantics": [
         "layered",
         "chunky",
@@ -6306,7 +6306,7 @@
       "def": "thin",
       "gloss": "thick-small",
       "type": "Quality",
-      "alignment": "O is thin in Eu",
+      "alignment": "O is thin",
       "semantics": [
         "sheer",
         "papery"
@@ -6374,7 +6374,7 @@
         "ko": "competititve"
       },
       "type": "Quality",
-      "alignment": "O (mass) compete in Eu",
+      "alignment": "O (mass) compete",
       "semantics": [
         "fight",
         "play against",
@@ -6390,7 +6390,7 @@
       "def": "competitive",
       "gloss": "compete-AG",
       "type": "Quality",
-      "alignment": "O is competitive in Eu",
+      "alignment": "O is competitive",
       "semantics": [
         "fierce",
         "cutthroat"
@@ -6401,7 +6401,7 @@
       "def": "aggressive",
       "gloss": "compete-angry",
       "type": "Quality",
-      "alignment": "O is aggressive in Eu",
+      "alignment": "O is aggressive",
       "semantics": [
         "hostile",
         "angry",
@@ -6465,7 +6465,7 @@
       "word": "Mágiári",
       "def": "Hungary",
       "type": "Quality",
-      "alignment": "O is Hungarian in Eu",
+      "alignment": "O is Hungarian",
       "semantics": [
         "Magyar"
       ],
@@ -6478,7 +6478,7 @@
       "word": "Mágrip",
       "def": "Morocco",
       "type": "Quality",
-      "alignment": "O is Moroccan in Eu",
+      "alignment": "O is Moroccan",
       "semantics": [
         "Maghreb"
       ],
@@ -6493,7 +6493,7 @@
       "word": "máhou",
       "def": "magic",
       "type": "Quality",
-      "alignment": "O is magic of/in Eu",
+      "alignment": "O is magic(al)",
       "semantics": [
         "wizardry",
         "sorcery",
@@ -6525,7 +6525,7 @@
       "word": "Másra",
       "def": "Egypt",
       "type": "Quality",
-      "alignment": "O is Egyptian in Eu",
+      "alignment": "O is Egyptian",
       "etymology": {
         "lang": "Egyptian Arabic",
         "word": "مصر",
@@ -6536,7 +6536,7 @@
       "word": "Méxíko",
       "def": "Mexico",
       "type": "Quality",
-      "alignment": "O is Mexican in Eu",
+      "alignment": "O is Mexican",
       "semantics": [
         "Mexica",
         "Aztec"
@@ -6559,7 +6559,7 @@
       "word": "Mórmon",
       "def": "Mormon",
       "type": "Quality",
-      "alignment": "O is Mormon in Eu",
+      "alignment": "O is Mormon",
       "semantics": [
         "Deseret"
       ],
@@ -6644,7 +6644,7 @@
         "xo": "masculinity"
       },
       "type": "Quality",
-      "alignment": "O is masculine in Eu",
+      "alignment": "O is masculine",
       "semantics": [
         "man",
         "boy",
@@ -6786,7 +6786,7 @@
         "ko": "fake (n.)"
       },
       "type": "Quality",
-      "alignment": "O is false in Eu",
+      "alignment": "O is false",
       "semantics": [
         "fake",
         "not true",
@@ -6845,7 +6845,7 @@
       "word": "Nédérlan",
       "def": "Netherlands",
       "type": "Quality",
-      "alignment": "O is Dutch in Eu",
+      "alignment": "O is Dutch",
       "semantics": [
         "Holland"
       ],
@@ -7063,7 +7063,7 @@
         "ko": "news"
       },
       "type": "Quality",
-      "alignment": "O is new in Eu",
+      "alignment": "O is new",
       "semantics": [
         "novel",
         "recent",
@@ -7104,7 +7104,7 @@
       "word": "Nípon",
       "def": "Japan",
       "type": "Quality",
-      "alignment": "O is Japanese in Eu",
+      "alignment": "O is Japanese",
       "semantics": [
         "Nihon",
         "Nippon"
@@ -7122,7 +7122,7 @@
         "ko": "trivia"
       },
       "type": "Quality",
-      "alignment": "O is interesting in Eu",
+      "alignment": "O is interesting",
       "semantics": [
         "intriguing",
         "fascinating",
@@ -7146,7 +7146,7 @@
       "word": "Nízímu",
       "def": "South Africa",
       "type": "Quality",
-      "alignment": "O is South African in Eu",
+      "alignment": "O is South African",
       "etymology": {
         "lang": "Zulu",
         "word": "iNingizimu Afrika"
@@ -7241,7 +7241,7 @@
       "word": "nóno",
       "def": "reflection (poetic)",
       "type": "Quality",
-      "alignment": "O is nono in/of Eu",
+      "alignment": "O is nono",
       "semantics": [
         "likeness",
         "another",
@@ -7257,7 +7257,7 @@
         "ko": "lazy"
       },
       "type": "Quality",
-      "alignment": "O is idle in Eu",
+      "alignment": "O is idle",
       "semantics": [
         "rest",
         "inactive",
@@ -7273,7 +7273,7 @@
       "word": "Nórge",
       "def": "Norway",
       "type": "Quality",
-      "alignment": "O is Norwegian in Eu",
+      "alignment": "O is Norwegian",
       "etymology": {
         "lang": "Norwegian Bokmål",
         "word": "Norge"
@@ -7441,7 +7441,7 @@
       "word": "Órtódok",
       "def": "Orthodox",
       "type": "Quality",
-      "alignment": "O is Orthodox (Christian) in Eu",
+      "alignment": "O is Orthodox (Christian)",
       "semantics": [
         "Eastern Orthodox"
       ],
@@ -7454,7 +7454,7 @@
       "word": "Óstéraik",
       "def": "Austria",
       "type": "Quality",
-      "alignment": "O is Austrian in Eu",
+      "alignment": "O is Austrian",
       "semantics": [
         "Österreich"
       ],
@@ -7505,7 +7505,7 @@
       "word": "Óxénia",
       "def": "Oceania",
       "type": "Quality",
-      "alignment": "O is Oceanian in Eu",
+      "alignment": "O is Oceanian",
       "semantics": [
         "Austronesian"
       ],
@@ -7663,7 +7663,7 @@
         "ko": "plush"
       },
       "type": "Quality",
-      "alignment": "O is soft in Eu",
+      "alignment": "O is soft",
       "semantics": [
         "fluffy",
         "springy",
@@ -7947,7 +7947,7 @@
       "def": "intelligent",
       "gloss": "think-strong",
       "type": "Quality",
-      "alignment": "O is intelligent in Eu",
+      "alignment": "O is intelligent",
       "semantics": [
         "smart",
         "clever",
@@ -8026,7 +8026,7 @@
       "word": "péxí'éxi",
       "def": "time (poetic)",
       "type": "Quality",
-      "alignment": "O is pexi'exi in/of Eu",
+      "alignment": "O is pexi'exi",
       "semantics": [
         "time",
         "change",
@@ -8081,7 +8081,7 @@
         "ko": "dozy"
       },
       "type": "Quality",
-      "alignment": "O is tired in Eu",
+      "alignment": "O is tired",
       "semantics": [
         "exhausted",
         "drained",
@@ -8100,7 +8100,7 @@
         "ko": "short-tempered"
       },
       "type": "Quality",
-      "alignment": "O is angry in Eu",
+      "alignment": "O is angry",
       "semantics": [
         "anger",
         "rage",
@@ -8147,7 +8147,7 @@
         "ko": "multitude"
       },
       "type": "Quality",
-      "alignment": "O is multiple in Eu",
+      "alignment": "O is multiple",
       "semantics": [
         "plural",
         "many",
@@ -8398,7 +8398,7 @@
       "word": "Pórtúgal",
       "def": "Portugal",
       "type": "Quality",
-      "alignment": "O is Portuguese in Eu",
+      "alignment": "O is Portuguese",
       "semantics": [
         "Lusitania",
         "Lusophone"
@@ -8425,7 +8425,7 @@
       "word": "Póuska",
       "def": "Poland",
       "type": "Quality",
-      "alignment": "O is Polish in Eu",
+      "alignment": "O is Polish",
       "etymology": {
         "lang": "Polish",
         "word": "Polska"
@@ -8466,7 +8466,7 @@
         "ko": "acid"
       },
       "type": "Quality",
-      "alignment": "O is corrosive in Eu",
+      "alignment": "O is corrosive",
       "semantics": [
         "acid",
         "alkaline",
@@ -8558,7 +8558,7 @@
       "word": "qábu",
       "def": "devil",
       "type": "Quality",
-      "alignment": "O is devilish in Eu",
+      "alignment": "O is devilish",
       "semantics": [
         "Satan",
         "demon",
@@ -8585,7 +8585,7 @@
         "ko": "sicko"
       },
       "type": "Quality",
-      "alignment": "O is disgusting in Eu",
+      "alignment": "O is disgusting",
       "semantics": [
         "vile",
         "gross",
@@ -8624,7 +8624,7 @@
       "def": "filthy",
       "gloss": "disgusting-dirty",
       "type": "Quality",
-      "alignment": "O is filthy in Eu",
+      "alignment": "O is filthy",
       "semantics": [
         "vile",
         "dirty",
@@ -8817,7 +8817,7 @@
         "ko": "cryptic"
       },
       "type": "Quality",
-      "alignment": "O is complex in Eu",
+      "alignment": "O is complex",
       "semantics": [
         "complicated",
         "enigmatic",
@@ -8903,7 +8903,7 @@
         "ko": "solid (n.)"
       },
       "type": "Quality",
-      "alignment": "O is solid in Eu",
+      "alignment": "O is solid",
       "semantics": [
         "firm",
         "concrete",
@@ -8937,7 +8937,7 @@
         "ko": "trivial"
       },
       "type": "Quality",
-      "alignment": "O is simple in Eu",
+      "alignment": "O is simple",
       "semantics": [
         "straightforward",
         "plain",
@@ -8956,7 +8956,7 @@
         "ko": "truth (n.)"
       },
       "type": "Quality",
-      "alignment": "O is true in Eu",
+      "alignment": "O is true",
       "semantics": [
         "actual",
         "real",
@@ -9124,7 +9124,7 @@
         "ko": "organism"
       },
       "type": "Quality",
-      "alignment": "O is alive in Eu",
+      "alignment": "O is alive",
       "semantics": [
         "life",
         "active",
@@ -9188,7 +9188,7 @@
       "def": "amnesia",
       "gloss": "memory-lack",
       "type": "Quality",
-      "alignment": "O is amnesiac in Eu",
+      "alignment": "O is amnesiac",
       "semantics": [
         "memory loss"
       ]
@@ -9276,7 +9276,7 @@
       "def": "phyiscally strong",
       "gloss": "organ-strong",
       "type": "Quality",
-      "alignment": "O is strong in Eu",
+      "alignment": "O is strong",
       "semantics": [
         "burly",
         "tough",
@@ -9291,7 +9291,7 @@
       "def": "holistic",
       "gloss": "organ-whole",
       "type": "Quality",
-      "alignment": "O is holistic in Eu",
+      "alignment": "O is holistic",
       "semantics": [
         "organic",
         "whole-grain",
@@ -9372,7 +9372,7 @@
         "ko": "golden"
       },
       "type": "Quality",
-      "alignment": "O is yellow in Eu",
+      "alignment": "O is yellow",
       "semantics": [
         "golden"
       ],
@@ -9418,7 +9418,7 @@
       "word": "Qôguo",
       "def": "China",
       "type": "Quality",
-      "alignment": "O is Chinese in Eu",
+      "alignment": "O is Chinese",
       "semantics": [
         "Sinitic"
       ],
@@ -9491,7 +9491,7 @@
         "ko": "deep (n.)"
       },
       "type": "Quality",
-      "alignment": "O is deep in Eu",
+      "alignment": "O is deep",
       "semantics": [
         "profound",
         "abyss",
@@ -9510,7 +9510,7 @@
         "ko": "union"
       },
       "type": "Quality",
-      "alignment": "O (mass) is joined in Eu",
+      "alignment": "O (mass) is joined",
       "semantics": [
         "connect",
         "attach",
@@ -9567,7 +9567,7 @@
       "word": "Rómánia",
       "def": "Romania",
       "type": "Quality",
-      "alignment": "O is Romanian in Eu",
+      "alignment": "O is Romanian",
       "etymology": {
         "lang": "Romanian",
         "word": "România"
@@ -9577,7 +9577,7 @@
       "word": "Rósia",
       "def": "Russia",
       "type": "Quality",
-      "alignment": "O is Russian in Eu",
+      "alignment": "O is Russian",
       "semantics": [
         "Rus"
       ],
@@ -9685,7 +9685,7 @@
       "def": "greatest in number",
       "gloss": "number-most",
       "type": "Quality",
-      "alignment": "O is numerically greatest in Eu",
+      "alignment": "O is numerically greatest",
       "semantics": [
         "most numerous"
       ]
@@ -9740,7 +9740,7 @@
       "word": "sámáqvat",
       "def": "socialism",
       "type": "Quality",
-      "alignment": "O is socialist in Eu",
+      "alignment": "O is socialist",
       "semantics": [
         "Marxist",
         "communist"
@@ -9843,7 +9843,7 @@
         "ko": "guard"
       },
       "type": "Quality",
-      "alignment": "O is safe in Eu",
+      "alignment": "O is safe",
       "semantics": [
         "secure",
         "protect",
@@ -9986,7 +9986,7 @@
       "word": "set",
       "def": "group",
       "type": "Quality",
-      "alignment": "O is a group in Eu",
+      "alignment": "O is a group",
       "semantics": [
         "set",
         "collective",
@@ -10049,7 +10049,7 @@
       "word": "Síkot",
       "def": "Scotland",
       "type": "Quality",
-      "alignment": "O is Scottish in Eu",
+      "alignment": "O is Scottish",
       "semantics": [
         "Alba"
       ],
@@ -10065,7 +10065,7 @@
         "ko": "powerful"
       },
       "type": "Quality",
-      "alignment": "O is strong in Eu",
+      "alignment": "O is strong",
       "semantics": [
         "skilled",
         "talented",
@@ -10080,7 +10080,7 @@
       "word": "Sílóven",
       "def": "Slovenia",
       "type": "Quality",
-      "alignment": "O is Slovene in Eu",
+      "alignment": "O is Slovene",
       "semantics": [
         "Slovenian"
       ],
@@ -10161,7 +10161,7 @@
       "word": "Sívérje",
       "def": "Sweden",
       "type": "Quality",
-      "alignment": "O is Swedish in Eu",
+      "alignment": "O is Swedish",
       "etymology": {
         "lang": "Swedish",
         "word": "Sverige"
@@ -10195,7 +10195,7 @@
       "def": "stimulus",
       "gloss": "qualia-AG",
       "type": "Quality",
-      "alignment": "O is stimulus in Eu",
+      "alignment": "O is stimulus",
       "semantics": [
         "catalyst",
         "impetus"
@@ -10251,7 +10251,7 @@
         "ko": "fit"
       },
       "type": "Quality",
-      "alignment": "O is healthy in Eu",
+      "alignment": "O is healthy",
       "semantics": [
         "well",
         "functional"
@@ -10406,7 +10406,7 @@
         "ko": "slowpoke"
       },
       "type": "Quality",
-      "alignment": "O is slow in Eu",
+      "alignment": "O is slow",
       "semantics": [
         "sluggish",
         "gradual",
@@ -10424,7 +10424,7 @@
         "ko": "victor"
       },
       "type": "Quality",
-      "alignment": "O succeeds in Eu",
+      "alignment": "O succeeds",
       "semantics": [
         "victory",
         "win",
@@ -10591,7 +10591,7 @@
       "def": "loud",
       "gloss": "sound-large",
       "type": "Quality",
-      "alignment": "O is loud in Eu"
+      "alignment": "O is loud"
     },
     {
       "word": "sonkap",
@@ -10633,7 +10633,7 @@
       "def": "silent",
       "gloss": "sound-lack",
       "type": "Quality",
-      "alignment": "O is silent in Eu",
+      "alignment": "O is silent",
       "semantics": [
         "quiet",
         "still"
@@ -10649,7 +10649,7 @@
       "def": "quiet",
       "gloss": "sound-small",
       "type": "Quality",
-      "alignment": "O is quiet in Eu"
+      "alignment": "O is quiet"
     },
     {
       "word": "sop",
@@ -10678,7 +10678,7 @@
         "ko": "secret (n.)"
       },
       "type": "Quality",
-      "alignment": "O is secret in Eu",
+      "alignment": "O is secret",
       "semantics": [
         "hidden",
         "clandestine",
@@ -10698,7 +10698,7 @@
         "ko": "sleepyhead"
       },
       "type": "Quality",
-      "alignment": "O is asleep in Eu",
+      "alignment": "O is asleep",
       "semantics": [
         "slumber",
         "rest",
@@ -10761,7 +10761,7 @@
       "def": "fall asleep",
       "gloss": "sleep-become",
       "type": "Quality",
-      "alignment": "O falls asleep in Eu",
+      "alignment": "O falls asleep",
       "semantics": [
         "doze off",
         "pass out",
@@ -11008,7 +11008,7 @@
       "word": "Suómi",
       "def": "Finland",
       "type": "Quality",
-      "alignment": "O is Finnish in Eu",
+      "alignment": "O is Finnish",
       "etymology": {
         "lang": "Finnish",
         "word": "Suomi"
@@ -11166,7 +11166,7 @@
         "xo": "tension"
       },
       "type": "Quality",
-      "alignment": "O is tight in Eu",
+      "alignment": "O is tight",
       "semantics": [
         "tension",
         "strain",
@@ -11212,7 +11212,7 @@
       "def": "special",
       "gloss": "specific-AG",
       "type": "Quality",
-      "alignment": "O is special in Eu",
+      "alignment": "O is special",
       "semantics": [
         "individual",
         "unique",
@@ -11412,7 +11412,7 @@
       "word": "tíjóti",
       "def": "light (poetic)",
       "type": "Quality",
-      "alignment": "O is tijoti in/of Eu",
+      "alignment": "O is tijoti",
       "semantics": [
         "light",
         "sun",
@@ -11456,7 +11456,7 @@
       "def": "simple machine",
       "gloss": "machine-DIM",
       "type": "Quality",
-      "alignment": "O is a simple machine in Eu",
+      "alignment": "O is a simple machine",
       "semantics": [
         "lever",
         "plane",
@@ -11550,7 +11550,7 @@
       "word": "Tókípóna",
       "def": "Toki Pona",
       "type": "Quality",
-      "alignment": "O is Toki Pona in Eu",
+      "alignment": "O is Toki Pona",
       "etymology": {
         "lang": "Toki Pona",
         "word": "toki pona"
@@ -11596,7 +11596,7 @@
         "qu": "death"
       },
       "type": "Quality",
-      "alignment": "O is dead in Eu",
+      "alignment": "O is dead",
       "semantics": [
         "death",
         "destruction",
@@ -11658,7 +11658,7 @@
       "def": "die",
       "gloss": "dead-begin",
       "type": "Quality",
-      "alignment": "O dies in Eu",
+      "alignment": "O dies",
       "semantics": [
         "doom",
         "perish",
@@ -12021,7 +12021,7 @@
       "word": "Túrkíje",
       "def": "Turkey",
       "type": "Quality",
-      "alignment": "O is Turkish in Eu",
+      "alignment": "O is Turkish",
       "semantics": [
         "Türkiye",
         "Turk"
@@ -12055,7 +12055,7 @@
         "ko": "whole [n.] (J)"
       },
       "type": "Quality",
-      "alignment": "O is whole in Eu",
+      "alignment": "O is whole",
       "semantics": [
         "entire",
         "complete",
@@ -12102,7 +12102,7 @@
         "ko": "decadent (Q)"
       },
       "type": "Quality",
-      "alignment": "O is excessive in Eu",
+      "alignment": "O is excessive",
       "semantics": [
         "too much",
         "too many",
@@ -12158,7 +12158,7 @@
       "def": "hungry",
       "gloss": "food-need",
       "type": "Quality",
-      "alignment": "O is hungry in/for Eu",
+      "alignment": "O is hungry",
       "semantics": [
         "hunger",
         "thirsty",
@@ -12240,7 +12240,7 @@
       "word": "Úkráina",
       "def": "Ukraine",
       "type": "Quality",
-      "alignment": "O is Ukrainian in Eu",
+      "alignment": "O is Ukrainian",
       "etymology": {
         "lang": "Ukrainian",
         "word": "Украї́на",
@@ -12281,7 +12281,7 @@
       "word": "Úsa",
       "def": "United States of America",
       "type": "Quality",
-      "alignment": "O is [United States of] American in Eu",
+      "alignment": "O is [United States of] American",
       "semantics": [
         "Columbia",
         "Usonia"
@@ -12383,7 +12383,7 @@
         "ko": "whatever"
       },
       "type": "Quality",
-      "alignment": "O is common in Eu",
+      "alignment": "O is common",
       "semantics": [
         "ordinary",
         "often",
@@ -12412,7 +12412,7 @@
       "word": "Vátígil",
       "def": "Vötgil",
       "type": "Quality",
-      "alignment": "O is Vötgil in Eu",
+      "alignment": "O is Vötgil",
       "semantics": [
         "Votgil"
       ],
@@ -12461,7 +12461,7 @@
         "ko": "red tint"
       },
       "type": "Quality",
-      "alignment": "O is red in Eu",
+      "alignment": "O is red",
       "semantics": [
         "pink",
         "orange"
@@ -12700,7 +12700,7 @@
       "word": "Viéti",
       "def": "Vietnam",
       "type": "Quality",
-      "alignment": "O is Vietnamese in Eu",
+      "alignment": "O is Vietnamese",
       "semantics": [
         "Viet"
       ],
@@ -12864,7 +12864,7 @@
       "def": "Vlabuk Xextan",
       "gloss": "dictionary Xextan",
       "type": "Junction-Quality",
-      "alignment": "O is the Vlabuk Xextan [Eu]",
+      "alignment": "O is the Vlabuk Xextan",
       "semantics": [
         "Xextan dictionary",
         "Xexicon"
@@ -13038,7 +13038,7 @@
       "word": "Vólápuk",
       "def": "Volapük",
       "type": "Quality",
-      "alignment": "O pertains to Volapük in Eu",
+      "alignment": "O pertains to Volapük",
       "etymology": {
         "lang": "Volapük",
         "word": "Volapük"
@@ -13191,7 +13191,7 @@
       "word": "wápéka",
       "def": "malice (poetic)",
       "type": "Quality",
-      "alignment": "O does wapeka in Eu",
+      "alignment": "O does wapeka",
       "semantics": [
         "malice",
         "cruelty",
@@ -13203,7 +13203,7 @@
       "word": "wáwa",
       "def": "evil (poetic)",
       "type": "Quality",
-      "alignment": "O is wawa in/of Eu",
+      "alignment": "O is wawa",
       "semantics": [
         "evil",
         "tragedy",
@@ -13341,7 +13341,7 @@
         "ko": "little thing"
       },
       "type": "Quality",
-      "alignment": "O is small in Eu",
+      "alignment": "O is small",
       "semantics": [
         "tiny",
         "little",
@@ -13491,7 +13491,7 @@
         "ko": "brimming"
       },
       "type": "Quality",
-      "alignment": "O is full in Eu",
+      "alignment": "O is full",
       "semantics": [
         "filled",
         "packed",
@@ -13507,7 +13507,7 @@
       "word": "Xéli",
       "def": "Ceqli",
       "type": "Quality",
-      "alignment": "O is Ceqli/Ceqlian in Eu",
+      "alignment": "O is Ceqli/Ceqlian",
       "semantics": [
         "Ceqlic",
         "Tceqli"
@@ -13538,7 +13538,7 @@
       "def": "wake up",
       "gloss": "begin awake",
       "type": "State-Quality",
-      "alignment": "(Ou) O wakes up in Eu",
+      "alignment": "(Ou) O wakes up",
       "semantics": [
         "awake",
         "come to",
@@ -13551,7 +13551,7 @@
       "def": "fall asleep",
       "gloss": "begin asleep",
       "type": "State-Quality",
-      "alignment": "(Ou) O falls asleep in Eu",
+      "alignment": "(Ou) O falls asleep",
       "semantics": [
         "go to sleep",
         "doze off"
@@ -13607,7 +13607,7 @@
       "word": "Xésko",
       "def": "Czechia",
       "type": "Quality",
-      "alignment": "O is Czech in Eu",
+      "alignment": "O is Czech",
       "semantics": [
         "Czech Republic"
       ],
@@ -13650,7 +13650,7 @@
       "word": "xextan",
       "def": "Xextan",
       "type": "Quality",
-      "alignment": "O is Xextanic in Eu",
+      "alignment": "O is Xextanic",
       "semantics": [
         "xexcellent",
         "xexy"
@@ -13691,7 +13691,7 @@
         "ko": "oddity (E)"
       },
       "type": "Quality",
-      "alignment": "O is strange in Eu",
+      "alignment": "O is strange",
       "semantics": [
         "weird",
         "unusual",
@@ -13718,7 +13718,7 @@
       "word": "xíláti",
       "def": "spirit (poetic)",
       "type": "Quality",
-      "alignment": "O is xilati in/of Eu",
+      "alignment": "O is xilati",
       "semantics": [
         "spirit",
         "heart",
@@ -13817,7 +13817,7 @@
       "word": "Xíváitsi",
       "def": "Switzerland",
       "type": "Quality",
-      "alignment": "O is Swiss in Eu",
+      "alignment": "O is Swiss",
       "semantics": [
         "Helvetic",
         "Alpine"
@@ -13831,7 +13831,7 @@
       "word": "Xíxip",
       "def": "Albania",
       "type": "Quality",
-      "alignment": "O is Albanian in Eu",
+      "alignment": "O is Albanian",
       "etymology": {
         "lang": "Albanian",
         "word": "shqip"
@@ -13863,7 +13863,7 @@
         "ko": "flawless (Q)"
       },
       "type": "Quality",
-      "alignment": "O is pure in Eu",
+      "alignment": "O is pure",
       "semantics": [
         "clean",
         "tidy",
@@ -13946,7 +13946,7 @@
       "def": "poison",
       "gloss": "harm-stuff",
       "type": "Quality",
-      "alignment": "O is poisonous in Eu",
+      "alignment": "O is poisonous",
       "semantics": [
         "toxic"
       ]
@@ -14124,7 +14124,7 @@
         "ko": "speedy"
       },
       "type": "Quality",
-      "alignment": "O is fast in Eu",
+      "alignment": "O is fast",
       "semantics": [
         "speedy",
         "rapid",
@@ -14179,7 +14179,7 @@
         "ko": "dark tint"
       },
       "type": "Quality",
-      "alignment": "O is black in Eu",
+      "alignment": "O is black",
       "semantics": [
         "dark",
         "dim"
@@ -14270,7 +14270,7 @@
         "ko": "cavern"
       },
       "type": "Quality",
-      "alignment": "O is concave in Eu",
+      "alignment": "O is concave",
       "semantics": [
         "divot",
         "depression",
@@ -14420,7 +14420,7 @@
         "ko": "beast"
       },
       "type": "Quality",
-      "alignment": "O is animal in Eu",
+      "alignment": "O is animal",
       "semantics": [
         "beast",
         "creature",
@@ -14609,7 +14609,7 @@
         "ko": "perfect circle"
       },
       "type": "Quality",
-      "alignment": "O is circular in Eu",
+      "alignment": "O is circular",
       "semantics": [
         "ring",
         "disk",
@@ -14751,7 +14751,7 @@
       "def": "dry",
       "gloss": "water-lack",
       "type": "Quality",
-      "alignment": "O is dry in Eu",
+      "alignment": "O is dry",
       "semantics": [
         "arid",
         "parched",
@@ -14788,7 +14788,7 @@
       "def": "thirsty",
       "gloss": "water-need",
       "type": "Quality",
-      "alignment": "O is thirsty in/for Eu",
+      "alignment": "O is thirsty",
       "semantics": [
         "parched",
         "drought",
@@ -14911,7 +14911,7 @@
         "ko": "honorable"
       },
       "type": "Quality",
-      "alignment": "O is honored in Eu",
+      "alignment": "O is honored",
       "semantics": [
         "respect",
         "grand",
@@ -14947,7 +14947,7 @@
         "ko": "reality"
       },
       "type": "Quality",
-      "alignment": "O exists in Eu",
+      "alignment": "O exists",
       "semantics": [
         "real",
         "actual",
@@ -15210,7 +15210,7 @@
         "ko": "melancholy [person]"
       },
       "type": "Quality",
-      "alignment": "O is sad in Eu",
+      "alignment": "O is sad",
       "semantics": [
         "sorrow",
         "melancholy",
@@ -15387,7 +15387,7 @@
       "word": "Zîbábue",
       "def": "Zimbabwe",
       "type": "Quality",
-      "alignment": "O is Zimbabwean in Eu",
+      "alignment": "O is Zimbabwean",
       "etymology": {
         "lang": "Shona",
         "word": "Zimbabwe"
@@ -15400,7 +15400,7 @@
         "ko": "infected (Q)"
       },
       "type": "Quality",
-      "alignment": "O is sick in/with Eu",
+      "alignment": "O is sick with Eu",
       "semantics": [
         "ill",
         "infection",
@@ -15440,7 +15440,7 @@
         "ko": "cold (n.)"
       },
       "type": "Quality",
-      "alignment": "O is cold in Eu",
+      "alignment": "O is cold",
       "semantics": [
         "icy",
         "frigid",
@@ -15527,7 +15527,7 @@
         "ko": "adult (E)"
       },
       "type": "Quality",
-      "alignment": "O is mature in Eu",
+      "alignment": "O is mature",
       "semantics": [
         "adult",
         "grown-up",
@@ -15566,7 +15566,7 @@
       "def": "rot",
       "gloss": "bad-decay",
       "type": "Quality",
-      "alignment": "O rots away in Eu",
+      "alignment": "O rots away",
       "semantics": [
         "rotten",
         "decaying",
@@ -15712,7 +15712,7 @@
         "ko": "perfect"
       },
       "type": "Quality",
-      "alignment": "O is in order in Eu",
+      "alignment": "O is in order",
       "semantics": [
         "orderly",
         "organized",
@@ -15802,7 +15802,7 @@
       "def": "team",
       "gloss": "do-group",
       "type": "Quality",
-      "alignment": "O (mass) is a team in Eu",
+      "alignment": "O (mass) is a team",
       "semantics": [
         "group",
         "partnership",
@@ -15838,7 +15838,7 @@
       "word": "Zúlu",
       "def": "Zulu",
       "type": "Quality",
-      "alignment": "O is Zulu in Eu",
+      "alignment": "O is Zulu",
       "semantics": [
         "umZulu",
         "isiZulu",
