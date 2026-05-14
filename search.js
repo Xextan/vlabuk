@@ -87,13 +87,16 @@ function pos(e) {
   if (e.word.includes(" ") || hasPrefixes(e, SERIAL_PREFIXES)) {
     return "serial";
   }
-  if (hasPrefixes(e, COMPOUND_PREFIXES) || hasSuffixes(e, SUFFIXES))
+  if (hasPrefixes(e, [...COMPOUND_PREFIXES, "bu"]) || hasSuffixes(e, SUFFIXES))
     return "pseudocompound";
   if (e.gloss)
     return "compound"; // true
-    if (/^([bdfgklnpqstvxz][aeiou][klnpt]|([zq][bdgln]|[sx][ptkln]|[pbkgfv]l|d[zq]|t[sx])[aeiou])$/.test(e.word))
+  if (/^([bdfgklnpqstvxz][aeiou][klnpt]|([zq][bdgln]|[sx][ptkln]|[pbkgfv]l|d[zq]|t[sx])[aeiou])$/.test(e.word))
     return "root";
-  if (/^.{0,2}[áéíóú]/iu.test(e.word) || e.alignment)
+  if (
+    /^.{0,2}[áéíóú]/iu.test(e.word)
+    || /^[bdfgklnpqstvxz][aeiou]\u{0301}?[fsxvqz][bdfgklnpqstvxz][aeiou][ptkln]/iu.test(e.word.normalize("NFD"))
+  )
     return "freeword";
   if (e.type)
     return "particle";
