@@ -167,7 +167,7 @@ function derive(w, a) {
   if (SUFFIXES.includes(a)) {
     return w + a;
   } else {
-    return a + w.replace("a", "á").replace("e", "é").replace("i", "í").replace("o", "ó").replace("u", "ú");
+      return a + w.replace(/[aeiou]/g, "$&\u{0301}".normalize("NFC"));
   }
 }
 function url(e) {
