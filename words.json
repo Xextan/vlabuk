@@ -1867,6 +1867,19 @@
       }
     },
     {
+      "word": "dup",
+      "def": "sink",
+      "semantics": [
+        "immerse",
+        "soak"
+      ],
+      "etymology": {
+        "lang": "Hindi",
+        "word": "डूब",
+        "translit": "ḍūb"
+      }
+    },
+    {
       "word": "dut",
       "def": "worm",
       "semantics": [
@@ -2275,7 +2288,7 @@
       ]
     },
     {
-      "word": "fangot",
+      "word": "fanvat",
       "def": "return",
       "gloss": "return-go",
       "type": "Direction",
@@ -3200,7 +3213,7 @@
       }
     },
     {
-      "word": "galgot",
+      "word": "galvat",
       "def": "ascend",
       "gloss": "above-go",
       "type": "Direction",
@@ -3734,41 +3747,11 @@
     },
     {
       "word": "got",
-      "def": "move",
-      "type": "Direction",
-      "alignment": "O moves to E from A",
-      "semantics": [
-        "go",
-        "travel",
-        "pass"
-      ],
+      "def": "cooperate",
       "etymology": {
         "lang": "Loglan",
-        "word": "god ← godzi"
+        "word": "got ← gotri"
       }
-    },
-    {
-      "word": "gotkon",
-      "def": "wind",
-      "gloss": "move-air",
-      "type": "Entity",
-      "alignment": "O is wind",
-      "semantics": [
-        "breeze",
-        "gale",
-        "gust"
-      ]
-    },
-    {
-      "word": "gotsli",
-      "def": "animation",
-      "gloss": "move-image",
-      "type": "Entity",
-      "alignment": "O is an animation",
-      "semantics": [
-        "cartoon",
-        "anime"
-      ]
     },
     {
       "word": "gu",
@@ -6919,7 +6902,12 @@
       ]
     },
     {
-      "word": "nengot",
+      "word": "nenskuvla",
+      "def": "interjection",
+      "gloss": "inside-speech-word"
+    },
+    {
+      "word": "nenvat",
       "def": "enter",
       "gloss": "inside-move",
       "type": "Direction",
@@ -6928,11 +6916,6 @@
         "go into",
         "cross threshold of"
       ]
-    },
-    {
-      "word": "nenskuvla",
-      "def": "interjection",
-      "gloss": "inside-speech-word"
     },
     {
       "word": "nep",
@@ -6949,7 +6932,19 @@
       }
     },
     {
-      "word": "nepgot",
+      "word": "nepvak",
+      "def": "airplane",
+      "gloss": "sky-vehicle",
+      "type": "Junction",
+      "alignment": "O is an airplane made of E",
+      "semantics": [
+        "aircraft",
+        "plane",
+        "helicopter"
+      ]
+    },
+    {
+      "word": "nepvat",
       "def": "fly",
       "gloss": "sky-move",
       "type": "Direction",
@@ -6962,7 +6957,7 @@
       ]
     },
     {
-      "word": "nepgotpip",
+      "word": "nepvatpip",
       "def": "rocket",
       "gloss": "sky-move-pipe",
       "type": "Junction",
@@ -6972,18 +6967,6 @@
         "projectile"
       ],
       "notes": "for vehicle, see «pipvak»"
-    },
-    {
-      "word": "nepvak",
-      "def": "airplane",
-      "gloss": "sky-vehicle",
-      "type": "Junction",
-      "alignment": "O is an airplane made of E",
-      "semantics": [
-        "aircraft",
-        "plane",
-        "helicopter"
-      ]
     },
     {
       "word": "net",
@@ -12409,6 +12392,21 @@
       }
     },
     {
+      "word": "vat",
+      "def": "move",
+      "type": "Direction",
+      "alignment": "O moves to E from A",
+      "semantics": [
+        "go",
+        "travel",
+        "pass"
+      ],
+      "etymology": {
+        "lang": "Latin",
+        "word": "vadēre"
+      }
+    },
+    {
       "word": "Vátígil",
       "def": "Vötgil",
       "type": "Quality",
@@ -12420,6 +12418,29 @@
         "lang": "Vötgil",
         "word": "Vötgil"
       }
+    },
+    {
+      "word": "vatkon",
+      "def": "wind",
+      "gloss": "move-air",
+      "type": "Entity",
+      "alignment": "O is wind",
+      "semantics": [
+        "breeze",
+        "gale",
+        "gust"
+      ]
+    },
+    {
+      "word": "vatsli",
+      "def": "animation",
+      "gloss": "move-image",
+      "type": "Entity",
+      "alignment": "O is an animation",
+      "semantics": [
+        "cartoon",
+        "anime"
+      ]
     },
     {
       "word": "váuzin",
@@ -14724,17 +14745,6 @@
       ]
     },
     {
-      "word": "xutgot",
-      "def": "swim",
-      "gloss": "water-move",
-      "type": "Direction",
-      "alignment": "O swims from E to A",
-      "semantics": [
-        "paddle",
-        "float"
-      ]
-    },
-    {
       "word": "xutpol",
       "def": "snow",
       "gloss": "water-powder",
@@ -14812,6 +14822,17 @@
         "canoe",
         "kayak",
         "boatboatboat"
+      ]
+    },
+    {
+      "word": "xutvat",
+      "def": "swim",
+      "gloss": "water-move",
+      "type": "Direction",
+      "alignment": "O swims from E to A",
+      "semantics": [
+        "paddle",
+        "float"
       ]
     },
     {
@@ -15300,18 +15321,6 @@
       }
     },
     {
-      "word": "zgigot",
-      "def": "dance",
-      "gloss": "music-move",
-      "type": "Relation",
-      "alignment": "O dances to E in Au",
-      "semantics": [
-        "prance",
-        "jig",
-        "gyrate"
-      ]
-    },
-    {
       "word": "zgitak",
       "def": "sing",
       "gloss": "music-talk",
@@ -15329,6 +15338,18 @@
       "gloss": "music-tool",
       "type": "Junction",
       "alignment": "O is a musical instrument made of E"
+    },
+    {
+      "word": "zgivat",
+      "def": "dance",
+      "gloss": "music-move",
+      "type": "Relation",
+      "alignment": "O dances to E in Au",
+      "semantics": [
+        "prance",
+        "jig",
+        "gyrate"
+      ]
     },
     {
       "word": "zgo",
@@ -15537,6 +15558,19 @@
         "lang": "Czech",
         "word": "zletilý"
       }
+    },
+    {
+      "word": "zli",
+      "def": "imaginary",
+      "derivs": {
+        "xo": "imagination",
+        "ko": "imaginative, creative",
+        "zu": "imagine"
+      },
+      "semantics": [
+        "fantasy"
+      ],
+      "etymology": "«sli» + the z from 'zash' [todo: link]"
     },
     {
       "word": "zlo",
