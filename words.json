@@ -1090,7 +1090,7 @@
     {
       "word": "danglu",
       "def": "mortar",
-      "gloss": "building-sticky",
+      "gloss": "building-paste",
       "type": "Junction",
       "alignment": "O is mortar made of E",
       "semantics": [
@@ -3601,12 +3601,12 @@
     },
     {
       "word": "glu",
-      "def": "sticky",
+      "def": "paste",
       "type": "Quality",
-      "alignment": "O is sticky",
+      "alignment": "O is paste/dough/goop",
       "semantics": [
-        "tacky",
-        "glue",
+        "dough",
+        "goop",
         "gooey"
       ],
       "etymology": {
@@ -5997,30 +5997,6 @@
         "lang": "Loglan",
         "word": "lit ← litla"
       }
-    },
-    {
-      "word": "litska",
-      "def": "color",
-      "derivs": {
-        "xo": "color [n.]"
-      },
-      "gloss": "light-qualia",
-      "type": "Junction",
-      "alignment": "O has color E",
-      "semantics": [
-        "colored"
-      ]
-    },
-    {
-      "word": "litskaxo",
-      "def": "color",
-      "gloss": "light-qualia-PAT",
-      "type": "Junction",
-      "alignment": "O is color of E",
-      "semantics": [
-        "shade",
-        "hue"
-      ]
     },
     {
       "word": "littan",
@@ -10152,61 +10128,139 @@
     },
     {
       "word": "ska",
-      "def": "qualia",
-      "derivs": {
-        "ko": "stimulus (J)"
-      },
+      "def": "color",
       "type": "Quality",
-      "alignment": "O has qualia Eu",
-      "semantics": [
-        "sensation",
-        "color",
-        "timbre",
-        "taste",
-        "texture",
-        "vibe",
-        "mood"
-      ],
       "etymology": {
         "lang": "Lojban",
         "word": "ska ← skari"
+      }
+    },
+    {
+      "word": "ski",
+      "def": "image",
+      "derivs": {
+        "ko": "duplicate"
       },
-      "notes": "more specific than \"color\"; cf. «litska» (\"color [of light]\"); «txiska» (\"flavor\")"
-    },
-    {
-      "word": "skako",
-      "def": "stimulus",
-      "gloss": "qualia-AG",
-      "type": "Quality",
-      "alignment": "O is stimulus",
-      "semantics": [
-        "catalyst",
-        "impetus"
-      ],
-      "notes": "felt by FAI"
-    },
-    {
-      "word": "skalil",
-      "def": "sense",
-      "gloss": "qualia-experience",
-      "type": "Quality",
-      "alignment": "O senses Eu",
-      "semantics": [
-        "feel sensation",
-        "experience"
-      ],
-      "notes": "see also «fil»"
-    },
-    {
-      "word": "skaxo",
-      "def": "sensation",
-      "gloss": "qualia-PAT",
       "type": "Junction",
-      "alignment": "O is sensation of/caused by E",
+      "alignment": "O is an image of Eu",
       "semantics": [
-        "feeling",
-        "experience"
+        "copy",
+        "likeness",
+        "duplicate",
+        "recreation"
+      ],
+      "etymology": {
+        "lang": "German",
+        "word": "Skizze"
+      }
+    },
+    {
+      "word": "skiflu",
+      "def": "video",
+      "gloss": "image-flow",
+      "type": "Junction",
+      "alignment": "O is video of E",
+      "semantics": [
+        "film",
+        "broadcast"
       ]
+    },
+    {
+      "word": "skipal",
+      "def": "copy",
+      "gloss": "image-make",
+      "type": "Junction",
+      "alignment": "O makes copy of E",
+      "semantics": [
+        "duplicate",
+        "print"
+      ]
+    },
+    {
+      "word": "skipaltik",
+      "def": "printer",
+      "gloss": "image-make-machine",
+      "type": "Junction",
+      "alignment": "O is a printer made of E",
+      "semantics": [
+        "copy machine",
+        "copier",
+        "scanner",
+        "printing press"
+      ]
+    },
+    {
+      "word": "skipaltul",
+      "def": "camera",
+      "gloss": "image-make-tool",
+      "type": "Junction",
+      "alignment": "O is a camera made of E",
+      "semantics": [
+        "camcorder",
+        "webcam",
+        "recorder"
+      ]
+    },
+    {
+      "word": "skipalxo",
+      "def": "copy",
+      "gloss": "image-make-PAT",
+      "type": "Junction",
+      "alignment": "O is a copy of E",
+      "semantics": [
+        "duplicate",
+        "xerox",
+        "printing",
+        "forgery"
+      ]
+    },
+    {
+      "word": "skipat",
+      "def": "draw",
+      "gloss": "image-write",
+      "type": "Direction",
+      "alignment": "O draws E on A",
+      "semantics": [
+        "sketch",
+        "paint"
+      ]
+    },
+    {
+      "word": "skixpi",
+      "def": "pretend",
+      "gloss": "image-play",
+      "type": "Relation",
+      "alignment": "O pretends to be E in Au",
+      "semantics": [
+        "act",
+        "dramatize",
+        "charade"
+      ]
+    },
+    {
+      "word": "skizu",
+      "def": "act",
+      "gloss": "image-AG",
+      "type": "Quality",
+      "alignment": "O acts as Eu",
+      "semantics": [
+        "play role",
+        "pretend at",
+        "play at"
+      ]
+    },
+    {
+      "word": "sko",
+      "def": "scrape",
+      "type": "Junction",
+      "semantics": [
+        "rub"
+      ],
+      "etymology": {
+        "lang": "Ukrainian",
+        "word": "скоблити",
+        "translit": "skoblyty"
+      }
     },
     {
       "word": "sku",
@@ -10258,117 +10312,15 @@
     },
     {
       "word": "sli",
-      "def": "image",
-      "derivs": {
-        "ko": "duplicate"
-      },
-      "type": "Junction",
-      "alignment": "O is an image of Eu",
+      "def": "slippery",
+      "type": "Quality",
       "semantics": [
-        "copy",
-        "likeness",
-        "duplicate",
-        "recreation"
+        "slick"
       ],
       "etymology": {
-        "lang": "Slovene",
-        "word": "slika"
+        "lang": "Lativan",
+        "word": "slidens"
       }
-    },
-    {
-      "word": "sliflu",
-      "def": "video",
-      "gloss": "image-flow",
-      "type": "Junction",
-      "alignment": "O is video of E",
-      "semantics": [
-        "film",
-        "broadcast"
-      ]
-    },
-    {
-      "word": "slipal",
-      "def": "copy",
-      "gloss": "image-make",
-      "type": "Junction",
-      "alignment": "O makes copy of E",
-      "semantics": [
-        "duplicate",
-        "print"
-      ]
-    },
-    {
-      "word": "slipaltik",
-      "def": "printer",
-      "gloss": "image-make-machine",
-      "type": "Junction",
-      "alignment": "O is a printer made of E",
-      "semantics": [
-        "copy machine",
-        "copier",
-        "scanner",
-        "printing press"
-      ]
-    },
-    {
-      "word": "slipaltul",
-      "def": "camera",
-      "gloss": "image-make-tool",
-      "type": "Junction",
-      "alignment": "O is a camera made of E",
-      "semantics": [
-        "camcorder",
-        "webcam",
-        "recorder"
-      ]
-    },
-    {
-      "word": "slipalxo",
-      "def": "copy",
-      "gloss": "image-make-PAT",
-      "type": "Junction",
-      "alignment": "O is a copy of E",
-      "semantics": [
-        "duplicate",
-        "xerox",
-        "printing",
-        "forgery"
-      ]
-    },
-    {
-      "word": "slipat",
-      "def": "draw",
-      "gloss": "image-write",
-      "type": "Direction",
-      "alignment": "O draws E on A",
-      "semantics": [
-        "sketch",
-        "paint"
-      ]
-    },
-    {
-      "word": "slixpi",
-      "def": "pretend",
-      "gloss": "image-play",
-      "type": "Relation",
-      "alignment": "O pretends to be E in Au",
-      "semantics": [
-        "act",
-        "dramatize",
-        "charade"
-      ]
-    },
-    {
-      "word": "slizu",
-      "def": "act",
-      "gloss": "image-AG",
-      "type": "Quality",
-      "alignment": "O acts as Eu",
-      "semantics": [
-        "play role",
-        "pretend at",
-        "play at"
-      ]
     },
     {
       "word": "slo",
@@ -10623,7 +10575,7 @@
       ]
     },
     {
-      "word": "sonsli",
+      "word": "sonski",
       "def": "audio recording",
       "gloss": "sound-image"
     },
@@ -12127,17 +12079,6 @@
       ]
     },
     {
-      "word": "txiska",
-      "def": "flavor",
-      "gloss": "eat-qualia",
-      "type": "Junction",
-      "alignment": "O has flavor E",
-      "semantics": [
-        "taste",
-        "terroir"
-      ]
-    },
-    {
       "word": "txitxu",
       "def": "hungry",
       "gloss": "food-need",
@@ -12386,7 +12327,7 @@
       ],
       "etymology": {
         "lang": "Loglan",
-        "word": "-vap- ← valpu"
+        "word": "vap ← valpu"
       },
       "notes": {
         "EVIL_DANGEROUS_HTML": "<img src='img/vap-for-wave.png' />"
@@ -12433,7 +12374,7 @@
       ]
     },
     {
-      "word": "vatsli",
+      "word": "vatski",
       "def": "animation",
       "gloss": "move-image",
       "type": "Entity",
@@ -13008,6 +12949,18 @@
           "word": "vlákno"
         }
       ]
+    },
+    {
+      "word": "vlu",
+      "def": "taste",
+      "type": "Quality",
+      "semantics": [
+        "smell"
+      ],
+      "etymology": {
+        "lang": "Lojban",
+        "word": "vrusi"
+      }
     },
     {
       "word": "vo",
@@ -14535,7 +14488,7 @@
     {
       "word": "xtoglu",
       "def": "asphalt",
-      "gloss": "stone-sticky",
+      "gloss": "stone-paste",
       "type": "Junction",
       "alignment": "O is asphalt of E",
       "semantics": [
@@ -15164,7 +15117,7 @@
       ]
     },
     {
-      "word": "zeksli",
+      "word": "zekski",
       "def": "chart",
       "gloss": "explain-image",
       "type": "Junction",
@@ -15908,7 +15861,7 @@
     {
       "word": "zutglu",
       "def": "syrup",
-      "gloss": "sweet-sticky",
+      "gloss": "sweet-paste",
       "type": "Junction",
       "alignment": "O is syrup of E",
       "semantics": [
