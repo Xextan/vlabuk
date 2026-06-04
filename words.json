@@ -8841,6 +8841,19 @@
       }
     },
     {
+      "word": "qdu",
+      "def": "depart",
+      "semantics": [
+        "leave",
+        "disappear",
+        "vanish"
+      ],
+      "etymology": {
+        "lang": "Albanian",
+        "word": "zhdukem"
+      }
+    },
+    {
       "word": "qe",
       "def": "logical connective: AND",
       "type": "Connective",
@@ -13444,6 +13457,17 @@
       "etymology": {
         "lang": "Lojban",
         "word": "ce'u"
+      }
+    },
+    {
+      "word": "xek",
+      "def": "arrive",
+      "semantics": [
+        "appear"
+      ],
+      "etymology": {
+        "lang": "Portuguese",
+        "word": "chegar"
       }
     },
     {

@@ -200,6 +200,7 @@ qbo	complex
 qbu	table
 qde	wait
 qdi	decrease
+qdu	depart
 qel	solid
 qen	simple
 qet	true
@@ -319,6 +320,7 @@ vut	explode
 xak	hand
 xal	small
 xan	mountain
+xek	arrive
 xel	full
 xen	begin
 xep	divide
