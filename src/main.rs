@@ -16,17 +16,16 @@ struct Dictionary {
     pub data: Vec<Word>,
 }
 #[derive(Debug, Clone, Serialize, Deserialize)]
-#[allow(clippy::struct_field_names)]
 struct Word {
+    #[allow(clippy::struct_field_names, reason = "it's the word")]
     word: String,
     def: String,
     #[serde(skip_serializing_if = "Option::is_none")]
     derivs: Option<Derivs>,
     #[serde(skip_serializing_if = "Option::is_none")]
     gloss: Option<String>,
-    #[serde(skip_serializing_if = "Option::is_none")]
-    #[serde(rename = "type")]
-    word_type: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none", rename = "type")]
+    typ: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
     alignment: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
