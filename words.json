@@ -486,6 +486,18 @@
       }
     },
     {
+      "word": "bep",
+      "def": "change",
+      "semantics": [
+        "vary"
+      ],
+      "etymology": {
+        "lang": "Toaq",
+        "word": "beo"
+      },
+      "notes": "cf Lojban {cenba}"
+    },
+    {
       "word": "bésklróda",
       "def": "besklroda",
       "type": "Entity",
@@ -871,7 +883,7 @@
         "word": "不",
         "translit": "bù"
       },
-      "notes": "& inside-out"
+      "notes": "& inside-out. cf Lojban {dukti}"
     },
     {
       "word": "bulúp",
@@ -1809,6 +1821,11 @@
         "word": "懂",
         "translit": "dǒng"
       }
+    },
+    {
+      "word": "dunkol",
+      "def": "obvious",
+      "gloss": "know-easy"
     },
     {
       "word": "dunsil",
@@ -3302,6 +3319,18 @@
       "type": "Preposition",
       "etymology": "backformed from «gen»",
       "notes": "compared to, moreso than, with reference point"
+    },
+    {
+      "word": "gek",
+      "def": "across",
+      "semantics": [
+        "opposite"
+      ],
+      "etymology": {
+        "lang": "German",
+        "word": "gegenüber"
+      },
+      "notes": "on the order side of. cf Lojban {ragve}"
     },
     {
       "word": "gel",
@@ -7710,6 +7739,15 @@
       }
     },
     {
+      "word": "patban",
+      "def": "orthography",
+      "gloss": "write-encode",
+      "semantics": [
+        "writing system",
+        "alphabet etc"
+      ]
+    },
+    {
       "word": "patlap",
       "def": "notepad",
       "gloss": "write-sheet",
@@ -8097,6 +8135,19 @@
       "etymology": {
         "lang": "French",
         "word": "pipe"
+      }
+    },
+    {
+      "word": "pla",
+      "def": "mix",
+      "semantics": [
+        "combine",
+        "fuse",
+        "join"
+      ],
+      "etymology": {
+        "lang": "Icelandic",
+        "word": "blanda"
       }
     },
     {
@@ -9352,6 +9403,11 @@
         "lang": "Czech",
         "word": "žlutý"
       }
+    },
+    {
+      "word": "qluvel",
+      "def": "orange",
+      "gloss": "yellow-red"
     },
     {
       "word": "qna",
