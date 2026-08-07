@@ -8897,7 +8897,8 @@
       "semantics": [
         "leave",
         "disappear",
-        "vanish"
+        "vanish",
+        "escape"
       ],
       "etymology": {
         "lang": "Albanian",
@@ -13032,6 +13033,15 @@
       }
     },
     {
+      "word": "vlulik",
+      "def": "sauce",
+      "gloss": "taste-liquid",
+      "semantics": [
+        "liquid condiment",
+        "gravy"
+      ]
+    },
+    {
       "word": "vo",
       "def": "2nd person pronoun",
       "type": "Pronoun",
@@ -13803,6 +13813,15 @@
         "translit": "shin"
       },
       "notes": "see also «xíláti» (O is core/fundamental essence of Eu)"
+    },
+    {
+      "word": "xinsil",
+      "def": "brave",
+      "gloss": "heart-strong",
+      "semantics": [
+        "confident",
+        "courageous"
+      ]
     },
     {
       "word": "xinvol",
