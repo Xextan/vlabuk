@@ -10920,6 +10920,21 @@
       }
     },
     {
+      "word": "suk",
+      "def": "juice",
+      "etymology": [
+        {
+          "lang": "Esperanto",
+          "word": "suko"
+        },
+        "←",
+        {
+          "lang": "Latin",
+          "word": "sucus"
+        }
+      ]
+    },
+    {
       "word": "sul",
       "def": "gray/grey",
       "semantics": [
