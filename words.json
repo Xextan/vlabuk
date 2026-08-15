@@ -5891,6 +5891,7 @@
     {
       "word": "lik",
       "def": "liquid",
+      "derivs": {},
       "type": "Entity",
       "alignment": "O is a liquid",
       "semantics": [
@@ -6935,6 +6936,16 @@
         "lang": "Czech",
         "word": "nebe"
       }
+    },
+    {
+      "word": "nepson",
+      "def": "thunder",
+      "gloss": "sky-sound"
+    },
+    {
+      "word": "neptxa",
+      "def": "lightning",
+      "gloss": "sky-electricity"
     },
     {
       "word": "nepvak",
@@ -12123,6 +12134,11 @@
       ]
     },
     {
+      "word": "txazul",
+      "def": "thunderstorm",
+      "gloss": "electric-weather"
+    },
+    {
       "word": "txe",
       "def": "excess",
       "derivs": {
@@ -12855,6 +12871,14 @@
         "screen",
         "monitor"
       ]
+    },
+    {
+      "word": "vinxut",
+      "def": "tear (from an eye)",
+      "derivs": {
+        "zu": "cry"
+      },
+      "gloss": "see-water"
     },
     {
       "word": "vip",
