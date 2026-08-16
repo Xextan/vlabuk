@@ -29,10 +29,14 @@ function search(q) {
     if (exact) {
       results.push([exact, 10]);
     }
+      const exactDeriv = derivIndex.get(deaccent(w));
+      if (exactDeriv) {
+          results.push([exactDeriv.parent, 9]);
+      }
   }
-  for (const entry of dict) {
     const rgx = q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     const regex = `(\\b|\\W|^)${rgx}(\\b|\\W|$)`;
+  for (const entry of dict) {
     if (entry.def && entry.def.toLowerCase() == q) {
       results.push([entry, 2]);
     }
@@ -46,6 +50,14 @@ function search(q) {
       results.push([entry, 1]);
     }
   }
+      for (const [derivedWord, info] of derivIndex) {
+          if (derivedWord.startsWith(deaccent(q))) {
+              results.push([info.parent, 0.5]);
+          }
+          if (new RegExp(regex, "iu").test(info.def)) {
+              results.push([info.parent, 0.5]);
+          }
+      }
   return dedup(results);
 }
 function dedup(list) {
@@ -170,6 +182,17 @@ function derive(w, a) {
   } else {
       return a + w.replace(/[aeiou]/g, "$&\u{0301}".normalize("NFC"));
   }
+}
+let derivIndex = new Map();
+for (const entry of dict) {
+    if (entry.derivs) {
+        for (const [affix, def] of Object.entries(entry.derivs)) {
+            if (def) {
+                const derived = derive(entry.word, affix);
+                derivIndex.set(deaccent(derived.toLowerCase()), {parent: entry, affix, def, derived});
+            }
+        }
+    }
 }
 function url(e) {
   var url;
