@@ -6,131 +6,145 @@ let PREFIXES = [...SERIAL_PREFIXES, ...COMPOUND_PREFIXES];
 let SUFFIXES = ["ko", "xo", "sa", "se", "si", "zu", "zi"];
 let AFFIXES = [...PREFIXES, ...SUFFIXES];
 document.getElementById("pickle").addEventListener("change", function() {
-  document.documentElement.classList.toggle("pickle");
+    document.documentElement.classList.toggle("pickle");
 });
 document.getElementById("search").addEventListener("input", function() {
-  let q = document.getElementById("search").value.trim().toLowerCase().normalize("NFC");
-  const params = new URLSearchParams(window.location.search);
-  params.set("q", q);
-  if (q) history.replaceState(null, null, "?" + params.toString());
-  let r = search(q).sort((a, b) => b[1] - a[1]).map(e => htmlify(e[0]));
-  document.getElementById("results").innerHTML = "";
-  document.getElementById("results").append(...r);
-  document.getElementById("len").innerHTML = r.length + " result" + (r.length != 1 ? "s" : "");
+    let q = document.getElementById("search").value.trim().toLowerCase().normalize("NFC");
+    const params = new URLSearchParams(window.location.search);
+    params.set("q", q);
+    if (q) history.replaceState(null, null, "?" + params.toString());
+    let r = search(q).sort((a, b) => b[1] - a[1]).map(e => htmlify(e[0]));
+    document.getElementById("results").innerHTML = "";
+    document.getElementById("results").append(...r);
+    document.getElementById("len").innerHTML = r.length + " result" + (r.length != 1 ? "s" : "");
 });
 function deaccent(s) {
-  return s.replace(/[‘’]/g, "'").normalize("NFD").replace(/[\u0301\u0302\u0303]/g, "");
+    return s.replace(/[‘’]/g, "'").normalize("NFD").replace(/[\u0301\u0302\u0303]/g, "");
 }
 function search(q) {
-  // kinda stolen from xlasisku lol
-  var results = [];
-  for (const w of q.split(/\s+/)) {
-    const exact = dict.find(e => deaccent(e.word.toLowerCase()) == deaccent(w));
-    if (exact) {
-      results.push([exact, 10]);
+    // kinda stolen from xlasisku lol
+    var results = [];
+    for (const w of q.split(/\s+/)) {
+        const exact = dict.find(e => deaccent(e.word.toLowerCase()) == deaccent(w));
+        if (exact) {
+            results.push([exact, 10]);
+        }
+        const exactDeriv = derivIndex.get(deaccent(w));
+        if (exactDeriv) {
+            results.push([exactDeriv.parent, 9]);
+        }
     }
-      const exactDeriv = derivIndex.get(deaccent(w));
-      if (exactDeriv) {
-          results.push([exactDeriv.parent, 9]);
-      }
-  }
     const rgx = q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     const regex = `(\\b|\\W|^)${rgx}(\\b|\\W|$)`;
-  for (const entry of dict) {
-    if (entry.def && entry.def.toLowerCase() == q) {
-      results.push([entry, 2]);
+    for (const entry of dict) {
+        if (entry.def && entry.def.toLowerCase() == q) {
+            results.push([entry, 2]);
+        }
+        if (
+            [entry.def, entry.alignment, ...(entry.semantics || []), entry.xo, entry.ko]
+                .some(e => new RegExp(regex, "iu").test(e))
+        ) {
+            results.push([entry, 1]);
+        }
+        if (
+            deaccent(entry.word.toLowerCase()).startsWith(deaccent(q))
+                || deaccent(entry.word.toLowerCase()).includes(deaccent(q))
+                || (entry.semantics || []).some(e => e.toLowerCase().startsWith(q))
+        ) {
+            results.push([entry, 1]);
+        }
+        if (entry.notes && new RegExp(regex, "iu").test(entry.notes)) {
+            results.push([entry, 1]);
+        }
     }
-    if ([entry.def, entry.alignment, ...(entry.semantics || []), entry.xo, entry.ko].some(e => new RegExp(regex, "iu").test(e))) {
-      results.push([entry, 1]);
+    for (const [derivedWord, info] of derivIndex) {
+        if (derivedWord.startsWith(deaccent(q))) {
+            results.push([info.parent, 0.5]);
+        }
+        if (new RegExp(regex, "iu").test(info.def)) {
+            results.push([info.parent, 0.5]);
+        }
     }
-    if (deaccent(entry.word.toLowerCase()).startsWith(deaccent(q)) || deaccent(entry.word.toLowerCase()).includes(deaccent(q)) || (entry.semantics || []).some(e => e.toLowerCase().startsWith(q))) {
-      results.push([entry, 1]);
-    }
-    if (entry.notes && new RegExp(regex, "iu").test(entry.notes)) {
-      results.push([entry, 1]);
-    }
-  }
-      for (const [derivedWord, info] of derivIndex) {
-          if (derivedWord.startsWith(deaccent(q))) {
-              results.push([info.parent, 0.5]);
-          }
-          if (new RegExp(regex, "iu").test(info.def)) {
-              results.push([info.parent, 0.5]);
-          }
-      }
-  return dedup(results);
+    return dedup(results);
 }
 function dedup(list) {
-  var list = list.sort((a, b) => b[1] - a[1]);
-  const logged = {};
-  list = list.filter(entry => {
-    if (logged[entry[0].word]) return false;
-    logged[entry[0].word] = true;
-    return true;
-  });
-  return list;
+    var list = list.sort((a, b) => b[1] - a[1]);
+    const logged = {};
+    list = list.filter(entry => {
+        if (logged[entry[0].word]) return false;
+        logged[entry[0].word] = true;
+        return true;
+    });
+    return list;
 }
 const initial = new URLSearchParams(window.location.search).get("q");
 if (initial) document.getElementById("search").value = initial;
 document.getElementById("search").dispatchEvent(new Event("input", {bubbles: true}));
 function mkelem(tag, props, children) {
-  const element = document.createElement(tag);
-  Object.assign(element, props);
-  for (const child of children) {
-    if (child) {
-      element.append(child);
+    const element = document.createElement(tag);
+    Object.assign(element, props);
+    for (const child of children) {
+        if (child) {
+            element.append(child);
+        }
     }
-  }
-  return element;
+    return element;
 }
 function hasPrefixes(e, a) {
-  return a.some(p =>
-    e.word.startsWith(p)
-    && !["bad", "particle"].includes(pos(dict.find(x => deaccent(x.word) == deaccent(e.word.slice(2))) ?? { word: "" }))
-  );
+    return a.some(p =>
+        e.word.startsWith(p)
+            && !["bad", "particle"].includes(pos(dict.find(
+                x => deaccent(x.word) == deaccent(e.word.slice(2))
+            ) ?? { word: "" }))
+    );
 }
 function hasSuffixes(e, a) {
-  return a.some(p =>
-    e.word.endsWith(p)
-    && !["bad", "particle"].includes(pos(dict.find(x => deaccent(x.word) == deaccent(e.word.slice(0, -2))) ?? { word: "" }))
-  );
+    return a.some(p =>
+        e.word.endsWith(p)
+            && !["bad", "particle"].includes(pos(dict.find(
+                x => deaccent(x.word) == deaccent(e.word.slice(0, -2))
+            ) ?? { word: "" }))
+    );
 }
 function pos(e) {
-  if (e.word.includes(" ") || hasPrefixes(e, SERIAL_PREFIXES)) {
-    return "serial";
-  }
-  if (hasPrefixes(e, [...COMPOUND_PREFIXES, "bu"]) || hasSuffixes(e, SUFFIXES))
-    return "pseudocompound";
-  if (e.gloss)
-    return "compound"; // true
-  if (/^([bdfgklnpqstvxz][aeiou][klnpt]|([zq][bdgln]|[sx][ptkln]|[pbkgfv]l|d[zq]|t[sx])[aeiou])$/.test(e.word))
-    return "root";
-  if (
-    /^.{0,2}[áéíóú]/iu.test(e.word)
-    || /^[bdfgklnpqstvxz][aeiou]\u{0301}?[fsxvqz][bdfgklnpqstvxz][aeiou][ptkln]/iu.test(e.word.normalize("NFD"))
-  )
-    return "freeword";
-  if (e.type)
-    return "particle";
-  return "bad";
+    if (e.word.includes(" ") || hasPrefixes(e, SERIAL_PREFIXES)) {
+        return "serial";
+    }
+    if (hasPrefixes(e, [...COMPOUND_PREFIXES, "bu"]) || hasSuffixes(e, SUFFIXES))
+        return "pseudocompound";
+    if (e.gloss)
+        return "compound"; // true
+    if (/^([bdfgklnpqstvxz][aeiou][klnpt]|([zq][bdgln]|[sx][ptkln]|[pbkgfv]l|d[zq]|t[sx])[aeiou])$/.test(e.word))
+        return "root";
+    if (
+        /^.{0,2}[áéíóú]/iu.test(e.word)
+            || /^[bdfgklnpqstvxz][aeiou]\u{0301}?[fsxvqz][bdfgklnpqstvxz][aeiou][ptkln]/iu.test(
+                e.word.normalize("NFD")
+            )
+    )
+        return "freeword";
+    if (e.type)
+        return "particle";
+    return "bad";
 }
 function htmlify(entry) {
-  let etym_content = entry.etymology ? mkelem("p", {}, [
-    mkelem("span", { "className": "h" }, ["Etymology: "]),
-    ...(Array.isArray(entry.etymology) ? entry.etymology : [entry.etymology]).map(e => typeof e == "string" ? [` ${e} `] : [
-      e.lang,
-      " ",
-      e.link ?? true ? mkelem("a", { "href": url(e) }, [
-        e.word,
-        " ",
-        mkelem("i", {}, [e.translit])
-      ]) : mkelem("span", {}, [
-        e.word,
-        " ",
-        mkelem("i", {}, [e.translit])
-      ])
-    ]).flat()
-  ]) : null;
+    let etym_content = entry.etymology ? mkelem("p", {}, [
+        mkelem("span", { "className": "h" }, ["Etymology: "]),
+        ...(Array.isArray(entry.etymology) ? entry.etymology : [entry.etymology]).map(
+            e => typeof e == "string" ? [` ${e} `] : [
+                e.lang,
+                " ",
+                e.link ?? true ? mkelem("a", { "href": url(e) }, [
+                    e.word,
+                    " ",
+                    mkelem("i", {}, [e.translit])
+                ]) : mkelem("span", {}, [
+                    e.word,
+                    " ",
+                    mkelem("i", {}, [e.translit])
+                ])
+            ]).flat()
+    ]) : null;
     let d = entry.derivs;
     let derivEntries = d ? Object.entries(d).filter(([_, v]) => v) : [];
     let derivs = derivEntries.length ? mkelem("p", {}, [
@@ -142,46 +156,51 @@ function htmlify(entry) {
         ]).flat()
     ]) : null;
     return mkelem("div", { "className": "entry " + pos(entry) }, [
-    mkelem("p", {}, [
-      mkelem("b", {}, [entry.word]),
-      " ",
-      ...[entry.type ? entry.type.split("-").map(e => mkelem("span", { "className": "type " + e }, [e])) : null].flat(),
-      " ",
-      entry.def,
-      entry.def && entry.alignment ? " – " : null,
-      entry.alignment
-    ]),
-    entry.notes || entry.semantics || entry.etymology || entry.derivs || entry.gloss ? mkelem("div", { "className": "more" }, [
-      entry.gloss ? mkelem("p", {}, [
-        mkelem("span", { "className": "h" }, ["Gloss: "]),
-        entry.gloss
-      ]) : null,
-      entry.semantics ? mkelem("p", {}, [
-        mkelem("span", { "className": "h" }, ["Keywords: "]),
-        entry.semantics.join(", ")
-      ]) : null,
-      derivs,
-      entry.notes ?
         mkelem("p", {}, [
-          mkelem("span", { "className": "h" }, ["Notes: "]),
-          entry.notes.EVIL_DANGEROUS_HTML
-            ? [...new DOMParser().parseFromString(entry.notes.EVIL_DANGEROUS_HTML, "text/html").body.childNodes]
-            : entry.notes
-        ].flat())
-        : null,
-      etym_content
-    ]) : null
-  ].flat());
+            mkelem("b", {}, [entry.word]),
+            " ",
+            ...[
+                entry.type ? entry.type.split("-").map(e => mkelem("span", { "className": "type " + e }, [e])) : null
+            ].flat(),
+            " ",
+            entry.def,
+            entry.def && entry.alignment ? " – " : null,
+            entry.alignment
+        ]),
+        entry.notes || entry.semantics || entry.etymology || entry.derivs || entry.gloss
+            ? mkelem("div", { "className": "more" }, [
+                entry.gloss ? mkelem("p", {}, [
+                    mkelem("span", { "className": "h" }, ["Gloss: "]),
+                    entry.gloss
+                ]) : null,
+                entry.semantics ? mkelem("p", {}, [
+                    mkelem("span", { "className": "h" }, ["Keywords: "]),
+                    entry.semantics.join(", ")
+                ]) : null,
+                derivs,
+                entry.notes ?
+                    mkelem("p", {}, [
+                        mkelem("span", { "className": "h" }, ["Notes: "]),
+                        entry.notes.EVIL_DANGEROUS_HTML
+                            ? [...new DOMParser().parseFromString(
+                                entry.notes.EVIL_DANGEROUS_HTML, "text/html"
+                            ).body.childNodes]
+                            : entry.notes
+                    ].flat())
+                    : null,
+                etym_content
+            ]) : null
+    ].flat());
 }
 function derive(w, a) {
-  // i have no idea what these were for
-  // var i = /(?<![iu])[aeiou]/.exec(w).index;
-  // var v = w.match(/(?<![iu])[aeiou]/);
-  if (SUFFIXES.includes(a)) {
-    return w + a;
-  } else {
-      return a + w.replace(/[aeiou]/g, "$&\u{0301}".normalize("NFC"));
-  }
+    // i have no idea what these were for
+    // var i = /(?<![iu])[aeiou]/.exec(w).index;
+    // var v = w.match(/(?<![iu])[aeiou]/);
+    if (SUFFIXES.includes(a)) {
+        return w + a;
+    } else {
+        return a + w.replace(/[aeiou]/g, "$&\u{0301}".normalize("NFC"));
+    }
 }
 let derivIndex = new Map();
 for (const entry of dict) {
@@ -195,39 +214,41 @@ for (const entry of dict) {
     }
 }
 function url(e) {
-  var url;
-  if (e.link) {
-    url = e.link;
-  } else if (!e.lang) {
-    url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
-  } else if (e.lang == "Loglan") {
-    url = "https://zalduvrai.github.io/?q=" + (e.urlform || e.word.split(" ").slice(-1)[0]);
-  } else if (e.lang.includes("Lojban")) {
-    url = "https://sisku.org?en#" + (e.urlform || (e.word.includes("←") ? e.word.split(" ").slice(-1)[0] : e.word));
-  } else if (e.lang == "Klingon") {
-    url = "https://klingon.wiki/Word/" + (e.urlform || e.word);
-  } else if (e.lang == "Ceqli") {
-    url = "http://ceqli.pbworks.com/w/page/5455969/Ceqli-English%20Glossary";
-  } else if (e.lang == "Volapük") {
-    url = "http://volapük.com/VoEnDictionary-20100830.pdf";
-  } else if (e.lang == "Toki Pona") {
-    url = "https://linku.la/?q=" + e.word;
-  } else if (e.lang == "Japanese") {
-    url = "https://jisho.org/word/" + e.word;
-  } else if (e.lang == "Toaq") {
-    url = "https://toadua.uakci.space/#=" + e.word;
-  } else if (e.lang == "Proto-Indo-European") {
-    url = "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/" + e.word.slice(1);
-  } else if (e.lang == "Vötgil") {
-    url = "http://www.ostracodfiles.com/votgil/guide.html";
-  } else if (e.lang == "American Sign Language") {
-    url = "https://www.signasl.org/sign/" + e.word.toLowerCase();
-  } else if (e.lang == "Cherokee" && +e.urlform) {
-    url = "https://www.cherokeedictionary.net/share/" + e.urlform;
-  } else if (e.lang == "Final Fantasy") {
-    url = "https://finalfantasy.fandom.com/wiki/" + (e.urlform || e.word);
-  } else {
-    url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
-  }
-  return url;
+    var url;
+    if (e.link) {
+        url = e.link;
+    } else if (!e.lang) {
+        url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
+    } else if (e.lang == "Loglan") {
+        url = "https://zalduvrai.github.io/?q=" + (e.urlform || e.word.split(" ").slice(-1)[0]);
+    } else if (e.lang.includes("Lojban")) {
+        url = "https://sisku.org?en#" + (
+            e.urlform || (e.word.includes("←") ? e.word.split(" ").slice(-1)[0] : e.word)
+        );
+    } else if (e.lang == "Klingon") {
+        url = "https://klingon.wiki/Word/" + (e.urlform || e.word);
+    } else if (e.lang == "Ceqli") {
+        url = "http://ceqli.pbworks.com/w/page/5455969/Ceqli-English%20Glossary";
+    } else if (e.lang == "Volapük") {
+        url = "http://volapük.com/VoEnDictionary-20100830.pdf";
+    } else if (e.lang == "Toki Pona") {
+        url = "https://linku.la/?q=" + e.word;
+    } else if (e.lang == "Japanese") {
+        url = "https://jisho.org/word/" + e.word;
+    } else if (e.lang == "Toaq") {
+        url = "https://toadua.uakci.space/#=" + e.word;
+    } else if (e.lang == "Proto-Indo-European") {
+        url = "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/" + e.word.slice(1);
+    } else if (e.lang == "Vötgil") {
+        url = "http://www.ostracodfiles.com/votgil/guide.html";
+    } else if (e.lang == "American Sign Language") {
+        url = "https://www.signasl.org/sign/" + e.word.toLowerCase();
+    } else if (e.lang == "Cherokee" && +e.urlform) {
+        url = "https://www.cherokeedictionary.net/share/" + e.urlform;
+    } else if (e.lang == "Final Fantasy") {
+        url = "https://finalfantasy.fandom.com/wiki/" + (e.urlform || e.word);
+    } else {
+        url = "https://en.wiktionary.org/wiki/" + (e.urlform || e.word);
+    }
+    return url;
 }
