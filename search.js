@@ -3,7 +3,7 @@ let dict = json.data;
 let SERIAL_PREFIXES = ["qu", "po"];
 let COMPOUND_PREFIXES = ["ga", "ge"];
 let PREFIXES = [...SERIAL_PREFIXES, ...COMPOUND_PREFIXES];
-let SUFFIXES = ["ko", "xo", "sa", "se", "si", "zu"];
+let SUFFIXES = ["ko", "xo", "sa", "se", "si", "zu", "zi"];
 let AFFIXES = [...PREFIXES, ...SUFFIXES];
 document.getElementById("pickle").addEventListener("change", function() {
   document.documentElement.classList.toggle("pickle");
@@ -119,16 +119,17 @@ function htmlify(entry) {
       ])
     ]).flat()
   ]) : null;
-  let d = entry.derivs;
-  let derivs = d ? mkelem("p", {}, [
-    mkelem("span", { "className": "h" }, ["Derivations: "]),
-    ...[d.qu ?? "", d.po ?? "", d.ga ?? "", d.ge ?? "", d.ko ?? "", d.xo ?? "", d.sa ?? "", d.se ?? "", d.si ?? "", d.zu ?? ""].map((e, i) => e ? [
-      mkelem("br", {}, []),
-      mkelem("b", {}, [derive(entry.word, AFFIXES[i])]),
-      " " + e
-    ] : null).flat()
-  ]) : null;
-  return mkelem("div", { "className": "entry " + pos(entry) }, [
+    let d = entry.derivs;
+    let derivEntries = d ? Object.entries(d).filter(([_, v]) => v) : [];
+    let derivs = derivEntries.length ? mkelem("p", {}, [
+        mkelem("span", { "className": "h" }, ["Derivations: "]),
+        ...derivEntries.map(([k, v]) => [
+            mkelem("br", {}, []),
+            mkelem("b", {}, [derive(entry.word, k)]),
+            " " + v
+        ]).flat()
+    ]) : null;
+    return mkelem("div", { "className": "entry " + pos(entry) }, [
     mkelem("p", {}, [
       mkelem("b", {}, [entry.word]),
       " ",

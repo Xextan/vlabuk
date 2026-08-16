@@ -5891,7 +5891,9 @@
     {
       "word": "lik",
       "def": "liquid",
-      "derivs": {},
+      "derivs": {
+        "zi": "drop of liquid"
+      },
       "type": "Entity",
       "alignment": "O is a liquid",
       "semantics": [

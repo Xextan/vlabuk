@@ -16,19 +16,20 @@ struct Dictionary {
     pub data: Vec<Word>,
 }
 #[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
 struct Word {
     #[allow(clippy::struct_field_names, reason = "it's the word")]
     word: String,
     def: String,
-    #[serde(skip_serializing_if = "Option::is_none")]
+    #[serde(skip_serializing_if = "is_empty_or_none")]
     derivs: Option<Derivs>,
-    #[serde(skip_serializing_if = "Option::is_none")]
+    #[serde(skip_serializing_if = "is_empty_or_none")]
     gloss: Option<String>,
-    #[serde(skip_serializing_if = "Option::is_none", rename = "type")]
+    #[serde(skip_serializing_if = "is_empty_or_none", rename = "type")]
     typ: Option<String>,
-    #[serde(skip_serializing_if = "Option::is_none")]
+    #[serde(skip_serializing_if = "is_empty_or_none")]
     alignment: Option<String>,
-    #[serde(skip_serializing_if = "Option::is_none")]
+    #[serde(skip_serializing_if = "is_empty_or_none")]
     semantics: Option<Vec<String>>,
     #[serde(skip_serializing_if = "Option::is_none")]
     etymology: Option<Etymology>,
@@ -44,7 +45,8 @@ enum Notes {
         evil_dangerous_html: String,
     },
 }
-#[derive(Debug, Clone, Serialize, Deserialize)]
+#[derive(Debug, Clone, Serialize, Deserialize, Default, PartialEq)]
+#[serde(deny_unknown_fields)]
 struct Derivs {
     #[serde(skip_serializing_if = "Option::is_none")]
     xo: Option<String>,
@@ -66,6 +68,8 @@ struct Derivs {
     si: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
     zu: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    zi: Option<String>,
 }
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(untagged)]
@@ -74,6 +78,10 @@ enum Etymology {
     Single(EtymologyEntry),
     Multiple(Vec<EtymologyItem>),
 }
+#[expect(clippy::ref_option, reason = "needed for serde")]
+fn is_empty_or_none<T: Default + PartialEq>(t: &Option<T>) -> bool {
+    t.as_ref().is_none_or(|v| *v == T::default())
+}
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(untagged)]
 enum EtymologyItem {
@@ -81,12 +89,13 @@ enum EtymologyItem {
     Text(String),
 }
 #[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
 struct EtymologyEntry {
     lang: String,
     word: String,
-    #[serde(skip_serializing_if = "Option::is_none")]
+    #[serde(skip_serializing_if = "is_empty_or_none")]
     translit: Option<String>,
-    #[serde(skip_serializing_if = "Option::is_none")]
+    #[serde(skip_serializing_if = "is_empty_or_none")]
     urlform: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
     link: Option<Link>,

@@ -195,6 +195,9 @@
               },
               "zu": {
                 "type": "string"
+              },
+              "zi": {
+                "type": "string"
               }
             },
             "additionalProperties": false,
